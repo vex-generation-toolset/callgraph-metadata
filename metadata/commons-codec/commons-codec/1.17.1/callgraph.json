@@ -952,8 +952,8 @@
     ],
     "org.apache.commons.codec.binary.BaseNCodec#isInAlphabet(byte[],boolean)": [
         "org.apache.commons.codec.binary.Base64#isInAlphabet(byte)",
-        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)",
-        "org.apache.commons.codec.binary.Base16#isInAlphabet(byte)"
+        "org.apache.commons.codec.binary.Base16#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)"
     ],
     "org.apache.commons.codec.net.PercentCodec#encode(Object)": [
         "org.apache.commons.codec.EncoderException#EncoderException(String)",
@@ -1363,7 +1363,7 @@
         "org.apache.commons.codec.net.QCodec#decode(String)",
         "org.apache.commons.codec.DecoderException#DecoderException(String)"
     ],
-    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,RandomAccessFile)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,FileChannel)"],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,RandomAccessFile)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,File)"],
     "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)": [
         "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
         "org.apache.commons.codec.digest.HmacUtils#hmac(String)"
@@ -2365,7 +2365,7 @@
         "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
         "org.apache.commons.codec.digest.DigestUtils#digest(ByteBuffer)"
     ],
-    "org.apache.commons.codec.net.QCodec#QCodec(String)": ["org.apache.commons.codec.net.QCodec#QCodec(Charset)"],
+    "org.apache.commons.codec.net.QCodec#QCodec(String)": ["org.apache.commons.codec.net.QCodec#QCodec(String)"],
     "org.apache.commons.codec.binary.Base64.builder()": ["org.apache.commons.codec.binary.Base64.Builder#Builder()"],
     "org.apache.commons.codec.digest.DigestUtils.sha3_224Hex(byte[])": [
         "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
@@ -2497,8 +2497,8 @@
     ],
     "org.apache.commons.codec.binary.BaseNCodec#containsAlphabetOrPad(byte[])": [
         "org.apache.commons.codec.binary.Base64#isInAlphabet(byte)",
-        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)",
-        "org.apache.commons.codec.binary.Base16#isInAlphabet(byte)"
+        "org.apache.commons.codec.binary.Base16#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)"
     ],
     "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(int,ByteArrayOutputStream)": [
         "org.apache.commons.codec.net.Utils.hexDigit(int)",
