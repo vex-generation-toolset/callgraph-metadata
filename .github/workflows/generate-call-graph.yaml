@@ -11,20 +11,12 @@ on:
         required: true
         type: string
         description: Tag or branch to analyze (e.g., rel/2.25.2)
-      group-id:
+      artifact:
         required: true
         type: string
-        description: Group ID of the project to analyze (e.g., org.apache.logging.log4j)
-      artifact-id:
-        required: true
-        type: string
-        description: Artifact ID of the project to analyze (e.g., log4j-core)
-      version:
-        required: true
-        type: string
-        description: Version of the project to analyze (e.g., 2.25.2)
+        description: GAV coordinate of the project to analyze in the format group-id:artifact-id:version (e.g., org.apache.logging.log4j:log4j-core:2.25.2)
 
-run-name: Generate Call Graph for ${{ inputs.group-id }}:${{ inputs.artifact-id }}:${{ inputs.version }}
+run-name: Generate Call Graph for ${{ inputs.artifact }}
 
 # Empty permissions at the workflow level; specific jobs will set their own permissions
 permissions: { }
@@ -59,13 +51,12 @@ jobs:
       - name: Run Call Graph Generation
         shell: bash
         env:
-          GROUP_ID: ${{ inputs.group-id }}
-          ARTIFACT_ID: ${{ inputs.artifact-id }}
-          VERSION: ${{ inputs.version }}
+          ARTIFACT: ${{ inputs.artifact }}
         run: |
           # Directory for call graph output
           mkdir -p result
-          mkdir -p metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}
+          dest_dir="metadata/metadata/${ARTIFACT//:/\/}"
+          mkdir -p "$dest_dir"
           
           # Pull and run the call graph generator
           IMAGE="ghcr.io/vex-generation-toolset/java-callgraph:latest"
@@ -76,18 +67,16 @@ jobs:
             $IMAGE
           
           # Move generated call graph to metadata repository
-          mv result/*.json "metadata/metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}/callgraph.json"
+          mv result/*.json "$dest_dir/callgraph.json"
 
       - name: Commit and Push Call Graph
         shell: bash
         env:
-          GROUP_ID: ${{ inputs.group-id }}
-          ARTIFACT_ID: ${{ inputs.artifact-id }}
-          VERSION: ${{ inputs.version }}
+          ARTIFACT: ${{ inputs.artifact }}
         run: |
           cd metadata
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Add call graph for ${GROUP_ID}:${ARTIFACT_ID}:${VERSION}" || echo "No changes to commit"
+          git commit -m "Add call graph for ${ARTIFACT}" || echo "No changes to commit"
           git push origin HEAD:main
