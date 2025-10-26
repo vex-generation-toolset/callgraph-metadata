@@ -2131,8 +2131,8 @@
     ],
     "org.apache.commons.configuration2.AbstractConfiguration#getLong(String,long)": [
         "org.apache.commons.configuration2.AbstractConfiguration#getLong(String,Long)",
-        "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getLong(String,Long)",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#getLong(String,Long)"
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#getLong(String,Long)",
+        "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getLong(String,Long)"
     ],
     "org.apache.commons.configuration2.beanutils.BeanHelper#BeanHelper()": ["org.apache.commons.configuration2.beanutils.BeanHelper#BeanHelper(BeanFactory)"],
     "org.apache.commons.configuration2.ConfigurationConverter.getMap(Configuration)": ["org.apache.commons.configuration2.ConfigurationMap#ConfigurationMap(Configuration)"],
@@ -2764,8 +2764,8 @@
         "org.apache.commons.configuration2.event.ConfigurationEvent#isBeforeUpdate()"
     ],
     "org.apache.commons.configuration2.BaseHierarchicalConfiguration#configurationsAt(String,boolean)": [
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)",
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#endRead()",
         "org.apache.commons.configuration2.BaseHierarchicalConfiguration#getSubConfigurationParentModel()",
         "org.apache.commons.configuration2.tree.InMemoryNodeModel#selectAndTrackNodes(String,NodeKeyResolver<ImmutableNode>)",
@@ -2808,17 +2808,19 @@
     ],
     "org.apache.commons.configuration2.HierarchicalConfigurationXMLReader#processKeys()": [
         "org.apache.commons.configuration2.tree.InMemoryNodeModel#getNodeHandler()",
-        "org.apache.commons.configuration2.tree.TrackedNodeHandler#getRootNode()",
         "org.apache.commons.configuration2.INIConfiguration.GlobalSectionNodeModel#getNodeHandler()",
         "org.apache.commons.configuration2.tree.TrackedNodeModel#getNodeHandler()",
-        "org.apache.commons.configuration2.tree.NodeHandlerDecorator#getRootNode()",
         "org.apache.commons.configuration2.HierarchicalConfigurationXMLReader.SAXVisitor.<init>()",
-        "org.apache.commons.configuration2.tree.NodeTreeWalker#walkDFS(T,ConfigurationNodeVisitor<T>,NodeHandler<T>)",
-        "org.apache.commons.configuration2.AbstractHierarchicalConfiguration#getNodeModel()",
         "org.apache.commons.configuration2.tree.NodeCombiner.createNodeHandler()$AbstractImmutableNodeHandler$1#getRootNode()",
         "org.apache.commons.configuration2.tree.NodeTreeWalker.<staticinit>()",
         "org.apache.commons.configuration2.HierarchicalConfigurationXMLReader#getConfiguration()",
-        "org.apache.commons.configuration2.tree.TreeData#getRootNode()"
+        "org.apache.commons.configuration2.tree.TreeData#getRootNode()",
+        "org.apache.commons.configuration2.SubnodeConfiguration#getNodeModel()",
+        "org.apache.commons.configuration2.tree.TrackedNodeHandler#getRootNode()",
+        "org.apache.commons.configuration2.tree.NodeHandlerDecorator#getRootNode()",
+        "org.apache.commons.configuration2.BaseHierarchicalConfiguration#getNodeModel()",
+        "org.apache.commons.configuration2.tree.NodeTreeWalker#walkDFS(T,ConfigurationNodeVisitor<T>,NodeHandler<T>)",
+        "org.apache.commons.configuration2.AbstractHierarchicalConfiguration#getNodeModel()"
     ],
     "org.apache.commons.configuration2.CompositeConfiguration#getStringArray(String)": [
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getList(String)",
@@ -2942,8 +2944,8 @@
     "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,short)": [
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,short)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#makePath(String)",
-        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,short)",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,short)"
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,short)",
+        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,short)"
     ],
     "org.apache.commons.configuration2.beanutils.BeanHelper.getDefaultClass(Object,String)": ["org.apache.commons.configuration2.beanutils.BeanHelper.<staticinit>()"],
     "org.apache.commons.configuration2.DataConfiguration#getIntegerList(String,List<Integer>)": ["org.apache.commons.configuration2.AbstractConfiguration#getList(Class<T>,String,List<T>)"],
@@ -3572,7 +3574,7 @@
         "org.apache.commons.configuration2.io.FileHandler#setBasePath(String)",
         "org.apache.commons.configuration2.builder.FileBasedBuilderParametersImpl#getFileHandler()"
     ],
-    "org.apache.commons.configuration2.convert.PropertyConverter.toCharacter(Object)": ["org.apache.commons.configuration2.ex.ConversionException#ConversionException(String)"],
+    "org.apache.commons.configuration2.convert.PropertyConverter.toCharacter(Object)": ["org.apache.commons.configuration2.ex.ConversionException#ConversionException(Throwable)"],
     "org.apache.commons.configuration2.DynamicCombinedConfiguration#clearTreeInternal(String)": [
         "org.apache.commons.configuration2.AbstractHierarchicalConfiguration#clearTree(String)",
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getCurrentConfig()"
@@ -3580,8 +3582,8 @@
     "org.apache.commons.configuration2.interpol.ConfigurationInterpolator#fetchLookupForPrefix(String)": ["org.apache.commons.configuration2.interpol.ConfigurationInterpolator.nullSafeLookup(Lookup)"],
     "org.apache.commons.configuration2.BaseHierarchicalConfiguration#immutableConfigurationsAt(String)": [
         "org.apache.commons.configuration2.BaseHierarchicalConfiguration.toImmutable(List<? extends HierarchicalConfiguration<?>>)",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)",
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.BaseHierarchicalConfiguration#configurationsAt(String)"
     ],
     "org.apache.commons.configuration2.builder.combined.ReloadingCombinedConfigurationBuilder#ReloadingCombinedConfigurationBuilder(Map<String, Object>)": [
@@ -3921,8 +3923,8 @@
     "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,short)": [
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getCurrentConfig()",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,short)",
-        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,short)",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,short)"
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,short)",
+        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,short)"
     ],
     "org.apache.commons.configuration2.DataConfiguration#getKeysInternal()": ["org.apache.commons.configuration2.AbstractConfiguration#getKeys()"],
     "org.apache.commons.configuration2.AbstractConfiguration#getKeys(String,String)": [
@@ -4066,6 +4068,7 @@
         "org.apache.commons.configuration2.tree.InMemoryNodeModel#getNodeHandler()",
         "org.apache.commons.configuration2.SubnodeConfiguration#getNodeModel()",
         "org.apache.commons.configuration2.tree.TrackedNodeHandler#getRootNode()",
+        "org.apache.commons.configuration2.tree.NodeHandlerDecorator#getRootNode()",
         "org.apache.commons.configuration2.BaseHierarchicalConfiguration#getNodeModel()",
         "org.apache.commons.configuration2.tree.NodeCombiner.createNodeHandler()$AbstractImmutableNodeHandler$1#getRootNode()",
         "org.apache.commons.configuration2.tree.TreeData#getRootNode()",
@@ -4593,12 +4596,10 @@
     "org.apache.commons.configuration2.XMLDocumentHelper.createTransformer(TransformerFactory)": ["org.apache.commons.configuration2.ex.ConfigurationException#ConfigurationException(Throwable)"],
     "org.apache.commons.configuration2.BaseHierarchicalConfiguration.obtainRootNode(HierarchicalConfiguration<ImmutableNode>)": [
         "org.apache.commons.configuration2.tree.InMemoryNodeModel#getNodeHandler()",
-        "org.apache.commons.configuration2.SubnodeConfiguration#getNodeModel()",
         "org.apache.commons.configuration2.tree.TrackedNodeHandler#getRootNode()",
         "org.apache.commons.configuration2.INIConfiguration.GlobalSectionNodeModel#getNodeHandler()",
         "org.apache.commons.configuration2.tree.TrackedNodeModel#getNodeHandler()",
         "org.apache.commons.configuration2.tree.NodeHandlerDecorator#getRootNode()",
-        "org.apache.commons.configuration2.BaseHierarchicalConfiguration#getNodeModel()",
         "org.apache.commons.configuration2.AbstractHierarchicalConfiguration#getNodeModel()",
         "org.apache.commons.configuration2.tree.NodeCombiner.createNodeHandler()$AbstractImmutableNodeHandler$1#getRootNode()",
         "org.apache.commons.configuration2.tree.TreeData#getRootNode()"
@@ -5039,8 +5040,8 @@
     "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,Short)": [
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,Short)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#makePath(String)",
-        "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,Short)",
-        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,Short)"
+        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,Short)",
+        "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,Short)"
     ],
     "org.apache.commons.configuration2.builder.combined.MultiFileConfigurationBuilderProvider#createWrapperConfiguration(ConfigurationBuilder)": [
         "org.apache.commons.configuration2.builder.BuilderConfigurationWrapperFactory.EventSourceSupport.<staticinit>()",
@@ -5683,8 +5684,8 @@
     "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,Short)": [
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getShort(String,Short)",
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getCurrentConfig()",
-        "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,Short)",
-        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,Short)"
+        "org.apache.commons.configuration2.AbstractConfiguration#getShort(String,Short)",
+        "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getShort(String,Short)"
     ],
     "org.apache.commons.configuration2.JNDIConfiguration#isEmptyInternal()": [
         "org.apache.commons.configuration2.event.ConfigurationErrorEvent.<staticinit>()",
@@ -6061,6 +6062,7 @@
         "org.apache.commons.configuration2.io.FileLocator#getBasePath()",
         "org.apache.commons.configuration2.PropertiesConfiguration#getIncludeListener()",
         "org.apache.commons.configuration2.io.FileHandler#FileHandler(FileBased)",
+        "org.apache.commons.configuration2.ex.ConfigurationException#ConfigurationException(Throwable)",
         "org.apache.commons.configuration2.io.FileLocator#getSourceURL()",
         "org.apache.commons.configuration2.PropertiesConfiguration#locateIncludeFile(String,String)"
     ],
@@ -6614,7 +6616,7 @@
     ],
     "org.apache.commons.configuration2.SystemConfiguration#SystemConfiguration()": [
         "org.apache.commons.configuration2.SystemConfiguration.<init>()",
-        "org.apache.commons.configuration2.MapConfiguration#MapConfiguration(Map<String, ?>)"
+        "org.apache.commons.configuration2.MapConfiguration#MapConfiguration(Properties)"
     ],
     "org.apache.commons.configuration2.SubnodeConfiguration#SubnodeConfiguration(BaseHierarchicalConfiguration,TrackedNodeModel)": [
         "org.apache.commons.configuration2.SubnodeConfiguration.<init>()",
@@ -8310,8 +8312,8 @@
     ],
     "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)": [
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#makePath(String)",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)",
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.BaseHierarchicalConfiguration#configurationsAt(String)"
     ],
     "org.apache.commons.configuration2.builder.combined.CombinedConfigurationBuilder#initChildXMLParameters(XMLBuilderProperties<?>)": ["org.apache.commons.configuration2.builder.XMLBuilderParametersImpl#getEntityResolver()"],
@@ -8548,8 +8550,8 @@
     "org.apache.commons.configuration2.beanutils.XMLBeanDeclaration#createBeanDeclaration(NodeData<?>)": [
         "org.apache.commons.configuration2.beanutils.XMLBeanDeclaration#getConfiguration()",
         "org.apache.commons.configuration2.beanutils.XMLBeanDeclaration.NodeData#matchesConfigRootNode(HierarchicalConfiguration<?>)",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)",
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.ex.ConfigurationRuntimeException#ConfigurationRuntimeException(String)",
         "org.apache.commons.configuration2.beanutils.XMLBeanDeclaration#XMLBeanDeclaration(HierarchicalConfiguration<?>,NodeData<?>)",
         "org.apache.commons.configuration2.beanutils.XMLBeanDeclaration.NodeData#escapedNodeName(HierarchicalConfiguration<?>)",
@@ -9480,8 +9482,8 @@
     "org.apache.commons.configuration2.builder.combined.CombinedConfigurationBuilder#registerConfiguredProviders(HierarchicalConfiguration<?>)": [
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#getString(String)",
         "org.apache.commons.configuration2.builder.BasicConfigurationBuilder#fetchBeanHelper()",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)",
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getString(String)",
         "org.apache.commons.configuration2.builder.combined.CombinedBuilderParametersImpl#registerProvider(String,ConfigurationBuilderProvider)",
         "org.apache.commons.configuration2.AbstractConfiguration#getString(String)",
@@ -9501,8 +9503,8 @@
     "org.apache.commons.configuration2.event.Event#appendPropertyRepresentation(StringBuilder,String,Object)": ["org.apache.commons.configuration2.event.Event.<staticinit>()"],
     "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)": [
         "org.apache.commons.configuration2.DynamicCombinedConfiguration#getCurrentConfig()",
-        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.PatternSubtreeConfigurationWrapper#configurationsAt(String)",
+        "org.apache.commons.configuration2.DynamicCombinedConfiguration#configurationsAt(String)",
         "org.apache.commons.configuration2.BaseHierarchicalConfiguration#configurationsAt(String)"
     ],
     "org.apache.commons.configuration2.XMLConfiguration.XMLBuilderVisitor#handleRemovedNodes(ReferenceNodeHandler)": [
