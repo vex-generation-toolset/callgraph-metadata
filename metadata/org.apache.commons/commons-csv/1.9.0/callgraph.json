@@ -1,0 +1,582 @@
+{
+    "org.apache.commons.csv.Lexer#isStartOfLine(int)": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat#print(File,Charset)": ["org.apache.commons.csv.CSVPrinter#CSVPrinter(Appendable,CSVFormat)"],
+    "org.apache.commons.csv.Token.<init>()": [
+        "org.apache.commons.csv.Token.Type.<staticinit>()",
+        "org.apache.commons.csv.Token.<staticinit>()"
+    ],
+    "org.apache.commons.csv.IOUtils.copy(Reader,Appendable)": [
+        "org.apache.commons.csv.IOUtils.<staticinit>()",
+        "org.apache.commons.csv.IOUtils.copy(Reader,Appendable,CharBuffer)"
+    ],
+    "org.apache.commons.csv.IOUtils.copy(Reader,Appendable,CharBuffer)": ["org.apache.commons.csv.IOUtils.<staticinit>()"],
+    "org.apache.commons.csv.CSVParser#stream()": ["org.apache.commons.csv.CSVParser#iterator()"],
+    "org.apache.commons.csv.CSVPrinter#printRecord(Object[]...)": ["org.apache.commons.csv.CSVPrinter#printRecord(Iterable<?>)"],
+    "org.apache.commons.csv.CSVPrinter#close()": ["org.apache.commons.csv.CSVPrinter#close(boolean)"],
+    "org.apache.commons.csv.CSVFormat#withIgnoreHeaderCase(boolean)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreHeaderCase(boolean)"
+    ],
+    "org.apache.commons.csv.CSVFormat#withHeader(ResultSetMetaData)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setHeader(ResultSetMetaData)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withFirstRecordAsHeader()": ["org.apache.commons.csv.CSVFormat#builder()"],
+    "org.apache.commons.csv.CSVFormat.containsLineBreak(String)": [
+        "org.apache.commons.csv.CSVFormat.contains(String,char)",
+        "org.apache.commons.csv.Constants.<staticinit>()"
+    ],
+    "org.apache.commons.csv.CSVParser#getHeaderMap()": ["org.apache.commons.csv.CSVParser#createEmptyHeaderMap()"],
+    "org.apache.commons.csv.CSVFormat#withTrim()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()",
+        "org.apache.commons.csv.CSVFormat.Builder#setTrim(boolean)"
+    ],
+    "org.apache.commons.csv.CSVParser#close()": ["org.apache.commons.csv.Lexer#close()"],
+    "org.apache.commons.csv.CSVFormat#withEscape(Character)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setEscape(Character)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVParser.parse(InputStream,Charset,CSVFormat)": ["org.apache.commons.csv.CSVParser.parse(Reader,CSVFormat)"],
+    "org.apache.commons.csv.Lexer#nextToken(Token)": [
+        "org.apache.commons.csv.Lexer#isDelimiter(int)",
+        "org.apache.commons.csv.Lexer#isStartOfLine(int)",
+        "org.apache.commons.csv.Lexer#readEndOfLine(int)",
+        "org.apache.commons.csv.Lexer#parseEncapsulatedToken(Token)",
+        "org.apache.commons.csv.Lexer#parseSimpleToken(Token,int)",
+        "org.apache.commons.csv.Lexer#isCommentStart(int)",
+        "org.apache.commons.csv.Lexer#isQuoteChar(int)",
+        "org.apache.commons.csv.Token.Type.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.ExtendedBufferedReader#getLastChar()",
+        "org.apache.commons.csv.Lexer#isEndOfFile(int)",
+        "org.apache.commons.csv.ExtendedBufferedReader#readLine()"
+    ],
+    "org.apache.commons.csv.Lexer#parseEncapsulatedToken(Token)": [
+        "org.apache.commons.csv.Lexer#isDelimiter(int)",
+        "org.apache.commons.csv.Lexer#readEndOfLine(int)",
+        "org.apache.commons.csv.Lexer#isEscapeDelimiter()",
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.ExtendedBufferedReader#getLastChar()",
+        "org.apache.commons.csv.ExtendedBufferedReader#lookAhead()",
+        "org.apache.commons.csv.Lexer#isQuoteChar(int)",
+        "org.apache.commons.csv.Lexer#isEscape(int)",
+        "org.apache.commons.csv.Token.Type.<staticinit>()",
+        "org.apache.commons.csv.Lexer#readEscape()",
+        "org.apache.commons.csv.Lexer#getCurrentLineNumber()",
+        "org.apache.commons.csv.Lexer#isEndOfFile(int)"
+    ],
+    "org.apache.commons.csv.CSVFormat#withTrailingDelimiter()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setTrailingDelimiter(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVRecord#get(Enum<?>)": ["org.apache.commons.csv.CSVRecord#get(int)"],
+    "org.apache.commons.csv.CSVPrinter#flush()": ["org.apache.commons.csv.CSVPrinter#flush()"],
+    "org.apache.commons.csv.CSVFormat#withIgnoreHeaderCase()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreHeaderCase(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVRecord#putIn(M extends Map)": ["org.apache.commons.csv.CSVRecord#getHeaderMapRaw()"],
+    "org.apache.commons.csv.CSVPrinter#printRecords(ResultSet)": [
+        "org.apache.commons.csv.CSVPrinter#println()",
+        "org.apache.commons.csv.CSVPrinter#print(Object)"
+    ],
+    "org.apache.commons.csv.CSVParser.CSVRecordIterator#next()": [
+        "org.apache.commons.csv.CSVParser#isClosed()",
+        "org.apache.commons.csv.CSVParser.CSVRecordIterator#getNextRecord()"
+    ],
+    "org.apache.commons.csv.ExtendedBufferedReader#lookAhead(int)": ["org.apache.commons.csv.ExtendedBufferedReader#lookAhead(char[])"],
+    "org.apache.commons.csv.CSVFormat#withHeaderComments(Object[]...)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setHeaderComments(Object[]...)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#format(Object[]...)": [
+        "org.apache.commons.csv.CSVPrinter#CSVPrinter(Appendable,CSVFormat)",
+        "org.apache.commons.csv.CSVPrinter#printRecord(Object[]...)"
+    ],
+    "org.apache.commons.csv.ExtendedBufferedReader#getCurrentLineNumber()": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat#withTrailingDelimiter(boolean)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setTrailingDelimiter(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withSystemRecordSeparator()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setRecordSeparator(char)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVPrinter#CSVPrinter(Appendable,CSVFormat)": [
+        "org.apache.commons.csv.CSVFormat#copy()",
+        "org.apache.commons.csv.CSVPrinter#printComment(String)",
+        "org.apache.commons.csv.CSVFormat#getHeader()",
+        "org.apache.commons.csv.CSVPrinter#printRecord(Object[]...)",
+        "org.apache.commons.csv.CSVFormat#getSkipHeaderRecord()",
+        "org.apache.commons.csv.CSVFormat#getHeaderComments()",
+        "org.apache.commons.csv.CSVPrinter.<init>()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withAllowDuplicateHeaderNames()": [
+        "org.apache.commons.csv.CSVFormat.Builder#setAllowDuplicateHeaderNames(boolean)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.Lexer#close()": ["org.apache.commons.csv.ExtendedBufferedReader#close()"],
+    "org.apache.commons.csv.CSVParser.parse(Reader,CSVFormat)": ["org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat)"],
+    "org.apache.commons.csv.CSVRecord#isMapped(String)": ["org.apache.commons.csv.CSVRecord#getHeaderMapRaw()"],
+    "org.apache.commons.csv.IOUtils.copyLarge(Reader,Writer)": [
+        "org.apache.commons.csv.IOUtils.<staticinit>()",
+        "org.apache.commons.csv.IOUtils.copyLarge(Reader,Writer,char[])"
+    ],
+    "org.apache.commons.csv.CSVParser.parse(String,CSVFormat)": ["org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#print(Object,Appendable,boolean)": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat#print(Object,CharSequence,Appendable,boolean)",
+        "org.apache.commons.csv.CSVFormat#getTrim()",
+        "org.apache.commons.csv.CSVFormat#print(Reader,Appendable,boolean)",
+        "org.apache.commons.csv.CSVFormat.trim(CharSequence)",
+        "org.apache.commons.csv.QuoteMode.<staticinit>()"
+    ],
+    "org.apache.commons.csv.Lexer#readEscape()": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.Lexer#isMetaChar(int)"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setEscape(char)": ["org.apache.commons.csv.CSVFormat.Builder#setEscape(char)"],
+    "org.apache.commons.csv.CSVPrinter#close(boolean)": [
+        "org.apache.commons.csv.CSVPrinter#close()",
+        "org.apache.commons.csv.CSVParser#close()",
+        "org.apache.commons.csv.Lexer#close()",
+        "org.apache.commons.csv.CSVFormat#getAutoFlush()",
+        "org.apache.commons.csv.CSVPrinter#flush()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#build()": ["org.apache.commons.csv.CSVFormat#CSVFormat(Builder)"],
+    "org.apache.commons.csv.CSVFormat#toString()": [
+        "org.apache.commons.csv.CSVFormat#isNullStringSet()",
+        "org.apache.commons.csv.CSVFormat#isQuoteCharacterSet()",
+        "org.apache.commons.csv.CSVFormat#getIgnoreEmptyLines()",
+        "org.apache.commons.csv.CSVFormat#getIgnoreHeaderCase()",
+        "org.apache.commons.csv.CSVFormat#getIgnoreSurroundingSpaces()",
+        "org.apache.commons.csv.CSVFormat#isCommentMarkerSet()",
+        "org.apache.commons.csv.CSVFormat#isEscapeCharacterSet()"
+    ],
+    "org.apache.commons.csv.CSVParser.CSVRecordIterator#hasNext()": [
+        "org.apache.commons.csv.CSVParser#isClosed()",
+        "org.apache.commons.csv.CSVParser.CSVRecordIterator#getNextRecord()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder.create()": [
+        "org.apache.commons.csv.CSVFormat.Builder#Builder(CSVFormat)",
+        "org.apache.commons.csv.CSVFormat.<staticinit>()"
+    ],
+    "org.apache.commons.csv.CSVFormat#printWithQuotes(Reader,Appendable)": [
+        "org.apache.commons.csv.IOUtils.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat#printWithEscapes(Reader,Appendable)",
+        "org.apache.commons.csv.CSVFormat#append(char,Appendable)",
+        "org.apache.commons.csv.CSVFormat#getQuoteMode()",
+        "org.apache.commons.csv.CSVFormat#getQuoteCharacter()",
+        "org.apache.commons.csv.QuoteMode.<staticinit>()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withQuote(char)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setQuote(char)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Predefined.<staticinit>()": ["org.apache.commons.csv.CSVFormat.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat.Builder#setEscape(Character)": ["org.apache.commons.csv.CSVFormat.isLineBreak(Character)"],
+    "org.apache.commons.csv.Lexer#getCharacterPosition()": ["org.apache.commons.csv.ExtendedBufferedReader#getPosition()"],
+    "org.apache.commons.csv.CSVPrinter#print(Object)": ["org.apache.commons.csv.CSVFormat#print(Object,Appendable,boolean)"],
+    "org.apache.commons.csv.CSVFormat#withIgnoreSurroundingSpaces(boolean)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreSurroundingSpaces(boolean)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#print(Object,CharSequence,Appendable,boolean)": [
+        "org.apache.commons.csv.CSVFormat#printWithEscapes(CharSequence,Appendable)",
+        "org.apache.commons.csv.CSVFormat#isQuoteCharacterSet()",
+        "org.apache.commons.csv.CSVFormat#printWithQuotes(Object,CharSequence,Appendable,boolean)",
+        "org.apache.commons.csv.CSVFormat#isEscapeCharacterSet()",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ],
+    "org.apache.commons.csv.CSVParser#nextRecord()": [
+        "org.apache.commons.csv.CSVRecord#CSVRecord(CSVParser,String[],String,long,long)",
+        "org.apache.commons.csv.Lexer#nextToken(Token)",
+        "org.apache.commons.csv.Token#reset()",
+        "org.apache.commons.csv.Lexer#getCharacterPosition()",
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.Token.Type.<staticinit>()",
+        "org.apache.commons.csv.CSVParser#getCurrentLineNumber()",
+        "org.apache.commons.csv.CSVParser#addRecordValue(boolean)"
+    ],
+    "org.apache.commons.csv.CSVFormat#copy()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVParser#isClosed()": ["org.apache.commons.csv.Lexer#isClosed()"],
+    "org.apache.commons.csv.CSVFormat#print(Appendable)": ["org.apache.commons.csv.CSVPrinter#CSVPrinter(Appendable,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#withHeader(ResultSet)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setHeader(ResultSet)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.Lexer#parseSimpleToken(Token,int)": [
+        "org.apache.commons.csv.Lexer#isDelimiter(int)",
+        "org.apache.commons.csv.Lexer#readEndOfLine(int)",
+        "org.apache.commons.csv.Lexer#isEscapeDelimiter()",
+        "org.apache.commons.csv.Lexer#readEscape()",
+        "org.apache.commons.csv.Lexer#isEscape(int)",
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.Token.Type.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.ExtendedBufferedReader#getLastChar()",
+        "org.apache.commons.csv.Lexer#trimTrailingSpaces(StringBuilder)",
+        "org.apache.commons.csv.Lexer#isEndOfFile(int)"
+    ],
+    "org.apache.commons.csv.CSVParser#getRecords()": ["org.apache.commons.csv.CSVParser#nextRecord()"],
+    "org.apache.commons.csv.CSVFormat#printRecord(Appendable,Object[]...)": [
+        "org.apache.commons.csv.CSVFormat#print(Object,Appendable,boolean)",
+        "org.apache.commons.csv.CSVFormat#println(Appendable)"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setHeader(ResultSet)": ["org.apache.commons.csv.CSVFormat.Builder#setHeader(Class<? extends Enum<?>>)"],
+    "org.apache.commons.csv.CSVFormat.Builder#setHeaderComments(String[]...)": ["org.apache.commons.csv.CSVFormat.clone(T[]...)"],
+    "org.apache.commons.csv.ExtendedBufferedReader#ExtendedBufferedReader(Reader)": ["org.apache.commons.csv.ExtendedBufferedReader.<init>()"],
+    "org.apache.commons.csv.ExtendedBufferedReader.<init>()": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.Lexer.<staticinit>()": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.Lexer#readEndOfLine(int)": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.Lexer.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.ExtendedBufferedReader#lookAhead()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withQuoteMode(QuoteMode)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setQuoteMode(QuoteMode)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat.<staticinit>()": [
+        "org.apache.commons.csv.CSVFormat.Builder#setDelimiter(String)",
+        "org.apache.commons.csv.CSVFormat.Builder#setNullString(String)",
+        "org.apache.commons.csv.CSVFormat.Builder#setAllowMissingColumnNames(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#setEscape(Character)",
+        "org.apache.commons.csv.CSVFormat.Builder#setDelimiter(char)",
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat.Builder#setRecordSeparator(char)",
+        "org.apache.commons.csv.CSVFormat#CSVFormat(String,Character,QuoteMode,Character,Character,boolean,boolean,String,String,Object[],String[],boolean,boolean,boolean,boolean,boolean,boolean,boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#setSkipHeaderRecord(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreEmptyLines(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreSurroundingSpaces(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#setQuoteMode(QuoteMode)",
+        "org.apache.commons.csv.QuoteMode.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat.Builder#setEscape(char)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setQuote(char)",
+        "org.apache.commons.csv.CSVFormat.Builder#setQuote(Character)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()",
+        "org.apache.commons.csv.CSVFormat.Builder#setTrim(boolean)"
+    ],
+    "org.apache.commons.csv.CSVParser#getCurrentLineNumber()": ["org.apache.commons.csv.Lexer#getCurrentLineNumber()"],
+    "org.apache.commons.csv.CSVFormat#withSkipHeaderRecord()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setSkipHeaderRecord(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setHeader(ResultSetMetaData)": ["org.apache.commons.csv.CSVFormat.Builder#setHeader(String[]...)"],
+    "org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat,long,long)": [
+        "org.apache.commons.csv.CSVFormat#copy()",
+        "org.apache.commons.csv.CSVParser#createHeaders()",
+        "org.apache.commons.csv.CSVParser.CSVRecordIterator.<init>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#ExtendedBufferedReader(Reader)",
+        "org.apache.commons.csv.CSVParser.<init>()",
+        "org.apache.commons.csv.Lexer#Lexer(CSVFormat,ExtendedBufferedReader)"
+    ],
+    "org.apache.commons.csv.CSVFormat#parse(Reader)": ["org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#printWithEscapes(CharSequence,Appendable)": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat#isDelimiter(char,CharSequence,int,char[],int)",
+        "org.apache.commons.csv.CSVFormat#getEscapeCharacter()",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ],
+    "org.apache.commons.csv.CSVFormat#validate()": [
+        "org.apache.commons.csv.CSVFormat.contains(String,char)",
+        "org.apache.commons.csv.QuoteMode.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat.containsLineBreak(String)"
+    ],
+    "org.apache.commons.csv.CSVFormat#print(Reader,Appendable,boolean)": [
+        "org.apache.commons.csv.CSVFormat#printWithEscapes(Reader,Appendable)",
+        "org.apache.commons.csv.CSVFormat#isQuoteCharacterSet()",
+        "org.apache.commons.csv.CSVFormat#printWithQuotes(Reader,Appendable)",
+        "org.apache.commons.csv.IOUtils.copy(Reader,Appendable)",
+        "org.apache.commons.csv.IOUtils.copyLarge(Reader,Writer)",
+        "org.apache.commons.csv.CSVFormat#append(CharSequence,Appendable)",
+        "org.apache.commons.csv.CSVFormat#isEscapeCharacterSet()",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setHeader(String[]...)": ["org.apache.commons.csv.CSVFormat.clone(T[]...)"],
+    "org.apache.commons.csv.CSVPrinter#printRecords(Object[]...)": ["org.apache.commons.csv.CSVPrinter#printRecords(Iterable<?>)"],
+    "org.apache.commons.csv.CSVFormat#withIgnoreEmptyLines(boolean)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreEmptyLines(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.Lexer#isDelimiter(int)": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#lookAhead(char[])",
+        "org.apache.commons.csv.ExtendedBufferedReader#read(char[],int,int)"
+    ],
+    "org.apache.commons.csv.CSVPrinter#printRecord(Iterable<?>)": [
+        "org.apache.commons.csv.CSVPrinter#print(Object)",
+        "org.apache.commons.csv.CSVPrinter#println()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setDelimiter(char)": ["org.apache.commons.csv.CSVFormat.Builder#setDelimiter(char)"],
+    "org.apache.commons.csv.ExtendedBufferedReader#getLastChar()": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat.Builder.create(CSVFormat)": ["org.apache.commons.csv.CSVFormat.Builder#Builder(CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#withEscape(char)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setEscape(char)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withRecordSeparator(String)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setRecordSeparator(String)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat.trim(CharSequence)": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVParser.CSVRecordIterator#getNextRecord()": ["org.apache.commons.csv.CSVParser#nextRecord()"],
+    "org.apache.commons.csv.CSVFormat#withRecordSeparator(char)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()",
+        "org.apache.commons.csv.CSVFormat.Builder#setRecordSeparator(char)"
+    ],
+    "org.apache.commons.csv.CSVFormat#withAutoFlush(boolean)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setAutoFlush(boolean)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVRecord#iterator()": ["org.apache.commons.csv.CSVRecord#toList()"],
+    "org.apache.commons.csv.CSVParser#addRecordValue(boolean)": [
+        "org.apache.commons.csv.CSVFormat#getTrim()",
+        "org.apache.commons.csv.CSVParser#handleNull(String)",
+        "org.apache.commons.csv.CSVFormat#getTrailingDelimiter()"
+    ],
+    "org.apache.commons.csv.CSVParser.<init>()": ["org.apache.commons.csv.Token.<init>()"],
+    "org.apache.commons.csv.CSVFormat#printer()": ["org.apache.commons.csv.CSVPrinter#CSVPrinter(Appendable,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#println(Appendable)": [
+        "org.apache.commons.csv.CSVFormat#append(CharSequence,Appendable)",
+        "org.apache.commons.csv.CSVFormat#getTrailingDelimiter()",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ],
+    "org.apache.commons.csv.CSVParser#createEmptyHeaderMap()": ["org.apache.commons.csv.CSVFormat#getIgnoreHeaderCase()"],
+    "org.apache.commons.csv.Lexer#isClosed()": ["org.apache.commons.csv.ExtendedBufferedReader#isClosed()"],
+    "org.apache.commons.csv.CSVRecord#isConsistent()": ["org.apache.commons.csv.CSVRecord#getHeaderMapRaw()"],
+    "org.apache.commons.csv.CSVFormat#withIgnoreEmptyLines()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreEmptyLines(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withTrim(boolean)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setTrim(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setHeaderComments(Object[]...)": [
+        "org.apache.commons.csv.CSVFormat.toStringArray(Object[])",
+        "org.apache.commons.csv.CSVFormat.clone(T[]...)"
+    ],
+    "org.apache.commons.csv.CSVFormat#withCommentMarker(char)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setCommentMarker(char)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.ExtendedBufferedReader#read()": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVParser#getFirstEndOfLine()": ["org.apache.commons.csv.Lexer#getFirstEol()"],
+    "org.apache.commons.csv.CSVFormat#printWithQuotes(Object,CharSequence,Appendable,boolean)": [
+        "org.apache.commons.csv.CSVFormat#printWithEscapes(CharSequence,Appendable)",
+        "org.apache.commons.csv.CSVFormat#getQuoteCharacter()",
+        "org.apache.commons.csv.QuoteMode.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat#isDelimiter(char,CharSequence,int,char[],int)",
+        "org.apache.commons.csv.CSVFormat#getEscapeCharacter()",
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat#getQuoteMode()",
+        "org.apache.commons.csv.CSVFormat#isEscapeCharacterSet()",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withHeader(Class<? extends Enum<?>>)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setHeader(Class<? extends Enum<?>>)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVParser.parse(Path,Charset,CSVFormat)": ["org.apache.commons.csv.CSVParser.parse(InputStream,Charset,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat.Builder#setCommentMarker(Character)": ["org.apache.commons.csv.CSVFormat.isLineBreak(Character)"],
+    "org.apache.commons.csv.CSVParser.parse(URL,Charset,CSVFormat)": ["org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#CSVFormat(Builder)": [
+        "org.apache.commons.csv.CSVFormat#validate()",
+        "org.apache.commons.csv.CSVFormat.<init>()"
+    ],
+    "org.apache.commons.csv.CSVRecord#isSet(String)": [
+        "org.apache.commons.csv.CSVRecord#isMapped(String)",
+        "org.apache.commons.csv.CSVRecord#getHeaderMapRaw()"
+    ],
+    "org.apache.commons.csv.CSVParser.Headers#Headers(Map<String, Integer>,List<String>)": ["org.apache.commons.csv.CSVParser.Headers.<init>()"],
+    "org.apache.commons.csv.Lexer#isEndOfFile(int)": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVRecord#toMap()": ["org.apache.commons.csv.CSVRecord#putIn(M extends Map)"],
+    "org.apache.commons.csv.CSVPrinter#printHeaders(ResultSet)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setHeader(ResultSet)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat#getHeader()",
+        "org.apache.commons.csv.CSVPrinter#printRecord(Object[]...)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withNullString(String)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setNullString(String)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVPrinter#printRecords(ResultSet,boolean)": [
+        "org.apache.commons.csv.CSVPrinter#printHeaders(ResultSet)",
+        "org.apache.commons.csv.CSVPrinter#printRecords(ResultSet)"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setCommentMarker(char)": ["org.apache.commons.csv.CSVFormat.Builder#setCommentMarker(char)"],
+    "org.apache.commons.csv.Lexer#mapNullToDisabled(Character)": ["org.apache.commons.csv.Lexer.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat#withCommentMarker(Character)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setCommentMarker(Character)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat.newFormat(char)": [
+        "org.apache.commons.csv.CSVFormat#CSVFormat(String,Character,QuoteMode,Character,Character,boolean,boolean,String,String,Object[],String[],boolean,boolean,boolean,boolean,boolean,boolean,boolean)",
+        "org.apache.commons.csv.CSVFormat.<staticinit>()"
+    ],
+    "org.apache.commons.csv.CSVFormat.isLineBreak(char)": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.ExtendedBufferedReader#close()": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat.Predefined#Predefined(CSVFormat)": ["org.apache.commons.csv.CSVFormat.Predefined.<init>()"],
+    "org.apache.commons.csv.CSVFormat.Builder#setHeader(Class<? extends Enum<?>>)": ["org.apache.commons.csv.CSVFormat.Builder#setHeader(String[]...)"],
+    "org.apache.commons.csv.CSVFormat#CSVFormat(String,Character,QuoteMode,Character,Character,boolean,boolean,String,String,Object[],String[],boolean,boolean,boolean,boolean,boolean,boolean,boolean)": [
+        "org.apache.commons.csv.CSVFormat#validate()",
+        "org.apache.commons.csv.CSVFormat.<init>()",
+        "org.apache.commons.csv.CSVFormat.toStringArray(Object[])",
+        "org.apache.commons.csv.CSVFormat.clone(T[]...)"
+    ],
+    "org.apache.commons.csv.CSVFormat#withSkipHeaderRecord(boolean)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setSkipHeaderRecord(boolean)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVPrinter#println()": ["org.apache.commons.csv.CSVFormat#println(Appendable)"],
+    "org.apache.commons.csv.IOUtils.copyLarge(Reader,Writer,char[])": ["org.apache.commons.csv.IOUtils.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat#withAllowMissingColumnNames(boolean)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()",
+        "org.apache.commons.csv.CSVFormat.Builder#setAllowMissingColumnNames(boolean)"
+    ],
+    "org.apache.commons.csv.CSVFormat#withQuote(Character)": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setQuote(Character)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVParser#createHeaders()": [
+        "org.apache.commons.csv.CSVParser#createEmptyHeaderMap()",
+        "org.apache.commons.csv.CSVFormat#getHeader()",
+        "org.apache.commons.csv.CSVParser.Headers#Headers(Map<String, Integer>,List<String>)",
+        "org.apache.commons.csv.CSVFormat#getSkipHeaderRecord()",
+        "org.apache.commons.csv.CSVFormat#getAllowMissingColumnNames()",
+        "org.apache.commons.csv.CSVFormat#getAllowDuplicateHeaderNames()",
+        "org.apache.commons.csv.CSVParser#nextRecord()",
+        "org.apache.commons.csv.CSVRecord#values()"
+    ],
+    "org.apache.commons.csv.CSVRecord#CSVRecord(CSVParser,String[],String,long,long)": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.CSVRecord.<init>()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#Builder(CSVFormat)": ["org.apache.commons.csv.CSVFormat.Builder.<init>()"],
+    "org.apache.commons.csv.CSVFormat#withIgnoreSurroundingSpaces()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setIgnoreSurroundingSpaces(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat)": ["org.apache.commons.csv.CSVParser#CSVParser(Reader,CSVFormat,long,long)"],
+    "org.apache.commons.csv.CSVFormat.Builder#setQuote(char)": ["org.apache.commons.csv.CSVFormat.Builder#setQuote(char)"],
+    "org.apache.commons.csv.CSVFormat#print(Path,Charset)": ["org.apache.commons.csv.CSVFormat#print(Appendable)"],
+    "org.apache.commons.csv.CSVRecord#get(String)": ["org.apache.commons.csv.CSVRecord#getHeaderMapRaw()"],
+    "org.apache.commons.csv.CSVFormat.Builder#setDelimiter(String)": ["org.apache.commons.csv.CSVFormat.containsLineBreak(String)"],
+    "org.apache.commons.csv.Token#reset()": ["org.apache.commons.csv.Token.Type.<staticinit>()"],
+    "org.apache.commons.csv.Lexer#isEscapeDelimiter()": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#lookAhead(char[])",
+        "org.apache.commons.csv.ExtendedBufferedReader#read(char[],int,int)"
+    ],
+    "org.apache.commons.csv.CSVParser.parse(File,Charset,CSVFormat)": ["org.apache.commons.csv.CSVParser.parse(InputStream,Charset,CSVFormat)"],
+    "org.apache.commons.csv.CSVFormat#withHeader(String[]...)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setHeader(String[]...)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withDelimiter(char)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setDelimiter(char)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.ExtendedBufferedReader#readLine()": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.ExtendedBufferedReader#lookAhead()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withAllowDuplicateHeaderNames(boolean)": [
+        "org.apache.commons.csv.CSVFormat.Builder#setAllowDuplicateHeaderNames(boolean)",
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.CSVFormat#withAllowMissingColumnNames()": [
+        "org.apache.commons.csv.CSVFormat#builder()",
+        "org.apache.commons.csv.CSVFormat.Builder#setAllowMissingColumnNames(boolean)",
+        "org.apache.commons.csv.CSVFormat.Builder#build()"
+    ],
+    "org.apache.commons.csv.ExtendedBufferedReader#read(char[],int,int)": ["org.apache.commons.csv.Constants.<staticinit>()"],
+    "org.apache.commons.csv.CSVFormat#printWithEscapes(Reader,Appendable)": [
+        "org.apache.commons.csv.CSVFormat#append(char,Appendable)",
+        "org.apache.commons.csv.ExtendedBufferedReader#lookAhead(int)",
+        "org.apache.commons.csv.CSVFormat#isDelimiter(char,CharSequence,int,char[],int)",
+        "org.apache.commons.csv.CSVFormat#getEscapeCharacter()",
+        "org.apache.commons.csv.IOUtils.<staticinit>()",
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.ExtendedBufferedReader#read()",
+        "org.apache.commons.csv.ExtendedBufferedReader#ExtendedBufferedReader(Reader)",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ],
+    "org.apache.commons.csv.CSVPrinter#printRecords(Iterable<?>)": [
+        "org.apache.commons.csv.CSVPrinter#printRecord(Iterable<?>)",
+        "org.apache.commons.csv.CSVPrinter#printRecord(Object[]...)"
+    ],
+    "org.apache.commons.csv.CSVParser#handleNull(String)": [
+        "org.apache.commons.csv.CSVFormat#getNullString()",
+        "org.apache.commons.csv.CSVParser#isStrictQuoteMode()"
+    ],
+    "org.apache.commons.csv.CSVPrinter#printComment(String)": [
+        "org.apache.commons.csv.Constants.<staticinit>()",
+        "org.apache.commons.csv.CSVFormat#getCommentMarker()",
+        "org.apache.commons.csv.CSVPrinter#println()",
+        "org.apache.commons.csv.CSVFormat#isCommentMarkerSet()"
+    ],
+    "org.apache.commons.csv.CSVFormat#builder()": ["org.apache.commons.csv.CSVFormat.Builder.create(CSVFormat)"],
+    "org.apache.commons.csv.CSVRecord#getHeaderMapRaw()": ["org.apache.commons.csv.CSVParser#getHeaderMapRaw()"],
+    "org.apache.commons.csv.Lexer#getCurrentLineNumber()": ["org.apache.commons.csv.ExtendedBufferedReader#getCurrentLineNumber()"],
+    "org.apache.commons.csv.CSVParser#isStrictQuoteMode()": [
+        "org.apache.commons.csv.CSVFormat#getQuoteMode()",
+        "org.apache.commons.csv.QuoteMode.<staticinit>()"
+    ],
+    "org.apache.commons.csv.CSVFormat.Builder#setQuote(Character)": ["org.apache.commons.csv.CSVFormat.isLineBreak(Character)"],
+    "org.apache.commons.csv.CSVFormat.isLineBreak(Character)": ["org.apache.commons.csv.CSVFormat.isLineBreak(char)"],
+    "org.apache.commons.csv.Lexer#Lexer(CSVFormat,ExtendedBufferedReader)": [
+        "org.apache.commons.csv.CSVFormat#getIgnoreEmptyLines()",
+        "org.apache.commons.csv.CSVFormat#getCommentMarker()",
+        "org.apache.commons.csv.Lexer#mapNullToDisabled(Character)",
+        "org.apache.commons.csv.CSVFormat#getQuoteCharacter()",
+        "org.apache.commons.csv.CSVFormat#getEscapeCharacter()",
+        "org.apache.commons.csv.CSVFormat#getIgnoreSurroundingSpaces()",
+        "org.apache.commons.csv.Lexer.<init>()",
+        "org.apache.commons.csv.CSVFormat#getDelimiterString()"
+    ]
+}
