@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: Apache-2.0
 name: Generate Call Graph
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       input-repo:
         required: true
