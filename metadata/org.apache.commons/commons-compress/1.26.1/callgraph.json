@@ -202,7 +202,7 @@
         "org.apache.commons.compress.archivers.sevenz.SevenZMethod.<staticinit>()"
     ],
     "org.apache.commons.compress.archivers.zip.NioZipEncoding#newDecoder()": ["org.apache.commons.compress.archivers.zip.NioZipEncoding.<staticinit>()"],
-    "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(URL)": ["org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(InputStream)"],
+    "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(URL)": ["org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(URL)"],
     "org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream#writeHeader(GzipParameters)": [
         "org.apache.commons.compress.compressors.gzip.GzipParameters#getFileName()",
         "org.apache.commons.compress.compressors.deflate.DeflateCompressorOutputStream#write(int)",
@@ -266,8 +266,8 @@
         "org.apache.commons.compress.compressors.deflate64.HuffmanDecoder.HuffmanCodes.<init>()"
     ],
     "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#TarArchiveOutputStream(OutputStream,int,String)": [
+        "org.apache.commons.compress.utils.FixedLengthBlockOutputStream#FixedLengthBlockOutputStream(OutputStream,int)",
         "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.<staticinit>()",
-        "org.apache.commons.compress.utils.FixedLengthBlockOutputStream#FixedLengthBlockOutputStream(WritableByteChannel,int)",
         "org.apache.commons.compress.archivers.ArchiveOutputStream.<init>()",
         "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.getZipEncoding(String)",
         "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream.<init>()"
@@ -650,7 +650,7 @@
         "org.apache.commons.compress.harmony.unpack200.bytecode.CPMethod.<init>()"
     ],
     "org.apache.commons.compress.archivers.tar.TarUtils.<staticinit>()": [
-        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.getZipEncoding(Charset)",
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.getZipEncoding(String)",
         "org.apache.commons.compress.archivers.tar.TarUtils$ZipEncoding$1.<init>()"
     ],
     "org.apache.commons.compress.harmony.unpack200.AttributeLayoutMap#checkMap()": [
@@ -675,7 +675,6 @@
     "org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream#Pack200CompressorInputStream(InputStream,File,Pack200Strategy,Map<String, String>)": [
         "org.apache.commons.compress.compressors.CompressorInputStream.<init>()",
         "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter#unpack(File,JarOutputStream)",
-        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter#unpack(InputStream,JarOutputStream)",
         "org.apache.commons.compress.java.util.jar.Pack200.newUnpacker()",
         "org.apache.commons.compress.compressors.pack200.Pack200Strategy$Pack200Strategy$1#newStreamBridge()",
         "org.apache.commons.compress.compressors.pack200.Pack200CompressorInputStream.<init>()"
@@ -882,16 +881,17 @@
     "org.apache.commons.compress.archivers.zip.ZipShort.getValue(byte[],int)": ["org.apache.commons.compress.utils.ByteUtils.fromLittleEndian(byte[],int,int)"],
     "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#handleZip64Extra(ZipArchiveEntry,long,boolean)": [
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setDiskStartNumber(ZipLong)",
-        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry#setExtra()",
         "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(long)",
         "org.apache.commons.compress.archivers.zip.Zip64Mode.<staticinit>()",
-        "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setCompressedSize(ZipEightByteInteger)",
-        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry#getSize()",
         "org.apache.commons.compress.archivers.zip.ZipArchiveEntry#getDiskNumberStart()",
-        "org.apache.commons.compress.archivers.zip.ZipLong#ZipLong(long)",
         "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#getZip64Extra(ZipArchiveEntry)",
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setRelativeHeaderOffset(ZipEightByteInteger)",
         "org.apache.commons.compress.archivers.zip.ZipConstants.<staticinit>()",
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry#setExtra()",
+        "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setCompressedSize(ZipEightByteInteger)",
+        "org.apache.commons.compress.archivers.zip.ZipArchiveEntry#getSize()",
+        "org.apache.commons.compress.archivers.zip.ZipLong#ZipLong(long)",
+        "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)",
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setSize(ZipEightByteInteger)"
     ],
     "org.apache.commons.compress.compressors.zstandard.ZstdUtils#ZstdUtils()": ["org.apache.commons.compress.compressors.zstandard.ZstdUtils.<init>()"],
@@ -2164,9 +2164,9 @@
         "org.apache.commons.compress.harmony.unpack200.IcBands#read(InputStream)"
     ],
     "org.apache.commons.compress.harmony.unpack200.CpBands#cpUTF8Value(String,boolean)": [
-        "org.apache.commons.compress.harmony.unpack200.CpBands#cpUTF8Value(String)",
         "org.apache.commons.compress.harmony.unpack200.CpBands#cpSignatureValue(int)",
-        "org.apache.commons.compress.harmony.unpack200.bytecode.CPUTF8#CPUTF8(String,int)"
+        "org.apache.commons.compress.harmony.unpack200.bytecode.CPUTF8#CPUTF8(String,int)",
+        "org.apache.commons.compress.harmony.unpack200.CpBands#cpUTF8Value(int)"
     ],
     "org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorOutputStream#write(byte[],int,int)": ["org.apache.commons.compress.compressors.snappy.FramedSnappyCompressorOutputStream#flushBuffer()"],
     "org.apache.commons.compress.archivers.zip.X000A_NTFS#getModifyFileTime()": ["org.apache.commons.compress.archivers.zip.X000A_NTFS.zipToFileTime(ZipEightByteInteger)"],
@@ -2291,6 +2291,7 @@
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField.<staticinit>()",
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#getSize()",
         "org.apache.commons.compress.archivers.zip.ZipLong#getValue()",
+        "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)",
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#reparseCentralDirectoryData(boolean,boolean,boolean,boolean)",
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setSize(ZipEightByteInteger)"
     ],
@@ -2344,7 +2345,7 @@
     "org.apache.commons.compress.harmony.unpack200.bytecode.CPNameAndType#generateHashCode()": ["org.apache.commons.compress.harmony.unpack200.bytecode.CPUTF8#hashCode()"],
     "org.apache.commons.compress.harmony.pack200.RunCodec#encode(int,int)": ["org.apache.commons.compress.harmony.pack200.Pack200Exception#Pack200Exception(String)"],
     "org.apache.commons.compress.harmony.unpack200.bytecode.ByteCode#getNestedPosition(int)": ["org.apache.commons.compress.harmony.unpack200.bytecode.ByteCode#getNestedPositions()"],
-    "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(long)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(long)"],
+    "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(long)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)"],
     "org.apache.commons.compress.harmony.unpack200.CpBands#cpUTF8Value(String)": ["org.apache.commons.compress.harmony.unpack200.CpBands#cpUTF8Value(String,boolean)"],
     "org.apache.commons.compress.archivers.sevenz.SevenZOutputFile#writeFileATimes(DataOutput)": [
         "org.apache.commons.compress.archivers.sevenz.NID.<staticinit>()",
@@ -3761,8 +3762,8 @@
         "org.apache.commons.compress.archivers.ar.ArArchiveInputStream#getNextEntry()",
         "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#getNextEntry()",
         "org.apache.commons.compress.archivers.dump.DumpArchiveInputStream#getNextEntry()",
-        "org.apache.commons.compress.archivers.arj.ArjArchiveInputStream#getNextEntry()",
         "org.apache.commons.compress.archivers.jar.JarArchiveInputStream#getNextEntry()",
+        "org.apache.commons.compress.archivers.arj.ArjArchiveInputStream#getNextEntry()",
         "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream#getNextEntry()",
         "org.apache.commons.compress.archivers.tar.TarArchiveInputStream#getNextEntry()"
     ],
@@ -4031,7 +4032,7 @@
     "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#skip(int)": ["org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream#readFully(byte[],int,int)"],
     "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#Zip64ExtendedInformationExtraField()": ["org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField.<init>()"],
     "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp#setFlags(byte)": ["org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp.<staticinit>()"],
-    "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(String,String[]...)": ["org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(InputStream)"],
+    "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(String,String[]...)": ["org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(URL)"],
     "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#writeDataDescriptor(ZipArchiveEntry)": [
         "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#writeCounted(byte[])",
         "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#usesDataDescriptor(int,boolean)",
@@ -4252,8 +4253,8 @@
     ],
     "org.apache.commons.compress.harmony.unpack200.bytecode.forms.ThisInitMethodRefForm#context(OperandManager)": ["org.apache.commons.compress.harmony.unpack200.bytecode.OperandManager#getCurrentClass()"],
     "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(FileInputStream)": [
-        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(InputStream)",
-        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.readPath(FileInputStream)"
+        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.readPath(FileInputStream)",
+        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(URL)"
     ],
     "org.apache.commons.compress.harmony.unpack200.SegmentConstantPoolArrayCache#arrayIsCached(String[])": ["org.apache.commons.compress.harmony.unpack200.SegmentConstantPoolArrayCache.CachedArray#lastKnownSize()"],
     "org.apache.commons.compress.archivers.dump.TapeInputStream.<init>()": ["org.apache.commons.compress.archivers.dump.DumpArchiveConstants.<staticinit>()"],
@@ -6356,7 +6357,7 @@
     ],
     "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#CpioArchiveEntry(short,Path,String,LinkOption[]...)": [
         "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#setMode(long)",
-        "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#setTime(long)",
+        "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#setTime(FileTime)",
         "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#CpioArchiveEntry(short,String,long)",
         "org.apache.commons.compress.archivers.cpio.CpioConstants.<staticinit>()"
     ],
@@ -6878,16 +6879,16 @@
         "org.apache.commons.compress.compressors.lzma.LZMACompressorOutputStream#write(int)",
         "org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream#write(int)",
         "org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorOutputStream#write(int)",
+        "org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream#write(byte[])",
         "org.apache.commons.compress.compressors.pack200.Pack200CompressorOutputStream#write(byte[])",
         "org.apache.commons.compress.archivers.sevenz.Coders.DeflateDecoder.DeflateDecoderOutputStream#write(byte[])",
         "org.apache.commons.compress.compressors.xz.XZCompressorOutputStream#write(int)",
         "org.apache.commons.compress.utils.FixedLengthBlockOutputStream#write(int)",
-        "org.apache.commons.compress.archivers.sevenz.SevenZOutputFile.OutputStreamWrapper#write(int)",
-        "org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream#write(int)",
         "org.apache.commons.compress.archivers.ArchiveOutputStream#write(int)",
+        "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#write(int)",
         "org.apache.commons.compress.compressors.zstandard.ZstdCompressorOutputStream#write(int)",
         "org.apache.commons.compress.archivers.zip.RandomAccessOutputStream#write(int)",
-        "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#write(byte[])"
+        "org.apache.commons.compress.archivers.sevenz.SevenZOutputFile.OutputStreamWrapper#write(byte[])"
     ],
     "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream#CpioArchiveOutputStream(OutputStream,short,int,String)": [
         "org.apache.commons.compress.archivers.ArchiveOutputStream.<init>()",
@@ -7661,7 +7662,7 @@
         "org.apache.commons.compress.archivers.zip.ZipEightByteInteger.<staticinit>()",
         "org.apache.commons.compress.archivers.zip.ZipConstants.<staticinit>()"
     ],
-    "org.apache.commons.compress.archivers.zip.FileRandomAccessOutputStream#FileRandomAccessOutputStream(Path,OpenOption[]...)": ["org.apache.commons.compress.archivers.zip.FileRandomAccessOutputStream#FileRandomAccessOutputStream(Path)"],
+    "org.apache.commons.compress.archivers.zip.FileRandomAccessOutputStream#FileRandomAccessOutputStream(Path,OpenOption[]...)": ["org.apache.commons.compress.archivers.zip.FileRandomAccessOutputStream#FileRandomAccessOutputStream(FileChannel)"],
     "org.apache.commons.compress.archivers.zip.ParallelScatterZipCreator#writeTo(ZipArchiveOutputStream)": [
         "org.apache.commons.compress.archivers.zip.ScatterZipOutputStream#close()",
         "org.apache.commons.compress.archivers.zip.ParallelScatterZipCreator#closeAll()",
@@ -8323,7 +8324,7 @@
         "org.apache.commons.compress.archivers.zip.X0016_CertificateIdForCentralDirectory.<init>()",
         "org.apache.commons.compress.archivers.zip.PKWareExtraHeader#PKWareExtraHeader(ZipShort)"
     ],
-    "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#ZipSplitOutputStream(File,long)": ["org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#ZipSplitOutputStream(File,long)"],
+    "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#ZipSplitOutputStream(File,long)": ["org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#ZipSplitOutputStream(Path,long)"],
     "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#isZip64Required(ZipArchiveEntry,Zip64Mode)": [
         "org.apache.commons.compress.archivers.zip.Zip64Mode.<staticinit>()",
         "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#isTooLargeForZip32(ZipArchiveEntry)"
@@ -9114,7 +9115,7 @@
         "org.apache.commons.compress.archivers.Lister#println(String)"
     ],
     "org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream#createArchiveEntry(Path,String,LinkOption[]...)": ["org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#CpioArchiveEntry(Path,String,LinkOption[]...)"],
-    "org.apache.commons.compress.archivers.tar.TarFile#TarFile(File)": ["org.apache.commons.compress.archivers.tar.TarFile#TarFile(File)"],
+    "org.apache.commons.compress.archivers.tar.TarFile#TarFile(File)": ["org.apache.commons.compress.archivers.tar.TarFile#TarFile(Path)"],
     "org.apache.commons.compress.compressors.CompressorStreamFactory.getLZ4Block()": ["org.apache.commons.compress.compressors.CompressorStreamFactory.<staticinit>()"],
     "org.apache.commons.compress.archivers.zip.UnrecognizedExtraField#getLocalFileDataLength()": ["org.apache.commons.compress.archivers.zip.ZipShort#ZipShort(int)"],
     "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#closeArchiveEntry()": [
@@ -9532,7 +9533,7 @@
         "org.apache.commons.compress.compressors.deflate64.Deflate64CompressorInputStream#Deflate64CompressorInputStream(HuffmanDecoder)",
         "org.apache.commons.compress.compressors.deflate64.HuffmanDecoder#HuffmanDecoder(InputStream)"
     ],
-    "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(File)": ["org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(InputStream)"],
+    "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(File)": ["org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter.newBoundedInputStream(URL)"],
     "org.apache.commons.compress.archivers.sevenz.SevenZFile#sanityCheckFilesInfo(ByteBuffer,ArchiveStatistics)": [
         "org.apache.commons.compress.archivers.sevenz.SevenZFile.getChar(ByteBuffer)",
         "org.apache.commons.compress.archivers.sevenz.SevenZFile.getUnsignedByte(ByteBuffer)",
@@ -9590,7 +9591,7 @@
     "org.apache.commons.compress.harmony.pack200.Pack200Exception#Pack200Exception(String)": ["org.apache.commons.compress.harmony.pack200.Pack200Exception.<init>()"],
     "org.apache.commons.compress.archivers.zip.PKWareExtraHeader.EncryptionAlgorithm.<staticinit>()": ["org.apache.commons.compress.archivers.zip.PKWareExtraHeader.EncryptionAlgorithm#getCode()"],
     "org.apache.commons.compress.harmony.unpack200.SegmentOptions#hasFieldFlagsHi()": ["org.apache.commons.compress.harmony.unpack200.SegmentOptions.<staticinit>()"],
-    "org.apache.commons.compress.archivers.zip.X000A_NTFS.dateToZip(Date)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(long)"],
+    "org.apache.commons.compress.archivers.zip.X000A_NTFS.dateToZip(Date)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)"],
     "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#writeFully(byte[],int,int,long)": [
         "org.apache.commons.compress.archivers.zip.ZipIoUtil.writeFullyAt(FileChannel,ByteBuffer,long)",
         "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#writeToSegment(Path,long,byte[],int,int)"
@@ -9854,7 +9855,7 @@
     "org.apache.commons.compress.archivers.zip.ZipFile#ZipFile(File,String,boolean)": ["org.apache.commons.compress.archivers.zip.ZipFile#ZipFile(File,String,boolean,boolean)"],
     "org.apache.commons.compress.compressors.pack200.Pack200Utils.normalize(File,File,Map<String, String>)": [
         "org.apache.commons.compress.harmony.pack200.Pack200PackerAdapter#pack(JarFile,OutputStream)",
-        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter#unpack(InputStream,JarOutputStream)",
+        "org.apache.commons.compress.harmony.unpack200.Pack200UnpackerAdapter#unpack(File,JarOutputStream)",
         "org.apache.commons.compress.java.util.jar.Pack200.newPacker()",
         "org.apache.commons.compress.java.util.jar.Pack200.Packer.<staticinit>()",
         "org.apache.commons.compress.java.util.jar.Pack200.newUnpacker()"
@@ -10306,7 +10307,7 @@
     ],
     "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.getZipEncoding(Charset)": [
         "org.apache.commons.compress.archivers.zip.NioZipEncoding#NioZipEncoding(Charset,boolean)",
-        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.isUTF8(String)"
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.isUTF8(Charset)"
     ],
     "org.apache.commons.compress.harmony.unpack200.SegmentHeader#decodeScalar(String,InputStream,BHSDCodec,int)": [
         "org.apache.commons.compress.harmony.unpack200.Segment.<staticinit>()",
@@ -10683,7 +10684,7 @@
     ],
     "org.apache.commons.compress.archivers.sevenz.SevenZFile.Builder#get()": [
         "org.apache.commons.compress.archivers.sevenz.SevenZFile#SevenZFile(SeekableByteChannel,String,byte[],boolean,int,boolean,boolean)",
-        "org.apache.commons.compress.utils.SeekableInMemoryByteChannel#SeekableInMemoryByteChannel(int)"
+        "org.apache.commons.compress.utils.SeekableInMemoryByteChannel#SeekableInMemoryByteChannel(byte[])"
     ],
     "org.apache.commons.compress.archivers.zip.ZipArchiveEntry.ExtraFieldParsingMode#createExtraField(ZipShort)": ["org.apache.commons.compress.archivers.zip.ExtraFieldUtils.createExtraField(ZipShort)"],
     "org.apache.commons.compress.harmony.unpack200.bytecode.CPMember#doWrite(DataOutputStream)": [
@@ -10987,7 +10988,7 @@
     "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.getZipEncoding(String)": [
         "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.toSafeCharset(String)",
         "org.apache.commons.compress.archivers.zip.NioZipEncoding#NioZipEncoding(Charset,boolean)",
-        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.isUTF8(String)"
+        "org.apache.commons.compress.archivers.zip.ZipEncodingHelper.isUTF8(Charset)"
     ],
     "org.apache.commons.compress.archivers.zip.ZipSplitOutputStream#write(byte[],int,int)": [
         "org.apache.commons.compress.archivers.zip.FileRandomAccessOutputStream#write(byte[],int,int)",
@@ -11038,7 +11039,7 @@
         "org.apache.commons.compress.archivers.zip.ZipFile.BoundedFileChannelInputStream#read(long,ByteBuffer)"
     ],
     "org.apache.commons.compress.harmony.unpack200.bytecode.forms.SuperMethodRefForm#getOffset(OperandManager)": ["org.apache.commons.compress.harmony.unpack200.bytecode.OperandManager#nextSuperMethodRef()"],
-    "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#TarArchiveOutputStream(OutputStream,int)": ["org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#TarArchiveOutputStream(OutputStream,int,int)"],
+    "org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#TarArchiveOutputStream(OutputStream,int)": ["org.apache.commons.compress.archivers.tar.TarArchiveOutputStream#TarArchiveOutputStream(OutputStream,int,String)"],
     "org.apache.commons.compress.archivers.tar.TarArchiveEntry#fillStarSparseData(Map<String, String>)": ["org.apache.commons.compress.utils.ParsingUtils.parseLongValue(String)"],
     "org.apache.commons.compress.archivers.zip.ZipArchiveEntry#ZipArchiveEntry(File,String)": ["org.apache.commons.compress.archivers.zip.ZipArchiveEntry#ZipArchiveEntry(Function<ZipShort, ZipExtraField>,File,String)"],
     "org.apache.commons.compress.archivers.sevenz.SevenZFile.matches(byte[],int)": ["org.apache.commons.compress.archivers.sevenz.SevenZFile.<staticinit>()"],
@@ -12809,7 +12810,7 @@
     "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#CpioArchiveEntry(short,String)": ["org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#CpioArchiveEntry(short)"],
     "org.apache.commons.compress.archivers.zip.PKWareExtraHeader#setCentralDirectoryData(byte[])": ["org.apache.commons.compress.archivers.zip.ZipUtil.copy(byte[])"],
     "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger.<init>()"],
-    "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#ZipArchiveOutputStream(File)": ["org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#ZipArchiveOutputStream(SeekableByteChannel)"],
+    "org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#ZipArchiveOutputStream(File)": ["org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream#ZipArchiveOutputStream(File)"],
     "org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorOutputStream.BlockSize#BlockSize(int,int)": ["org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorOutputStream.BlockSize.<init>()"],
     "org.apache.commons.compress.compressors.FileNameUtil#FileNameUtil(Map<String, String>,String)": ["org.apache.commons.compress.compressors.FileNameUtil.<init>()"],
     "org.apache.commons.compress.harmony.pack200.CanonicalCodecFamilies.<staticinit>()": ["org.apache.commons.compress.harmony.pack200.CodecEncoding.getCanonicalCodec(int)"],
@@ -13575,7 +13576,7 @@
     "org.apache.commons.compress.harmony.pack200.BandSet#encodeScalar(int,BHSDCodec)": ["org.apache.commons.compress.harmony.pack200.BHSDCodec#encode(int)"],
     "org.apache.commons.compress.archivers.zip.ZipFile.Builder#get()": [
         "org.apache.commons.compress.archivers.zip.ZipFile#ZipFile(SeekableByteChannel,String,Charset,boolean,boolean,boolean)",
-        "org.apache.commons.compress.utils.SeekableInMemoryByteChannel#SeekableInMemoryByteChannel(int)",
+        "org.apache.commons.compress.utils.SeekableInMemoryByteChannel#SeekableInMemoryByteChannel(byte[])",
         "org.apache.commons.compress.archivers.zip.ZipFile.openZipChannel(Path,long,OpenOption[])"
     ],
     "org.apache.commons.compress.archivers.sevenz.DeltaDecoder#decode(String,InputStream,long,Coder,byte[],int)": ["org.apache.commons.compress.archivers.sevenz.DeltaDecoder#getOptionsFromCoder(Coder)"],
@@ -13676,9 +13677,10 @@
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setCompressedSize(ZipEightByteInteger)",
         "org.apache.commons.compress.archivers.ArchiveEntry.<staticinit>()",
         "org.apache.commons.compress.archivers.zip.ZipEightByteInteger.<staticinit>()",
+        "org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)",
         "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField#setSize(ZipEightByteInteger)"
     ],
-    "org.apache.commons.compress.archivers.zip.X000A_NTFS.fileTimeToZip(FileTime)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(long)"],
+    "org.apache.commons.compress.archivers.zip.X000A_NTFS.fileTimeToZip(FileTime)": ["org.apache.commons.compress.archivers.zip.ZipEightByteInteger#ZipEightByteInteger(BigInteger)"],
     "org.apache.commons.compress.harmony.unpack200.NewAttributeBands#readNextLayoutElement(StringReader)": [
         "org.apache.commons.compress.harmony.unpack200.NewAttributeBands.Reference#Reference(String)",
         "org.apache.commons.compress.harmony.unpack200.NewAttributeBands#readUpToMatchingBracket(StringReader)",
@@ -13891,7 +13893,7 @@
     ],
     "org.apache.commons.compress.harmony.unpack200.CpBands#cpNameAndTypeValue(String)": [
         "org.apache.commons.compress.harmony.unpack200.bytecode.CPNameAndType#CPNameAndType(CPUTF8,CPUTF8,int)",
-        "org.apache.commons.compress.harmony.unpack200.CpBands#cpNameAndTypeValue(String)",
+        "org.apache.commons.compress.harmony.unpack200.CpBands#cpNameAndTypeValue(int)",
         "org.apache.commons.compress.harmony.unpack200.CpBands#cpUTF8Value(String,boolean)"
     ],
     "org.apache.commons.compress.compressors.xz.XZUtils.internalIsXZCompressionAvailable()": ["org.apache.commons.compress.compressors.xz.XZCompressorInputStream.matches(byte[],int)"],
@@ -14160,7 +14162,7 @@
     ],
     "org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#getNumberOfLinks()": ["org.apache.commons.compress.archivers.cpio.CpioArchiveEntry#isDirectory()"],
     "org.apache.commons.compress.archivers.sevenz.AES256SHA256Decoder.AES256SHA256DecoderOutputStream#write(byte[],int,int)": ["org.apache.commons.compress.archivers.sevenz.AES256SHA256Decoder.AES256SHA256DecoderOutputStream#flushBuffer()"],
-    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFile#SevenZOutputFile(File,char[])": ["org.apache.commons.compress.archivers.sevenz.SevenZOutputFile#SevenZOutputFile(SeekableByteChannel,char[])"],
+    "org.apache.commons.compress.archivers.sevenz.SevenZOutputFile#SevenZOutputFile(File,char[])": ["org.apache.commons.compress.archivers.sevenz.SevenZOutputFile#SevenZOutputFile(File,char[])"],
     "org.apache.commons.compress.compressors.xz.XZCompressorInputStream#read(byte[],int,int)": [
         "org.apache.commons.compress.compressors.zstandard.ZstdCompressorInputStream#read(byte[],int,int)",
         "org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStream#read(byte[],int,int)",
