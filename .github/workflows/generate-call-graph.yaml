@@ -24,6 +24,8 @@ on:
         type: string
         description: Version of the project to analyze (e.g., 2.25.2)
 
+run-name: Generate Call Graph for ${{ inputs.group-id }}:${{ inputs.artifact-id }}:${{ inputs.version }}
+
 # Empty permissions at the workflow level; specific jobs will set their own permissions
 permissions: { }
 
