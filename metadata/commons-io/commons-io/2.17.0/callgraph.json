@@ -51,7 +51,7 @@
         "org.apache.commons.io.file.PathUtils.sizeOfAsBigInteger(Path)"
     ],
     "org.apache.commons.io.file.PathUtils.requireExists(Path,String,LinkOption[]...)": ["org.apache.commons.io.file.PathUtils.exists(Path,LinkOption[]...)"],
-    "org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,URI)": ["org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,Path)"],
+    "org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,URI)": ["org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,URI)"],
     "org.apache.commons.io.output.AbstractByteArrayOutputStream#writeImpl(int)": ["org.apache.commons.io.output.AbstractByteArrayOutputStream#needNewBuffer(int)"],
     "org.apache.commons.io.output.ByteArrayOutputStream#write(InputStream)": ["org.apache.commons.io.output.AbstractByteArrayOutputStream#writeImpl(InputStream)"],
     "org.apache.commons.io.build.AbstractOriginSupplier#setByteArray(byte[])": [
@@ -112,7 +112,7 @@
         "org.apache.commons.io.comparator.AbstractFileComparator#toString()",
         "org.apache.commons.io.comparator.ReverseFileComparator#toString()"
     ],
-    "org.apache.commons.io.FileUtils.isFileOlder(File,Date)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileOlder(File,Date)": ["org.apache.commons.io.FileUtils.isFileOlder(File,FileTime)"],
     "org.apache.commons.io.DirectoryWalker.CancelException#CancelException(File,int)": ["org.apache.commons.io.DirectoryWalker.CancelException#CancelException(String,File,int)"],
     "org.apache.commons.io.output.DeferredFileOutputStream#isInMemory()": ["org.apache.commons.io.output.ThresholdingOutputStream#isThresholdExceeded()"],
     "org.apache.commons.io.comparator.DirectoryFileComparator.<staticinit>()": [
@@ -177,7 +177,7 @@
     "org.apache.commons.io.build.AbstractOrigin.PathOrigin#getPath()": ["org.apache.commons.io.build.AbstractOrigin#get()"],
     "org.apache.commons.io.file.PathUtils.withPosixFileAttributes(Path,LinkOption[],boolean,IOFunction<PosixFileAttributes, R>)": ["org.apache.commons.io.file.PathUtils.readPosixFileAttributes(Path,LinkOption[]...)"],
     "org.apache.commons.io.input.CharSequenceInputStream#read(byte[])": ["org.apache.commons.io.input.CharSequenceInputStream#read(byte[],int,int)"],
-    "org.apache.commons.io.IOUtils.closeQuietly(Closeable[]...)": ["org.apache.commons.io.IOUtils.closeQuietly(Closeable)"],
+    "org.apache.commons.io.IOUtils.closeQuietly(Closeable[]...)": ["org.apache.commons.io.IOUtils.closeQuietly(Selector)"],
     "org.apache.commons.io.function.IOStreams.toIOConsumer(IOConsumer<T>)": ["org.apache.commons.io.function.IOConsumer.noop()"],
     "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDateTime<?>)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDateTime<?>,ZoneId)"],
     "org.apache.commons.io.input.buffer.CircularByteBuffer#CircularByteBuffer()": [
@@ -190,8 +190,8 @@
     "org.apache.commons.io.DirectoryWalker#DirectoryWalker(IOFileFilter,IOFileFilter,int)": [
         "org.apache.commons.io.DirectoryWalker.<init>()",
         "org.apache.commons.io.filefilter.TrueFileFilter#or(IOFileFilter)",
-        "org.apache.commons.io.filefilter.IOFileFilter#or(IOFileFilter)",
         "org.apache.commons.io.filefilter.FalseFileFilter#or(IOFileFilter)",
+        "org.apache.commons.io.filefilter.IOFileFilter#or(IOFileFilter)",
         "org.apache.commons.io.filefilter.FileFilterUtils.makeFileOnly(IOFileFilter)",
         "org.apache.commons.io.filefilter.FileFilterUtils.makeDirectoryOnly(IOFileFilter)",
         "org.apache.commons.io.filefilter.TrueFileFilter.<staticinit>()"
@@ -203,7 +203,7 @@
     "org.apache.commons.io.output.XmlStreamWriter.<init>()": ["org.apache.commons.io.output.XmlStreamWriter.<staticinit>()"],
     "org.apache.commons.io.output.BrokenOutputStream#BrokenOutputStream(Supplier<Throwable>)": ["org.apache.commons.io.output.BrokenOutputStream.<init>()"],
     "org.apache.commons.io.filefilter.RegexFileFilter.toFlags(IOCase)": ["org.apache.commons.io.IOCase.isCaseSensitive(IOCase)"],
-    "org.apache.commons.io.FileUtils.byteCountToDisplaySize(long)": ["org.apache.commons.io.FileUtils.byteCountToDisplaySize(long)"],
+    "org.apache.commons.io.FileUtils.byteCountToDisplaySize(long)": ["org.apache.commons.io.FileUtils.byteCountToDisplaySize(BigInteger)"],
     "org.apache.commons.io.input.CloseShieldInputStream#close()": ["org.apache.commons.io.input.ClosedInputStream.<staticinit>()"],
     "org.apache.commons.io.input.Tailer#Tailer(File,TailerListener,long,boolean)": [
         "org.apache.commons.io.IOUtils.<staticinit>()",
@@ -364,7 +364,7 @@
     "org.apache.commons.io.HexDump#HexDump()": ["org.apache.commons.io.HexDump.<init>()"],
     "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader,Charset,int)": [
         "org.apache.commons.io.Charsets.toCharset(Charset)",
-        "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader,Charset,int)"
+        "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader,String,int)"
     ],
     "org.apache.commons.io.IOExceptionWithCause#IOExceptionWithCause(Throwable)": ["org.apache.commons.io.IOExceptionWithCause.<init>()"],
     "org.apache.commons.io.input.ProxyInputStream#afterRead(int)": ["org.apache.commons.io.IOUtils.<staticinit>()"],
@@ -648,7 +648,7 @@
         "org.apache.commons.io.output.NullWriter#append(char)"
     ],
     "org.apache.commons.io.function.IOBaseStream#close()": ["org.apache.commons.io.function.IOBaseStreamAdapter#unwrap()"],
-    "org.apache.commons.io.RandomAccessFileMode#create(Path)": ["org.apache.commons.io.RandomAccessFileMode#create(Path)"],
+    "org.apache.commons.io.RandomAccessFileMode#create(Path)": ["org.apache.commons.io.RandomAccessFileMode#create(String)"],
     "org.apache.commons.io.function.IOStream#flatMapToDouble(IOFunction<? super T, ? extends DoubleStream>)": [
         "org.apache.commons.io.function.Erase.apply(IOFunction<? super T, ? extends R>,T)",
         "org.apache.commons.io.function.IOBaseStreamAdapter#unwrap()"
@@ -721,7 +721,7 @@
     ],
     "org.apache.commons.io.Charsets.requiredCharsets()": ["org.apache.commons.io.Charsets.<staticinit>()"],
     "org.apache.commons.io.output.CloseShieldWriter.wrap(Writer)": ["org.apache.commons.io.output.CloseShieldWriter#CloseShieldWriter(Writer)"],
-    "org.apache.commons.io.RandomAccessFiles.read(RandomAccessFile,long,int)": ["org.apache.commons.io.IOUtils.toByteArray(IOTriFunction<byte[], Integer, Integer, Integer>,int)"],
+    "org.apache.commons.io.RandomAccessFiles.read(RandomAccessFile,long,int)": ["org.apache.commons.io.IOUtils.toByteArray(InputStream,int)"],
     "org.apache.commons.io.IOUtils.closeQuietly(ServerSocket)": ["org.apache.commons.io.IOUtils.closeQ(Closeable)"],
     "org.apache.commons.io.output.WriterOutputStream#write(int)": ["org.apache.commons.io.output.WriterOutputStream#write(byte[],int,int)"],
     "org.apache.commons.io.file.PathUtils.getLastModifiedFileTime(URL)": ["org.apache.commons.io.file.PathUtils.getLastModifiedFileTime(File)"],
@@ -838,7 +838,7 @@
     "org.apache.commons.io.IOUtils.contentEquals(Stream<?>,Stream<?>)": ["org.apache.commons.io.IOUtils.contentEquals(InputStream,InputStream)"],
     "org.apache.commons.io.input.SwappedDataInputStream#readDouble()": ["org.apache.commons.io.EndianUtils.readSwappedDouble(InputStream)"],
     "org.apache.commons.io.output.DeferredFileOutputStream#close()": ["org.apache.commons.io.output.ThresholdingOutputStream#close()"],
-    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)": ["org.apache.commons.io.FileUtils.isFileOlder(File,FileTime)"],
     "org.apache.commons.io.build.AbstractOrigin.CharSequenceOrigin#getInputStream(OpenOption[]...)": [
         "org.apache.commons.io.build.AbstractOriginSupplier#setCharSequence(CharSequence)",
         "org.apache.commons.io.build.AbstractOrigin.CharSequenceOrigin#getCharSequence(Charset)",
@@ -1320,7 +1320,7 @@
         "org.apache.commons.io.file.PathUtils.<staticinit>()",
         "org.apache.commons.io.file.PathUtils.exists(Path,LinkOption[]...)"
     ],
-    "org.apache.commons.io.FileUtils.isFileNewer(File,OffsetDateTime)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileNewer(File,OffsetDateTime)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoZonedDateTime<?>)"],
     "org.apache.commons.io.input.ByteBufferCleaner.clean(ByteBuffer)": [
         "org.apache.commons.io.input.ByteBufferCleaner.Java9Cleaner#clean(ByteBuffer)",
         "org.apache.commons.io.input.ByteBufferCleaner.Java8Cleaner#clean(ByteBuffer)",
@@ -1633,7 +1633,7 @@
         "org.apache.commons.io.function.IOStreams.forEach(Stream<T>,IOConsumer<T>)",
         "org.apache.commons.io.function.IOStreams.of(T[]...)"
     ],
-    "org.apache.commons.io.IOUtils.write(CharSequence,OutputStream,Charset)": ["org.apache.commons.io.IOUtils.write(String,OutputStream,Charset)"],
+    "org.apache.commons.io.IOUtils.write(CharSequence,OutputStream,Charset)": ["org.apache.commons.io.IOUtils.write(char[],OutputStream,Charset)"],
     "org.apache.commons.io.output.BrokenWriter.<staticinit>()": ["org.apache.commons.io.output.BrokenWriter#BrokenWriter()"],
     "org.apache.commons.io.output.LockableFileWriter#flush()": [
         "org.apache.commons.io.output.BrokenWriter#flush()",
@@ -1806,7 +1806,7 @@
     "org.apache.commons.io.input.ProxyInputStream#ProxyInputStream(InputStream)": ["org.apache.commons.io.input.ProxyInputStream#ProxyInputStream(InputStream,IOConsumer<IOException>)"],
     "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer)": [
         "org.apache.commons.io.output.WriterOutputStream.<staticinit>()",
-        "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,CharsetDecoder,int,boolean)"
+        "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,Charset,int,boolean)"
     ],
     "org.apache.commons.io.FileUtils.checksum(File,Checksum)": [
         "org.apache.commons.io.IOUtils.consume(InputStream)",
@@ -1888,7 +1888,7 @@
     ],
     "org.apache.commons.io.file.FilesUncheck.copy(Path,Path,CopyOption[]...)": ["org.apache.commons.io.function.Uncheck.apply(IOTriFunction<T, U, V, R>,T,U,V)"],
     "org.apache.commons.io.filefilter.CanWriteFileFilter#accept(Path,BasicFileAttributes)": ["org.apache.commons.io.filefilter.AbstractFileFilter#toFileVisitResult(boolean)"],
-    "org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(URL)": ["org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(URLConnection,String)"],
+    "org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(URL)": ["org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(InputStream,String)"],
     "org.apache.commons.io.input.Tailer#Tailer(File,TailerListener)": [
         "org.apache.commons.io.input.Tailer.<staticinit>()",
         "org.apache.commons.io.input.Tailer#Tailer(File,TailerListener,long)"
@@ -2429,10 +2429,10 @@
         "org.apache.commons.io.output.StringBuilderWriter#close()",
         "org.apache.commons.io.output.FilterCollectionWriter#close()",
         "org.apache.commons.io.output.ProxyCollectionWriter#close()",
-        "org.apache.commons.io.output.FilterCollectionWriter#write(int)",
+        "org.apache.commons.io.output.FilterCollectionWriter#write(char[])",
         "org.apache.commons.io.output.AppendableWriter#close()",
-        "org.apache.commons.io.output.AppendableWriter#write(int)",
-        "org.apache.commons.io.output.ProxyCollectionWriter#write(int)"
+        "org.apache.commons.io.output.ProxyCollectionWriter#write(char[])",
+        "org.apache.commons.io.output.AppendableWriter#write(int)"
     ],
     "org.apache.commons.io.input.ThrottledInputStream.builder()": ["org.apache.commons.io.input.ThrottledInputStream.Builder.<init>()"],
     "org.apache.commons.io.FileUtils.writeLines(File,String,Collection<?>)": ["org.apache.commons.io.FileUtils.writeLines(File,String,Collection<?>,String,boolean)"],
@@ -2502,7 +2502,7 @@
         "org.apache.commons.io.file.Counters.AbstractPathCounters#AbstractPathCounters(Counter,Counter,Counter)",
         "org.apache.commons.io.file.Counters.noopCounter()"
     ],
-    "org.apache.commons.io.output.LockableFileWriter#LockableFileWriter(File,boolean,String)": ["org.apache.commons.io.output.LockableFileWriter#LockableFileWriter(File,Charset,boolean,String)"],
+    "org.apache.commons.io.output.LockableFileWriter#LockableFileWriter(File,boolean,String)": ["org.apache.commons.io.output.LockableFileWriter#LockableFileWriter(File,String,boolean,String)"],
     "org.apache.commons.io.input.MemoryMappedFileInputStream.Builder#Builder()": [
         "org.apache.commons.io.build.AbstractStreamBuilder#setBufferSize(int)",
         "org.apache.commons.io.build.AbstractStreamBuilder#setBufferSizeDefault(int)",
@@ -2577,7 +2577,7 @@
     "org.apache.commons.io.IOUtils.closeQuietly(Writer)": ["org.apache.commons.io.IOUtils.closeQ(Closeable)"],
     "org.apache.commons.io.input.BufferedFileChannelInputStream#close()": ["org.apache.commons.io.input.BufferedFileChannelInputStream#clean(ByteBuffer)"],
     "org.apache.commons.io.file.attribute.FileTimes.ntfsTimeToFileTime(long)": ["org.apache.commons.io.file.attribute.FileTimes.<staticinit>()"],
-    "org.apache.commons.io.filefilter.FileFilterUtils.andFileFilter(IOFileFilter,IOFileFilter)": ["org.apache.commons.io.filefilter.AndFileFilter#AndFileFilter(IOFileFilter[]...)"],
+    "org.apache.commons.io.filefilter.FileFilterUtils.andFileFilter(IOFileFilter,IOFileFilter)": ["org.apache.commons.io.filefilter.AndFileFilter#AndFileFilter(IOFileFilter,IOFileFilter)"],
     "org.apache.commons.io.charset.CharsetEncoders#CharsetEncoders()": ["org.apache.commons.io.charset.CharsetEncoders.<init>()"],
     "org.apache.commons.io.function.IOStreamAdapter#wrap(Stream<T>)": [
         "org.apache.commons.io.function.IOBaseStreamAdapter#unwrap()",
@@ -2614,6 +2614,7 @@
         "org.apache.commons.io.filefilter.RegexFileFilter#toString()",
         "org.apache.commons.io.build.AbstractOrigin#toString()",
         "org.apache.commons.io.filefilter.WildcardFileFilter#toString()",
+        "org.apache.commons.io.IOUtils.write(char[],OutputStream,Charset)",
         "org.apache.commons.io.filefilter.NotFileFilter#toString()",
         "org.apache.commons.io.comparator.NameFileComparator#toString()",
         "org.apache.commons.io.comparator.SizeFileComparator#toString()",
@@ -2621,7 +2622,6 @@
         "org.apache.commons.io.comparator.PathFileComparator#toString()",
         "org.apache.commons.io.filefilter.PrefixFileFilter#toString()",
         "org.apache.commons.io.input.TimestampedObserver#toString()",
-        "org.apache.commons.io.IOUtils.write(String,OutputStream,Charset)",
         "org.apache.commons.io.filefilter.OrFileFilter#toString()",
         "org.apache.commons.io.filefilter.NameFileFilter#toString()",
         "org.apache.commons.io.comparator.ExtensionFileComparator#toString()",
@@ -2634,7 +2634,7 @@
         "org.apache.commons.io.comparator.ReverseFileComparator#toString()",
         "org.apache.commons.io.filefilter.SizeFileFilter#toString()"
     ],
-    "org.apache.commons.io.FileUtils.readFileToString(File)": ["org.apache.commons.io.FileUtils.readFileToString(File,Charset)"],
+    "org.apache.commons.io.FileUtils.readFileToString(File)": ["org.apache.commons.io.FileUtils.readFileToString(File,String)"],
     "org.apache.commons.io.input.ReaderInputStream.Builder#get()": [
         "org.apache.commons.io.build.AbstractStreamBuilder#getBufferSize()",
         "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader,CharsetEncoder,int)",
@@ -2792,7 +2792,7 @@
         "org.apache.commons.io.output.ClosedWriter#flush()",
         "org.apache.commons.io.output.LockableFileWriter#flush()"
     ],
-    "org.apache.commons.io.FileUtils.readLines(File)": ["org.apache.commons.io.FileUtils.readLines(File,String)"],
+    "org.apache.commons.io.FileUtils.readLines(File)": ["org.apache.commons.io.FileUtils.readLines(File,Charset)"],
     "org.apache.commons.io.monitor.FileEntry#setLastModified(long)": ["org.apache.commons.io.monitor.FileEntry#setLastModified(SerializableFileTime)"],
     "org.apache.commons.io.IOUtils.toBufferedInputStream(InputStream,int)": ["org.apache.commons.io.output.ByteArrayOutputStream.toBufferedInputStream(InputStream,int)"],
     "org.apache.commons.io.FilenameUtils.isExtension(String,String)": [
@@ -2900,8 +2900,8 @@
     "org.apache.commons.io.input.UncheckedFilterInputStream#available()": ["org.apache.commons.io.function.Uncheck.get(IOSupplier<T>)"],
     "org.apache.commons.io.input.UncheckedBufferedReader#read(char[],int,int)": ["org.apache.commons.io.function.Uncheck.apply(IOTriFunction<T, U, V, R>,T,U,V)"],
     "org.apache.commons.io.IOUtils.write(StringBuffer,OutputStream,String)": [
-        "org.apache.commons.io.IOUtils.write(String,OutputStream,Charset)",
-        "org.apache.commons.io.Charsets.toCharset(String)"
+        "org.apache.commons.io.Charsets.toCharset(String)",
+        "org.apache.commons.io.IOUtils.write(char[],OutputStream,Charset)"
     ],
     "org.apache.commons.io.filefilter.PrefixFileFilter#accept(File,String)": ["org.apache.commons.io.filefilter.PrefixFileFilter#accept(String)"],
     "org.apache.commons.io.input.TeeInputStream#read(byte[])": [
@@ -3130,7 +3130,7 @@
         "org.apache.commons.io.input.BrokenInputStream#skip(long)"
     ],
     "org.apache.commons.io.build.AbstractOrigin.URIOrigin#getPath()": ["org.apache.commons.io.build.AbstractOrigin#get()"],
-    "org.apache.commons.io.file.spi.FileSystemProviders#getFileSystemProvider(URL)": ["org.apache.commons.io.file.spi.FileSystemProviders.getFileSystemProvider(Path)"],
+    "org.apache.commons.io.file.spi.FileSystemProviders#getFileSystemProvider(URL)": ["org.apache.commons.io.file.spi.FileSystemProviders#getFileSystemProvider(String)"],
     "org.apache.commons.io.input.UnsynchronizedReader#skip(long)": [
         "org.apache.commons.io.IOUtils.<staticinit>()",
         "org.apache.commons.io.input.UnsynchronizedReader.<staticinit>()"
@@ -3270,7 +3270,7 @@
         "org.apache.commons.io.FileUtils.<staticinit>()"
     ],
     "org.apache.commons.io.input.BrokenInputStream#read()": ["org.apache.commons.io.input.BrokenInputStream#rethrow()"],
-    "org.apache.commons.io.IOUtils.toString(InputStream)": ["org.apache.commons.io.IOUtils.toString(InputStream,String)"],
+    "org.apache.commons.io.IOUtils.toString(InputStream)": ["org.apache.commons.io.IOUtils.toString(InputStream,Charset)"],
     "org.apache.commons.io.IOUtils.copyLarge(InputStream,OutputStream,long,long)": [
         "org.apache.commons.io.IOUtils.<staticinit>()",
         "org.apache.commons.io.IOUtils.getScratchByteArray()",
@@ -3334,7 +3334,7 @@
         "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream.<init>()",
         "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream.requireNonNegative(int,String)"
     ],
-    "org.apache.commons.io.IOUtils.toInputStream(CharSequence,Charset)": ["org.apache.commons.io.IOUtils.toInputStream(String,Charset)"],
+    "org.apache.commons.io.IOUtils.toInputStream(CharSequence,Charset)": ["org.apache.commons.io.IOUtils.toInputStream(CharSequence,Charset)"],
     "org.apache.commons.io.input.TaggedInputStream#throwIfCauseOf(Throwable)": ["org.apache.commons.io.TaggedIOException.throwCauseIfTaggedWith(Throwable,Object)"],
     "org.apache.commons.io.input.UnsynchronizedBufferedReader#readLine()": [
         "org.apache.commons.io.input.UnsynchronizedBufferedReader#fillBuf()",
@@ -3395,7 +3395,7 @@
         "org.apache.commons.io.ByteOrderMark.<staticinit>()",
         "org.apache.commons.io.input.BOMInputStream.Builder.<staticinit>()"
     ],
-    "org.apache.commons.io.file.spi.FileSystemProviders#getFileSystemProvider(URI)": ["org.apache.commons.io.file.spi.FileSystemProviders.getFileSystemProvider(Path)"],
+    "org.apache.commons.io.file.spi.FileSystemProviders#getFileSystemProvider(URI)": ["org.apache.commons.io.file.spi.FileSystemProviders#getFileSystemProvider(String)"],
     "org.apache.commons.io.file.AccumulatorPathVisitor#AccumulatorPathVisitor(PathCounters,PathFilter,PathFilter)": [
         "org.apache.commons.io.file.CountingPathVisitor#CountingPathVisitor(PathCounters,PathFilter,PathFilter)",
         "org.apache.commons.io.file.AccumulatorPathVisitor.<init>()"
@@ -3436,7 +3436,7 @@
         "org.apache.commons.io.build.AbstractStreamBuilder.<init>()",
         "org.apache.commons.io.input.BOMInputStream.Builder.<staticinit>()"
     ],
-    "org.apache.commons.io.input.DemuxInputStream#close()": ["org.apache.commons.io.IOUtils.close(Closeable)"],
+    "org.apache.commons.io.input.DemuxInputStream#close()": ["org.apache.commons.io.IOUtils.close(URLConnection)"],
     "org.apache.commons.io.filefilter.FileFilterUtils.and(IOFileFilter[]...)": [
         "org.apache.commons.io.filefilter.AndFileFilter#AndFileFilter(List<IOFileFilter>)",
         "org.apache.commons.io.filefilter.FileFilterUtils.toList(IOFileFilter[]...)"
@@ -3479,7 +3479,7 @@
     "org.apache.commons.io.IOUtils.read(InputStream,byte[],int,int)": ["org.apache.commons.io.IOUtils.read(InputStream,byte[],int,int)"],
     "org.apache.commons.io.output.ChunkedOutputStream.Builder.<init>()": ["org.apache.commons.io.build.AbstractStreamBuilder.<init>()"],
     "org.apache.commons.io.output.FileWriterWithEncoding#FileWriterWithEncoding(String,CharsetEncoder)": ["org.apache.commons.io.output.FileWriterWithEncoding#FileWriterWithEncoding(File,CharsetEncoder,boolean)"],
-    "org.apache.commons.io.IOUtils.write(CharSequence,Writer)": ["org.apache.commons.io.IOUtils.write(CharSequence,Writer)"],
+    "org.apache.commons.io.IOUtils.write(CharSequence,Writer)": ["org.apache.commons.io.IOUtils.write(byte[],Writer)"],
     "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,String,int,boolean)": [
         "org.apache.commons.io.Charsets.toCharset(String)",
         "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,Charset,int,boolean)"
@@ -4136,8 +4136,8 @@
     "org.apache.commons.io.input.CharSequenceReader#CharSequenceReader(CharSequence,int,int)": ["org.apache.commons.io.input.CharSequenceReader.<init>()"],
     "org.apache.commons.io.input.ReaderInputStream.newEncoder(Charset)": ["org.apache.commons.io.Charsets.toCharset(Charset)"],
     "org.apache.commons.io.IOUtils.toString(URI,Charset)": [
-        "org.apache.commons.io.IOUtils.toString(URL,Charset)",
-        "org.apache.commons.io.Charsets.toCharset(Charset)"
+        "org.apache.commons.io.Charsets.toCharset(Charset)",
+        "org.apache.commons.io.IOUtils.toString(InputStream,Charset)"
     ],
     "org.apache.commons.io.IOUtils.copy(Reader,OutputStream,String)": [
         "org.apache.commons.io.Charsets.toCharset(String)",
@@ -4324,7 +4324,7 @@
         "org.apache.commons.io.file.Counters.bigIntegerPathCounters()"
     ],
     "org.apache.commons.io.output.FilterCollectionWriter#flush()": ["org.apache.commons.io.output.FilterCollectionWriter#forAllWriters(IOConsumer<Writer>)"],
-    "org.apache.commons.io.filefilter.IOFileFilter#and(IOFileFilter)": ["org.apache.commons.io.filefilter.AndFileFilter#AndFileFilter(IOFileFilter[]...)"],
+    "org.apache.commons.io.filefilter.IOFileFilter#and(IOFileFilter)": ["org.apache.commons.io.filefilter.AndFileFilter#AndFileFilter(IOFileFilter,IOFileFilter)"],
     "org.apache.commons.io.input.ProxyReader#read(char[])": [
         "org.apache.commons.io.input.NullReader#read(char[])",
         "org.apache.commons.io.IOUtils.length(char[])",
@@ -4493,8 +4493,8 @@
     ],
     "org.apache.commons.io.file.PathUtils.fileContentEquals(Path,Path,LinkOption[],OpenOption[])": [
         "org.apache.commons.io.IOUtils.contentEquals(InputStream,InputStream)",
+        "org.apache.commons.io.RandomAccessFileMode#create(String)",
         "org.apache.commons.io.file.PathUtils.exists(Path,LinkOption[]...)",
-        "org.apache.commons.io.RandomAccessFileMode#create(Path)",
         "org.apache.commons.io.RandomAccessFiles.contentEquals(RandomAccessFile,RandomAccessFile)",
         "org.apache.commons.io.RandomAccessFileMode.<staticinit>()"
     ],
@@ -4912,7 +4912,7 @@
         "org.apache.commons.io.file.PathUtils.isNewer(Path,Path)",
         "org.apache.commons.io.FileUtils.<staticinit>()"
     ],
-    "org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>,ZoneId)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>,ZoneId)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoZonedDateTime<?>)"],
     "org.apache.commons.io.input.ProxyInputStream#markSupported()": [
         "org.apache.commons.io.input.NullInputStream#markSupported()",
         "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#markSupported()",
@@ -5023,7 +5023,7 @@
         "org.apache.commons.io.output.NullWriter#write(char[],int,int)",
         "org.apache.commons.io.output.LockableFileWriter#write(char[],int,int)"
     ],
-    "org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(File)": ["org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(URL)"],
+    "org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(File)": ["org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(Path)"],
     "org.apache.commons.io.filefilter.AbstractFileFilter#get(IOSupplier<FileVisitResult>)": [
         "org.apache.commons.io.input.UnsynchronizedFilterInputStream.Builder#get()",
         "org.apache.commons.io.input.BOMInputStream.Builder#get()",
@@ -5165,12 +5165,12 @@
         "org.apache.commons.io.input.UnixLineEndingInputStream#mark(int)",
         "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream#read(byte[],int,int)",
         "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream#reset()",
+        "org.apache.commons.io.function.IOConsumer.forEach(Stream<T>,IOConsumer<T>)",
         "org.apache.commons.io.input.UnsynchronizedFilterInputStream#reset()",
         "org.apache.commons.io.input.MemoryMappedFileInputStream#read(byte[],int,int)",
         "org.apache.commons.io.IOUtils.<staticinit>()",
         "org.apache.commons.io.input.CharSequenceInputStream#mark(int)",
         "org.apache.commons.io.input.NullInputStream#reset()",
-        "org.apache.commons.io.function.IOConsumer.forEach(Iterable<T>,IOConsumer<T>)",
         "org.apache.commons.io.input.BufferedFileChannelInputStream#read(byte[],int,int)",
         "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#read(byte[],int,int)",
         "org.apache.commons.io.input.XmlStreamReader.<staticinit>()",
@@ -5435,7 +5435,7 @@
         "org.apache.commons.io.file.DeletingPathVisitor#accept(Path)",
         "org.apache.commons.io.file.CountingPathVisitor#updateFileCounters(Path,BasicFileAttributes)"
     ],
-    "org.apache.commons.io.input.ObservableInputStream#consume()": ["org.apache.commons.io.IOUtils.consume(Reader)"],
+    "org.apache.commons.io.input.ObservableInputStream#consume()": ["org.apache.commons.io.IOUtils.consume(InputStream)"],
     "org.apache.commons.io.filefilter.FileFileFilter#accept(Path,BasicFileAttributes)": ["org.apache.commons.io.filefilter.AbstractFileFilter#toFileVisitResult(boolean)"],
     "org.apache.commons.io.monitor.FileAlterationObserver#listFiles(File)": [
         "org.apache.commons.io.monitor.FileAlterationObserver#sort(File[])",
@@ -5463,10 +5463,10 @@
     ],
     "org.apache.commons.io.function.IOSupplier#getUnchecked()": ["org.apache.commons.io.function.Uncheck.get(IOSupplier<T>)"],
     "org.apache.commons.io.output.UncheckedFilterOutputStream#write(byte[],int,int)": ["org.apache.commons.io.function.Uncheck.accept(IOTriConsumer<T, U, V>,T,U,V)"],
-    "org.apache.commons.io.FileUtils.isFileOlder(File,OffsetDateTime)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileOlder(File,OffsetDateTime)": ["org.apache.commons.io.FileUtils.isFileOlder(File,FileTime)"],
     "org.apache.commons.io.filefilter.FileFilterUtils#FileFilterUtils()": ["org.apache.commons.io.filefilter.FileFilterUtils.<init>()"],
     "org.apache.commons.io.monitor.FileAlterationObserver#getDirectory()": ["org.apache.commons.io.monitor.FileEntry#getFile()"],
-    "org.apache.commons.io.filefilter.SuffixFileFilter#accept(File)": ["org.apache.commons.io.filefilter.SuffixFileFilter#accept(File)"],
+    "org.apache.commons.io.filefilter.SuffixFileFilter#accept(File)": ["org.apache.commons.io.filefilter.SuffixFileFilter#accept(String)"],
     "org.apache.commons.io.file.FilesUncheck.createFile(Path,FileAttribute<?>[]...)": ["org.apache.commons.io.function.Uncheck.apply(IOBiFunction<T, U, R>,T,U)"],
     "org.apache.commons.io.file.PathUtils.RelativeSortedPaths#RelativeSortedPaths(Path,Path,int,LinkOption[],FileVisitOption[])": [
         "org.apache.commons.io.file.PathUtils.accumulate(Path,int,FileVisitOption[])",
@@ -5623,7 +5623,7 @@
         "org.apache.commons.io.filefilter.AndFileFilter#addFileFilter(IOFileFilter[]...)"
     ],
     "org.apache.commons.io.output.DeferredFileOutputStream#getData()": ["org.apache.commons.io.output.ByteArrayOutputStream#toByteArray()"],
-    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDate,OffsetTime)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDate,OffsetTime)": ["org.apache.commons.io.FileUtils.isFileOlder(File,FileTime)"],
     "org.apache.commons.io.filefilter.OrFileFilter#OrFileFilter(int)": ["org.apache.commons.io.filefilter.OrFileFilter#OrFileFilter(ArrayList<IOFileFilter>)"],
     "org.apache.commons.io.input.WindowsLineEndingInputStream#close()": [
         "org.apache.commons.io.input.AbstractInputStream#close()",
@@ -5802,7 +5802,7 @@
     "org.apache.commons.io.LineIterator.closeQuietly(LineIterator)": ["org.apache.commons.io.IOUtils.closeQuietly(Closeable)"],
     "org.apache.commons.io.FileUtils.writeByteArrayToFile(File,byte[],boolean)": ["org.apache.commons.io.FileUtils.writeByteArrayToFile(File,byte[],int,int,boolean)"],
     "org.apache.commons.io.input.Tailer.TailablePath#TailablePath(Path,LinkOption[]...)": ["org.apache.commons.io.input.Tailer.TailablePath.<init>()"],
-    "org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(Path)": ["org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(URL)"],
+    "org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(Path)": ["org.apache.commons.io.input.XmlStreamReader#XmlStreamReader(Path)"],
     "org.apache.commons.io.FileUtils.iterateFiles(File,String[],boolean)": [
         "org.apache.commons.io.StreamIterator.iterator(Stream<T>)",
         "org.apache.commons.io.FileUtils.streamFiles(File,boolean,String[]...)",
@@ -5827,8 +5827,8 @@
         "org.apache.commons.io.IOUtils.<staticinit>()"
     ],
     "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader)": [
-        "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader,Charset)",
-        "org.apache.commons.io.IOUtils.<staticinit>()"
+        "org.apache.commons.io.IOUtils.<staticinit>()",
+        "org.apache.commons.io.input.ReaderInputStream#ReaderInputStream(Reader,String)"
     ],
     "org.apache.commons.io.HexDump.dump(byte[],long,OutputStream,int)": [
         "org.apache.commons.io.HexDump.dump(byte[],long,Appendable,int,int)",
@@ -5844,7 +5844,7 @@
     "org.apache.commons.io.file.FilesUncheck.createDirectory(Path,FileAttribute<?>[]...)": ["org.apache.commons.io.function.Uncheck.apply(IOBiFunction<T, U, R>,T,U)"],
     "org.apache.commons.io.IOUtils.toByteArray(InputStream,int)": [
         "org.apache.commons.io.IOUtils.<staticinit>()",
-        "org.apache.commons.io.IOUtils.toByteArray(IOTriFunction<byte[], Integer, Integer, Integer>,int)"
+        "org.apache.commons.io.IOUtils.toByteArray(InputStream,int)"
     ],
     "org.apache.commons.io.filefilter.HiddenFileFilter#HiddenFileFilter()": [
         "org.apache.commons.io.filefilter.AbstractFileFilter#AbstractFileFilter()",
@@ -5953,7 +5953,7 @@
     "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream.builder()": ["org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream.Builder.<init>()"],
     "org.apache.commons.io.function.IOStream#toArray(IntFunction<A[]>)": ["org.apache.commons.io.function.IOBaseStreamAdapter#unwrap()"],
     "org.apache.commons.io.FileUtils.writeByteArrayToFile(File,byte[])": ["org.apache.commons.io.FileUtils.writeByteArrayToFile(File,byte[],boolean)"],
-    "org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDate,OffsetTime)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDate,OffsetTime)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoZonedDateTime<?>)"],
     "org.apache.commons.io.filefilter.NameFileFilter#acceptBaseName(String)": ["org.apache.commons.io.IOCase#checkEquals(String,String)"],
     "org.apache.commons.io.EndianUtils.writeSwappedDouble(byte[],int,double)": ["org.apache.commons.io.EndianUtils.writeSwappedLong(byte[],int,long)"],
     "org.apache.commons.io.IOUtils.toInputStream(CharSequence)": ["org.apache.commons.io.IOUtils.toInputStream(CharSequence,Charset)"],
@@ -6017,7 +6017,7 @@
         "org.apache.commons.io.input.UnsynchronizedBufferedReader#fillBuf()"
     ],
     "org.apache.commons.io.function.IOConsumer#asConsumer()": ["org.apache.commons.io.function.Uncheck.accept(IOConsumer<T>,T)"],
-    "org.apache.commons.io.FileUtils.isFileNewer(File,Date)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileNewer(File,Date)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoZonedDateTime<?>)"],
     "org.apache.commons.io.FileUtils.writeLines(File,String,Collection<?>,boolean)": ["org.apache.commons.io.FileUtils.writeLines(File,String,Collection<?>,String,boolean)"],
     "org.apache.commons.io.output.LockableFileWriter#LockableFileWriter(File,String)": ["org.apache.commons.io.output.LockableFileWriter#LockableFileWriter(File,String,boolean,String)"],
     "org.apache.commons.io.filefilter.PrefixFileFilter#PrefixFileFilter(String,IOCase)": [
@@ -6300,14 +6300,14 @@
         "org.apache.commons.io.output.LockableFileWriter#write(char[])",
         "org.apache.commons.io.output.NullWriter#write(char[],int,int)",
         "org.apache.commons.io.output.BrokenWriter#write(char[],int,int)",
-        "org.apache.commons.io.output.FilterCollectionWriter#write(int)",
+        "org.apache.commons.io.output.FilterCollectionWriter#write(char[])",
         "org.apache.commons.io.output.FilterCollectionWriter#write(char[],int,int)",
         "org.apache.commons.io.input.XmlStreamReader.<staticinit>()",
         "org.apache.commons.io.output.AppendableWriter#write(char[],int,int)",
         "org.apache.commons.io.output.ProxyCollectionWriter#write(char[],int,int)",
+        "org.apache.commons.io.output.ProxyCollectionWriter#write(char[])",
         "org.apache.commons.io.output.AppendableWriter#write(int)",
         "org.apache.commons.io.output.XmlStreamWriter.<staticinit>()",
-        "org.apache.commons.io.output.ProxyCollectionWriter#write(int)",
         "org.apache.commons.io.output.LockableFileWriter#write(char[],int,int)"
     ],
     "org.apache.commons.io.input.CloseShieldInputStream#CloseShieldInputStream(InputStream)": [
@@ -6388,7 +6388,7 @@
         "org.apache.commons.io.IOUtils.toString(URI,Charset)"
     ],
     "org.apache.commons.io.filefilter.FileFilterUtils.suffixFileFilter(String,IOCase)": ["org.apache.commons.io.filefilter.SuffixFileFilter#SuffixFileFilter(String,IOCase)"],
-    "org.apache.commons.io.FileUtils.byteCountToDisplaySize(Number)": ["org.apache.commons.io.FileUtils.byteCountToDisplaySize(long)"],
+    "org.apache.commons.io.FileUtils.byteCountToDisplaySize(Number)": ["org.apache.commons.io.FileUtils.byteCountToDisplaySize(BigInteger)"],
     "org.apache.commons.io.input.UncheckedBufferedReader.Builder#get()": [
         "org.apache.commons.io.build.AbstractStreamBuilder#getReader()",
         "org.apache.commons.io.build.AbstractStreamBuilder#getBufferSize()",
@@ -6572,7 +6572,7 @@
         "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream#write(int)",
         "org.apache.commons.io.output.ClosedOutputStream#write(int)"
     ],
-    "org.apache.commons.io.CloseableURLConnection.open(URI)": ["org.apache.commons.io.CloseableURLConnection.open(URI)"],
+    "org.apache.commons.io.CloseableURLConnection.open(URI)": ["org.apache.commons.io.CloseableURLConnection.open(URL)"],
     "org.apache.commons.io.input.ThrottledInputStream.Builder#get()": [
         "org.apache.commons.io.input.ThrottledInputStream#ThrottledInputStream(InputStream,long)",
         "org.apache.commons.io.build.AbstractStreamBuilder#getInputStream()"
@@ -6638,8 +6638,8 @@
         "org.apache.commons.io.file.AccumulatorPathVisitor#AccumulatorPathVisitor(PathCounters,PathFilter,PathFilter,IOBiFunction<Path, IOException, FileVisitResult>)",
         "org.apache.commons.io.filefilter.FileEqualsFileFilter#FileEqualsFileFilter(File)",
         "org.apache.commons.io.filefilter.TrueFileFilter#or(IOFileFilter)",
-        "org.apache.commons.io.filefilter.IOFileFilter#or(IOFileFilter)",
         "org.apache.commons.io.filefilter.FalseFileFilter#or(IOFileFilter)",
+        "org.apache.commons.io.filefilter.IOFileFilter#or(IOFileFilter)",
         "org.apache.commons.io.FileUtils.toMaxDepth(boolean)",
         "org.apache.commons.io.file.Counters.noopPathCounters()"
     ],
@@ -6662,7 +6662,7 @@
         "org.apache.commons.io.input.BoundedReader#read()",
         "org.apache.commons.io.IOUtils.<staticinit>()"
     ],
-    "org.apache.commons.io.LineIterator#close()": ["org.apache.commons.io.IOUtils.close(Closeable)"],
+    "org.apache.commons.io.LineIterator#close()": ["org.apache.commons.io.IOUtils.close(URLConnection)"],
     "org.apache.commons.io.input.ReaderInputStream.Builder.<init>()": [
         "org.apache.commons.io.build.AbstractStreamBuilder.<init>()",
         "org.apache.commons.io.build.AbstractStreamBuilder#getCharset()",
@@ -6725,7 +6725,7 @@
         "org.apache.commons.io.filefilter.FileFilterUtils.filterFiles(IOFileFilter,Stream<File>,Collector<? super File, A, R>)",
         "org.apache.commons.io.FileUtils.<staticinit>()"
     ],
-    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDate,LocalTime)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDate,LocalTime)": ["org.apache.commons.io.FileUtils.isFileOlder(File,FileTime)"],
     "org.apache.commons.io.EndianUtils.readSwappedInteger(InputStream)": ["org.apache.commons.io.EndianUtils.read(InputStream)"],
     "org.apache.commons.io.FileUtils.copyDirectory(File,File,FileFilter)": ["org.apache.commons.io.FileUtils.copyDirectory(File,File,FileFilter,boolean)"],
     "org.apache.commons.io.FilenameUtils.doNormalize(String,char,boolean)": [
@@ -6873,13 +6873,13 @@
         "org.apache.commons.io.output.NullWriter#write(char[],int,int)",
         "org.apache.commons.io.output.LockableFileWriter#write(char[],int,int)"
     ],
-    "org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDate,LocalTime)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileNewer(File,ChronoLocalDate,LocalTime)": ["org.apache.commons.io.FileUtils.isFileNewer(File,ChronoZonedDateTime<?>)"],
     "org.apache.commons.io.input.NullInputStream#read(byte[],int,int)": [
         "org.apache.commons.io.input.NullInputStream#processBytes(byte[],int,int)",
         "org.apache.commons.io.input.NullInputStream#handleEof()",
         "org.apache.commons.io.input.AbstractInputStream#checkOpen()"
     ],
-    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDateTime<?>,ZoneId)": ["org.apache.commons.io.FileUtils.isFileOlder(File,ChronoZonedDateTime<?>)"],
+    "org.apache.commons.io.FileUtils.isFileOlder(File,ChronoLocalDateTime<?>,ZoneId)": ["org.apache.commons.io.FileUtils.isFileOlder(File,FileTime)"],
     "org.apache.commons.io.file.FilesUncheck.write(Path,byte[],OpenOption[]...)": ["org.apache.commons.io.function.Uncheck.apply(IOTriFunction<T, U, V, R>,T,U,V)"],
     "org.apache.commons.io.input.ObservableInputStream#ObservableInputStream(InputStream)": ["org.apache.commons.io.input.ObservableInputStream#ObservableInputStream(InputStream,List<Observer>)"],
     "org.apache.commons.io.build.AbstractOrigin#getReader(Charset)": [
@@ -7064,7 +7064,7 @@
         "org.apache.commons.io.input.UnsynchronizedBufferedReader#ready()",
         "org.apache.commons.io.input.UnsynchronizedReader#checkOpen()"
     ],
-    "org.apache.commons.io.output.DemuxOutputStream#close()": ["org.apache.commons.io.IOUtils.close(Closeable)"],
+    "org.apache.commons.io.output.DemuxOutputStream#close()": ["org.apache.commons.io.IOUtils.close(URLConnection)"],
     "org.apache.commons.io.input.BrokenReader#BrokenReader(IOException)": ["org.apache.commons.io.input.BrokenReader#BrokenReader(Supplier<Throwable>)"],
     "org.apache.commons.io.filefilter.NameFileFilter#accept(Path,BasicFileAttributes)": [
         "org.apache.commons.io.filefilter.AbstractFileFilter#toFileVisitResult(boolean)",
@@ -7151,12 +7151,12 @@
         "org.apache.commons.io.FileUtils.copyFile(File,File,boolean)"
     ],
     "org.apache.commons.io.IOUtils.write(StringBuffer,Writer)": [
+        "org.apache.commons.io.output.ProxyCollectionWriter#write(char[])",
         "org.apache.commons.io.output.AppendableWriter#write(int)",
         "org.apache.commons.io.output.LockableFileWriter#write(char[])",
-        "org.apache.commons.io.output.ProxyCollectionWriter#write(int)",
+        "org.apache.commons.io.output.FilterCollectionWriter#write(char[])",
         "org.apache.commons.io.output.StringBuilderWriter#write(String)",
-        "org.apache.commons.io.output.NullWriter#write(char[])",
-        "org.apache.commons.io.output.FilterCollectionWriter#write(int)"
+        "org.apache.commons.io.output.NullWriter#write(char[])"
     ],
     "org.apache.commons.io.filefilter.TrueFileFilter#toString()": ["org.apache.commons.io.filefilter.TrueFileFilter.<staticinit>()"],
     "org.apache.commons.io.IOUtils.closeQuietly(Closeable)": ["org.apache.commons.io.IOUtils.closeQuietly(Closeable[]...)"],
@@ -7581,7 +7581,7 @@
         "org.apache.commons.io.input.ReadAheadInputStream#swapBuffers()",
         "org.apache.commons.io.input.ReadAheadInputStream#readAsync()"
     ],
-    "org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,String,String[]...)": ["org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,Path)"],
+    "org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,String,String[]...)": ["org.apache.commons.io.file.PathUtils.visitFileTree(T extends FileVisitor,URI)"],
     "org.apache.commons.io.build.AbstractOrigin.InputStreamOrigin#getInputStream(OpenOption[]...)": ["org.apache.commons.io.build.AbstractOrigin#get()"],
     "org.apache.commons.io.file.FilesUncheck.lines(Path)": ["org.apache.commons.io.function.Uncheck.apply(IOFunction<T, R>,T)"],
     "org.apache.commons.io.input.BrokenInputStream#skip(long)": ["org.apache.commons.io.input.BrokenInputStream#rethrow()"],
@@ -7593,13 +7593,13 @@
     "org.apache.commons.io.output.WriterOutputStream#flushOutput()": [
         "org.apache.commons.io.output.StringBuilderWriter#write(char[],int,int)",
         "org.apache.commons.io.output.BrokenWriter#write(char[],int,int)",
-        "org.apache.commons.io.output.NullWriter#write(String,int,int)",
-        "org.apache.commons.io.output.AppendableWriter#write(char[],int,int)",
+        "org.apache.commons.io.output.AppendableWriter#write(String,int,int)",
         "org.apache.commons.io.output.ProxyCollectionWriter#write(char[],int,int)",
         "org.apache.commons.io.output.ClosedWriter#write(char[],int,int)",
         "org.apache.commons.io.output.XmlStreamWriter#write(char[],int,int)",
         "org.apache.commons.io.output.FilterCollectionWriter#write(String,int,int)",
-        "org.apache.commons.io.output.LockableFileWriter#write(char[],int,int)"
+        "org.apache.commons.io.output.NullWriter#write(char[],int,int)",
+        "org.apache.commons.io.output.LockableFileWriter#write(String,int,int)"
     ],
     "org.apache.commons.io.output.FilterCollectionWriter#FilterCollectionWriter(Collection<Writer>)": ["org.apache.commons.io.output.FilterCollectionWriter.<init>()"],
     "org.apache.commons.io.output.DeferredFileOutputStream.Builder#Builder()": [
@@ -7622,6 +7622,7 @@
         "org.apache.commons.io.output.ProxyCollectionWriter#write(String)",
         "org.apache.commons.io.output.LockableFileWriter#write(String)",
         "org.apache.commons.io.filefilter.NameFileFilter#toString()",
+        "org.apache.commons.io.output.FilterCollectionWriter#write(char[])",
         "org.apache.commons.io.comparator.ExtensionFileComparator#toString()",
         "org.apache.commons.io.comparator.CompositeFileComparator#toString()",
         "org.apache.commons.io.filefilter.AgeFileFilter#toString()",
@@ -7635,10 +7636,9 @@
         "org.apache.commons.io.output.FilterCollectionWriter#write(String)",
         "org.apache.commons.io.input.TimestampedObserver#toString()",
         "org.apache.commons.io.filefilter.OrFileFilter#toString()",
-        "org.apache.commons.io.output.FilterCollectionWriter#write(int)",
         "org.apache.commons.io.filefilter.SuffixFileFilter#toString()",
+        "org.apache.commons.io.output.ProxyCollectionWriter#write(char[])",
         "org.apache.commons.io.output.AppendableWriter#write(int)",
-        "org.apache.commons.io.output.ProxyCollectionWriter#write(int)",
         "org.apache.commons.io.comparator.ReverseFileComparator#toString()"
     ],
     "org.apache.commons.io.FileUtils.isFileNewer(File,Instant)": [
@@ -7683,7 +7683,7 @@
         "org.apache.commons.io.filefilter.TrueFileFilter.<staticinit>()",
         "org.apache.commons.io.monitor.FileEntry#getFile()"
     ],
-    "org.apache.commons.io.IOUtils.toString(URL,Charset)": ["org.apache.commons.io.IOUtils.toString(URL,Charset)"],
+    "org.apache.commons.io.IOUtils.toString(URL,Charset)": ["org.apache.commons.io.IOUtils.toString(InputStream,Charset)"],
     "org.apache.commons.io.IOUtils.write(char[],OutputStream,String)": [
         "org.apache.commons.io.Charsets.toCharset(String)",
         "org.apache.commons.io.IOUtils.write(char[],OutputStream,Charset)"
@@ -7702,8 +7702,8 @@
     ],
     "org.apache.commons.io.file.FilesUncheck.walkFileTree(Path,FileVisitor<? super Path>)": ["org.apache.commons.io.function.Uncheck.apply(IOBiFunction<T, U, R>,T,U)"],
     "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,Charset,int,boolean)": [
-        "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,CharsetDecoder,int,boolean)",
-        "org.apache.commons.io.Charsets.toCharset(Charset)"
+        "org.apache.commons.io.Charsets.toCharset(Charset)",
+        "org.apache.commons.io.output.WriterOutputStream#WriterOutputStream(Writer,Charset,int,boolean)"
     ],
     "org.apache.commons.io.input.TaggedInputStream#isCauseOf(Throwable)": ["org.apache.commons.io.TaggedIOException.isTaggedWith(Throwable,Object)"],
     "org.apache.commons.io.FileUtils.deleteDirectory(File)": [
