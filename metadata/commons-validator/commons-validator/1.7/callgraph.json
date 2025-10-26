@@ -1,0 +1,1399 @@
+{
+    "org.apache.commons.validator.routines.DoubleValidator#DoubleValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.DoubleValidator.<init>()"
+    ],
+    "org.apache.commons.validator.CreditCardValidator.Mastercard#matches(String)": ["org.apache.commons.validator.CreditCardValidator.Mastercard.<staticinit>()"],
+    "org.apache.commons.validator.routines.ByteValidator.<staticinit>()": ["org.apache.commons.validator.routines.ByteValidator#ByteValidator()"],
+    "org.apache.commons.validator.routines.ISBNValidator#ISBNValidator()": ["org.apache.commons.validator.routines.ISBNValidator#ISBNValidator(boolean)"],
+    "org.apache.commons.validator.routines.BigIntegerValidator.getInstance()": ["org.apache.commons.validator.routines.BigIntegerValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.BigDecimalValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#validateForRule(ValidatorAction,ValidatorResults,Map<String, ValidatorAction>,Map<String, Object>,int)": [
+        "org.apache.commons.validator.ValidatorResult#isValid(String)",
+        "org.apache.commons.validator.Field#runDependentValidators(ValidatorAction,ValidatorResults,Map<String, ValidatorAction>,Map<String, Object>,int)",
+        "org.apache.commons.validator.ValidatorResult#containsAction(String)",
+        "org.apache.commons.validator.ValidatorResults#getValidatorResult(String)",
+        "org.apache.commons.validator.Field#getKey()",
+        "org.apache.commons.validator.ValidatorAction#executeValidationMethod(Field,Map<String, Object>,ValidatorResults,int)",
+        "org.apache.commons.validator.ValidatorAction#getName()"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator#isValidInfrastructureTld(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator#chompLeadingDot(String)",
+        "org.apache.commons.validator.routines.DomainValidator.arrayContains(String[],String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.UrlValidator#isValid(String)": [
+        "org.apache.commons.validator.UrlValidator#isValidPath(String)",
+        "org.apache.commons.validator.UrlValidator#isValidFragment(String)",
+        "org.apache.commons.validator.UrlValidator#isValidQuery(String)",
+        "org.apache.commons.validator.UrlValidator#isValidScheme(String)",
+        "org.apache.commons.validator.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.UrlValidator#isValidAuthority(String)"
+    ],
+    "org.apache.commons.validator.CreditCardValidator.Amex#matches(String)": ["org.apache.commons.validator.CreditCardValidator.Amex.<staticinit>()"],
+    "org.apache.commons.validator.routines.BigIntegerValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException.<init>()"],
+    "org.apache.commons.validator.routines.DoubleValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.GenericValidator.isByte(String)": ["org.apache.commons.validator.GenericTypeValidator.formatByte(String)"],
+    "org.apache.commons.validator.routines.ShortValidator#ShortValidator()": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.ShortValidator#ShortValidator(boolean,int)"
+    ],
+    "org.apache.commons.validator.routines.IntegerValidator#maxValue(Integer,int)": ["org.apache.commons.validator.routines.IntegerValidator#maxValue(int,int)"],
+    "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1.<init>()": ["org.apache.commons.validator.routines.RegexValidator#RegexValidator(String)"],
+    "org.apache.commons.validator.FormSetFactory#createFormSet(ValidatorResources,String,String,String)": [
+        "org.apache.commons.validator.FormSet#setLanguage(String)",
+        "org.apache.commons.validator.FormSet#setCountry(String)",
+        "org.apache.commons.validator.FormSet#setVariant(String)",
+        "org.apache.commons.validator.FormSet.<init>()",
+        "org.apache.commons.validator.ValidatorResources#addFormSet(FormSet)",
+        "org.apache.commons.validator.FormSetFactory#getLog()",
+        "org.apache.commons.validator.FormSet#displayKey()",
+        "org.apache.commons.validator.ValidatorResources#getFormSet(String,String,String)"
+    ],
+    "org.apache.commons.validator.CreditCardValidator.Visa#matches(String)": ["org.apache.commons.validator.CreditCardValidator.Visa.<staticinit>()"],
+    "org.apache.commons.validator.routines.CalendarValidator#compareDates(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,CheckDigit)": ["org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,int,CheckDigit)"],
+    "org.apache.commons.validator.routines.BigIntegerValidator#BigIntegerValidator()": [
+        "org.apache.commons.validator.routines.BigIntegerValidator#BigIntegerValidator(boolean,int)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.ValidatorResources#getParent(FormSet)": [
+        "org.apache.commons.validator.ValidatorResources#getFormSets()",
+        "org.apache.commons.validator.ValidatorResources#buildLocale(String,String,String)",
+        "org.apache.commons.validator.FormSet#getLanguage()",
+        "org.apache.commons.validator.FormSet#getType()",
+        "org.apache.commons.validator.FormSet.<staticinit>()",
+        "org.apache.commons.validator.FormSet#getCountry()"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.DoubleValidator#isInRange(Double,double,double)": ["org.apache.commons.validator.routines.DoubleValidator#isInRange(Double,double,double)"],
+    "org.apache.commons.validator.ValidatorResources#getForm(Locale,String)": ["org.apache.commons.validator.ValidatorResources#getForm(String,String,String,String)"],
+    "org.apache.commons.validator.routines.LongValidator#LongValidator()": [
+        "org.apache.commons.validator.routines.LongValidator#LongValidator(boolean,int)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.ISBNValidator.getInstance(boolean)": ["org.apache.commons.validator.routines.ISBNValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit#CUSIPCheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.util.ValidatorUtils.copyMap(Map<String, Object>)": [
+        "org.apache.commons.validator.Msg#clone()",
+        "org.apache.commons.validator.Arg#clone()",
+        "org.apache.commons.validator.Var#clone()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculate(String)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toCheckDigit(int)",
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#calculateModulus(String,boolean)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculateModulus(String,boolean)",
+        "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#toCheckDigit(int)",
+        "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#toCheckDigit(int)",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#calculateModulus(String,boolean)"
+    ],
+    "org.apache.commons.validator.Form#merge(Form)": [
+        "org.apache.commons.validator.Form#getField(String)",
+        "org.apache.commons.validator.Form#containsField(String)",
+        "org.apache.commons.validator.Form#getFieldMap()",
+        "org.apache.commons.validator.Form#getFields()",
+        "org.apache.commons.validator.Field#getKey()"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator#validate(String)": ["org.apache.commons.validator.routines.CodeValidator#validate(String)"],
+    "org.apache.commons.validator.routines.CodeValidator#validate(String)": [
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#validate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.RegexValidator#validate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#isValid(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#toInt(char,int,int)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toInt(char,int,int)"],
+    "org.apache.commons.validator.Field#addVar(Var)": [
+        "org.apache.commons.validator.Field#getVarMap()",
+        "org.apache.commons.validator.Var#getName()"
+    ],
+    "org.apache.commons.validator.routines.DoubleValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#processMessageComponents(String,String)": [
+        "org.apache.commons.validator.Msg#setKey(String)",
+        "org.apache.commons.validator.Field.<staticinit>()",
+        "org.apache.commons.validator.Field#getMsgMap()",
+        "org.apache.commons.validator.Msg#getKey()",
+        "org.apache.commons.validator.Field#processArg(String,String)",
+        "org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator#DomainValidator(boolean,List<Item>)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.ArrayType.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.ByteValidator#minValue(Byte,byte)": ["org.apache.commons.validator.routines.ByteValidator#minValue(Byte,byte)"],
+    "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#validate(String)": [
+        "org.apache.commons.validator.routines.CreditCardValidator.validLength(int,CreditCardRange)",
+        "org.apache.commons.validator.routines.RegexValidator#match(String)"
+    ],
+    "org.apache.commons.validator.EmailValidator#isValidIpAddress(String)": ["org.apache.commons.validator.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,String,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.ISBNValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.ISBNValidator.getInstance()",
+        "org.apache.commons.validator.routines.ISBNValidator#isValidISBN10(String)"
+    ],
+    "org.apache.commons.validator.routines.FloatValidator#isInRange(Float,float,float)": ["org.apache.commons.validator.routines.FloatValidator#isInRange(float,float,float)"],
+    "org.apache.commons.validator.routines.DomainValidator#isValidCountryCodeTld(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator#chompLeadingDot(String)",
+        "org.apache.commons.validator.routines.DomainValidator.arrayContains(String[],String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#toCheckDigit(int)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toCheckDigit(int)"],
+    "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculate(String)": [
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculateChecksum(String,boolean)"
+    ],
+    "org.apache.commons.validator.routines.FloatValidator.getInstance()": ["org.apache.commons.validator.routines.FloatValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator(boolean)": [
+        "org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.ValidatorResources#processForms()": [
+        "org.apache.commons.validator.ValidatorResources#getFormSets()",
+        "org.apache.commons.validator.ValidatorResources#getConstants()",
+        "org.apache.commons.validator.FormSet#isProcessed()",
+        "org.apache.commons.validator.FormSet.<init>()",
+        "org.apache.commons.validator.ValidatorResources#getParent(FormSet)",
+        "org.apache.commons.validator.FormSet#merge(FormSet)",
+        "org.apache.commons.validator.FormSet#process(Map<String, String>)"
+    ],
+    "org.apache.commons.validator.GenericValidator.isDate(String,Locale)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#isValid(String,Locale)",
+        "org.apache.commons.validator.routines.DateValidator.getInstance()"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator.genericCreditCardValidator()": [
+        "org.apache.commons.validator.routines.CreditCardValidator.genericCreditCardValidator(int,int)",
+        "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.Field#ensureArgsCapacity(Arg)": ["org.apache.commons.validator.Arg#getPosition()"],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#compareTime(Calendar,Calendar,int)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#calculateCompareResult(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.UrlValidator#isValidFragment(String)": [
+        "org.apache.commons.validator.routines.UrlValidator#isOff(long)",
+        "org.apache.commons.validator.routines.UrlValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.ISINValidator#checkCode(String)": ["org.apache.commons.validator.routines.ISINValidator.<staticinit>()"],
+    "org.apache.commons.validator.Field#getMessages()": ["org.apache.commons.validator.Field#getMsgMap()"],
+    "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator()": [
+        "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator(long)",
+        "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator.Validator#Validator(String,int,String)": [
+        "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String)",
+        "org.apache.commons.validator.routines.IBANValidator.Validator.<staticinit>()",
+        "org.apache.commons.validator.routines.IBANValidator.Validator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator.getInstance(boolean,List<Item>)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator#DomainValidator(boolean,List<Item>)"
+    ],
+    "org.apache.commons.validator.routines.ISINValidator#validate(String)": [
+        "org.apache.commons.validator.routines.ISINValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CodeValidator#validate(String)",
+        "org.apache.commons.validator.routines.ISINValidator#checkCode(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit#weightedValue(int,int,int)": ["org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit.<staticinit>()"],
+    "org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator(boolean,int,boolean)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.BigDecimalValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculateChecksum(String,boolean)": [
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"
+    ],
+    "org.apache.commons.validator.Field#addMsg(Msg)": [
+        "org.apache.commons.validator.Msg#getName()",
+        "org.apache.commons.validator.Field#getMsgMap()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit.<staticinit>()": [
+        "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator.CreditCardRange#CreditCardRange(String,String,int,int)": ["org.apache.commons.validator.routines.CreditCardValidator.CreditCardRange.<init>()"],
+    "org.apache.commons.validator.GenericTypeValidator.formatDate(String,String,boolean)": ["org.apache.commons.validator.GenericTypeValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#parse(String,Format)": [
+        "org.apache.commons.validator.routines.BigDecimalValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.BigIntegerValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.DoubleValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.FloatValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.ShortValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.AbstractFormatValidator#isStrict()",
+        "org.apache.commons.validator.routines.DateValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.LongValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.CalendarValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.TimeValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.ByteValidator#processParsedValue(Object,Format)",
+        "org.apache.commons.validator.routines.IntegerValidator#processParsedValue(Object,Format)"
+    ],
+    "org.apache.commons.validator.routines.BigDecimalValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.ISSNValidator#extractFromEAN13(String)": [
+        "org.apache.commons.validator.routines.ISSNValidator#validateEan(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toString()",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.ISSNValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.DateValidator.<staticinit>()": ["org.apache.commons.validator.DateValidator#DateValidator()"],
+    "org.apache.commons.validator.routines.PercentValidator.getInstance()": ["org.apache.commons.validator.routines.PercentValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.IBANValidator#setValidator(Validator)": ["org.apache.commons.validator.routines.IBANValidator.<staticinit>()"],
+    "org.apache.commons.validator.Field#getVarValue(String)": [
+        "org.apache.commons.validator.Field#getVarMap()",
+        "org.apache.commons.validator.Var#getValue()"
+    ],
+    "org.apache.commons.validator.ISBNValidator#ISBNValidator()": ["org.apache.commons.validator.ISBNValidator.<init>()"],
+    "org.apache.commons.validator.routines.TimeValidator#compareHours(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compareTime(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.DoubleValidator#DoubleValidator()": [
+        "org.apache.commons.validator.routines.DoubleValidator#DoubleValidator(boolean,int)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.ISSNValidator.getInstance()": ["org.apache.commons.validator.routines.ISSNValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.InetAddressValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.InetAddressValidator#isValidInet6Address(String)",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValidInet4Address(String)"
+    ],
+    "org.apache.commons.validator.EmailValidator.getInstance()": ["org.apache.commons.validator.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.ValidatorAction#loadJavascriptFunction()": [
+        "org.apache.commons.validator.ValidatorAction#readJavascriptFile(String)",
+        "org.apache.commons.validator.ValidatorAction#javascriptAlreadyLoaded()",
+        "org.apache.commons.validator.ValidatorAction#generateJsFunction()",
+        "org.apache.commons.validator.ValidatorAction#getLog()",
+        "org.apache.commons.validator.ValidatorAction#formatJavascriptFileName()"
+    ],
+    "org.apache.commons.validator.Form#process(Map<String, String>,Map<String, String>,Map<String, Form>)": [
+        "org.apache.commons.validator.Form#getFieldMap()",
+        "org.apache.commons.validator.Form#isProcessed()",
+        "org.apache.commons.validator.Form#getFields()",
+        "org.apache.commons.validator.Field#process(Map<String, String>,Map<String, String>)",
+        "org.apache.commons.validator.Field#getKey()",
+        "org.apache.commons.validator.Form#isExtending()",
+        "org.apache.commons.validator.Form#process(Map<String, String>,Map<String, String>,Map<String, Form>)"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator.getInstance()": ["org.apache.commons.validator.routines.IBANValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toInt(char,int,int)": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"],
+    "org.apache.commons.validator.routines.DomainValidator#isValidDomainSyntax(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#match(String)",
+        "org.apache.commons.validator.routines.RegexValidator#match(String)",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#isValid(String)",
+        "org.apache.commons.validator.routines.RegexValidator#isValid(String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],RegexValidator,long,DomainValidator)": [
+        "org.apache.commons.validator.routines.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.UrlValidator.<init>()",
+        "org.apache.commons.validator.routines.UrlValidator#isOn(long)",
+        "org.apache.commons.validator.routines.DomainValidator#isAllowLocal()"
+    ],
+    "org.apache.commons.validator.routines.CurrencyValidator.<staticinit>()": ["org.apache.commons.validator.routines.CurrencyValidator#CurrencyValidator()"],
+    "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#SedolCheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator#isValid(String)": ["org.apache.commons.validator.routines.CodeValidator#isValid(String)"],
+    "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#SedolCheckDigit()"],
+    "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit#toInt(char,int,int)": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"],
+    "org.apache.commons.validator.EmailValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.EmailValidator.getInstance()",
+        "org.apache.commons.validator.routines.EmailValidator#isValid(String)"
+    ],
+    "org.apache.commons.validator.GenericValidator.isShort(String)": ["org.apache.commons.validator.GenericTypeValidator.formatShort(String)"],
+    "org.apache.commons.validator.Field#process(Map<String, String>,Map<String, String>)": [
+        "org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)",
+        "org.apache.commons.validator.Field#processVars(String,String)",
+        "org.apache.commons.validator.Var#getValue()",
+        "org.apache.commons.validator.Field#processMessageComponents(String,String)",
+        "org.apache.commons.validator.Field#getVarMap()",
+        "org.apache.commons.validator.Field.<staticinit>()",
+        "org.apache.commons.validator.Field#generateKey()",
+        "org.apache.commons.validator.Field#getVar(String)"
+    ],
+    "org.apache.commons.validator.routines.ISBNValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.ISBNValidator#isValidISBN13(String)",
+        "org.apache.commons.validator.routines.ISBNValidator#isValidISBN10(String)"
+    ],
+    "org.apache.commons.validator.routines.DoubleValidator#minValue(Double,double)": ["org.apache.commons.validator.routines.DoubleValidator#minValue(double,double)"],
+    "org.apache.commons.validator.routines.DateValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.ValidatorAction#handleIndexedField(Field,int,Object[])": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)",
+        "org.apache.commons.validator.Field#getIndexedProperty(Object)",
+        "org.apache.commons.validator.Field#clone()",
+        "org.apache.commons.validator.Field.<staticinit>()",
+        "org.apache.commons.validator.Field#setKey(String)",
+        "org.apache.commons.validator.Field#getKey()"
+    ],
+    "org.apache.commons.validator.routines.EmailValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.EmailValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.EmailValidator#isValidUser(String)",
+        "org.apache.commons.validator.routines.EmailValidator#isValidDomain(String)"
+    ],
+    "org.apache.commons.validator.routines.InetAddressValidator.getInstance()": ["org.apache.commons.validator.routines.InetAddressValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.CalendarValidator#compareQuarters(Calendar,Calendar,int)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compareQuarters(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#ISBN10CheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator.getInstance(boolean)": [
+        "org.apache.commons.validator.routines.DomainValidator.LazyHolder.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator#setValidator(String,int,String)": [
+        "org.apache.commons.validator.routines.IBANValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.IBANValidator.Validator#Validator(String,int,String)",
+        "org.apache.commons.validator.routines.IBANValidator#setValidator(Validator)"
+    ],
+    "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,int,CheckDigit)": [
+        "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String)",
+        "org.apache.commons.validator.routines.CodeValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.ISBNValidator#validateISBN10(String)": [
+        "org.apache.commons.validator.routines.CodeValidator#validate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toString()"
+    ],
+    "org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)": ["org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)"],
+    "org.apache.commons.validator.Field#getIndexedProperty(Object)": [
+        "org.apache.commons.validator.Field#getIndexedListProperty()",
+        "org.apache.commons.validator.Field#getKey()",
+        "org.apache.commons.validator.ValidatorException#ValidatorException(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#isValid(String)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#isValid(String)"],
+    "org.apache.commons.validator.ValidatorResources#addConstant(String,String)": ["org.apache.commons.validator.ValidatorResources#getLog()"],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#determineScale(NumberFormat)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#isAllowFractions()",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.AbstractFormatValidator#isStrict()"
+    ],
+    "org.apache.commons.validator.routines.ByteValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String,boolean)": ["org.apache.commons.validator.routines.RegexValidator#RegexValidator(String[],boolean)"],
+    "org.apache.commons.validator.ValidatorResources#getValidatorAction(String)": ["org.apache.commons.validator.ValidatorResources#getActions()"],
+    "org.apache.commons.validator.routines.UrlValidator#isValidAuthority(String)": [
+        "org.apache.commons.validator.routines.DomainValidator#isValid(String)",
+        "org.apache.commons.validator.routines.InetAddressValidator.getInstance()",
+        "org.apache.commons.validator.routines.RegexValidator#isValid(String)",
+        "org.apache.commons.validator.routines.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#isValid(String)",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValidInet6Address(String)",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValidInet4Address(String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.routines.LongValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#getIndexedPropertySize(Object)": [
+        "org.apache.commons.validator.Field#getIndexedListProperty()",
+        "org.apache.commons.validator.Field#getKey()",
+        "org.apache.commons.validator.ValidatorException#ValidatorException(String)"
+    ],
+    "org.apache.commons.validator.routines.IntegerValidator.getInstance()": ["org.apache.commons.validator.routines.IntegerValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit#weightedValue(int,int,int)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.sumDigits(int)",
+        "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,CheckDigit)": ["org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,int,int,CheckDigit)"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.BigIntegerValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.ValidatorResources#buildKey(FormSet)": [
+        "org.apache.commons.validator.ValidatorResources#buildLocale(String,String,String)",
+        "org.apache.commons.validator.FormSet#getVariant()",
+        "org.apache.commons.validator.FormSet#getLanguage()",
+        "org.apache.commons.validator.FormSet#getCountry()"
+    ],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#isInRange(Number,Number,Number)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#minValue(Number,Number)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator#maxValue(Number,Number)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#ISSNCheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#CalendarValidator()": ["org.apache.commons.validator.routines.CalendarValidator#CalendarValidator(boolean,int)"],
+    "org.apache.commons.validator.routines.DateValidator#compareYears(Date,Date,TimeZone)": [
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)",
+        "org.apache.commons.validator.routines.DateValidator#getCalendar(Date,TimeZone)"
+    ],
+    "org.apache.commons.validator.routines.IntegerValidator#minValue(Integer,int)": ["org.apache.commons.validator.routines.IntegerValidator#minValue(Integer,int)"],
+    "org.apache.commons.validator.routines.CreditCardValidator.genericCreditCardValidator(int,int)": [
+        "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator(CodeValidator[])",
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,int,CheckDigit)",
+        "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.ValidatorException#ValidatorException()": ["org.apache.commons.validator.ValidatorException.<init>()"],
+    "org.apache.commons.validator.routines.CurrencyValidator#CurrencyValidator(boolean,boolean)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CurrencyValidator.<init>()",
+        "org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator(boolean,int,boolean)"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.DoubleValidator#maxValue(Double,double)": ["org.apache.commons.validator.routines.DoubleValidator#maxValue(double,double)"],
+    "org.apache.commons.validator.routines.ISBNValidator#ISBNValidator(boolean)": ["org.apache.commons.validator.routines.ISBNValidator.<init>()"],
+    "org.apache.commons.validator.routines.EmailValidator#isValidUser(String)": ["org.apache.commons.validator.routines.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.UrlValidator#isValidPath(String)": [
+        "org.apache.commons.validator.UrlValidator#countToken(String,String)",
+        "org.apache.commons.validator.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.util.Flags#isOff(long)"
+    ],
+    "org.apache.commons.validator.UrlValidator#isValidScheme(String)": [
+        "org.apache.commons.validator.util.Flags#isOff(long)",
+        "org.apache.commons.validator.UrlValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#compareWeeks(Date,Date,TimeZone)": [
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)",
+        "org.apache.commons.validator.routines.DateValidator#getCalendar(Date,TimeZone)"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.ISBNValidator.getInstance()": ["org.apache.commons.validator.routines.ISBNValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.UrlValidator#isValidPath(String)": [
+        "org.apache.commons.validator.routines.UrlValidator#isOff(long)",
+        "org.apache.commons.validator.routines.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.UrlValidator#countToken(String,String)"
+    ],
+    "org.apache.commons.validator.DateValidator#DateValidator()": ["org.apache.commons.validator.DateValidator.<init>()"],
+    "org.apache.commons.validator.GenericValidator.isLong(String)": ["org.apache.commons.validator.GenericTypeValidator.formatLong(String)"],
+    "org.apache.commons.validator.routines.IntegerValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.ISINValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.ISINValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CodeValidator#isValid(String)",
+        "org.apache.commons.validator.routines.ISINValidator#checkCode(String)"
+    ],
+    "org.apache.commons.validator.CreditCardValidator#CreditCardValidator(int)": [
+        "org.apache.commons.validator.CreditCardValidator.<staticinit>()",
+        "org.apache.commons.validator.CreditCardValidator.<init>()",
+        "org.apache.commons.validator.CreditCardValidator.Discover.<init>()",
+        "org.apache.commons.validator.CreditCardValidator.Visa.<init>()",
+        "org.apache.commons.validator.util.Flags#isOn(long)",
+        "org.apache.commons.validator.util.Flags#Flags(long)",
+        "org.apache.commons.validator.CreditCardValidator.Mastercard.<init>()",
+        "org.apache.commons.validator.CreditCardValidator.Amex.<init>()"
+    ],
+    "org.apache.commons.validator.ValidatorAction#onlyReturnErrors(Map<String, Object>)": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.Validator#getOnlyReturnErrors()"
+    ],
+    "org.apache.commons.validator.ValidatorResources#process()": ["org.apache.commons.validator.ValidatorResources#processForms()"],
+    "org.apache.commons.validator.routines.DoubleValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#processVars(String,String)": [
+        "org.apache.commons.validator.Field#getVarMap()",
+        "org.apache.commons.validator.Field#getVar(String)",
+        "org.apache.commons.validator.Var#setValue(String)",
+        "org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)",
+        "org.apache.commons.validator.Var#getValue()"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)": [
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1.<init>()",
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,CheckDigit)"
+    ],
+    "org.apache.commons.validator.ValidatorAction#loadValidationClass(ClassLoader)": ["org.apache.commons.validator.ValidatorException#ValidatorException(String)"],
+    "org.apache.commons.validator.Form#validate(Map<String, Object>,Map<String, ValidatorAction>,int,String)": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.ValidatorResults#merge(ValidatorResults)",
+        "org.apache.commons.validator.ValidatorResults.<init>()",
+        "org.apache.commons.validator.Form#getFieldMap()",
+        "org.apache.commons.validator.ValidatorException#ValidatorException(String)",
+        "org.apache.commons.validator.Field#validate(Map<String, Object>,Map<String, ValidatorAction>)",
+        "org.apache.commons.validator.Field#getPage()",
+        "org.apache.commons.validator.Form#getName()"
+    ],
+    "org.apache.commons.validator.routines.FloatValidator#maxValue(Float,float)": ["org.apache.commons.validator.routines.FloatValidator#maxValue(float,float)"],
+    "org.apache.commons.validator.UrlValidator#UrlValidator(String[],int)": [
+        "org.apache.commons.validator.util.Flags#isOn(long)",
+        "org.apache.commons.validator.UrlValidator.<init>()",
+        "org.apache.commons.validator.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.util.Flags#Flags(long)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#toCheckDigit(int)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toCheckDigit(int)"],
+    "org.apache.commons.validator.EmailValidator.<staticinit>()": ["org.apache.commons.validator.EmailValidator#EmailValidator()"],
+    "org.apache.commons.validator.routines.IntegerValidator.<staticinit>()": ["org.apache.commons.validator.routines.IntegerValidator#IntegerValidator()"],
+    "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit#CUSIPCheckDigit()"],
+    "org.apache.commons.validator.routines.CurrencyValidator#parse(String,Format)": [
+        "org.apache.commons.validator.routines.CurrencyValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.AbstractFormatValidator#parse(String,Format)"
+    ],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources(InputStream[])": [
+        "org.apache.commons.validator.ValidatorResources#initDigester()",
+        "org.apache.commons.validator.ValidatorResources.<init>()",
+        "org.apache.commons.validator.ValidatorResources#process()"
+    ],
+    "org.apache.commons.validator.routines.EmailValidator#EmailValidator(boolean,boolean)": [
+        "org.apache.commons.validator.routines.EmailValidator.<init>()",
+        "org.apache.commons.validator.routines.DomainValidator.getInstance(boolean)"
+    ],
+    "org.apache.commons.validator.UrlValidator#UrlValidator(String[])": ["org.apache.commons.validator.UrlValidator#UrlValidator(String[],int)"],
+    "org.apache.commons.validator.routines.UrlValidator.<staticinit>()": ["org.apache.commons.validator.routines.UrlValidator#UrlValidator()"],
+    "org.apache.commons.validator.Validator#Validator(ValidatorResources)": ["org.apache.commons.validator.Validator#Validator(ValidatorResources,String)"],
+    "org.apache.commons.validator.ValidatorResult.ResultStatus#ResultStatus(ValidatorResult,boolean,Object)": ["org.apache.commons.validator.ValidatorResult.ResultStatus#ResultStatus(boolean,Object)"],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[])": ["org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],long)"],
+    "org.apache.commons.validator.ValidatorAction#loadValidationMethod()": ["org.apache.commons.validator.ValidatorException#ValidatorException(String)"],
+    "org.apache.commons.validator.routines.ShortValidator#isInRange(Short,short,short)": ["org.apache.commons.validator.routines.ShortValidator#isInRange(Short,short,short)"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.InetAddressValidator#isValidInet4Address(String)": [
+        "org.apache.commons.validator.routines.InetAddressValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#match(String)",
+        "org.apache.commons.validator.routines.RegexValidator#match(String)"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.RegexValidator#isValid(String)",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#match(String)",
+        "org.apache.commons.validator.routines.RegexValidator#match(String)",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#isValid(String)",
+        "org.apache.commons.validator.routines.DomainValidator#isValidTld(String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#ISINCheckDigit()"],
+    "org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,int,int,CheckDigit)": ["org.apache.commons.validator.routines.CodeValidator.<init>()"],
+    "org.apache.commons.validator.routines.DomainValidator.LazyHolder.<staticinit>()": ["org.apache.commons.validator.routines.DomainValidator#DomainValidator(boolean)"],
+    "org.apache.commons.validator.UrlValidator#isValidAuthority(String)": [
+        "org.apache.commons.validator.routines.InetAddressValidator.getInstance()",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValid(String)",
+        "org.apache.commons.validator.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.GenericValidator.isBlankOrNull(String)"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator(long)": [
+        "org.apache.commons.validator.routines.CreditCardValidator#isOn(long,long)",
+        "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#compareQuarters(Date,Date,TimeZone,int)": [
+        "org.apache.commons.validator.routines.DateValidator#getCalendar(Date,TimeZone)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#compareQuarters(Calendar,Calendar,int)"
+    ],
+    "org.apache.commons.validator.routines.ISBNValidator#isValidISBN13(String)": ["org.apache.commons.validator.routines.CodeValidator#isValid(String)"],
+    "org.apache.commons.validator.routines.EmailValidator#EmailValidator(boolean)": ["org.apache.commons.validator.routines.EmailValidator#EmailValidator(boolean,boolean)"],
+    "org.apache.commons.validator.routines.DateValidator#compareMonths(Date,Date,TimeZone)": [
+        "org.apache.commons.validator.routines.DateValidator#getCalendar(Date,TimeZone)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.GenericValidator.isCreditCard(String)": [
+        "org.apache.commons.validator.GenericValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator#isValid(String)"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator.<init>()": [
+        "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String)",
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator(RegexValidator,long)": ["org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],RegexValidator,long)"],
+    "org.apache.commons.validator.Field#determineArgPosition(Arg)": [
+        "org.apache.commons.validator.Arg#setPosition(int)",
+        "org.apache.commons.validator.Field.<staticinit>()",
+        "org.apache.commons.validator.Arg#getPosition()",
+        "org.apache.commons.validator.Arg#getName()"
+    ],
+    "org.apache.commons.validator.routines.ShortValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.IDNBUGHOLDER.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.isOnlyASCII(String)"
+    ],
+    "org.apache.commons.validator.GenericValidator.<staticinit>()": [
+        "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator()",
+        "org.apache.commons.validator.routines.UrlValidator#UrlValidator()"
+    ],
+    "org.apache.commons.validator.EmailValidator#EmailValidator()": ["org.apache.commons.validator.EmailValidator.<init>()"],
+    "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit.<init>()"],
+    "org.apache.commons.validator.ValidatorAction#loadParameterClasses(ClassLoader)": ["org.apache.commons.validator.ValidatorException#ValidatorException(String)"],
+    "org.apache.commons.validator.routines.ISBNValidator#validate(String)": [
+        "org.apache.commons.validator.routines.ISBNValidator#convertToISBN13(String)",
+        "org.apache.commons.validator.routines.ISBNValidator#validateISBN10(String)",
+        "org.apache.commons.validator.routines.ISBNValidator#validateISBN13(String)"
+    ],
+    "org.apache.commons.validator.routines.ShortValidator#maxValue(Short,short)": ["org.apache.commons.validator.routines.ShortValidator#maxValue(short,short)"],
+    "org.apache.commons.validator.Field#addVar(String,String,String)": [
+        "org.apache.commons.validator.Var#Var(String,String,String)",
+        "org.apache.commons.validator.Field#addVar(Var)"
+    ],
+    "org.apache.commons.validator.routines.IntegerValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.UrlValidator#isValidScheme(String)": [
+        "org.apache.commons.validator.routines.UrlValidator#isOff(long)",
+        "org.apache.commons.validator.routines.UrlValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.GenericValidator.isEmail(String)": [
+        "org.apache.commons.validator.routines.EmailValidator.getInstance()",
+        "org.apache.commons.validator.routines.EmailValidator#isValid(String)"
+    ],
+    "org.apache.commons.validator.Validator#Validator(ValidatorResources,String,String)": ["org.apache.commons.validator.Validator.<init>()"],
+    "org.apache.commons.validator.routines.DomainValidator#getOverrides(ArrayType)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.ArrayType.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.PercentValidator#PercentValidator(boolean)": [
+        "org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.PercentValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#compareMonths(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,String)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale)"
+    ],
+    "org.apache.commons.validator.routines.LongValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#isValid(String)": [
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculateModulus(String)"
+    ],
+    "org.apache.commons.validator.GenericValidator.isInt(String)": ["org.apache.commons.validator.GenericTypeValidator.formatInt(String)"],
+    "org.apache.commons.validator.Field#handleMissingAction(String)": [
+        "org.apache.commons.validator.Field#getProperty()",
+        "org.apache.commons.validator.ValidatorException#ValidatorException(String)"
+    ],
+    "org.apache.commons.validator.routines.ISSNValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.ISSNValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CodeValidator#isValid(String)"
+    ],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#parse(String,Format)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator#getFormat(String,Locale)",
+        "org.apache.commons.validator.routines.CurrencyValidator#parse(String,Format)",
+        "org.apache.commons.validator.routines.PercentValidator#parse(String,Format)"
+    ],
+    "org.apache.commons.validator.Field#addArg(Arg)": [
+        "org.apache.commons.validator.Arg#getKey()",
+        "org.apache.commons.validator.Field.<staticinit>()",
+        "org.apache.commons.validator.Field#determineArgPosition(Arg)",
+        "org.apache.commons.validator.Field#ensureArgsCapacity(Arg)",
+        "org.apache.commons.validator.Arg#getPosition()",
+        "org.apache.commons.validator.Arg#getName()"
+    ],
+    "org.apache.commons.validator.routines.DoubleValidator.getInstance()": ["org.apache.commons.validator.routines.DoubleValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#ISBN10CheckDigit()"],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#getFormat(String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#getFormat(Locale)"],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources()": ["org.apache.commons.validator.ValidatorResources.<init>()"],
+    "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#IBANCheckDigit()"],
+    "org.apache.commons.validator.Field#processArg(String,String)": [
+        "org.apache.commons.validator.Arg#getKey()",
+        "org.apache.commons.validator.util.ValidatorUtils.replace(String,String,String)",
+        "org.apache.commons.validator.Arg#setKey(String)"
+    ],
+    "org.apache.commons.validator.routines.LongValidator#isInRange(Long,long,long)": ["org.apache.commons.validator.routines.LongValidator#isInRange(Long,long,long)"],
+    "org.apache.commons.validator.ValidatorAction#getValidationClassInstance()": ["org.apache.commons.validator.ValidatorException#ValidatorException(String)"],
+    "org.apache.commons.validator.routines.LongValidator#maxValue(Long,long)": ["org.apache.commons.validator.routines.LongValidator#maxValue(long,long)"],
+    "org.apache.commons.validator.routines.UrlValidator.getInstance()": ["org.apache.commons.validator.routines.UrlValidator.<staticinit>()"],
+    "org.apache.commons.validator.util.ValidatorUtils.getValueAsString(Object,String)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toString()",
+        "org.apache.commons.validator.util.ValidatorUtils.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractFormatValidator#AbstractFormatValidator(boolean)"
+    ],
+    "org.apache.commons.validator.ValidatorAction#readJavascriptFile(String)": ["org.apache.commons.validator.ValidatorAction#getLog()"],
+    "org.apache.commons.validator.ValidatorAction.<init>()": ["org.apache.commons.validator.Validator.<staticinit>()"],
+    "org.apache.commons.validator.ValidatorResources#addOldArgRules(Digester)": [
+        "org.apache.commons.validator.ValidatorResources#addOldArgRules(Digester)$Rule$1.<init>()",
+        "org.apache.commons.validator.ValidatorResources.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.BigDecimalValidator.<staticinit>()": ["org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator()"],
+    "org.apache.commons.validator.routines.BigDecimalValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.PercentValidator.<staticinit>()": ["org.apache.commons.validator.routines.PercentValidator#PercentValidator()"],
+    "org.apache.commons.validator.routines.CodeValidator#isValid(String)": ["org.apache.commons.validator.routines.CodeValidator#validate(String)"],
+    "org.apache.commons.validator.FormSet#toString()": ["org.apache.commons.validator.FormSet#getForms()"],
+    "org.apache.commons.validator.Form#getField(String)": ["org.apache.commons.validator.Form#getFieldMap()"],
+    "org.apache.commons.validator.routines.DomainValidator.updateTLDOverride(ArrayType,String[])": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.ArrayType.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.ByteValidator#ByteValidator()": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.ByteValidator#ByteValidator(boolean,int)"
+    ],
+    "org.apache.commons.validator.routines.BigDecimalValidator.getInstance()": ["org.apache.commons.validator.routines.BigDecimalValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.ByteValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.LongValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.DateValidator.getInstance()": ["org.apache.commons.validator.routines.DateValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.CreditCardValidator.genericCreditCardValidator(int)": ["org.apache.commons.validator.routines.CreditCardValidator.genericCreditCardValidator(int,int)"],
+    "org.apache.commons.validator.UrlValidator#UrlValidator(int)": ["org.apache.commons.validator.UrlValidator#UrlValidator(String[],int)"],
+    "org.apache.commons.validator.routines.ISBNValidator.<init>()": [
+        "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.ISBNValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,CheckDigit)"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator(CreditCardRange[])": [
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)",
+        "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.ByteValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.CalendarValidator#CalendarValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.CalendarValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#AbstractCalendarValidator(boolean,int,int)"
+    ],
+    "org.apache.commons.validator.routines.FloatValidator#minValue(Float,float)": ["org.apache.commons.validator.routines.FloatValidator#minValue(float,float)"],
+    "org.apache.commons.validator.routines.TimeValidator.<staticinit>()": ["org.apache.commons.validator.routines.TimeValidator#TimeValidator()"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.BigIntegerValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.CreditCardValidator.Discover#matches(String)": ["org.apache.commons.validator.CreditCardValidator.Discover.<staticinit>()"],
+    "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#ISSNCheckDigit()"],
+    "org.apache.commons.validator.routines.IntegerValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.FormSet#getType()": [
+        "org.apache.commons.validator.FormSet#getVariant()",
+        "org.apache.commons.validator.FormSet#getLanguage()",
+        "org.apache.commons.validator.FormSet.<staticinit>()",
+        "org.apache.commons.validator.FormSet#getCountry()"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.IBANValidator#getValidator(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.RegexValidator#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#isValid(String)"
+    ],
+    "org.apache.commons.validator.UrlValidator#isValidFragment(String)": [
+        "org.apache.commons.validator.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.util.Flags#isOff(long)"
+    ],
+    "org.apache.commons.validator.Form#validate(Map<String, Object>,Map<String, ValidatorAction>,int)": ["org.apache.commons.validator.Form#validate(Map<String, Object>,Map<String, ValidatorAction>,int,String)"],
+    "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#isValid(String)": [
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#calculateModulus(String,boolean)",
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#calculateModulus(String,boolean)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculateModulus(String,boolean)"
+    ],
+    "org.apache.commons.validator.routines.ByteValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.DoubleValidator.<staticinit>()": ["org.apache.commons.validator.routines.DoubleValidator#DoubleValidator()"],
+    "org.apache.commons.validator.routines.ByteValidator#isInRange(Byte,byte,byte)": ["org.apache.commons.validator.routines.ByteValidator#isInRange(byte,byte,byte)"],
+    "org.apache.commons.validator.Field#getVars()": ["org.apache.commons.validator.Field#getVarMap()"],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator()": ["org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[])"],
+    "org.apache.commons.validator.routines.DomainValidator#isValidTld(String)": [
+        "org.apache.commons.validator.routines.DomainValidator#isValidInfrastructureTld(String)",
+        "org.apache.commons.validator.routines.DomainValidator#isValidLocalTld(String)",
+        "org.apache.commons.validator.routines.DomainValidator#isValidGenericTld(String)",
+        "org.apache.commons.validator.routines.DomainValidator#isValidCountryCodeTld(String)"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#AbstractCalendarValidator(boolean,int,int)": [
+        "org.apache.commons.validator.routines.AbstractCalendarValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractFormatValidator#AbstractFormatValidator(boolean)"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale,TimeZone)": [
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,Format)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#getFormat(String,Locale)"
+    ],
+    "org.apache.commons.validator.Field#getMsg(String)": [
+        "org.apache.commons.validator.Field#getMessage(String)",
+        "org.apache.commons.validator.Msg#getKey()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String,Throwable)": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException.<init>()"],
+    "org.apache.commons.validator.ValidatorResults#add(Field,String,boolean,Object)": [
+        "org.apache.commons.validator.ValidatorResults#getValidatorResult(String)",
+        "org.apache.commons.validator.ValidatorResult#add(String,boolean,Object)",
+        "org.apache.commons.validator.ValidatorResult#ValidatorResult(Field)",
+        "org.apache.commons.validator.Field#getKey()"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator.IDNBUGHOLDER.<staticinit>()": ["org.apache.commons.validator.routines.DomainValidator.IDNBUGHOLDER.keepsTrailingDot()"],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.FloatValidator#FloatValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.FloatValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#DateValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.DateValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#AbstractCalendarValidator(boolean,int,int)"
+    ],
+    "org.apache.commons.validator.Field#getVar(String)": ["org.apache.commons.validator.Field#getVarMap()"],
+    "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#isValid(String)": ["org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#validate(String)"],
+    "org.apache.commons.validator.Field#getKey()": ["org.apache.commons.validator.Field#generateKey()"],
+    "org.apache.commons.validator.routines.FloatValidator.<staticinit>()": ["org.apache.commons.validator.routines.FloatValidator#FloatValidator()"],
+    "org.apache.commons.validator.CreditCardValidator#isValid(String)": [
+        "org.apache.commons.validator.CreditCardValidator.Amex#matches(String)",
+        "org.apache.commons.validator.CreditCardValidator.Mastercard#matches(String)",
+        "org.apache.commons.validator.CreditCardValidator#luhnCheck(String)",
+        "org.apache.commons.validator.CreditCardValidator.Visa#matches(String)",
+        "org.apache.commons.validator.CreditCardValidator.Discover#matches(String)"
+    ],
+    "org.apache.commons.validator.GenericValidator.isDate(String,String,boolean)": [
+        "org.apache.commons.validator.DateValidator#isValid(String,String,boolean)",
+        "org.apache.commons.validator.DateValidator.getInstance()"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator#DomainValidator(boolean)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.ISINValidator.<staticinit>()": [
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,CheckDigit)",
+        "org.apache.commons.validator.routines.ISINValidator#ISINValidator(boolean)",
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],RegexValidator,long)": [
+        "org.apache.commons.validator.routines.UrlValidator.isOn(long,long)",
+        "org.apache.commons.validator.routines.DomainValidator.getInstance(boolean)",
+        "org.apache.commons.validator.routines.UrlValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],RegexValidator,long,DomainValidator)"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator#getDefaultValidators()": ["org.apache.commons.validator.routines.IBANValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.ISBNValidator#isValidISBN10(String)": ["org.apache.commons.validator.routines.CodeValidator#isValid(String)"],
+    "org.apache.commons.validator.GenericValidator.minLength(String,int,int)": ["org.apache.commons.validator.GenericValidator.adjustForLineEnding(String,int)"],
+    "org.apache.commons.validator.routines.ByteValidator.getInstance()": ["org.apache.commons.validator.routines.ByteValidator.<staticinit>()"],
+    "org.apache.commons.validator.ValidatorException#ValidatorException(String)": ["org.apache.commons.validator.ValidatorException.<init>()"],
+    "org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,int,CheckDigit)": ["org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,int,int,CheckDigit)"],
+    "org.apache.commons.validator.Field#clone()": [
+        "org.apache.commons.validator.util.ValidatorUtils.copyFastHashMap(FastHashMap)",
+        "org.apache.commons.validator.Arg#clone()"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.GenericTypeValidator.formatCreditCard(String)": ["org.apache.commons.validator.GenericValidator.isCreditCard(String)"],
+    "org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit#weightedValue(int,int,int)": ["org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit.<staticinit>()"],
+    "org.apache.commons.validator.ValidatorResult.ResultStatus#ResultStatus(boolean,Object)": ["org.apache.commons.validator.ValidatorResult.ResultStatus.<init>()"],
+    "org.apache.commons.validator.ValidatorResources#getForm(String,String,String,String)": [
+        "org.apache.commons.validator.ValidatorResources#getFormSets()",
+        "org.apache.commons.validator.ValidatorResources#buildLocale(String,String,String)",
+        "org.apache.commons.validator.ValidatorResources#getLog()",
+        "org.apache.commons.validator.FormSet#getForm(String)"
+    ],
+    "org.apache.commons.validator.ValidatorResources#getFormSet(String,String,String)": [
+        "org.apache.commons.validator.ValidatorResources#getFormSets()",
+        "org.apache.commons.validator.ValidatorResources#buildLocale(String,String,String)"
+    ],
+    "org.apache.commons.validator.routines.TimeValidator#TimeValidator()": ["org.apache.commons.validator.routines.TimeValidator#TimeValidator(boolean,int)"],
+    "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#weightedValue(int,int,int)": ["org.apache.commons.validator.routines.checkdigit.SedolCheckDigit.<staticinit>()"],
+    "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator(CodeValidator[])": ["org.apache.commons.validator.routines.CreditCardValidator.<init>()"],
+    "org.apache.commons.validator.routines.ISSNValidator#validate(String)": [
+        "org.apache.commons.validator.routines.CodeValidator#validate(String)",
+        "org.apache.commons.validator.routines.ISSNValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.TimeValidator#compareSeconds(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compareTime(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.DoubleValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#runDependentValidators(ValidatorAction,ValidatorResults,Map<String, ValidatorAction>,Map<String, Object>,int)": [
+        "org.apache.commons.validator.Field#handleMissingAction(String)",
+        "org.apache.commons.validator.ValidatorAction#getDependencyList()",
+        "org.apache.commons.validator.Field#validateForRule(ValidatorAction,ValidatorResults,Map<String, ValidatorAction>,Map<String, Object>,int)"
+    ],
+    "org.apache.commons.validator.routines.BigDecimalValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.CalendarValidator#compareYears(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.EmailValidator#isValidDomain(String)": [
+        "org.apache.commons.validator.EmailValidator#isValidSymbolicDomain(String)",
+        "org.apache.commons.validator.EmailValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.InetAddressValidator.getInstance()",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValid(String)"
+    ],
+    "org.apache.commons.validator.routines.EmailValidator.getInstance(boolean,boolean)": ["org.apache.commons.validator.routines.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.EmailValidator.getInstance()": ["org.apache.commons.validator.routines.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#weightedValue(int,int,int)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.sumDigits(int)",
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources(InputStream)": ["org.apache.commons.validator.ValidatorResources#ValidatorResources(InputStream[])"],
+    "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#isValid(String)": [
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#isValid(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#isValid(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#toInt(char,int,int)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toInt(char,int,int)"],
+    "org.apache.commons.validator.routines.BigIntegerValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.PercentValidator#PercentValidator()": ["org.apache.commons.validator.routines.PercentValidator#PercentValidator(boolean)"],
+    "org.apache.commons.validator.ValidatorAction#getClassLoader(Map<String, Object>)": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.Validator#getClassLoader()"
+    ],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,String,Locale)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#getFormat(String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#getFormat(String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,Format)",
+        "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,Format)"
+    ],
+    "org.apache.commons.validator.routines.CalendarValidator#compareWeeks(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.UrlValidator#isValidQuery(String)": ["org.apache.commons.validator.UrlValidator.<staticinit>()"],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources(URL[])": [
+        "org.apache.commons.validator.ValidatorResources#initDigester()",
+        "org.apache.commons.validator.ValidatorResources#process()",
+        "org.apache.commons.validator.ValidatorResources.<init>()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#ISINCheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.GenericValidator.isUrl(String)": [
+        "org.apache.commons.validator.GenericValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.UrlValidator#isValid(String)"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator#hasValidator(String)": ["org.apache.commons.validator.routines.IBANValidator#getValidator(String)"],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#isValid(String,Locale)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#isValid(String,String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#isValid(String,String,Locale)"
+    ],
+    "org.apache.commons.validator.routines.LongValidator#minValue(Long,long)": ["org.apache.commons.validator.routines.LongValidator#minValue(Long,long)"],
+    "org.apache.commons.validator.ValidatorResult#add(String,boolean,Object)": ["org.apache.commons.validator.ValidatorResult.ResultStatus#ResultStatus(boolean,Object)"],
+    "org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit#ABANumberCheckDigit()"],
+    "org.apache.commons.validator.routines.LongValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.ShortValidator#ShortValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.ShortValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.IntegerValidator#isInRange(Integer,int,int)": ["org.apache.commons.validator.routines.IntegerValidator#isInRange(int,int,int)"],
+    "org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator()": ["org.apache.commons.validator.routines.BigDecimalValidator#BigDecimalValidator(boolean)"],
+    "org.apache.commons.validator.ValidatorResources#addFormSet(FormSet)": [
+        "org.apache.commons.validator.FormSet#toString()",
+        "org.apache.commons.validator.ValidatorResources#getFormSets()",
+        "org.apache.commons.validator.ValidatorResources#getLog()",
+        "org.apache.commons.validator.ValidatorResources#buildKey(FormSet)"
+    ],
+    "org.apache.commons.validator.routines.BigIntegerValidator.<staticinit>()": ["org.apache.commons.validator.routines.BigIntegerValidator#BigIntegerValidator()"],
+    "org.apache.commons.validator.routines.EmailValidator.getInstance(boolean)": ["org.apache.commons.validator.routines.EmailValidator.getInstance(boolean,boolean)"],
+    "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String)": ["org.apache.commons.validator.routines.RegexValidator#RegexValidator(String,boolean)"],
+    "org.apache.commons.validator.routines.CalendarValidator#compareQuarters(Calendar,Calendar)": ["org.apache.commons.validator.routines.CalendarValidator#compareQuarters(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.routines.ISINValidator.getInstance(boolean)": ["org.apache.commons.validator.routines.ISINValidator.<staticinit>()"],
+    "org.apache.commons.validator.Var#Var()": ["org.apache.commons.validator.Var.<init>()"],
+    "org.apache.commons.validator.routines.DateValidator#DateValidator()": ["org.apache.commons.validator.routines.DateValidator#DateValidator(boolean,int)"],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.EmailValidator#isValidSymbolicDomain(String)": ["org.apache.commons.validator.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.DomainValidator.Item#Item(ArrayType,String[])": ["org.apache.commons.validator.routines.DomainValidator.Item.<init>()"],
+    "org.apache.commons.validator.ValidatorResult#isValid(String)": ["org.apache.commons.validator.ValidatorResult.ResultStatus#isValid()"],
+    "org.apache.commons.validator.routines.CalendarValidator.<staticinit>()": ["org.apache.commons.validator.routines.CalendarValidator#CalendarValidator()"],
+    "org.apache.commons.validator.EmailValidator#isValidUser(String)": ["org.apache.commons.validator.EmailValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.ShortValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.FloatValidator#validate(String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,Locale)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale)"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator.getTLDEntries(ArrayType)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.ArrayType.<staticinit>()"
+    ],
+    "org.apache.commons.validator.ValidatorResources#addValidatorAction(ValidatorAction)": [
+        "org.apache.commons.validator.ValidatorResources#getLog()",
+        "org.apache.commons.validator.ValidatorAction#getClassname()",
+        "org.apache.commons.validator.ValidatorResources#getActions()",
+        "org.apache.commons.validator.ValidatorAction#getName()",
+        "org.apache.commons.validator.ValidatorAction#init()"
+    ],
+    "org.apache.commons.validator.util.Flags#Flags(long)": ["org.apache.commons.validator.util.Flags.<init>()"],
+    "org.apache.commons.validator.routines.UrlValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.UrlValidator#isValidQuery(String)",
+        "org.apache.commons.validator.routines.UrlValidator#isValidPath(String)",
+        "org.apache.commons.validator.routines.UrlValidator#isValidScheme(String)",
+        "org.apache.commons.validator.routines.UrlValidator#isValidFragment(String)",
+        "org.apache.commons.validator.routines.UrlValidator#isValidAuthority(String)"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.ShortValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.UrlValidator#UrlValidator()": ["org.apache.commons.validator.UrlValidator#UrlValidator(String[])"],
+    "org.apache.commons.validator.ValidatorAction#executeValidationMethod(Field,Map<String, Object>,ValidatorResults,int)": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.ValidatorAction#loadValidationMethod()",
+        "org.apache.commons.validator.Field#isIndexed()",
+        "org.apache.commons.validator.ValidatorAction#getParameterValues(Map<String, ? super Object>)",
+        "org.apache.commons.validator.ValidatorAction#getValidationClassInstance()",
+        "org.apache.commons.validator.ValidatorAction#getLog()",
+        "org.apache.commons.validator.ValidatorAction#onlyReturnErrors(Map<String, Object>)",
+        "org.apache.commons.validator.ValidatorException#ValidatorException(String)",
+        "org.apache.commons.validator.ValidatorAction#handleIndexedField(Field,int,Object[])",
+        "org.apache.commons.validator.ValidatorAction#getClassLoader(Map<String, Object>)",
+        "org.apache.commons.validator.ValidatorAction#loadParameterClasses(ClassLoader)",
+        "org.apache.commons.validator.ValidatorResults#add(Field,String,boolean,Object)",
+        "org.apache.commons.validator.ValidatorResults#add(Field,String,boolean)",
+        "org.apache.commons.validator.ValidatorAction#isValid(Object)",
+        "org.apache.commons.validator.ValidatorAction#loadValidationClass(ClassLoader)"
+    ],
+    "org.apache.commons.validator.routines.LongValidator.<staticinit>()": ["org.apache.commons.validator.routines.LongValidator#LongValidator()"],
+    "org.apache.commons.validator.GenericValidator.maxLength(String,int,int)": ["org.apache.commons.validator.GenericValidator.adjustForLineEnding(String,int)"],
+    "org.apache.commons.validator.Field#toString()": ["org.apache.commons.validator.Field#getVarMap()"],
+    "org.apache.commons.validator.routines.CreditCardValidator.CreditCardRange#CreditCardRange(String,String,int[])": ["org.apache.commons.validator.routines.CreditCardValidator.CreditCardRange.<init>()"],
+    "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#calculate(String)": [
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#calculate(String)"
+    ],
+    "org.apache.commons.validator.routines.DomainValidator.getInstance()": [
+        "org.apache.commons.validator.routines.DomainValidator.LazyHolder.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#AbstractFormatValidator(boolean)": ["org.apache.commons.validator.routines.AbstractFormatValidator.<init>()"],
+    "org.apache.commons.validator.routines.CalendarValidator.getInstance()": ["org.apache.commons.validator.routines.CalendarValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.ShortValidator.getInstance()": ["org.apache.commons.validator.routines.ShortValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#weightedValue(int,int,int)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.sumDigits(int)"],
+    "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculate(String)": [
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculateModulus(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculateModulus(String,boolean)": [
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit#toInt(char,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toInt(char,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#toInt(char,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ISBN10CheckDigit#toInt(char,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.CUSIPCheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toInt(char,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit#toInt(char,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit#weightedValue(int,int,int)",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)",
+        "org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit#weightedValue(int,int,int)"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,String,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.LongValidator#LongValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.LongValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#getFormat(Locale)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#isAllowFractions()",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#IBANCheckDigit()": ["org.apache.commons.validator.routines.checkdigit.IBANCheckDigit.<init>()"],
+    "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculateModulus(String)": [
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"
+    ],
+    "org.apache.commons.validator.routines.ISSNValidator#convertToEAN13(String,String)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toString()",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.ISSNValidator#validate(String)",
+        "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.ISSNValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#toInt(char,int,int)": [
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"
+    ],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources(String)": ["org.apache.commons.validator.ValidatorResources#ValidatorResources(String[])"],
+    "org.apache.commons.validator.routines.DomainValidator#isValidGenericTld(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator#chompLeadingDot(String)",
+        "org.apache.commons.validator.routines.DomainValidator.arrayContains(String[],String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.routines.ISSNValidator#validateEan(String)": [
+        "org.apache.commons.validator.routines.CodeValidator#validate(String)",
+        "org.apache.commons.validator.routines.ISSNValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.ValidatorResources#addOldArgRules(Digester)$Rule$1#begin(String,String,Attributes)": [
+        "org.apache.commons.validator.ValidatorResources#getLog()",
+        "org.apache.commons.validator.Arg#setKey(String)",
+        "org.apache.commons.validator.Arg#setPosition(int)",
+        "org.apache.commons.validator.Field#addArg(Arg)",
+        "org.apache.commons.validator.Arg.<init>()",
+        "org.apache.commons.validator.Arg#setResource(boolean)",
+        "org.apache.commons.validator.Arg#setName(String)"
+    ],
+    "org.apache.commons.validator.routines.ISBNValidator#validateISBN13(String)": [
+        "org.apache.commons.validator.routines.CodeValidator#validate(String)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toString()"
+    ],
+    "org.apache.commons.validator.routines.ShortValidator.<staticinit>()": ["org.apache.commons.validator.routines.ShortValidator#ShortValidator()"],
+    "org.apache.commons.validator.routines.EmailValidator.<staticinit>()": ["org.apache.commons.validator.routines.EmailValidator#EmailValidator(boolean,boolean)"],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.ValidatorAction#init()": ["org.apache.commons.validator.ValidatorAction#loadJavascriptFunction()"],
+    "org.apache.commons.validator.ValidatorResult#getResult(String)": ["org.apache.commons.validator.ValidatorResult.ResultStatus#getResult()"],
+    "org.apache.commons.validator.ValidatorResources#getValidatorActions()": ["org.apache.commons.validator.ValidatorResources#getActions()"],
+    "org.apache.commons.validator.routines.ISBNValidator#convertToISBN13(String)": [
+        "org.apache.commons.validator.routines.CodeValidator#getCheckDigit()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.checkdigit.IBANCheckDigit#calculate(String)",
+        "org.apache.commons.validator.routines.ISBNValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.ISBNCheckDigit#calculate(String)"
+    ],
+    "org.apache.commons.validator.Validator#Validator(ValidatorResources,String)": ["org.apache.commons.validator.Validator.<init>()"],
+    "org.apache.commons.validator.routines.UrlValidator#isValidQuery(String)": ["org.apache.commons.validator.routines.UrlValidator.<staticinit>()"],
+    "org.apache.commons.validator.Field#validate(Map<String, Object>,Map<String, ValidatorAction>)": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.ValidatorResults.<init>()",
+        "org.apache.commons.validator.ValidatorResults#merge(ValidatorResults)",
+        "org.apache.commons.validator.Field#validateForRule(ValidatorAction,ValidatorResults,Map<String, ValidatorAction>,Map<String, Object>,int)",
+        "org.apache.commons.validator.Field#isIndexed()",
+        "org.apache.commons.validator.Field#handleMissingAction(String)",
+        "org.apache.commons.validator.Field#getIndexedPropertySize(Object)",
+        "org.apache.commons.validator.Field#getDepends()"
+    ],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#minValue(Number,Number)": ["org.apache.commons.validator.routines.AbstractNumberValidator#isAllowFractions()"],
+    "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#ModulusTenCheckDigit(int[])": ["org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#ModulusTenCheckDigit(int[],boolean,boolean)"],
+    "org.apache.commons.validator.routines.IBANValidator.<staticinit>()": [
+        "org.apache.commons.validator.routines.IBANValidator.Validator#Validator(String,int,String)",
+        "org.apache.commons.validator.routines.IBANValidator#IBANValidator()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit#LuhnCheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.routines.InetAddressValidator.<init>()": [
+        "org.apache.commons.validator.routines.InetAddressValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String)"
+    ],
+    "org.apache.commons.validator.routines.InetAddressValidator#isValidInet6Address(String)": [
+        "org.apache.commons.validator.routines.InetAddressValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValidInet4Address(String)"
+    ],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#isValid(String,String)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#isValid(String,String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#isValid(String,String,Locale)"
+    ],
+    "org.apache.commons.validator.routines.BigIntegerValidator#BigIntegerValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)",
+        "org.apache.commons.validator.routines.BigIntegerValidator.<init>()"
+    ],
+    "org.apache.commons.validator.GenericTypeValidator.formatDate(String,Locale)": ["org.apache.commons.validator.GenericTypeValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.CurrencyValidator.getInstance()": ["org.apache.commons.validator.routines.CurrencyValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.CurrencyValidator#CurrencyValidator()": ["org.apache.commons.validator.routines.CurrencyValidator#CurrencyValidator(boolean,boolean)"],
+    "org.apache.commons.validator.Field#getArg(int)": [
+        "org.apache.commons.validator.Field#getArg(String,int)",
+        "org.apache.commons.validator.Field.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.FloatValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#generateKey()": [
+        "org.apache.commons.validator.Field.<staticinit>()",
+        "org.apache.commons.validator.Field#isIndexed()"
+    ],
+    "org.apache.commons.validator.ValidatorResults#add(Field,String,boolean)": ["org.apache.commons.validator.ValidatorResults#add(Field,String,boolean,Object)"],
+    "org.apache.commons.validator.FormSet#addForm(Form)": [
+        "org.apache.commons.validator.Form#getName()",
+        "org.apache.commons.validator.FormSet#getLog()",
+        "org.apache.commons.validator.FormSet#displayKey()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit#LuhnCheckDigit()"],
+    "org.apache.commons.validator.routines.ByteValidator#maxValue(Byte,byte)": ["org.apache.commons.validator.routines.ByteValidator#maxValue(Byte,byte)"],
+    "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#toCheckDigit(int)": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"],
+    "org.apache.commons.validator.routines.FloatValidator#validate(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.Field#getMessage(String)": ["org.apache.commons.validator.Field#getMsgMap()"],
+    "org.apache.commons.validator.routines.IntegerValidator#validate(String,String)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.ValidatorResults#getResultValueMap()": [
+        "org.apache.commons.validator.ValidatorResult#getActions()",
+        "org.apache.commons.validator.ValidatorResult#getResult(String)",
+        "org.apache.commons.validator.ValidatorResults#getValidatorResult(String)"
+    ],
+    "org.apache.commons.validator.FormSet#process(Map<String, String>)": ["org.apache.commons.validator.Form#process(Map<String, String>,Map<String, String>,Map<String, Form>)"],
+    "org.apache.commons.validator.routines.FloatValidator#FloatValidator()": [
+        "org.apache.commons.validator.routines.FloatValidator#FloatValidator(boolean,int)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.CreditCardValidator#CreditCardValidator()": [
+        "org.apache.commons.validator.CreditCardValidator.<staticinit>()",
+        "org.apache.commons.validator.CreditCardValidator#CreditCardValidator(int)"
+    ],
+    "org.apache.commons.validator.Var#Var(String,String,String)": ["org.apache.commons.validator.Var.<init>()"],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)": [
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#calculateCompareResult(Calendar,Calendar,int)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#compareTime(Calendar,Calendar,int)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit#calculateModulus(String,boolean)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculateModulus(String,boolean)",
+        "org.apache.commons.validator.routines.checkdigit.SedolCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"
+    ],
+    "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String[])": ["org.apache.commons.validator.routines.RegexValidator#RegexValidator(String[],boolean)"],
+    "org.apache.commons.validator.routines.TimeValidator#compareTime(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compareTime(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.Validator#validate()": [
+        "org.apache.commons.validator.Validator.<staticinit>()",
+        "org.apache.commons.validator.ValidatorResults.<init>()",
+        "org.apache.commons.validator.Validator#getParameterValue(String)",
+        "org.apache.commons.validator.Validator#setParameter(String,Object)",
+        "org.apache.commons.validator.ValidatorResources#getForm(Locale,String)",
+        "org.apache.commons.validator.ValidatorResources#getValidatorActions()",
+        "org.apache.commons.validator.Form#validate(Map<String, Object>,Map<String, ValidatorAction>,int,String)"
+    ],
+    "org.apache.commons.validator.FormSet#merge(FormSet)": [
+        "org.apache.commons.validator.FormSet#getForms()",
+        "org.apache.commons.validator.Form#merge(Form)",
+        "org.apache.commons.validator.FormSet#addForm(Form)"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#compareQuarters(Calendar,Calendar,int)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#calculateQuarter(Calendar,int)"],
+    "org.apache.commons.validator.ValidatorResult#add(String,boolean)": ["org.apache.commons.validator.ValidatorResult#add(String,boolean,Object)"],
+    "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#ModulusTenCheckDigit(int[],boolean,boolean)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.routines.ByteValidator#ByteValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.ByteValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)"
+    ],
+    "org.apache.commons.validator.routines.BigDecimalValidator#processParsedValue(Object,Format)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#determineScale(NumberFormat)",
+        "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toString()"
+    ],
+    "org.apache.commons.validator.FormSetFactory#createObject(Attributes)": ["org.apache.commons.validator.FormSetFactory#createFormSet(ValidatorResources,String,String,String)"],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources(URL)": ["org.apache.commons.validator.ValidatorResources#ValidatorResources(URL[])"],
+    "org.apache.commons.validator.routines.ISINValidator#ISINValidator(boolean)": ["org.apache.commons.validator.routines.ISINValidator.<init>()"],
+    "org.apache.commons.validator.ValidatorResources#ValidatorResources(String[])": [
+        "org.apache.commons.validator.ValidatorResources#initDigester()",
+        "org.apache.commons.validator.ValidatorResources.<init>()",
+        "org.apache.commons.validator.ValidatorResources#process()"
+    ],
+    "org.apache.commons.validator.routines.FloatValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.DomainValidator#isValidLocalTld(String)": [
+        "org.apache.commons.validator.routines.DomainValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator#chompLeadingDot(String)",
+        "org.apache.commons.validator.routines.DomainValidator.arrayContains(String[],String)",
+        "org.apache.commons.validator.routines.DomainValidator.unicodeToASCII(String)"
+    ],
+    "org.apache.commons.validator.GenericValidator.isDouble(String)": ["org.apache.commons.validator.GenericTypeValidator.formatDouble(String)"],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#maxValue(Number,Number)": ["org.apache.commons.validator.routines.AbstractNumberValidator#isAllowFractions()"],
+    "org.apache.commons.validator.DateValidator.getInstance()": ["org.apache.commons.validator.DateValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.CalendarValidator#validate(String,String,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.ValidatorResult#ValidatorResult(Field)": ["org.apache.commons.validator.ValidatorResult.<init>()"],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#isValid(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.Form#addField(Field)": [
+        "org.apache.commons.validator.Field#getKey()",
+        "org.apache.commons.validator.Form#getFieldMap()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#compareQuarters(Date,Date,TimeZone)": ["org.apache.commons.validator.routines.DateValidator#compareQuarters(Date,Date,TimeZone,int)"],
+    "org.apache.commons.validator.routines.PercentValidator#parse(String,Format)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#parse(String,Format)",
+        "org.apache.commons.validator.routines.PercentValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.TimeValidator.getInstance()": ["org.apache.commons.validator.routines.TimeValidator.<staticinit>()"],
+    "org.apache.commons.validator.FormSet#addConstant(String,String)": [
+        "org.apache.commons.validator.FormSet#getLog()",
+        "org.apache.commons.validator.FormSet#displayKey()"
+    ],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],long)": ["org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],RegexValidator,long)"],
+    "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<staticinit>()": ["org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit#EAN13CheckDigit()"],
+    "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit#EAN13CheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)",
+        "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<init>()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator#compareDates(Date,Date,TimeZone)": [
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#compare(Calendar,Calendar,int)",
+        "org.apache.commons.validator.routines.DateValidator#getCalendar(Date,TimeZone)"
+    ],
+    "org.apache.commons.validator.routines.EmailValidator#EmailValidator(boolean,boolean,DomainValidator)": [
+        "org.apache.commons.validator.routines.EmailValidator.<init>()",
+        "org.apache.commons.validator.routines.DomainValidator#isAllowLocal()"
+    ],
+    "org.apache.commons.validator.routines.DateValidator.<staticinit>()": ["org.apache.commons.validator.routines.DateValidator#DateValidator()"],
+    "org.apache.commons.validator.routines.ShortValidator#minValue(Short,short)": ["org.apache.commons.validator.routines.ShortValidator#minValue(Short,short)"],
+    "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,CheckDigit)": ["org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,int,CheckDigit)"],
+    "org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit#ABANumberCheckDigit()": [
+        "org.apache.commons.validator.routines.checkdigit.ABANumberCheckDigit.<init>()",
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit#weightedValue(int,int,int)": ["org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<staticinit>()"],
+    "org.apache.commons.validator.routines.EmailValidator#isValidDomain(String)": [
+        "org.apache.commons.validator.routines.DomainValidator#isValid(String)",
+        "org.apache.commons.validator.routines.InetAddressValidator.getInstance()",
+        "org.apache.commons.validator.routines.InetAddressValidator#isValid(String)",
+        "org.apache.commons.validator.routines.EmailValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.DomainValidator#isValidTld(String)"
+    ],
+    "org.apache.commons.validator.routines.ISSNValidator.<staticinit>()": [
+        "org.apache.commons.validator.routines.checkdigit.EAN13CheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.ISSNValidator.<init>()",
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,int,CheckDigit)",
+        "org.apache.commons.validator.routines.checkdigit.ISSNCheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.Form#containsField(String)": ["org.apache.commons.validator.Form#getFieldMap()"],
+    "org.apache.commons.validator.routines.DateValidator#validate(String,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#isValid(String)": ["org.apache.commons.validator.routines.checkdigit.VerhoeffCheckDigit#calculateChecksum(String,boolean)"],
+    "org.apache.commons.validator.routines.TimeValidator#compareMinutes(Calendar,Calendar)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#compareTime(Calendar,Calendar,int)"],
+    "org.apache.commons.validator.Field#getArgs(String)": ["org.apache.commons.validator.Field#getArg(String,int)"],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#getFormat(String,Locale)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#getFormat(Locale)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator#isAllowFractions()"
+    ],
+    "org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#parse(String,Format)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#getFormat(String,Locale)",
+        "org.apache.commons.validator.routines.CurrencyValidator#parse(String,Format)",
+        "org.apache.commons.validator.routines.PercentValidator#parse(String,Format)"
+    ],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object)": [
+        "org.apache.commons.validator.routines.AbstractFormatValidator#format(Object,String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#format(Object,String,Locale)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#ModulusCheckDigit(int)": ["org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit.<init>()"],
+    "org.apache.commons.validator.routines.IntegerValidator#IntegerValidator()": [
+        "org.apache.commons.validator.routines.IntegerValidator#IntegerValidator(boolean,int)",
+        "org.apache.commons.validator.routines.AbstractNumberValidator.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.ShortValidator#validate(String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.routines.IBANValidator#IBANValidator(Validator[])": [
+        "org.apache.commons.validator.routines.IBANValidator.<init>()",
+        "org.apache.commons.validator.routines.IBANValidator#createValidators(Validator[])"
+    ],
+    "org.apache.commons.validator.routines.IBANValidator#IBANValidator()": [
+        "org.apache.commons.validator.routines.IBANValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.IBANValidator#IBANValidator(Validator[])"
+    ],
+    "org.apache.commons.validator.Field#getArg(String,int)": [
+        "org.apache.commons.validator.Field#getArg(int)",
+        "org.apache.commons.validator.Field.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#toInt(char,int,int)": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)"],
+    "org.apache.commons.validator.util.ValidatorUtils.copyFastHashMap(FastHashMap)": [
+        "org.apache.commons.validator.Msg#clone()",
+        "org.apache.commons.validator.Var#clone()",
+        "org.apache.commons.validator.Arg#clone()"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator#CreditCardValidator(CodeValidator[],CreditCardRange[])": [
+        "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)",
+        "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()",
+        "org.apache.commons.validator.routines.CreditCardValidator.<init>()"
+    ],
+    "org.apache.commons.validator.routines.LongValidator.getInstance()": ["org.apache.commons.validator.routines.LongValidator.<staticinit>()"],
+    "org.apache.commons.validator.routines.AbstractFormatValidator#isValid(String)": [
+        "org.apache.commons.validator.routines.AbstractNumberValidator#isValid(String,String,Locale)",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#isValid(String,String,Locale)"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException()": ["org.apache.commons.validator.routines.checkdigit.CheckDigitException.<init>()"],
+    "org.apache.commons.validator.routines.AbstractNumberValidator#isValid(String,String,Locale)": ["org.apache.commons.validator.routines.AbstractNumberValidator#parse(String,String,Locale)"],
+    "org.apache.commons.validator.util.Flags#Flags()": ["org.apache.commons.validator.util.Flags.<init>()"],
+    "org.apache.commons.validator.routines.TimeValidator#validate(String,Locale,TimeZone)": ["org.apache.commons.validator.routines.AbstractCalendarValidator#parse(String,String,Locale,TimeZone)"],
+    "org.apache.commons.validator.routines.ISBNValidator.<staticinit>()": [
+        "org.apache.commons.validator.routines.ISBNValidator#ISBNValidator(boolean)",
+        "org.apache.commons.validator.routines.ISBNValidator#ISBNValidator()"
+    ],
+    "org.apache.commons.validator.routines.IntegerValidator#IntegerValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.IntegerValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractNumberValidator#AbstractNumberValidator(boolean,int,boolean)"
+    ],
+    "org.apache.commons.validator.routines.InetAddressValidator.<staticinit>()": ["org.apache.commons.validator.routines.InetAddressValidator.<init>()"],
+    "org.apache.commons.validator.routines.TimeValidator#TimeValidator(boolean,int)": [
+        "org.apache.commons.validator.routines.TimeValidator.<init>()",
+        "org.apache.commons.validator.routines.AbstractCalendarValidator#AbstractCalendarValidator(boolean,int,int)"
+    ],
+    "org.apache.commons.validator.routines.UrlValidator#UrlValidator(long)": ["org.apache.commons.validator.routines.UrlValidator#UrlValidator(String[],RegexValidator,long)"],
+    "org.apache.commons.validator.GenericValidator.isFloat(String)": ["org.apache.commons.validator.GenericTypeValidator.formatFloat(String)"],
+    "org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#match(String)": ["org.apache.commons.validator.routines.CreditCardValidator.createRangeValidator(CreditCardRange[],CheckDigit)$RegexValidator$1#validate(String)"],
+    "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String[],boolean)": ["org.apache.commons.validator.routines.RegexValidator.<init>()"],
+    "org.apache.commons.validator.ValidatorResources#initDigester()": [
+        "org.apache.commons.validator.ValidatorResources.<staticinit>()",
+        "org.apache.commons.validator.ValidatorResources#addOldArgRules(Digester)",
+        "org.apache.commons.validator.ValidatorResources#getLog()"
+    ],
+    "org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#ModulusTenCheckDigit(int[],boolean)": ["org.apache.commons.validator.routines.checkdigit.ModulusTenCheckDigit#ModulusTenCheckDigit(int[],boolean,boolean)"],
+    "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit#calculateModulus(String,boolean)": [
+        "org.apache.commons.validator.routines.checkdigit.ModulusCheckDigit#calculateModulus(String,boolean)",
+        "org.apache.commons.validator.routines.checkdigit.CheckDigitException#CheckDigitException(String)",
+        "org.apache.commons.validator.routines.checkdigit.ISINCheckDigit.<staticinit>()"
+    ],
+    "org.apache.commons.validator.routines.CreditCardValidator.<staticinit>()": [
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(RegexValidator,CheckDigit)",
+        "org.apache.commons.validator.routines.checkdigit.LuhnCheckDigit.<staticinit>()",
+        "org.apache.commons.validator.routines.CodeValidator#CodeValidator(String,CheckDigit)",
+        "org.apache.commons.validator.routines.RegexValidator#RegexValidator(String[])"
+    ]
+}
