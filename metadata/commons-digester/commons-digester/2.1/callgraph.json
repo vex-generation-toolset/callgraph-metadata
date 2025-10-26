@@ -1,0 +1,1757 @@
+{
+    "org.apache.commons.digester.CallMethodRule#end()": [
+        "org.apache.commons.digester.SetNextRule#toString()",
+        "org.apache.commons.digester.CallParamRule#toString()",
+        "org.apache.commons.digester.Digester#getCount()",
+        "org.apache.commons.digester.FactoryCreateRule#toString()",
+        "org.apache.commons.digester.BeanPropertySetterRule#toString()",
+        "org.apache.commons.digester.CallMethodRule#processMethodCallResult(Object)",
+        "org.apache.commons.digester.ObjectParamRule#toString()",
+        "org.apache.commons.digester.SetPropertiesRule#toString()",
+        "org.apache.commons.digester.SetPropertyRule#toString()",
+        "org.apache.commons.digester.Digester#peek(int)",
+        "org.apache.commons.digester.SetRootRule#toString()",
+        "org.apache.commons.digester.PathCallParamRule#toString()",
+        "org.apache.commons.digester.SetNestedPropertiesRule#toString()",
+        "org.apache.commons.digester.SetTopRule#toString()",
+        "org.apache.commons.digester.Digester#popParams()",
+        "org.apache.commons.digester.ObjectCreateRule#toString()",
+        "org.apache.commons.digester.CallMethodRule#toString()"
+    ],
+    "org.apache.commons.digester.Digester#getRules(String)": [
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String)",
+        "org.apache.commons.digester.RulesBase#match(String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.AbstractRulesImpl#match(String)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#includeProgrammaticRules(String)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternStack#toString()",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.Digester#setRules(Rules)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#RulesPrefixAdapter(String,Rules)"
+    ],
+    "org.apache.commons.digester.annotations.providers.PathCallParamRuleProvider#get()": ["org.apache.commons.digester.PathCallParamRule#PathCallParamRule(int)"],
+    "org.apache.commons.digester.substitution.MultiVariableExpander#expand(String,String,Map<String, Object>)": [
+        "org.apache.commons.digester.SetNextRule#toString()",
+        "org.apache.commons.digester.CallParamRule#toString()",
+        "org.apache.commons.digester.FactoryCreateRule#toString()",
+        "org.apache.commons.digester.BeanPropertySetterRule#toString()",
+        "org.apache.commons.digester.ObjectParamRule#toString()",
+        "org.apache.commons.digester.SetPropertiesRule#toString()",
+        "org.apache.commons.digester.SetPropertyRule#toString()",
+        "org.apache.commons.digester.SetRootRule#toString()",
+        "org.apache.commons.digester.PathCallParamRule#toString()",
+        "org.apache.commons.digester.SetNestedPropertiesRule#toString()",
+        "org.apache.commons.digester.SetTopRule#toString()",
+        "org.apache.commons.digester.ObjectCreateRule#toString()",
+        "org.apache.commons.digester.CallMethodRule#toString()"
+    ],
+    "org.apache.commons.digester.CallParamRule#CallParamRule(int,boolean)": [
+        "org.apache.commons.digester.CallParamRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromFile#FinderFromFile(String)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromFile.<init>()",
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()"
+    ],
+    "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule(String[],String[])": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.SetPropertiesRule.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser()": [
+        "org.apache.commons.digester.RuleSetBase.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternStack.<init>()"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,boolean)"],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,boolean)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String,boolean)"],
+    "org.apache.commons.digester.NodeCreateRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.Rule#getDigester()",
+        "org.apache.commons.digester.Digester#setCustomContentHandler(ContentHandler)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)",
+        "org.apache.commons.digester.Digester#getNamespaceAware()",
+        "org.apache.commons.digester.NodeCreateRule.NodeBuilder#NodeBuilder(Document,Node)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getURI(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getQName(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLength()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromMethod#findLoader(Digester,Class<?>,Properties)": ["org.apache.commons.digester.plugins.strategies.LoaderFromClass#LoaderFromClass(Class<?>,String)"],
+    "org.apache.commons.digester.NodeCreateRule.NodeBuilder#NodeBuilder(Document,Node)": [
+        "org.apache.commons.digester.Digester#getCustomContentHandler()",
+        "org.apache.commons.digester.NodeCreateRule.NodeBuilder.<init>()"
+    ],
+    "org.apache.commons.digester.Rule#body(String,String,String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#body(String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule#body(String)",
+        "org.apache.commons.digester.CallParamRule#body(String)",
+        "org.apache.commons.digester.Rule#body(String)",
+        "org.apache.commons.digester.CallMethodRule#body(String)"
+    ],
+    "org.apache.commons.digester.Digester#addCallParam(String,int,boolean)": [
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int,boolean)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.SetTopRule#SetTopRule(String)": ["org.apache.commons.digester.SetTopRule#SetTopRule(String,String)"],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,String)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,String,boolean)"],
+    "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule(Digester)": ["org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule()"],
+    "org.apache.commons.digester.NodeCreateRule#NodeCreateRule()": ["org.apache.commons.digester.NodeCreateRule#NodeCreateRule(int)"],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,Class<?>[])": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,Class<?>[])"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertyRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.SetPropertyRule#SetPropertyRule(String,String)"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getIndex(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getLocalName(int)": ["org.apache.commons.digester.substitution.VariableAttributes#getLocalName(int)"],
+    "org.apache.commons.digester.ObjectParamRule#ObjectParamRule(int,Object)": ["org.apache.commons.digester.ObjectParamRule#ObjectParamRule(int,String,Object)"],
+    "org.apache.commons.digester.ExtendedBaseRules.<init>()": ["org.apache.commons.digester.RulesBase.<init>()"],
+    "org.apache.commons.digester.Digester#addSetNestedProperties(String,String[],String[])": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule(String[],String[])",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.annotations.providers.PathCallParamRuleProvider#init(aa00b2ae29036ef8cbf2293a0bd4f69409607b23,MethodArgument)": ["org.apache.commons.digester.annotations.reflect.MethodArgument#getIndex()"],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int)": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int)"],
+    "org.apache.commons.digester.SetRootRule#SetRootRule(String,String)": [
+        "org.apache.commons.digester.SetRootRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(ObjectCreationFactory,boolean)": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.FactoryCreateRule.<init>()"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(ObjectCreationFactory)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(ObjectCreationFactory,boolean)"],
+    "org.apache.commons.digester.annotations.providers.CallParamRuleProvider#get()": ["org.apache.commons.digester.CallParamRule#CallParamRule(int)"],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Digester,Class<?>)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Class<?>)"],
+    "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)": [
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.annotations.internal.RuleSetCache.<init>()": ["org.apache.commons.digester.annotations.internal.RuleSetCache$LinkedHashMap$1.<init>()"],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,DigesterRuleParser)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,DigesterRuleParser,Digester)"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(String)": ["org.apache.commons.digester.annotations.DigesterLoadingException.<init>()"],
+    "org.apache.commons.digester.Digester#addSetNext(String,String,String)": [
+        "org.apache.commons.digester.SetNextRule#SetNextRule(String,String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#setAllowUnknownChildElements(boolean)",
+        "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"
+    ],
+    "org.apache.commons.digester.RulesBase#match(String,String)": ["org.apache.commons.digester.RulesBase#lookup(String,String)"],
+    "org.apache.commons.digester.ExtendedBaseRules#add(String,Rule)": ["org.apache.commons.digester.RulesBase#add(String,Rule)"],
+    "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(Digester,String)": ["org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(String)"],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,Reader)": [
+        "org.apache.commons.digester.Digester#parse(Reader)",
+        "org.apache.commons.digester.Digester#setClassLoader(ClassLoader)",
+        "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(URL)",
+        "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser(Digester,PatternStack<String>,Set<String>)": [
+        "org.apache.commons.digester.RuleSetBase.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(String,Throwable)": ["org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(String)"],
+    "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(String)": [
+        "org.apache.commons.digester.BeanPropertySetterRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.annotations.internal.DefaultAnnotationRuleProviderFactory#newInstance(Class<T extends AnnotationRuleProvider>)": ["org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(String,Throwable)"],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Digester,String)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser#addRuleInstances(Digester)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectCreateRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.NodeCreateRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallMethodRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetTopRuleFactory.<init>()",
+        "org.apache.commons.digester.Digester#addSetNext(String,String,String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallParamRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#IncludeRule()",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.BeanPropertySetterRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertyRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.FactoryCreateRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetRootRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesAliasRule#SetPropertiesAliasRule()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectParamRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternRule#PatternRule(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesRuleFactory.<init>()",
+        "org.apache.commons.digester.Digester#register(String,String)",
+        "org.apache.commons.digester.Digester#addFactoryCreate(String,ObjectCreationFactory)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesAliasRule#SetNestedPropertiesAliasRule()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#getDigesterRulesDTD()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNextRuleFactory.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.<staticinit>()"
+    ],
+    "org.apache.commons.digester.plugins.PluginDeclarationRule.declarePlugin(Digester,Properties)": [
+        "org.apache.commons.digester.plugins.Declaration#init(Digester,PluginManager)",
+        "org.apache.commons.digester.plugins.PluginManager#addDeclaration(Declaration)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String)",
+        "org.apache.commons.digester.plugins.Declaration#setId(String)",
+        "org.apache.commons.digester.plugins.PluginRules#getPluginManager()",
+        "org.apache.commons.digester.plugins.Declaration#Declaration(String)",
+        "org.apache.commons.digester.plugins.Declaration#setProperties(Properties)"
+    ],
+    "org.apache.commons.digester.substitution.MultiVariableExpander#MultiVariableExpander()": ["org.apache.commons.digester.substitution.MultiVariableExpander.<init>()"],
+    "org.apache.commons.digester.Digester#parse(URL)": [
+        "org.apache.commons.digester.Digester#cleanup()",
+        "org.apache.commons.digester.Digester#getXMLReader()",
+        "org.apache.commons.digester.Digester#createInputSourceFromURL(URL)",
+        "org.apache.commons.digester.Digester#configure()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass#FinderFromDfltClass()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass.<staticinit>()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass#FinderFromDfltClass(String,String)"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,String[])": [
+        "org.apache.commons.digester.CallMethodRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,Class<?>[])": [
+        "org.apache.commons.digester.CallMethodRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.PluginManager#addDeclaration(Declaration)": [
+        "org.apache.commons.digester.plugins.LogUtils.getLogger(Digester)",
+        "org.apache.commons.digester.plugins.Declaration#getId()",
+        "org.apache.commons.digester.plugins.Declaration#getPluginClass()"
+    ],
+    "org.apache.commons.digester.Digester#endElement(String,String,String)": [
+        "org.apache.commons.digester.CallParamRule#end(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule#end(String,String)",
+        "org.apache.commons.digester.BeanPropertySetterRule#body(String,String,String)",
+        "org.apache.commons.digester.Digester#getSubstitutor()",
+        "org.apache.commons.digester.BeanPropertySetterRule#end(String,String)",
+        "org.apache.commons.digester.Rule#end(String,String)",
+        "org.apache.commons.digester.substitution.VariableSubstitutor#substitute(String)",
+        "org.apache.commons.digester.FactoryCreateRule#end(String,String)",
+        "org.apache.commons.digester.Rule#body(String,String,String)",
+        "org.apache.commons.digester.plugins.PluginCreateRule#body(String,String,String)",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)",
+        "org.apache.commons.digester.plugins.PluginCreateRule#end(String,String)"
+    ],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Digester,String)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesRuleFactory#createObject(Attributes)": ["org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule()"],
+    "org.apache.commons.digester.plugins.strategies.FinderSetProperties#FinderSetProperties()": [
+        "org.apache.commons.digester.plugins.strategies.FinderSetProperties#FinderSetProperties(String,String)",
+        "org.apache.commons.digester.plugins.strategies.FinderSetProperties.<staticinit>()"
+    ],
+    "org.apache.commons.digester.Digester#addObjectParam(String,int,Object)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.ObjectParamRule#ObjectParamRule(int,Object)"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoaderBuilder#useDefaultAnnotationRuleProviderFactory()": [
+        "org.apache.commons.digester.annotations.DigesterLoaderBuilder#useAnnotationRuleProviderFactory(AnnotationRuleProviderFactory)",
+        "org.apache.commons.digester.annotations.internal.DefaultAnnotationRuleProviderFactory.<init>()"
+    ],
+    "org.apache.commons.digester.Digester#addObjectCreate(String,String,String)": [
+        "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.BeanPropertySetterRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#setNamespaceURI(String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setNamespaceURI(String)",
+        "org.apache.commons.digester.plugins.PluginRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.AbstractRulesImpl#setNamespaceURI(String)",
+        "org.apache.commons.digester.RulesBase#setNamespaceURI(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.plugins.Declaration#init(Digester,PluginManager)": [
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)",
+        "org.apache.commons.digester.plugins.PluginManager#findLoader(Digester,String,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(String)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#end(String,String)": ["org.apache.commons.digester.Digester#pop()"],
+    "org.apache.commons.digester.SetNextRule#SetNextRule(Digester,String)": ["org.apache.commons.digester.SetNextRule#SetNextRule(String)"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromResource#findLoader(Digester,Class<?>,Properties)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromResource.loadRules(Digester,Class<?>,InputStream,String)",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String)"
+    ],
+    "org.apache.commons.digester.SetPropertyRule#begin(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)",
+        "org.apache.commons.digester.Digester#peek()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getQName(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLength()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLocalName(int)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromFile#FinderFromFile()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromFile#FinderFromFile(String)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromFile.<staticinit>()"
+    ],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,ObjectCreationFactory)": ["org.apache.commons.digester.Digester#addFactoryCreate(String,ObjectCreationFactory,boolean)"],
+    "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationValue(Annotation)": [
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.<staticinit>()",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.invokeAnnotationMethod(Annotation,String)"
+    ],
+    "org.apache.commons.digester.Rule#end(String,String)": [
+        "org.apache.commons.digester.CallMethodRule#end()",
+        "org.apache.commons.digester.SetNextRule#end()",
+        "org.apache.commons.digester.ObjectCreateRule#end()",
+        "org.apache.commons.digester.Rule#end()",
+        "org.apache.commons.digester.NodeCreateRule#end()",
+        "org.apache.commons.digester.SetRootRule#end()",
+        "org.apache.commons.digester.SetTopRule#end()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternRule#end()"
+    ],
+    "org.apache.commons.digester.Digester#getXMLReader()": ["org.apache.commons.digester.Digester#getParser()"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromClass#FinderFromClass(String,String,String)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromClass.<init>()",
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()"
+    ],
+    "org.apache.commons.digester.Digester#parse(Reader)": [
+        "org.apache.commons.digester.Digester#cleanup()",
+        "org.apache.commons.digester.Digester#getXMLReader()",
+        "org.apache.commons.digester.Digester#configure()"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,DigesterRuleParser,Digester)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallParamRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.PathCallParamRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.Digester#getMatch()",
+        "org.apache.commons.digester.Rule#getDigester()",
+        "org.apache.commons.digester.Digester#peekParams()"
+    ],
+    "org.apache.commons.digester.SetTopRule#SetTopRule(String,String)": [
+        "org.apache.commons.digester.SetTopRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.annotations.handlers.SetPropertiesLoaderHandler#handle(7bfafc539d7c96b4097b58446423c41052761ae8,Field,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.providers.SetPropertiesRuleProvider.<init>()",
+        "org.apache.commons.digester.annotations.providers.SetPropertiesRuleProvider#addAlias(7bfafc539d7c96b4097b58446423c41052761ae8,Field)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleProvider(String,AnnotationRuleProvider<? extends Annotation, ? extends AnnotatedElement, ? extends Rule>)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#getProvider(String,Class<T extends AnnotationRuleProvider>)"
+    ],
+    "org.apache.commons.digester.SetRootRule#SetRootRule(Digester,String)": ["org.apache.commons.digester.SetRootRule#SetRootRule(String)"],
+    "org.apache.commons.digester.RegexRules#match(String,String)": ["org.apache.commons.digester.SimpleRegexMatcher#match(String,String)"],
+    "org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(Throwable)": ["org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(Throwable)"],
+    "org.apache.commons.digester.CallParamRule#begin(Attributes)": [
+        "org.apache.commons.digester.Digester#peek(int)",
+        "org.apache.commons.digester.Digester#peekParams()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#match(String,String)": [
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.plugins.LogUtils.getLogger(Digester)",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#rules()": [
+        "org.apache.commons.digester.plugins.PluginRules#rules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#rules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#rules()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#rules()",
+        "org.apache.commons.digester.RulesBase#rules()",
+        "org.apache.commons.digester.RegexRules#rules()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectCreateRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.PathCallParamRule#PathCallParamRule(int)": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.PathCallParamRule.<init>()"
+    ],
+    "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleInstances(Digester)": [
+        "org.apache.commons.digester.Rule#setNamespaceURI(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,Reader,Object)": [
+        "org.apache.commons.digester.Digester#setClassLoader(ClassLoader)",
+        "org.apache.commons.digester.Digester#parse(Reader)",
+        "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(URL)",
+        "org.apache.commons.digester.Digester#push(Object)",
+        "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.LoaderFromClass#LoaderFromClass(Class<?>,Method)": [
+        "org.apache.commons.digester.plugins.RuleLoader.<init>()",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass.<init>()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#FinderFromDfltResource()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#FinderFromDfltResource(String)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource.<staticinit>()"
+    ],
+    "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#FromAnnotationsRuleSet(DigesterLoader)": ["org.apache.commons.digester.annotations.FromAnnotationsRuleSet.<init>()"],
+    "org.apache.commons.digester.SimpleRegexMatcher#match(String,String,int,int)": ["org.apache.commons.digester.SimpleRegexMatcher#match(String,String,int,int)"],
+    "org.apache.commons.digester.substitution.VariableAttributes#getLength()": ["org.apache.commons.digester.substitution.VariableAttributes#getLength()"],
+    "org.apache.commons.digester.plugins.PluginRules#match(String)": ["org.apache.commons.digester.plugins.PluginRules#match(String,String)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetTopRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.SetTopRule#SetTopRule(String)",
+        "org.apache.commons.digester.SetTopRule#SetTopRule(String,String)"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(String)": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,Class<?>[])"],
+    "org.apache.commons.digester.annotations.handlers.MethodHandler#handle(Annotation,Method,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.handlers.MethodHandler.<staticinit>()",
+        "org.apache.commons.digester.annotations.handlers.MethodHandler#doHandle(Annotation,Method,Class<?>,FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(String)",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationValue(Annotation)"
+    ],
+    "org.apache.commons.digester.SetPropertiesRule#begin(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)",
+        "org.apache.commons.digester.Digester#peek()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getQName(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLocalName(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLength()"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getType(String)": ["org.apache.commons.digester.substitution.VariableAttributes#getType(String)"],
+    "org.apache.commons.digester.Rule#Rule(Digester)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule.<init>()"
+    ],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String)": ["org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromResource#FinderFromResource(String)": [
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromResource.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getNamespaceURI()": [
+        "org.apache.commons.digester.AbstractRulesImpl#getNamespaceURI()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getNamespaceURI()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getNamespaceURI()",
+        "org.apache.commons.digester.RulesBase#getNamespaceURI()",
+        "org.apache.commons.digester.plugins.PluginRules#getNamespaceURI()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getNamespaceURI()"
+    ],
+    "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(String)": ["org.apache.commons.digester.xmlrules.XmlLoadException.<init>()"],
+    "org.apache.commons.digester.CallMethodRule#setDigester(Digester)": [
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#addRuleInstances(Digester)": ["org.apache.commons.digester.xmlrules.FromXmlRuleSet#addRuleInstances(Digester,String)"],
+    "org.apache.commons.digester.SetNestedPropertiesRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.Digester#getMatch()",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule.<init>()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#init(String,Rules)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#AnyChildRules(AnyChildRule)",
+        "org.apache.commons.digester.Digester#setRules(Rules)"
+    ],
+    "org.apache.commons.digester.Digester#addSetProperties(String,String[],String[])": [
+        "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule(String[],String[])",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallMethodRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallMethodRuleFactory#getParamTypes(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,String[])",
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String)"
+    ],
+    "org.apache.commons.digester.Digester#addObjectCreate(String,Class<?>)": [
+        "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Class<?>)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#clear()": [
+        "org.apache.commons.digester.RegexRules#clear()",
+        "org.apache.commons.digester.plugins.PluginRules#clear()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#clear()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#clear()",
+        "org.apache.commons.digester.RulesBase#clear()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#clear()"
+    ],
+    "org.apache.commons.digester.CallParamRule#CallParamRule(Digester,int,String)": ["org.apache.commons.digester.CallParamRule#CallParamRule(int,String)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser#add(Rule)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternStack#toString()",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.annotations.providers.BeanPropertySetterRuleProvider#get()": ["org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(String)"],
+    "org.apache.commons.digester.plugins.PluginRules#getPluginClassAttr()": ["org.apache.commons.digester.plugins.PluginContext#getPluginClassAttr()"],
+    "org.apache.commons.digester.annotations.providers.CallParamRuleProvider#init(e11f3ee9ccb7c4d2a6d4f43e28db4df7937b2743,MethodArgument)": ["org.apache.commons.digester.annotations.reflect.MethodArgument#getIndex()"],
+    "org.apache.commons.digester.plugins.strategies.LoaderFromStream#addRules(Digester,String)": [
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#addRuleInstances(Digester,String)",
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource)"
+    ],
+    "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String)": [
+        "org.apache.commons.digester.plugins.PluginInvalidInputException.<init>()",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod#FinderFromDfltMethod()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod.<staticinit>()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod#FinderFromDfltMethod(String)"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)": [
+        "org.apache.commons.digester.substitution.MultiVariableExpander#expand(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)"
+    ],
+    "org.apache.commons.digester.ObjectParamRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.Digester#peekParams()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"
+    ],
+    "org.apache.commons.digester.plugins.PluginManager#getDeclarationByClass(String)": ["org.apache.commons.digester.plugins.PluginManager#getDeclarationByClass(String)"],
+    "org.apache.commons.digester.Digester#getParser()": [
+        "org.apache.commons.digester.ParserFeatureSetterFactory.newSAXParser(Properties)",
+        "org.apache.commons.digester.Digester#getFactory()"
+    ],
+    "org.apache.commons.digester.annotations.providers.SetPropertiesRuleProvider#init(7bfafc539d7c96b4097b58446423c41052761ae8,Field)": ["org.apache.commons.digester.annotations.providers.SetPropertiesRuleProvider#addAlias(7bfafc539d7c96b4097b58446423c41052761ae8,Field)"],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String)": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,Class<?>[])"],
+    "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule(String[],String[])": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.Digester#configure()": ["org.apache.commons.digester.Digester#initialize()"],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,String[])": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int,String[])"],
+    "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRules(Class<?>)": ["org.apache.commons.digester.annotations.DigesterLoader#addRulesTo(Class<?>,FromAnnotationsRuleSet)"],
+    "org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory#FromAnnotationRuleProviderFactory(AnnotationRuleProviderFactory)": ["org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory.<init>()"],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet.InputSourceXMLRulesLoader#loadRules()": [
+        "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(Throwable)",
+        "org.apache.commons.digester.Digester#parse(InputSource)"
+    ],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,Class<?>,String)": ["org.apache.commons.digester.Digester#addFactoryCreate(String,Class<?>,String,boolean)"],
+    "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String)": ["org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.CallMethodRule#begin(Attributes)": ["org.apache.commons.digester.Digester#pushParams(Object)"],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet.InputSourceXMLRulesLoader#InputSourceXMLRulesLoader(InputSource)": [
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.XMLRulesLoader.<init>()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.InputSourceXMLRulesLoader.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.NodeCreateRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.RulesBase#add(String,Rule)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Class<?>)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)"],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Digester,String,Class<?>)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,Class<?>)"],
+    "org.apache.commons.digester.plugins.Declaration#configure(Digester,String)": [
+        "org.apache.commons.digester.plugins.strategies.LoaderFromStream#addRules(Digester,String)",
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass#addRules(Digester,String)",
+        "org.apache.commons.digester.plugins.strategies.LoaderSetProperties#addRules(Digester,String)",
+        "org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(String)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromClass#FinderFromClass()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromClass.<staticinit>()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromClass#FinderFromClass(String,String,String)"
+    ],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,Class<?>)": ["org.apache.commons.digester.Digester#addFactoryCreate(String,Class<?>,boolean)"],
+    "org.apache.commons.digester.annotations.handlers.MethodHandler#doHandle(Annotation,Method,Class<?>,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.handlers.MethodHandler#doHandle(A extends Annotation,Annotation,Method,Class<?>,FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(String)"
+    ],
+    "org.apache.commons.digester.annotations.utils.AnnotationUtils#AnnotationUtils()": ["org.apache.commons.digester.annotations.utils.AnnotationUtils.<init>()"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#clear()": [
+        "org.apache.commons.digester.RegexRules#clear()",
+        "org.apache.commons.digester.plugins.PluginRules#clear()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#clear()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#clear()",
+        "org.apache.commons.digester.RulesBase#clear()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#clear()"
+    ],
+    "org.apache.commons.digester.plugins.PluginManager#getDeclarationById(String)": ["org.apache.commons.digester.plugins.PluginManager#getDeclarationById(String)"],
+    "org.apache.commons.digester.annotations.providers.SetNextRuleProvider#get()": ["org.apache.commons.digester.SetNextRule#SetNextRule(String,String)"],
+    "org.apache.commons.digester.annotations.providers.AttributeCallParamRuleProvider#init(f13806546cfac94019547c8c415489e73549c24f,MethodArgument)": ["org.apache.commons.digester.annotations.reflect.MethodArgument#getIndex()"],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,Digester)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,DigesterRuleParser,Digester)"
+    ],
+    "org.apache.commons.digester.SetRootRule#end()": [
+        "org.apache.commons.digester.Digester#peek(int)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass#FinderFromDfltClass(String,String)": [
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass.<init>()"
+    ],
+    "org.apache.commons.digester.Digester.<init>()": ["org.apache.commons.digester.Digester.<staticinit>()"],
+    "org.apache.commons.digester.annotations.DigesterLoaderBuilder#useAnnotationRuleProviderFactory(AnnotationRuleProviderFactory)": ["org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory#FromAnnotationRuleProviderFactory(AnnotationRuleProviderFactory)"],
+    "org.apache.commons.digester.annotations.providers.ObjectCreateRuleProvider#get()": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Class<?>)"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod#findLoader(Digester,Class<?>,Properties)": [
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass.locateMethod(Class<?>,String)",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass#LoaderFromClass(Class<?>,Method)"
+    ],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,String,String,boolean)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String,boolean)"
+    ],
+    "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#rules()": [
+        "org.apache.commons.digester.plugins.PluginRules#rules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#rules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#rules()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#rules()",
+        "org.apache.commons.digester.RulesBase#rules()",
+        "org.apache.commons.digester.RegexRules#rules()"
+    ],
+    "org.apache.commons.digester.plugins.Declaration#Declaration(Class<?>)": ["org.apache.commons.digester.plugins.Declaration.<init>()"],
+    "org.apache.commons.digester.plugins.PluginManager#PluginManager(PluginManager)": ["org.apache.commons.digester.plugins.PluginManager.<init>()"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getDigester()": [
+        "org.apache.commons.digester.RulesBase#getDigester()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getDigester()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getDigester()",
+        "org.apache.commons.digester.plugins.PluginRules#getDigester()",
+        "org.apache.commons.digester.AbstractRulesImpl#getDigester()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getDigester()"
+    ],
+    "org.apache.commons.digester.parser.XercesParser.newSAXParser(Properties)": [
+        "org.apache.commons.digester.parser.XercesParser.configureXerces(SAXParserFactory)",
+        "org.apache.commons.digester.parser.XercesParser.getXercesVersion()",
+        "org.apache.commons.digester.parser.XercesParser.configureOldXerces(SAXParser,Properties)",
+        "org.apache.commons.digester.parser.XercesParser.<staticinit>()"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#PluginCreateRule(Class<?>,Class<?>,RuleLoader)": [
+        "org.apache.commons.digester.plugins.Declaration#Declaration(Class<?>,RuleLoader)",
+        "org.apache.commons.digester.plugins.PluginCreateRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.Digester#setRuleNamespaceURI(String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setNamespaceURI(String)",
+        "org.apache.commons.digester.AbstractRulesImpl#setNamespaceURI(String)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setNamespaceURI(String)",
+        "org.apache.commons.digester.plugins.PluginRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.RulesBase#setNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(Digester,String,String)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#add(String,Rule)": [
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#add(String,Rule)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#add(String,Rule)",
+        "org.apache.commons.digester.RulesBase#add(String,Rule)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#add(String,Rule)",
+        "org.apache.commons.digester.ExtendedBaseRules#add(String,Rule)",
+        "org.apache.commons.digester.plugins.PluginRules#add(String,Rule)",
+        "org.apache.commons.digester.AbstractRulesImpl#add(String,Rule)"
+    ],
+    "org.apache.commons.digester.Digester#endDocument()": [
+        "org.apache.commons.digester.plugins.PluginRules#rules()",
+        "org.apache.commons.digester.Digester#getCount()",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)",
+        "org.apache.commons.digester.FactoryCreateRule#finish()",
+        "org.apache.commons.digester.Rule#finish()",
+        "org.apache.commons.digester.RulesBase#rules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#rules()",
+        "org.apache.commons.digester.Digester#clear()",
+        "org.apache.commons.digester.BeanPropertySetterRule#finish()",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.RegexRules#rules()",
+        "org.apache.commons.digester.CallMethodRule#finish()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#rules()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#rules()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesAliasRule#SetNestedPropertiesAliasRule()": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesAliasRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.annotations.providers.CallMethodRuleProvider#get()": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,Class<?>[])"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallParamRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int)",
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int,boolean)",
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int,String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"
+    ],
+    "org.apache.commons.digester.RulesBase#setDigester(Digester)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.annotations.providers.SetTopRuleProvider#get()": ["org.apache.commons.digester.SetTopRule#SetTopRule(String,String)"],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Digester,Class<?>,String)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,String)"],
+    "org.apache.commons.digester.annotations.providers.SetPropertiesRuleProvider#get()": ["org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule(String[],String[])"],
+    "org.apache.commons.digester.plugins.strategies.FinderSetProperties#FinderSetProperties(String,String)": [
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()",
+        "org.apache.commons.digester.plugins.strategies.FinderSetProperties.<init>()"
+    ],
+    "org.apache.commons.digester.substitution.VariableSubstitutor#VariableSubstitutor(VariableExpander)": ["org.apache.commons.digester.substitution.VariableSubstitutor#VariableSubstitutor(VariableExpander,VariableExpander)"],
+    "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#AnyChildRules(AnyChildRule)": ["org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules.<init>()"],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,DigesterRuleParser,Digester)": [
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.InputSourceXMLRulesLoader#InputSourceXMLRulesLoader(InputSource)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#init(XMLRulesLoader,DigesterRuleParser,Digester)",
+        "org.apache.commons.digester.RuleSetBase.<init>()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.<init>()"
+    ],
+    "org.apache.commons.digester.plugins.PluginException#PluginException(String)": ["org.apache.commons.digester.plugins.PluginException.<init>()"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesAliasRule#begin(Attributes)": [
+        "org.apache.commons.digester.Digester#peek()",
+        "org.apache.commons.digester.SetPropertiesRule#addAlias(String,String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,DigesterRuleParser)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,DigesterRuleParser,Digester)"
+    ],
+    "org.apache.commons.digester.ObjectCreateRule#end()": ["org.apache.commons.digester.Digester#pop()"],
+    "org.apache.commons.digester.Digester#addSetNestedProperties(String,String,String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule(String,String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.plugins.PluginDeclarationRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.plugins.PluginDeclarationRule.declarePlugin(Digester,Properties)",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String)",
+        "org.apache.commons.digester.Digester#getMatch()"
+    ],
+    "org.apache.commons.digester.plugins.Declaration#Declaration(String)": ["org.apache.commons.digester.plugins.Declaration.<init>()"],
+    "org.apache.commons.digester.substitution.VariableAttributes#getIndex(String,String)": ["org.apache.commons.digester.substitution.VariableAttributes#getIndex(String,String)"],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(URL)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.Digester#addRuleSet(RuleSet)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetTopRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule.<init>()": ["org.apache.commons.digester.Rule#Rule()"],
+    "org.apache.commons.digester.substitution.VariableSubstitutor#VariableSubstitutor(VariableExpander,VariableExpander)": [
+        "org.apache.commons.digester.Substitutor.<init>()",
+        "org.apache.commons.digester.substitution.VariableAttributes.<init>()",
+        "org.apache.commons.digester.substitution.VariableSubstitutor.<init>()"
+    ],
+    "org.apache.commons.digester.Digester#addCallMethod(String,String,int,Class<?>[])": [
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,Class<?>[])",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.LoaderFromClass#addRules(Digester,String)": [
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)",
+        "org.apache.commons.digester.Digester#getLogger()"
+    ],
+    "org.apache.commons.digester.Digester#addCallMethod(String,String)": [
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.FactoryCreateRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)": [
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.Rule#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.CallParamRule#CallParamRule(int,int)": [
+        "org.apache.commons.digester.CallParamRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.SetRootRule#SetRootRule(Digester,String,String)": ["org.apache.commons.digester.SetRootRule#SetRootRule(String,String)"],
+    "org.apache.commons.digester.ParserFeatureSetterFactory.newSAXParser(Properties)": [
+        "org.apache.commons.digester.ParserFeatureSetterFactory.<staticinit>()",
+        "org.apache.commons.digester.parser.GenericParser.newSAXParser(Properties)",
+        "org.apache.commons.digester.parser.XercesParser.newSAXParser(Properties)"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#getFactory(Attributes)": [
+        "org.apache.commons.digester.AbstractObjectCreationFactory#setDigester(Digester)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(Digester,String,int,String[])": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,String[])"],
+    "org.apache.commons.digester.Digester#parse(InputSource)": [
+        "org.apache.commons.digester.Digester#cleanup()",
+        "org.apache.commons.digester.Digester#getXMLReader()",
+        "org.apache.commons.digester.Digester#configure()"
+    ],
+    "org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(Throwable)": ["org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(Throwable)"],
+    "org.apache.commons.digester.annotations.DigesterLoader#addRules(Class<?>,Digester)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#addRuleInstances(Digester)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#addRuleInstances(Digester)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleInstances(Digester)",
+        "org.apache.commons.digester.annotations.DigesterLoader#getRuleSet(Class<?>)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternRule#begin(Attributes)": ["org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"],
+    "org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(String,Throwable)": ["org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(String)"],
+    "org.apache.commons.digester.SimpleRegexMatcher#match(String,String)": ["org.apache.commons.digester.SimpleRegexMatcher#match(String,String,int,int)"],
+    "org.apache.commons.digester.Digester#resolveEntity(String,String)": [
+        "org.apache.commons.digester.Digester#createInputSourceFromURL(URL)",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)"
+    ],
+    "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule()": ["org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(String)"],
+    "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String,Throwable)": ["org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String)"],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,String,boolean)": [
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,boolean)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.Digester#addSetNestedProperties(String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule()",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.AbstractRulesImpl#add(String,Rule)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.RegexRules#registerRule(String,Rule)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.annotations.internal.RuleSetCache#put(Class<?>,FromAnnotationsRuleSet)": ["org.apache.commons.digester.annotations.internal.RuleSetCache.checkKey(Class<?>)"],
+    "org.apache.commons.digester.Digester#addSetProperties(String,String,String)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule(String,String)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#begin(Attributes)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#includeProgrammaticRules(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#includeXMLRules(String)"
+    ],
+    "org.apache.commons.digester.Digester#addSetNext(String,String)": [
+        "org.apache.commons.digester.SetNextRule#SetNextRule(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,InputStream,Object)": [
+        "org.apache.commons.digester.Digester#setClassLoader(ClassLoader)",
+        "org.apache.commons.digester.Digester#parse(InputStream)",
+        "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(URL)",
+        "org.apache.commons.digester.Digester#push(Object)",
+        "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.plugins.LogUtils.getLogger(Digester)": ["org.apache.commons.digester.Digester#getLogger()"],
+    "org.apache.commons.digester.plugins.PluginRules#add(String,Rule)": [
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#add(String,Rule)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#add(String,Rule)",
+        "org.apache.commons.digester.RulesBase#add(String,Rule)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#add(String,Rule)",
+        "org.apache.commons.digester.ExtendedBaseRules#add(String,Rule)",
+        "org.apache.commons.digester.plugins.PluginRules#add(String,Rule)",
+        "org.apache.commons.digester.plugins.LogUtils.getLogger(Digester)",
+        "org.apache.commons.digester.plugins.PluginCreateRule#postRegisterInit(String)",
+        "org.apache.commons.digester.AbstractRulesImpl#add(String,Rule)"
+    ],
+    "org.apache.commons.digester.NodeCreateRule.NodeBuilder#endElement(String,String,String)": [
+        "org.apache.commons.digester.Rule#getDigester()",
+        "org.apache.commons.digester.Digester#setCustomContentHandler(ContentHandler)",
+        "org.apache.commons.digester.Digester#push(Object)",
+        "org.apache.commons.digester.Digester#endElement(String,String,String)",
+        "org.apache.commons.digester.NodeCreateRule.NodeBuilder#addTextIfPresent()"
+    ],
+    "org.apache.commons.digester.SetTopRule#SetTopRule(Digester,String)": ["org.apache.commons.digester.SetTopRule#SetTopRule(String)"],
+    "org.apache.commons.digester.FactoryCreateRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallMethodRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectCreateRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetTopRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.FactoryCreateRule#getFactory(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.BeanPropertySetterRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectParamRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.NodeCreateRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetRootRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.FactoryCreateRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertyRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.Digester#push(Object)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallParamRuleFactory#createObject(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNextRuleFactory#createObject(Attributes)"
+    ],
+    "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRulesProviderFrom(FromAnnotationsRuleSet)": ["org.apache.commons.digester.annotations.FromAnnotationsRuleSet#getRules()"],
+    "org.apache.commons.digester.plugins.PluginCreateRule#end(String,String)": [
+        "org.apache.commons.digester.Digester#pop()",
+        "org.apache.commons.digester.plugins.PluginRules#getParent()",
+        "org.apache.commons.digester.plugins.PluginCreateRule#fireEndMethods(List<Rule>,String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#getDecoratedRules()",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.Digester#setRules(Rules)",
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.Digester#getMatch()",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,String,boolean)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String,boolean)"],
+    "org.apache.commons.digester.RulesBase#match(String)": [
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)"
+    ],
+    "org.apache.commons.digester.Digester#endPrefixMapping(String)": ["org.apache.commons.digester.Digester#createSAXException(String)"],
+    "org.apache.commons.digester.Digester#addCallParam(String,int,String)": [
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int,String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromResource#FinderFromResource()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromResource#FinderFromResource(String)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromResource.<staticinit>()"
+    ],
+    "org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(String,Throwable)": ["org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(String)"],
+    "org.apache.commons.digester.CallParamRule#end(String,String)": ["org.apache.commons.digester.Digester#peekParams()"],
+    "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule(String,String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(Throwable)": ["org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String)"],
+    "org.apache.commons.digester.RegexRules#RegexRules(RegexMatcher)": [
+        "org.apache.commons.digester.RegexRules.<init>()",
+        "org.apache.commons.digester.AbstractRulesImpl.<init>()",
+        "org.apache.commons.digester.RegexRules#setRegexMatcher(RegexMatcher)"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#PluginCreateRule(Class<?>,Class<?>)": [
+        "org.apache.commons.digester.plugins.PluginCreateRule.<init>()",
+        "org.apache.commons.digester.plugins.Declaration#Declaration(Class<?>)",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String)": ["org.apache.commons.digester.xmlrules.DigesterLoadingException.<init>()"],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(InputSource,Digester)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.Digester#addRuleSet(RuleSet)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,Digester)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#rules()": [
+        "org.apache.commons.digester.plugins.PluginRules#rules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#rules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#rules()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#rules()",
+        "org.apache.commons.digester.RulesBase#rules()",
+        "org.apache.commons.digester.RegexRules#rules()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetRootRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.SetRootRule#SetRootRule(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.SetRootRule#SetRootRule(String,String)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesAliasRule#begin(Attributes)": [
+        "org.apache.commons.digester.Digester#peek()",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule#addAlias(String,String)"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String,boolean)": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.FactoryCreateRule.<init>()"
+    ],
+    "org.apache.commons.digester.Digester#createInputSourceFromURL(String)": ["org.apache.commons.digester.Digester#createInputSourceFromURL(URL)"],
+    "org.apache.commons.digester.plugins.PluginRules#PluginRules()": [
+        "org.apache.commons.digester.plugins.PluginRules#PluginRules(Rules)",
+        "org.apache.commons.digester.RulesBase.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNextRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.SetNextRule#SetNextRule(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.SetNextRule#SetNextRule(String,String)"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoader#handle(AnnotatedElement,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.DigesterLoader#handle(A extends Annotation,E extends AnnotatedElement,FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.reflect.MethodArgument#getAnnotations()"
+    ],
+    "org.apache.commons.digester.parser.XercesParser.configureOldXerces(SAXParser,Properties)": ["org.apache.commons.digester.parser.XercesParser.<staticinit>()"],
+    "org.apache.commons.digester.substitution.VariableSubstitutor#substitute(Attributes)": ["org.apache.commons.digester.substitution.VariableAttributes#init(Attributes,VariableExpander)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.CallMethodRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(String)": ["org.apache.commons.digester.plugins.PluginConfigurationException.<init>()"],
+    "org.apache.commons.digester.Digester#setFeature(String,boolean)": ["org.apache.commons.digester.Digester#getFactory()"],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource,DigesterRuleParser,Digester)"
+    ],
+    "org.apache.commons.digester.SimpleRegexMatcher.<init>()": [
+        "org.apache.commons.digester.SimpleRegexMatcher.<staticinit>()",
+        "org.apache.commons.digester.RegexMatcher.<init>()"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(Throwable)": ["org.apache.commons.digester.annotations.DigesterLoadingException.<init>()"],
+    "org.apache.commons.digester.SetNextRule#SetNextRule(String)": ["org.apache.commons.digester.SetNextRule#SetNextRule(String,String)"],
+    "org.apache.commons.digester.NodeCreateRule#end()": ["org.apache.commons.digester.Digester#pop()"],
+    "org.apache.commons.digester.substitution.VariableAttributes#getIndex(String)": ["org.apache.commons.digester.substitution.VariableAttributes#getIndex(String)"],
+    "org.apache.commons.digester.RulesBase#lookup(String,String)": ["org.apache.commons.digester.Rule#getNamespaceURI()"],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,Class<?>,boolean)": [
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,boolean)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Digester,ObjectCreationFactory)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(ObjectCreationFactory)"],
+    "org.apache.commons.digester.substitution.VariableSubstitutor#substitute(String)": ["org.apache.commons.digester.substitution.MultiVariableExpander#expand(String)"],
+    "org.apache.commons.digester.Digester#addSetRoot(String,String)": [
+        "org.apache.commons.digester.SetRootRule#SetRootRule(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectParamRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.Digester#getRules()": [
+        "org.apache.commons.digester.AbstractRulesImpl#setDigester(Digester)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setDigester(Digester)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setDigester(Digester)",
+        "org.apache.commons.digester.RulesBase.<init>()",
+        "org.apache.commons.digester.plugins.PluginRules#setDigester(Digester)",
+        "org.apache.commons.digester.RulesBase#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.Digester#addObjectCreate(String,String,Class<?>)": [
+        "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,Class<?>)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.CircularIncludeException#CircularIncludeException(String)": [
+        "org.apache.commons.digester.xmlrules.CircularIncludeException.<init>()",
+        "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(String)"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#postRegisterInit(String)": [
+        "org.apache.commons.digester.plugins.PluginRules#getPluginClassAttrNs()",
+        "org.apache.commons.digester.plugins.LogUtils.getLogger(Digester)",
+        "org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(String)",
+        "org.apache.commons.digester.plugins.Declaration#getPluginClass()",
+        "org.apache.commons.digester.plugins.PluginRules#getPluginIdAttr()",
+        "org.apache.commons.digester.plugins.PluginException#getCause()",
+        "org.apache.commons.digester.plugins.PluginRules#getPluginIdAttrNs()",
+        "org.apache.commons.digester.plugins.PluginRules#getPluginClassAttr()",
+        "org.apache.commons.digester.plugins.Declaration#init(Digester,PluginManager)",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#getCause()",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.plugins.PluginRules#getPluginManager()",
+        "org.apache.commons.digester.plugins.PluginConfigurationException#PluginConfigurationException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationPattern(Annotation)": [
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.<staticinit>()",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.invokeAnnotationMethod(Annotation,String)"
+    ],
+    "org.apache.commons.digester.Digester#startElement(String,String,String,Attributes)": [
+        "org.apache.commons.digester.substitution.VariableSubstitutor#substitute(Attributes)",
+        "org.apache.commons.digester.NodeCreateRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.ObjectParamRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.FactoryCreateRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.PathCallParamRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.Digester#getSubstitutor()",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.Rule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.SetNestedPropertiesRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#add(String,Rule)": [
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#add(String,Rule)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#add(String,Rule)",
+        "org.apache.commons.digester.RulesBase#add(String,Rule)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#add(String,Rule)",
+        "org.apache.commons.digester.ExtendedBaseRules#add(String,Rule)",
+        "org.apache.commons.digester.plugins.PluginRules#add(String,Rule)",
+        "org.apache.commons.digester.AbstractRulesImpl#add(String,Rule)"
+    ],
+    "org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory#useDefaultDigesterLoaderHandlerFactory()": [
+        "org.apache.commons.digester.annotations.internal.DefaultDigesterLoaderHandlerFactory.<init>()",
+        "org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory#useDigesterLoaderHandlerFactory(DigesterLoaderHandlerFactory)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#findLoader(Digester,Class<?>,Properties)": ["org.apache.commons.digester.plugins.strategies.FinderFromResource.loadRules(Digester,Class<?>,InputStream,String)"],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(URL,Digester)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.Digester#addRuleSet(RuleSet)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,Digester)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#IncludeRule()": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule.<init>()"
+    ],
+    "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(Throwable)": ["org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(Throwable)"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#getDigester()": [
+        "org.apache.commons.digester.RulesBase#getDigester()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getDigester()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getDigester()",
+        "org.apache.commons.digester.plugins.PluginRules#getDigester()",
+        "org.apache.commons.digester.AbstractRulesImpl#getDigester()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getDigester()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,URL,Object)": ["org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,URL,Object)"],
+    "org.apache.commons.digester.NodeCreateRule.NodeBuilder#startElement(String,String,String,Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getURI(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getQName(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLocalName(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getLength()",
+        "org.apache.commons.digester.NodeCreateRule.NodeBuilder#addTextIfPresent()"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getValue(String,String)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getIndex(String,String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(int)"
+    ],
+    "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule()": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.SetPropertiesRule.<init>()"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoader#createDigester(Class<?>)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.Digester#setClassLoader(ClassLoader)",
+        "org.apache.commons.digester.annotations.DigesterLoader#addRules(Class<?>,Digester)"
+    ],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#setDigester(Digester)": [
+        "org.apache.commons.digester.AbstractRulesImpl#setDigester(Digester)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setDigester(Digester)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.plugins.PluginRules#setDigester(Digester)",
+        "org.apache.commons.digester.RulesBase#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.plugins.Declaration#configure(Digester,String)",
+        "org.apache.commons.digester.plugins.PluginManager#addDeclaration(Declaration)",
+        "org.apache.commons.digester.plugins.PluginCreateRule#fireBeginMethods(List<Rule>,String,String,Attributes)",
+        "org.apache.commons.digester.plugins.Declaration#getPluginClass()",
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.plugins.Declaration#init(Digester,PluginManager)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#getCause()",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String)",
+        "org.apache.commons.digester.plugins.PluginManager#getDeclarationById(String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginManager#getDeclarationByClass(String)",
+        "org.apache.commons.digester.plugins.PluginRules#getDecoratedRules()",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.Digester#setRules(Rules)",
+        "org.apache.commons.digester.plugins.PluginException#getCause()",
+        "org.apache.commons.digester.Rule#getDigester()",
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.Digester#getMatch()",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#PluginRules(Digester,String,PluginRules,Class<?>)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#PluginInvalidInputException(String,Throwable)",
+        "org.apache.commons.digester.plugins.PluginRules#getPluginManager()",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.plugins.Declaration#Declaration(String)",
+        "org.apache.commons.digester.Digester#push(Object)"
+    ],
+    "org.apache.commons.digester.Digester#addCallMethod(String,String,int,String[])": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,String[])"
+    ],
+    "org.apache.commons.digester.plugins.strategies.LoaderSetProperties#addRules(Digester,String)": [
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.Digester#addSetProperties(String)"
+    ],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,Class<?>,String,boolean)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,String,boolean)"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,boolean)"],
+    "org.apache.commons.digester.plugins.PluginRules#getRuleFinders()": ["org.apache.commons.digester.plugins.PluginContext#getRuleFinders()"],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,boolean)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,String,boolean)"],
+    "org.apache.commons.digester.CallParamRule#CallParamRule(int,String)": [
+        "org.apache.commons.digester.CallParamRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.PluginContext#PluginContext()": ["org.apache.commons.digester.plugins.PluginContext.<init>()"],
+    "org.apache.commons.digester.plugins.PluginManager#findLoader(Digester,String,Class<?>,Properties)": [
+        "org.apache.commons.digester.plugins.LogUtils.getLogger(Digester)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromMethod#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromFile#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromClass#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.PluginContext#getRuleFinders()",
+        "org.apache.commons.digester.plugins.PluginException#getCause()",
+        "org.apache.commons.digester.plugins.PluginInvalidInputException#getCause()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.strategies.FinderSetProperties#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromResource#findLoader(Digester,Class<?>,Properties)",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.plugins.PluginException#PluginException(Throwable)": ["org.apache.commons.digester.plugins.PluginException#PluginException(String)"],
+    "org.apache.commons.digester.Digester#Digester()": ["org.apache.commons.digester.Digester.<init>()"],
+    "org.apache.commons.digester.plugins.strategies.FinderSetProperties#findLoader(Digester,Class<?>,Properties)": ["org.apache.commons.digester.plugins.strategies.LoaderSetProperties.<init>()"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#getNamespaceURI()": [
+        "org.apache.commons.digester.AbstractRulesImpl#getNamespaceURI()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getNamespaceURI()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getNamespaceURI()",
+        "org.apache.commons.digester.RulesBase#getNamespaceURI()",
+        "org.apache.commons.digester.plugins.PluginRules#getNamespaceURI()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getNamespaceURI()"
+    ],
+    "org.apache.commons.digester.AbstractRulesImpl#match(String)": ["org.apache.commons.digester.RegexRules#match(String,String)"],
+    "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)": ["org.apache.commons.digester.plugins.PluginException#PluginException(String)"],
+    "org.apache.commons.digester.plugins.PluginRules#setPluginClassAttribute(String,String)": ["org.apache.commons.digester.plugins.PluginContext#setPluginClassAttribute(String,String)"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromMethod#FinderFromMethod()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromMethod#FinderFromMethod(String)",
+        "org.apache.commons.digester.plugins.strategies.FinderFromMethod.<staticinit>()"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoaderBuilder.byDefaultFactories()": [
+        "org.apache.commons.digester.annotations.DigesterLoaderBuilder#useDefaultAnnotationRuleProviderFactory()",
+        "org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory#useDefaultDigesterLoaderHandlerFactory()",
+        "org.apache.commons.digester.annotations.DigesterLoaderBuilder.<init>()"
+    ],
+    "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule(String,String)": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.SetPropertiesRule.<init>()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromClass#findLoader(Digester,Class<?>,Properties)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromClass.<staticinit>()",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass#LoaderFromClass(Class<?>,String)",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.Digester#addCallParam(String,int)": [
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.Digester#addCallParamPath(String,int)": [
+        "org.apache.commons.digester.PathCallParamRule#PathCallParamRule(int)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,DigesterRuleParser,Digester)": [
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#init(XMLRulesLoader,DigesterRuleParser,Digester)",
+        "org.apache.commons.digester.RuleSetBase.<init>()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.URLXMLRulesLoader#URLXMLRulesLoader(URL)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.<init>()"
+    ],
+    "org.apache.commons.digester.Digester#peek(String)": ["org.apache.commons.digester.Digester#peek(String,int)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.Digester#createSAXException(Exception)": ["org.apache.commons.digester.Digester#createSAXException(String,Exception)"],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)": [
+        "org.apache.commons.digester.Rule#Rule()",
+        "org.apache.commons.digester.ObjectCreateRule.<init>()"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Digester,Class<?>)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>)"],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,ObjectCreationFactory,boolean)": [
+        "org.apache.commons.digester.AbstractObjectCreationFactory#setDigester(Digester)",
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(ObjectCreationFactory,boolean)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.parser.GenericParser.newSAXParser(Properties)": ["org.apache.commons.digester.parser.GenericParser.<staticinit>()"],
+    "org.apache.commons.digester.SetTopRule#SetTopRule(Digester,String,String)": ["org.apache.commons.digester.SetTopRule#SetTopRule(String,String)"],
+    "org.apache.commons.digester.annotations.providers.StackCallParamRuleProvider#get()": ["org.apache.commons.digester.CallParamRule#CallParamRule(int,int)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternRule#PatternRule(String)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(int,String,int)": [
+        "org.apache.commons.digester.CallMethodRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#body(String,String,String)": [
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginCreateRule#fireBodyMethods(List<Rule>,String,String,String)",
+        "org.apache.commons.digester.Digester#getMatch()",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#getDecoratedRules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.Digester#addCallParam(String,int,int)": [
+        "org.apache.commons.digester.CallParamRule#CallParamRule(int,int)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String)": [
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String)",
+        "org.apache.commons.digester.RulesBase#match(String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String)",
+        "org.apache.commons.digester.AbstractRulesImpl#match(String)"
+    ],
+    "org.apache.commons.digester.Digester#addCallMethod(String,String,int)": [
+        "org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromMethod#FinderFromMethod(String)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromMethod.<init>()",
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(Digester,String,int)": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int)"],
+    "org.apache.commons.digester.Digester#createSAXException(String)": ["org.apache.commons.digester.Digester#createSAXException(String,Exception)"],
+    "org.apache.commons.digester.Digester#setRules(Rules)": [
+        "org.apache.commons.digester.AbstractRulesImpl#setDigester(Digester)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setDigester(Digester)",
+        "org.apache.commons.digester.plugins.PluginRules#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setDigester(Digester)",
+        "org.apache.commons.digester.RulesBase#setDigester(Digester)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.annotations.providers.SetRootRuleProvider#get()": ["org.apache.commons.digester.SetRootRule#SetRootRule(String,String)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertyRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.annotations.providers.AttributeCallParamRuleProvider#get()": ["org.apache.commons.digester.CallParamRule#CallParamRule(int,String)"],
+    "org.apache.commons.digester.plugins.PluginRules#PluginRules(Digester,String,PluginRules,Class<?>)": [
+        "org.apache.commons.digester.plugins.PluginRules.<init>()",
+        "org.apache.commons.digester.plugins.PluginManager#PluginManager(PluginManager)",
+        "org.apache.commons.digester.RulesBase.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.FactoryCreateRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,boolean)",
+        "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String,boolean)"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#setRuleFinders(List<RuleFinder>)": ["org.apache.commons.digester.plugins.PluginContext#setRuleFinders(List<RuleFinder>)"],
+    "org.apache.commons.digester.Digester#addRuleSet(RuleSet)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#addRuleInstances(Digester)",
+        "org.apache.commons.digester.Digester#getRuleNamespaceURI()",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleInstances(Digester)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#getNamespaceURI()",
+        "org.apache.commons.digester.RuleSetBase#getNamespaceURI()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#addRuleInstances(Digester)",
+        "org.apache.commons.digester.Digester#setRuleNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#addDefault(Rule)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getDigester()",
+        "org.apache.commons.digester.plugins.PluginRules#getDigester()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getNamespaceURI()",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.plugins.PluginRules#getNamespaceURI()",
+        "org.apache.commons.digester.RulesBase#getDigester()",
+        "org.apache.commons.digester.AbstractRulesImpl#getNamespaceURI()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getDigester()",
+        "org.apache.commons.digester.RulesBase#getNamespaceURI()",
+        "org.apache.commons.digester.Rule#setNamespaceURI(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getNamespaceURI()",
+        "org.apache.commons.digester.AbstractRulesImpl#getDigester()",
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getNamespaceURI()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getDigester()"
+    ],
+    "org.apache.commons.digester.plugins.PluginAssertionFailure#PluginAssertionFailure(String)": ["org.apache.commons.digester.plugins.PluginAssertionFailure.<init>()"],
+    "org.apache.commons.digester.plugins.PluginCreateRule#PluginCreateRule(Class<?>)": [
+        "org.apache.commons.digester.plugins.PluginCreateRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass#findLoader(Digester,Class<?>,Properties)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass.<staticinit>()",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass#LoaderFromClass(Class<?>,String)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,InputStream)": [
+        "org.apache.commons.digester.Digester#setClassLoader(ClassLoader)",
+        "org.apache.commons.digester.Digester#parse(InputStream)",
+        "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(URL)",
+        "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.Rule#Rule()": ["org.apache.commons.digester.Rule.<init>()"],
+    "org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String,Throwable)": ["org.apache.commons.digester.xmlrules.DigesterLoadingException#DigesterLoadingException(String)"],
+    "org.apache.commons.digester.Digester#Digester(XMLReader)": ["org.apache.commons.digester.Digester.<init>()"],
+    "org.apache.commons.digester.annotations.DigesterLoader#DigesterLoader(AnnotationRuleProviderFactory,DigesterLoaderHandlerFactory)": ["org.apache.commons.digester.annotations.DigesterLoader.<init>()"],
+    "org.apache.commons.digester.plugins.Declaration#Declaration(Class<?>,RuleLoader)": ["org.apache.commons.digester.plugins.Declaration.<init>()"],
+    "org.apache.commons.digester.CallParamRule#CallParamRule(Digester,int)": ["org.apache.commons.digester.CallParamRule#CallParamRule(int)"],
+    "org.apache.commons.digester.SetTopRule#end()": [
+        "org.apache.commons.digester.Digester#peek(int)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.annotations.reflect.MethodArgument#getAnnotations()": ["org.apache.commons.digester.annotations.reflect.MethodArgument#getAnnotationsArrayCopy()"],
+    "org.apache.commons.digester.annotations.providers.StackCallParamRuleProvider#init(9dc32ad8cc8ac2a957b73e65cc87b509131cfc9d,MethodArgument)": ["org.apache.commons.digester.annotations.reflect.MethodArgument#getIndex()"],
+    "org.apache.commons.digester.SetPropertyRule#SetPropertyRule(Digester,String,String)": ["org.apache.commons.digester.SetPropertyRule#SetPropertyRule(String,String)"],
+    "org.apache.commons.digester.plugins.PluginRules#getPluginClassAttrNs()": ["org.apache.commons.digester.plugins.PluginContext#getPluginClassAttrNs()"],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.createDigester(InputSource)": [
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.Digester#addRuleSet(RuleSet)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(InputSource)"
+    ],
+    "org.apache.commons.digester.Digester#setProperty(String,Object)": ["org.apache.commons.digester.Digester#getParser()"],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,Class<?>)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)"],
+    "org.apache.commons.digester.annotations.reflect.MethodArgument#MethodArgument(int,Class<?>,Annotation[])": ["org.apache.commons.digester.annotations.reflect.MethodArgument.<init>()"],
+    "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(Digester)": ["org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule()"],
+    "org.apache.commons.digester.plugins.PluginRules#setDigester(Digester)": [
+        "org.apache.commons.digester.AbstractRulesImpl#setDigester(Digester)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setDigester(Digester)",
+        "org.apache.commons.digester.plugins.PluginRules#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setDigester(Digester)",
+        "org.apache.commons.digester.RulesBase#setDigester(Digester)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectCreateRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)",
+        "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.LoaderFromStream#LoaderFromStream(InputStream)": [
+        "org.apache.commons.digester.plugins.RuleLoader.<init>()",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromStream#load(InputStream)",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromStream.<init>()"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,Digester)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet#FromXmlRuleSet(URL,DigesterRuleParser,Digester)"
+    ],
+    "org.apache.commons.digester.Digester#getRuleNamespaceURI()": [
+        "org.apache.commons.digester.AbstractRulesImpl#getNamespaceURI()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getNamespaceURI()",
+        "org.apache.commons.digester.RulesBase#getNamespaceURI()",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getNamespaceURI()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getNamespaceURI()",
+        "org.apache.commons.digester.plugins.PluginRules#getNamespaceURI()"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#fireBeginMethods(List<Rule>,String,String,Attributes)": [
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.NodeCreateRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.ObjectParamRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.FactoryCreateRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)",
+        "org.apache.commons.digester.Rule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.PathCallParamRule#begin(String,String,Attributes)",
+        "org.apache.commons.digester.SetNestedPropertiesRule#begin(String,String,Attributes)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.BeanPropertySetterRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(String)",
+        "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule()"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoader#addRulesTo(Class<?>,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.DigesterLoader#handle(AnnotatedElement,FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.internal.RuleSetCache#containsKey(Class<?>)",
+        "org.apache.commons.digester.annotations.internal.RuleSetCache#get(Class<?>)",
+        "org.apache.commons.digester.annotations.DigesterLoader#addRulesTo(Class<?>,FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addMappedClass(Class<?>)",
+        "org.apache.commons.digester.annotations.reflect.MethodArgument#MethodArgument(int,Class<?>,Annotation[])",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRulesProviderFrom(FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#mapsClass(Class<?>)"
+    ],
+    "org.apache.commons.digester.RegexRules#registerRule(String,Rule)": ["org.apache.commons.digester.RegexRules.RegisteredRule#RegisteredRule(String,Rule)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.ObjectParamRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.ObjectParamRule#ObjectParamRule(int,String,Object)",
+        "org.apache.commons.digester.ObjectParamRule#ObjectParamRule(int,Object)"
+    ],
+    "org.apache.commons.digester.NodeCreateRule#NodeCreateRule(int,DocumentBuilder)": [
+        "org.apache.commons.digester.NodeCreateRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#getPluginIdAttr()": ["org.apache.commons.digester.plugins.PluginContext#getPluginIdAttr()"],
+    "org.apache.commons.digester.plugins.PluginContext#getRuleFinders()": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltClass#FinderFromDfltClass()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod#FinderFromDfltMethod()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromMethod#FinderFromMethod()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#FinderFromDfltResource()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#FinderFromDfltResource(String)",
+        "org.apache.commons.digester.plugins.strategies.FinderSetProperties#FinderSetProperties()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromFile#FinderFromFile()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromClass#FinderFromClass()",
+        "org.apache.commons.digester.plugins.strategies.FinderFromResource#FinderFromResource()"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(String,Throwable)": ["org.apache.commons.digester.annotations.DigesterLoadingException.<init>()"],
+    "org.apache.commons.digester.Digester#startDocument()": ["org.apache.commons.digester.Digester#configure()"],
+    "org.apache.commons.digester.Digester#addRule(String,Rule)": [
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#add(String,Rule)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#add(String,Rule)",
+        "org.apache.commons.digester.RulesBase#add(String,Rule)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#add(String,Rule)",
+        "org.apache.commons.digester.ExtendedBaseRules#add(String,Rule)",
+        "org.apache.commons.digester.plugins.PluginRules#add(String,Rule)",
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule#setDigester(Digester)",
+        "org.apache.commons.digester.CallMethodRule#setDigester(Digester)",
+        "org.apache.commons.digester.Rule#setDigester(Digester)",
+        "org.apache.commons.digester.AbstractRulesImpl#add(String,Rule)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,URL)": ["org.apache.commons.digester.xmlrules.DigesterLoader.load(URL,ClassLoader,Reader)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setNamespaceURI(String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setNamespaceURI(String)",
+        "org.apache.commons.digester.plugins.PluginRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.AbstractRulesImpl#setNamespaceURI(String)",
+        "org.apache.commons.digester.RulesBase#setNamespaceURI(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.Digester#addBeanPropertySetter(String,String)": [
+        "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.plugins.PluginCreateRule#fireBodyMethods(List<Rule>,String,String,String)": [
+        "org.apache.commons.digester.plugins.PluginCreateRule#body(String,String,String)",
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.BeanPropertySetterRule#body(String,String,String)",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)",
+        "org.apache.commons.digester.Rule#body(String,String,String)"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet.URLXMLRulesLoader#loadRules()": [
+        "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(Throwable)",
+        "org.apache.commons.digester.Digester#parse(InputSource)"
+    ],
+    "org.apache.commons.digester.Digester#addSetRoot(String,String,String)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.SetRootRule#SetRootRule(String,String)"
+    ],
+    "org.apache.commons.digester.Digester#parse(String)": [
+        "org.apache.commons.digester.Digester#cleanup()",
+        "org.apache.commons.digester.Digester#createInputSourceFromURL(String)",
+        "org.apache.commons.digester.Digester#getXMLReader()",
+        "org.apache.commons.digester.Digester#configure()"
+    ],
+    "org.apache.commons.digester.CallParamRule#CallParamRule(int)": ["org.apache.commons.digester.CallParamRule#CallParamRule(int,boolean)"],
+    "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleProvider(String,Class<T extends AnnotationRuleProvider>,A extends Annotation,E extends AnnotatedElement)": [
+        "org.apache.commons.digester.annotations.DigesterLoader#getAnnotationRuleProviderFactory()",
+        "org.apache.commons.digester.annotations.internal.DefaultAnnotationRuleProviderFactory#newInstance(Class<T extends AnnotationRuleProvider>)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.NodeCreateRuleFactory#createObject(Attributes)": [
+        "org.apache.commons.digester.NodeCreateRule#NodeCreateRule(int)",
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.NodeCreateRule#NodeCreateRule()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesAliasRule#SetPropertiesAliasRule()": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesAliasRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.strategies.LoaderFromClass#LoaderFromClass(Class<?>,String)": [
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass.<init>()",
+        "org.apache.commons.digester.plugins.RuleLoader.<init>()",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String)",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromClass.locateMethod(Class<?>,String)"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet.URLXMLRulesLoader#URLXMLRulesLoader(URL)": [
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.XMLRulesLoader.<init>()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.URLXMLRulesLoader.<init>()"
+    ],
+    "org.apache.commons.digester.plugins.PluginManager#PluginManager(PluginContext)": ["org.apache.commons.digester.plugins.PluginManager.<init>()"],
+    "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(Throwable)": ["org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(Throwable)"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNextRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.annotations.handlers.MethodHandler#doHandle(A extends Annotation,Annotation,Method,Class<?>,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleProvider(String,Class<T extends AnnotationRuleProvider>,A extends Annotation,E extends AnnotatedElement)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRules(Class<?>)",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationPattern(Annotation)",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationsArrayValue(Annotation)",
+        "org.apache.commons.digester.annotations.handlers.MethodHandler#doHandle(A extends Annotation,Annotation,Method,Class<?>,FromAnnotationsRuleSet)"
+    ],
+    "org.apache.commons.digester.Digester#parse(InputStream)": [
+        "org.apache.commons.digester.Digester#cleanup()",
+        "org.apache.commons.digester.Digester#getXMLReader()",
+        "org.apache.commons.digester.Digester#configure()"
+    ],
+    "org.apache.commons.digester.annotations.internal.RuleSetCache#get(Class<?>)": ["org.apache.commons.digester.annotations.internal.RuleSetCache.checkKey(Class<?>)"],
+    "org.apache.commons.digester.Digester#addSetProperties(String)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.SetPropertiesRule#SetPropertiesRule()"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#getNamespaceURI()": [
+        "org.apache.commons.digester.AbstractRulesImpl#getNamespaceURI()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#getNamespaceURI()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getNamespaceURI()",
+        "org.apache.commons.digester.RulesBase#getNamespaceURI()",
+        "org.apache.commons.digester.plugins.PluginRules#getNamespaceURI()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#getNamespaceURI()"
+    ],
+    "org.apache.commons.digester.RegexRules.RegisteredRule#RegisteredRule(String,Rule)": ["org.apache.commons.digester.RegexRules.RegisteredRule.<init>()"],
+    "org.apache.commons.digester.Digester#getFeature(String)": ["org.apache.commons.digester.Digester#getFactory()"],
+    "org.apache.commons.digester.SetNestedPropertiesRule#SetNestedPropertiesRule()": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.substitution.MultiVariableExpander#expand(String)": ["org.apache.commons.digester.substitution.MultiVariableExpander#expand(String,String,Map<String, Object>)"],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,String)": ["org.apache.commons.digester.Digester#addFactoryCreate(String,String,boolean)"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#WithDefaultsRulesWrapper(Rules)": ["org.apache.commons.digester.WithDefaultsRulesWrapper.<init>()"],
+    "org.apache.commons.digester.Digester#addSetTop(String,String,String)": [
+        "org.apache.commons.digester.Digester#addRule(String,Rule)",
+        "org.apache.commons.digester.SetTopRule#SetTopRule(String,String)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource#FinderFromDfltResource(String)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltResource.<init>()",
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()"
+    ],
+    "org.apache.commons.digester.CallMethodRule#CallMethodRule(Digester,String,int,Class<?>[])": ["org.apache.commons.digester.CallMethodRule#CallMethodRule(String,int,Class<?>[])"],
+    "org.apache.commons.digester.plugins.PluginRules#PluginRules(Rules)": [
+        "org.apache.commons.digester.plugins.PluginRules.<init>()",
+        "org.apache.commons.digester.plugins.PluginManager#PluginManager(PluginContext)",
+        "org.apache.commons.digester.plugins.PluginContext#PluginContext()"
+    ],
+    "org.apache.commons.digester.annotations.DigesterLoader.<init>()": ["org.apache.commons.digester.annotations.internal.RuleSetCache.<init>()"],
+    "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)": [
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#RulesPrefixAdapter(String,Rules)": ["org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter.<init>()"],
+    "org.apache.commons.digester.SetNestedPropertiesRule#body(String)": [
+        "org.apache.commons.digester.Digester#getRules()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#getOldRules()",
+        "org.apache.commons.digester.Digester#setRules(Rules)"
+    ],
+    "org.apache.commons.digester.annotations.internal.RuleSetCache#containsKey(Class<?>)": ["org.apache.commons.digester.annotations.internal.RuleSetCache.checkKey(Class<?>)"],
+    "org.apache.commons.digester.parser.XercesParser.configureXerces(SAXParserFactory)": ["org.apache.commons.digester.parser.XercesParser.<staticinit>()"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser(Digester)": [
+        "org.apache.commons.digester.RuleSetBase.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.<init>()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternStack.<init>()"
+    ],
+    "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule#body(String)": ["org.apache.commons.digester.Digester#peek()"],
+    "org.apache.commons.digester.plugins.PluginCreateRule#fireEndMethods(List<Rule>,String,String)": [
+        "org.apache.commons.digester.CallParamRule#end(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRule#end(String,String)",
+        "org.apache.commons.digester.BeanPropertySetterRule#end(String,String)",
+        "org.apache.commons.digester.Digester#getLogger()",
+        "org.apache.commons.digester.Rule#end(String,String)",
+        "org.apache.commons.digester.FactoryCreateRule#end(String,String)",
+        "org.apache.commons.digester.Digester#createSAXException(Exception)",
+        "org.apache.commons.digester.plugins.PluginCreateRule#end(String,String)"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#setNamespaceURI(String)": [
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setNamespaceURI(String)",
+        "org.apache.commons.digester.plugins.PluginRules#setNamespaceURI(String)",
+        "org.apache.commons.digester.AbstractRulesImpl#setNamespaceURI(String)",
+        "org.apache.commons.digester.RulesBase#setNamespaceURI(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setNamespaceURI(String)"
+    ],
+    "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationsArrayValue(Annotation)": ["org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationValue(Annotation)"],
+    "org.apache.commons.digester.plugins.PluginRules#clear()": [
+        "org.apache.commons.digester.RegexRules#clear()",
+        "org.apache.commons.digester.plugins.PluginRules#clear()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#clear()",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#clear()",
+        "org.apache.commons.digester.RulesBase#clear()",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#clear()"
+    ],
+    "org.apache.commons.digester.plugins.PluginDeclarationRule#PluginDeclarationRule()": [
+        "org.apache.commons.digester.plugins.PluginDeclarationRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#getPluginIdAttrNs()": ["org.apache.commons.digester.plugins.PluginContext#getPluginIdAttrNs()"],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetRootRuleFactory.<init>()": ["org.apache.commons.digester.AbstractObjectCreationFactory.<init>()"],
+    "org.apache.commons.digester.annotations.FromAnnotationRuleProviderFactory#useDigesterLoaderHandlerFactory(DigesterLoaderHandlerFactory)": ["org.apache.commons.digester.annotations.DigesterLoader#DigesterLoader(AnnotationRuleProviderFactory,DigesterLoaderHandlerFactory)"],
+    "org.apache.commons.digester.NodeCreateRule#NodeCreateRule(int)": ["org.apache.commons.digester.NodeCreateRule#NodeCreateRule(int,DocumentBuilder)"],
+    "org.apache.commons.digester.substitution.VariableAttributes#getType(String,String)": ["org.apache.commons.digester.substitution.VariableAttributes#getType(String,String)"],
+    "org.apache.commons.digester.annotations.providers.FactoryCreateRuleProvider#get()": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Class<?>,boolean)"],
+    "org.apache.commons.digester.Digester#Digester(SAXParser)": ["org.apache.commons.digester.Digester.<init>()"],
+    "org.apache.commons.digester.annotations.DigesterLoader#getRuleSet(Class<?>)": [
+        "org.apache.commons.digester.annotations.internal.RuleSetCache#put(Class<?>,FromAnnotationsRuleSet)",
+        "org.apache.commons.digester.annotations.internal.RuleSetCache#containsKey(Class<?>)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#FromAnnotationsRuleSet(DigesterLoader)",
+        "org.apache.commons.digester.annotations.internal.RuleSetCache#get(Class<?>)",
+        "org.apache.commons.digester.annotations.DigesterLoader#addRulesTo(Class<?>,FromAnnotationsRuleSet)"
+    ],
+    "org.apache.commons.digester.Digester#addFactoryCreate(String,String,String)": ["org.apache.commons.digester.Digester#addFactoryCreate(String,String,String,boolean)"],
+    "org.apache.commons.digester.Digester#getProperty(String)": ["org.apache.commons.digester.Digester#getParser()"],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String,boolean)"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromFile#findLoader(Digester,Class<?>,Properties)": [
+        "org.apache.commons.digester.plugins.strategies.LoaderFromStream#LoaderFromStream(InputStream)",
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)"
+    ],
+    "org.apache.commons.digester.Digester#addBeanPropertySetter(String)": [
+        "org.apache.commons.digester.BeanPropertySetterRule#BeanPropertySetterRule()",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.Digester#getReader()": ["org.apache.commons.digester.Digester#getXMLReader()"],
+    "org.apache.commons.digester.SetRootRule#SetRootRule(String)": ["org.apache.commons.digester.SetRootRule#SetRootRule(String,String)"],
+    "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod#FinderFromDfltMethod(String)": [
+        "org.apache.commons.digester.plugins.strategies.FinderFromDfltMethod.<init>()",
+        "org.apache.commons.digester.plugins.RuleFinder.<init>()"
+    ],
+    "org.apache.commons.digester.ExtendedBaseRules#match(String,String)": [
+        "org.apache.commons.digester.Rule#getNamespaceURI()",
+        "org.apache.commons.digester.ExtendedBaseRules#findExactAncesterMatch(String)",
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)$Comparator$1.<init>()",
+        "org.apache.commons.digester.ExtendedBaseRules#parentMatch(String,String,String)",
+        "org.apache.commons.digester.ExtendedBaseRules#basicMatch(String,String)"
+    ],
+    "org.apache.commons.digester.BeanPropertySetterRule#end(String,String)": ["org.apache.commons.digester.Digester#peek()"],
+    "org.apache.commons.digester.annotations.DigesterLoader#handle(A extends Annotation,E extends AnnotatedElement,FromAnnotationsRuleSet)": [
+        "org.apache.commons.digester.annotations.internal.DefaultDigesterLoaderHandlerFactory#newInstance(Class<L extends DigesterLoaderHandler>)",
+        "org.apache.commons.digester.annotations.FromAnnotationsRuleSet#addRuleProvider(String,Class<T extends AnnotationRuleProvider>,A extends Annotation,E extends AnnotatedElement)",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationPattern(Annotation)",
+        "org.apache.commons.digester.annotations.utils.AnnotationUtils.getAnnotationsArrayValue(Annotation)",
+        "org.apache.commons.digester.annotations.DigesterLoader#handle(A extends Annotation,E extends AnnotatedElement,FromAnnotationsRuleSet)"
+    ],
+    "org.apache.commons.digester.plugins.strategies.FinderFromResource.loadRules(Digester,Class<?>,InputStream,String)": [
+        "org.apache.commons.digester.plugins.PluginException#PluginException(String,Throwable)",
+        "org.apache.commons.digester.plugins.strategies.LoaderFromStream#LoaderFromStream(InputStream)"
+    ],
+    "org.apache.commons.digester.NodeCreateRule#NodeCreateRule(DocumentBuilder)": ["org.apache.commons.digester.NodeCreateRule#NodeCreateRule(int,DocumentBuilder)"],
+    "org.apache.commons.digester.annotations.internal.DefaultDigesterLoaderHandlerFactory#newInstance(Class<L extends DigesterLoaderHandler>)": ["org.apache.commons.digester.annotations.DigesterLoadingException#DigesterLoadingException(String,Throwable)"],
+    "org.apache.commons.digester.Digester#parse(File)": [
+        "org.apache.commons.digester.Digester#cleanup()",
+        "org.apache.commons.digester.Digester#getXMLReader()",
+        "org.apache.commons.digester.Digester#configure()"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getType(int)": ["org.apache.commons.digester.substitution.VariableAttributes#getType(int)"],
+    "org.apache.commons.digester.Digester#addSetProperty(String,String,String)": [
+        "org.apache.commons.digester.SetPropertyRule#SetPropertyRule(String,String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.SetNextRule#SetNextRule(Digester,String,String)": ["org.apache.commons.digester.SetNextRule#SetNextRule(String,String)"],
+    "org.apache.commons.digester.Rule#begin(String,String,Attributes)": [
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#begin(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetPropertiesAliasRule#begin(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.SetNestedPropertiesAliasRule#begin(Attributes)",
+        "org.apache.commons.digester.CallMethodRule#begin(Attributes)",
+        "org.apache.commons.digester.Rule#begin(Attributes)",
+        "org.apache.commons.digester.CallParamRule#begin(Attributes)",
+        "org.apache.commons.digester.SetPropertyRule#begin(Attributes)",
+        "org.apache.commons.digester.ObjectCreateRule#begin(Attributes)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.PatternRule#begin(Attributes)",
+        "org.apache.commons.digester.SetPropertiesRule#begin(Attributes)"
+    ],
+    "org.apache.commons.digester.annotations.reflect.MethodArgument#getDeclaredAnnotations()": ["org.apache.commons.digester.annotations.reflect.MethodArgument#getAnnotationsArrayCopy()"],
+    "org.apache.commons.digester.ObjectCreateRule#begin(Attributes)": [
+        "org.apache.commons.digester.substitution.VariableAttributes#getValue(String)",
+        "org.apache.commons.digester.Digester#push(Object)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.xmlrules.FromXmlRuleSet#addRuleInstances(Digester,String)": [
+        "org.apache.commons.digester.Digester#addRuleSet(RuleSet)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.InputSourceXMLRulesLoader#loadRules()",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.<staticinit>()",
+        "org.apache.commons.digester.xmlrules.XmlLoadException#XmlLoadException(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#setBasePath(String)",
+        "org.apache.commons.digester.xmlrules.FromXmlRuleSet.URLXMLRulesLoader#loadRules()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#setDigesterRulesDTD(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#setTarget(Digester)",
+        "org.apache.commons.digester.Digester#push(Object)"
+    ],
+    "org.apache.commons.digester.Digester#addSetTop(String,String)": [
+        "org.apache.commons.digester.SetTopRule#SetTopRule(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.Digester#addObjectCreate(String,String)": [
+        "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String)",
+        "org.apache.commons.digester.Digester#addRule(String,Rule)"
+    ],
+    "org.apache.commons.digester.ObjectParamRule#ObjectParamRule(int,String,Object)": [
+        "org.apache.commons.digester.ObjectParamRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.IncludeRule#includeXMLRules(String)": [
+        "org.apache.commons.digester.Digester#addRuleSet(RuleSet)",
+        "org.apache.commons.digester.xmlrules.CircularIncludeException#CircularIncludeException(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#DigesterRuleParser(Digester,PatternStack<String>,Set<String>)",
+        "org.apache.commons.digester.Digester#Digester()",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#setDigesterRulesDTD(String)",
+        "org.apache.commons.digester.Digester#parse(String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser#getDigesterRulesDTD()",
+        "org.apache.commons.digester.Digester#push(Object)"
+    ],
+    "org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(Digester,String,String)": ["org.apache.commons.digester.FactoryCreateRule#FactoryCreateRule(String,String)"],
+    "org.apache.commons.digester.SetNextRule#end()": [
+        "org.apache.commons.digester.Digester#peek(int)",
+        "org.apache.commons.digester.Digester#getClassLoader()"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setDigester(Digester)": [
+        "org.apache.commons.digester.AbstractRulesImpl#setDigester(Digester)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#setDigester(Digester)",
+        "org.apache.commons.digester.plugins.PluginRules#setDigester(Digester)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#setDigester(Digester)",
+        "org.apache.commons.digester.RulesBase#setDigester(Digester)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#setDigester(Digester)"
+    ],
+    "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)": [
+        "org.apache.commons.digester.ExtendedBaseRules#match(String,String)",
+        "org.apache.commons.digester.RegexRules#match(String,String)",
+        "org.apache.commons.digester.xmlrules.DigesterRuleParser.RulesPrefixAdapter#match(String,String)",
+        "org.apache.commons.digester.SetNestedPropertiesRule.AnyChildRules#match(String,String)",
+        "org.apache.commons.digester.RulesBase#match(String,String)",
+        "org.apache.commons.digester.plugins.PluginRules#match(String,String)",
+        "org.apache.commons.digester.WithDefaultsRulesWrapper#match(String,String)"
+    ],
+    "org.apache.commons.digester.plugins.PluginRules#setPluginIdAttribute(String,String)": ["org.apache.commons.digester.plugins.PluginContext#setPluginIdAttribute(String,String)"],
+    "org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String)": ["org.apache.commons.digester.ObjectCreateRule#ObjectCreateRule(String,String)"],
+    "org.apache.commons.digester.substitution.VariableAttributes#getURI(int)": ["org.apache.commons.digester.substitution.VariableAttributes#getURI(int)"],
+    "org.apache.commons.digester.SetNextRule#SetNextRule(String,String)": [
+        "org.apache.commons.digester.SetNextRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.SetPropertyRule#SetPropertyRule(String,String)": [
+        "org.apache.commons.digester.SetPropertyRule.<init>()",
+        "org.apache.commons.digester.Rule#Rule()"
+    ],
+    "org.apache.commons.digester.substitution.VariableAttributes#getQName(int)": ["org.apache.commons.digester.substitution.VariableAttributes#getQName(int)"],
+    "org.apache.commons.digester.plugins.strategies.LoaderSetProperties.<init>()": ["org.apache.commons.digester.plugins.RuleLoader.<init>()"]
+}
