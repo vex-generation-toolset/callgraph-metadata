@@ -1,0 +1,74 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Generate Call Graph
+on:
+  workflow_call:
+    inputs:
+      input-repo:
+        required: true
+        type: string
+        description: Repository to analyze in the format owner/repo (e.g., apache/logging-log4j2)
+      input-tag:
+        required: true
+        type: string
+        description: Tag or branch to analyze (e.g., rel/2.25.2)
+      group-id:
+        required: true
+        type: string
+        description: Group ID of the project to analyze (e.g., org.apache.logging.log4j)
+      artifact-id:
+        required: true
+        type: string
+        description: Artifact ID of the project to analyze (e.g., log4j-core)
+      version:
+        required: true
+        type: string
+        description: Version of the project to analyze (e.g., 2.25.2)
+
+jobs:
+    generate-call-graph:
+      runs-on: ubuntu-latest
+      permissions:
+        contents: write
+      steps:
+        - name: Checkout Source Repository
+          uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
+          with:
+            repository: ${{ inputs.input-repo }}
+            ref: ${{ inputs.input-tag }}
+            path: source
+
+        - name: Checkout Metadata Repository
+          uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
+          with:
+            repository: ${{ github.repository }}
+            path: metadata
+
+        - name: Run Call Graph Generation
+          shell: bash
+          env:
+            GROUP_ID: ${{ inputs.group-id }}
+            ARTIFACT_ID: ${{ inputs.artifact-id }}
+            VERSION: ${{ inputs.version }}
+          run: |
+            # Directory for call graph output
+            mkdir -p result
+            mkdir -p metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}
+            
+            # Pull and run the call graph generator
+            docker run --rm \
+              -v "${GITHUB_WORKSPACE/source":/workspace/source \
+              -v "${GITHUB_WORKSPACE}/result":/output \
+              ghcr.io/vex-generation-toolset/java-callgraph:latest
+            
+            # Move generated call graph to metadata repository
+            mv result/*.json metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}/callgraph.json
+
+        - name: Commit and Push Call Graph
+          shell: bash
+          run: |
+              cd metadata
+              git config user.name "github-actions[bot]"
+              git config user.email "github-actions[bot]@users.noreply.github.com"
+              git add .
+              git commit -m "Add call graph for ${GROUP_ID}:${ARTIFACT_ID}:${VERSION}" || echo "No changes to commit"
+              git push origin HEAD:main
