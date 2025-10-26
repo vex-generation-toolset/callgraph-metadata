@@ -1,0 +1,431 @@
+{
+    "org.apache.commons.exec.DaemonExecutor#createThread(Runnable,String)": ["org.apache.commons.exec.DefaultExecutor#createThread(Runnable,String)"],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer#add(Process)": ["org.apache.commons.exec.ShutdownHookProcessDestroyer#addShutdownHook()"],
+    "org.apache.commons.exec.DefaultExecutor#checkWorkingDirectory()": ["org.apache.commons.exec.DefaultExecutor#checkWorkingDirectory(File)"],
+    "org.apache.commons.exec.CommandLine#toStrings()": [
+        "org.apache.commons.exec.CommandLine#getExecutable()",
+        "org.apache.commons.exec.CommandLine#getArguments()"
+    ],
+    "org.apache.commons.exec.StreamPumper#StreamPumper(InputStream,OutputStream)": ["org.apache.commons.exec.StreamPumper#StreamPumper(InputStream,OutputStream,boolean)"],
+    "org.apache.commons.exec.DaemonExecutor.Builder.<init>()": ["org.apache.commons.exec.DefaultExecutor.Builder.<init>()"],
+    "org.apache.commons.exec.PumpStreamHandler#stopThread(Thread,long)": ["org.apache.commons.exec.PumpStreamHandler#stop(Thread,Duration)"],
+    "org.apache.commons.exec.OS.isFamilyMac()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler()": ["org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(OutputStream,OutputStream)"],
+    "org.apache.commons.exec.launcher.CommandLauncherFactory.createVMLauncher()": [
+        "org.apache.commons.exec.OS.isFamilyOpenVms()",
+        "org.apache.commons.exec.launcher.VmsCommandLauncher.<init>()",
+        "org.apache.commons.exec.launcher.Java13CommandLauncher#Java13CommandLauncher()"
+    ],
+    "org.apache.commons.exec.DefaultExecutor#execute(CommandLine,Map<String, String>,ExecuteResultHandler)": [
+        "org.apache.commons.exec.DefaultExecuteResultHandler#onProcessFailed(ExecuteException)",
+        "org.apache.commons.exec.DaemonExecutor#createThread(Runnable,String)",
+        "org.apache.commons.exec.DefaultExecutor#checkWorkingDirectory()",
+        "org.apache.commons.exec.Executor.<staticinit>()",
+        "org.apache.commons.exec.ExecuteWatchdog#setProcessNotStarted()",
+        "org.apache.commons.exec.DefaultExecuteResultHandler#onProcessComplete(int)",
+        "org.apache.commons.exec.DefaultExecutor#createThread(Runnable,String)",
+        "org.apache.commons.exec.DefaultExecutor#executeInternal(CommandLine,Map<String, String>,File,ExecuteStreamHandler)",
+        "org.apache.commons.exec.DefaultExecutor#getExecutorThread()",
+        "org.apache.commons.exec.ExecuteException#ExecuteException(String,int,Throwable)"
+    ],
+    "org.apache.commons.exec.util.StringUtils.split(String,String)": ["org.apache.commons.exec.util.StringUtils.<staticinit>()"],
+    "org.apache.commons.exec.PumpStreamHandler#setProcessErrorStream(InputStream)": ["org.apache.commons.exec.PumpStreamHandler#createProcessErrorPump(InputStream,OutputStream)"],
+    "org.apache.commons.exec.ExecuteException#ExecuteException(String,int)": ["org.apache.commons.exec.ExecuteException.<init>()"],
+    "org.apache.commons.exec.util.MapUtils.merge(Map<K, V>,Map<K, V>)": ["org.apache.commons.exec.util.MapUtils.copy(Map<K, V>)"],
+    "org.apache.commons.exec.util.StringUtils.fixFileSeparatorChar(String)": ["org.apache.commons.exec.util.StringUtils.<staticinit>()"],
+    "org.apache.commons.exec.DefaultExecutor.Builder#get()": ["org.apache.commons.exec.DefaultExecutor#DefaultExecutor(ThreadFactory,ExecuteStreamHandler,File)"],
+    "org.apache.commons.exec.ExecuteWatchdog.Builder#get()": ["org.apache.commons.exec.ExecuteWatchdog#ExecuteWatchdog(ThreadFactory,Duration)"],
+    "org.apache.commons.exec.CommandLine.parse(String)": ["org.apache.commons.exec.CommandLine.parse(String,Map<String, ?>)"],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer#isEmpty()": ["org.apache.commons.exec.ShutdownHookProcessDestroyer#size()"],
+    "org.apache.commons.exec.CommandLine#toCleanExecutable(String)": ["org.apache.commons.exec.util.StringUtils.fixFileSeparatorChar(String)"],
+    "org.apache.commons.exec.util.DebugUtils.isLenientEnabled()": ["org.apache.commons.exec.util.DebugUtils.<staticinit>()"],
+    "org.apache.commons.exec.ExecuteWatchdog#start(Process)": ["org.apache.commons.exec.Watchdog#start()"],
+    "org.apache.commons.exec.OS.isFamilyZOS()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.launcher.VmsCommandLauncher#exec(CommandLine,Map<String, String>,File)": [
+        "org.apache.commons.exec.launcher.Java13CommandLauncher#exec(CommandLine,Map<String, String>,File)",
+        "org.apache.commons.exec.CommandLine#CommandLine(CommandLine)",
+        "org.apache.commons.exec.launcher.VmsCommandLauncher#createCommandFile(CommandLine,Map<String, String>)"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#createProcessErrorPump(InputStream,OutputStream)": ["org.apache.commons.exec.PumpStreamHandler#createPump(InputStream,OutputStream)"],
+    "org.apache.commons.exec.DaemonExecutor.Builder#get()": [
+        "org.apache.commons.exec.DefaultExecutor.Builder#getExecuteStreamHandler()",
+        "org.apache.commons.exec.DefaultExecutor.Builder#getThreadFactory()",
+        "org.apache.commons.exec.DefaultExecutor.Builder#getWorkingDirectory()",
+        "org.apache.commons.exec.DaemonExecutor#DaemonExecutor(ThreadFactory,ExecuteStreamHandler,File)"
+    ],
+    "org.apache.commons.exec.ExecuteWatchdog#timeoutOccured(Watchdog)": [
+        "org.apache.commons.exec.util.DebugUtils.handleException(String,Exception)",
+        "org.apache.commons.exec.ExecuteWatchdog#cleanUp()"
+    ],
+    "org.apache.commons.exec.launcher.WinNTCommandLauncher#exec(CommandLine,Map<String, String>,File)": [
+        "org.apache.commons.exec.CommandLine#CommandLine(String)",
+        "org.apache.commons.exec.launcher.CommandLauncherProxy#exec(CommandLine,Map<String, String>)",
+        "org.apache.commons.exec.CommandLine#toStrings()",
+        "org.apache.commons.exec.CommandLine#addArgument(String)",
+        "org.apache.commons.exec.CommandLine#addArguments(String[])"
+    ],
+    "org.apache.commons.exec.OS.isFamilyOpenVms()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.OS.isVersion(String)": ["org.apache.commons.exec.OS.isOs(String,String,String,String)"],
+    "org.apache.commons.exec.util.StringUtils.stringSubstitution(String,Map<? super String, ?>,boolean)": ["org.apache.commons.exec.util.StringUtils.fixFileSeparatorChar(String)"],
+    "org.apache.commons.exec.Watchdog#start()": ["org.apache.commons.exec.ThreadUtil.newThread(ThreadFactory,Runnable,String,boolean)"],
+    "org.apache.commons.exec.PumpStreamHandler#createProcessOutputPump(InputStream,OutputStream)": ["org.apache.commons.exec.PumpStreamHandler#createPump(InputStream,OutputStream)"],
+    "org.apache.commons.exec.launcher.VmsCommandLauncher#createCommandFile(CommandLine,Map<String, String>)": [
+        "org.apache.commons.exec.util.StringUtils.split(String,String)",
+        "org.apache.commons.exec.CommandLine#getExecutable()",
+        "org.apache.commons.exec.CommandLine#isFile()",
+        "org.apache.commons.exec.CommandLine#getArguments()"
+    ],
+    "org.apache.commons.exec.DefaultExecutor#closeProcessStreams(Process)": ["org.apache.commons.exec.DefaultExecutor#closeCatch(Closeable)"],
+    "org.apache.commons.exec.StreamPumper#StreamPumper(InputStream,OutputStream,boolean)": [
+        "org.apache.commons.exec.StreamPumper.<init>()",
+        "org.apache.commons.exec.StreamPumper.<staticinit>()"
+    ],
+    "org.apache.commons.exec.DefaultExecutor.Builder#setWorkingDirectory(File)": ["org.apache.commons.exec.DefaultExecutor.Builder#asThis()"],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer#removeShutdownHook()": ["org.apache.commons.exec.ShutdownHookProcessDestroyer.ProcessDestroyerThread#setShouldDestroy(boolean)"],
+    "org.apache.commons.exec.StreamPumper#StreamPumper(InputStream,OutputStream,boolean,int)": [
+        "org.apache.commons.exec.StreamPumper.<init>()",
+        "org.apache.commons.exec.StreamPumper.<staticinit>()"
+    ],
+    "org.apache.commons.exec.LogOutputStream#processBuffer()": [
+        "org.apache.commons.exec.LogOutputStream.ByteArrayOutputStreamX#toString(Charset)",
+        "org.apache.commons.exec.LogOutputStream#processLine(String)"
+    ],
+    "org.apache.commons.exec.CommandLine#CommandLine(String)": [
+        "org.apache.commons.exec.CommandLine#toCleanExecutable(String)",
+        "org.apache.commons.exec.CommandLine.<init>()"
+    ],
+    "org.apache.commons.exec.LogOutputStream#LogOutputStream(int)": ["org.apache.commons.exec.LogOutputStream#LogOutputStream(int,Charset)"],
+    "org.apache.commons.exec.Watchdog#fireTimeoutOccured()": ["org.apache.commons.exec.ExecuteWatchdog#timeoutOccured(Watchdog)"],
+    "org.apache.commons.exec.environment.DefaultProcessingEnvironment#getProcEnvironment()": [
+        "org.apache.commons.exec.environment.DefaultProcessingEnvironment#createProcEnvironment()",
+        "org.apache.commons.exec.environment.DefaultProcessingEnvironment#createEnvironmentMap()"
+    ],
+    "org.apache.commons.exec.CommandLine#addArguments(String[])": ["org.apache.commons.exec.CommandLine#addArguments(String[],boolean)"],
+    "org.apache.commons.exec.environment.EnvironmentUtils.toStrings(Map<String, String>)": ["org.apache.commons.exec.environment.EnvironmentUtils.toString(String)"],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer.ProcessDestroyerThread#run()": ["org.apache.commons.exec.ShutdownHookProcessDestroyer#run()"],
+    "org.apache.commons.exec.ExecuteWatchdog#stop()": ["org.apache.commons.exec.Watchdog#stop()"],
+    "org.apache.commons.exec.environment.EnvironmentUtils.addVariableToEnvironment(Map<String, String>,String)": ["org.apache.commons.exec.environment.EnvironmentUtils.parseEnvironmentVariable(String)"],
+    "org.apache.commons.exec.DefaultExecutor#createThread(Runnable,String)": ["org.apache.commons.exec.ThreadUtil.newThread(ThreadFactory,Runnable,String,boolean)"],
+    "org.apache.commons.exec.PumpStreamHandler#setProcessInputStream(OutputStream)": [
+        "org.apache.commons.exec.util.DebugUtils.handleException(String,Exception)",
+        "org.apache.commons.exec.LogOutputStream#close()",
+        "org.apache.commons.exec.PumpStreamHandler#createPump(InputStream,OutputStream,boolean)",
+        "org.apache.commons.exec.PumpStreamHandler#createSystemInPump(InputStream,OutputStream)"
+    ],
+    "org.apache.commons.exec.LogOutputStream#close()": ["org.apache.commons.exec.LogOutputStream#processBuffer()"],
+    "org.apache.commons.exec.CommandLine.Argument#Argument(String,boolean)": ["org.apache.commons.exec.CommandLine.Argument.<init>()"],
+    "org.apache.commons.exec.OS.isFamilyOS2()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.environment.DefaultProcessingEnvironment#createProcEnvironment()": ["org.apache.commons.exec.environment.DefaultProcessingEnvironment#createEnvironmentMap()"],
+    "org.apache.commons.exec.DefaultExecutor.builder()": ["org.apache.commons.exec.DefaultExecutor.Builder.<init>()"],
+    "org.apache.commons.exec.CommandLine#addArguments(String,boolean)": [
+        "org.apache.commons.exec.CommandLine.translateCommandline(String)",
+        "org.apache.commons.exec.CommandLine#addArguments(String[],boolean)"
+    ],
+    "org.apache.commons.exec.DefaultExecutor#execute(CommandLine,Map<String, String>)": [
+        "org.apache.commons.exec.DefaultExecutor#executeInternal(CommandLine,Map<String, String>,File,ExecuteStreamHandler)",
+        "org.apache.commons.exec.DefaultExecutor#checkWorkingDirectory()"
+    ],
+    "org.apache.commons.exec.Watchdog#Watchdog(ThreadFactory,Duration)": ["org.apache.commons.exec.Watchdog.<init>()"],
+    "org.apache.commons.exec.DefaultExecutor#launch(CommandLine,Map<String, String>,File)": [
+        "org.apache.commons.exec.launcher.VmsCommandLauncher#exec(CommandLine,Map<String, String>,File)",
+        "org.apache.commons.exec.launcher.Java13CommandLauncher#exec(CommandLine,Map<String, String>,File)",
+        "org.apache.commons.exec.launcher.WinNTCommandLauncher#exec(CommandLine,Map<String, String>,File)",
+        "org.apache.commons.exec.DefaultExecutor#checkWorkingDirectory(File)",
+        "org.apache.commons.exec.launcher.OS2CommandLauncher#exec(CommandLine,Map<String, String>,File)"
+    ],
+    "org.apache.commons.exec.util.DebugUtils.isDebugEnabled()": ["org.apache.commons.exec.util.DebugUtils.<staticinit>()"],
+    "org.apache.commons.exec.OS.isFamilyTandem()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.CommandLine#getExecutable()": [
+        "org.apache.commons.exec.util.StringUtils.fixFileSeparatorChar(String)",
+        "org.apache.commons.exec.CommandLine#expandArgument(String)"
+    ],
+    "org.apache.commons.exec.CommandLine#addArgument(String,boolean)": [
+        "org.apache.commons.exec.CommandLine.Argument#Argument(String,boolean)",
+        "org.apache.commons.exec.util.StringUtils.quoteArgument(String)"
+    ],
+    "org.apache.commons.exec.LogOutputStream#flush()": ["org.apache.commons.exec.LogOutputStream#processBuffer()"],
+    "org.apache.commons.exec.launcher.VmsCommandLauncher.<init>()": ["org.apache.commons.exec.launcher.Java13CommandLauncher#Java13CommandLauncher()"],
+    "org.apache.commons.exec.OS.isFamilyNetware()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.DefaultExecuteResultHandler#waitFor(Duration)": [
+        "org.apache.commons.exec.DefaultExecuteResultHandler.<staticinit>()",
+        "org.apache.commons.exec.DefaultExecuteResultHandler#hasResult()"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#stop()": [
+        "org.apache.commons.exec.util.DebugUtils.handleException(String,Exception)",
+        "org.apache.commons.exec.LogOutputStream#flush()",
+        "org.apache.commons.exec.PumpStreamHandler#stop(Thread,Duration)",
+        "org.apache.commons.exec.InputStreamPumper#stopProcessing()"
+    ],
+    "org.apache.commons.exec.CommandLine#getArguments()": [
+        "org.apache.commons.exec.CommandLine.Argument#isHandleQuoting()",
+        "org.apache.commons.exec.CommandLine#expandArgument(String)",
+        "org.apache.commons.exec.util.StringUtils.quoteArgument(String)",
+        "org.apache.commons.exec.CommandLine.Argument#getValue()"
+    ],
+    "org.apache.commons.exec.DaemonExecutor#DaemonExecutor(ThreadFactory,ExecuteStreamHandler,File)": [
+        "org.apache.commons.exec.DefaultExecutor#DefaultExecutor(ThreadFactory,ExecuteStreamHandler,File)",
+        "org.apache.commons.exec.DaemonExecutor.<init>()"
+    ],
+    "org.apache.commons.exec.CommandLine#toString()": ["org.apache.commons.exec.CommandLine#toStrings()"],
+    "org.apache.commons.exec.CommandLine.parse(String,Map<String, ?>)": [
+        "org.apache.commons.exec.CommandLine#CommandLine(String)",
+        "org.apache.commons.exec.CommandLine.translateCommandline(String)",
+        "org.apache.commons.exec.CommandLine#addArgument(String)",
+        "org.apache.commons.exec.CommandLine#setSubstitutionMap(Map<String, ?>)"
+    ],
+    "org.apache.commons.exec.Watchdog#run()": ["org.apache.commons.exec.Watchdog#fireTimeoutOccured()"],
+    "org.apache.commons.exec.CommandLine#addArgument(String)": ["org.apache.commons.exec.CommandLine#addArgument(String,boolean)"],
+    "org.apache.commons.exec.OS.isFamilyWinNT()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.util.StringUtils.quoteArgument(String)": ["org.apache.commons.exec.util.StringUtils.<staticinit>()"],
+    "org.apache.commons.exec.launcher.Java13CommandLauncher#exec(CommandLine,Map<String, String>,File)": [
+        "org.apache.commons.exec.environment.EnvironmentUtils.toStrings(Map<String, String>)",
+        "org.apache.commons.exec.CommandLine#toStrings()"
+    ],
+    "org.apache.commons.exec.launcher.OS2CommandLauncher#OS2CommandLauncher(CommandLauncher)": [
+        "org.apache.commons.exec.launcher.OS2CommandLauncher.<init>()",
+        "org.apache.commons.exec.launcher.CommandLauncherProxy#CommandLauncherProxy(CommandLauncher)"
+    ],
+    "org.apache.commons.exec.OS#OS()": ["org.apache.commons.exec.OS.<init>()"],
+    "org.apache.commons.exec.CommandLine#addArguments(String)": ["org.apache.commons.exec.CommandLine#addArguments(String,boolean)"],
+    "org.apache.commons.exec.environment.EnvironmentUtils#EnvironmentUtils()": ["org.apache.commons.exec.environment.EnvironmentUtils.<init>()"],
+    "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(OutputStream)": ["org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(OutputStream,OutputStream)"],
+    "org.apache.commons.exec.DefaultExecutor#setExitValue(int)": ["org.apache.commons.exec.DefaultExecutor#setExitValues(int[])"],
+    "org.apache.commons.exec.environment.EnvironmentUtils.getProcEnvironment()": [
+        "org.apache.commons.exec.environment.EnvironmentUtils.<staticinit>()",
+        "org.apache.commons.exec.environment.DefaultProcessingEnvironment#getProcEnvironment()"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#stop(Thread,Duration)": [
+        "org.apache.commons.exec.Executor.<staticinit>()",
+        "org.apache.commons.exec.PumpStreamHandler.<staticinit>()",
+        "org.apache.commons.exec.ExecuteException#ExecuteException(String,int)"
+    ],
+    "org.apache.commons.exec.DefaultExecutor#setStreams(ExecuteStreamHandler,Process)": [
+        "org.apache.commons.exec.PumpStreamHandler#setProcessOutputStream(InputStream)",
+        "org.apache.commons.exec.PumpStreamHandler#setProcessInputStream(OutputStream)",
+        "org.apache.commons.exec.PumpStreamHandler#setProcessErrorStream(InputStream)"
+    ],
+    "org.apache.commons.exec.LogOutputStream#write(int)": ["org.apache.commons.exec.LogOutputStream#processBuffer()"],
+    "org.apache.commons.exec.InputStreamPumper#run()": [
+        "org.apache.commons.exec.util.DebugUtils.handleException(String,Exception)",
+        "org.apache.commons.exec.InputStreamPumper.<staticinit>()",
+        "org.apache.commons.exec.LogOutputStream#write(int)",
+        "org.apache.commons.exec.LogOutputStream#flush()"
+    ],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer#addShutdownHook()": ["org.apache.commons.exec.ShutdownHookProcessDestroyer.ProcessDestroyerThread#ProcessDestroyerThread()"],
+    "org.apache.commons.exec.DefaultExecutor#isFailure(int)": [
+        "org.apache.commons.exec.launcher.CommandLauncherImpl#isFailure(int)",
+        "org.apache.commons.exec.launcher.VmsCommandLauncher#isFailure(int)"
+    ],
+    "org.apache.commons.exec.environment.EnvironmentUtils.<staticinit>()": ["org.apache.commons.exec.environment.DefaultProcessingEnvironment.<init>()"],
+    "org.apache.commons.exec.CommandLine#CommandLine(File)": [
+        "org.apache.commons.exec.CommandLine.<init>()",
+        "org.apache.commons.exec.CommandLine#toCleanExecutable(String)"
+    ],
+    "org.apache.commons.exec.LogOutputStream#LogOutputStream()": ["org.apache.commons.exec.LogOutputStream#LogOutputStream(int)"],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer#remove(Process)": ["org.apache.commons.exec.ShutdownHookProcessDestroyer#removeShutdownHook()"],
+    "org.apache.commons.exec.PumpStreamHandler#createPump(InputStream,OutputStream,boolean)": [
+        "org.apache.commons.exec.ThreadUtil.newThread(ThreadFactory,Runnable,String,boolean)",
+        "org.apache.commons.exec.StreamPumper#StreamPumper(InputStream,OutputStream,boolean)"
+    ],
+    "org.apache.commons.exec.OS.isFamilyUnix()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.OS.isOs(String,String,String,String)": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#start()": ["org.apache.commons.exec.PumpStreamHandler#start(Thread)"],
+    "org.apache.commons.exec.LogOutputStream#write(byte[],int,int)": [
+        "org.apache.commons.exec.LogOutputStream.<staticinit>()",
+        "org.apache.commons.exec.LogOutputStream#write(int)"
+    ],
+    "org.apache.commons.exec.DefaultExecuteResultHandler#waitFor(long)": [
+        "org.apache.commons.exec.DefaultExecuteResultHandler.<staticinit>()",
+        "org.apache.commons.exec.DefaultExecuteResultHandler#hasResult()"
+    ],
+    "org.apache.commons.exec.util.DebugUtils.handleException(String,Exception)": [
+        "org.apache.commons.exec.util.DebugUtils.isDebugEnabled()",
+        "org.apache.commons.exec.util.DebugUtils.isLenientEnabled()"
+    ],
+    "org.apache.commons.exec.launcher.WinNTCommandLauncher#WinNTCommandLauncher(CommandLauncher)": [
+        "org.apache.commons.exec.launcher.WinNTCommandLauncher.<init>()",
+        "org.apache.commons.exec.launcher.CommandLauncherProxy#CommandLauncherProxy(CommandLauncher)"
+    ],
+    "org.apache.commons.exec.util.StringUtils.isQuoted(String)": ["org.apache.commons.exec.util.StringUtils.<staticinit>()"],
+    "org.apache.commons.exec.OS.isName(String)": ["org.apache.commons.exec.OS.isOs(String,String,String,String)"],
+    "org.apache.commons.exec.launcher.CommandLauncherFactory#CommandLauncherFactory()": ["org.apache.commons.exec.launcher.CommandLauncherFactory.<init>()"],
+    "org.apache.commons.exec.OS.isFamilyOS400()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.ExecuteWatchdog.builder()": ["org.apache.commons.exec.ExecuteWatchdog.Builder.<init>()"],
+    "org.apache.commons.exec.ExecuteWatchdog#isWatching()": ["org.apache.commons.exec.ExecuteWatchdog#ensureStarted()"],
+    "org.apache.commons.exec.DaemonExecutor#DaemonExecutor()": [
+        "org.apache.commons.exec.DefaultExecutor#DefaultExecutor()",
+        "org.apache.commons.exec.DaemonExecutor.<init>()"
+    ],
+    "org.apache.commons.exec.launcher.Java13CommandLauncher#Java13CommandLauncher()": [
+        "org.apache.commons.exec.launcher.Java13CommandLauncher.<init>()",
+        "org.apache.commons.exec.launcher.CommandLauncherImpl.<init>()"
+    ],
+    "org.apache.commons.exec.Watchdog.builder()": ["org.apache.commons.exec.Watchdog.Builder.<init>()"],
+    "org.apache.commons.exec.DefaultExecuteResultHandler#waitFor()": [
+        "org.apache.commons.exec.DefaultExecuteResultHandler.<staticinit>()",
+        "org.apache.commons.exec.DefaultExecuteResultHandler#hasResult()"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(OutputStream,OutputStream,InputStream)": ["org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(ThreadFactory,OutputStream,OutputStream,InputStream)"],
+    "org.apache.commons.exec.PumpStreamHandler#createPump(InputStream,OutputStream)": ["org.apache.commons.exec.PumpStreamHandler#createPump(InputStream,OutputStream,boolean)"],
+    "org.apache.commons.exec.DefaultExecuteResultHandler#DefaultExecuteResultHandler()": [
+        "org.apache.commons.exec.DefaultExecuteResultHandler.<init>()",
+        "org.apache.commons.exec.Executor.<staticinit>()"
+    ],
+    "org.apache.commons.exec.DefaultExecutor#closeCatch(Closeable)": ["org.apache.commons.exec.DefaultExecutor#setExceptionCaught(IOException)"],
+    "org.apache.commons.exec.launcher.OS2CommandLauncher#exec(CommandLine,Map<String, String>,File)": [
+        "org.apache.commons.exec.CommandLine#CommandLine(String)",
+        "org.apache.commons.exec.launcher.CommandLauncherProxy#exec(CommandLine,Map<String, String>)",
+        "org.apache.commons.exec.CommandLine#toStrings()",
+        "org.apache.commons.exec.CommandLine#addArgument(String)",
+        "org.apache.commons.exec.CommandLine#addArguments(String[])"
+    ],
+    "org.apache.commons.exec.StreamPumper#waitFor()": ["org.apache.commons.exec.StreamPumper#isFinished()"],
+    "org.apache.commons.exec.LogOutputStream.ByteArrayOutputStreamX#ByteArrayOutputStreamX(int)": ["org.apache.commons.exec.LogOutputStream.ByteArrayOutputStreamX.<init>()"],
+    "org.apache.commons.exec.LogOutputStream.<init>()": [
+        "org.apache.commons.exec.LogOutputStream.<staticinit>()",
+        "org.apache.commons.exec.LogOutputStream.ByteArrayOutputStreamX#ByteArrayOutputStreamX(int)"
+    ],
+    "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(OutputStream,OutputStream)": ["org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(OutputStream,OutputStream,InputStream)"],
+    "org.apache.commons.exec.OS.isFamilyWin9x()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.Watchdog.Builder#get()": ["org.apache.commons.exec.Watchdog#Watchdog(ThreadFactory,Duration)"],
+    "org.apache.commons.exec.PumpStreamHandler#setProcessOutputStream(InputStream)": ["org.apache.commons.exec.PumpStreamHandler#createProcessOutputPump(InputStream,OutputStream)"],
+    "org.apache.commons.exec.DefaultExecutor#execute(CommandLine,ExecuteResultHandler)": ["org.apache.commons.exec.DefaultExecutor#execute(CommandLine,Map<String, String>,ExecuteResultHandler)"],
+    "org.apache.commons.exec.ExecuteWatchdog#ExecuteWatchdog(ThreadFactory,Duration)": [
+        "org.apache.commons.exec.Watchdog.Builder#setThreadFactory(ThreadFactory)",
+        "org.apache.commons.exec.Watchdog.Builder#setTimeout(Duration)",
+        "org.apache.commons.exec.Watchdog#addTimeoutObserver(TimeoutObserver)",
+        "org.apache.commons.exec.Watchdog.builder()",
+        "org.apache.commons.exec.ExecuteWatchdog.<init>()",
+        "org.apache.commons.exec.Watchdog.Builder#get()",
+        "org.apache.commons.exec.ExecuteWatchdog.<staticinit>()"
+    ],
+    "org.apache.commons.exec.launcher.VmsCommandLauncher#exec(CommandLine,Map<String, String>)": [
+        "org.apache.commons.exec.CommandLine#CommandLine(CommandLine)",
+        "org.apache.commons.exec.launcher.VmsCommandLauncher#createCommandFile(CommandLine,Map<String, String>)",
+        "org.apache.commons.exec.launcher.CommandLauncherImpl#exec(CommandLine,Map<String, String>)"
+    ],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer#ShutdownHookProcessDestroyer()": ["org.apache.commons.exec.ShutdownHookProcessDestroyer.<init>()"],
+    "org.apache.commons.exec.launcher.CommandLauncherImpl#exec(CommandLine,Map<String, String>)": [
+        "org.apache.commons.exec.environment.EnvironmentUtils.toStrings(Map<String, String>)",
+        "org.apache.commons.exec.CommandLine#toStrings()"
+    ],
+    "org.apache.commons.exec.OS.isFamilyDOS()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.environment.OpenVmsProcessingEnvironment.<init>()": ["org.apache.commons.exec.environment.DefaultProcessingEnvironment.<init>()"],
+    "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler(ThreadFactory,OutputStream,OutputStream,InputStream)": ["org.apache.commons.exec.PumpStreamHandler.<init>()"],
+    "org.apache.commons.exec.DaemonExecutor.builder()": ["org.apache.commons.exec.DaemonExecutor.Builder.<init>()"],
+    "org.apache.commons.exec.LogOutputStream#LogOutputStream(int,Charset)": ["org.apache.commons.exec.LogOutputStream.<init>()"],
+    "org.apache.commons.exec.PumpStreamHandler#createSystemInPump(InputStream,OutputStream)": [
+        "org.apache.commons.exec.ThreadUtil.newThread(ThreadFactory,Runnable,String,boolean)",
+        "org.apache.commons.exec.InputStreamPumper#InputStreamPumper(InputStream,OutputStream)"
+    ],
+    "org.apache.commons.exec.Watchdog#Watchdog(long)": ["org.apache.commons.exec.Watchdog#Watchdog(ThreadFactory,Duration)"],
+    "org.apache.commons.exec.ExecuteException#ExecuteException(String,int,Throwable)": ["org.apache.commons.exec.ExecuteException.<init>()"],
+    "org.apache.commons.exec.CommandLine#addArguments(String[],boolean)": ["org.apache.commons.exec.CommandLine#addArgument(String,boolean)"],
+    "org.apache.commons.exec.CommandLine#expandArgument(String)": [
+        "org.apache.commons.exec.util.StringUtils.stringSubstitution(String,Map<? super String, ?>,boolean)",
+        "org.apache.commons.exec.CommandLine#getSubstitutionMap()"
+    ],
+    "org.apache.commons.exec.launcher.CommandLauncherProxy#CommandLauncherProxy(CommandLauncher)": [
+        "org.apache.commons.exec.launcher.CommandLauncherImpl.<init>()",
+        "org.apache.commons.exec.launcher.CommandLauncherProxy.<init>()"
+    ],
+    "org.apache.commons.exec.OS.isArch(String)": ["org.apache.commons.exec.OS.isOs(String,String,String,String)"],
+    "org.apache.commons.exec.OS.isFamily(String)": ["org.apache.commons.exec.OS.isOs(String,String,String,String)"],
+    "org.apache.commons.exec.InputStreamPumper#InputStreamPumper(InputStream,OutputStream)": ["org.apache.commons.exec.InputStreamPumper.<init>()"],
+    "org.apache.commons.exec.ExecuteWatchdog#destroyProcess()": [
+        "org.apache.commons.exec.ExecuteWatchdog#stop()",
+        "org.apache.commons.exec.ExecuteWatchdog#ensureStarted()",
+        "org.apache.commons.exec.ExecuteWatchdog#timeoutOccured(Watchdog)"
+    ],
+    "org.apache.commons.exec.ShutdownHookProcessDestroyer.ProcessDestroyerThread#ProcessDestroyerThread()": ["org.apache.commons.exec.ShutdownHookProcessDestroyer.ProcessDestroyerThread.<init>()"],
+    "org.apache.commons.exec.DefaultExecutor#DefaultExecutor(ThreadFactory,ExecuteStreamHandler,File)": [
+        "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler()",
+        "org.apache.commons.exec.DefaultExecutor.<init>()",
+        "org.apache.commons.exec.launcher.CommandLauncherFactory.createVMLauncher()"
+    ],
+    "org.apache.commons.exec.environment.DefaultProcessingEnvironment#createEnvironmentMap()": ["org.apache.commons.exec.OS.isFamilyWindows()"],
+    "org.apache.commons.exec.launcher.CommandLauncherProxy#exec(CommandLine,Map<String, String>)": [
+        "org.apache.commons.exec.launcher.VmsCommandLauncher#exec(CommandLine,Map<String, String>)",
+        "org.apache.commons.exec.launcher.CommandLauncherProxy#exec(CommandLine,Map<String, String>)",
+        "org.apache.commons.exec.launcher.CommandLauncherImpl#exec(CommandLine,Map<String, String>)"
+    ],
+    "org.apache.commons.exec.ExecuteWatchdog#ExecuteWatchdog(long)": ["org.apache.commons.exec.ExecuteWatchdog#ExecuteWatchdog(ThreadFactory,Duration)"],
+    "org.apache.commons.exec.DefaultExecutor#executeInternal(CommandLine,Map<String, String>,File,ExecuteStreamHandler)": [
+        "org.apache.commons.exec.DefaultExecutor#isFailure(int)",
+        "org.apache.commons.exec.ShutdownHookProcessDestroyer#add(Process)",
+        "org.apache.commons.exec.ShutdownHookProcessDestroyer#remove(Process)",
+        "org.apache.commons.exec.Executor.<staticinit>()",
+        "org.apache.commons.exec.DefaultExecutor#launch(CommandLine,Map<String, String>,File)",
+        "org.apache.commons.exec.PumpStreamHandler#start()",
+        "org.apache.commons.exec.ExecuteWatchdog#start(Process)",
+        "org.apache.commons.exec.ExecuteWatchdog#checkException()",
+        "org.apache.commons.exec.DefaultExecutor#setStreams(ExecuteStreamHandler,Process)",
+        "org.apache.commons.exec.DefaultExecutor#getProcessDestroyer()",
+        "org.apache.commons.exec.ExecuteWatchdog#stop()",
+        "org.apache.commons.exec.PumpStreamHandler#stop()",
+        "org.apache.commons.exec.ExecuteWatchdog#failedToStart(Exception)",
+        "org.apache.commons.exec.ExecuteException#ExecuteException(String,int)",
+        "org.apache.commons.exec.DefaultExecutor#getExceptionCaught()",
+        "org.apache.commons.exec.DefaultExecutor#closeProcessStreams(Process)",
+        "org.apache.commons.exec.DefaultExecutor#setExceptionCaught(IOException)"
+    ],
+    "org.apache.commons.exec.DefaultExecutor.Builder#setExecuteStreamHandler(ExecuteStreamHandler)": ["org.apache.commons.exec.DefaultExecutor.Builder#asThis()"],
+    "org.apache.commons.exec.DefaultExecuteResultHandler#onProcessFailed(ExecuteException)": ["org.apache.commons.exec.ExecuteException#getExitValue()"],
+    "org.apache.commons.exec.DefaultExecutor#DefaultExecutor()": [
+        "org.apache.commons.exec.DefaultExecutor#DefaultExecutor(ThreadFactory,ExecuteStreamHandler,File)",
+        "org.apache.commons.exec.PumpStreamHandler#PumpStreamHandler()"
+    ],
+    "org.apache.commons.exec.DefaultExecutor.Builder#setThreadFactory(ThreadFactory)": ["org.apache.commons.exec.DefaultExecutor.Builder#asThis()"],
+    "org.apache.commons.exec.OS.isFamilyWindows()": [
+        "org.apache.commons.exec.OS.<staticinit>()",
+        "org.apache.commons.exec.OS.isFamily(String)"
+    ],
+    "org.apache.commons.exec.DefaultExecutor#execute(CommandLine)": ["org.apache.commons.exec.DefaultExecutor#execute(CommandLine,Map<String, String>)"],
+    "org.apache.commons.exec.CommandLine#CommandLine(CommandLine)": [
+        "org.apache.commons.exec.CommandLine#getSubstitutionMap()",
+        "org.apache.commons.exec.CommandLine#getExecutable()",
+        "org.apache.commons.exec.CommandLine#isFile()",
+        "org.apache.commons.exec.CommandLine.<init>()"
+    ],
+    "org.apache.commons.exec.StreamPumper#run()": [
+        "org.apache.commons.exec.LogOutputStream#write(byte[],int,int)",
+        "org.apache.commons.exec.LogOutputStream#close()",
+        "org.apache.commons.exec.util.DebugUtils.handleException(String,Exception)"
+    ]
+}
