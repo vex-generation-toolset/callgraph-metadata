@@ -70,7 +70,7 @@ jobs:
           docker pull $IMAGE
           docker run --rm \
             -v "${GITHUB_WORKSPACE}/source:/workspace/source" \
-            -v "${GITHUB_WORKSPACE}/result:/output" \
+            -v "${GITHUB_WORKSPACE}/result:/workspace/result" \
             $IMAGE
           
           # Move generated call graph to metadata repository
