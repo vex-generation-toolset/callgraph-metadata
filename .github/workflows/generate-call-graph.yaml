@@ -74,10 +74,14 @@ jobs:
             $IMAGE
           
           # Move generated call graph to metadata repository
-          mv result/*.json "metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}/callgraph.json"
+          mv result/*.json "metadata/metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}/callgraph.json"
 
       - name: Commit and Push Call Graph
         shell: bash
+        env:
+          GROUP_ID: ${{ inputs.group-id }}
+          ARTIFACT_ID: ${{ inputs.artifact-id }}
+          VERSION: ${{ inputs.version }}
         run: |
           cd metadata
           git config user.name "github-actions[bot]"
