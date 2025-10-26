@@ -62,12 +62,10 @@ jobs:
             mkdir -p metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}
             
             # Pull and run the call graph generator
-            IMAGE="ghcr.io/vex-generation-toolset/java-callgraph:latest"
-            docker pull $IMAGE
             docker run --rm \
               -v "${GITHUB_WORKSPACE}/source:/workspace/source" \
               -v "${GITHUB_WORKSPACE}/result:/output" \
-              $IMAGE
+              ghcr.io/vex-generation-toolset/java-callgraph:latest
             
             # Move generated call graph to metadata repository
             mv result/*.json "metadata/${GROUP_ID}/${ARTIFACT_ID}/${VERSION}/callgraph.json"
