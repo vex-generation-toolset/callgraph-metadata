@@ -1,0 +1,2523 @@
+{
+    "org.apache.commons.codec.language.RefinedSoundex#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.RefinedSoundex#soundex(String)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.initHash()": [
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3#Blake3(int[],int)"
+    ],
+    "org.apache.commons.codec.binary.Base64.Builder#setUrlSafe(boolean)": [
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#setEncodeTable(byte[]...)",
+        "org.apache.commons.codec.binary.Base64.toUrlSafeEncodeTable(boolean)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digestAsHex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils#digest(InputStream)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash2.hash32(byte[],int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash2.getLittleEndianInt(byte[],int)",
+        "org.apache.commons.codec.digest.MurmurHash2.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,Path,OpenOption[]...)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,InputStream)"],
+    "org.apache.commons.codec.binary.Base16#Base16(boolean,byte[],CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base16.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.Base16.<init>()"
+    ],
+    "org.apache.commons.codec.digest.MessageDigestAlgorithms#MessageDigestAlgorithms()": ["org.apache.commons.codec.digest.MessageDigestAlgorithms.<init>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash128x64(byte[])": ["org.apache.commons.codec.digest.MurmurHash3.hash128x64(byte[],int,int,int)"],
+    "org.apache.commons.codec.digest.HmacUtils.isAvailable(HmacAlgorithms)": ["org.apache.commons.codec.digest.HmacAlgorithms#getName()"],
+    "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set<String>)": [
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#SomeLanguages(Set<String>)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha256(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha256(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.binary.Base16#Base16(boolean)": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base16#Base16(boolean,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#cleanName(String)": [
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeAccents(String)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32#finalise(int,int,byte[],int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix32(int)"
+    ],
+    "org.apache.commons.codec.DecoderException#DecoderException(Throwable)": ["org.apache.commons.codec.DecoderException.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha512(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean,int)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.Caverphone#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.Caverphone#caverphone(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_384Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_384(InputStream)"
+    ],
+    "org.apache.commons.codec.EncoderException#EncoderException()": ["org.apache.commons.codec.EncoderException.<init>()"],
+    "org.apache.commons.codec.digest.XXHash32#update(int)": ["org.apache.commons.codec.digest.XXHash32#update(byte[],int,int)"],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#write(byte[],int,int)": [
+        "org.apache.commons.codec.binary.Base16#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base32#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#flush(boolean)",
+        "org.apache.commons.codec.binary.Base32#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base16#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base64#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base64#decode(byte[],int,int,Context)"
+    ],
+    "org.apache.commons.codec.language.Metaphone#isMetaphoneEqual(String,String)": ["org.apache.commons.codec.language.Metaphone#metaphone(String)"],
+    "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean)": [
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],byte,byte[],CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64.toUrlSafeEncodeTable(boolean)"
+    ],
+    "org.apache.commons.codec.net.QCodec#QCodec()": ["org.apache.commons.codec.net.QCodec#QCodec(Charset)"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacMd5(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(String)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base16#Base16(boolean,CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base16#Base16(boolean,byte[],CodecPolicy)",
+        "org.apache.commons.codec.binary.Base16.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.PureJavaCrc32C#update(byte[],int,int)": ["org.apache.commons.codec.digest.PureJavaCrc32C.<staticinit>()"],
+    "org.apache.commons.codec.binary.BinaryCodec#toByteArray(String)": [
+        "org.apache.commons.codec.binary.BinaryCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BinaryCodec.fromAscii(byte[])"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder.empty(LanguageSet)": [
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#PhonemeBuilder(Phoneme)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.Phoneme#mergeWithLanguage(LanguageSet)": [
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#merge(LanguageSet)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)",
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#merge(LanguageSet)"
+    ],
+    "org.apache.commons.codec.binary.Hex.encodeHex(byte[])": ["org.apache.commons.codec.binary.Hex.encodeHex(byte[],boolean)"],
+    "org.apache.commons.codec.language.bm.Rule.createScanner(String)": [
+        "org.apache.commons.codec.Resources.getInputStream(String)",
+        "org.apache.commons.codec.language.bm.ResourceConstants.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.Rule#Rule(String,String,String,PhonemeExpr)": [
+        "org.apache.commons.codec.language.bm.Rule.pattern(String)",
+        "org.apache.commons.codec.language.bm.Rule.<init>()"
+    ],
+    "org.apache.commons.codec.net.QCodec#QCodec(Charset)": [
+        "org.apache.commons.codec.net.QCodec.<init>()",
+        "org.apache.commons.codec.net.RFC1522Codec#RFC1522Codec(Charset)"
+    ],
+    "org.apache.commons.codec.binary.Base32#decode(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.Base32#validateTrailingCharacters()",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base32#validateCharacter(long,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)",
+        "org.apache.commons.codec.binary.Base32.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.getHmacSha512(byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha512Hex(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md5Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.md5(byte[])"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#equals(Object)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#toString()"],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#toString()": [
+        "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#copyData(int,int)",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneOutputBuffer#copyData(int,int)"
+    ],
+    "org.apache.commons.codec.cli.Digest#run(String,String)": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.cli.Digest#run(String,MessageDigest)"
+    ],
+    "org.apache.commons.codec.StringEncoderComparator#StringEncoderComparator()": ["org.apache.commons.codec.StringEncoderComparator.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,Path,OpenOption[]...)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,Path,OpenOption[]...)"],
+    "org.apache.commons.codec.digest.HmacUtils.updateHmac(Mac,InputStream)": ["org.apache.commons.codec.digest.HmacUtils.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_512(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.digest.DigestUtils.getSha3_512Digest()"
+    ],
+    "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean,CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],byte,byte[],CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64.toUrlSafeEncodeTable(boolean)"
+    ],
+    "org.apache.commons.codec.digest.XXHash32#update(byte[],int,int)": [
+        "org.apache.commons.codec.digest.XXHash32.<staticinit>()",
+        "org.apache.commons.codec.digest.XXHash32#process(byte[],int)"
+    ],
+    "org.apache.commons.codec.net.BCodec#encode(Object)": [
+        "org.apache.commons.codec.net.BCodec#encode(String)",
+        "org.apache.commons.codec.EncoderException#EncoderException(String)"
+    ],
+    "org.apache.commons.codec.language.Caverphone1.<init>()": ["org.apache.commons.codec.language.AbstractCaverphone.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha384(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.digest.DigestUtils.getSha384Digest()"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(Charset)": ["org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(Charset,boolean)"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacMd5Hex(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#soundex(String)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex#soundex(String,boolean)"],
+    "org.apache.commons.codec.language.bm.Rule.stripQuotes(String)": ["org.apache.commons.codec.language.bm.Rule.<staticinit>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleAEIOUY(DoubleMetaphoneResult,int)": ["org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(long,long)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash32(long,long,int)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_256Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512_256(byte[])"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeVowels(String)": [
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#isVowel(String)"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt#Md5Crypt()": ["org.apache.commons.codec.digest.Md5Crypt.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.getHmacMd5(byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleX(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecInputStream.<init>()": ["org.apache.commons.codec.binary.BaseNCodec.Context.<init>()"],
+    "org.apache.commons.codec.binary.Base64.decodeBase64(byte[])": [
+        "org.apache.commons.codec.binary.Base64#Base64()",
+        "org.apache.commons.codec.binary.BaseNCodec#decode(byte[])"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#DoubleMetaphoneResult(int)": ["org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult.<init>()"],
+    "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte,CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],byte[],byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.Base32.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.Caverphone#isCaverphoneEqual(String,String)": ["org.apache.commons.codec.language.Caverphone#caverphone(String)"],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#encode(String)": ["org.apache.commons.codec.language.bm.PhoneticEngine#encode(String)"],
+    "org.apache.commons.codec.binary.BinaryCodec#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.binary.BinaryCodec.toAsciiChars(byte[])"
+    ],
+    "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)": ["org.apache.commons.codec.DecoderException.<init>()"],
+    "org.apache.commons.codec.language.bm.PhoneticEngine#encode(String,LanguageSet)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder.empty(LanguageSet)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.<staticinit>()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#RulesApplication(Map<String, List<Rule>>,CharSequence,PhonemeBuilder,int,int)",
+        "org.apache.commons.codec.language.bm.Rule.getInstanceMap(NameType,RuleType,String)",
+        "org.apache.commons.codec.language.bm.NameType.<staticinit>()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.join(List<String>,String)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#getPhonemeBuilder()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#applyFinalRules(PhonemeBuilder,Map<String, List<Rule>>)",
+        "org.apache.commons.codec.language.bm.Rule.getInstanceMap(NameType,RuleType,LanguageSet)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#encode(String)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#makeString()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#getI()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#invoke()",
+        "org.apache.commons.codec.language.bm.RuleType.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Blake3.compress(int[],int[],int,long,int)": [
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3.round(int[],int[],byte[])"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash64(int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix64(long)"
+    ],
+    "org.apache.commons.codec.language.bm.RuleType#RuleType(String)": ["org.apache.commons.codec.language.bm.RuleType.<init>()"],
+    "org.apache.commons.codec.digest.Crypt#Crypt()": ["org.apache.commons.codec.digest.Crypt.<init>()"],
+    "org.apache.commons.codec.digest.Blake3.initKeyedHash(byte[])": [
+        "org.apache.commons.codec.digest.Blake3.unpackInts(byte[],int)",
+        "org.apache.commons.codec.digest.Blake3#Blake3(int[],int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digestAsHex(File)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils#digest(File)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getSha512_256Digest()": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#decode(String)": [
+        "org.apache.commons.codec.binary.BaseNCodec#decode(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha512(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(String)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Blake3.ChunkState#startFlag()": ["org.apache.commons.codec.digest.Blake3.<staticinit>()"],
+    "org.apache.commons.codec.digest.Blake3.ChunkState#output()": [
+        "org.apache.commons.codec.digest.Blake3.unpackInts(byte[],int)",
+        "org.apache.commons.codec.digest.Blake3.Output#Output(int[],int[],long,int,int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#startFlag()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha256Hex(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.PhonemeList#PhonemeList(List<Phoneme>)": ["org.apache.commons.codec.language.bm.Rule.PhonemeList.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacMd5(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.EncoderException#EncoderException(String)": ["org.apache.commons.codec.EncoderException.<init>()"],
+    "org.apache.commons.codec.language.bm.Lang#guessLanguages(String)": [
+        "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set<String>)",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Lang.LangRule#matches(String)",
+        "org.apache.commons.codec.language.bm.Languages#getLanguages()"
+    ],
+    "org.apache.commons.codec.binary.Base64OutputStream#Base64OutputStream(OutputStream,boolean)": [
+        "org.apache.commons.codec.binary.Base64OutputStream.<init>()",
+        "org.apache.commons.codec.binary.Base64#Base64(boolean)",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleSC(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String,String)"
+    ],
+    "org.apache.commons.codec.cli.Digest.main(String[])": [
+        "org.apache.commons.codec.cli.Digest#run()",
+        "org.apache.commons.codec.cli.Digest#Digest(String[])"
+    ],
+    "org.apache.commons.codec.net.URLCodec#decode(Object)": [
+        "org.apache.commons.codec.net.URLCodec#decode(byte[])",
+        "org.apache.commons.codec.net.URLCodec#decode(String)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86#finalise(int,int,byte[],int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix32(int)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha1Hex(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(InputStream)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32x86(byte[])": ["org.apache.commons.codec.digest.MurmurHash3.hash32x86(byte[],int,int,int)"],
+    "org.apache.commons.codec.binary.BinaryCodec.toAsciiString(byte[])": ["org.apache.commons.codec.binary.BinaryCodec.toAsciiChars(byte[])"],
+    "org.apache.commons.codec.cli.Digest#run(String[])": [
+        "org.apache.commons.codec.cli.Digest#run(String,String)",
+        "org.apache.commons.codec.digest.DigestUtils.isAvailable(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digest(byte[])": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,byte[])"],
+    "org.apache.commons.codec.binary.Base64InputStream#Base64InputStream(InputStream)": ["org.apache.commons.codec.binary.Base64InputStream#Base64InputStream(InputStream,boolean)"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(long,long,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.mix32(int,int)",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix32(int)"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#DaitchMokotoffSoundex(boolean)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.<init>()"],
+    "org.apache.commons.codec.binary.Base64#calculateDecodeTable(byte[])": ["org.apache.commons.codec.binary.Base64.<staticinit>()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha1(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base64.Builder#get()": [
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],byte,byte[],CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getPadding()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getLineLength()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getEncodeTable()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getLineSeparator()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getDecodingPolicy()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_224(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha3_224(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.Output#rootOutputBytes(byte[],int,int)": [
+        "org.apache.commons.codec.digest.Blake3.compress(int[],int[],int,long,int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3.packInt(int,byte[],int,int)"
+    ],
+    "org.apache.commons.codec.binary.Base32#Base32()": ["org.apache.commons.codec.binary.Base32#Base32(boolean)"],
+    "org.apache.commons.codec.net.URLCodec#URLCodec(String)": ["org.apache.commons.codec.net.URLCodec.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacMd5(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(byte[])"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#conditionL0(String,int)": ["org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#conditionM0(String,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)"
+    ],
+    "org.apache.commons.codec.binary.Base32#encode(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)",
+        "org.apache.commons.codec.binary.Base32.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.BCodec#encode(String,Charset)": ["org.apache.commons.codec.net.RFC1522Codec#encodeText(String,Charset)"],
+    "org.apache.commons.codec.language.Caverphone2.<init>()": ["org.apache.commons.codec.language.AbstractCaverphone.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.getHmacSha384(byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3#MurmurHash3()": ["org.apache.commons.codec.digest.MurmurHash3.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils#hmacHex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(byte[])"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha384(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(String)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base64.isArrayByteBase64(byte[])": ["org.apache.commons.codec.binary.Base64.isBase64(byte[])"],
+    "org.apache.commons.codec.net.RFC1522Codec#decodeText(String)": [
+        "org.apache.commons.codec.binary.StringUtils.getBytesUsAscii(String)",
+        "org.apache.commons.codec.net.QCodec#getEncoding()",
+        "org.apache.commons.codec.net.BCodec#doDecoding(byte[])",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)",
+        "org.apache.commons.codec.net.BCodec#getEncoding()",
+        "org.apache.commons.codec.net.RFC1522Codec.<staticinit>()",
+        "org.apache.commons.codec.net.QCodec#doDecoding(byte[])"
+    ],
+    "org.apache.commons.codec.digest.UnixCrypt.dEncrypt(int,int,int,int,int,int[])": ["org.apache.commons.codec.digest.UnixCrypt.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils#digest(InputStream)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,InputStream)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_256(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha512_256Digest()"],
+    "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendPrimary(char)"
+    ],
+    "org.apache.commons.codec.language.RefinedSoundex#RefinedSoundex(String)": ["org.apache.commons.codec.language.RefinedSoundex.<init>()"],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[],String,Random)": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha2Crypt(byte[],String,String,int,String)",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(HmacAlgorithms,byte[])": [
+        "org.apache.commons.codec.digest.HmacAlgorithms#getName()",
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(String,byte[])"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.stripQuotes(String)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()"],
+    "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)": ["org.apache.commons.codec.binary.StringUtils.getBytes(String,Charset)"],
+    "org.apache.commons.codec.language.bm.PhoneticEngine#encode(String)": [
+        "org.apache.commons.codec.language.bm.Lang#guessLanguages(String)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#encode(String,LanguageSet)"
+    ],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder.<init>()": [
+        "org.apache.commons.codec.language.bm.NameType.<staticinit>()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean)",
+        "org.apache.commons.codec.language.bm.RuleType.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.Soundex#soundex(String)": [
+        "org.apache.commons.codec.language.Soundex#map(char)",
+        "org.apache.commons.codec.language.Soundex.<staticinit>()",
+        "org.apache.commons.codec.language.SoundexUtils.clean(String)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(String,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms#getName()",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,RandomAccessFile)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,RandomAccessFile)"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#Branch()": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha256Hex(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.PercentCodec#canEncode(byte)": [
+        "org.apache.commons.codec.net.PercentCodec#isAsciiChar(byte)",
+        "org.apache.commons.codec.net.PercentCodec#inAlwaysEncodeCharsRange(byte)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash2#MurmurHash2()": ["org.apache.commons.codec.digest.MurmurHash2.<init>()"],
+    "org.apache.commons.codec.binary.Base64InputStream#Base64InputStream(InputStream,boolean,int,byte[])": [
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.Base64InputStream.<init>()",
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[])"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec.isWhitespace(int)": ["org.apache.commons.codec.net.QuotedPrintableCodec.<staticinit>()"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(String)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(byte[])"
+    ],
+    "org.apache.commons.codec.net.BCodec#BCodec()": ["org.apache.commons.codec.net.BCodec#BCodec(Charset)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha1(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.getSha1Digest()",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String,String)": [
+        "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String,String,Random)",
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.BCodec#encode(String,String)": [
+        "org.apache.commons.codec.net.RFC1522Codec#encodeText(String,String)",
+        "org.apache.commons.codec.EncoderException#EncoderException(String,Throwable)"
+    ],
+    "org.apache.commons.codec.binary.Hex#Hex(String)": ["org.apache.commons.codec.binary.Hex#Hex(Charset)"],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#setMaxPhonemes(int)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine#isConcat()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean,int)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getNameType()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getRuleType()"
+    ],
+    "org.apache.commons.codec.digest.UnixCrypt.crypt(String)": ["org.apache.commons.codec.digest.UnixCrypt.crypt(String)"],
+    "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)": ["org.apache.commons.codec.language.bm.Rule.Phoneme.<init>()"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(String)": ["org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(Charset,boolean)"],
+    "org.apache.commons.codec.binary.Base64#validateCharacter(int,Context)": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.parseRules(Scanner,String,Map<Character, List<Rule>>,Map<Character, Character>)": [
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#Rule(String,String,String,String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.stripQuotes(String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Crypt.crypt(String)": ["org.apache.commons.codec.digest.Crypt.crypt(String,String)"],
+    "org.apache.commons.codec.binary.BaseNCodec.resizeBuffer(Context,int)": [
+        "org.apache.commons.codec.binary.BaseNCodec.createPositiveCapacity(int)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.Lang.LangRule#LangRule(Pattern,Set<String>,boolean)": ["org.apache.commons.codec.language.bm.Lang.LangRule.<init>()"],
+    "org.apache.commons.codec.binary.Hex.decodeHex(char[])": ["org.apache.commons.codec.binary.Hex.decodeHex(char[],byte[],int)"],
+    "org.apache.commons.codec.language.bm.Languages$LanguageSet$1.<init>()": ["org.apache.commons.codec.language.bm.Languages.LanguageSet.<init>()"],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#setNameType(NameType)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getMaxPhonemes()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#isConcat()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean,int)",
+        "org.apache.commons.codec.language.bm.NameType.<staticinit>()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getRuleType()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha384(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])"
+    ],
+    "org.apache.commons.codec.digest.Blake3.EngineState#addChunkCV(int[],long)": [
+        "org.apache.commons.codec.digest.Blake3.EngineState#popCV()",
+        "org.apache.commons.codec.digest.Blake3.EngineState#pushCV(int[])",
+        "org.apache.commons.codec.digest.Blake3.parentChainingValue(int[],int[],int[],int)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.pattern(String)": [
+        "org.apache.commons.codec.language.bm.Rule.contains(CharSequence,char)",
+        "org.apache.commons.codec.language.bm.Rule.endsWith(CharSequence,CharSequence)",
+        "org.apache.commons.codec.language.bm.Rule.startsWith(CharSequence,CharSequence)",
+        "org.apache.commons.codec.language.bm.Rule.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Rule.pattern(String)$RPattern$1.<init>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getSha1Digest()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.Soundex#hasMarker(char[])": ["org.apache.commons.codec.language.Soundex.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.shaHex(byte[])": ["org.apache.commons.codec.digest.DigestUtils.sha1Hex(byte[])"],
+    "org.apache.commons.codec.net.BCodec#BCodec(Charset)": [
+        "org.apache.commons.codec.net.BCodec.<staticinit>()",
+        "org.apache.commons.codec.net.BCodec#BCodec(Charset,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.binary.Base64.encodeInteger(BigInteger)": [
+        "org.apache.commons.codec.binary.Base64.toIntegerBytes(BigInteger)",
+        "org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean)"
+    ],
+    "org.apache.commons.codec.binary.Base32InputStream#Base32InputStream(InputStream)": ["org.apache.commons.codec.binary.Base32InputStream#Base32InputStream(InputStream,boolean)"],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#removeNext()": ["org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#getNextChar()"],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#setConcat(boolean)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getMaxPhonemes()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean,int)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getNameType()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getRuleType()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,File)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,File)"],
+    "org.apache.commons.codec.binary.BaseNCodec#encode(Object)": [
+        "org.apache.commons.codec.binary.BaseNCodec#encode(byte[])",
+        "org.apache.commons.codec.EncoderException#EncoderException(String)"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneOutputBuffer#put(char)": ["org.apache.commons.codec.language.ColognePhonetic.<staticinit>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash128(byte[],int,int,int)": ["org.apache.commons.codec.digest.MurmurHash3.hash128x64Internal(byte[],int,int,long)"],
+    "org.apache.commons.codec.language.bm.Rule.PhonemeExpr#size()": [
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#getPhonemes()",
+        "org.apache.commons.codec.language.bm.Rule.PhonemeList#getPhonemes()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha1Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha1(byte[])"
+    ],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#getRuleType()": ["org.apache.commons.codec.language.bm.PhoneticEngine#getRuleType()"],
+    "org.apache.commons.codec.digest.DigestUtils.md2Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.md2(String)"
+    ],
+    "org.apache.commons.codec.net.URLCodec#encode(String,String)": [
+        "org.apache.commons.codec.net.URLCodec#encode(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha384Hex(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(InputStream)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha512(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getShaDigest()": ["org.apache.commons.codec.digest.DigestUtils.getSha1Digest()"],
+    "org.apache.commons.codec.binary.Base64#Base64(boolean)": [
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.isAvailable(String)": ["org.apache.commons.codec.digest.DigestUtils.getDigest(String,MessageDigest)"],
+    "org.apache.commons.codec.digest.DigestUtils.getMd5Digest()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean,boolean,int)": [
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#encode(byte[])",
+        "org.apache.commons.codec.binary.BaseNCodec#getEncodedLength(byte[])",
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])",
+        "org.apache.commons.codec.binary.Base64#Base64(boolean)"
+    ],
+    "org.apache.commons.codec.binary.BinaryCodec.toAsciiBytes(byte[])": [
+        "org.apache.commons.codec.binary.BinaryCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])"
+    ],
+    "org.apache.commons.codec.language.Caverphone1#encode(String)": ["org.apache.commons.codec.language.Caverphone1.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.getSha384Digest()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecInputStream#read()": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#read(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[])": [
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int)",
+        "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[],String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#decode(Object)": [
+        "org.apache.commons.codec.binary.BaseNCodec#decode(String)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)",
+        "org.apache.commons.codec.binary.BaseNCodec#decode(byte[])"
+    ],
+    "org.apache.commons.codec.language.Soundex#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.Soundex#soundex(String)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash2.hash64(byte[],int)": ["org.apache.commons.codec.digest.MurmurHash2.hash64(byte[],int,int)"],
+    "org.apache.commons.codec.binary.Base64.decodeInteger(byte[])": ["org.apache.commons.codec.binary.Base64.decodeBase64(byte[])"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#decode(String,Charset)": [
+        "org.apache.commons.codec.binary.StringUtils.getBytesUsAscii(String)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#decode(byte[])"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.equals(CharSequence,CharSequence)": ["org.apache.commons.codec.binary.CharSequenceUtils.regionMatches(CharSequence,boolean,int,CharSequence,int,int)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_256Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512_256(String)"
+    ],
+    "org.apache.commons.codec.digest.PureJavaCrc32#reset()": ["org.apache.commons.codec.digest.PureJavaCrc32#resetCrc()"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(BitSet,byte[])": ["org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(BitSet,byte[],boolean)"],
+    "org.apache.commons.codec.net.BCodec#isStrictDecoding()": ["org.apache.commons.codec.CodecPolicy.<staticinit>()"],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder.<init>()": ["org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"],
+    "org.apache.commons.codec.binary.Base32InputStream#Base32InputStream(InputStream,boolean)": [
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.Base32#Base32(boolean)",
+        "org.apache.commons.codec.binary.Base32InputStream.<init>()"
+    ],
+    "org.apache.commons.codec.language.Metaphone#metaphone(String)": [
+        "org.apache.commons.codec.language.Metaphone#regionMatch(StringBuilder,int,String)",
+        "org.apache.commons.codec.language.Metaphone#isNextChar(StringBuilder,int,char)",
+        "org.apache.commons.codec.language.Metaphone.<staticinit>()",
+        "org.apache.commons.codec.language.Metaphone#isPreviousChar(StringBuilder,int,char)",
+        "org.apache.commons.codec.language.Metaphone#isVowel(StringBuilder,int)",
+        "org.apache.commons.codec.language.Metaphone#getMaxCodeLen()",
+        "org.apache.commons.codec.language.Metaphone#isLastChar(int,int)"
+    ],
+    "org.apache.commons.codec.digest.PureJavaCrc32#PureJavaCrc32()": [
+        "org.apache.commons.codec.digest.PureJavaCrc32#resetCrc()",
+        "org.apache.commons.codec.digest.PureJavaCrc32.<init>()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#available(Context)": ["org.apache.commons.codec.binary.BaseNCodec#hasData(Context)"],
+    "org.apache.commons.codec.net.PercentCodec#PercentCodec()": [
+        "org.apache.commons.codec.net.PercentCodec#insertAlwaysEncodeChar(byte)",
+        "org.apache.commons.codec.net.PercentCodec.<staticinit>()",
+        "org.apache.commons.codec.net.PercentCodec.<init>()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()": ["org.apache.commons.codec.CodecPolicy.<staticinit>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int,int)": ["org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int,int,int)"],
+    "org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream,boolean)": ["org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream,boolean,boolean)"],
+    "org.apache.commons.codec.language.Metaphone#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.Metaphone#metaphone(String)"
+    ],
+    "org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream,boolean,boolean,CodecPolicy)": [
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.Base16InputStream.<init>()",
+        "org.apache.commons.codec.binary.Base16#Base16(boolean,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.unpackInts(byte[],int)": ["org.apache.commons.codec.digest.Blake3.unpackInt(byte[],int)"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha384(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(byte[])"
+    ],
+    "org.apache.commons.codec.digest.Blake3#doFinalize(byte[])": ["org.apache.commons.codec.digest.Blake3#doFinalize(byte[],int,int)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_256Hex(byte[])": [
+        "org.apache.commons.codec.digest.DigestUtils.sha3_256(byte[])",
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex#encode(String)"
+    ],
+    "org.apache.commons.codec.net.QCodec#doEncoding(byte[])": [
+        "org.apache.commons.codec.net.QCodec.<staticinit>()",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(BitSet,byte[])"
+    ],
+    "org.apache.commons.codec.language.Soundex#Soundex(String)": [
+        "org.apache.commons.codec.language.Soundex#hasMarker(char[])",
+        "org.apache.commons.codec.language.Soundex.<init>()",
+        "org.apache.commons.codec.language.Soundex.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#RulesApplication(Map<String, List<Rule>>,CharSequence,PhonemeBuilder,int,int)": ["org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication.<init>()"],
+    "org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream)": ["org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream,boolean)"],
+    "org.apache.commons.codec.binary.BaseNCodec#encode(byte[],int,int)": [
+        "org.apache.commons.codec.binary.Base32#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#readResults(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base16#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec.Context.<init>()",
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64#encode(byte[],int,int,Context)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash64(byte[],int,int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix64(long)",
+        "org.apache.commons.codec.digest.MurmurHash3.getLittleEndianLong(byte[],int)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_384(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha3_384Digest()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha384Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha384(InputStream)"
+    ],
+    "org.apache.commons.codec.net.QCodec#doDecoding(byte[])": [
+        "org.apache.commons.codec.net.QCodec.<staticinit>()",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.decodeQuotedPrintable(byte[])"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#encodeToString(byte[])": [
+        "org.apache.commons.codec.binary.BaseNCodec#encode(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.newStringUtf8(byte[])"
+    ],
+    "org.apache.commons.codec.binary.Base32OutputStream#Base32OutputStream(OutputStream,boolean,int,byte[],CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base32OutputStream.<init>()",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha256Crypt(byte[],String)": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha2Crypt(byte[],String,String,int,String)",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int)"
+    ],
+    "org.apache.commons.codec.binary.Hex#encode(ByteBuffer)": [
+        "org.apache.commons.codec.binary.Hex#getCharset()",
+        "org.apache.commons.codec.binary.Hex.encodeHexString(ByteBuffer)"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#DaitchMokotoffSoundex()": ["org.apache.commons.codec.language.DaitchMokotoffSoundex#DaitchMokotoffSoundex(boolean)"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()": [
+        "org.apache.commons.codec.CharEncoding.<staticinit>()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.parseRules(Scanner,String,Map<Character, List<Rule>>,Map<Character, Character>)",
+        "org.apache.commons.codec.Resources.getInputStream(String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#getPatternLength()"
+    ],
+    "org.apache.commons.codec.binary.Base64.encodeBase64(byte[])": ["org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean)"],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#eof()": [
+        "org.apache.commons.codec.binary.Base16#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base32#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base32#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base16#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base64#decode(byte[],int,int,Context)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#conditionCH0(String,int)": ["org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)"],
+    "org.apache.commons.codec.binary.StringUtils.getBytesUsAscii(String)": ["org.apache.commons.codec.binary.StringUtils.getBytes(String,Charset)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha256(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha256Digest()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha384Hex(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.PercentCodec#decode(Object)": [
+        "org.apache.commons.codec.net.PercentCodec#decode(byte[])",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte)": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.getByteBufferUtf8(String)": ["org.apache.commons.codec.binary.StringUtils.getByteBuffer(String,Charset)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#conditionCH1(String,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.Nysiis#nysiis(String)": [
+        "org.apache.commons.codec.language.Nysiis.<staticinit>()",
+        "org.apache.commons.codec.language.Nysiis#isStrict()",
+        "org.apache.commons.codec.language.Nysiis.transcodeRemaining(char,char,char,char)",
+        "org.apache.commons.codec.language.SoundexUtils.clean(String)"
+    ],
+    "org.apache.commons.codec.binary.Base64.isBase64(byte[])": ["org.apache.commons.codec.binary.Base64.isBase64(byte)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleJ(String,DoubleMetaphoneResult,int,boolean)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.<staticinit>()",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#DigestUtils(MessageDigest)": ["org.apache.commons.codec.digest.DigestUtils.<init>()"],
+    "org.apache.commons.codec.digest.MurmurHash2.hash64(byte[],int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash2.getLittleEndianLong(byte[],int)",
+        "org.apache.commons.codec.digest.MurmurHash2.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine#applyFinalRules(PhonemeBuilder,Map<String, List<Rule>>)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder.empty(LanguageSet)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#mergeWithLanguage(LanguageSet)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme.<staticinit>()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#PhonemeBuilder(Phoneme)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#RulesApplication(Map<String, List<Rule>>,CharSequence,PhonemeBuilder,int,int)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#getPhonemeText()",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#getLanguages()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#getPhonemes()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#append(CharSequence)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#getPhonemeBuilder()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#getI()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#isFound()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#invoke()"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#isDoubleMetaphoneEqual(String,String)": ["org.apache.commons.codec.language.DoubleMetaphone#isDoubleMetaphoneEqual(String,String,boolean)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleG(String,DoubleMetaphoneResult,int,boolean)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleGH(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.<staticinit>()",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String,String)"
+    ],
+    "org.apache.commons.codec.net.QCodec#decode(String)": [
+        "org.apache.commons.codec.net.RFC1522Codec#decodeText(String)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_512(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha3_512(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#hashCode()": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#toString()"],
+    "org.apache.commons.codec.binary.BaseNCodec.getChunkSeparator()": ["org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"],
+    "org.apache.commons.codec.binary.Base64#Base64(int,byte[],byte,byte[],CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base64.<init>()",
+        "org.apache.commons.codec.binary.Base64.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#containsAlphabetOrPad(byte[])",
+        "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.Base64#calculateDecodeTable(byte[])",
+        "org.apache.commons.codec.binary.BaseNCodec.toLength(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.newStringUtf8(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_256(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha3_256(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.binary.Base64.decodeBase64(String)": [
+        "org.apache.commons.codec.binary.Base64#Base64()",
+        "org.apache.commons.codec.binary.BaseNCodec#decode(String)"
+    ],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#isConcat()": ["org.apache.commons.codec.language.bm.PhoneticEngine#isConcat()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleP(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendPrimary(char)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,InputStream)": ["org.apache.commons.codec.digest.DigestUtils.<staticinit>()"],
+    "org.apache.commons.codec.binary.Base64OutputStream#Base64OutputStream(OutputStream)": ["org.apache.commons.codec.binary.Base64OutputStream#Base64OutputStream(OutputStream,boolean)"],
+    "org.apache.commons.codec.language.ColognePhonetic#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.ColognePhonetic#encode(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getDigest(String,MessageDigest)": ["org.apache.commons.codec.digest.DigestUtils.getMessageDigest(String)"],
+    "org.apache.commons.codec.digest.Blake3.Output#Output(int[],int[],long,int,int)": ["org.apache.commons.codec.digest.Blake3.Output.<init>()"],
+    "org.apache.commons.codec.digest.Blake3.ChunkState#update(byte[],int,int)": [
+        "org.apache.commons.codec.digest.Blake3.unpackInts(byte[],int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3.compress(int[],int[],int,long,int)",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#startFlag()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha512(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_384Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_384(String)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleZ(String,DoubleMetaphoneResult,int,boolean)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String,String)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[])": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int,int,int)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleS(String,DoubleMetaphoneResult,int,boolean)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#handleSC(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(char)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleR(String,DoubleMetaphoneResult,int,boolean)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])": ["org.apache.commons.codec.binary.StringUtils.newString(byte[],Charset)"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#decode(String,String)": [
+        "org.apache.commons.codec.binary.StringUtils.getBytesUsAscii(String)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#decode(byte[])"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String,String,Random)": [
+        "org.apache.commons.codec.digest.B64.b64from24bit(byte,byte,byte,int,StringBuilder)",
+        "org.apache.commons.codec.digest.DigestUtils.getMd5Digest()",
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_224(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha512_224Digest()"],
+    "org.apache.commons.codec.net.URLCodec#decode(String)": [
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)",
+        "org.apache.commons.codec.net.URLCodec#getDefaultCharset()",
+        "org.apache.commons.codec.net.URLCodec#decode(String,String)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash128x64(byte[],int,int,int)": ["org.apache.commons.codec.digest.MurmurHash3.hash128x64Internal(byte[],int,int,long)"],
+    "org.apache.commons.codec.language.AbstractCaverphone#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.AbstractCaverphone#encode(Object)"
+    ],
+    "org.apache.commons.codec.language.Nysiis#Nysiis()": ["org.apache.commons.codec.language.Nysiis#Nysiis(boolean)"],
+    "org.apache.commons.codec.net.BCodec#encode(String)": [
+        "org.apache.commons.codec.net.BCodec#encode(String,Charset)",
+        "org.apache.commons.codec.net.RFC1522Codec#getCharset()"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#leftToRightThenRightToLeftProcessing(String,String)": ["org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils#digest(Path,OpenOption[]...)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,Path,OpenOption[]...)"],
+    "org.apache.commons.codec.binary.Base64.isBase64(String)": [
+        "org.apache.commons.codec.binary.Base64.isBase64(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#isInAlphabet(byte[],boolean)": [
+        "org.apache.commons.codec.binary.Base64#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.Base16#isInAlphabet(byte)"
+    ],
+    "org.apache.commons.codec.net.PercentCodec#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.net.PercentCodec#encode(byte[])"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.<init>()": ["org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"],
+    "org.apache.commons.codec.digest.Blake3.ChunkState#ChunkState(int[],long,int)": ["org.apache.commons.codec.digest.Blake3.ChunkState.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_384Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_384(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha384Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha384(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecInputStream#skip(long)": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#read(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.net.BCodec#decode(Object)": [
+        "org.apache.commons.codec.net.BCodec#decode(String)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.binary.Base32OutputStream#Base32OutputStream(OutputStream,boolean)": [
+        "org.apache.commons.codec.binary.Base32OutputStream.<init>()",
+        "org.apache.commons.codec.binary.Base32#Base32(boolean)",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(String,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms#getName()"
+    ],
+    "org.apache.commons.codec.binary.Base32.builder()": ["org.apache.commons.codec.binary.Base32.Builder#Builder()"],
+    "org.apache.commons.codec.binary.Base32InputStream#Base32InputStream(InputStream,boolean,int,byte[])": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[])",
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.Base32InputStream.<init>()"
+    ],
+    "org.apache.commons.codec.binary.Base64OutputStream#Base64OutputStream(OutputStream,boolean,int,byte[])": [
+        "org.apache.commons.codec.binary.Base64OutputStream.<init>()",
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[])",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.language.Soundex#difference(String,String)": ["org.apache.commons.codec.language.SoundexUtils.difference(StringEncoder,String,String)"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#encode(String)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex#soundex(String,boolean)"],
+    "org.apache.commons.codec.language.bm.Languages.langResourceName(NameType)": ["org.apache.commons.codec.language.bm.NameType#getName()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha384Hex(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleGH(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha1Hex(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)"
+    ],
+    "org.apache.commons.codec.cli.Digest#println(String,byte[],String)": ["org.apache.commons.codec.binary.Hex.encodeHexString(byte[])"],
+    "org.apache.commons.codec.binary.Hex#Hex()": [
+        "org.apache.commons.codec.binary.Hex.<staticinit>()",
+        "org.apache.commons.codec.binary.Hex.<init>()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#readResults(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#available(Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#hasData(Context)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.getBytesUtf16Le(String)": ["org.apache.commons.codec.binary.StringUtils.getBytes(String,Charset)"],
+    "org.apache.commons.codec.binary.StringUtils.getBytesUnchecked(String,String)": ["org.apache.commons.codec.binary.StringUtils.newIllegalStateException(String,UnsupportedEncodingException)"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#soundex(String,boolean)": [
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#getReplacements(String,boolean)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#Branch()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#matches(String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#toString()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#finish()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#createBranch()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#processNextReplacement(String,boolean)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex#cleanup(String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#getPatternLength()"
+    ],
+    "org.apache.commons.codec.digest.Blake3#update(byte[],int,int)": [
+        "org.apache.commons.codec.digest.Blake3.checkBufferArgs(byte[],int,int)",
+        "org.apache.commons.codec.digest.Blake3.EngineState#inputData(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.digest.Crypt.crypt(byte[],String)": [
+        "org.apache.commons.codec.digest.UnixCrypt.crypt(byte[],String)",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha256Crypt(byte[],String)",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[])",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[],String)",
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec()": ["org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(Charset,boolean)"],
+    "org.apache.commons.codec.digest.DigestUtils#digest(ByteBuffer)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,ByteBuffer)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha(InputStream)": ["org.apache.commons.codec.digest.DigestUtils.sha1(InputStream)"],
+    "org.apache.commons.codec.binary.BaseNCodec#encodeAsString(byte[])": [
+        "org.apache.commons.codec.binary.BaseNCodec#encode(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.newStringUtf8(byte[])"
+    ],
+    "org.apache.commons.codec.binary.BinaryCodec#encode(byte[])": ["org.apache.commons.codec.binary.BinaryCodec.toAsciiBytes(byte[])"],
+    "org.apache.commons.codec.binary.Base64#validateTrailingCharacter()": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.binary.Base32OutputStream#Base32OutputStream(OutputStream,boolean,int,byte[])": [
+        "org.apache.commons.codec.binary.Base32OutputStream.<init>()",
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[])",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.language.Nysiis#Nysiis(boolean)": ["org.apache.commons.codec.language.Nysiis.<init>()"],
+    "org.apache.commons.codec.digest.UnixCrypt.fourBytesToInt(byte[],int)": ["org.apache.commons.codec.digest.UnixCrypt.byteToUnsigned(byte)"],
+    "org.apache.commons.codec.binary.Base64.Builder#Builder()": [
+        "org.apache.commons.codec.binary.Base64.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64.Builder.<init>()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#AbstractBuilder(byte[])"
+    ],
+    "org.apache.commons.codec.digest.XXHash32#process(byte[],int)": [
+        "org.apache.commons.codec.digest.XXHash32.<staticinit>()",
+        "org.apache.commons.codec.digest.XXHash32.getInt(byte[],int)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.parsePhonemeExpr(String)": [
+        "org.apache.commons.codec.language.bm.Rule.PhonemeList#PhonemeList(List<Phoneme>)",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Rule.parsePhoneme(String)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha256Hex(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(InputStream)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#PhonemeBuilder(Phoneme)": ["org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.md5(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.md5(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.EngineState#inputData(byte[],int,int)": [
+        "org.apache.commons.codec.digest.Blake3.ChunkState#length()",
+        "org.apache.commons.codec.digest.Blake3.EngineState#addChunkCV(int[],long)",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#ChunkState(int[],long,int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3.Output#chainingValue()",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#update(byte[],int,int)",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#output()"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.newStringUtf16(byte[])": ["org.apache.commons.codec.binary.StringUtils.newString(byte[],Charset)"],
+    "org.apache.commons.codec.digest.DigestUtils.getDigest(String)": ["org.apache.commons.codec.digest.DigestUtils.getMessageDigest(String)"],
+    "org.apache.commons.codec.digest.DigestUtils.getSha512_224Digest()": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md5Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.md5(String)"
+    ],
+    "org.apache.commons.codec.cli.Digest#Digest(String[])": ["org.apache.commons.codec.cli.Digest.<init>()"],
+    "org.apache.commons.codec.digest.MurmurHash2.hash64(String)": [
+        "org.apache.commons.codec.digest.MurmurHash2.hash64(byte[],int)",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.binary.Base64#Base64()": ["org.apache.commons.codec.binary.Base64#Base64(int)"],
+    "org.apache.commons.codec.language.Caverphone2#encode(String)": [
+        "org.apache.commons.codec.language.SoundexUtils.isEmpty(CharSequence)",
+        "org.apache.commons.codec.language.Caverphone2.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha512Hex(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.Languages.SomeLanguages#restrictTo(LanguageSet)": [
+        "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set<String>)",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeAccents(String)": ["org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()"],
+    "org.apache.commons.codec.binary.Base32#validateTrailingCharacters()": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash128x64Internal(byte[],int,int,long)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix64(long)",
+        "org.apache.commons.codec.digest.MurmurHash3.getLittleEndianLong(byte[],int)"
+    ],
+    "org.apache.commons.codec.digest.Blake3#doFinalize(byte[],int,int)": [
+        "org.apache.commons.codec.digest.Blake3.checkBufferArgs(byte[],int,int)",
+        "org.apache.commons.codec.digest.Blake3.EngineState#outputHash(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha256Crypt(byte[],String,Random)": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha2Crypt(byte[],String,String,int,String)",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)"
+    ],
+    "org.apache.commons.codec.binary.BinaryCodec#decode(Object)": [
+        "org.apache.commons.codec.binary.BinaryCodec.fromAscii(byte[])",
+        "org.apache.commons.codec.binary.BinaryCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BinaryCodec.fromAscii(char[])",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.binary.Base32#validateCharacter(long,Context)": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.language.bm.Rule.createScanner(NameType,RuleType,String)": [
+        "org.apache.commons.codec.Resources.getInputStream(String)",
+        "org.apache.commons.codec.language.bm.Rule.createResourceName(NameType,RuleType,String)",
+        "org.apache.commons.codec.language.bm.ResourceConstants.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#encode(String)": [
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeDoubleConsonants(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#cleanName(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#getFirst3Last3(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeVowels(String)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32.<init>()": ["org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86.<init>()"],
+    "org.apache.commons.codec.binary.Base32#Base32(int,byte[])": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.XXHash32#XXHash32()": ["org.apache.commons.codec.digest.XXHash32#XXHash32(int)"],
+    "org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer,boolean)": [
+        "org.apache.commons.codec.binary.Hex.toAlphabet(boolean)",
+        "org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer,char[])"
+    ],
+    "org.apache.commons.codec.language.bm.ResourceConstants.<staticinit>()": ["org.apache.commons.codec.CharEncoding.<staticinit>()"],
+    "org.apache.commons.codec.digest.MurmurHash2.hash32(byte[],int)": ["org.apache.commons.codec.digest.MurmurHash2.hash32(byte[],int,int)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_256Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_256(String)"
+    ],
+    "org.apache.commons.codec.net.QCodec#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.net.QCodec#encode(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int)": [
+        "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.Languages.<staticinit>()": [
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1.<init>()",
+        "org.apache.commons.codec.language.bm.Languages.langResourceName(NameType)",
+        "org.apache.commons.codec.language.bm.Languages.getInstance(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digestAsHex(Path,OpenOption[]...)": [
+        "org.apache.commons.codec.digest.DigestUtils#digest(Path,OpenOption[]...)",
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,String)": ["org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"],
+    "org.apache.commons.codec.net.PercentCodec#insertAlwaysEncodeChars(byte[])": [
+        "org.apache.commons.codec.net.PercentCodec#insertAlwaysEncodeChar(byte)",
+        "org.apache.commons.codec.net.PercentCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.URLCodec#encode(String)": [
+        "org.apache.commons.codec.net.URLCodec#encode(String,String)",
+        "org.apache.commons.codec.net.URLCodec#getDefaultCharset()",
+        "org.apache.commons.codec.EncoderException#EncoderException(String,Throwable)"
+    ],
+    "org.apache.commons.codec.language.RefinedSoundex#RefinedSoundex()": [
+        "org.apache.commons.codec.language.RefinedSoundex.<staticinit>()",
+        "org.apache.commons.codec.language.RefinedSoundex.<init>()"
+    ],
+    "org.apache.commons.codec.language.bm.NameType#NameType(String)": ["org.apache.commons.codec.language.bm.NameType.<init>()"],
+    "org.apache.commons.codec.net.BCodec#decode(String)": [
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)",
+        "org.apache.commons.codec.net.RFC1522Codec#decodeText(String)"
+    ],
+    "org.apache.commons.codec.net.BCodec#BCodec(Charset,CodecPolicy)": [
+        "org.apache.commons.codec.net.RFC1522Codec#RFC1522Codec(Charset)",
+        "org.apache.commons.codec.net.BCodec.<init>()"
+    ],
+    "org.apache.commons.codec.language.Soundex#encode(String)": ["org.apache.commons.codec.language.Soundex#soundex(String)"],
+    "org.apache.commons.codec.binary.Hex.decodeHex(char[],byte[],int)": [
+        "org.apache.commons.codec.binary.Hex.toDigit(char,int)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#flush(boolean)": [
+        "org.apache.commons.codec.binary.BaseNCodec#readResults(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#available(Context)"
+    ],
+    "org.apache.commons.codec.language.bm.Languages.SomeLanguages#merge(LanguageSet)": [
+        "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set<String>)",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.Lang.<staticinit>()": [
+        "org.apache.commons.codec.language.bm.Lang.loadFromResource(String,Languages)",
+        "org.apache.commons.codec.language.bm.NameType#getName()",
+        "org.apache.commons.codec.language.bm.Languages.getInstance(NameType)"
+    ],
+    "org.apache.commons.codec.language.Soundex.<staticinit>()": [
+        "org.apache.commons.codec.language.Soundex#Soundex(String)",
+        "org.apache.commons.codec.language.Soundex#Soundex(String,boolean)",
+        "org.apache.commons.codec.language.Soundex#Soundex()"
+    ],
+    "org.apache.commons.codec.net.URLCodec#encode(Object)": [
+        "org.apache.commons.codec.net.URLCodec#encode(String)",
+        "org.apache.commons.codec.net.URLCodec#encode(byte[])",
+        "org.apache.commons.codec.EncoderException#EncoderException(String)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String,String)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendPrimary(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.shaHex(String)": ["org.apache.commons.codec.digest.DigestUtils.sha1Hex(String)"],
+    "org.apache.commons.codec.language.bm.Lang.loadFromResource(String,Languages)": [
+        "org.apache.commons.codec.language.bm.Lang#Lang(List<LangRule>,Languages)",
+        "org.apache.commons.codec.Resources.getInputStream(String)",
+        "org.apache.commons.codec.language.bm.ResourceConstants.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Lang.LangRule#LangRule(Pattern,Set<String>,boolean)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md2Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.md2(byte[])"
+    ],
+    "org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer,char[])": [
+        "org.apache.commons.codec.binary.Hex.toByteArray(ByteBuffer)",
+        "org.apache.commons.codec.binary.Hex.encodeHex(byte[],char[])"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#encode(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.shaHex(InputStream)": ["org.apache.commons.codec.digest.DigestUtils.sha1Hex(InputStream)"],
+    "org.apache.commons.codec.language.bm.Lang#Lang(List<LangRule>,Languages)": ["org.apache.commons.codec.language.bm.Lang.<init>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#conditionC0(String,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,File)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,InputStream)"],
+    "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)": [
+        "org.apache.commons.codec.binary.BaseNCodec#getDefaultBufferSize()",
+        "org.apache.commons.codec.binary.BaseNCodec.resizeBuffer(Context,int)"
+    ],
+    "org.apache.commons.codec.net.QCodec#encode(String)": [
+        "org.apache.commons.codec.net.QCodec#encode(String,Charset)",
+        "org.apache.commons.codec.net.RFC1522Codec#getCharset()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha1(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha1Digest()"],
+    "org.apache.commons.codec.binary.Base32.Builder#Builder()": [
+        "org.apache.commons.codec.binary.Base32.Builder.<init>()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#AbstractBuilder(byte[])",
+        "org.apache.commons.codec.binary.Base32.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Blake3.round(int[],int[],byte[])": ["org.apache.commons.codec.digest.Blake3.g(int[],int,int,int,int,int,int)"],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#CologneBuffer(int)": ["org.apache.commons.codec.language.ColognePhonetic.CologneBuffer.<init>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(String)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int,int,int)",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.binary.Hex.encodeHex(byte[],boolean)": [
+        "org.apache.commons.codec.binary.Hex.encodeHex(byte[],char[])",
+        "org.apache.commons.codec.binary.Hex.toAlphabet(boolean)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)": ["org.apache.commons.codec.digest.HmacUtils.<staticinit>()"],
+    "org.apache.commons.codec.binary.BaseNCodec#encode(byte[])": [
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])",
+        "org.apache.commons.codec.binary.BaseNCodec#encode(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleCH(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#conditionCH0(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone#conditionCH1(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"
+    ],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#getNameType()": ["org.apache.commons.codec.language.bm.PhoneticEngine#getNameType()"],
+    "org.apache.commons.codec.net.BCodec.<staticinit>()": ["org.apache.commons.codec.CodecPolicy.<staticinit>()"],
+    "org.apache.commons.codec.binary.Base16#encode(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.Base16.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#createBranch()": [
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#toString()",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#Branch()"
+    ],
+    "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])": ["org.apache.commons.codec.binary.Hex.encodeHex(byte[])"],
+    "org.apache.commons.codec.net.PercentCodec#PercentCodec(byte[],boolean)": [
+        "org.apache.commons.codec.net.PercentCodec#insertAlwaysEncodeChars(byte[])",
+        "org.apache.commons.codec.net.PercentCodec.<init>()"
+    ],
+    "org.apache.commons.codec.binary.BinaryCodec.toAsciiChars(byte[])": [
+        "org.apache.commons.codec.binary.BinaryCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])"
+    ],
+    "org.apache.commons.codec.binary.Base32#Base32(int,byte[],byte[],byte,CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base32.<init>()",
+        "org.apache.commons.codec.binary.BaseNCodec#containsAlphabetOrPad(byte[])",
+        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.Base32.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec.toLength(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.newStringUtf8(byte[])"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#encode(String)": [
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(String,Charset)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#getCharset()"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.newStringUtf8(byte[])": ["org.apache.commons.codec.binary.StringUtils.newString(byte[],Charset)"],
+    "org.apache.commons.codec.language.RefinedSoundex#difference(String,String)": ["org.apache.commons.codec.language.SoundexUtils.difference(StringEncoder,String,String)"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha256(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.QCodec#decode(Object)": [
+        "org.apache.commons.codec.net.QCodec#decode(String)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,RandomAccessFile)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,FileChannel)"],
+    "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(String)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleH(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.createResourceName(NameType,RuleType,String)": [
+        "org.apache.commons.codec.language.bm.RuleType#getName()",
+        "org.apache.commons.codec.language.bm.NameType#getName()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.digest.DigestUtils.getSha512Digest()"
+    ],
+    "org.apache.commons.codec.binary.Base32#Base32(boolean)": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.createPositiveCapacity(int)": ["org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"],
+    "org.apache.commons.codec.binary.BaseNCodec#BaseNCodec(int,int,int,int,byte,CodecPolicy)": ["org.apache.commons.codec.binary.BaseNCodec.<init>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)": ["org.apache.commons.codec.language.DoubleMetaphone.<staticinit>()"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec.encodeByte(int,boolean,ByteArrayOutputStream)": ["org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(int,ByteArrayOutputStream)"],
+    "org.apache.commons.codec.language.bm.Languages.getInstance(NameType)": ["org.apache.commons.codec.language.bm.Languages.<staticinit>()"],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(boolean)": ["org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(Charset,boolean)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha256(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.digest.DigestUtils.getSha256Digest()"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86#add(byte[],int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.getLittleEndianInt(byte[],int)",
+        "org.apache.commons.codec.digest.MurmurHash3.mix32(int,int)",
+        "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86.orBytes(byte,byte,byte,byte)",
+        "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Blake3#update(byte[])": ["org.apache.commons.codec.digest.Blake3#update(byte[],int,int)"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash64(byte[],int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash64(byte[],int,int,int)"
+    ],
+    "org.apache.commons.codec.net.RFC1522Codec#RFC1522Codec(Charset)": ["org.apache.commons.codec.net.RFC1522Codec.<init>()"],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#AbstractBuilder(byte[])": ["org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha256Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha256(String)"
+    ],
+    "org.apache.commons.codec.language.Metaphone#isVowel(StringBuilder,int)": ["org.apache.commons.codec.language.Metaphone.<staticinit>()"],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[],String)": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Sha2Crypt.sha2Crypt(byte[],String,String,int,String)",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int)"
+    ],
+    "org.apache.commons.codec.language.SoundexUtils.clean(String)": ["org.apache.commons.codec.language.SoundexUtils.isEmpty(CharSequence)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_256Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_256(InputStream)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_256(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha512_256(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_224Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512_224(InputStream)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.ChunkState#length()": ["org.apache.commons.codec.digest.Blake3.<staticinit>()"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacMd5Hex(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(InputStream)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.getBytesUtf16Be(String)": ["org.apache.commons.codec.binary.StringUtils.getBytes(String,Charset)"],
+    "org.apache.commons.codec.binary.Base32.Builder#get()": [
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getPadding()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getLineLength()",
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],byte[],byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getEncodeTable()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getLineSeparator()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#getDecodingPolicy()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,InputStream)"],
+    "org.apache.commons.codec.digest.Blake3.keyedHash(byte[],byte[])": [
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3#update(byte[])",
+        "org.apache.commons.codec.digest.Blake3.initKeyedHash(byte[])",
+        "org.apache.commons.codec.digest.Blake3#doFinalize(int)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleD(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md2(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.getMd2Digest()",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_384(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha3_384(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.language.Soundex#Soundex(char[])": [
+        "org.apache.commons.codec.language.Soundex#hasMarker(char[])",
+        "org.apache.commons.codec.language.Soundex.<init>()",
+        "org.apache.commons.codec.language.Soundex.<staticinit>()"
+    ],
+    "org.apache.commons.codec.StringEncoderComparator#compare(Object,Object)": [
+        "org.apache.commons.codec.language.RefinedSoundex#encode(Object)",
+        "org.apache.commons.codec.binary.Hex#encode(Object)",
+        "org.apache.commons.codec.net.PercentCodec#encode(Object)",
+        "org.apache.commons.codec.language.Metaphone#encode(Object)",
+        "org.apache.commons.codec.language.Nysiis#encode(Object)",
+        "org.apache.commons.codec.net.BCodec#encode(Object)",
+        "org.apache.commons.codec.language.ColognePhonetic#encode(Object)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex#encode(Object)",
+        "org.apache.commons.codec.net.URLCodec#encode(Object)",
+        "org.apache.commons.codec.binary.BaseNCodec#encode(Object)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(Object)",
+        "org.apache.commons.codec.language.DoubleMetaphone#encode(Object)",
+        "org.apache.commons.codec.language.Soundex#encode(Object)",
+        "org.apache.commons.codec.net.QCodec#encode(Object)",
+        "org.apache.commons.codec.binary.BinaryCodec#encode(Object)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#encode(Object)",
+        "org.apache.commons.codec.language.Caverphone#encode(Object)",
+        "org.apache.commons.codec.language.AbstractCaverphone#encode(Object)",
+        "org.apache.commons.codec.language.bm.BeiderMorseEncoder#encode(Object)"
+    ],
+    "org.apache.commons.codec.language.RefinedSoundex#RefinedSoundex(char[])": ["org.apache.commons.codec.language.RefinedSoundex.<init>()"],
+    "org.apache.commons.codec.cli.Digest#run(String,MessageDigest,File[])": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,File)",
+        "org.apache.commons.codec.cli.Digest#println(String,byte[],String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha384(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha384Digest()"],
+    "org.apache.commons.codec.binary.Base64.encodeBase64Chunked(byte[])": ["org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean)"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha1Hex(byte[],byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])"
+    ],
+    "org.apache.commons.codec.binary.Hex.encodeHex(byte[],int,int,boolean,char[],int)": [
+        "org.apache.commons.codec.binary.Hex.encodeHex(byte[],int,int,char[],char[],int)",
+        "org.apache.commons.codec.binary.Hex.toAlphabet(boolean)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digest(String)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,String)"],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#flush()": ["org.apache.commons.codec.binary.BaseNCodecOutputStream#flush(boolean)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String)": ["org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String,boolean)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_224(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha3_224Digest()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#isSilentStart(String)": ["org.apache.commons.codec.language.DoubleMetaphone.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.getSha3_512Digest()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic#encode(String)": ["org.apache.commons.codec.language.ColognePhonetic#colognePhonetic(String)"],
+    "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(String,String)": ["org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[],String)"],
+    "org.apache.commons.codec.binary.Base64#decode(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.Base64.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)",
+        "org.apache.commons.codec.binary.Base64#validateCharacter(int,Context)",
+        "org.apache.commons.codec.binary.Base64#validateTrailingCharacter()"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(long)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash32(long,int)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digest(File)": ["org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,File)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha512Digest()"],
+    "org.apache.commons.codec.digest.HmacUtils#HmacUtils(Mac)": ["org.apache.commons.codec.digest.HmacUtils.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils#hmacHex(File)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(File)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#decode(byte[])": [
+        "org.apache.commons.codec.binary.Base16#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#readResults(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec.Context.<init>()",
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])",
+        "org.apache.commons.codec.binary.Base32#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64#decode(byte[],int,int,Context)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_256(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha3_256Digest()"],
+    "org.apache.commons.codec.language.bm.Rule.getInstance(NameType,RuleType,LanguageSet)": ["org.apache.commons.codec.language.bm.Rule.getInstanceMap(NameType,RuleType,LanguageSet)"],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream.<init>()": ["org.apache.commons.codec.binary.BaseNCodec.Context.<init>()"],
+    "org.apache.commons.codec.net.URLCodec#URLCodec()": [
+        "org.apache.commons.codec.net.URLCodec#URLCodec(String)",
+        "org.apache.commons.codec.CharEncoding.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.Utils.digit16(byte)": [
+        "org.apache.commons.codec.net.Utils.<staticinit>()",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer)": ["org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer,boolean)"],
+    "org.apache.commons.codec.binary.Hex.encodeHexString(byte[],boolean)": ["org.apache.commons.codec.binary.Hex.encodeHex(byte[],boolean)"],
+    "org.apache.commons.codec.net.URLCodec#decode(byte[])": ["org.apache.commons.codec.net.URLCodec.decodeUrl(byte[])"],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneOutputBuffer#CologneOutputBuffer(int)": [
+        "org.apache.commons.codec.language.ColognePhonetic.CologneOutputBuffer.<init>()",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#CologneBuffer(int)"
+    ],
+    "org.apache.commons.codec.binary.Base32#Base32(byte)": ["org.apache.commons.codec.binary.Base32#Base32(boolean,byte)"],
+    "org.apache.commons.codec.digest.HmacUtils#HmacUtils(String,byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(Mac)",
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(String,byte[])"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic#isEncodeEqual(String,String)": ["org.apache.commons.codec.language.ColognePhonetic#colognePhonetic(String)"],
+    "org.apache.commons.codec.digest.UnixCrypt.crypt(byte[],String)": [
+        "org.apache.commons.codec.digest.UnixCrypt.<staticinit>()",
+        "org.apache.commons.codec.digest.UnixCrypt.body(int[],int,int)",
+        "org.apache.commons.codec.digest.UnixCrypt.desSetKey(byte[])",
+        "org.apache.commons.codec.digest.UnixCrypt.intToFourBytes(int,byte[],int)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash2.hash32(String,int,int)": ["org.apache.commons.codec.digest.MurmurHash2.hash32(String)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_224(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha512_224(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.language.RefinedSoundex.<staticinit>()": ["org.apache.commons.codec.language.RefinedSoundex#RefinedSoundex()"],
+    "org.apache.commons.codec.language.Metaphone#encode(String)": ["org.apache.commons.codec.language.Metaphone#metaphone(String)"],
+    "org.apache.commons.codec.language.RefinedSoundex#soundex(String)": [
+        "org.apache.commons.codec.language.RefinedSoundex#getMappingCode(char)",
+        "org.apache.commons.codec.language.SoundexUtils.clean(String)"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#PhonemeBuilder(Set<Phoneme>)": ["org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder.<init>()"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#processNextReplacement(String,boolean)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash128(byte[])": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash128(byte[],int,int,int)"
+    ],
+    "org.apache.commons.codec.net.PercentCodec#encode(byte[])": [
+        "org.apache.commons.codec.net.PercentCodec#containsSpace(byte[])",
+        "org.apache.commons.codec.net.PercentCodec#doEncode(byte[],int,boolean)",
+        "org.apache.commons.codec.net.PercentCodec#expectedEncodingBytes(byte[])"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#decode(String)": [
+        "org.apache.commons.codec.net.QuotedPrintableCodec#decode(String,Charset)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#getCharset()"
+    ],
+    "org.apache.commons.codec.net.URLCodec.decodeUrl(byte[])": [
+        "org.apache.commons.codec.net.URLCodec.<staticinit>()",
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)",
+        "org.apache.commons.codec.net.Utils.digit16(byte)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.parsePhoneme(String)": [
+        "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set<String>)",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha512Hex(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(InputStream)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha(String)": ["org.apache.commons.codec.digest.DigestUtils.sha1(String)"],
+    "org.apache.commons.codec.digest.HmacUtils#hmac(File)": ["org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)"],
+    "org.apache.commons.codec.digest.DigestUtils#digestAsHex(String)": [
+        "org.apache.commons.codec.digest.DigestUtils#digest(String)",
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])"
+    ],
+    "org.apache.commons.codec.CharEncoding#CharEncoding()": ["org.apache.commons.codec.CharEncoding.<init>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleCC(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()": ["org.apache.commons.codec.CodecPolicy.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512(byte[])"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.mix32(int,int)": ["org.apache.commons.codec.digest.MurmurHash3.<staticinit>()"],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.<staticinit>()": ["org.apache.commons.codec.language.bm.NameType.<staticinit>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleL(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#conditionL0(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendPrimary(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex#cleanup(String)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()"],
+    "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String)": [
+        "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String,String)",
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base64#Base64(int)": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[])"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(long,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.fmix32(int)",
+        "org.apache.commons.codec.digest.MurmurHash3.mix32(int,int)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md2Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.md2(InputStream)"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#getReplacements(String,boolean)": [
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#isVowel(char)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#getPatternLength()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#setEncodeTable(byte[]...)": ["org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#asThis()"],
+    "org.apache.commons.codec.DecoderException#DecoderException()": ["org.apache.commons.codec.DecoderException.<init>()"],
+    "org.apache.commons.codec.binary.Base64InputStream#Base64InputStream(InputStream,boolean,int,byte[],CodecPolicy)": [
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.Base64InputStream.<init>()",
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic#colognePhonetic(String)": [
+        "org.apache.commons.codec.language.ColognePhonetic.CologneOutputBuffer#CologneOutputBuffer(int)",
+        "org.apache.commons.codec.language.ColognePhonetic.arrayContains(char[],char)",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#isEmpty()",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#CologneInputBuffer(char[])",
+        "org.apache.commons.codec.language.ColognePhonetic#preprocess(String)",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#toString()",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#removeNext()",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#getNextChar()",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#length()",
+        "org.apache.commons.codec.language.ColognePhonetic.<staticinit>()",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneOutputBuffer#put(char)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#encode(String,String)": [
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_512(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getSha3_512Digest()"],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#setLineSeparator(byte[]...)": [
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#asThis()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecInputStream#read(byte[],int,int)": [
+        "org.apache.commons.codec.binary.Base32#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base16#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#readResults(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base16#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base32#decode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.Base64#encode(byte[],int,int,Context)",
+        "org.apache.commons.codec.binary.BaseNCodec#hasData(Context)",
+        "org.apache.commons.codec.binary.Base64#decode(byte[],int,int,Context)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.parseRules(Scanner,String)$Rule$1.<init>()": ["org.apache.commons.codec.language.bm.Rule#Rule(String,String,String,PhonemeExpr)"],
+    "org.apache.commons.codec.net.URLCodec#encode(byte[])": [
+        "org.apache.commons.codec.net.URLCodec.<staticinit>()",
+        "org.apache.commons.codec.net.URLCodec.encodeUrl(BitSet,byte[])"
+    ],
+    "org.apache.commons.codec.binary.Base16#decode(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.Base16#decodeOctet(byte)",
+        "org.apache.commons.codec.binary.Base16.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)",
+        "org.apache.commons.codec.binary.Base16#validateTrailingCharacter()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha256(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(String)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base32InputStream#Base32InputStream(InputStream,boolean,int,byte[],CodecPolicy)": [
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.Base32InputStream.<init>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md5(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getMd5Digest()"],
+    "org.apache.commons.codec.digest.DigestUtils.getSha512Digest()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_224Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_224(InputStream)"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],Random)": [
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String)",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_512Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_512(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.md5Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.md5(InputStream)"
+    ],
+    "org.apache.commons.codec.binary.Base64.encodeBase64URLSafe(byte[])": ["org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean,boolean)"],
+    "org.apache.commons.codec.binary.BaseNCodecInputStream#isStrictDecoding()": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream,boolean)": ["org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream,boolean,boolean)"],
+    "org.apache.commons.codec.binary.Base64.encodeBase64URLSafeString(byte[])": [
+        "org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean,boolean)",
+        "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])"
+    ],
+    "org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream)": ["org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream,boolean)"],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#isStrictDecoding()": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.net.PercentCodec#doEncode(byte[],int,boolean)": [
+        "org.apache.commons.codec.net.Utils.hexDigit(int)",
+        "org.apache.commons.codec.net.PercentCodec#canEncode(byte)",
+        "org.apache.commons.codec.net.PercentCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.Soundex#Soundex()": [
+        "org.apache.commons.codec.language.Soundex.<init>()",
+        "org.apache.commons.codec.language.Soundex.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.RulesApplication#invoke()": [
+        "org.apache.commons.codec.language.bm.Rule#patternAndContextMatches(CharSequence,int)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#apply(PhonemeExpr,int)",
+        "org.apache.commons.codec.language.bm.Rule#getPattern()",
+        "org.apache.commons.codec.language.bm.Rule#getPhoneme()"
+    ],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#isEncodeEquals(String,String)": [
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeDoubleConsonants(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#leftToRightThenRightToLeftProcessing(String,String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#getFirst3Last3(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#getMinRating(int)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#cleanName(String)",
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeVowels(String)"
+    ],
+    "org.apache.commons.codec.language.bm.Lang#guessLanguage(String)": [
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#getAny()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#getAny()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#isSingleton()",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Lang#guessLanguages(String)",
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#isSingleton()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha384Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha384(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_224Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512_224(String)"
+    ],
+    "org.apache.commons.codec.digest.XXHash32#getValue()": [
+        "org.apache.commons.codec.digest.XXHash32.<staticinit>()",
+        "org.apache.commons.codec.digest.XXHash32.getInt(byte[],int)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#setDecodingPolicy(CodecPolicy)": [
+        "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#asThis()",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha256Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha256(InputStream)"
+    ],
+    "org.apache.commons.codec.binary.Base64.isBase64(byte)": [
+        "org.apache.commons.codec.binary.Base64.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#DigestUtils(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.DigestUtils#DigestUtils(MessageDigest)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86#end()": [
+        "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32x86#finalise(int,int,byte[],int)",
+        "org.apache.commons.codec.digest.MurmurHash3.IncrementalHash32#finalise(int,int,byte[],int)"
+    ],
+    "org.apache.commons.codec.language.AbstractCaverphone#isEncodeEqual(String,String)": ["org.apache.commons.codec.language.AbstractCaverphone#encode(Object)"],
+    "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte)": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte,CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_512Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_512(InputStream)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#encode(String,Charset)": [
+        "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(byte[])"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[],Random)": [
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)",
+        "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[],String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#write(int)": ["org.apache.commons.codec.binary.BaseNCodecOutputStream#write(byte[],int,int)"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash64(long)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix64(long)"
+    ],
+    "org.apache.commons.codec.language.Soundex#Soundex(String,boolean)": ["org.apache.commons.codec.language.Soundex.<init>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int,int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.getLittleEndianInt(byte[],int)",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix32(int)",
+        "org.apache.commons.codec.digest.MurmurHash3.mix32(int,int)",
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Branch#finish()": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.<staticinit>()"],
+    "org.apache.commons.codec.binary.BinaryCodec#decode(byte[])": ["org.apache.commons.codec.binary.BinaryCodec.fromAscii(byte[])"],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha2Crypt(byte[],String,String,int,String)": [
+        "org.apache.commons.codec.digest.B64.b64from24bit(byte,byte,byte,int,StringBuilder)",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.Sha2Crypt.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(byte[],String)": [
+        "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String,String)",
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.PercentCodec#decode(byte[])": [
+        "org.apache.commons.codec.net.PercentCodec.<staticinit>()",
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)",
+        "org.apache.commons.codec.net.Utils.digit16(byte)",
+        "org.apache.commons.codec.net.PercentCodec#expectedDecodingBytes(byte[])"
+    ],
+    "org.apache.commons.codec.net.URLCodec#decode(String,String)": [
+        "org.apache.commons.codec.binary.StringUtils.getBytesUsAscii(String)",
+        "org.apache.commons.codec.net.URLCodec#decode(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getSha3_256Digest()": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.newStringUtf16Be(byte[])": ["org.apache.commons.codec.binary.StringUtils.newString(byte[],Charset)"],
+    "org.apache.commons.codec.language.MatchRatingApproachEncoder#removeDoubleConsonants(String)": ["org.apache.commons.codec.language.MatchRatingApproachEncoder.<staticinit>()"],
+    "org.apache.commons.codec.binary.Hex#decode(ByteBuffer)": [
+        "org.apache.commons.codec.binary.Hex.decodeHex(char[])",
+        "org.apache.commons.codec.binary.Hex.toByteArray(ByteBuffer)",
+        "org.apache.commons.codec.binary.Hex#getCharset()"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec.decodeQuotedPrintable(byte[])": [
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)",
+        "org.apache.commons.codec.net.Utils.digit16(byte)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.UnixCrypt.body(int[],int,int)": [
+        "org.apache.commons.codec.digest.UnixCrypt.dEncrypt(int,int,int,int,int,int[])",
+        "org.apache.commons.codec.digest.UnixCrypt.permOp(int,int,int,int,int[])"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[])": [
+        "org.apache.commons.codec.digest.Md5Crypt.<staticinit>()",
+        "org.apache.commons.codec.digest.B64.getRandomSalt(int)",
+        "org.apache.commons.codec.digest.Md5Crypt.md5Crypt(byte[],String)"
+    ],
+    "org.apache.commons.codec.binary.Base64.toUrlSafeEncodeTable(boolean)": ["org.apache.commons.codec.binary.Base64.<staticinit>()"],
+    "org.apache.commons.codec.language.bm.Rule.getInstanceMap(NameType,RuleType,String)": [
+        "org.apache.commons.codec.language.bm.RuleType#getName()",
+        "org.apache.commons.codec.language.bm.Rule.<staticinit>()",
+        "org.apache.commons.codec.language.bm.NameType#getName()"
+    ],
+    "org.apache.commons.codec.digest.PureJavaCrc32C#PureJavaCrc32C()": [
+        "org.apache.commons.codec.digest.PureJavaCrc32C.<init>()",
+        "org.apache.commons.codec.digest.PureJavaCrc32C#reset()"
+    ],
+    "org.apache.commons.codec.binary.BinaryCodec.fromAscii(byte[])": [
+        "org.apache.commons.codec.binary.BinaryCodec.<staticinit>()",
+        "org.apache.commons.codec.binary.BinaryCodec.isEmpty(byte[])"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#setLineLength(int)": ["org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#asThis()"],
+    "org.apache.commons.codec.binary.StringUtils#StringUtils()": ["org.apache.commons.codec.binary.StringUtils.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.md2(byte[])": ["org.apache.commons.codec.digest.DigestUtils.getMd2Digest()"],
+    "org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream,boolean,boolean)": [
+        "org.apache.commons.codec.CodecPolicy.<staticinit>()",
+        "org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream,boolean,boolean,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)": ["org.apache.commons.codec.binary.BaseNCodecOutputStream.<init>()"],
+    "org.apache.commons.codec.binary.Hex.encodeHexString(ByteBuffer)": ["org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer)"],
+    "org.apache.commons.codec.digest.MurmurHash2.hash32(String)": [
+        "org.apache.commons.codec.digest.MurmurHash2.hash32(byte[],int)",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getSha256Digest()": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)"
+    ],
+    "org.apache.commons.codec.binary.Base64#encode(byte[],int,int,Context)": [
+        "org.apache.commons.codec.binary.Base64.<staticinit>()",
+        "org.apache.commons.codec.binary.BaseNCodec#ensureBufferSize(int,Context)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.getInstance(NameType,RuleType,String)": [
+        "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set<String>)",
+        "org.apache.commons.codec.language.bm.Rule.getInstance(NameType,RuleType,LanguageSet)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.getBytesIso8859_1(String)": ["org.apache.commons.codec.binary.StringUtils.getBytes(String,Charset)"],
+    "org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)": ["org.apache.commons.codec.digest.B64.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_224Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_224(String)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#HmacUtils()": ["org.apache.commons.codec.digest.HmacUtils#HmacUtils(Mac)"],
+    "org.apache.commons.codec.language.bm.Languages.getInstance(String)": [
+        "org.apache.commons.codec.Resources.getInputStream(String)",
+        "org.apache.commons.codec.language.bm.Languages#Languages(Set<String>)",
+        "org.apache.commons.codec.language.bm.ResourceConstants.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.URLCodec.encodeUrl(BitSet,byte[])": [
+        "org.apache.commons.codec.net.Utils.hexDigit(int)",
+        "org.apache.commons.codec.net.URLCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Blake3.EngineState#EngineState(int[],int)": [
+        "org.apache.commons.codec.digest.Blake3.EngineState.<init>()",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#ChunkState(int[],long,int)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.parentOutput(int[],int[],int[],int)": [
+        "org.apache.commons.codec.digest.Blake3.Output#Output(int[],int[],long,int,int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Hex.<staticinit>()": ["org.apache.commons.codec.CharEncoding.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_224(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.getSha512_224Digest()",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)"
+    ],
+    "org.apache.commons.codec.digest.UnixCrypt.crypt(byte[])": ["org.apache.commons.codec.digest.UnixCrypt.crypt(byte[],String)"],
+    "org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean,boolean)": ["org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean,boolean,int)"],
+    "org.apache.commons.codec.digest.UnixCrypt.crypt(String,String)": ["org.apache.commons.codec.digest.UnixCrypt.crypt(String,String)"],
+    "org.apache.commons.codec.cli.Digest#println(String,byte[])": ["org.apache.commons.codec.cli.Digest#println(String,byte[],String)"],
+    "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendPrimary(String)"
+    ],
+    "org.apache.commons.codec.digest.UnixCrypt.<staticinit>()": ["org.apache.commons.codec.digest.B64.<staticinit>()"],
+    "org.apache.commons.codec.binary.Hex.encodeHexString(ByteBuffer,boolean)": ["org.apache.commons.codec.binary.Hex.encodeHex(ByteBuffer,boolean)"],
+    "org.apache.commons.codec.digest.MurmurHash2.hash64(String,int,int)": ["org.apache.commons.codec.digest.MurmurHash2.hash64(String)"],
+    "org.apache.commons.codec.digest.Blake3.ChunkState.<init>()": ["org.apache.commons.codec.digest.Blake3.<staticinit>()"],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[])": ["org.apache.commons.codec.digest.Sha2Crypt.sha512Crypt(byte[],String)"],
+    "org.apache.commons.codec.binary.StringUtils.newStringIso8859_1(byte[])": ["org.apache.commons.codec.binary.StringUtils.newString(byte[],Charset)"],
+    "org.apache.commons.codec.binary.Hex.decodeHex(String)": ["org.apache.commons.codec.binary.Hex.decodeHex(char[])"],
+    "org.apache.commons.codec.binary.Base32#Base32(boolean,byte)": ["org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte)"],
+    "org.apache.commons.codec.language.bm.Lang.instance(NameType)": ["org.apache.commons.codec.language.bm.Lang.<staticinit>()"],
+    "org.apache.commons.codec.binary.Hex#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String,Throwable)",
+        "org.apache.commons.codec.binary.Hex.toByteArray(ByteBuffer)",
+        "org.apache.commons.codec.binary.Hex#getCharset()",
+        "org.apache.commons.codec.binary.Hex.encodeHex(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha256Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha256(byte[])"
+    ],
+    "org.apache.commons.codec.digest.Blake3.hash(byte[])": [
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3#update(byte[])",
+        "org.apache.commons.codec.digest.Blake3.initHash()",
+        "org.apache.commons.codec.digest.Blake3#doFinalize(int)"
+    ],
+    "org.apache.commons.codec.binary.BinaryCodec.fromAscii(char[])": ["org.apache.commons.codec.binary.BinaryCodec.<staticinit>()"],
+    "org.apache.commons.codec.digest.PureJavaCrc32C#update(int)": ["org.apache.commons.codec.digest.PureJavaCrc32C.<staticinit>()"],
+    "org.apache.commons.codec.language.Caverphone#caverphone(String)": ["org.apache.commons.codec.language.Caverphone2#encode(String)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_512Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_512(String)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult.<init>()": ["org.apache.commons.codec.language.DoubleMetaphone#getMaxCodeLen()"],
+    "org.apache.commons.codec.Charsets#Charsets()": ["org.apache.commons.codec.Charsets.<init>()"],
+    "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)": ["org.apache.commons.codec.binary.BaseNCodecInputStream.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha384(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha384(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.Output#chainingValue()": [
+        "org.apache.commons.codec.digest.Blake3.compress(int[],int[],int,long,int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacAlgorithms#HmacAlgorithms(String)": ["org.apache.commons.codec.digest.HmacAlgorithms.<init>()"],
+    "org.apache.commons.codec.net.Utils.hexDigit(int)": ["org.apache.commons.codec.net.Utils.<staticinit>()"],
+    "org.apache.commons.codec.Resources#Resources()": ["org.apache.commons.codec.Resources.<init>()"],
+    "org.apache.commons.codec.binary.StringUtils.newStringUtf16Le(byte[])": ["org.apache.commons.codec.binary.StringUtils.newString(byte[],Charset)"],
+    "org.apache.commons.codec.digest.DigestUtils.updateDigest(MessageDigest,FileChannel)": ["org.apache.commons.codec.digest.DigestUtils.<staticinit>()"],
+    "org.apache.commons.codec.net.BCodec#BCodec(String)": ["org.apache.commons.codec.net.BCodec#BCodec(String)"],
+    "org.apache.commons.codec.digest.DigestUtils.getMd2Digest()": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)"
+    ],
+    "org.apache.commons.codec.EncoderException#EncoderException(Throwable)": ["org.apache.commons.codec.EncoderException.<init>()"],
+    "org.apache.commons.codec.EncoderException#EncoderException(String,Throwable)": ["org.apache.commons.codec.EncoderException.<init>()"],
+    "org.apache.commons.codec.digest.DigestUtils.md5(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.digest.DigestUtils.getMd5Digest()"
+    ],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.bm.BeiderMorseEncoder#encode(String)"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#hmacHex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha1Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha1(InputStream)"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash64(byte[])": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash64(byte[],int,int,int)"
+    ],
+    "org.apache.commons.codec.binary.Hex.toAlphabet(boolean)": ["org.apache.commons.codec.binary.Hex.<staticinit>()"],
+    "org.apache.commons.codec.binary.BaseNCodec#isInAlphabet(String)": [
+        "org.apache.commons.codec.binary.BaseNCodec#isInAlphabet(byte[],boolean)",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.getSha3_384Digest()": [
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean,int)": [
+        "org.apache.commons.codec.language.bm.Lang.instance(NameType)",
+        "org.apache.commons.codec.language.bm.PhoneticEngine.<init>()",
+        "org.apache.commons.codec.language.bm.RuleType.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.BeiderMorseEncoder#setRuleType(RuleType)": [
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getMaxPhonemes()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#isConcat()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#getNameType()",
+        "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean,int)",
+        "org.apache.commons.codec.language.bm.RuleType.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.getHmacSha1(byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.MurmurHash3.hash128(String)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash128(byte[],int,int,int)",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.net.RFC1522Codec#encodeText(String,String)": ["org.apache.commons.codec.net.RFC1522Codec#encodeText(String,Charset)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha(byte[])": ["org.apache.commons.codec.digest.DigestUtils.sha1(byte[])"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_224(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.getSha3_224Digest()",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.newString(byte[],String)": ["org.apache.commons.codec.binary.StringUtils.newIllegalStateException(String,UnsupportedEncodingException)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#QuotedPrintableCodec(Charset,boolean)": ["org.apache.commons.codec.net.QuotedPrintableCodec.<init>()"],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#append(CharSequence)": ["org.apache.commons.codec.language.bm.Rule.Phoneme#append(CharSequence)"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash64(short)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix64(long)"
+    ],
+    "org.apache.commons.codec.digest.B64.getRandomSalt(int)": ["org.apache.commons.codec.digest.B64.getRandomSalt(int,Random)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha1(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.sha1(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.binary.StringUtils.getBytesUtf16(String)": ["org.apache.commons.codec.binary.StringUtils.getBytes(String,Charset)"],
+    "org.apache.commons.codec.digest.Blake3#reset()": ["org.apache.commons.codec.digest.Blake3.EngineState#reset()"],
+    "org.apache.commons.codec.digest.Blake3.parentChainingValue(int[],int[],int[],int)": [
+        "org.apache.commons.codec.digest.Blake3.parentOutput(int[],int[],int[],int)",
+        "org.apache.commons.codec.digest.Blake3.Output#chainingValue()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha1(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(String)",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#getDefaultBufferSize()": ["org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"],
+    "org.apache.commons.codec.binary.Base64#Base64(int,byte[])": ["org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean)"],
+    "org.apache.commons.codec.binary.Hex#decode(byte[])": [
+        "org.apache.commons.codec.binary.Hex.decodeHex(char[])",
+        "org.apache.commons.codec.binary.Hex#getCharset()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#HmacUtils(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(String,byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#getNextChar()": ["org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#getNextPos()"],
+    "org.apache.commons.codec.digest.XXHash32#XXHash32(int)": [
+        "org.apache.commons.codec.digest.XXHash32#initializeState()",
+        "org.apache.commons.codec.digest.XXHash32.<init>()"
+    ],
+    "org.apache.commons.codec.language.bm.Rule#patternAndContextMatches(CharSequence,int)": ["org.apache.commons.codec.language.bm.Rule.pattern(String)$RPattern$1#isMatch(CharSequence)"],
+    "org.apache.commons.codec.digest.HmacUtils#hmacHex(ByteBuffer)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.HmacUtils#hmac(ByteBuffer)"
+    ],
+    "org.apache.commons.codec.language.RefinedSoundex#encode(String)": ["org.apache.commons.codec.language.RefinedSoundex#soundex(String)"],
+    "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(Phoneme,Phoneme,LanguageSet)": ["org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha256(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(Phoneme,Phoneme)": ["org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String,boolean)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#getAlternate()",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleW(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleD(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#getMaxCodeLen()",
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleL(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#getPrimary()",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleAEIOUY(DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isSilentStart(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleJ(String,DoubleMetaphoneResult,int,boolean)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#isComplete()",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleG(String,DoubleMetaphoneResult,int,boolean)",
+        "org.apache.commons.codec.language.DoubleMetaphone#conditionM0(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleH(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleP(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleX(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleC(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isSlavoGermanic(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#DoubleMetaphoneResult(int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleZ(String,DoubleMetaphoneResult,int,boolean)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleS(String,DoubleMetaphoneResult,int,boolean)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleR(String,DoubleMetaphoneResult,int,boolean)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone#cleanInput(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleT(String,DoubleMetaphoneResult,int)"
+    ],
+    "org.apache.commons.codec.language.SoundexUtils.difference(StringEncoder,String,String)": [
+        "org.apache.commons.codec.language.MatchRatingApproachEncoder#encode(String)",
+        "org.apache.commons.codec.language.Caverphone1#encode(String)",
+        "org.apache.commons.codec.language.SoundexUtils.differenceEncoded(String,String)",
+        "org.apache.commons.codec.language.RefinedSoundex#encode(String)",
+        "org.apache.commons.codec.language.bm.BeiderMorseEncoder#encode(String)",
+        "org.apache.commons.codec.language.Nysiis#encode(String)",
+        "org.apache.commons.codec.language.DaitchMokotoffSoundex#encode(String)",
+        "org.apache.commons.codec.language.Caverphone#encode(String)",
+        "org.apache.commons.codec.language.Metaphone#encode(String)",
+        "org.apache.commons.codec.net.URLCodec#encode(String)",
+        "org.apache.commons.codec.net.QCodec#encode(String)",
+        "org.apache.commons.codec.language.ColognePhonetic#encode(String)",
+        "org.apache.commons.codec.net.BCodec#encode(String)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#encode(String)",
+        "org.apache.commons.codec.language.DoubleMetaphone#encode(String)",
+        "org.apache.commons.codec.language.Caverphone2#encode(String)",
+        "org.apache.commons.codec.language.Soundex#encode(String)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodecOutputStream#close()": [
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#flush()",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#eof()"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#decode(byte[])": ["org.apache.commons.codec.net.QuotedPrintableCodec.decodeQuotedPrintable(byte[])"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_384(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.getSha3_384Digest()",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)"
+    ],
+    "org.apache.commons.codec.DecoderException#DecoderException(String)": ["org.apache.commons.codec.DecoderException.<init>()"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32x86(byte[],int,int,int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.getLittleEndianInt(byte[],int)",
+        "org.apache.commons.codec.digest.MurmurHash3.mix32(int,int)",
+        "org.apache.commons.codec.digest.MurmurHash3.fmix32(int)",
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils.hmacSha1(byte[],InputStream)": [
+        "org.apache.commons.codec.digest.HmacUtils#hmac(InputStream)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,byte[])"
+    ],
+    "org.apache.commons.codec.language.Caverphone.<init>()": ["org.apache.commons.codec.language.Caverphone2.<init>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#encode(String)": ["org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String)"],
+    "org.apache.commons.codec.binary.Base16#validateTrailingCharacter()": ["org.apache.commons.codec.binary.BaseNCodec#isStrictDecoding()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleW(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#isVowel(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#appendAlternate(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(String,String)"
+    ],
+    "org.apache.commons.codec.binary.Base64OutputStream#Base64OutputStream(OutputStream,boolean,int,byte[],CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base64OutputStream.<init>()",
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean,CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.net.QCodec#encode(String,String)": [
+        "org.apache.commons.codec.net.RFC1522Codec#encodeText(String,String)",
+        "org.apache.commons.codec.EncoderException#EncoderException(String,Throwable)"
+    ],
+    "org.apache.commons.codec.digest.UnixCrypt.desSetKey(byte[])": [
+        "org.apache.commons.codec.digest.UnixCrypt.fourBytesToInt(byte[],int)",
+        "org.apache.commons.codec.digest.UnixCrypt.<staticinit>()",
+        "org.apache.commons.codec.digest.UnixCrypt.hPermOp(int,int,int)",
+        "org.apache.commons.codec.digest.UnixCrypt.permOp(int,int,int,int,int[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_224Hex(byte[])": [
+        "org.apache.commons.codec.digest.DigestUtils.sha512_224(byte[])",
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])"
+    ],
+    "org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean)": ["org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean,boolean)"],
+    "org.apache.commons.codec.digest.Blake3#doFinalize(int)": ["org.apache.commons.codec.digest.Blake3#doFinalize(byte[])"],
+    "org.apache.commons.codec.digest.HmacUtils.hmacMd5Hex(String,String)": [
+        "org.apache.commons.codec.digest.HmacUtils#HmacUtils(HmacAlgorithms,String)",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()",
+        "org.apache.commons.codec.digest.HmacUtils#hmacHex(String)"
+    ],
+    "org.apache.commons.codec.binary.Base32OutputStream#Base32OutputStream(OutputStream)": ["org.apache.commons.codec.binary.Base32OutputStream#Base32OutputStream(OutputStream,boolean)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512(InputStream)"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#CologneBuffer(char[])": ["org.apache.commons.codec.language.ColognePhonetic.CologneBuffer.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.updateHmac(Mac,String)": ["org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"],
+    "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int)": [
+        "org.apache.commons.codec.digest.MurmurHash3.<staticinit>()",
+        "org.apache.commons.codec.digest.MurmurHash3.hash32(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(BitSet,byte[],boolean)": [
+        "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(int,ByteArrayOutputStream)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.<staticinit>()",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.isWhitespace(int)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.encodeByte(int,boolean,ByteArrayOutputStream)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.getUnsignedOctet(int,byte[])"
+    ],
+    "org.apache.commons.codec.digest.XXHash32#reset()": ["org.apache.commons.codec.digest.XXHash32#initializeState()"],
+    "org.apache.commons.codec.digest.XXHash32.<init>()": ["org.apache.commons.codec.digest.XXHash32.<staticinit>()"],
+    "org.apache.commons.codec.digest.Crypt.crypt(String,String)": ["org.apache.commons.codec.digest.Crypt.crypt(byte[],String)"],
+    "org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream,boolean,boolean)": [
+        "org.apache.commons.codec.binary.Base16InputStream#Base16InputStream(InputStream,boolean,boolean,CodecPolicy)",
+        "org.apache.commons.codec.CodecPolicy.<staticinit>()"
+    ],
+    "org.apache.commons.codec.binary.Base64.encodeBase64String(byte[])": [
+        "org.apache.commons.codec.binary.Base64.encodeBase64(byte[],boolean)",
+        "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])"
+    ],
+    "org.apache.commons.codec.digest.Crypt.crypt(byte[])": ["org.apache.commons.codec.digest.Crypt.crypt(byte[],String)"],
+    "org.apache.commons.codec.digest.DigestUtils.getSha3_224Digest()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#decode(Object)": [
+        "org.apache.commons.codec.net.QuotedPrintableCodec#decode(byte[])",
+        "org.apache.commons.codec.net.QuotedPrintableCodec#decode(String)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String)"
+    ],
+    "org.apache.commons.codec.digest.PureJavaCrc32#update(int)": ["org.apache.commons.codec.digest.PureJavaCrc32.<staticinit>()"],
+    "org.apache.commons.codec.digest.UnixCrypt#UnixCrypt()": ["org.apache.commons.codec.digest.UnixCrypt.<init>()"],
+    "org.apache.commons.codec.cli.Digest#run(String,MessageDigest)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.cli.Digest#println(String,byte[],String)",
+        "org.apache.commons.codec.cli.Digest#run(String,MessageDigest,File[])",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,File)",
+        "org.apache.commons.codec.cli.Digest#println(String,byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,byte[])"
+    ],
+    "org.apache.commons.codec.digest.Blake3.initKeyDerivationFunction(byte[])": [
+        "org.apache.commons.codec.digest.Blake3.unpackInts(byte[],int)",
+        "org.apache.commons.codec.digest.Blake3.<staticinit>()",
+        "org.apache.commons.codec.digest.Blake3.EngineState#inputData(byte[],int,int)",
+        "org.apache.commons.codec.digest.Blake3.EngineState#EngineState(int[],int)",
+        "org.apache.commons.codec.digest.Blake3#Blake3(int[],int)",
+        "org.apache.commons.codec.digest.Blake3.EngineState#outputHash(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleC(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleCH(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone#charAt(String,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#handleCC(String,DoubleMetaphoneResult,int)",
+        "org.apache.commons.codec.language.DoubleMetaphone#conditionC0(String,int)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.EngineState#outputHash(byte[],int,int)": [
+        "org.apache.commons.codec.digest.Blake3.parentOutput(int[],int[],int[],int)",
+        "org.apache.commons.codec.digest.Blake3.Output#chainingValue()",
+        "org.apache.commons.codec.digest.Blake3.ChunkState#output()",
+        "org.apache.commons.codec.digest.Blake3.Output#rootOutputBytes(byte[],int,int)"
+    ],
+    "org.apache.commons.codec.binary.Base64InputStream#Base64InputStream(InputStream,boolean)": [
+        "org.apache.commons.codec.binary.BaseNCodecInputStream#BaseNCodecInputStream(InputStream,BaseNCodec,boolean)",
+        "org.apache.commons.codec.binary.Base64InputStream.<init>()",
+        "org.apache.commons.codec.binary.Base64#Base64(boolean)"
+    ],
+    "org.apache.commons.codec.binary.Hex#decode(Object)": [
+        "org.apache.commons.codec.binary.Hex.decodeHex(char[])",
+        "org.apache.commons.codec.binary.Hex#decode(ByteBuffer)",
+        "org.apache.commons.codec.binary.Hex#decode(Object)",
+        "org.apache.commons.codec.DecoderException#DecoderException(String,Throwable)",
+        "org.apache.commons.codec.binary.Hex#decode(byte[])"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_256(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.getSha3_256Digest()",
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)"
+    ],
+    "org.apache.commons.codec.net.BCodec#doEncoding(byte[])": ["org.apache.commons.codec.binary.Base64.encodeBase64(byte[])"],
+    "org.apache.commons.codec.language.Caverphone#encode(String)": ["org.apache.commons.codec.language.Caverphone#caverphone(String)"],
+    "org.apache.commons.codec.binary.Base32#Base32(int)": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[])",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.language.bm.PhoneticEngine.PhonemeBuilder#apply(PhonemeExpr,int)": [
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#isEmpty()",
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#restrictTo(LanguageSet)",
+        "org.apache.commons.codec.language.bm.Rule.PhonemeList#size()",
+        "org.apache.commons.codec.language.bm.Rule.PhonemeExpr#size()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#isEmpty()",
+        "org.apache.commons.codec.language.bm.Rule.PhonemeList#getPhonemes()",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#getPhonemes()",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#size()",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(Phoneme,Phoneme,LanguageSet)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#getLanguages()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#restrictTo(LanguageSet)"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#setPadding(byte)": ["org.apache.commons.codec.binary.BaseNCodec.AbstractBuilder#asThis()"],
+    "org.apache.commons.codec.binary.Hex.encodeHex(byte[],int,int,boolean)": [
+        "org.apache.commons.codec.binary.Hex.encodeHex(byte[],int,int,char[],char[],int)",
+        "org.apache.commons.codec.binary.Hex.toAlphabet(boolean)"
+    ],
+    "org.apache.commons.codec.digest.Blake3.EngineState#reset()": ["org.apache.commons.codec.digest.Blake3.ChunkState#ChunkState(int[],long,int)"],
+    "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean)": [
+        "org.apache.commons.codec.binary.Base32#Base32(int,byte[],boolean,byte)",
+        "org.apache.commons.codec.binary.BaseNCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#digestAsHex(ByteBuffer)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils#digest(ByteBuffer)"
+    ],
+    "org.apache.commons.codec.net.QCodec#QCodec(String)": ["org.apache.commons.codec.net.QCodec#QCodec(Charset)"],
+    "org.apache.commons.codec.binary.Base64.builder()": ["org.apache.commons.codec.binary.Base64.Builder#Builder()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha3_224Hex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha3_224(byte[])"
+    ],
+    "org.apache.commons.codec.language.Nysiis#encode(Object)": [
+        "org.apache.commons.codec.EncoderException#EncoderException(String)",
+        "org.apache.commons.codec.language.Nysiis#nysiis(String)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec#encode(byte[])": [
+        "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(BitSet,byte[],boolean)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(String)": ["org.apache.commons.codec.digest.Md5Crypt.apr1Crypt(String)"],
+    "org.apache.commons.codec.language.bm.Rule.Phoneme#join(Phoneme)": [
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#restrictTo(LanguageSet)",
+        "org.apache.commons.codec.language.bm.Rule.Phoneme#Phoneme(CharSequence,LanguageSet)",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#restrictTo(LanguageSet)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils#DigestUtils()": ["org.apache.commons.codec.digest.DigestUtils.<init>()"],
+    "org.apache.commons.codec.net.BCodec#doDecoding(byte[])": [
+        "org.apache.commons.codec.binary.BaseNCodec.getChunkSeparator()",
+        "org.apache.commons.codec.binary.BaseNCodec#decode(byte[])",
+        "org.apache.commons.codec.binary.Base64#Base64(int,byte[],boolean,CodecPolicy)"
+    ],
+    "org.apache.commons.codec.language.bm.Languages.SomeLanguages#SomeLanguages(Set<String>)": [
+        "org.apache.commons.codec.language.bm.Languages.LanguageSet.<init>()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages.<init>()"
+    ],
+    "org.apache.commons.codec.binary.Hex#Hex(Charset)": ["org.apache.commons.codec.binary.Hex.<init>()"],
+    "org.apache.commons.codec.digest.MessageDigestAlgorithms.values()": ["org.apache.commons.codec.digest.MessageDigestAlgorithms.<staticinit>()"],
+    "org.apache.commons.codec.net.PercentCodec#expectedDecodingBytes(byte[])": ["org.apache.commons.codec.net.PercentCodec.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512(String)"
+    ],
+    "org.apache.commons.codec.digest.PureJavaCrc32#update(byte[],int,int)": ["org.apache.commons.codec.digest.PureJavaCrc32.<staticinit>()"],
+    "org.apache.commons.codec.language.bm.Rule.getInstanceMap(NameType,RuleType,LanguageSet)": [
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#getAny()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#getAny()",
+        "org.apache.commons.codec.language.bm.Languages.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Languages.SomeLanguages#isSingleton()",
+        "org.apache.commons.codec.language.bm.Rule.getInstanceMap(NameType,RuleType,String)",
+        "org.apache.commons.codec.language.bm.Languages$LanguageSet$1#isSingleton()"
+    ],
+    "org.apache.commons.codec.language.bm.Languages#Languages(Set<String>)": ["org.apache.commons.codec.language.bm.Languages.<init>()"],
+    "org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule#Rule(String,String,String,String)": ["org.apache.commons.codec.language.DaitchMokotoffSoundex.Rule.<init>()"],
+    "org.apache.commons.codec.binary.Hex.encodeHex(byte[],char[])": ["org.apache.commons.codec.binary.Hex.encodeHex(byte[],int,int,char[],char[],int)"],
+    "org.apache.commons.codec.digest.XXHash32#initializeState()": ["org.apache.commons.codec.digest.XXHash32.<staticinit>()"],
+    "org.apache.commons.codec.digest.DigestUtils#digestAsHex(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils#digest(byte[])"
+    ],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#isEmpty()": ["org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#length()"],
+    "org.apache.commons.codec.binary.Base16#Base16()": ["org.apache.commons.codec.binary.Base16#Base16(boolean)"],
+    "org.apache.commons.codec.language.bm.Rule.parseRules(Scanner,String)": [
+        "org.apache.commons.codec.language.bm.Rule.parseRules(Scanner,String)$Rule$1.<init>()",
+        "org.apache.commons.codec.language.bm.Rule.stripQuotes(String)",
+        "org.apache.commons.codec.language.bm.Rule.parseRules(Scanner,String)",
+        "org.apache.commons.codec.language.bm.Rule.parsePhonemeExpr(String)",
+        "org.apache.commons.codec.language.bm.Rule.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Rule.createScanner(String)",
+        "org.apache.commons.codec.language.bm.ResourceConstants.<staticinit>()"
+    ],
+    "org.apache.commons.codec.digest.HmacUtils#hmac(String)": ["org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_256Hex(InputStream)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha512_256(InputStream)"
+    ],
+    "org.apache.commons.codec.language.bm.Rule.<staticinit>()": [
+        "org.apache.commons.codec.language.bm.Rule.createScanner(NameType,RuleType,String)",
+        "org.apache.commons.codec.language.bm.Languages#getLanguages()",
+        "org.apache.commons.codec.language.bm.Rule.parseRules(Scanner,String)",
+        "org.apache.commons.codec.language.bm.Rule.createResourceName(NameType,RuleType,String)",
+        "org.apache.commons.codec.language.bm.RuleType.<staticinit>()",
+        "org.apache.commons.codec.language.bm.Languages.getInstance(NameType)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha1Hex(String)": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.digest.DigestUtils.sha1(String)"
+    ],
+    "org.apache.commons.codec.language.Nysiis.transcodeRemaining(char,char,char,char)": [
+        "org.apache.commons.codec.language.Nysiis.<staticinit>()",
+        "org.apache.commons.codec.language.Nysiis.isVowel(char)"
+    ],
+    "org.apache.commons.codec.digest.Sha2Crypt.sha256Crypt(byte[])": ["org.apache.commons.codec.digest.Sha2Crypt.sha256Crypt(byte[],String)"],
+    "org.apache.commons.codec.language.Nysiis#encode(String)": ["org.apache.commons.codec.language.Nysiis#nysiis(String)"],
+    "org.apache.commons.codec.net.RFC1522Codec#encodeText(String,Charset)": [
+        "org.apache.commons.codec.net.QCodec#getEncoding()",
+        "org.apache.commons.codec.net.BCodec#doEncoding(byte[])",
+        "org.apache.commons.codec.net.RFC1522Codec.<staticinit>()",
+        "org.apache.commons.codec.net.QCodec#doEncoding(byte[])",
+        "org.apache.commons.codec.net.BCodec#getEncoding()",
+        "org.apache.commons.codec.binary.StringUtils.newStringUsAscii(byte[])"
+    ],
+    "org.apache.commons.codec.binary.Hex#encode(byte[])": [
+        "org.apache.commons.codec.binary.Hex.encodeHexString(byte[])",
+        "org.apache.commons.codec.binary.Hex#getCharset()"
+    ],
+    "org.apache.commons.codec.binary.Hex.toDigit(char,int)": ["org.apache.commons.codec.DecoderException#DecoderException(String)"],
+    "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer#CologneInputBuffer(char[])": [
+        "org.apache.commons.codec.language.ColognePhonetic.CologneBuffer#CologneBuffer(char[])",
+        "org.apache.commons.codec.language.ColognePhonetic.CologneInputBuffer.<init>()"
+    ],
+    "org.apache.commons.codec.digest.Blake3#Blake3(int[],int)": [
+        "org.apache.commons.codec.digest.Blake3.<init>()",
+        "org.apache.commons.codec.digest.Blake3.EngineState#EngineState(int[],int)"
+    ],
+    "org.apache.commons.codec.binary.Base16OutputStream#Base16OutputStream(OutputStream,boolean,boolean,CodecPolicy)": [
+        "org.apache.commons.codec.binary.Base16OutputStream.<init>()",
+        "org.apache.commons.codec.binary.Base16#Base16(boolean,CodecPolicy)",
+        "org.apache.commons.codec.binary.BaseNCodecOutputStream#BaseNCodecOutputStream(OutputStream,BaseNCodec,boolean)"
+    ],
+    "org.apache.commons.codec.cli.Digest#run()": [
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String)",
+        "org.apache.commons.codec.digest.DigestUtils.getDigest(String,MessageDigest)",
+        "org.apache.commons.codec.cli.Digest#run(String[])",
+        "org.apache.commons.codec.digest.MessageDigestAlgorithms.values()",
+        "org.apache.commons.codec.cli.Digest#run(String,MessageDigest)"
+    ],
+    "org.apache.commons.codec.digest.B64.b64from24bit(byte,byte,byte,int,StringBuilder)": ["org.apache.commons.codec.digest.B64.<staticinit>()"],
+    "org.apache.commons.codec.language.DoubleMetaphone#isDoubleMetaphoneEqual(String,String,boolean)": [
+        "org.apache.commons.codec.binary.StringUtils.equals(CharSequence,CharSequence)",
+        "org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String,boolean)"
+    ],
+    "org.apache.commons.codec.digest.DigestUtils.sha512_256(InputStream)": [
+        "org.apache.commons.codec.digest.DigestUtils.digest(MessageDigest,InputStream)",
+        "org.apache.commons.codec.digest.DigestUtils.getSha512_256Digest()"
+    ],
+    "org.apache.commons.codec.binary.BaseNCodec#containsAlphabetOrPad(byte[])": [
+        "org.apache.commons.codec.binary.Base64#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.Base32#isInAlphabet(byte)",
+        "org.apache.commons.codec.binary.Base16#isInAlphabet(byte)"
+    ],
+    "org.apache.commons.codec.net.QuotedPrintableCodec.encodeQuotedPrintable(int,ByteArrayOutputStream)": [
+        "org.apache.commons.codec.net.Utils.hexDigit(int)",
+        "org.apache.commons.codec.net.QuotedPrintableCodec.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.PercentCodec#expectedEncodingBytes(byte[])": ["org.apache.commons.codec.net.PercentCodec#canEncode(byte)"],
+    "org.apache.commons.codec.digest.DigestUtils.md2(String)": [
+        "org.apache.commons.codec.digest.DigestUtils.md2(byte[])",
+        "org.apache.commons.codec.binary.StringUtils.getBytesUtf8(String)"
+    ],
+    "org.apache.commons.codec.StringEncoderComparator#StringEncoderComparator(StringEncoder)": ["org.apache.commons.codec.StringEncoderComparator.<init>()"],
+    "org.apache.commons.codec.digest.HmacUtils.getHmacSha256(byte[])": [
+        "org.apache.commons.codec.digest.HmacUtils.getInitializedMac(HmacAlgorithms,byte[])",
+        "org.apache.commons.codec.digest.HmacAlgorithms.<staticinit>()"
+    ],
+    "org.apache.commons.codec.net.QCodec#encode(String,Charset)": ["org.apache.commons.codec.net.RFC1522Codec#encodeText(String,Charset)"],
+    "org.apache.commons.codec.language.DoubleMetaphone#handleT(String,DoubleMetaphoneResult,int)": [
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char,char)",
+        "org.apache.commons.codec.language.DoubleMetaphone.contains(String,int,int,String[]...)",
+        "org.apache.commons.codec.language.DoubleMetaphone.DoubleMetaphoneResult#append(char)"
+    ]
+}
