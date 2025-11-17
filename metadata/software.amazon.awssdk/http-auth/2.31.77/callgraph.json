@@ -1,0 +1,868 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.http.auth.signer.BearerHttpSigner.create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BearerHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.internal.signer.DefaultBearerHttpSigner.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultBearerHttpSigner",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SignRequest<? extends TokenIdentity>"],
+            "templateArguments": [],
+            "function": "sign",
+            "name": "software.amazon.awssdk.http.auth.internal.signer.DefaultBearerHttpSigner#sign(SignRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultBearerHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignedRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.SignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BaseSignRequest<?, ? extends TokenIdentity>"],
+            "templateArguments": [],
+            "function": "doSign",
+            "name": "software.amazon.awssdk.http.auth.internal.signer.DefaultBearerHttpSigner#doSign(BaseSignRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultBearerHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "payload",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignRequest#payload()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.SignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.create()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["IdentityProviders"],
+            "templateArguments": [],
+            "function": "identityProvider",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultBearerAuthScheme#identityProvider(IdentityProviders)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultBearerAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<TokenIdentity>"],
+            "templateArguments": [],
+            "function": "identityProvider",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProviders#identityProvider(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.identity.spi.IdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultBearerAuthScheme.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultBearerAuthScheme",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultBearerAuthScheme.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultBearerAuthScheme",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["AsyncSignRequest<? extends TokenIdentity>"],
+            "templateArguments": [],
+            "function": "signAsync",
+            "name": "software.amazon.awssdk.http.auth.internal.signer.DefaultBearerHttpSigner#signAsync(AsyncSignRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultBearerHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "payload",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignRequest#payload()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignedRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "completedFuture",
+            "name": "java.util.concurrent.CompletableFuture.completedFuture(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.CompletableFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignRequest<? extends AnonymousIdentity>"],
+            "templateArguments": [],
+            "function": "sign",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthSigner()$HttpSigner$1#sign(SignRequest)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme.noAuthSigner()$HttpSigner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignRequest#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.SignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenIdentity"],
+            "templateArguments": [],
+            "function": "buildAuthorizationHeader",
+            "name": "software.amazon.awssdk.http.auth.internal.signer.DefaultBearerHttpSigner#buildAuthorizationHeader(TokenIdentity)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultBearerHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "identity",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest#identity()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "noAuthIdentityProvider",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthIdentityProvider()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "anonymousIdentity",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.anonymousIdentity()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "noAuthSigner",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthSigner()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "schemeId",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultBearerAuthScheme#schemeId()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultBearerAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.http.auth.scheme.BearerAuthScheme.<staticinit>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "BearerAuthScheme",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "signer",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultBearerAuthScheme#signer()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultBearerAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncSignRequest<? extends AnonymousIdentity>"],
+            "templateArguments": [],
+            "function": "signAsync",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthSigner()$HttpSigner$1#signAsync(AsyncSignRequest)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme.noAuthSigner()$HttpSigner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignRequest#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultBearerAuthScheme.create()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultBearerAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "token",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity#token()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.identity.spi.TokenIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.anonymousIdentity()$AnonymousIdentity$1.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme.anonymousIdentity()$AnonymousIdentity$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "schemeId",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme#schemeId()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.http.auth.scheme.NoAuthAuthScheme.<staticinit>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "NoAuthAuthScheme",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["ResolveIdentityRequest"],
+            "templateArguments": [],
+            "function": "resolveIdentity",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthIdentityProvider()$IdentityProvider$1#resolveIdentity(ResolveIdentityRequest)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme.noAuthIdentityProvider()$IdentityProvider$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AnonymousIdentity"],
+            "templateArguments": [],
+            "function": "completedFuture",
+            "name": "java.util.concurrent.CompletableFuture.completedFuture(AnonymousIdentity)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.CompletableFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.http.auth.scheme.NoAuthAuthScheme.create()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "NoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthIdentityProvider()$IdentityProvider$1.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme.noAuthIdentityProvider()$IdentityProvider$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IdentityProviders"],
+            "templateArguments": [],
+            "function": "identityProvider",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme#identityProvider(IdentityProviders)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme.noAuthSigner()$HttpSigner$1.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme.noAuthSigner()$HttpSigner$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.http.auth.scheme.BearerAuthScheme.create()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "BearerAuthScheme",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "signer",
+            "name": "software.amazon.awssdk.http.auth.internal.scheme.DefaultNoAuthAuthScheme#signer()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultNoAuthAuthScheme",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "BearerHttpSigner.java",
+                "line": 35,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/signer"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 37,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 38,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 39,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerAuthScheme.java",
+                "line": 47,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerAuthScheme.java",
+                "line": 31,
+                "column": 60,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 10,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerAuthScheme.java",
+                "line": 30,
+                "column": 60,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 48,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 46,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 47,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 12,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 87,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 16,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 89,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 16,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 88,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 60,
+                "column": 27,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 4,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 60,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 4,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 4,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 42,
+                "column": 90,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 7,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 41,
+                "column": 60,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 7,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 44,
+                "column": 65,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 7,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 43,
+                "column": 73,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 7,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerAuthScheme.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerAuthScheme.java",
+                "line": 50,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 27,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 98,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 99,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 28,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 97,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 28,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 96,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 28,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerAuthScheme.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 30,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBearerHttpSigner.java",
+                "line": 68,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/signer"
+            },
+            "caller": 18,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 107,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 23,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 53,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 76,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 35,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 78,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "NoAuthAuthScheme.java",
+                "line": 37,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/scheme"
+            },
+            "caller": 37,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 21,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 58,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 39,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 24,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BearerAuthScheme.java",
+                "line": 42,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/scheme"
+            },
+            "caller": 41,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "DefaultNoAuthAuthScheme.java",
+                "line": 63,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/internal/scheme"
+            },
+            "caller": 42,
+            "callee": 7
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.http.auth.signer",
+            "isRoot": false,
+            "module": -1,
+            "name": "signer",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.http.auth.internal.signer",
+            "isRoot": false,
+            "module": -1,
+            "name": "signer",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.http.auth.internal.scheme",
+            "isRoot": false,
+            "module": -1,
+            "name": "scheme",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.http.auth.scheme",
+            "isRoot": false,
+            "module": -1,
+            "name": "scheme",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
