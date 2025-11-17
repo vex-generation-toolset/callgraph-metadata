@@ -1,0 +1,1401 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.arns.Arn.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DefaultBuilder",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#DefaultBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "resourceType",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#resourceType(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setResourceType",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#setResourceType(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accountId",
+            "name": "software.amazon.awssdk.arns.Arn#accountId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "software.amazon.awssdk.utils.StringUtils.isEmpty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.StringUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "java.util.Optional.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultBuilder"],
+            "templateArguments": [],
+            "function": "Arn",
+            "name": "software.amazon.awssdk.arns.Arn#Arn(DefaultBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.arns.Arn#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ArnResource",
+                "ArnResource"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(ArnResource,ArnResource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "qualifier",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#qualifier(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setQualifier",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#setQualifier(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "service",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#service(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setService",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#setService(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.arns.ArnResource.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DefaultBuilder",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#DefaultBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.arns.Arn#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "region",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#region(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "partition",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#partition(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "accountId",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#accountId(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "resource",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#resource(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setRegion",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#setRegion(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fromString",
+            "name": "software.amazon.awssdk.arns.ArnResource.fromString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "resource",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#resource(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "char",
+                "char"
+            ],
+            "templateArguments": [],
+            "function": "findFirstOccurrence",
+            "name": "software.amazon.awssdk.utils.StringUtils.findFirstOccurrence(String,char,char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.StringUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resourceType",
+            "name": "software.amazon.awssdk.arns.ArnResource#resourceType()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "region",
+            "name": "software.amazon.awssdk.arns.Arn#region()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.arns.ArnResource#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "tryFromString",
+            "name": "software.amazon.awssdk.arns.Arn.tryFromString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "parseArn",
+            "name": "software.amazon.awssdk.arns.Arn.parseArn(String,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "qualifier",
+            "name": "software.amazon.awssdk.arns.ArnResource#qualifier()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setResource",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#setResource(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultBuilder"],
+            "templateArguments": [],
+            "function": "ArnResource",
+            "name": "software.amazon.awssdk.arns.ArnResource#ArnResource(DefaultBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotBlank",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotBlank(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.arns.ArnResource.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.arns.Arn.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setAccountId",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#setAccountId(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setPartition",
+            "name": "software.amazon.awssdk.arns.Arn.DefaultBuilder#setPartition(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fromString",
+            "name": "software.amazon.awssdk.arns.Arn.fromString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Supplier<IllegalArgumentException>"],
+            "templateArguments": [],
+            "function": "orElseThrow",
+            "name": "java.util.Optional#orElseThrow(Supplier)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.arns.ArnResource#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Arn"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(Arn)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setResource",
+            "name": "software.amazon.awssdk.arns.ArnResource.DefaultBuilder#setResource(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ArnResource.DefaultBuilder",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 138,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 208,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 117,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 117,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 117,
+                "column": 68,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 4,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 417,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 264,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 258,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 273,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 276,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 270,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 279,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 267,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 228,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 381,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 75,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 362,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 1,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 294,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 294,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 21,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 294,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 21,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 294,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 294,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 21,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 294,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 21,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 391,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 22,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 109,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 97,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 106,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 112,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 102,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 94,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 108,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 102,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 97,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 97,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 54,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 110,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 33,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 110,
+                "column": 65,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 33,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 110,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 33,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 154,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 34,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 154,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 34,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 154,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 34,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 154,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 34,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 155,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 68,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 37,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 411,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 25,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 46,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 234,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 29,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 89,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 9,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 85,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 9,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 83,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 9,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 84,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 9,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 88,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 9,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 199,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 19,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 401,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 24,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 371,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 23,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 168,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 168,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 46,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 168,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 46,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 141,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 49,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 129,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 49,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 135,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 49,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 138,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 49,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 207,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 196,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 189,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 216,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 198,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 214,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 187,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 181,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 173,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 223,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 205,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 225,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 179,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 236,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "Arn.java",
+                "line": 228,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 36,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ArnResource.java",
+                "line": 218,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/arns"
+            },
+            "caller": 28,
+            "callee": 51
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "software.amazon.awssdk.arns",
+        "isRoot": false,
+        "module": -1,
+        "name": "arns",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
