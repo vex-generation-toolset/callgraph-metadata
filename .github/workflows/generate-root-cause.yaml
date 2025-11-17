@@ -86,7 +86,7 @@ jobs:
           OUTPUT_DIR="metadata/vulnerabilities/${CVE_PARTS[1]}/${CVE_PARTS[2]}"
           mkdir -p "$OUTPUT_DIR"
           # Run the root cause analysis
-          python root-cause-service/main.py --input input.json --output-dir "$OUTPUT_DIR/root-cause.json"
+          python root-cause-service/main.py --input input.json --output "$OUTPUT_DIR/root-cause.json"
 
       - name: Create Pull Request
         shell: bash
