@@ -77,7 +77,7 @@ jobs:
           pip install -r root-cause-service/requirements.txt
           # Create input parameters file
           jq --null-input \
-            --arg purl "$PURL"
+            --arg purl "$PURL" \
             --arg repo "$REPOSITORY" \
             --arg cve "$CVE" \
             '{purl: $purl, repo: $repo, cve: $cve}' > input.json
