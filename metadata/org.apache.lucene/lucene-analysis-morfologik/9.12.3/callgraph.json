@@ -1,0 +1,2696 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clone",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#clone()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MorphosyntacticTagsAttributeImpl",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#MorphosyntacticTagsAttributeImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AttributeImpl"],
+            "templateArguments": [],
+            "function": "copyTo",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#copyTo(AttributeImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharSequence"],
+            "templateArguments": [],
+            "function": "lookupSurfaceForm",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#lookupSurfaceForm(CharSequence)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharSequence"],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "morfologik.stemming.IStemmer#lookup(CharSequence)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.IStemmer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "Dictionary"
+            ],
+            "templateArguments": [],
+            "function": "MorfologikFilter",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#MorfologikFilter(TokenStream,Dictionary)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "TokenFilter",
+            "name": "org.apache.lucene.analysis.TokenFilter#TokenFilter(TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Dictionary"],
+            "templateArguments": [],
+            "function": "DictionaryLookup",
+            "name": "morfologik.stemming.DictionaryLookup#DictionaryLookup(Dictionary)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.DictionaryLookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilterFactory#inform(ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "PolishStemmer",
+            "name": "morfologik.stemming.polish.PolishStemmer#PolishStemmer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.polish.PolishStemmer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.stemming.polish.PolishStemmer.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.polish.PolishStemmer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.lucene.util.ResourceLoader#openResource(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.ResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDictionary",
+            "name": "morfologik.stemming.polish.PolishStemmer#getDictionary()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.polish.PolishStemmer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getExpectedMetadataFileName",
+            "name": "morfologik.stemming.DictionaryMetadata.getExpectedMetadataFileName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.DictionaryMetadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.lucene.util.ResourceLoader#openResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.ResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "InputStream"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "morfologik.stemming.Dictionary.read(InputStream,InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.Dictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CharArraySet",
+                "CharArraySet"
+            ],
+            "templateArguments": [],
+            "function": "UkrainianMorfologikAnalyzer",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer#UkrainianMorfologikAnalyzer(CharArraySet,CharArraySet)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "org.apache.lucene.analysis.CharArraySet.unmodifiableSet(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.CharArraySet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharArraySet"],
+            "templateArguments": [],
+            "function": "StopwordAnalyzerBase",
+            "name": "org.apache.lucene.analysis.StopwordAnalyzerBase#StopwordAnalyzerBase(CharArraySet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.StopwordAnalyzerBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultResources",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer.getDefaultResources()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharArraySet"],
+            "templateArguments": [],
+            "function": "copy",
+            "name": "org.apache.lucene.analysis.CharArraySet.copy(CharArraySet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.CharArraySet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#clear()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharSequence"],
+            "templateArguments": [],
+            "function": "toLowercase",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#toLowercase(CharSequence)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "popNextLemma",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#popNextLemma()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.TokenStream#incrementToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setPositionIncrement",
+            "name": "org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute#setPositionIncrement(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isKeyword",
+            "name": "org.apache.lucene.analysis.tokenattributes.KeywordAttribute#isKeyword()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.KeywordAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringBuilder"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(StringBuilder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringBuilder"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(StringBuilder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<StringBuilder>"],
+            "templateArguments": [],
+            "function": "setTags",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#setTags(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Dictionary",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "requireNonNull",
+            "name": "java.util.Objects.requireNonNull(Dictionary,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createComponents",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikAnalyzer#createComponents(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tokenizer",
+                "MorfologikFilter"
+            ],
+            "templateArguments": [],
+            "function": "TokenStreamComponents",
+            "name": "TokenStreamComponents#TokenStreamComponents(Tokenizer,MorfologikFilter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TokenStreamComponents",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StandardTokenizer",
+            "name": "org.apache.lucene.analysis.standard.StandardTokenizer#StandardTokenizer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.standard.StandardTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.standard.StandardTokenizer.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.standard.StandardTokenizer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "MorfologikFilterFactory",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilterFactory#MorfologikFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Map#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TokenFilterFactory",
+            "name": "org.apache.lucene.analysis.TokenFilterFactory#TokenFilterFactory(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MorfologikFilterFactory",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilterFactory#MorfologikFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder#add(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NormalizeCharMap.Builder",
+            "name": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder#NormalizeCharMap.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.charfilter.NormalizeCharMap.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CharArraySet",
+                "Dictionary"
+            ],
+            "templateArguments": [],
+            "function": "DefaultResources",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer.DefaultResources#DefaultResources(CharArraySet,Dictionary)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer.DefaultResources",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer.DefaultResources.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer.DefaultResources",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Dictionary"],
+            "templateArguments": [],
+            "function": "MorfologikAnalyzer",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikAnalyzer#MorfologikAnalyzer(Dictionary)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikAnalyzer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikAnalyzer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.util.CharsRefBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.CharsRefBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CharsRefBuilder",
+            "name": "org.apache.lucene.util.CharsRefBuilder#CharsRefBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.CharsRefBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "MorfologikFilter",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#MorfologikFilter(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.List#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MorfologikAnalyzer",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikAnalyzer#MorfologikAnalyzer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLayer",
+            "name": "Module#getLayer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Module",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResourceAsStream",
+            "name": "Module#getResourceAsStream(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Module",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResource",
+            "name": "ClassLoader#getResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ClassLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "UncheckedIOException",
+            "name": "java.io.UncheckedIOException#UncheckedIOException(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.UncheckedIOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isNamed",
+            "name": "Module#isNamed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Module",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getModule",
+            "name": "java.lang.Class#getModule()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResourceAsStream",
+            "name": "java.lang.Class#getResourceAsStream(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "morfologik.stemming.Dictionary.read(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.Dictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "getSnowballWordSet",
+            "name": "org.apache.lucene.analysis.WordlistLoader.getSnowballWordSet(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.WordlistLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URL",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "requireResourceNonNull",
+            "name": "org.apache.lucene.util.IOUtils.requireResourceNonNull(URL,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassLoader",
+            "name": "java.lang.Class#getClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "equal",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#equal(Object,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTags",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#getTags()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "UkrainianMorfologikAnalyzer",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer#UkrainianMorfologikAnalyzer()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharArraySet"],
+            "templateArguments": [],
+            "function": "UkrainianMorfologikAnalyzer",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer#UkrainianMorfologikAnalyzer(CharArraySet)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.lang.Object#equals(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultStopwords",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer.getDefaultStopwords()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharArraySet"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "org.apache.lucene.analysis.CharArraySet.unmodifiableSet(CharArraySet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.CharArraySet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Reader"
+            ],
+            "templateArguments": [],
+            "function": "initReader",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer#initReader(String,Reader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NormalizeCharMap",
+                "Reader"
+            ],
+            "templateArguments": [],
+            "function": "MappingCharFilter",
+            "name": "org.apache.lucene.analysis.charfilter.MappingCharFilter#MappingCharFilter(NormalizeCharMap,Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.charfilter.MappingCharFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.morfologik.MorfologikFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorfologikFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.ArrayList#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.TokenFilter#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setLength",
+            "name": "java.lang.StringBuilder#setLength(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.ArrayList#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setEmpty",
+            "name": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute#setEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStem",
+            "name": "morfologik.stemming.WordData#getStem()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.WordData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.CharSequence#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.CharSequence",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringBuilder"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.ArrayList#add(StringBuilder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.ArrayList#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "split",
+            "name": "java.util.regex.Pattern#split(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "subList",
+            "name": "java.util.ArrayList#subList(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTag",
+            "name": "morfologik.stemming.WordData#getTag()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "morfologik.stemming.WordData",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AttributeReflector"],
+            "templateArguments": [],
+            "function": "reflectWith",
+            "name": "org.apache.lucene.analysis.morfologik.MorphosyntacticTagsAttributeImpl#reflectWith(AttributeReflector)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MorphosyntacticTagsAttributeImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<MorphosyntacticTagsAttribute>",
+                "String",
+                "List<StringBuilder>"
+            ],
+            "templateArguments": [],
+            "function": "reflect",
+            "name": "org.apache.lucene.util.AttributeReflector#reflect(Class,String,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeReflector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.CharSequence#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.CharSequence",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "chars",
+            "name": "org.apache.lucene.util.CharsRefBuilder#chars()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.CharsRefBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "grow",
+            "name": "org.apache.lucene.util.CharsRefBuilder#grow(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.CharsRefBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setLength",
+            "name": "org.apache.lucene.util.CharsRefBuilder#setLength(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.CharsRefBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.lucene.util.CharsRefBuilder#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.CharsRefBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createComponents",
+            "name": "org.apache.lucene.analysis.uk.UkrainianMorfologikAnalyzer#createComponents(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "UkrainianMorfologikAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tokenizer"],
+            "templateArguments": [],
+            "function": "LowerCaseFilter",
+            "name": "org.apache.lucene.analysis.LowerCaseFilter#LowerCaseFilter(Tokenizer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.LowerCaseFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "CharArraySet"
+            ],
+            "templateArguments": [],
+            "function": "SetKeywordMarkerFilter",
+            "name": "org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter#SetKeywordMarkerFilter(TokenStream,CharArraySet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.miscellaneous.SetKeywordMarkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "stopwords"
+            ],
+            "templateArguments": [],
+            "function": "StopFilter",
+            "name": "org.apache.lucene.analysis.StopFilter#StopFilter(TokenStream,stopwords)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.StopFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "org.apache.lucene.analysis.CharArraySet#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.CharArraySet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tokenizer",
+                "TokenStream"
+            ],
+            "templateArguments": [],
+            "function": "TokenStreamComponents",
+            "name": "TokenStreamComponents#TokenStreamComponents(Tokenizer,TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TokenStreamComponents",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 90,
+                "column": 47,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 116,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 114,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 3,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 79,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 82,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 6,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 81,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 6,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 71,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 6,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 102,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 102,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 106,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 102,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 106,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 104,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 107,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 11,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 154,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 153,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 145,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 19,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 155,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 19,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 154,
+                "column": 58,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 19,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 133,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 129,
+                "column": 63,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 122,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 131,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 129,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 129,
+                "column": 45,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 127,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 124,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 128,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 125,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 82,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 2,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 2,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 85,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 2,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 80,
+                "column": 32,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 80,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 2,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 116,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 114,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 63,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 63,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 38,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 61,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 38,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 61,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 38,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 88,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 89,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 42,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 77,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 42,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilterFactory.java",
+                "line": 93,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 48,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 63,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 58,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 59,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 53,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 52,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 60,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 50,
+                "column": 40,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 50,
+                "column": 40,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 49,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 120,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 86,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 32,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 1,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 62,
+                "column": 53,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 10,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 62,
+                "column": 53,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 10,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 55,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 10,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 55,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 10,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 68,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 65,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 68,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 65,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 68,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 65,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 68,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 65,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 67,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 48,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 68,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 48,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 68,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 48,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 68,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikAnalyzer.java",
+                "line": 48,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 68,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 96,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 84,
+                "column": 38,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 94,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 103,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 108,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 76,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 84,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 83,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 74,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 101,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 106,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 86,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 78,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 91,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 102,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 103,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 95,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 23,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 56,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 56,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 81,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 56,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 81,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 133,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 133,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 84,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 62,
+                "column": 41,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 82,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 128,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 128,
+                "column": 41,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 87,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 142,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 85,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 160,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 158,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 89,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 160,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 91,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 159,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 91,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 161,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 100,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 101,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 91,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 94,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 97,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 88,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 99,
+                "column": 32,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 90,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 94,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 97,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 97,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 105,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 103,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 105,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 103,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 92,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 28,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "MorphosyntacticTagsAttributeImpl.java",
+                "line": 97,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 143,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 27,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 147,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 27,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 145,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 27,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 144,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 27,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "MorfologikFilter.java",
+                "line": 152,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/morfologik"
+            },
+            "caller": 27,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 175,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 179,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 174,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 174,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 176,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 178,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 182,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "UkrainianMorfologikAnalyzer.java",
+                "line": 183,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/uk"
+            },
+            "caller": 115,
+            "callee": 120
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.lucene.analysis.morfologik",
+            "isRoot": false,
+            "module": -1,
+            "name": "morfologik",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.lucene.analysis.uk",
+            "isRoot": false,
+            "module": -1,
+            "name": "uk",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
