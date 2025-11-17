@@ -14,11 +14,11 @@ jq -r '.components[].purl' "$SBOM" | while read -r purl; do
     tmp=${tmp#*/}
     artifactId=${tmp%%@*}
     version=${tmp#*@}
-    callgraph_file="metadata/$groupId/$artifactId/$version/callgraph.json"
+    callgraph_file="callgraphs/$groupId/$artifactId/$version/callgraph.json"
     if [ -f "$callgraph_file" ]; then
         continue
     fi
-    location_file="metadata/$groupId/$artifactId/location.json"
+    location_file="callgraphs/$groupId/$artifactId/location.json"
     if [ -f "$location_file" ]; then
         gh workflow run generate-call-graph.yaml -f artifact="$groupId:$artifactId:$version"
     else

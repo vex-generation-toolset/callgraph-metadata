@@ -99,7 +99,7 @@ def process_bom(path: str):
         tag_template = location.tag.replace(artifact.version, "%s")
         print(f"Tag template: {tag_template}", file=sys.stderr)
 
-        location_meta_dir = f"metadata/{artifact.group_id}/{artifact.artifact_id}"
+        location_meta_dir = f"callgraphs/{artifact.group_id}/{artifact.artifact_id}"
         try:
             Path(location_meta_dir).mkdir(parents=True, exist_ok=True)
         except Exception:

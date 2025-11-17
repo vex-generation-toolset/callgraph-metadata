@@ -36,7 +36,7 @@ jobs:
           VERSION="${GAV_PARTS[2]}"
           echo "Version extracted: $VERSION"
           # Find location metadata file
-          METADATA_FILE="metadata/metadata/${GAV_PARTS[0]}/${GAV_PARTS[1]}/location.json"
+          METADATA_FILE="metadata/callgraphs/${GAV_PARTS[0]}/${GAV_PARTS[1]}/location.json"
           if [ ! -f "$METADATA_FILE" ]; then
             echo "Metadata file not found: $METADATA_FILE"
             exit 1
@@ -81,7 +81,7 @@ jobs:
           fi
           # Directory for call graph output
           mkdir -p result
-          dest_dir="metadata/metadata/${ARTIFACT//:/\/}"
+          dest_dir="metadata/callgraphs/${ARTIFACT//:/\/}"
           mkdir -p "$dest_dir"
           
           # Pull and run the call graph generator
