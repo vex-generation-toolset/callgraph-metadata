@@ -1,0 +1,706 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnectionFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ALPNClientConnectionFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnectionFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ALPNClientConnectionFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<ALPNClientConnectionFactory>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EndPoint",
+                "Map<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "newConnection",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnectionFactory#newConnection(EndPoint,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ALPNClientConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EndPoint",
+                "Executor",
+                "ClientConnectionFactory",
+                "SSLEngine",
+                "Map<String, Object>",
+                "List<String>"
+            ],
+            "templateArguments": [],
+            "function": "ALPNClientConnection",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnection#ALPNClientConnection(EndPoint,Executor,ClientConnectionFactory,SSLEngine,Map,List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ALPNClientConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Client",
+                "SSLEngine",
+                "EndPoint"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,Client,SSLEngine,EndPoint)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SSLEngine"],
+            "templateArguments": [],
+            "function": "appliesTo",
+            "name": "org.eclipse.jetty.io.ssl.ALPNProcessor.Client#appliesTo(SSLEngine)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.ssl.ALPNProcessor.Client",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SSLEngine",
+                "ALPNClientConnection"
+            ],
+            "templateArguments": [],
+            "function": "configure",
+            "name": "org.eclipse.jetty.io.ssl.ALPNProcessor.Client#configure(SSLEngine,ALPNClientConnection)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.ssl.ALPNProcessor.Client",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "org.slf4j.Logger#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EndPoint",
+                "Executor",
+                "SSLEngine",
+                "ClientConnectionFactory",
+                "Map<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "NegotiatingClientConnection",
+            "name": "org.eclipse.jetty.io.NegotiatingClientConnection#NegotiatingClientConnection(EndPoint,Executor,SSLEngine,ClientConnectionFactory,Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.NegotiatingClientConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnection.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ALPNClientConnection",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Executor",
+                "ClientConnectionFactory",
+                "List<String>"
+            ],
+            "templateArguments": [],
+            "function": "ALPNClientConnectionFactory",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnectionFactory#ALPNClientConnectionFactory(Executor,ClientConnectionFactory,List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ALPNClientConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<Client>"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOG#debug(String,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOG",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "provider#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "provider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "LOG#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOG",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["x"],
+            "templateArguments": [],
+            "function": "addSuppressed",
+            "name": "failure#addSuppressed(x)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "failure",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<Client>"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "java.util.ServiceLoader.load(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ServiceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "init",
+            "name": "processor#init()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "processor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServiceLoader<Client>"],
+            "templateArguments": [],
+            "function": "serviceProviderStream",
+            "name": "org.eclipse.jetty.util.TypeUtil.serviceProviderStream(ServiceLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.util.TypeUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<String>"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOG#debug(String,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOG",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "processor",
+                "x"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOG#debug(String,processor,x)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOG",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "processors#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "processors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["processor"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "processors#add(processor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "processors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ClientConnectionFactory"],
+            "templateArguments": [],
+            "function": "NegotiatingClientConnectionFactory",
+            "name": "org.eclipse.jetty.io.NegotiatingClientConnectionFactory#NegotiatingClientConnectionFactory(ClientConnectionFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.NegotiatingClientConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "x"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOG#debug(String,x)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOG",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 37,
+                "column": 45,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 37,
+                "column": 45,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 35,
+                "column": 39,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 106,
+                "column": 15,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 100,
+                "column": 51,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 93,
+                "column": 39,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 99,
+                "column": 21,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 90,
+                "column": 5,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 102,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 98,
+                "column": 21,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 5,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnection.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 7,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnection.java",
+                "line": 29,
+                "column": 5,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 7,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 83,
+                "column": 13,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 57,
+                "column": 29,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 74,
+                "column": 21,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 63,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 52,
+                "column": 40,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 44,
+                "column": 13,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 69,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 61,
+                "column": 21,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 82,
+                "column": 13,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 76,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 45,
+                "column": 19,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 49,
+                "column": 41,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 75,
+                "column": 21,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 80,
+                "column": 13,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 86,
+                "column": 13,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 70,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ALPNClientConnectionFactory.java",
+                "line": 62,
+                "column": 21,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/client"
+            },
+            "caller": 15,
+            "callee": 30
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.eclipse.jetty.alpn.client",
+        "isRoot": false,
+        "module": -1,
+        "name": "client",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
