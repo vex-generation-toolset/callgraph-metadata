@@ -1,0 +1,2349 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BeiderMorseFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilterFactory#BeiderMorseFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "input#incrementToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "input",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "java.util.regex.Matcher#reset(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "find",
+            "name": "java.util.regex.Matcher#find()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "start",
+            "name": "java.util.regex.Matcher#start(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setEmpty",
+            "name": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute#setEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setPositionIncrement",
+            "name": "org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute#setPositionIncrement(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "end",
+            "name": "java.util.regex.Matcher#end(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "soundex",
+            "name": "org.apache.commons.codec.language.DaitchMokotoffSoundex#soundex(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DaitchMokotoffSoundex",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LinkedList",
+            "name": "java.util.LinkedList#LinkedList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.LinkedList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DoubleMetaphone",
+            "name": "org.apache.commons.codec.language.DoubleMetaphone#DoubleMetaphone()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DoubleMetaphone",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.commons.codec.language.DoubleMetaphone.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DoubleMetaphone",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "PhoneticEngine"
+            ],
+            "templateArguments": [],
+            "function": "BeiderMorseFilter",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilter#BeiderMorseFilter(TokenStream,PhoneticEngine)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "PhoneticEngine",
+                "LanguageSet"
+            ],
+            "templateArguments": [],
+            "function": "BeiderMorseFilter",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilter#BeiderMorseFilter(TokenStream,PhoneticEngine,LanguageSet)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "Encoder",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "PhoneticFilter",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilter#PhoneticFilter(TokenStream,Encoder,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "TokenFilter",
+            "name": "org.apache.lucene.analysis.TokenFilter#TokenFilter(TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "int",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "DoubleMetaphoneFilter",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilter#DoubleMetaphoneFilter(TokenStream,int,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DaitchMokotoffSoundexFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilterFactory#DaitchMokotoffSoundexFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "input#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "input",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.TokenFilter#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "PhoneticFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory#PhoneticFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TokenFilterFactory",
+            "name": "org.apache.lucene.analysis.TokenFilterFactory#TokenFilterFactory(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Map#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory#inform(ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEncoder",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory#getEncoder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<int>"
+            ],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "clazz#getMethod(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "clazz",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "e"
+            ],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String,e)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DoubleMetaphoneFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilterFactory#DoubleMetaphoneFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<DoubleMetaphone>",
+                "String",
+                "Class<Metaphone>",
+                "String",
+                "Class<Soundex>",
+                "String",
+                "Class<RefinedSoundex>",
+                "String",
+                "Class<Caverphone2>",
+                "String",
+                "Class<ColognePhonetic>",
+                "String",
+                "Class<Nysiis>"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Map.of(String,Class,String,Class,String,Class,String,Class,String,Class,String,Class,String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "DoubleMetaphoneFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilterFactory#DoubleMetaphoneFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "t"
+            ],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String,t)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "Constructor#newInstance()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Constructor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCause",
+            "name": "e#getCause()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "e",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getConstructor",
+            "name": "java.lang.Class#getConstructor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "encoder",
+                "maxCodeLength"
+            ],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "setMaxCodeLenMethod#invoke(encoder,maxCodeLength)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "setMaxCodeLenMethod",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "DaitchMokotoffSoundexFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilterFactory#DaitchMokotoffSoundexFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.commons.codec.language.DaitchMokotoffSoundex.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DaitchMokotoffSoundex",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DaitchMokotoffSoundex",
+            "name": "org.apache.commons.codec.language.DaitchMokotoffSoundex#DaitchMokotoffSoundex()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DaitchMokotoffSoundex",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "PhoneticFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory#PhoneticFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPositionIncrement",
+            "name": "org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute#getPositionIncrement()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.LinkedList#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "removeFirst",
+            "name": "java.util.LinkedList#removeFirst()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "addLast",
+            "name": "java.util.LinkedList#addLast(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "doubleMetaphone",
+            "name": "org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DoubleMetaphone",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "doubleMetaphone",
+            "name": "org.apache.commons.codec.language.DoubleMetaphone#doubleMetaphone(String,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DoubleMetaphone",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.phonetic.DoubleMetaphoneFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DoubleMetaphoneFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.LinkedList#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "DaitchMokotoffSoundexFilter",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilter#DaitchMokotoffSoundexFilter(TokenStream,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "resolveEncoder",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilterFactory#resolveEncoder(String,ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<Encoder>"
+            ],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "org.apache.lucene.util.ResourceLoader#newInstance(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.ResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "RuntimeException"
+            ],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String,RuntimeException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setMaxCodeLen",
+            "name": "org.apache.commons.codec.language.DoubleMetaphone#setMaxCodeLen(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.DoubleMetaphone",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "BeiderMorseFilterFactory",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilterFactory#BeiderMorseFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "valueOf",
+            "name": "org.apache.commons.codec.language.bm.NameType.valueOf(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.bm.NameType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "valueOf",
+            "name": "org.apache.commons.codec.language.bm.RuleType.valueOf(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.bm.RuleType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NameType",
+                "RuleType",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "PhoneticEngine",
+            "name": "org.apache.commons.codec.language.bm.PhoneticEngine#PhoneticEngine(NameType,RuleType,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.bm.PhoneticEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.Set#contains(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.Set#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "from",
+            "name": "org.apache.commons.codec.language.bm.Languages.LanguageSet.from(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.bm.Languages.LanguageSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.phonetic.PhoneticFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PhoneticFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "encode",
+            "name": "org.apache.commons.codec.Encoder#encode(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.Encoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.phonetic.BeiderMorseFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BeiderMorseFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "LanguageSet"
+            ],
+            "templateArguments": [],
+            "function": "encode",
+            "name": "org.apache.commons.codec.language.bm.PhoneticEngine#encode(Object,LanguageSet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.bm.PhoneticEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "encode",
+            "name": "org.apache.commons.codec.language.bm.PhoneticEngine#encode(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.codec.language.bm.PhoneticEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.phonetic.DaitchMokotoffSoundexFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DaitchMokotoffSoundexFilterFactory",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 75,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 73,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 84,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 65,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 85,
+                "column": 46,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 68,
+                "column": 42,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 85,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 69,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 75,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 85,
+                "column": 64,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 68,
+                "column": 60,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 79,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 79,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 46,
+                "column": 42,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 30,
+                "column": 53,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 30,
+                "column": 53,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 31,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 31,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 67,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 49,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 22,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 51,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 71,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 41,
+                "column": 42,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 29,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 67,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 103,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 96,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 97,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 34,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 103,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 103,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 105,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 36,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 115,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 36,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 114,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 36,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 140,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 133,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 124,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 42,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 135,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 126,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 42,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 64,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 88,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 38,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 59,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 50,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 60,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 50,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 50,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilterFactory.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 50,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 174,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 43,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 166,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 43,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 173,
+                "column": 70,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 43,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 166,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 43,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 43,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 60,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 57,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 63,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 57,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 62,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 57,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 57,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 82,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 59,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 60,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 44,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 60,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 38,
+                "column": 49,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 38,
+                "column": 49,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 60,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 119,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 63,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 64,
+                "column": 52,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 101,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 95,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 80,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 66,
+                "column": 18,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 55,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 91,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 78,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 53,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 67,
+                "column": 37,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 106,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 68,
+                "column": 39,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 59,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 61,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 64,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 180,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 71,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 180,
+                "column": 38,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 71,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 70,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 21,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 113,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 72,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 114,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 74,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilter.java",
+                "line": 59,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 74,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 149,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 151,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 75,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 155,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 75,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilterFactory.java",
+                "line": 143,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 75,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 43,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 28,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 28,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 28,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DoubleMetaphoneFilter.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 28,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 71,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 58,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 70,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 59,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 62,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 67,
+                "column": 49,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 67,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilterFactory.java",
+                "line": 69,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 80,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 68,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 96,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 97,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 73,
+                "column": 18,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 65,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 92,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 93,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "PhoneticFilter.java",
+                "line": 70,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 87,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 114,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 89,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 113,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 89,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 90,
+                "column": 42,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 103,
+                "column": 62,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 87,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 99,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 90,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 95,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 101,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 99,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 102,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 103,
+                "column": 44,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 91,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 98,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 90,
+                "column": 60,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BeiderMorseFilter.java",
+                "line": 98,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 90,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DaitchMokotoffSoundexFilterFactory.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/phonetic"
+            },
+            "caller": 93,
+            "callee": 74
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.apache.lucene.analysis.phonetic",
+        "isRoot": false,
+        "module": -1,
+        "name": "phonetic",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
