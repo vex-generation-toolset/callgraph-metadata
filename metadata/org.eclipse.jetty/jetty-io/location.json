@@ -1,0 +1,5 @@
+{
+  "repository": "jetty/jetty.project",
+  "tag": "refs/tags/jetty-%s",
+  "relative_path": "jetty-io"
+}
