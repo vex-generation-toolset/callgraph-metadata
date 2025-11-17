@@ -1,0 +1,4042 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "BlobInfo",
+                "IndexInput",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeBlobMultipart",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#writeBlobMultipart(BlobInfo,IndexInput,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "ByteBuffer"
+            ],
+            "templateArguments": [],
+            "function": "writeFooter",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#writeFooter(long,ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "footerLength",
+            "name": "org.apache.lucene.codecs.CodecUtil.footerLength()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.codecs.CodecUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "wrap",
+            "name": "java.nio.ByteBuffer.wrap(byte[],int,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "com.google.cloud.storage.StorageException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "BlobInfo",
+                "byte[]",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.google.cloud.storage.Storage#create(BlobInfo,byte[],Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "readBytes",
+            "name": "org.apache.lucene.store.IndexInput#readBytes(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.store.IndexInput",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCode",
+            "name": "com.google.cloud.storage.StorageException#getCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChecksumIndexInput"],
+            "templateArguments": [],
+            "function": "checkFooter",
+            "name": "org.apache.lucene.codecs.CodecUtil.checkFooter(ChecksumIndexInput)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.codecs.CodecUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "null",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "FileAlreadyExistsException",
+            "name": "java.nio.file.FileAlreadyExistsException#FileAlreadyExistsException(Object,null,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.FileAlreadyExistsException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBlobId",
+            "name": "com.google.cloud.storage.BlobInfo#getBlobId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.BlobInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "getFooter",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#getFooter(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "allocate",
+            "name": "java.nio.ByteBuffer.allocate(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "createOutput",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createOutput(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "BlobInfo",
+                "BlobWriteOption[]"
+            ],
+            "templateArguments": [],
+            "function": "writer",
+            "name": "com.google.cloud.storage.Storage#writer(BlobInfo,BlobWriteOption[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ANON__OR__TYPE$WritableByteChannel"],
+            "templateArguments": [],
+            "function": "newOutputStream",
+            "name": "java.nio.channels.Channels.newOutputStream(ANON__OR__TYPE$WritableByteChannel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.Channels",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.net.URI#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultBlobWriteOptions",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#getDefaultBlobWriteOptions()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createOutput(URI)$WritableByteChannel$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#createOutput(URI)$WritableByteChannel$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "com.google.cloud.storage.BlobInfo.newBuilder(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.BlobInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "exists",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#exists(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "exists",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#exists(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "parseBucket",
+            "name": "org.apache.solr.gcs.GCSConfigParser#parseBucket(NamedList,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getOrDefault",
+            "name": "java.util.Map#getOrDefault(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.solr.common.util.NamedList#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.gcs.GCSConfigParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createOutput(URI)$WritableByteChannel$1#write(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#createOutput(URI)$WritableByteChannel$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "com.google.cloud.WriteChannel#write(ByteBuffer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.WriteChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1#length()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSize",
+            "name": "com.google.cloud.storage.Blob#getSize()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Blob",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "readInternal",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1#readInternal(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "com.google.cloud.ReadChannel#read(ByteBuffer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ReadChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "initStorage",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#initStorage()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FileInputStream"],
+            "templateArguments": [],
+            "function": "fromStream",
+            "name": "com.google.auth.oauth2.GoogleCredentials.fromStream(FileInputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.auth.oauth2.GoogleCredentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.gcs.GCSBackupRepository.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "potentiallyMissingCredentialMsg",
+            "name": "org.apache.solr.gcs.GCSConfigParser.potentiallyMissingCredentialMsg()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "FileInputStream",
+            "name": "java.io.FileInputStream#FileInputStream(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.FileInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.cloud.storage.StorageOptions.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GoogleCredentials"],
+            "templateArguments": [],
+            "function": "setCredentials",
+            "name": "com.google.cloud.storage.StorageOptions.Builder#setCredentials(GoogleCredentials)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "listAll",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#listAll(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["suffixName"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "result#add(suffixName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "pathStr#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "pathStr",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "suffixName#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "suffixName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "endsWith",
+            "name": "suffixName#endsWith(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "suffixName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "substring",
+            "name": "suffixName#substring(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "suffixName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "blob#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "blob",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "list",
+            "name": "com.google.cloud.storage.Storage#list(String,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "result#toArray(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "result#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "suffixName#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "suffixName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "appendTrailingSeparatorIfNecessary",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#appendTrailingSeparatorIfNecessary(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "getPathType",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#getPathType(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.cloud.storage.Storage#get(String,String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeBytes",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#writeFooter(long,ByteBuffer)$IndexOutput$1#writeBytes(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#writeFooter(long,ByteBuffer)$IndexOutput$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.nio.ByteBuffer#put(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isOpen",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createOutput(URI)$WritableByteChannel$1#isOpen()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#createOutput(URI)$WritableByteChannel$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isOpen",
+            "name": "com.google.cloud.WriteChannel#isOpen()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.WriteChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createDirectoryURI",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createDirectoryURI(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "requireNonNull",
+            "name": "java.util.Objects.requireNonNull(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createURI",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createURI(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String",
+                "Directory",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "copyIndexFileTo",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#copyIndexFileTo(URI,String,Directory,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "limit",
+            "name": "java.nio.ByteBuffer#limit()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BlobId"],
+            "templateArguments": [],
+            "function": "reader",
+            "name": "com.google.cloud.storage.Storage#reader(BlobId)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.cloud.storage.BlobId.of(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.BlobId",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.nio.ByteBuffer#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "writeBytes",
+            "name": "org.apache.lucene.store.IndexOutput#writeBytes(byte[],Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.store.IndexOutput",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flip",
+            "name": "java.nio.ByteBuffer#flip()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "array",
+            "name": "java.nio.ByteBuffer#array()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "allocate",
+            "name": "java.nio.ByteBuffer.allocate(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "createOutput",
+            "name": "org.apache.lucene.store.Directory#createOutput(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.store.Directory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getIntOrDefault",
+            "name": "org.apache.solr.gcs.GCSConfigParser#getIntOrDefault(NamedList,String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "parseCredentialPath",
+            "name": "org.apache.solr.gcs.GCSConfigParser#parseCredentialPath(NamedList,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createOutput(URI)$WritableByteChannel$1#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#createOutput(URI)$WritableByteChannel$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.cloud.WriteChannel#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.WriteChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "writeByte",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#writeFooter(long,ByteBuffer)$IndexOutput$1#writeByte(byte)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#writeFooter(long,ByteBuffer)$IndexOutput$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.nio.ByteBuffer#put(byte)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.gcs.GCSConfigParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.core.backup.repository.AbstractBackupRepository#init(NamedList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.backup.repository.AbstractBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getReadBufferSize",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig#getReadBufferSize()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStorageOptionsBuilder",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig#getStorageOptionsBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCredentialPath",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig#getCredentialPath()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getWriteBufferSize",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig#getWriteBufferSize()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "parseConfiguration",
+            "name": "org.apache.solr.gcs.GCSConfigParser#parseConfiguration(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBucketName",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig#getBucketName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String",
+                "IOContext"
+            ],
+            "templateArguments": [],
+            "function": "openInput",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String",
+                "IOContext",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "openInput",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String[]..."
+            ],
+            "templateArguments": [],
+            "function": "resolveDirectory",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#resolveDirectory(URI,String[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPath",
+            "name": "java.net.URI#getPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "java.net.URI.create(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String[]..."
+            ],
+            "templateArguments": [],
+            "function": "resolve",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#resolve(URI,String[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "BlobInfo",
+                "IndexInput"
+            ],
+            "templateArguments": [],
+            "function": "writeBlobResumable",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#writeBlobResumable(BlobInfo,IndexInput)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "org.apache.lucene.store.IndexInput#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.store.IndexInput",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "capacity",
+            "name": "java.nio.ByteBuffer#capacity()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(Object,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setChunkSize",
+            "name": "com.google.cloud.WriteChannel#setChunkSize(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.WriteChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "String",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "getDoubleOrDefault",
+            "name": "org.apache.solr.gcs.GCSConfigParser#getDoubleOrDefault(NamedList,String,double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.cloud.ReadChannel#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ReadChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reader",
+            "name": "com.google.cloud.storage.Blob#reader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Blob",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setChunkSize",
+            "name": "com.google.cloud.ReadChannel#setChunkSize(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ReadChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "BlobId",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.cloud.storage.Storage#get(BlobId,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "parseConfiguration",
+            "name": "org.apache.solr.gcs.GCSConfigParser#parseConfiguration(NamedList,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "int",
+                "int",
+                "Builder"
+            ],
+            "templateArguments": [],
+            "function": "GCSConfig",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig#GCSConfig(String,String,int,int,Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "parseStorageOptions",
+            "name": "org.apache.solr.gcs.GCSConfigParser#parseStorageOptions(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "java.lang.invoke.MethodHandles.lookup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.invoke.MethodHandles",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookupClass",
+            "name": "MethodHandles.Lookup#lookupClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MethodHandles.Lookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Directory",
+                "String",
+                "URI",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "copyIndexFileFrom",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#copyIndexFileFrom(Directory,String,URI,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "openInput",
+            "name": "org.apache.lucene.store.Directory#openInput(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.store.Directory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IndexInput"
+            ],
+            "templateArguments": [],
+            "function": "CorruptIndexException",
+            "name": "org.apache.lucene.index.CorruptIndexException#CorruptIndexException(String,IndexInput)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.index.CorruptIndexException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "openChecksumInput",
+            "name": "org.apache.lucene.store.Directory#openChecksumInput(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.store.Directory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getenv",
+            "name": "java.lang.System.getenv()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "com.google.api.gax.retrying.RetrySettings.newBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.retrying.RetrySettings",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setRetrySettings",
+            "name": "com.google.cloud.storage.StorageOptions.Builder#setRetrySettings(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofMillis",
+            "name": "org.threeten.bp.Duration.ofMillis(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.threeten.bp.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultHttpTransportOptions",
+            "name": "com.google.cloud.storage.StorageOptions.getDefaultHttpTransportOptions()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setTransportOptions",
+            "name": "com.google.cloud.storage.StorageOptions.Builder#setTransportOptions(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "com.google.cloud.storage.StorageOptions.newBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.StorageOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "deleteDirectory",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#deleteDirectory(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<BlobId>"],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "com.google.cloud.storage.Storage#delete(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "URI"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,URI)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "allBlobsAtDir",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#allBlobsAtDir(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "Collection<String>"
+            ],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#delete(URI,Collection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toList",
+            "name": "java.util.stream.Collectors.toList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collector<T, ?, List<T>>"],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "Stream#collect(Collector)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.Collection#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<? super String, ? extends Object>"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "Stream#map(Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Collection#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "URI",
+            "name": "java.net.URI#URI(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "URISyntaxException"
+            ],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String,URISyntaxException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.gcs.GCSConfigParser.GCSConfig.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSConfigParser.GCSConfig",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBlobId",
+            "name": "blob#getBlobId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "blob",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "list",
+            "name": "com.google.cloud.storage.Storage#list(String,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IndexOutput"],
+            "templateArguments": [],
+            "function": "writeFooter",
+            "name": "org.apache.lucene.codecs.CodecUtil.writeFooter(IndexOutput)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.codecs.CodecUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#writeFooter(long,ByteBuffer)$IndexOutput$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#writeFooter(long,ByteBuffer)$IndexOutput$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "normalize",
+            "name": "URI#normalize()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.StringBuilder#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "charAt",
+            "name": "java.lang.StringBuilder#charAt(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "seekInternal",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1#seekInternal(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository#openInput(URI,String,IOContext,int)$BufferedIndexInput$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "seek",
+            "name": "com.google.cloud.ReadChannel#seek(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ReadChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "createDirectory",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#createDirectory(URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.google.cloud.storage.Storage#create(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.storage.Storage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getConfigProperty",
+            "name": "org.apache.solr.gcs.GCSBackupRepository#getConfigProperty(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GCSBackupRepository",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 396,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 395,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 395,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 404,
+                "column": 84,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 401,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 398,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 403,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 393,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 404,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 404,
+                "column": 46,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 395,
+                "column": 71,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 392,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 392,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 0,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 449,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 11,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 448,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 448,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 11,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 272,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 274,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 271,
+                "column": 63,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 13,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 272,
+                "column": 64,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 13,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 275,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 13,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 271,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 13,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 174,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 20,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 174,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 95,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 91,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 92,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 86,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 22,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 278,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 249,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 254,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 92,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 84,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 76,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 88,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 81,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 84,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 90,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 85,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 32,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 224,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 218,
+                "column": 66,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 219,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 221,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 222,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 217,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 207,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 207,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 218,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 208,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 229,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 222,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 222,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 204,
+                "column": 64,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 204,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 42,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 196,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 56,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 194,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 56,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 196,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 464,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 283,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 134,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 140,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 62,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 376,
+                "column": 53,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 373,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 369,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 365,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 368,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 376,
+                "column": 70,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 377,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 376,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 366,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 376,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 376,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 374,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 360,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 375,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 381,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 372,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 371,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 65,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 120,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 77,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 119,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 77,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 99,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 78,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 98,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 78,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 103,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 100,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 78,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 288,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 459,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 82,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 109,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 100,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 99,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 106,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 107,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 104,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 105,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 101,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 103,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 84,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 234,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 165,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 95,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 166,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 95,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 169,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 95,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 441,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 441,
+                "column": 46,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 419,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 430,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 425,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 438,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 435,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 420,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 434,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 441,
+                "column": 84,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 423,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 414,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 412,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 424,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 423,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 429,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 419,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 426,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 424,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 415,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 440,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 436,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 412,
+                "column": 66,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 99,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 127,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 105,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 126,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 105,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 264,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 245,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 242,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 238,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 243,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 240,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 238,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 241,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 94,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 78,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 77,
+                "column": 58,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 68,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 69,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 70,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 112,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 64,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 36,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 64,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 36,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 64,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 36,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 484,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 17,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 348,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 350,
+                "column": 64,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 355,
+                "column": 51,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 344,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 352,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 349,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 337,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 341,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 350,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 355,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 347,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 353,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 349,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 342,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 118,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 65,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 91,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 65,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 91,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 137,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 168,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 146,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 175,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 142,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 145,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 180,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 163,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 184,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 156,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 151,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 135,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 134,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 174,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 133,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 181,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 162,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 132,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 152,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 157,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 149,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 114,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 305,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 307,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 129,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 301,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 129,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 304,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 129,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 303,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 129,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 333,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 331,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 329,
+                "column": 62,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 329,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 334,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 331,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 331,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 332,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 326,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 134,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 124,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 64,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 126,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 64,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 120,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 64,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 199,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 113,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "GCSConfigParser.java",
+                "line": 106,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 37,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 312,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 319,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 314,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 314,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 319,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 316,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 312,
+                "column": 64,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 133,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 480,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 1,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 481,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 1,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 455,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 1,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 145,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 155,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 155,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 149,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 148,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 145,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 155,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 148,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 98,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 259,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 154,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 295,
+                "column": 60,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 156,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 297,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 296,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 156,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 295,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 156,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 297,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 156,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 188,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 21,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 178,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 21,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 187,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 21,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "GCSBackupRepository.java",
+                "line": 183,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/gcs"
+            },
+            "caller": 21,
+            "callee": 57
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.apache.solr.gcs",
+        "isRoot": false,
+        "module": -1,
+        "name": "gcs",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
