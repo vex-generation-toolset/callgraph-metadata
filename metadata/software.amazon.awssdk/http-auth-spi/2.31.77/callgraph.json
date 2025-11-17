@@ -1,0 +1,3022 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignedRequest.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AsyncSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkHttpRequest"],
+            "templateArguments": [],
+            "function": "request",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest.BuilderImpl#request(SdkHttpRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#toBuilder()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultAuthSchemeOption"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#BuilderImpl(DefaultAuthSchemeOption)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerProperty<T>"],
+            "templateArguments": [],
+            "function": "property",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest#property(SignerProperty)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerProperty<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(SignerProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.scheme.AuthSchemeOption.builder()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "AuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.builder()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultSignRequest<IdentityT extends Identity>"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.BuilderImpl#BuilderImpl(DefaultSignRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#build()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl"],
+            "templateArguments": [],
+            "function": "DefaultAuthSchemeOption",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#DefaultAuthSchemeOption(BuilderImpl)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.ToString.builder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ensureUnique",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty#ensureUnique()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["SignerProperty<?>"],
+            "templateArguments": [],
+            "function": "identityHashCode",
+            "name": "java.lang.System.identityHashCode(SignerProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "SignerProperty<T>"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.concurrent.ConcurrentMap#putIfAbsent(Object,SignerProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "software.amazon.awssdk.utils.Pair.of(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Pair",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerProperty<T>"],
+            "templateArguments": [],
+            "function": "identityHashCode",
+            "name": "java.lang.System.identityHashCode(SignerProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isTrue",
+            "name": "software.amazon.awssdk.utils.Validate.isTrue(boolean,String,String,String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkHttpRequest"],
+            "templateArguments": [],
+            "function": "request",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#request(SdkHttpRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "identity",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#identity(IdentityT extends Identity)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<SignerProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "properties",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#properties(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PayloadT"],
+            "templateArguments": [],
+            "function": "payload",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#payload(PayloadT)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "requireProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest#requireProperty(SignerProperty,T)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "getOrDefault",
+            "name": "software.amazon.awssdk.utils.Validate.getOrDefault(T,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerProperty<T>"],
+            "templateArguments": [],
+            "function": "hasProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest#hasProperty(SignerProperty)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PayloadT"],
+            "templateArguments": [],
+            "function": "payload",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest.BuilderImpl#payload(PayloadT)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "thisBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest.BuilderImpl#thisBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<IdentityProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<SignerProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<Builder<IdentityT extends Identity>>"],
+            "templateArguments": [],
+            "function": "sign",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.HttpSigner#sign(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putIdentityProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#putIdentityProperty(IdentityProperty,T)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(IdentityProperty,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#BuilderImpl()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl"],
+            "templateArguments": [],
+            "function": "DefaultSignedRequest",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest#DefaultSignedRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.AsyncSignRequest.builder(IdentityT extends Identity)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.builder(IdentityT extends Identity)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SignerProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty#SignerProperty(String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotBlank",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotBlank(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.BuilderImpl#BuilderImpl(IdentityT extends Identity)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#BuilderImpl(IdentityT extends Identity)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl<IdentityT extends Identity>"],
+            "templateArguments": [],
+            "function": "DefaultAsyncSignRequest",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest#DefaultAsyncSignRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.BuilderImpl#BuilderImpl(IdentityT extends Identity)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.HttpSigner.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HttpSigner",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Class<?>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty.create(Class,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl<?, PayloadT>"],
+            "templateArguments": [],
+            "function": "DefaultBaseSignedRequest",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest#DefaultBaseSignedRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<SignerProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<IdentityProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl"],
+            "templateArguments": [],
+            "function": "DefaultAsyncSignedRequest",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest#DefaultAsyncSignedRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Consumer<Builder<IdentityT extends Identity>>"],
+            "templateArguments": [],
+            "function": "signAsync",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.HttpSigner#signAsync(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.builder(IdentityT extends Identity)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncSignRequest<? extends T extends Identity>"],
+            "templateArguments": [],
+            "function": "signAsync",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.NoOpHttpSigner#signAsync(AsyncSignRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoOpHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "orElse",
+            "name": "java.util.Optional#orElse(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest#request()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "completedFuture",
+            "name": "java.util.concurrent.CompletableFuture.completedFuture(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.CompletableFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "payload",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest#payload()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerPropertyConsumer"],
+            "templateArguments": [],
+            "function": "forEachSignerProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#forEachSignerProperty(SignerPropertyConsumer)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "SignerPropertyConsumer"
+            ],
+            "templateArguments": [],
+            "function": "consumeProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#consumeProperty(SignerProperty,SignerPropertyConsumer)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<? super SignerProperty<?>>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "Set#forEach(Consumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putSignerPropertyIfAbsent",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#putSignerPropertyIfAbsent(SignerProperty,T)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.Map#putIfAbsent(SignerProperty,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "thisBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#thisBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerProperty<T>"],
+            "templateArguments": [],
+            "function": "requireProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.BaseSignRequest#requireProperty(SignerProperty)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T",
+                "String",
+                "SignerProperty<T>"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(T,String,SignerProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doNotSign",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.HttpSigner#doNotSign()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.NoOpHttpSigner.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoOpHttpSigner",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignerProperty#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignerProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.BuilderImpl#putProperty(SignerProperty,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(SignerProperty,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putIdentityPropertyIfAbsent",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#putIdentityPropertyIfAbsent(IdentityProperty,T)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.Map#putIfAbsent(IdentityProperty,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl<?, PayloadT, IdentityT extends Identity>"],
+            "templateArguments": [],
+            "function": "DefaultBaseSignRequest",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest#DefaultBaseSignRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HashMap"],
+            "templateArguments": [],
+            "function": "unmodifiableMap",
+            "name": "java.util.Collections.unmodifiableMap(HashMap)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignedRequest.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl<IdentityT extends Identity>"],
+            "templateArguments": [],
+            "function": "DefaultSignRequest",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest#DefaultSignRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignedRequest.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignedRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProperty<T>"],
+            "templateArguments": [],
+            "function": "identityProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#identityProperty(IdentityProperty)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProperty<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(IdentityProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "IdentityPropertyConsumer"
+            ],
+            "templateArguments": [],
+            "function": "consumeProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#consumeProperty(IdentityProperty,IdentityPropertyConsumer)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignerProperty<T>"],
+            "templateArguments": [],
+            "function": "signerProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#signerProperty(SignerProperty)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultAsyncSignRequest<IdentityT extends Identity>"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.BuilderImpl#BuilderImpl(DefaultAsyncSignRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignedRequest#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SignRequest<? extends T extends Identity>"],
+            "templateArguments": [],
+            "function": "sign",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.NoOpHttpSigner#sign(SignRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoOpHttpSigner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityPropertyConsumer"],
+            "templateArguments": [],
+            "function": "forEachIdentityProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption#forEachIdentityProperty(IdentityPropertyConsumer)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "Set#forEach(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.Map#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SdkHttpRequest",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(SdkHttpRequest,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultSignRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSignRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IdentityT extends Identity"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.auth.spi.signer.SignRequest.builder(IdentityT extends Identity)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SignRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SignerProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putSignerProperty",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.scheme.DefaultAuthSchemeOption.BuilderImpl#putSignerProperty(SignerProperty,T)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DefaultAuthSchemeOption.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultAsyncSignRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAsyncSignRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "payload",
+            "name": "software.amazon.awssdk.http.auth.spi.internal.signer.DefaultBaseSignedRequest#payload()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultBaseSignedRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PayloadT"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(PayloadT)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 3,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignedRequest.java",
+                "line": 49,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 83,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 61,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 98,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 98,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 99,
+                "column": 73,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 99,
+                "column": 73,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "AuthSchemeOption.java",
+                "line": 41,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/scheme"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "AsyncSignedRequest.java",
+                "line": 40,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 4,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 142,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 42,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 23,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 68,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 26,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 63,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 26,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 63,
+                "column": 59,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 26,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 69,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 26,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 26,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 72,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 17,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 70,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 17,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 69,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 17,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 17,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 71,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 17,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 68,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 17,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "BaseSignRequest.java",
+                "line": 82,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "BaseSignRequest.java",
+                "line": 82,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 37,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BaseSignRequest.java",
+                "line": 64,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 39,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignedRequest.java",
+                "line": 61,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 106,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 8,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 107,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 8,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "HttpSigner.java",
+                "line": 68,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 118,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 48,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 15,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 57,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "AsyncSignRequest.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 54,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 66,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 57,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 78,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 65,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 62,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 63,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 62,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "HttpSigner.java",
+                "line": 40,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 28,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 51,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 51,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 101,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 100,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 36,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 20,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 39,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 20,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 37,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 20,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 38,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 20,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 72,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HttpSigner.java",
+                "line": 92,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 36,
+                "column": 96,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 27,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 36,
+                "column": 96,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 27,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 59,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 37,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 79,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 32,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 80,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 39,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 81,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 39,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 81,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 41,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 40,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 81,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 39,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 81,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 41,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 81,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 74,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 74,
+                "column": 55,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 86,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 74,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 86,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 136,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 90,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 88,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 92,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 34,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 75,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 88,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 36,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "BaseSignRequest.java",
+                "line": 73,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 95,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "BaseSignRequest.java",
+                "line": 73,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 95,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HttpSigner.java",
+                "line": 46,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 94,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 93,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 87,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 99,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 102,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 76,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 103,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 82,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 33,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 53,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 25,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 99,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 100,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 104,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 37,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 106,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 124,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 107,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 37,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 41,
+                "column": 55,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 109,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 38,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 109,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 40,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 109,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 41,
+                "column": 27,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 109,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 53,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 114,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 48,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 114,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 33,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 18,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 94,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 34,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SignedRequest.java",
+                "line": 39,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 116,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 77,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 117,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignedRequest.java",
+                "line": 58,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 119,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 54,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 120,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 69,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 122,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 33,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 45,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 60,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 123,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 101,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 49,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 78,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 88,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 52,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 124,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 126,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignedRequest.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 126,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 31,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 127,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 33,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 127,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 33,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 127,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 31,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 127,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "NoOpHttpSigner.java",
+                "line": 32,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 127,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 59,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 64,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "SignerProperty.java",
+                "line": 59,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 64,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignedRequest.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 5,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 65,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 129,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 65,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 105,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 35,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 104,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 35,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 106,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 35,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignedRequest.java",
+                "line": 31,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 65,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignedRequest.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 65,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 118,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSignRequest.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 118,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "SignRequest.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/signer"
+            },
+            "caller": 135,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 67,
+                "column": 67,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 78,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 67,
+                "column": 67,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 78,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 93,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 93,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 73,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 125,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 71,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 125,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 70,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 125,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 125,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 125,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 72,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 125,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAuthSchemeOption.java",
+                "line": 130,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/scheme"
+            },
+            "caller": 136,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 30,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 61,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAsyncSignRequest.java",
+                "line": 29,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 61,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignedRequest.java",
+                "line": 42,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 138,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "DefaultBaseSignRequest.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/http/auth/spi/internal/signer"
+            },
+            "caller": 85,
+            "callee": 139
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.http.auth.spi.internal.signer",
+            "isRoot": false,
+            "module": -1,
+            "name": "signer",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.http.auth.spi.signer",
+            "isRoot": false,
+            "module": -1,
+            "name": "signer",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.http.auth.spi.internal.scheme",
+            "isRoot": false,
+            "module": -1,
+            "name": "scheme",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.http.auth.spi.scheme",
+            "isRoot": false,
+            "module": -1,
+            "name": "scheme",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
