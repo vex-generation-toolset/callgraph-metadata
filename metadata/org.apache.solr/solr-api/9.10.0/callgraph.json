@@ -1,0 +1,3179 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Semver"],
+            "templateArguments": [],
+            "function": "SolrVersion",
+            "name": "org.apache.solr.client.api.util.SolrVersion#SolrVersion(Semver)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.util.SolrVersion.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "readNode",
+            "name": "org.apache.solr.client.api.endpoint.ZooKeeperReadApis#readNode(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ZooKeeperReadApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.client.api.util.Constants.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Constants",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.DeleteCollectionSnapshotResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DeleteCollectionSnapshotResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.AsyncJerseyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "AsyncJerseyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<String>",
+                "InputStream"
+            ],
+            "templateArguments": [],
+            "function": "uploadFile",
+            "name": "org.apache.solr.client.api.endpoint.ClusterFileStoreApis#uploadFile(String,List,InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ClusterFileStoreApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "deleteSingleBackupById",
+            "name": "org.apache.solr.client.api.endpoint.DeleteCollectionBackupApi#deleteSingleBackupById(String,String,String,String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DeleteCollectionBackupApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.client.api.model.Constants.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Constants",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListCollectionSnapshotsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListCollectionSnapshotsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SolrVersion"],
+            "templateArguments": [],
+            "function": "greaterThan",
+            "name": "org.apache.solr.client.api.util.SolrVersion#greaterThan(SolrVersion)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Semver"],
+            "templateArguments": [],
+            "function": "isGreaterThan",
+            "name": "org.semver4j.Semver#isGreaterThan(Semver)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ReplicationBackupRequestBody",
+            "name": "org.apache.solr.client.api.model.ReplicationBackupRequestBody#ReplicationBackupRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplicationBackupRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ReplicationBackupRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplicationBackupRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListLevelsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListLevelsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.LoggingResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LoggingResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setUnknownProperty",
+            "name": "org.apache.solr.client.api.model.CollectionStatusResponse.LeaderSummary#setUnknownProperty(String,Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CollectionStatusResponse.LeaderSummary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "getAdditionalDiagnostics",
+            "name": "org.apache.solr.client.api.model.GetSegmentDataResponse.SegmentDiagnosticInfo#getAdditionalDiagnostics(String,Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetSegmentDataResponse.SegmentDiagnosticInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPatchVersion",
+            "name": "org.apache.solr.client.api.util.SolrVersion#getPatchVersion()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPatch",
+            "name": "org.semver4j.Semver#getPatch()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Float",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "getCollectionStatus",
+            "name": "org.apache.solr.client.api.endpoint.CollectionStatusApi#getCollectionStatus(String,Boolean,Boolean,Boolean,Boolean,Boolean,Boolean,Float,Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "CollectionStatusApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.client.api.endpoint.SegmentsApi.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegmentsApi",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SnapshotInformation",
+            "name": "org.apache.solr.client.api.model.SnapshotInformation#SnapshotInformation(long,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SnapshotInformation",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SnapshotInformation.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SnapshotInformation",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BalanceReplicasRequestBody",
+            "name": "org.apache.solr.client.api.model.BalanceReplicasRequestBody#BalanceReplicasRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BalanceReplicasRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.BalanceReplicasRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BalanceReplicasRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "deleteFileDeprecated",
+            "name": "org.apache.solr.client.api.endpoint.ClusterFileStoreApis#deleteFileDeprecated(String,Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ClusterFileStoreApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "AddReplicaPropertyRequestBody",
+            "name": "org.apache.solr.client.api.model.AddReplicaPropertyRequestBody#AddReplicaPropertyRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "AddReplicaPropertyRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.AddReplicaPropertyRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "AddReplicaPropertyRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ReplaceNodeRequestBody",
+            "name": "org.apache.solr.client.api.model.ReplaceNodeRequestBody#ReplaceNodeRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplaceNodeRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ReplaceNodeRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplaceNodeRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "valueOf",
+            "name": "org.apache.solr.client.api.util.SolrVersion.valueOf(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "Semver",
+            "name": "org.semver4j.Semver#Semver(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CreateCollectionSnapshotResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CreateCollectionSnapshotResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Set<String>",
+                "Boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "BalanceReplicasRequestBody",
+            "name": "org.apache.solr.client.api.model.BalanceReplicasRequestBody#BalanceReplicasRequestBody(Set,Boolean,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BalanceReplicasRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.BackupDeletionResponseBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BackupDeletionResponseBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SubResponseAccumulatingJerseyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SubResponseAccumulatingJerseyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LogLevelChange",
+            "name": "org.apache.solr.client.api.model.LogLevelChange#LogLevelChange()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogLevelChange",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.LogLevelChange.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogLevelChange",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetSegmentDataResponse.SegmentDiagnosticInfo.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetSegmentDataResponse.SegmentDiagnosticInfo",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ZooKeeperListChildrenResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ZooKeeperListChildrenResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ExperimentalResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExperimentalResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaGetFieldTypeInfoResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaGetFieldTypeInfoResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SolrJerseyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrJerseyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.PurgeUnusedResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "PurgeUnusedResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Integer",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "deleteReplicasByCount",
+            "name": "org.apache.solr.client.api.endpoint.DeleteReplicaApi#deleteReplicasByCount(String,String,Integer,Boolean,Boolean,Boolean,Boolean,Boolean,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DeleteReplicaApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.solr.client.api.util.SolrVersion#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrVersion"],
+            "templateArguments": [],
+            "function": "compareTo",
+            "name": "org.apache.solr.client.api.util.SolrVersion#compareTo(SolrVersion)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String",
+                "Boolean",
+                "Boolean",
+                "double",
+                "Long"
+            ],
+            "templateArguments": [],
+            "function": "fetchFile",
+            "name": "org.apache.solr.client.api.endpoint.ReplicationApis#fetchFile(String,String,String,String,Boolean,Boolean,double,Long)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ReplicationApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaGetDynamicFieldInfoResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaGetDynamicFieldInfoResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListCollectionBackupsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListCollectionBackupsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Boolean",
+                "String",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "getFile",
+            "name": "org.apache.solr.client.api.endpoint.NodeFileStoreApis#getFile(String,Boolean,String,Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NodeFileStoreApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "FileMetaData",
+            "name": "org.apache.solr.client.api.model.FileMetaData#FileMetaData()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileMetaData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.FileMetaData.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileMetaData",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaVersionResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaVersionResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CreateCoreSnapshotResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CreateCoreSnapshotResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListAliasesResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListAliasesResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetSegmentDataResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetSegmentDataResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SolrVersion"],
+            "templateArguments": [],
+            "function": "greaterThanOrEqualTo",
+            "name": "org.apache.solr.client.api.util.SolrVersion#greaterThanOrEqualTo(SolrVersion)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Semver"],
+            "templateArguments": [],
+            "function": "isGreaterThanOrEqualTo",
+            "name": "org.semver4j.Semver#isGreaterThanOrEqualTo(Semver)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CategoryRoutedAliasProperties.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CategoryRoutedAliasProperties",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.RoutedAliasProperties.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "RoutedAliasProperties",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.FileStoreDirectoryListingResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileStoreDirectoryListingResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetClusterPropertyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetClusterPropertyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.FileListResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileListResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "UpdateCollectionPropertyRequestBody",
+            "name": "org.apache.solr.client.api.model.UpdateCollectionPropertyRequestBody#UpdateCollectionPropertyRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "UpdateCollectionPropertyRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.UpdateCollectionPropertyRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "UpdateCollectionPropertyRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.FileStoreJsonFileResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileStoreJsonFileResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SolrJerseyResponse.ResponseHeader.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrJerseyResponse.ResponseHeader",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "deleteShard",
+            "name": "org.apache.solr.client.api.endpoint.DeleteShardApi#deleteShard(String,String,Boolean,Boolean,Boolean,Boolean,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DeleteShardApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CollectionStatusResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CollectionStatusResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "forIntegers",
+            "name": "org.apache.solr.client.api.util.SolrVersion.forIntegers(int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Semver",
+            "name": "org.semver4j.Semver#Semver(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CollectionStatusResponse.CollectionMetadata.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CollectionStatusResponse.CollectionMetadata",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Float",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "getSegmentData",
+            "name": "org.apache.solr.client.api.endpoint.SegmentsApi#getSegmentData(Boolean,Boolean,Boolean,Boolean,Boolean,Float,Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegmentsApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "FileMetaData",
+            "name": "org.apache.solr.client.api.model.FileMetaData#FileMetaData(long,String,long)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileMetaData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Set<String>",
+                "Set<String>",
+                "Boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "MigrateReplicasRequestBody",
+            "name": "org.apache.solr.client.api.model.MigrateReplicasRequestBody#MigrateReplicasRequestBody(Set,Set,Boolean,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "MigrateReplicasRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.MigrateReplicasRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "MigrateReplicasRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setUnknownProperty",
+            "name": "org.apache.solr.client.api.model.CollectionStatusResponse.CollectionMetadata#setUnknownProperty(String,Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CollectionStatusResponse.CollectionMetadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMinorVersion",
+            "name": "org.apache.solr.client.api.util.SolrVersion#getMinorVersion()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMinor",
+            "name": "org.semver4j.Semver#getMinor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "ReplaceNodeRequestBody",
+            "name": "org.apache.solr.client.api.model.ReplaceNodeRequestBody#ReplaceNodeRequestBody(String,Boolean,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplaceNodeRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Map<String, ZooKeeperStat>"
+            ],
+            "templateArguments": [],
+            "function": "setUnknownProperty",
+            "name": "org.apache.solr.client.api.model.ZooKeeperListChildrenResponse#setUnknownProperty(String,Map)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ZooKeeperListChildrenResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Map<String, ZooKeeperStat>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPrereleaseVersion",
+            "name": "org.apache.solr.client.api.util.SolrVersion#getPrereleaseVersion()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPreRelease",
+            "name": "org.semver4j.Semver#getPreRelease()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "listBackupsAtLocation",
+            "name": "org.apache.solr.client.api.endpoint.ListCollectionBackupsApi#listBackupsAtLocation(String,String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ListCollectionBackupsApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.client.api.util.SolrVersion.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.UploadToFileStoreResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "UploadToFileStoreResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "LogLevelChange",
+            "name": "org.apache.solr.client.api.model.LogLevelChange#LogLevelChange(String,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogLevelChange",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "satisfies",
+            "name": "org.apache.solr.client.api.util.SolrVersion#satisfies(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "satisfies",
+            "name": "org.semver4j.Semver#satisfies(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setUnknownProperty",
+            "name": "org.apache.solr.client.api.model.FlexibleSolrJerseyResponse#setUnknownProperty(String,Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FlexibleSolrJerseyResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "int",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "ReplicationBackupRequestBody",
+            "name": "org.apache.solr.client.api.model.ReplicationBackupRequestBody#ReplicationBackupRequestBody(String,String,int,String,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplicationBackupRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "AddReplicaPropertyRequestBody",
+            "name": "org.apache.solr.client.api.model.AddReplicaPropertyRequestBody#AddReplicaPropertyRequestBody(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "AddReplicaPropertyRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaInfoResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaInfoResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaListFieldTypesResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaListFieldTypesResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListClusterPropertiesResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListClusterPropertiesResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaListFieldsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaListFieldsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListCoreSnapshotsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListCoreSnapshotsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetAliasPropertyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetAliasPropertyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.FileStoreEntryMetadata.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileStoreEntryMetadata",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<String>",
+                "InputStream"
+            ],
+            "templateArguments": [],
+            "function": "uploadFileDeprecated",
+            "name": "org.apache.solr.client.api.endpoint.ClusterFileStoreApis#uploadFileDeprecated(String,List,InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ClusterFileStoreApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMajorVersion",
+            "name": "org.apache.solr.client.api.util.SolrVersion#getMajorVersion()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMajor",
+            "name": "org.semver4j.Semver#getMajor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Constants",
+            "name": "org.apache.solr.client.api.model.Constants#Constants()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Constants",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.Constants.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Constants",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "Boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "deleteReplicaByName",
+            "name": "org.apache.solr.client.api.endpoint.DeleteReplicaApi#deleteReplicaByName(String,String,String,Boolean,Boolean,Boolean,Boolean,Boolean,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DeleteReplicaApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaGetFieldInfoResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaGetFieldInfoResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Semver"],
+            "templateArguments": [],
+            "function": "compareTo",
+            "name": "org.semver4j.Semver#compareTo(Semver)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaUniqueKeyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaUniqueKeyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getFile",
+            "name": "org.apache.solr.client.api.endpoint.ClusterFileStoreApis#getFile(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ClusterFileStoreApis",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MigrateReplicasRequestBody",
+            "name": "org.apache.solr.client.api.model.MigrateReplicasRequestBody#MigrateReplicasRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "MigrateReplicasRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListConfigsetsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListConfigsetsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ListCollectionsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ListCollectionsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.TimeRoutedAliasProperties.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "TimeRoutedAliasProperties",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "LogLevelInfo",
+            "name": "org.apache.solr.client.api.model.LogLevelInfo#LogLevelInfo(String,String,boolean)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogLevelInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.LogLevelInfo.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogLevelInfo",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaNameResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaNameResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.apache.solr.client.api.util.SolrVersion#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.semver4j.Semver#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaListDynamicFieldsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaListDynamicFieldsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SolrVersion"],
+            "templateArguments": [],
+            "function": "lessThanOrEqualTo",
+            "name": "org.apache.solr.client.api.util.SolrVersion#lessThanOrEqualTo(SolrVersion)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Semver"],
+            "templateArguments": [],
+            "function": "isLowerThanOrEqualTo",
+            "name": "org.semver4j.Semver#isLowerThanOrEqualTo(Semver)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Constants",
+            "name": "org.apache.solr.client.api.util.Constants#Constants()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Constants",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.util.Constants.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Constants",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetNodeCommandStatusResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetNodeCommandStatusResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "compareVersions",
+            "name": "org.apache.solr.client.api.util.SolrVersion.compareVersions(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.DeleteSnapshotResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "DeleteSnapshotResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaListCopyFieldsResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaListCopyFieldsResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetAllAliasPropertiesResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetAllAliasPropertiesResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setUnknownProperty",
+            "name": "org.apache.solr.client.api.model.FileStoreEntryMetadata#setUnknownProperty(String,Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FileStoreEntryMetadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IndexType",
+            "name": "org.apache.solr.client.api.model.IndexType#IndexType(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "IndexType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.IndexType.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "IndexType",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "jsonQuery",
+            "name": "org.apache.solr.client.api.endpoint.SelectApi#jsonQuery(InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SelectApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CollectionStatusResponse.LeaderSummary.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CollectionStatusResponse.LeaderSummary",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.FlexibleSolrJerseyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FlexibleSolrJerseyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setUnknownProperty",
+            "name": "org.apache.solr.client.api.model.SolrJerseyResponse.ResponseHeader#setUnknownProperty(String,Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrJerseyResponse.ResponseHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaSimilarityResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaSimilarityResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IndexVersionResponse",
+            "name": "org.apache.solr.client.api.model.IndexVersionResponse#IndexVersionResponse()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "IndexVersionResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.IndexVersionResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "IndexVersionResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.ReplicationBackupResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ReplicationBackupResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.PublicKeyResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "PublicKeyResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SchemaZkVersionResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SchemaZkVersionResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SolrVersion"],
+            "templateArguments": [],
+            "function": "lessThan",
+            "name": "org.apache.solr.client.api.util.SolrVersion#lessThan(SolrVersion)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Semver"],
+            "templateArguments": [],
+            "function": "isLowerThan",
+            "name": "org.semver4j.Semver#isLowerThan(Semver)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.CreateCollectionBackupResponseBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "CreateCollectionBackupResponseBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Long",
+                "Long",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "IndexVersionResponse",
+            "name": "org.apache.solr.client.api.model.IndexVersionResponse#IndexVersionResponse(Long,Long,String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "IndexVersionResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.solr.client.api.util.SolrVersion#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrVersion",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.semver4j.Semver#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.semver4j.Semver",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "UpdateCollectionPropertyRequestBody",
+            "name": "org.apache.solr.client.api.model.UpdateCollectionPropertyRequestBody#UpdateCollectionPropertyRequestBody(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "UpdateCollectionPropertyRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Integer",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "deleteMultipleBackupsByRecency",
+            "name": "org.apache.solr.client.api.endpoint.DeleteCollectionBackupApi#deleteMultipleBackupsByRecency(String,Integer,String,String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DeleteCollectionBackupApi",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SetThresholdRequestBody",
+            "name": "org.apache.solr.client.api.model.SetThresholdRequestBody#SetThresholdRequestBody()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SetThresholdRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.SetThresholdRequestBody.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SetThresholdRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "SetThresholdRequestBody",
+            "name": "org.apache.solr.client.api.model.SetThresholdRequestBody#SetThresholdRequestBody(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SetThresholdRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.GetAliasByNameResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "GetAliasByNameResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LogLevelInfo",
+            "name": "org.apache.solr.client.api.model.LogLevelInfo#LogLevelInfo()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogLevelInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.client.api.model.LogMessagesResponse.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LogMessagesResponse",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 103,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ZooKeeperReadApis.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DeleteCollectionSnapshotResponse.java",
+                "line": 25,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ClusterFileStoreApis.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 6,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DeleteCollectionBackupApi.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ListCollectionSnapshotsResponse.java",
+                "line": 23,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 9,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 62,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ReplicationBackupRequestBody.java",
+                "line": 24,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ListLevelsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 122,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GetSegmentDataResponse.java",
+                "line": 137,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 18,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 96,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusApi.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "SnapshotInformation.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "BalanceReplicasRequestBody.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ClusterFileStoreApis.java",
+                "line": 154,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 27,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "AddReplicaPropertyRequestBody.java",
+                "line": 24,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ReplaceNodeRequestBody.java",
+                "line": 24,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 39,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 32,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 39,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CreateCollectionSnapshotResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 34,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "BalanceReplicasRequestBody.java",
+                "line": 27,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 35,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "BackupDeletionResponseBody.java",
+                "line": 23,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "LogLevelChange.java",
+                "line": 23,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "GetSegmentDataResponse.java",
+                "line": 128,
+                "column": 57,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GetSegmentDataResponse.java",
+                "line": 128,
+                "column": 57,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ZooKeeperListChildrenResponse.java",
+                "line": 25,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ZooKeeperListChildrenResponse.java",
+                "line": 33,
+                "column": 66,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 43,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ZooKeeperListChildrenResponse.java",
+                "line": 33,
+                "column": 66,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 43,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "SchemaGetFieldTypeInfoResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "PurgeUnusedResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 47,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DeleteReplicaApi.java",
+                "line": 63,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 48,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 126,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "ReplicationApis.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 51,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SchemaGetDynamicFieldInfoResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 52,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ListCollectionBackupsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 53,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "LoggingResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 15,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "NodeFileStoreApis.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 54,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "FileMetaData.java",
+                "line": 35,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 55,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "SchemaVersionResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 57,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CreateCoreSnapshotResponse.java",
+                "line": 25,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 58,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ListAliasesResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 59,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GetSegmentDataResponse.java",
+                "line": 28,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 60,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 66,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "CategoryRoutedAliasProperties.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "FileStoreDirectoryListingResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 65,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GetClusterPropertyResponse.java",
+                "line": 23,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 66,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "FileListResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 67,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "UpdateCollectionPropertyRequestBody.java",
+                "line": 22,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "FileStoreJsonFileResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 70,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrJerseyResponse.java",
+                "line": 51,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 71,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "SolrJerseyResponse.java",
+                "line": 51,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 71,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DeleteShardApi.java",
+                "line": 32,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 72,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 28,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 73,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 44,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 44,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 74,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 60,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 76,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 60,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 76,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "SegmentsApi.java",
+                "line": 51,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 77,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "FileMetaData.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 78,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "MigrateReplicasRequestBody.java",
+                "line": 27,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 69,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 81,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 92,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 82,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "ReplaceNodeRequestBody.java",
+                "line": 26,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 84,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ZooKeeperListChildrenResponse.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 85,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 100,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "ListCollectionBackupsApi.java",
+                "line": 34,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 89,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 35,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 90,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "UploadToFileStoreResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 91,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "LogLevelChange.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 92,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 84,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "FlexibleSolrJerseyResponse.java",
+                "line": 36,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 95,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ReplicationBackupRequestBody.java",
+                "line": 26,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 96,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "AddReplicaPropertyRequestBody.java",
+                "line": 26,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 97,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "SchemaInfoResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 98,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SchemaListFieldTypesResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 99,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ListClusterPropertiesResponse.java",
+                "line": 24,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 100,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SchemaListFieldsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 101,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ListCoreSnapshotsResponse.java",
+                "line": 23,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 102,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GetAliasPropertyResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 103,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "FileStoreEntryMetadata.java",
+                "line": 33,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 104,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FileStoreEntryMetadata.java",
+                "line": 33,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 104,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ClusterFileStoreApis.java",
+                "line": 125,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 105,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 88,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "Constants.java",
+                "line": 22,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "DeleteReplicaApi.java",
+                "line": 45,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 110,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SchemaGetFieldInfoResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 111,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 115,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 50,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "SchemaUniqueKeyResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 113,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ClusterFileStoreApis.java",
+                "line": 89,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 114,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "MigrateReplicasRequestBody.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 115,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "SubResponseAccumulatingJerseyResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 37,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ListConfigsetsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 116,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ListCollectionsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 117,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "TimeRoutedAliasProperties.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 118,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "LogLevelInfo.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 119,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "SchemaNameResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 121,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 110,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 122,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "SchemaListDynamicFieldsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 124,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 125,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "Constants.java",
+                "line": 21,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 127,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "GetNodeCommandStatusResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 129,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 52,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 130,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 52,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 130,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 52,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 130,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DeleteSnapshotResponse.java",
+                "line": 24,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 131,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "AsyncJerseyResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 5,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SchemaListCopyFieldsResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 132,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GetAllAliasPropertiesResponse.java",
+                "line": 23,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 133,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "FileStoreEntryMetadata.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 134,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "IndexType.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "SelectApi.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 137,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 113,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 138,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CollectionStatusResponse.java",
+                "line": 113,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 138,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FlexibleSolrJerseyResponse.java",
+                "line": 24,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 139,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "FlexibleSolrJerseyResponse.java",
+                "line": 27,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 139,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FlexibleSolrJerseyResponse.java",
+                "line": 27,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 139,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "SolrJerseyResponse.java",
+                "line": 60,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 140,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "SchemaSimilarityResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 141,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "IndexVersionResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 142,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "IndexVersionResponse.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "ReplicationBackupResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 144,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "PublicKeyResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 145,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SchemaZkVersionResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 146,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 70,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 147,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "CreateCollectionBackupResponseBody.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 149,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "IndexVersionResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 150,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "IndexVersionResponse.java",
+                "line": 35,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 150,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "SolrVersion.java",
+                "line": 58,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/client/api/util"
+            },
+            "caller": 151,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "UpdateCollectionPropertyRequestBody.java",
+                "line": 24,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 153,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DeleteCollectionBackupApi.java",
+                "line": 52,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/endpoint"
+            },
+            "caller": 154,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SetThresholdRequestBody.java",
+                "line": 23,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 155,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "ExperimentalResponse.java",
+                "line": 22,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 44,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SetThresholdRequestBody.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 157,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "SolrJerseyResponse.java",
+                "line": 36,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 46,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GetAliasByNameResponse.java",
+                "line": 23,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 158,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "LogLevelInfo.java",
+                "line": 23,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 159,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "LogMessagesResponse.java",
+                "line": 21,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/client/api/model"
+            },
+            "caller": 160,
+            "callee": 15
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.solr.client.api.util",
+            "isRoot": false,
+            "module": -1,
+            "name": "util",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.client.api.endpoint",
+            "isRoot": false,
+            "module": -1,
+            "name": "endpoint",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.client.api.model",
+            "isRoot": false,
+            "module": -1,
+            "name": "model",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
