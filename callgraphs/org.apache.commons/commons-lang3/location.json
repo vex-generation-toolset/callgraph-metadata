@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-lang",
+  "tag": "refs/tags/rel/commons-lang-%s",
+  "relative_path": ""
+}
