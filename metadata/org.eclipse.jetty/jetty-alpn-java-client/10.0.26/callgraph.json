@@ -1,0 +1,441 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "SSLEngine",
+                "Connection"
+            ],
+            "templateArguments": [],
+            "function": "configure",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor#configure(SSLEngine,Connection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ALPNClientConnection"],
+            "templateArguments": [],
+            "function": "ALPNListener",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor.ALPNListener#ALPNListener(ALPNClientConnection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor.ALPNListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndPoint",
+            "name": "org.eclipse.jetty.io.Connection#getEndPoint()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.Connection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProtocols",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnection#getProtocols()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.alpn.client.ALPNClientConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "java.util.List#toArray(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T[]"],
+            "templateArguments": [],
+            "function": "setApplicationProtocols",
+            "name": "javax.net.ssl.SSLParameters#setApplicationProtocols(T[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.ssl.SSLParameters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SSLParameters"],
+            "templateArguments": [],
+            "function": "setSSLParameters",
+            "name": "javax.net.ssl.SSLEngine#setSSLParameters(SSLParameters)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.ssl.SSLEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSSLParameters",
+            "name": "javax.net.ssl.SSLEngine#getSSLParameters()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.ssl.SSLEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSslConnection",
+            "name": "org.eclipse.jetty.io.ssl.SslConnection.DecryptedEndPoint#getSslConnection()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.ssl.SslConnection.DecryptedEndPoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor.ALPNListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor.ALPNListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor#init()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SSLEngine"],
+            "templateArguments": [],
+            "function": "appliesTo",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor#appliesTo(SSLEngine)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "javax.net.ssl.SSLEngine#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.ssl.SSLEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "Module#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Module",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Event"],
+            "templateArguments": [],
+            "function": "handshakeSucceeded",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor.ALPNListener#handshakeSucceeded(Event)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor.ALPNListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.eclipse.jetty.alpn.java.client.JDK9ClientALPNProcessor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JDK9ClientALPNProcessor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "selected",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnection#selected(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.alpn.client.ALPNClientConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "org.slf4j.Logger#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSSLEngine",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnection#getSSLEngine()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.alpn.client.ALPNClientConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "selected",
+            "name": "org.eclipse.jetty.alpn.client.ALPNClientConnection#selected(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.alpn.client.ALPNClientConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<JDK9ClientALPNProcessor>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 56,
+                "column": 35,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 55,
+                "column": 29,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 52,
+                "column": 34,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 53,
+                "column": 47,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 53,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 51,
+                "column": 39,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 0,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 63,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 1,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 37,
+                "column": 19,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 43,
+                "column": 25,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 44,
+                "column": 53,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 68,
+                "column": 9,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 73,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 77,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 72,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 71,
+                "column": 31,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 15,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 75,
+                "column": 17,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 15,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "JDK9ClientALPNProcessor.java",
+                "line": 31,
+                "column": 39,
+                "directory": "src/main/java/org/eclipse/jetty/alpn/java/client"
+            },
+            "caller": 16,
+            "callee": 22
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.eclipse.jetty.alpn.java.client",
+        "isRoot": false,
+        "module": -1,
+        "name": "client",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
