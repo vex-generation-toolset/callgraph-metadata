@@ -1,9 +1,10 @@
 ---
 name: SLSA Source
 on:
-  push:
-    branches: [ "main" ]
-    tags: ['**']
+# Disabled, since it uses the `metadata` folder name and conficts with this repository.
+#  push:
+#    branches: [ "main" ]
+#    tags: ['**']
 permissions: {}
 
 jobs:
