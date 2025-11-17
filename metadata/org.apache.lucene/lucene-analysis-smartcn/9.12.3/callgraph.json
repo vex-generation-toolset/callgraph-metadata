@@ -1,0 +1,5830 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "getCharType",
+            "name": "org.apache.lucene.analysis.cn.smart.Utility.getCharType(char)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Utility",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.CharType.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CharType",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getToCount",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#getToCount()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#load(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "sortEachItems",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#sortEachItems()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "loadFromObj",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#loadFromObj(Path)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.nio.file.Paths.get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Paths",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "exists",
+            "name": "java.nio.file.Files.exists(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.io.IOException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "expandDelimiterData",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#expandDelimiterData()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "mergeSameWords",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#mergeSameWords()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "saveToObj",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#saveToObj(Path)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loadMainDataFromFile",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#loadMainDataFromFile(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setTableIndex",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#setTableIndex(char,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "getAvaliableTableIndex",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#getAvaliableTableIndex(char)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary.getInstance()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#load()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "WordDictionary",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#WordDictionary()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ClassNotFoundException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(ClassNotFoundException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.AnalyzerProfile.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AnalyzerProfile",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "loadFromInputStream",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#loadFromInputStream(InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readObject",
+            "name": "java.io.ObjectInputStream#readObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "ObjectInputStream",
+            "name": "java.io.ObjectInputStream#ObjectInputStream(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementWord",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer#incrementWord()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "java.util.Iterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "copyBuffer",
+            "name": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute#copyBuffer(char[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setOffset",
+            "name": "org.apache.lucene.analysis.tokenattributes.OffsetAttribute#setOffset(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.OffsetAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setType",
+            "name": "org.apache.lucene.analysis.tokenattributes.TypeAttribute#setType(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.TypeAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasNext",
+            "name": "java.util.Iterator#hasNext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#load(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loadFromFile",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#loadFromFile(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "saveToObj",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#saveToObj(Path)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "loadFromObj",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#loadFromObj(Path)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.PathNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "PathNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.getInstance()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "char[]"
+            ],
+            "templateArguments": [],
+            "function": "getAvaliableIndex",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#getAvaliableIndex(long,char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "hash2",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary#hash2(char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "isEqual",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#isEqual(char[],int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "getWordItemTableIndex",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#getWordItemTableIndex(char)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "char[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "compareArray",
+            "name": "org.apache.lucene.analysis.cn.smart.Utility.compareArray(char[],int,char[],int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Utility",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegToken"],
+            "templateArguments": [],
+            "function": "filter",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegTokenFilter#filter(SegToken)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegTokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.WordType.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WordType",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.Utility.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Utility",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "process",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter#process(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HHMMSegmenter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegGraph"],
+            "templateArguments": [],
+            "function": "BiSegGraph",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#BiSegGraph(SegGraph)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createSegGraph",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter#createSegGraph(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HHMMSegmenter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getShortPath",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#getShortPath()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.util.SegmentingTokenizerBase#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.SegmentingTokenizerBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.WordSegmenter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WordSegmenter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HHMMSegmenter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegTokenFilter.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegTokenFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegToken#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegToken",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "char[]"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Arrays.equals(char[],char[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "loadFromObjectInputStream",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#loadFromObjectInputStream(InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "HMMChineseTokenizerFactory",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory#HMMChineseTokenizerFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizerFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TokenizerFactory",
+            "name": "org.apache.lucene.analysis.TokenizerFactory#TokenizerFactory(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Map#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.lucene.internal.hppc.IntArrayList#add(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PathNode"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(PathNode)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.lucene.internal.hppc.IntArrayList#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.PathNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "PathNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SegToken"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(SegToken)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "org.apache.lucene.internal.hppc.IntArrayList#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.internal.hppc.IntArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IntArrayList",
+            "name": "org.apache.lucene.internal.hppc.IntArrayList#IntArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getToList",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#getToList(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInt",
+            "name": "ByteBuffer#getInt()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getCCByGB2312Id",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary#getCCByGB2312Id(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.DataInputStream#read(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "newInputStream",
+            "name": "java.nio.file.Files.newInputStream(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "DataInputStream",
+            "name": "java.io.DataInputStream#DataInputStream(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteOrder"],
+            "templateArguments": [],
+            "function": "order",
+            "name": "ByteBuffer#order(ByteOrder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "wrap",
+            "name": "java.nio.ByteBuffer.wrap(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(byte[],String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.io.DataInputStream#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "makeIndex",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#makeIndex()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isStartExist",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#isStartExist(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "getGB2312Id",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary#getGB2312Id(char)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "char[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "arraycopy",
+            "name": "java.lang.System.arraycopy(char[],int,char[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "ObjectOutputStream",
+            "name": "java.io.ObjectOutputStream#ObjectOutputStream(OutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "newOutputStream",
+            "name": "java.nio.file.Files.newOutputStream(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[][][]"],
+            "templateArguments": [],
+            "function": "writeObject",
+            "name": "java.io.ObjectOutputStream#writeObject(char[][][])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "writeObject",
+            "name": "java.io.ObjectOutputStream#writeObject(char[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["short[]"],
+            "templateArguments": [],
+            "function": "writeObject",
+            "name": "java.io.ObjectOutputStream#writeObject(short[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int[][]"],
+            "templateArguments": [],
+            "function": "writeObject",
+            "name": "java.io.ObjectOutputStream#writeObject(int[][])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getStartList",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#getStartList(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "SmartChineseAnalyzer",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer#SmartChineseAnalyzer(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer.DefaultSetHolder.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer.DefaultSetHolder",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#load()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BigramDictionary",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#BigramDictionary()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "addSuppressed",
+            "name": "java.lang.RuntimeException#addSuppressed(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegToken"],
+            "templateArguments": [],
+            "function": "addToken",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#addToken(SegToken)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "java.lang.StringBuilder#delete(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SegToken",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegToken#SegToken(char[],int,int,int,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegToken",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.StringBuilder#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getPrefixMatch",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#getPrefixMatch(char[],int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "getFrequency",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#getFrequency(char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "char[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getChars",
+            "name": "java.lang.StringBuilder#getChars(int,int,char[],int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HHMMSegmenter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "getPrefixMatch",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#getPrefixMatch(char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getCharTypes",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.HHMMSegmenter.getCharTypes(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "HHMMSegmenter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toTokenList",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#toTokenList()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegToken"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(SegToken)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegTokenPair"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(SegTokenPair)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "values",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap#values()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IntObjectHashMap",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap#IntObjectHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Exception"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegTokenPair"],
+            "templateArguments": [],
+            "function": "addSegTokenPair",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#addSegTokenPair(SegTokenPair)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegTokenPair"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.ArrayList#add(SegTokenPair)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "ArrayList<SegTokenPair>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap#put(int,ArrayList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isToExist",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#isToExist(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegTokenPair"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(SegTokenPair)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["CharArraySet"],
+            "templateArguments": [],
+            "function": "SmartChineseAnalyzer",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer#SmartChineseAnalyzer(CharArraySet)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createComponents",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer#createComponents(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "PorterStemFilter",
+            "name": "org.apache.lucene.analysis.en.PorterStemFilter#PorterStemFilter(TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.en.PorterStemFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "org.apache.lucene.analysis.CharArraySet#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.CharArraySet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HMMChineseTokenizer",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer#HMMChineseTokenizer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tokenizer",
+                "TokenStream"
+            ],
+            "templateArguments": [],
+            "function": "TokenStreamComponents",
+            "name": "TokenStreamComponents#TokenStreamComponents(Tokenizer,TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TokenStreamComponents",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "CharArraySet"
+            ],
+            "templateArguments": [],
+            "function": "StopFilter",
+            "name": "org.apache.lucene.analysis.StopFilter#StopFilter(TokenStream,CharArraySet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.StopFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int[]"],
+            "templateArguments": [],
+            "function": "writeObject",
+            "name": "java.io.ObjectOutputStream#writeObject(int[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long[]"],
+            "templateArguments": [],
+            "function": "writeObject",
+            "name": "java.io.ObjectOutputStream#writeObject(long[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["UnsupportedEncodingException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(UnsupportedEncodingException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SegGraph"],
+            "templateArguments": [],
+            "function": "generateBiSegGraph",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BiSegGraph#generateBiSegGraph(SegGraph)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BiSegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AttributeFactory"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory#create(AttributeFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AttributeFactory"],
+            "templateArguments": [],
+            "function": "HMMChineseTokenizer",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer#HMMChineseTokenizer(AttributeFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "hash2",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary#hash2(char)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "hash1",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary#hash1(char)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HMMChineseTokenizerFactory",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory#HMMChineseTokenizerFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "segmentSentence",
+            "name": "org.apache.lucene.analysis.cn.smart.WordSegmenter#segmentSentence(String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WordSegmenter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "subList",
+            "name": "java.util.List#subList(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SegToken",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "convertSegToken",
+            "name": "org.apache.lucene.analysis.cn.smart.WordSegmenter#convertSegToken(SegToken,String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WordSegmenter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "short",
+                "char[]"
+            ],
+            "templateArguments": [],
+            "function": "findInTable",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.WordDictionary#findInTable(short,char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "WordDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "getBigramItemIndex",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#getBigramItemIndex(char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "hash1",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.AbstractDictionary#hash1(char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setNextSentence",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer#setNextSentence(int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "java.util.List#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "buffer",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(buffer,int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultStopSet",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer.getDefaultStopSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.lucene.analysis.cn.smart.AnalyzerProfile.init()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AnalyzerProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "isRegularFile",
+            "name": "java.nio.file.Files.isRegularFile(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "getAnalysisDataDir",
+            "name": "org.apache.lucene.analysis.cn.smart.AnalyzerProfile.getAnalysisDataDir(Path)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AnalyzerProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "resolve",
+            "name": "Path#resolve(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Path",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getProperty",
+            "name": "java.lang.System.getProperty(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "isDirectory",
+            "name": "java.nio.file.Files.isDirectory(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toAbsolutePath",
+            "name": "java.nio.file.Path#toAbsolutePath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Path",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "Path#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Path",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "getFrequency",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.BigramDictionary#getFrequency(char[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BigramDictionary",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "UncheckedIOException",
+            "name": "java.io.UncheckedIOException#UncheckedIOException(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.UncheckedIOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "loadDefaultStopWordSet",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer.DefaultSetHolder.loadDefaultStopWordSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer.DefaultSetHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "char[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "compareArrayByPrefix",
+            "name": "org.apache.lucene.analysis.cn.smart.Utility.compareArrayByPrefix(char[],int,char[],int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Utility",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.HMMChineseTokenizer.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HMMChineseTokenizer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Locale"],
+            "templateArguments": [],
+            "function": "getSentenceInstance",
+            "name": "java.text.BreakIterator.getSentenceInstance(Locale)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.BreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getProperty",
+            "name": "java.util.Properties#getProperty(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Properties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Path",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "newBufferedReader",
+            "name": "java.nio.file.Files.newBufferedReader(Path,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BufferedReader"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "java.util.Properties#load(BufferedReader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Properties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.Properties.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Properties",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Properties",
+            "name": "java.util.Properties#Properties()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Properties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "int",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "SegTokenPair",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegTokenPair#SegTokenPair(char[],int,int,double)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegTokenPair",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegTokenPair.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegTokenPair",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "TokenStream"
+            ],
+            "templateArguments": [],
+            "function": "normalize",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer#normalize(String,TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "LowerCaseFilter",
+            "name": "org.apache.lucene.analysis.LowerCaseFilter#LowerCaseFilter(TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.LowerCaseFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegTokenPair#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegTokenPair",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SegToken"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.ArrayList#add(SegToken)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "ArrayList<SegToken>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.lucene.internal.hppc.IntObjectHashMap#put(int,ArrayList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.internal.hppc.IntObjectHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SmartChineseAnalyzer",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer#SmartChineseAnalyzer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegToken.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegToken",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "AttributeFactory",
+                "BreakIterator"
+            ],
+            "templateArguments": [],
+            "function": "SegmentingTokenizerBase",
+            "name": "org.apache.lucene.analysis.util.SegmentingTokenizerBase#SegmentingTokenizerBase(AttributeFactory,BreakIterator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.SegmentingTokenizerBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clone",
+            "name": "java.text.BreakIterator#clone()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.BreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.lang.Math.log(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMaxStart",
+            "name": "org.apache.lucene.analysis.cn.smart.hhmm.SegGraph#getMaxStart()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SegGraph",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResourceAsStream",
+            "name": "java.lang.Class#getResourceAsStream(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SmartChineseAnalyzer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "requireResourceNonNull",
+            "name": "org.apache.lucene.util.IOUtils.requireResourceNonNull(InputStream,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "org.apache.lucene.analysis.CharArraySet.unmodifiableSet(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.CharArraySet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getWordSet",
+            "name": "org.apache.lucene.analysis.WordlistLoader.getWordSet(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.WordlistLoader",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "Utility.java",
+                "line": 133,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 161,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 119,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 103,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 101,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 93,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 93,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 122,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 122,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 118,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 125,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 116,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 4,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 362,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 80,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 78,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 85,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 19,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 87,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 19,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 19,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 19,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 93,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 92,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 94,
+                "column": 32,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 69,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 71,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 72,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 27,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 73,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 27,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 66,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 27,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 119,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 132,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 130,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 132,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 134,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 119,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 114,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 117,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 33,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "PathNode.java",
+                "line": 59,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 39,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 202,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 42,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 204,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 40,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 21,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 33,
+                "column": 1,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 21,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 499,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 500,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 46,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "SegTokenFilter.java",
+                "line": 30,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "SegTokenFilter.java",
+                "line": 30,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 49,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 210,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 209,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 52,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 211,
+                "column": 32,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 52,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 32,
+                "column": 41,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 34,
+                "column": 40,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 58,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "SegToken.java",
+                "line": 90,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "SegToken.java",
+                "line": 88,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 61,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 156,
+                "column": 43,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 63,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 152,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 63,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 153,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 63,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 155,
+                "column": 46,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 63,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 154,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 63,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizerFactory.java",
+                "line": 45,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizerFactory.java",
+                "line": 41,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizerFactory.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 64,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizerFactory.java",
+                "line": 44,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 206,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 208,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 176,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 212,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 173,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 202,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 202,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 214,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 213,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 204,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 172,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 172,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 211,
+                "column": 18,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 171,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 185,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 191,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 199,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 201,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 201,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 194,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 179,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 55,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 45,
+                "column": 47,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 82,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 217,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 238,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 191,
+                "column": 72,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 215,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 212,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 191,
+                "column": 51,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 191,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 200,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 200,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 213,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 215,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 215,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 200,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 214,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 226,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 213,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 216,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 225,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 239,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 213,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 198,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 217,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 177,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 217,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 241,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 16,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 81,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 92,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 73,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 92,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 72,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 92,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 72,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 92,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 78,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 77,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 92,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 259,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 12,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 282,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 12,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 245,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 12,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 289,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 164,
+                "column": 38,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 15,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 164,
+                "column": 61,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 15,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 167,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 15,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 166,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 15,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 165,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 15,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 168,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 15,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 54,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 103,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 100,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 100,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 68,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 73,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 62,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 60,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 66,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 56,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 56,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 69,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 89,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 95,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 70,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 152,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 79,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 52,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 70,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 143,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 124,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 75,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 102,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 87,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 65,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 142,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 78,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 177,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 88,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 153,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 83,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 97,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 77,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 140,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 179,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 45,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 45,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 163,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 172,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 64,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 161,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 125,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 96,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 81,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 171,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 178,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 173,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 44,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 162,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 122,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 54,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 138,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 125,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 135,
+                "column": 32,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 125,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 138,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 125,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 136,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 125,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 136,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 125,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 140,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 125,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 224,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 130,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 224,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 130,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 222,
+                "column": 58,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 130,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 227,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 130,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 221,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 130,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 221,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 130,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 33,
+                "column": 66,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 115,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 33,
+                "column": 66,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 115,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 141,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 6,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 141,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 6,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 144,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 6,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 31,
+                "column": 44,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 122,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 443,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 123,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 124,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 127,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 122,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 127,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 121,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 127,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 117,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 127,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 116,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 127,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 116,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 127,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 147,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 148,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 146,
+                "column": 41,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 146,
+                "column": 41,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 145,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 151,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 150,
+                "column": 42,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 136,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 32,
+                "column": 1,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 109,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 39,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 109,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 112,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 142,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 130,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 143,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 131,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 143,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 125,
+                "column": 33,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 143,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 134,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 143,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 132,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 143,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 102,
+                "column": 61,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 35,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 102,
+                "column": 38,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 35,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 104,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 35,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 103,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 35,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "AbstractDictionary.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 95,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 41,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 53,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 42,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 53,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 53,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizerFactory.java",
+                "line": 56,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 154,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 370,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 18,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 372,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 18,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 371,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 18,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 341,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 5,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizerFactory.java",
+                "line": 49,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 158,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 50,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 159,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 47,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 159,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 45,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 159,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 52,
+                "column": 32,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 159,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 50,
+                "column": 38,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 159,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 49,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 159,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 36,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 81,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 36,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 84,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 36,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 486,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 118,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 484,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 118,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 57,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 162,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "WordSegmenter.java",
+                "line": 80,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 162,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 229,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 164,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 223,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 164,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 227,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 164,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 125,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 139,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 61,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 166,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 60,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 166,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 61,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 166,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 306,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 14,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 317,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 14,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 297,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 14,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 111,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 108,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 169,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 62,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 71,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 62,
+                "column": 49,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 54,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 48,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 56,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 55,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 59,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 60,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 61,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 54,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 53,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 56,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 63,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 61,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 170,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 249,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 179,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 80,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 105,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 76,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 105,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 467,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 117,
+            "callee": 182
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 455,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 117,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 464,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 117,
+            "callee": 182
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 39,
+                "column": 54,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 183,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "AbstractDictionary.java",
+                "line": 87,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "AbstractDictionary.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 84,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 135,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 81,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 82,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 173,
+            "callee": 185
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 80,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 173,
+            "callee": 186
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 173,
+            "callee": 187
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 79,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 173,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 79,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 173,
+            "callee": 189
+        },
+        {
+            "callSite": {
+                "filename": "SegTokenPair.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 190,
+            "callee": 191
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 44,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 94,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 139,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 192,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 424,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 163,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "SegTokenPair.java",
+                "line": 72,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 194,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "SegTokenPair.java",
+                "line": 70,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 194,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 136,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 20,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "AnalyzerProfile.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 23,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 138,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 168,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 179,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 169,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 170,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 162,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 162,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 186,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 152,
+                "column": 72,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 171,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 162,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 171,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 152,
+                "column": 51,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 198,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 160,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 180,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 152,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 171,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 156,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 172,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 185,
+                "column": 25,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 169,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "BigramDictionary.java",
+                "line": 169,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 34,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 100,
+                "column": 37,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 100,
+                "column": 37,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 104,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 105,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 99,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 101,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 195
+        },
+        {
+            "callSite": {
+                "filename": "SegGraph.java",
+                "line": 102,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 111,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 97,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 197,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "SegToken.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 114,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 35,
+                "column": 74,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 152,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 35,
+                "column": 74,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 152,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "HHMMSegmenter.java",
+                "line": 196,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 124,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 50,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 146,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 390,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 47,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 389,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 47,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "WordDictionary.java",
+                "line": 388,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 47,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 155,
+            "callee": 199
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 55,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 155,
+            "callee": 200
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 155,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "HMMChineseTokenizer.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 155,
+            "callee": 183
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 103,
+                "column": 18,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 201
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 66,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 64,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 110,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 80,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 58,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 91,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 81,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 52,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 202
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 97,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "BiSegGraph.java",
+                "line": 109,
+                "column": 38,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart/hhmm"
+            },
+            "caller": 153,
+            "callee": 190
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 89,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 181,
+            "callee": 203
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 84,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 181,
+            "callee": 204
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 88,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 181,
+            "callee": 205
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 86,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 181,
+            "callee": 206
+        },
+        {
+            "callSite": {
+                "filename": "SmartChineseAnalyzer.java",
+                "line": 87,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/cn/smart"
+            },
+            "caller": 181,
+            "callee": 207
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.lucene.analysis.cn.smart",
+            "isRoot": false,
+            "module": -1,
+            "name": "smart",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.lucene.analysis.cn.smart.hhmm",
+            "isRoot": false,
+            "module": -1,
+            "name": "hhmm",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
