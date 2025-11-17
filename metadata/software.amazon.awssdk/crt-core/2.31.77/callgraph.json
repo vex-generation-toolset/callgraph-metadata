@@ -1,0 +1,1621 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DefaultBuilder",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#DefaultBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "nonProxyHosts",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#nonProxyHosts(Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.time.Duration#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultBuilder<?>"],
+            "templateArguments": [],
+            "function": "CrtConnectionHealthConfiguration",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration#CrtConnectionHealthConfiguration(DefaultBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isPositive",
+            "name": "software.amazon.awssdk.utils.Validate.isPositive(Duration,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Long",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(Long,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Boolean",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Boolean,Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Set<String>",
+                "Set<String>"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Set,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Set<String>"
+            ],
+            "templateArguments": [],
+            "function": "doesTargetMatchNonProxyHosts",
+            "name": "software.amazon.awssdk.crtcore.CrtConfigurationUtils.doesTargetMatchNonProxyHosts(String,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConfigurationUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.Set#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "orElse",
+            "name": "Optional#orElse(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<? super Set<String>, ? extends Boolean>"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "Optional#map(Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Set#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "setUseSystemPropertyValues",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#setUseSystemPropertyValues(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "useSystemPropertyValues",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#useSystemPropertyValues(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.time.Duration#equals(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DefaultBuilder<?>",
+                "ProxyConfigProvider"
+            ],
+            "templateArguments": [],
+            "function": "resolvePassword",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.resolvePassword(DefaultBuilder,ProxyConfigProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "password",
+            "name": "software.amazon.awssdk.utils.ProxyConfigProvider#password()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ProxyConfigProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "software.amazon.awssdk.utils.StringUtils.isEmpty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.StringUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DefaultBuilder<?>",
+                "ProxyConfigProvider"
+            ],
+            "templateArguments": [],
+            "function": "resolveHost",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.resolveHost(DefaultBuilder,ProxyConfigProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "host",
+            "name": "software.amazon.awssdk.utils.ProxyConfigProvider#host()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ProxyConfigProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nonProxyHosts",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#nonProxyHosts()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "java.util.Collections.unmodifiableSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptySet",
+            "name": "java.util.Collections.emptySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CrtConfigurationUtils",
+            "name": "software.amazon.awssdk.crtcore.CrtConfigurationUtils#CrtConfigurationUtils()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConfigurationUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crtcore.CrtConfigurationUtils.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConfigurationUtils",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "DefaultBuilder<?>",
+                "ProxyConfigProvider"
+            ],
+            "templateArguments": [],
+            "function": "resolveUsername",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.resolveUsername(DefaultBuilder,ProxyConfigProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "userName",
+            "name": "software.amazon.awssdk.utils.ProxyConfigProvider#userName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ProxyConfigProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CrtConnectionHealthConfiguration"],
+            "templateArguments": [],
+            "function": "DefaultBuilder",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration.DefaultBuilder#DefaultBuilder(CrtConnectionHealthConfiguration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration.DefaultBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration.DefaultBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["DefaultBuilder<?>"],
+            "templateArguments": [],
+            "function": "CrtProxyConfiguration",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#CrtProxyConfiguration(DefaultBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DefaultBuilder<?>",
+                "ProxyConfigProvider"
+            ],
+            "templateArguments": [],
+            "function": "resolveNonProxyHosts",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#resolveNonProxyHosts(DefaultBuilder,ProxyConfigProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DefaultBuilder<?>",
+                "ProxyConfigProvider"
+            ],
+            "templateArguments": [],
+            "function": "resolvePort",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.resolvePort(DefaultBuilder,ProxyConfigProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DefaultBuilder",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration.DefaultBuilder#DefaultBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CrtProxyConfiguration",
+                "TlsContext"
+            ],
+            "templateArguments": [],
+            "function": "resolveProxy",
+            "name": "software.amazon.awssdk.crtcore.CrtConfigurationUtils.resolveProxy(CrtProxyConfiguration,TlsContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConfigurationUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setAuthorizationPassword",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#setAuthorizationPassword(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "password",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#password()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "username",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#username()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setAuthorizationType",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#setAuthorizationType(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TlsContext"],
+            "templateArguments": [],
+            "function": "setTlsContext",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#setTlsContext(TlsContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setAuthorizationUsername",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#setAuthorizationUsername(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "scheme",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#scheme()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "port",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#port()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "host",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration#host()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "java.util.Optional.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HttpProxyOptions",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#HttpProxyOptions()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpProxyOptions"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(HttpProxyOptions)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setPort",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#setPort(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setHost",
+            "name": "software.amazon.awssdk.crt.http.HttpProxyOptions#setHost(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nonProxyHosts",
+            "name": "software.amazon.awssdk.utils.ProxyConfigProvider#nonProxyHosts()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ProxyConfigProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "setuseEnvironmentVariableValues",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#setuseEnvironmentVariableValues(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "useEnvironmentVariableValues",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#useEnvironmentVariableValues(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CrtProxyConfiguration"],
+            "templateArguments": [],
+            "function": "DefaultBuilder",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#DefaultBuilder(CrtProxyConfiguration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "addNonProxyHost",
+            "name": "software.amazon.awssdk.crtcore.CrtProxyConfiguration.DefaultBuilder#addNonProxyHost(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtProxyConfiguration.DefaultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CrtConnectionHealthConfiguration"],
+            "templateArguments": [],
+            "function": "resolveHttpMonitoringOptions",
+            "name": "software.amazon.awssdk.crtcore.CrtConfigurationUtils.resolveHttpMonitoringOptions(CrtConnectionHealthConfiguration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConfigurationUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.crt.http.HttpMonitoringOptions.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpMonitoringOptions",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HttpMonitoringOptions",
+            "name": "software.amazon.awssdk.crt.http.HttpMonitoringOptions#HttpMonitoringOptions()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpMonitoringOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "saturatedCast",
+            "name": "software.amazon.awssdk.utils.NumericUtils.saturatedCast(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.NumericUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setAllowableThroughputFailureIntervalSeconds",
+            "name": "software.amazon.awssdk.crt.http.HttpMonitoringOptions#setAllowableThroughputFailureIntervalSeconds(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpMonitoringOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "minimumThroughputInBps",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration#minimumThroughputInBps()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "minimumThroughputTimeout",
+            "name": "software.amazon.awssdk.crtcore.CrtConnectionHealthConfiguration#minimumThroughputTimeout()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrtConnectionHealthConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSeconds",
+            "name": "java.time.Duration#getSeconds()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpMonitoringOptions"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(HttpMonitoringOptions)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "setMinThroughputBytesPerSecond",
+            "name": "software.amazon.awssdk.crt.http.HttpMonitoringOptions#setMinThroughputBytesPerSecond(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.crt.http.HttpMonitoringOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "port",
+            "name": "software.amazon.awssdk.utils.ProxyConfigProvider#port()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ProxyConfigProvider",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 309,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 367,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 72,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 33,
+                "column": 41,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 31,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 6,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 6,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 187,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 184,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 180,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 190,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 177,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 174,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 162,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 171,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 66,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 64,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 64,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 64,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 203,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 385,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 57,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 24,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 66,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 63,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 60,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 26,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 87,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 154,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 154,
+                "column": 84,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 31,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 71,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 68,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 36,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 114,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 56,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 53,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 54,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 40,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 52,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 40,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 55,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 40,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 40,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "CrtConnectionHealthConfiguration.java",
+                "line": 111,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 44,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 54,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 52,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 40,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 53,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 57,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 49,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 55,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 53,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 48,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 46,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 45,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 41,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 40,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 40,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 43,
+                "column": 47,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 43,
+                "column": 47,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 60,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 38,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 52,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 54,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 95,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 41,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 381,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 312,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 64,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 374,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 374,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 376,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 65,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 76,
+                "column": 55,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 76,
+                "column": 55,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 78,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 79,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 77,
+                "column": 62,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 78,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 74,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 78,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 80,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "CrtConfigurationUtils.java",
+                "line": 77,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 69,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "CrtProxyConfiguration.java",
+                "line": 79,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/crtcore"
+            },
+            "caller": 42,
+            "callee": 79
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "software.amazon.awssdk.crtcore",
+        "isRoot": false,
+        "module": -1,
+        "name": "crtcore",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
