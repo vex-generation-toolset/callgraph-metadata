@@ -1,0 +1,116 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Generate Root Cause
+on:
+  workflow_dispatch:
+    inputs:
+      artifact:
+        required: true
+        type: string
+        description: GAV coordinate of the project to analyze in the format group-id:artifact-id:version (e.g., org.apache.logging.log4j:log4j-core:2.25.2)
+      cve:
+        required: true
+        type: string
+        description: CVE identifier to analyze (e.g., CVE-2023-34362)
+
+run-name: Generate Call Graph for ${{ inputs.artifact }}
+
+# Empty permissions at the workflow level; specific jobs will set their own permissions
+permissions: { }
+
+jobs:
+  generate-call-graph:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      packages: read
+    steps:
+      - name: Checkout Metadata Repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
+        with:
+          repository: ${{ github.repository }}
+          path: metadata
+
+      - name: Determine Input Parameters
+        env:
+          ARTIFACT: ${{ inputs.artifact }}
+        run: |
+          echo "Artifact to analyze: $ARTIFACT"
+          GAV_PARTS=(${ARTIFACT//:/ })
+          VERSION="${GAV_PARTS[2]}"
+          echo "Version extracted: $VERSION"
+          # Compute PURL
+          PURL="pkg:maven/${GAV_PARTS[0]}/${GAV_PARTS[1]}@${VERSION}"
+          echo "Computed PURL: $PURL"
+          echo "PURL=$PURL" >> $GITHUB_ENV
+          # Find location metadata file
+          METADATA_FILE="metadata/callgraphs/${GAV_PARTS[0]}/${GAV_PARTS[1]}/location.json"
+          if [ ! -f "$METADATA_FILE" ]; then
+            echo "Metadata file not found: $METADATA_FILE"
+            exit 1
+          fi
+          # Extract metadata to environment variables
+          REPOSITORY="$(jq -r .repository "$METADATA_FILE")"
+          # Debug output
+          echo "Source repository: $REPOSITORY"
+          # Set environment variables for later steps
+          echo "REPOSITORY=$REPOSITORY" >> $GITHUB_ENV
+
+      - name: Checkout Root Cause Service
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
+        with:
+          repository: vex-generation-toolset/root-cause-service
+          ref: main
+          path: root-cause-service
+
+      - name: Run Root Cause Service
+        shell: bash
+        env:
+          ARTIFACT: ${{ inputs.artifact }}
+          CVE: ${{ inputs.cve }}
+          # Secrets
+          GITHUB_TOKEN: ${{ github.token }}
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          OPEN_ROUTER_API_KEY: ${{ secrets.OPEN_ROUTER_API_KEY }}
+        run: |
+          pip install -r root-cause-service/requirements.txt
+          # Create input parameters file
+          jq --null-input \
+            --arg purl "$PURL"
+            --arg repo "$REPOSITORY" \
+            --arg cve "$CVE" \
+            '{purl: $purl, repo: $repo, cve: $cve}' > input.json
+          # Create output directory
+          CVE_PARTS=(${CVE//-/ })
+          OUTPUT_DIR="metadata/vulnerabilities/${CVE_PARTS[1]}/${CVE_PARTS[2]}"
+          mkdir -p "$OUTPUT_DIR"
+          # Run the root cause analysis
+          python root-cause-service/main.py --input input.json --output-dir "$OUTPUT_DIR/root-cause.json"
+
+      - name: Create Pull Request
+        shell: bash
+        env:
+          ARTIFACT: ${{ inputs.artifact }}
+          CVE: ${{ inputs.cve }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd metadata
+          # Create PR branch name
+          BRANCH_NAME="root-cause/$CVE"
+          git checkout -b "$BRANCH_NAME"
+          # Commit changes
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git commit -m "Add root cause for ${CVE}"; then
+            git push origin "$BRANCH_NAME"
+            # Create Pull Request
+            gh pr create \
+                --title "Add root cause for ${CVE}" \
+                --body "This PR adds the root cause for ${CVE}." \
+                --head "$BRANCH_NAME" \
+                --base main
+          else
+            echo "No changes to commit; skipping PR creation"
+          fi
