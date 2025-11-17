@@ -1,5 +1,5 @@
 {
   "repository": "apache/directory-kerby",
   "tag": "refs/tags/kerby-all-%s",
-  "relative_path": "kerby-kerb/kerby-asn1"
+  "relative_path": "kerby-common/kerby-asn1"
 }

@@ -1,5 +1,5 @@
 {
   "repository": "apache/curator",
   "tag": "refs/tags/apache-curator-%s",
-  "relative_path": "curator/client"
+  "relative_path": "curator-client"
 }
