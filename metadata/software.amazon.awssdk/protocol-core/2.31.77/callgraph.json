@@ -1,0 +1,3120 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "marshall",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.GreedyPathMarshaller#marshall(String,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller.GreedyPathMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "replace",
+            "name": "software.amazon.awssdk.utils.StringUtils.replace(String,String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.StringUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "urlEncodeIgnoreSlashes",
+            "name": "software.amazon.awssdk.utils.http.SdkHttpUtils.urlEncodeIgnoreSlashes(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.http.SdkHttpUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notEmpty",
+            "name": "software.amazon.awssdk.utils.Validate.notEmpty(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "trimLeadingSlash",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.trimLeadingSlash(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "MarshallingLocationRegistry",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry#MarshallingLocationRegistry(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.Map#forEach(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "v#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "v",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<MarshallLocation>"],
+            "templateArguments": [],
+            "function": "EnumMap",
+            "name": "java.util.EnumMap#EnumMap(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "MarshallLocation",
+                "MarshallingType<T>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "register",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.Builder#register(MarshallLocation,MarshallingType,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MarshallLocation",
+                "MarshallingType<T>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "register",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder#register(MarshallLocation,MarshallingType,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MarshallingType<T>"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(MarshallingType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "MarshallLocation",
+                "Map<MarshallLocation, TimestampFormatTrait>"
+            ],
+            "templateArguments": [],
+            "function": "getDefaultTimestampFormat",
+            "name": "software.amazon.awssdk.protocols.core.InstantToString#getDefaultTimestampFormat(MarshallLocation,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstantToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.core.exception.SdkClientException.create(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.exception.SdkClientException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MarshallLocation"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(MarshallLocation)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Number",
+                "SdkField<Instant>"
+            ],
+            "templateArguments": [],
+            "function": "convert",
+            "name": "software.amazon.awssdk.protocols.core.NumberToInstant#convert(Number,SdkField)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NumberToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "round",
+            "name": "java.lang.Math.round(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "ofEpochMilli",
+            "name": "java.time.Instant.ofEpochMilli(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SdkField<Instant>"
+            ],
+            "templateArguments": [],
+            "function": "convert",
+            "name": "software.amazon.awssdk.protocols.core.StringToInstant#convert(String,SdkField)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "location",
+            "name": "software.amazon.awssdk.core.SdkField#location()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.SdkField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofEpochMilli",
+            "name": "java.time.Instant.ofEpochMilli(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkField<Instant>"],
+            "templateArguments": [],
+            "function": "resolveTimestampFormat",
+            "name": "software.amazon.awssdk.protocols.core.NumberToInstant#resolveTimestampFormat(SdkField)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NumberToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.GreedyLeadingSlashPathMarshaller.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller.GreedyLeadingSlashPathMarshaller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.NonGreedyPathMarshaller.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller.NonGreedyPathMarshaller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.GreedyPathMarshaller.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller.GreedyPathMarshaller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "AbstractMarshallingRegistry",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry#AbstractMarshallingRegistry(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.Set#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Instant",
+                "SdkField<Instant>"
+            ],
+            "templateArguments": [],
+            "function": "convert",
+            "name": "software.amazon.awssdk.protocols.core.InstantToString#convert(Instant,SdkField)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstantToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Instant"],
+            "templateArguments": [],
+            "function": "formatIso8601Date",
+            "name": "software.amazon.awssdk.utils.DateUtils.formatIso8601Date(Instant)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.DateUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Instant"],
+            "templateArguments": [],
+            "function": "formatUnixTimestampInstant",
+            "name": "software.amazon.awssdk.utils.DateUtils.formatUnixTimestampInstant(Instant)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.DateUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Instant"],
+            "templateArguments": [],
+            "function": "formatRfc822Date",
+            "name": "software.amazon.awssdk.utils.DateUtils.formatRfc822Date(Instant)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.DateUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<TimestampFormatTrait>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "getOptionalTrait",
+            "name": "software.amazon.awssdk.core.SdkField#getOptionalTrait(Class,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.SdkField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AbstractMarshallingRegistry"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.Builder#Builder(AbstractMarshallingRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<MarshallingType<?>>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.Set#addAll(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "PathMarshaller",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller#PathMarshaller()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallLocation, TimestampFormatTrait>"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.protocols.core.NumberToInstant.create(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NumberToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallLocation, TimestampFormatTrait>"],
+            "templateArguments": [],
+            "function": "NumberToInstant",
+            "name": "software.amazon.awssdk.protocols.core.NumberToInstant#NumberToInstant(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NumberToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OperationInfo",
+                "URI"
+            ],
+            "templateArguments": [],
+            "function": "createSdkHttpRequest",
+            "name": "software.amazon.awssdk.protocols.core.ProtocolUtils.createSdkHttpRequest(OperationInfo,URI)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtocolUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "encodedPath",
+            "name": "software.amazon.awssdk.http.SdkHttpFullRequest.Builder#encodedPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.SdkHttpFullRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "encodedPath",
+            "name": "software.amazon.awssdk.http.SdkHttpFullRequest.Builder#encodedPath(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.SdkHttpFullRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "requestUri",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo#requestUri()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.http.SdkHttpFullRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.SdkHttpFullRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "httpMethod",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo#httpMethod()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "appendUri",
+            "name": "software.amazon.awssdk.utils.http.SdkHttpUtils.appendUri(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.http.SdkHttpUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Builder",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "addStaticQueryParametersToRequest",
+            "name": "software.amazon.awssdk.protocols.core.ProtocolUtils.addStaticQueryParametersToRequest(Builder,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtocolUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MarshallingTypeRegistry"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder#Builder(MarshallingTypeRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallingType<?>, Object>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallingKnownType, Object>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "MarshallingTypeRegistry",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry#MarshallingTypeRegistry(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ValueToStringConverter",
+            "name": "software.amazon.awssdk.protocols.core.ValueToStringConverter#ValueToStringConverter()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ValueToStringConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.ValueToStringConverter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ValueToStringConverter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "OperationMetadataAttribute<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putAdditionalMetadata",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo.Builder#putAdditionalMetadata(OperationMetadataAttribute,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OperationMetadataAttribute<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "software.amazon.awssdk.utils.AttributeMap.Builder#put(OperationMetadataAttribute,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.AttributeMap.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.protocols.core.ValueToStringConverter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ValueToStringConverter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asByteArray",
+            "name": "b#asByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "b",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "toBase64",
+            "name": "software.amazon.awssdk.utils.BinaryUtils.toBase64(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.BinaryUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OperationMetadataAttribute<T>"],
+            "templateArguments": [],
+            "function": "addtionalMetadata",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo#addtionalMetadata(OperationMetadataAttribute)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OperationMetadataAttribute<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "software.amazon.awssdk.utils.AttributeMap#get(OperationMetadataAttribute)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.AttributeMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["UnsafeValueType"],
+            "templateArguments": [],
+            "function": "OperationMetadataAttribute",
+            "name": "software.amazon.awssdk.protocols.core.OperationMetadataAttribute#OperationMetadataAttribute(UnsafeValueType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationMetadataAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.OperationMetadataAttribute.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationMetadataAttribute",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["UnsafeValueType"],
+            "templateArguments": [],
+            "function": "Object",
+            "name": "java.lang.Object#Object(UnsafeValueType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.ExceptionMetadata.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ExceptionMetadata.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.ExceptionMetadata.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ExceptionMetadata.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "MarshallLocation",
+                "MarshallingType<?>"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry#get(MarshallLocation,MarshallingType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MarshallLocation",
+                "MarshallingType<?>"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry#get(MarshallLocation,MarshallingType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallLocation, TimestampFormatTrait>"],
+            "templateArguments": [],
+            "function": "StringToInstant",
+            "name": "software.amazon.awssdk.protocols.core.StringToInstant#StringToInstant(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.StringToInstant.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToInstant",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["MarshallingLocationRegistry"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder#Builder(MarshallingLocationRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "v#toBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "v",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "toMarshallingType",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry#toMarshallingType(T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "populateMarshallingTypeCache",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry#populateMarshallingTypeCache(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.Map#containsKey(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<T>"],
+            "templateArguments": [],
+            "function": "OperationMetadataAttribute",
+            "name": "software.amazon.awssdk.protocols.core.OperationMetadataAttribute#OperationMetadataAttribute(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationMetadataAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<T>"],
+            "templateArguments": [],
+            "function": "Object",
+            "name": "java.lang.Object#Object(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "marshall",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.GreedyLeadingSlashPathMarshaller#marshall(String,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller.GreedyLeadingSlashPathMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MarshallLocation",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.Map#computeIfAbsent(MarshallLocation,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "MarshallingTypeRegistry#builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MarshallingTypeRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "putRawQueryParameter",
+            "name": "software.amazon.awssdk.http.SdkHttpFullRequest.Builder#putRawQueryParameter(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.http.SdkHttpFullRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<MarshallingKnownType, Object>"],
+            "templateArguments": [],
+            "function": "EnumMap",
+            "name": "java.util.EnumMap#EnumMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.protocols.core.ExceptionMetadata.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ExceptionMetadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallLocation, TimestampFormatTrait>"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.protocols.core.StringToInstant.create(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<String, Instant>"],
+            "templateArguments": [],
+            "function": "safeParseDate",
+            "name": "software.amazon.awssdk.protocols.core.StringToInstant#safeParseDate(Function)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "apply",
+            "name": "java.util.function.Function#apply(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Function",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parseRfc822Date",
+            "name": "software.amazon.awssdk.utils.DateUtils.parseRfc822Date(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.DateUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkField<Instant>"],
+            "templateArguments": [],
+            "function": "resolveTimestampFormat",
+            "name": "software.amazon.awssdk.protocols.core.StringToInstant#resolveTimestampFormat(SdkField)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToInstant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parseIso8601Date",
+            "name": "software.amazon.awssdk.utils.DateUtils.parseIso8601Date(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.DateUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingLocationRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.AttributeMap.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.AttributeMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTargetClass",
+            "name": "software.amazon.awssdk.core.protocol.MarshallingType#getTargetClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.protocol.MarshallingType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.Map#containsKey(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<?>",
+                "MarshallingType<?>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Class,MarshallingType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.core.exception.SdkClientException.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.exception.SdkClientException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "marshall",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.NonGreedyPathMarshaller#marshall(String,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller.NonGreedyPathMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "urlEncode",
+            "name": "software.amazon.awssdk.utils.http.SdkHttpUtils.urlEncode(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.http.SdkHttpUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MarshallingType<?>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry#get(MarshallingType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MarshallingType<?>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(MarshallingType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKnownType",
+            "name": "software.amazon.awssdk.core.protocol.MarshallingType#getKnownType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.protocol.MarshallingType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MarshallingKnownType"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(MarshallingKnownType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "OperationInfo",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo#OperationInfo(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.utils.AttributeMap.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.AttributeMap.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallLocation, TimestampFormatTrait>"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.protocols.core.InstantToString.create(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstantToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<MarshallLocation, TimestampFormatTrait>"],
+            "templateArguments": [],
+            "function": "InstantToString",
+            "name": "software.amazon.awssdk.protocols.core.InstantToString#InstantToString(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstantToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "toSdkBytes",
+            "name": "software.amazon.awssdk.protocols.core.StringToValueConverter.toSdkBytes(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToValueConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "fromByteArray",
+            "name": "software.amazon.awssdk.core.SdkBytes.fromByteArray(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.SdkBytes",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fromBase64",
+            "name": "software.amazon.awssdk.utils.BinaryUtils.fromBase64(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.BinaryUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.NumberToInstant.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NumberToInstant",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ProtocolUtils",
+            "name": "software.amazon.awssdk.protocols.core.ProtocolUtils#ProtocolUtils()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtocolUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.ProtocolUtils.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtocolUtils",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringToValueConverter",
+            "name": "software.amazon.awssdk.protocols.core.StringToValueConverter#StringToValueConverter()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToValueConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.StringToValueConverter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StringToValueConverter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "format",
+            "name": "software.amazon.awssdk.core.traits.TimestampFormatTrait#format()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.traits.TimestampFormatTrait",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<TimestampFormatTrait>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "getTrait",
+            "name": "software.amazon.awssdk.core.SdkField#getTrait(Class,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.SdkField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.PathMarshaller.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PathMarshaller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<MarshallingKnownType>"],
+            "templateArguments": [],
+            "function": "EnumMap",
+            "name": "java.util.EnumMap#EnumMap(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "ExceptionMetadata",
+            "name": "software.amazon.awssdk.protocols.core.ExceptionMetadata#ExceptionMetadata(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ExceptionMetadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.ExceptionMetadata.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ExceptionMetadata",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.protocols.core.OperationInfo.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationInfo.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.protocols.core.ExceptionMetadata.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ExceptionMetadata.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.core.InstantToString.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstantToString",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "forUnsafe",
+            "name": "software.amazon.awssdk.protocols.core.OperationMetadataAttribute.forUnsafe(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OperationMetadataAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "UnsafeValueType",
+            "name": "UnsafeValueType#UnsafeValueType(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "UnsafeValueType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MarshallingType<T>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "register",
+            "name": "software.amazon.awssdk.protocols.core.AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder#register(MarshallingType,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AbstractMarshallingRegistry.MarshallingTypeRegistry.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MarshallingKnownType",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(MarshallingKnownType,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MarshallingType<T>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(MarshallingType,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 73,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 75,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 72,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 75,
+                "column": 76,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 119,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 119,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 118,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 106,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 105,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 199,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 68,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 66,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 54,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 56,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 49,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 58,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 54,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 51,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 18,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 40,
+                "column": 62,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 29,
+                "column": 53,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 34,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 40,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 42,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 42,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 29,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 39,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 29,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 53,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 57,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 50,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 55,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 50,
+                "column": 64,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 59,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 34,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 99,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 97,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 98,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 39,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 60,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 27,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 81,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 46,
+                "column": 59,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 46,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 47,
+                "column": 92,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 41,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 43,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 46,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 47,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 46,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 204,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 203,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 202,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 54,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 188,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 57,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 139,
+                "column": 87,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 58,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 221,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ValueToStringConverter.java",
+                "line": 99,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 227,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "ValueToStringConverter.java",
+                "line": 97,
+                "column": 98,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "ValueToStringConverter.java",
+                "line": 97,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 68,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 28,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 137,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "OperationMetadataAttribute.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "OperationMetadataAttribute.java",
+                "line": 35,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 70,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ExceptionMetadata.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 54,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 145,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 79,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 144,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 79,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 145,
+                "column": 93,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 67,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 65,
+                "column": 41,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 81,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 64,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 81,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 79,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 26,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OperationMetadataAttribute.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 85,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OperationMetadataAttribute.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 85,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 84,
+                "column": 78,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 87,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 83,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 87,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 84,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 87,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 153,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 11,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 153,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 11,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 75,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 53,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 73,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 53,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 91,
+                "column": 66,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 41,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 91,
+                "column": 66,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 41,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 174,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 60,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 173,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 60,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "ExceptionMetadata.java",
+                "line": 61,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 95,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 192,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 96,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 102,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 97,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 57,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 57,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 59,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 55,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 50,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 61,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 55,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 53,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 21,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 131,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 162,
+                "column": 59,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 74,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 83,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 82,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 83,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 72,
+                "column": 18,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 83,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 75,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 83,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 79,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 83,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 73,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 75,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 98,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 64,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 112,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 63,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 112,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 64,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 112,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 184,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 114,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 180,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 114,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 182,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 114,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 93,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 118,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 94,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 118,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 119,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 49,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 119,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 74,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 122,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "StringToValueConverter.java",
+                "line": 97,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 124,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "StringToValueConverter.java",
+                "line": 97,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 124,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 40,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 45,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 39,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 45,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "ProtocolUtils.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 128,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 164,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 130,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "StringToValueConverter.java",
+                "line": 93,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 131,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 86,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 101,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 89,
+                "column": 90,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 101,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 86,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 101,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 93,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 101,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 88,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 101,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "StringToInstant.java",
+                "line": 84,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 101,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 123,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 76,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 125,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 76,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "PathMarshaller.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 43,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 141,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 104,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 197,
+                "column": 66,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 14,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 197,
+                "column": 66,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 14,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 196,
+                "column": 68,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 14,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "ExceptionMetadata.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 139,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 144,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 141,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 65,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 24,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 67,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 24,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 63,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 24,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 72,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 24,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 65,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 24,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "NumberToInstant.java",
+                "line": 68,
+                "column": 90,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 24,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OperationInfo.java",
+                "line": 235,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 142,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "ExceptionMetadata.java",
+                "line": 91,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 143,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "InstantToString.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 123,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 135,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 42,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "OperationMetadataAttribute.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 145,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OperationMetadataAttribute.java",
+                "line": 45,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 145,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 159,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 30,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 213,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 147,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 215,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 147,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "AbstractMarshallingRegistry.java",
+                "line": 211,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/core"
+            },
+            "caller": 147,
+            "callee": 116
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "software.amazon.awssdk.protocols.core",
+        "isRoot": false,
+        "module": -1,
+        "name": "core",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
