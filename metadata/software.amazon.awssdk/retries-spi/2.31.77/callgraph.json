@@ -1,0 +1,2372 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.RefreshRetryTokenResponse.create(RetryToken,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RefreshRetryTokenResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenResponseImpl.create(RetryToken,Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenResponseImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "suggestedDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl#suggestedDelay()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "computeDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithJitter#computeDelay(int)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isPositive",
+            "name": "software.amazon.awssdk.utils.Validate.isPositive(int,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "nextInt",
+            "name": "java.util.Random#nextInt(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Random",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofMillis",
+            "name": "java.time.Duration.ofMillis(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.function.Supplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Supplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "exponentialDelayWithoutJitter",
+            "name": "software.amazon.awssdk.retries.api.BackoffStrategy.exponentialDelayWithoutJitter(Duration,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BackoffStrategy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "ExponentialDelayWithoutJitter",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithoutJitter#ExponentialDelayWithoutJitter(Duration,Duration)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithoutJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "fixedDelayWithoutJitter",
+            "name": "software.amazon.awssdk.retries.api.BackoffStrategy.fixedDelayWithoutJitter(Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BackoffStrategy",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "FixedDelayWithoutJitter",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithoutJitter#FixedDelayWithoutJitter(Duration)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithoutJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "RefreshRetryTokenRequestImpl",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl#RefreshRetryTokenRequestImpl(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(RetryToken,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(Duration,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Throwable",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(Throwable,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isNotNegative",
+            "name": "software.amazon.awssdk.utils.Validate.isNotNegative(Duration,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<? extends Throwable>"],
+            "templateArguments": [],
+            "function": "retryOnRootCause",
+            "name": "software.amazon.awssdk.retries.api.RetryStrategy.Builder#retryOnRootCause(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryStrategy.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Throwable#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCause",
+            "name": "java.lang.Throwable#getCause()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "computeDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.Immediately#computeDelay(int)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Immediately",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RetryToken"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.RecordSuccessResponse.create(RetryToken)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RecordSuccessResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RetryToken"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.internal.RecordSuccessResponseImpl.create(RetryToken)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RecordSuccessResponseImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RetryToken"],
+            "templateArguments": [],
+            "function": "RecordSuccessRequestImpl",
+            "name": "software.amazon.awssdk.retries.api.internal.RecordSuccessRequestImpl#RecordSuccessRequestImpl(RetryToken)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RecordSuccessRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.RecordSuccessRequestImpl.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RecordSuccessRequestImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "computeDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithoutJitter#computeDelay(int)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithoutJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<? extends Throwable>"],
+            "templateArguments": [],
+            "function": "retryOnRootCauseInstanceOf",
+            "name": "software.amazon.awssdk.retries.api.RetryStrategy.Builder#retryOnRootCauseInstanceOf(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryStrategy.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "isAssignableFrom",
+            "name": "java.lang.Class#isAssignableFrom(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RetryToken"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.internal.RecordSuccessRequestImpl.create(RetryToken)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RecordSuccessRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithoutJitter#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithoutJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.ToString.builder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Supplier<Random>",
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "ExponentialDelayWithHalfJitter",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithHalfJitter#ExponentialDelayWithHalfJitter(Supplier,Duration,Duration)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithHalfJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "software.amazon.awssdk.utils.NumericUtils.min(Object,Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.NumericUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isPositive",
+            "name": "software.amazon.awssdk.utils.Validate.isPositive(Duration,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Supplier<Random>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(Supplier,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithHalfJitter.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithHalfJitter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.BackoffStrategiesConstants.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BackoffStrategiesConstants",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.internal.AcquireInitialTokenRequestImpl.create(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AcquireInitialTokenRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "AcquireInitialTokenRequestImpl",
+            "name": "software.amazon.awssdk.retries.api.internal.AcquireInitialTokenRequestImpl#AcquireInitialTokenRequestImpl(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AcquireInitialTokenRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "computeDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithoutJitter#computeDelay(int)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithoutJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "TokenAcquisitionFailedException",
+            "name": "software.amazon.awssdk.retries.api.TokenAcquisitionFailedException#TokenAcquisitionFailedException(String,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TokenAcquisitionFailedException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.TokenAcquisitionFailedException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TokenAcquisitionFailedException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "RefreshRetryTokenResponseImpl",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenResponseImpl#RefreshRetryTokenResponseImpl(RetryToken,Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenResponseImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isNotNegative",
+            "name": "software.amazon.awssdk.utils.Validate.isNotNegative(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenResponseImpl.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenResponseImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<? extends Throwable>"],
+            "templateArguments": [],
+            "function": "retryOnExceptionInstanceOf",
+            "name": "software.amazon.awssdk.retries.api.RetryStrategy.Builder#retryOnExceptionInstanceOf(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryStrategy.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithJitter#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "retryImmediately",
+            "name": "software.amazon.awssdk.retries.api.BackoffStrategy.retryImmediately()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BackoffStrategy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.Immediately.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Immediately",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "TokenAcquisitionFailedException",
+            "name": "software.amazon.awssdk.retries.api.TokenAcquisitionFailedException#TokenAcquisitionFailedException(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TokenAcquisitionFailedException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithJitter#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithoutJitter.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithoutJitter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.AcquireInitialTokenResponse.create(RetryToken,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AcquireInitialTokenResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.internal.AcquireInitialTokenResponseImpl.create(RetryToken,Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AcquireInitialTokenResponseImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RetryToken"],
+            "templateArguments": [],
+            "function": "RecordSuccessResponseImpl",
+            "name": "software.amazon.awssdk.retries.api.internal.RecordSuccessResponseImpl#RecordSuccessResponseImpl(RetryToken)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RecordSuccessResponseImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.RecordSuccessResponseImpl.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RecordSuccessResponseImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "RetryToken",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "AcquireInitialTokenResponseImpl",
+            "name": "software.amazon.awssdk.retries.api.internal.AcquireInitialTokenResponseImpl#AcquireInitialTokenResponseImpl(RetryToken,Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AcquireInitialTokenResponseImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "exponentialDelay",
+            "name": "software.amazon.awssdk.retries.api.BackoffStrategy.exponentialDelay(Duration,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BackoffStrategy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Supplier<Random>",
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "ExponentialDelayWithJitter",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithJitter#ExponentialDelayWithJitter(Supplier,Duration,Duration)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "computeDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithJitter#computeDelay(int)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toMillis",
+            "name": "java.time.Duration#toMillis()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "RetryToken",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "TokenAcquisitionFailedException",
+            "name": "software.amazon.awssdk.retries.api.TokenAcquisitionFailedException#TokenAcquisitionFailedException(String,RetryToken,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TokenAcquisitionFailedException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithJitter.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithJitter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["RetryToken"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.RecordSuccessRequest.create(RetryToken)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RecordSuccessRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithoutJitter.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithoutJitter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<? extends Throwable>"],
+            "templateArguments": [],
+            "function": "retryOnExceptionOrCauseInstanceOf",
+            "name": "software.amazon.awssdk.retries.api.RetryStrategy.Builder#retryOnExceptionOrCauseInstanceOf(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryStrategy.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.retries.api.AcquireInitialTokenRequest.create(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AcquireInitialTokenRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<? extends Throwable>"],
+            "templateArguments": [],
+            "function": "retryOnExceptionOrCause",
+            "name": "software.amazon.awssdk.retries.api.RetryStrategy.Builder#retryOnExceptionOrCause(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryStrategy.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "exponentialDelayHalfJitter",
+            "name": "software.amazon.awssdk.retries.api.BackoffStrategy.exponentialDelayHalfJitter(Duration,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BackoffStrategy",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "fixedDelay",
+            "name": "software.amazon.awssdk.retries.api.BackoffStrategy.fixedDelay(Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BackoffStrategy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Supplier<Random>",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "FixedDelayWithJitter",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithJitter#FixedDelayWithJitter(Supplier,Duration)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "Duration",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "calculateExponentialDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.BackoffStrategiesConstants.calculateExponentialDelay(int,Duration,Duration)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BackoffStrategiesConstants",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(long,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "multipliedBy",
+            "name": "java.time.Duration#multipliedBy(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toMillis",
+            "name": "Duration#toMillis()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "floor",
+            "name": "java.lang.Math.floor(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.lang.Math.log(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BackoffStrategiesConstants",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.BackoffStrategiesConstants#BackoffStrategiesConstants()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BackoffStrategiesConstants",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.BackoffStrategiesConstants.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "BackoffStrategiesConstants",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<? extends Throwable>"],
+            "templateArguments": [],
+            "function": "retryOnException",
+            "name": "software.amazon.awssdk.retries.api.RetryStrategy.Builder#retryOnException(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryStrategy.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithoutJitter#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithoutJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.AcquireInitialTokenRequestImpl.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AcquireInitialTokenRequestImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.retries.api.RefreshRetryTokenRequest.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RefreshRetryTokenRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RefreshRetryTokenRequestImpl"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl.Builder#Builder(RefreshRetryTokenRequestImpl)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "computeDelay",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithHalfJitter#computeDelay(int)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithHalfJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.ExponentialDelayWithHalfJitter#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ExponentialDelayWithHalfJitter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.backoff.FixedDelayWithJitter.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "FixedDelayWithJitter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.retries.api.internal.RefreshRetryTokenRequestImpl.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "RefreshRetryTokenRequestImpl.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.retries.api.internal.AcquireInitialTokenResponseImpl.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AcquireInitialTokenResponseImpl",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenResponse.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 79,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 57,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 6,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 58,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 6,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 57,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 6,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategy.java",
+                "line": 95,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategy.java",
+                "line": 62,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 35,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 36,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 38,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 37,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 15,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 177,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 175,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 178,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Immediately.java",
+                "line": 30,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 24,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessResponse.java",
+                "line": 39,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessRequestImpl.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessRequestImpl.java",
+                "line": 31,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 27,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithoutJitter.java",
+                "line": 37,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 29,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 191,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 30,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 193,
+                "column": 62,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 30,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 194,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 30,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 193,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessRequestImpl.java",
+                "line": 40,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 32,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 51,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 49,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 48,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 49,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 51,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenRequestImpl.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 41,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 43,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 52,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 43,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "TokenAcquisitionFailedException.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "TokenAcquisitionFailedException.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 44,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenResponseImpl.java",
+                "line": 33,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 47,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenResponseImpl.java",
+                "line": 34,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenResponseImpl.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenResponseImpl.java",
+                "line": 34,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 47,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 128,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 50,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 128,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 50,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 51,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategy.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "TokenAcquisitionFailedException.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "TokenAcquisitionFailedException.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 54,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 63,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 56,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 39,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 12,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 41,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 12,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 39,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 12,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 41,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 12,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 12,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithoutJitter.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 12,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenResponse.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessResponseImpl.java",
+                "line": 31,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 60,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessResponseImpl.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenResponseImpl.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 1,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenResponseImpl.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 59,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategy.java",
+                "line": 73,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 43,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 65,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 43,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 65,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 65,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 43,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 65,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "TokenAcquisitionFailedException.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 67,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "TokenAcquisitionFailedException.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 67,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 46,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 46,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 44,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 44,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithJitter.java",
+                "line": 43,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 64,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessRequest.java",
+                "line": 39,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 69,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithoutJitter.java",
+                "line": 32,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 14,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithoutJitter.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 14,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 160,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 71,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 155,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 71,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 155,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 71,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 158,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 71,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 160,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 71,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenRequest.java",
+                "line": 42,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 72,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 141,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 73,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 136,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 73,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 139,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 73,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategy.java",
+                "line": 85,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 74,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategy.java",
+                "line": 55,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 37,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 77,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 46,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 45,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 77,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 46,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 77,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 46,
+                "column": 93,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 77,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 46,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 77,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 32,
+                "column": 56,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 40,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 32,
+                "column": 97,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 40,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 32,
+                "column": 67,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 40,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 27,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 40,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 26,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 40,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BackoffStrategiesConstants.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "RetryStrategy.java",
+                "line": 120,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 86,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithoutJitter.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 87,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenRequestImpl.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 42,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenRequestImpl.java",
+                "line": 31,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 42,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 90,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequest.java",
+                "line": 55,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api"
+            },
+            "caller": 91,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "RecordSuccessResponseImpl.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 26,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 73,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 92,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 93,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 62,
+                "column": 47,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 93,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 62,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 93,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 62,
+                "column": 47,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 93,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 58,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 94,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "ExponentialDelayWithHalfJitter.java",
+                "line": 67,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 95,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 36,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 76,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 37,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 76,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 37,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 76,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 76,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "FixedDelayWithJitter.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal/backoff"
+            },
+            "caller": 76,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "RefreshRetryTokenRequestImpl.java",
+                "line": 102,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 97,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenResponseImpl.java",
+                "line": 33,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 62,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenResponseImpl.java",
+                "line": 34,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 62,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "AcquireInitialTokenResponseImpl.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/retries/api/internal"
+            },
+            "caller": 62,
+            "callee": 98
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.retries.api",
+            "isRoot": false,
+            "module": -1,
+            "name": "api",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.retries.api.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.retries.api.internal.backoff",
+            "isRoot": false,
+            "module": -1,
+            "name": "backoff",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
