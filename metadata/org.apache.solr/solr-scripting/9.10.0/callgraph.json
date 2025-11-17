@@ -1,0 +1,3937 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "Invocable",
+                "ScriptFile"
+            ],
+            "templateArguments": [],
+            "function": "EngineInfo",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.EngineInfo#EngineInfo(Invocable,ScriptFile)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.EngineInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.EngineInfo.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.EngineInfo",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object[]..."
+            ],
+            "templateArguments": [],
+            "function": "invokeFunction",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#invokeFunction(String,Object[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "finish",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#finish()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "finish",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#finish()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "List<EngineInfo>",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "ScriptUpdateProcessor",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#ScriptUpdateProcessor(SolrQueryRequest,SolrQueryResponse,List,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse"
+            ],
+            "templateArguments": [],
+            "function": "initEngines",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory#initEngines(SolrQueryRequest,SolrQueryResponse)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TransformerProvider",
+            "name": "org.apache.solr.scripting.xslt.TransformerProvider#TransformerProvider()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TransformerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.xslt.TransformerProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TransformerProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.scripting.xslt.TransformerProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TransformerProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ScriptFile",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptFile#ScriptFile(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ScriptFile"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(ScriptFile)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "org.apache.solr.common.util.NamedList#remove(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessorFactory#init(NamedList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Collection#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "removeConfigArgs",
+            "name": "org.apache.solr.common.util.NamedList#removeConfigArgs(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrResourceLoader"],
+            "templateArguments": [],
+            "function": "openReader",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptFile#openReader(SolrResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.solr.core.SolrResourceLoader#openResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "getDecodingReader",
+            "name": "org.apache.lucene.util.IOUtils.getDecodingReader(InputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrParams"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.scripting.xslt.XSLTUpdateRequestHandler.XsltXMLLoader#init(SolrParams)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTUpdateRequestHandler.XsltXMLLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.scripting.xslt.XSLTConstants.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTConstants",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["SolrParams"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.handler.loader.XMLLoader#init(SolrParams)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.handler.loader.XMLLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getInt",
+            "name": "org.apache.solr.common.params.SolrParams#getInt(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getTransformer",
+            "name": "org.apache.solr.scripting.xslt.TransformerProvider.getTransformer(SolrQueryRequest,String,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TransformerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Transformer"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Transformer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrConfig",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getTransformer",
+            "name": "org.apache.solr.scripting.xslt.TransformerProvider#getTransformer(SolrConfig,String,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TransformerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCore",
+            "name": "org.apache.solr.request.SolrQueryRequest#getCore()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["XMLErrorLogger"],
+            "templateArguments": [],
+            "function": "setErrorListener",
+            "name": "javax.xml.transform.Transformer#setErrorListener(XMLErrorLogger)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.Transformer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getContext",
+            "name": "org.apache.solr.request.SolrQueryRequest#getContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse"
+            ],
+            "templateArguments": [],
+            "function": "getContentType",
+            "name": "org.apache.solr.scripting.xslt.XSLTResponseWriter#getContentType(SolrQueryRequest,SolrQueryResponse)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTResponseWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getOutputProperty",
+            "name": "javax.xml.transform.Transformer#getOutputProperty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.Transformer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrQueryRequest"],
+            "templateArguments": [],
+            "function": "getTransformer",
+            "name": "org.apache.solr.scripting.xslt.XSLTResponseWriter#getTransformer(SolrQueryRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTResponseWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.scripting.xslt.XSLTResponseWriter.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTResponseWriter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "ScriptEngineManager",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "getSupportedEngines",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.getSupportedEngines(ScriptEngineManager,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.Set#addAll(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNames",
+            "name": "javax.script.ScriptEngineFactory#getNames()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEngineFactories",
+            "name": "javax.script.ScriptEngineManager#getEngineFactories()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getExtensions",
+            "name": "javax.script.ScriptEngineFactory#getExtensions()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "LinkedHashSet",
+            "name": "java.util.LinkedHashSet#LinkedHashSet(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CommitUpdateCommand"],
+            "templateArguments": [],
+            "function": "processCommit",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#processCommit(CommitUpdateCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CommitUpdateCommand"],
+            "templateArguments": [],
+            "function": "processCommit",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#processCommit(CommitUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.scripting.xslt.XSLTUpdateRequestHandler#init(NamedList)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTUpdateRequestHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.xslt.XSLTUpdateRequestHandler.XsltXMLLoader.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTUpdateRequestHandler.XsltXMLLoader",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toSolrParams",
+            "name": "org.apache.solr.common.util.NamedList#toSolrParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "XsltXMLLoader",
+                "String",
+                "XsltXMLLoader"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Map.of(String,XsltXMLLoader,String,XsltXMLLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.handler.UpdateRequestHandler#init(NamedList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.handler.UpdateRequestHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "java.lang.invoke.MethodHandles.lookup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.invoke.MethodHandles",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookupClass",
+            "name": "MethodHandles.Lookup#lookupClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MethodHandles.Lookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Logger"],
+            "templateArguments": [],
+            "function": "XMLErrorLogger",
+            "name": "org.apache.solr.common.util.XMLErrorLogger#XMLErrorLogger(Logger)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.XMLErrorLogger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "ContentStream",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.solr.scripting.xslt.XSLTUpdateRequestHandler.XsltXMLLoader#load(SolrQueryRequest,SolrQueryResponse,ContentStream,UpdateRequestProcessor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTUpdateRequestHandler.XsltXMLLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "javax.xml.stream.XMLStreamReader#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.stream.XMLStreamReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "TransformerException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,Object,TransformerException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "javax.xml.stream.XMLStreamException#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.stream.XMLStreamException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStream",
+            "name": "org.apache.solr.common.util.ContentStream#getStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.ContentStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setEncoding",
+            "name": "org.xml.sax.InputSource#setEncoding(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.xml.sax.InputSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DOMSource"],
+            "templateArguments": [],
+            "function": "createXMLStreamReader",
+            "name": "inputFactory#createXMLStreamReader(DOMSource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "inputFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getCharsetFromContentType",
+            "name": "org.apache.solr.common.util.ContentStreamBase.getCharsetFromContentType(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.ContentStreamBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["UNRESOLVED"],
+            "templateArguments": [],
+            "function": "InputSource",
+            "name": "org.xml.sax.InputSource#InputSource(UNRESOLVED)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.xml.sax.InputSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setEntityResolver",
+            "name": "org.xml.sax.XMLReader#setEntityResolver(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.xml.sax.XMLReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNode",
+            "name": "javax.xml.transform.dom.DOMResult#getNode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.dom.DOMResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getParams",
+            "name": "org.apache.solr.request.SolrQueryRequest#getParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Node"],
+            "templateArguments": [],
+            "function": "DOMSource",
+            "name": "javax.xml.transform.dom.DOMSource#DOMSource(Node)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.dom.DOMSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "XMLStreamException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,Object,XMLStreamException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newSAXParser",
+            "name": "saxFactory#newSAXParser()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "saxFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "ContentStream",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.solr.handler.loader.XMLLoader#load(SolrQueryRequest,SolrQueryResponse,ContentStream,UpdateRequestProcessor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.handler.loader.XMLLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "javax.xml.transform.TransformerException#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.TransformerException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DOMResult",
+            "name": "javax.xml.transform.dom.DOMResult#DOMResult()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.dom.DOMResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "javax.xml.transform.dom.DOMResult.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.dom.DOMResult",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "XMLReader",
+                "InputSource"
+            ],
+            "templateArguments": [],
+            "function": "SAXSource",
+            "name": "javax.xml.transform.sax.SAXSource#SAXSource(XMLReader,InputSource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.sax.SAXSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SAXSource",
+                "DOMResult"
+            ],
+            "templateArguments": [],
+            "function": "transform",
+            "name": "javax.xml.transform.Transformer#transform(SAXSource,DOMResult)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.Transformer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getContentType",
+            "name": "org.apache.solr.common.util.ContentStream#getContentType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.ContentStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["xmllog"],
+            "templateArguments": [],
+            "function": "setErrorHandler",
+            "name": "org.xml.sax.XMLReader#setErrorHandler(xmllog)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.xml.sax.XMLReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#invokeFunction(String,Object[]...)$PrivilegedAction$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor#invokeFunction(String,Object[]...)$PrivilegedAction$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object[]..."
+            ],
+            "templateArguments": [],
+            "function": "invokeFunctionUnsafe",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#invokeFunctionUnsafe(String,Object[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "TransformerConfigurationException"
+            ],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String,TransformerConfigurationException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResourceLoader",
+            "name": "org.apache.solr.core.SolrConfig#getResourceLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "org.slf4j.Logger#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasTimedOut",
+            "name": "org.apache.solr.util.TimeOut#hasTimedOut()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.util.TimeOut",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newTransformer",
+            "name": "javax.xml.transform.Templates#newTransformer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.Templates",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "TransformerConfigurationException"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(Object,String,TransformerConfigurationException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ResourceLoader",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getTemplates",
+            "name": "org.apache.solr.scripting.xslt.TransformerProvider#getTemplates(ResourceLoader,String,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TransformerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrCore"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory#inform(SolrCore)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.lang.Exception#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Exception",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.solr.request.SolrQueryRequest#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCoreDescriptor",
+            "name": "org.apache.solr.core.SolrCore#getCoreDescriptor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrCore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ModifiableSolrParams",
+            "name": "org.apache.solr.common.params.ModifiableSolrParams#ModifiableSolrParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.ModifiableSolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.common.params.ModifiableSolrParams.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.ModifiableSolrParams",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "SolrCore",
+                "ModifiableSolrParams"
+            ],
+            "templateArguments": [],
+            "function": "LocalSolrQueryRequest",
+            "name": "org.apache.solr.request.LocalSolrQueryRequest#LocalSolrQueryRequest(SolrCore,ModifiableSolrParams)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.LocalSolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.response.SolrQueryResponse.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.response.SolrQueryResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SolrQueryResponse",
+            "name": "org.apache.solr.response.SolrQueryResponse#SolrQueryResponse()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.response.SolrQueryResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResourceLoader",
+            "name": "org.apache.solr.core.SolrCore#getResourceLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrCore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptFile.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptFile",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getExtension",
+            "name": "org.apache.commons.io.FilenameUtils.getExtension(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.io.FilenameUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory#initEngines(SolrQueryRequest,SolrQueryResponse)$PrivilegedExceptionAction$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory#initEngines(SolrQueryRequest,SolrQueryResponse)$PrivilegedExceptionAction$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "eval",
+            "name": "javax.script.ScriptEngine#eval(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory#initEngines(SolrQueryRequest,SolrQueryResponse)$PrivilegedExceptionAction$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory#initEngines(SolrQueryRequest,SolrQueryResponse)$PrivilegedExceptionAction$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "ANON__OR__TYPE$PrivilegedExceptionAction",
+                "AccessControlContext"
+            ],
+            "templateArguments": [],
+            "function": "doPrivileged",
+            "name": "java.security.AccessController.doPrivileged(ANON__OR__TYPE$PrivilegedExceptionAction,AccessControlContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.AccessController",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getEngineByExtension",
+            "name": "javax.script.ScriptEngineManager#getEngineByExtension(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFileName",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptFile#getFileName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrQueryRequest"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "javax.script.ScriptEngineManager#put(String,SolrQueryRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrQueryResponse"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "javax.script.ScriptEngineManager#put(String,SolrQueryResponse)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getException",
+            "name": "java.security.PrivilegedActionException#getException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.PrivilegedActionException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "javax.script.ScriptEngineManager#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Logger"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "javax.script.ScriptEngineManager#put(String,Logger)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassLoader",
+            "name": "org.apache.solr.core.SolrResourceLoader#getClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getEngineByName",
+            "name": "javax.script.ScriptEngineManager#getEngineByName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "javax.script.ScriptEngine#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFactory",
+            "name": "javax.script.ScriptEngine#getFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngine",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "ScriptEngineManager",
+            "name": "javax.script.ScriptEngineManager#ScriptEngineManager(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.ScriptEngineManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EngineInfo"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(EngineInfo)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEngineName",
+            "name": "ScriptEngineFactory#getEngineName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ScriptEngineFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getExtension",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptFile#getExtension()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "ScriptException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String,ScriptException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.scripting.xslt.XSLTResponseWriter#init(NamedList)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTResponseWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#invokeFunction(String,Object[]...)$PrivilegedAction$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor#invokeFunction(String,Object[]...)$PrivilegedAction$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "ANON__OR__TYPE$PrivilegedAction",
+                "AccessControlContext"
+            ],
+            "templateArguments": [],
+            "function": "doPrivileged",
+            "name": "java.security.AccessController.doPrivileged(ANON__OR__TYPE$PrivilegedAction,AccessControlContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.AccessController",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DeleteUpdateCommand"],
+            "templateArguments": [],
+            "function": "processDelete",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#processDelete(DeleteUpdateCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DeleteUpdateCommand"],
+            "templateArguments": [],
+            "function": "processDelete",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#processDelete(DeleteUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ProtectionDomain[]"],
+            "templateArguments": [],
+            "function": "AccessControlContext",
+            "name": "java.security.AccessControlContext#AccessControlContext(ProtectionDomain[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.AccessControlContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "null",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "ProtectionDomain",
+            "name": "java.security.ProtectionDomain#ProtectionDomain(null,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.ProtectionDomain",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RollbackUpdateCommand"],
+            "templateArguments": [],
+            "function": "processRollback",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#processRollback(RollbackUpdateCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RollbackUpdateCommand"],
+            "templateArguments": [],
+            "function": "processRollback",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#processRollback(RollbackUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEngine",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.EngineInfo#getEngine()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.EngineInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object[]"
+            ],
+            "templateArguments": [],
+            "function": "invokeFunction",
+            "name": "javax.script.Invocable#invokeFunction(String,Object[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.script.Invocable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getScriptFile",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.EngineInfo#getScriptFile()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.EngineInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MergeIndexesCommand"],
+            "templateArguments": [],
+            "function": "processMergeIndexes",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor#processMergeIndexes(MergeIndexesCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MergeIndexesCommand"],
+            "templateArguments": [],
+            "function": "processMergeIndexes",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#processMergeIndexes(MergeIndexesCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.scripting.update.ScriptUpdateProcessorFactory.ScriptUpdateProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScriptUpdateProcessorFactory.ScriptUpdateProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["UpdateRequestProcessor"],
+            "templateArguments": [],
+            "function": "UpdateRequestProcessor",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#UpdateRequestProcessor(UpdateRequestProcessor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Writer",
+                "SolrQueryRequest",
+                "SolrQueryResponse"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "org.apache.solr.scripting.xslt.XSLTResponseWriter#write(Writer,SolrQueryRequest,SolrQueryResponse)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "XSLTResponseWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CharArrayReader"],
+            "templateArguments": [],
+            "function": "BufferedReader",
+            "name": "java.io.BufferedReader#BufferedReader(CharArrayReader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.BufferedReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toCharArray",
+            "name": "java.io.CharArrayWriter#toCharArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.CharArrayWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Writer"],
+            "templateArguments": [],
+            "function": "StreamResult",
+            "name": "javax.xml.transform.stream.StreamResult#StreamResult(Writer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.stream.StreamResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "StreamSource",
+            "name": "javax.xml.transform.stream.StreamSource#StreamSource(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.stream.StreamSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "TransformerException"
+            ],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String,TransformerException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CharArrayWriter",
+            "name": "java.io.CharArrayWriter#CharArrayWriter()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.CharArrayWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.CharArrayWriter.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.CharArrayWriter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "CharArrayWriter",
+                "SolrQueryRequest",
+                "SolrQueryResponse"
+            ],
+            "templateArguments": [],
+            "function": "writeResponse",
+            "name": "org.apache.solr.response.XMLWriter.writeResponse(CharArrayWriter,SolrQueryRequest,SolrQueryResponse)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.response.XMLWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StreamSource",
+                "StreamResult"
+            ],
+            "templateArguments": [],
+            "function": "transform",
+            "name": "javax.xml.transform.Transformer#transform(StreamSource,StreamResult)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.Transformer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char[]"],
+            "templateArguments": [],
+            "function": "CharArrayReader",
+            "name": "java.io.CharArrayReader#CharArrayReader(char[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.CharArrayReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StreamSource"],
+            "templateArguments": [],
+            "function": "newTemplates",
+            "name": "javax.xml.transform.TransformerFactory#newTemplates(StreamSource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.TransformerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "StreamSource",
+            "name": "javax.xml.transform.stream.StreamSource#StreamSource(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.stream.StreamSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["XMLErrorLogger"],
+            "templateArguments": [],
+            "function": "setErrorListener",
+            "name": "javax.xml.transform.TransformerFactory#setErrorListener(XMLErrorLogger)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.TransformerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asURIResolver",
+            "name": "org.apache.solr.util.SystemIdResolver#asURIResolver()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.util.SystemIdResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.lucene.util.ResourceLoader#openResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.ResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "TimeUnit",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "TimeOut",
+            "name": "org.apache.solr.util.TimeOut#TimeOut(int,TimeUnit,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.util.TimeOut",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "closeQuietly",
+            "name": "org.apache.solr.common.util.IOUtils.closeQuietly(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setURIResolver",
+            "name": "javax.xml.transform.TransformerFactory#setURIResolver(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.TransformerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "javax.xml.transform.TransformerFactory.newInstance()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.TransformerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createSystemIdFromResourceName",
+            "name": "org.apache.solr.util.SystemIdResolver.createSystemIdFromResourceName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.util.SystemIdResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "SystemIdResolver",
+            "name": "org.apache.solr.util.SystemIdResolver#SystemIdResolver(ResourceLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.util.SystemIdResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInputStream",
+            "name": "javax.xml.transform.stream.StreamSource#getInputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.xml.transform.stream.StreamSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(Object,String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 476,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 387,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 386,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 422,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 421,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 5,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 207,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 205,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 177,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 177,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 167,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 171,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 192,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 182,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 197,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 175,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 175,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 170,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 187,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 169,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 180,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 14,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 510,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 511,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 26,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 73,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 77,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 29,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 82,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 81,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 83,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 79,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 68,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 68,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 78,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 68,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 65,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 77,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 62,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 40,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 40,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 355,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 352,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 357,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 349,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 357,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 355,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 352,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 45,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 408,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 407,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 52,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 62,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 60,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 62,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 54,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 63,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 54,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 54,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 53,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 13,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 53,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 13,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 53,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 13,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 54,
+                "column": 48,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 13,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 56,
+                "column": 48,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 13,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 130,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 119,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 128,
+                "column": 70,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 110,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 115,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 82,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 125,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 115,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 114,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 113,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 125,
+                "column": 67,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 90,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 125,
+                "column": 53,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 128,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 111,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 92,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 119,
+                "column": 70,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 105,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 105,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 116,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 104,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 96,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 97,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 115,
+                "column": 70,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "XSLTUpdateRequestHandler.java",
+                "line": 112,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 63,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 107,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 43,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 109,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 43,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 108,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 43,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 436,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 115,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 106,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 102,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 89,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 101,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 112,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 114,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 106,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 35,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 234,
+                "column": 55,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 232,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 238,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 218,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 230,
+                "column": 60,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 230,
+                "column": 60,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 230,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 229,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 229,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 236,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 235,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 225,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 219,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 216,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 96,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 496,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 15,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 498,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 15,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 316,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 110,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 313,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 312,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 301,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 280,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 294,
+                "column": 73,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 333,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 272,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 261,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 327,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 262,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 322,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 264,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 331,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 282,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 260,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 258,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 270,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 255,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 255,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 296,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 286,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 298,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 283,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 258,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 309,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 308,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 300,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 242,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 308,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 273,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 298,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 280,
+                "column": 59,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 325,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 9,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 52,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 132,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 54,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 132,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 55,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 132,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 433,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 4,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 426,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 4,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 432,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 4,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 393,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 135,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 394,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 517,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 17,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 150,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 17,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 150,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 17,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 150,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 17,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 517,
+                "column": 56,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 17,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 415,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 139,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 414,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 139,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 461,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 87,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 446,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 87,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 459,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 87,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 446,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 87,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 454,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 87,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 459,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 87,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 400,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 144,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 401,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 144,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 375,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 8,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "ScriptUpdateProcessorFactory.java",
+                "line": 380,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/update"
+            },
+            "caller": 8,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 90,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 97,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 97,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 99,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 98,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 103,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 93,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 93,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 101,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "XSLTResponseWriter.java",
+                "line": 97,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 148,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 139,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 136,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 134,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 133,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 137,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 152,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 147,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 143,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 133,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 121,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 132,
+                "column": 43,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 137,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 133,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 143,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 128,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 146,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "TransformerProvider.java",
+                "line": 129,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/scripting/xslt"
+            },
+            "caller": 95,
+            "callee": 91
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.solr.scripting.update",
+            "isRoot": false,
+            "module": -1,
+            "name": "update",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.scripting.xslt",
+            "isRoot": false,
+            "module": -1,
+            "name": "xslt",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
