@@ -1,0 +1,3986 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.thirdparty.jackson.core.JsonFactory.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.thirdparty.jackson.core.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBytes",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#getBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNodeVisitor<T>"],
+            "templateArguments": [],
+            "function": "visit",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#visit(JsonNodeVisitor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "removeErrorLocations",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#removeErrorLocations(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearLocation",
+            "name": "software.amazon.awssdk.thirdparty.jackson.core.JsonParseException#clearLocation()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.thirdparty.jackson.core.JsonParseException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCause",
+            "name": "java.lang.Throwable#getCause()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "UnsupportedOperationException",
+            "name": "java.lang.UnsupportedOperationException#UnsupportedOperationException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.UnsupportedOperationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "char"
+            ],
+            "templateArguments": [],
+            "function": "setCharAt",
+            "name": "java.lang.StringBuilder#setCharAt(int,char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.StringBuilder#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Map#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BiConsumer<? super String, ? super JsonNode>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.Map#forEach(BiConsumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NumberJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#NumberJsonNode(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "JsonWriter",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#JsonWriter(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NullJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#NullJsonNode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, JsonNode>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Map#equals(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonFactory"],
+            "templateArguments": [],
+            "function": "jsonFactory",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.Builder#jsonFactory(JsonFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonGeneratorFactory"],
+            "templateArguments": [],
+            "function": "jsonGeneratorFactory",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.Builder#jsonGeneratorFactory(JsonGeneratorFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "writeBinary",
+            "name": "generator#writeBinary(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["bytes"],
+            "templateArguments": [],
+            "function": "copyBytesFrom",
+            "name": "software.amazon.awssdk.utils.BinaryUtils.copyBytesFrom(bytes)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.BinaryUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["UnsafeRunnable"],
+            "templateArguments": [],
+            "function": "unsafeWrite",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#unsafeWrite(UnsafeRunnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonValueNodeFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonValueNodeFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#StringJsonNode(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEmbeddedObject",
+            "name": "software.amazon.awssdk.thirdparty.jackson.core.JsonParser#getEmbeddedObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.thirdparty.jackson.core.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "instance",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode.instance()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getText",
+            "name": "software.amazon.awssdk.thirdparty.jackson.core.JsonParser#getText()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.thirdparty.jackson.core.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "BooleanJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#BooleanJsonNode(boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "EmbeddedObjectJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#EmbeddedObjectJsonNode(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parse(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["content"],
+            "templateArguments": [],
+            "function": "createParser",
+            "name": "jsonFactory#createParser(content)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "jsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parse(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNodeVisitor<T>"],
+            "templateArguments": [],
+            "function": "visit",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#visit(JsonNodeVisitor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["bool"],
+            "templateArguments": [],
+            "function": "writeBoolean",
+            "name": "generator#writeBoolean(bool)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigDecimal"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(BigDecimal)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "writeString",
+            "name": "generator#writeString(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "value#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "value",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "JsonGenerationException",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.JsonGenerationException#JsonGenerationException(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.JsonGenerationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.JsonGenerationException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.JsonGenerationException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeFieldName",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeFieldName(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["fieldName"],
+            "templateArguments": [],
+            "function": "writeFieldName",
+            "name": "generator#writeFieldName(fieldName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "index",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#index(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNode"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(JsonNode)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "java.util.Optional.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["val"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "generator#writeNumber(val)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "parserBuilder",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNode.parserBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parse(byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonParser"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parse(JsonParser)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextToken",
+            "name": "software.amazon.awssdk.thirdparty.jackson.core.JsonParser#nextToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.thirdparty.jackson.core.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "removeErrorLocationsIfRequired",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#removeErrorLocationsIfRequired(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "JsonParser",
+                "JsonToken"
+            ],
+            "templateArguments": [],
+            "function": "parseToken",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parseToken(JsonParser,JsonToken)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "index",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNode#index(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.List#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeNumber(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["number"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "generator#writeNumber(number)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNodeVisitor<T>"],
+            "templateArguments": [],
+            "function": "visit",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#visit(JsonNodeVisitor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.lang.Object#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.lang.Object#equals(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["val"],
+            "templateArguments": [],
+            "function": "writeString",
+            "name": "generator#writeString(val)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<JsonNode>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.List#equals(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["float"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(float)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "software.amazon.awssdk.utils.FunctionalUtils.UnsafeRunnable#run()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.FunctionalUtils.UnsafeRunnable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNodeVisitor<T>"],
+            "templateArguments": [],
+            "function": "visit",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#visit(JsonNodeVisitor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNodeVisitor<T>"],
+            "templateArguments": [],
+            "function": "visit",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#visit(JsonNodeVisitor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeEndArray()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<JsonNode>"],
+            "templateArguments": [],
+            "function": "ArrayJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#ArrayJsonNode(List)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.BooleanJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyObjectNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNode.emptyObjectNode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyMap",
+            "name": "java.util.Collections.emptyMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, JsonNode>"],
+            "templateArguments": [],
+            "function": "ObjectJsonNode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#ObjectJsonNode(Map)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeNull",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeNull()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeStartArray()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["JsonParser"],
+            "templateArguments": [],
+            "function": "parseObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parseObject(JsonParser)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "JsonNode"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,JsonNode)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.LinkedHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LinkedHashMap",
+            "name": "java.util.LinkedHashMap#LinkedHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "JsonNodeParser",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#JsonNodeParser(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#asString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNodeVisitor<T>"],
+            "templateArguments": [],
+            "function": "visit",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#visit(JsonNodeVisitor)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeStartObject()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeEndObject()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonParser"],
+            "templateArguments": [],
+            "function": "parseArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser#parseArray(JsonParser)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.thirdparty.jackson.core.JsonGenerator#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.thirdparty.jackson.core.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Map#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigInteger"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(BigInteger)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["value"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "generator#writeNumber(value)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Instant"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(Instant)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "generator#writeNumber(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "generator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["JsonFactory"],
+            "templateArguments": [],
+            "function": "jsonFactory",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.Builder#jsonFactory(JsonFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "parser",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNode.parser()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "field",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#field(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNode"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(JsonNode)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonValueNodeFactory"],
+            "templateArguments": [],
+            "function": "jsonValueNodeFactory",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNodeParser.Builder#jsonValueNodeFactory(JsonValueNodeFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNodeParser.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "Class#getSimpleName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonNode"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(JsonNode)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "field",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonNode#field(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asNumber",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#asNumber()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asEmbeddedObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#asEmbeddedObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ObjectJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ObjectJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.EmbeddedObjectJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddedObjectJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asBoolean",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NullJsonNode#asBoolean()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["short"],
+            "templateArguments": [],
+            "function": "writeValue",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter#writeValue(short)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.protocols.jsoncore.JsonWriter.create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asArray",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.StringJsonNode#asArray()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asObject",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.NumberJsonNode#asObject()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NumberJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.protocols.jsoncore.internal.ArrayJsonNode#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ArrayJsonNode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.util.List#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 48,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 158,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 72,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 133,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 136,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 7,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 136,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 67,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 191,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 94,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 97,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 94,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 94,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 96,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 96,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 93,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 88,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 92,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 92,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 94,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 94,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 14,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 53,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 25,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 62,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 26,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 73,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 29,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 215,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 64,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 32,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 105,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 111,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 42,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 38,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 52,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 39,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 179,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 40,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 191,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 117,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 117,
+                "column": 56,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 117,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 53,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 40,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 51,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 46,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 40,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 44,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 49,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 49,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 51,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "JsonValueNodeFactory.java",
+                "line": 42,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 46,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 47,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 54,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 105,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 55,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 107,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 55,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 74,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 93,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 93,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 60,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 49,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 62,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 125,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 125,
+                "column": 56,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 125,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 63,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 69,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 66,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 57,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 67,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 195,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 41,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 232,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 233,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 68,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 54,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 71,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 85,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 85,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 72,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 86,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 86,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 74,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 83,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 74,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 84,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 74,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 113,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 113,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 79,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonNode.java",
+                "line": 49,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 81,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 48,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 82,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 95,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 83,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 93,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 83,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 114,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 116,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 114,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 84,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "JsonNode.java",
+                "line": 188,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 88,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 67,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 89,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 69,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 90,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 57,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 91,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 110,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 133,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 94,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 133,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 94,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 43,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 96,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 54,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 97,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 90,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 98,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 47,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 99,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 73,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 100,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 101,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 102,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 101,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 104,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 101,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 104,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 44,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 105,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 90,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 106,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 96,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 89,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 89,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 108,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 52,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 52,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 111,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 90,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 112,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 105,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 99,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 113,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 105,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 115,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 105,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 115,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 165,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 45,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 163,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 45,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 97,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 117,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 97,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 117,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 68,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 72,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 120,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 61,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 122,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 47,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 124,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 53,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 125,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 63,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 126,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 127,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 128,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "BooleanJsonNode.java",
+                "line": 42,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 130,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonNode.java",
+                "line": 56,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 131,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "JsonNode.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 131,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 13,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 13,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 73,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 134,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 49,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 31,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 52,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 31,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 31,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 31,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 31,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 138,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 33,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 139,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 170,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 167,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 168,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 163,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 167,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 164,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 164,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 167,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 166,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 140,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 133,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 50,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 123,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 86,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 66,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 145,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 66,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 145,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 147,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 48,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 149,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 72,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 150,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 81,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 57,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 83,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 57,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 77,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 152,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 81,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 153,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 156,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 87,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 158,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 87,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 152,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 87,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 156,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 87,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 154,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 87,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 145,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 3,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 143,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 3,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 116,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 96,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 158,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 129,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 159,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 129,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 159,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 121,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 161,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 121,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 161,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 176,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 123,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 205,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 164,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "JsonNode.java",
+                "line": 42,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 165,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 83,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 166,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 83,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 166,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 219,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 169,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 62,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 170,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 73,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 171,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 234,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 146,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 82,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 172,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 82,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 172,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 68,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 174,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 57,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 175,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 180,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 175,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 175,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 177,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 177,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 178,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JsonNodeParser.java",
+                "line": 174,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 154,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JsonNode.java",
+                "line": 180,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 179,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 43,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 180,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 74,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 181,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 64,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 182,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ObjectJsonNode.java",
+                "line": 58,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 183,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddedObjectJsonNode.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 53,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "NullJsonNode.java",
+                "line": 59,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 185,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 109,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 186,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 109,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 186,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 48,
+            "callee": 187
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 48,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 189,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "JsonWriter.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore"
+            },
+            "caller": 189,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "StringJsonNode.java",
+                "line": 59,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 190,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NumberJsonNode.java",
+                "line": 62,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 191,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ArrayJsonNode.java",
+                "line": 91,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/protocols/jsoncore/internal"
+            },
+            "caller": 192,
+            "callee": 193
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.protocols.jsoncore",
+            "isRoot": false,
+            "module": -1,
+            "name": "jsoncore",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.protocols.jsoncore.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
