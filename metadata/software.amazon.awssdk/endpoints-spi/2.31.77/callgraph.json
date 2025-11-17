@@ -1,0 +1,733 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.endpoints.EndpointAttributeKey#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EndpointAttributeKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.lang.Class#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Endpoint"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.BuilderImpl#BuilderImpl(Endpoint)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["BiConsumer<? super String, ? super List<String>>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.Map#forEach(BiConsumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<EndpointAttributeKey<?>, Object>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ArrayList<Object>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,ArrayList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.endpoints.Endpoint#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EndpointAttributeKey<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putAttribute",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.BuilderImpl#putAttribute(EndpointAttributeKey,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EndpointAttributeKey<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(EndpointAttributeKey,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<T>"
+            ],
+            "templateArguments": [],
+            "function": "EndpointAttributeKey",
+            "name": "software.amazon.awssdk.endpoints.EndpointAttributeKey#EndpointAttributeKey(String,Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EndpointAttributeKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.endpoints.EndpointAttributeKey.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EndpointAttributeKey",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.endpoints.EndpointAttributeKey#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EndpointAttributeKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<T>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.lang.Class#equals(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "forList",
+            "name": "software.amazon.awssdk.endpoints.EndpointAttributeKey.forList(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EndpointAttributeKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl"],
+            "templateArguments": [],
+            "function": "Endpoint",
+            "name": "software.amazon.awssdk.endpoints.Endpoint#Endpoint(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "putHeader",
+            "name": "software.amazon.awssdk.endpoints.Endpoint.BuilderImpl#putHeader(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Function<? super String, ? extends List<String>>"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.Map#computeIfAbsent(String,Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.endpoints.Endpoint#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, List<String>>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Map#equals(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.net.URI#equals(URI)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<EndpointAttributeKey<?>, Object>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Map#equals(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.endpoints.Endpoint#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Map#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.net.URI#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EndpointAttributeKey<T>"],
+            "templateArguments": [],
+            "function": "attribute",
+            "name": "software.amazon.awssdk.endpoints.Endpoint#attribute(EndpointAttributeKey)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Endpoint",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EndpointAttributeKey<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(EndpointAttributeKey)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "EndpointAttributeKey.java",
+                "line": 55,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 108,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 111,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 115,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 112,
+                "column": 41,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 112,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 8,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 133,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "EndpointAttributeKey.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "EndpointAttributeKey.java",
+                "line": 49,
+                "column": 31,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "EndpointAttributeKey.java",
+                "line": 40,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "EndpointAttributeKey.java",
+                "line": 60,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 18,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 102,
+                "column": 59,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 3,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 102,
+                "column": 59,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 3,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 103,
+                "column": 73,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 3,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 103,
+                "column": 73,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 3,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 139,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 126,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 126,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 126,
+                "column": 77,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 24,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 127,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 24,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 72,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 69,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 75,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 29,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 63,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 29,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 82,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 80,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 81,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 105,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 10,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "Endpoint.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/endpoints"
+            },
+            "caller": 36,
+            "callee": 37
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "software.amazon.awssdk.endpoints",
+        "isRoot": false,
+        "module": -1,
+        "name": "endpoints",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
