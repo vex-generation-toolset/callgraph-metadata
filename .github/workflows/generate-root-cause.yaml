@@ -78,9 +78,12 @@ jobs:
           # Create input parameters file
           jq --null-input \
             --arg purl "$PURL" \
-            --arg repo "$REPOSITORY" \
+            --arg repo "https://github.com/$REPOSITORY" \
             --arg cve "$CVE" \
             '{purl: $purl, repo: $repo, cve: $cve}' > input.json
+          # Debug input file
+          echo "Input parameters:"
+          cat input.json
           # Create output directory
           CVE_PARTS=(${CVE//-/ })
           OUTPUT_DIR="metadata/vulnerabilities/${CVE_PARTS[1]}/${CVE_PARTS[2]}"
