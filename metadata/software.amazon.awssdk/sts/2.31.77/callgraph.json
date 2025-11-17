@@ -1,0 +1,5239 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StsAuthUtils",
+            "name": "software.amazon.awssdk.services.sts.internal.StsAuthUtils#StsAuthUtils()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsAuthUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.internal.StsAuthUtils.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsAuthUtils",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.SessionCredentialsHolder.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SessionCredentialsHolder.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "SessionCredentialsHolder",
+            "name": "software.amazon.awssdk.services.sts.auth.SessionCredentialsHolder#SessionCredentialsHolder(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SessionCredentialsHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumeRoleWithWebIdentityRequest"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.Builder#refreshRequest(AssumeRoleWithWebIdentityRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "getUpdatedCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider#getUpdatedCredentials(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "credentials",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityResponse#credentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumeRoleWithWebIdentityRequest"],
+            "templateArguments": [],
+            "function": "assumeRoleWithWebIdentity",
+            "name": "software.amazon.awssdk.services.sts.StsClient#assumeRoleWithWebIdentity(AssumeRoleWithWebIdentityRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "assumedRoleUser",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityResponse#assumedRoleUser()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.function.Supplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Supplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier#get()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "AssumeRoleWithWebIdentityRequestSupplier",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier#AssumeRoleWithWebIdentityRequestSupplier(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolveCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider#resolveCredentials()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "software.amazon.awssdk.utils.cache.CachedSupplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.cache.CachedSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "log#debug(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "log",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "expirationTime",
+            "name": "software.amazon.awssdk.auth.credentials.AwsSessionCredentials#expirationTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.AwsSessionCredentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider#StsAssumeRoleWithWebIdentityCredentialsProvider(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "BaseBuilder<?, ?>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "StsCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider#StsCredentialsProvider(BaseBuilder,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "setWebIdentityTokenFile",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#setWebIdentityTokenFile(Path)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "webIdentityTokenFile",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#webIdentityTokenFile(Path)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Function<B extends BaseBuilder, T extends ToCopyableBuilder>"],
+            "templateArguments": [],
+            "function": "BaseBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#BaseBuilder(Function)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolveCredentials",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider#resolveCredentials()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolveCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider#resolveCredentials()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsAssumeRoleCredentialsProvider"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.Builder#Builder(StsAssumeRoleCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Function<B extends BaseBuilder, T extends ToCopyableBuilder>",
+                "StsCredentialsProvider"
+            ],
+            "templateArguments": [],
+            "function": "BaseBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#BaseBuilder(Function,StsCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "getUpdatedCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider#getUpdatedCredentials(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["GetSessionTokenRequest"],
+            "templateArguments": [],
+            "function": "getSessionToken",
+            "name": "software.amazon.awssdk.services.sts.StsClient#getSessionToken(GetSessionTokenRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "credentials",
+            "name": "software.amazon.awssdk.services.sts.model.GetSessionTokenResponse#credentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.GetSessionTokenResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<AssumeRoleRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.Builder#refreshRequest(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumeRoleRequest"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.Builder#refreshRequest(AssumeRoleRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.services.sts.internal.StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StsAssumeRoleWithWebIdentityCredentialsProvider",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "closeQuietly",
+            "name": "software.amazon.awssdk.utils.IoUtils.closeQuietly(StsAssumeRoleWithWebIdentityCredentialsProvider,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.IoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StsClient",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "closeQuietly",
+            "name": "software.amazon.awssdk.utils.IoUtils.closeQuietly(StsClient,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.IoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AwsCredentialsProvider",
+                "Profile"
+            ],
+            "templateArguments": [],
+            "function": "StsProfileCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider#StsProfileCredentialsProvider(AwsCredentialsProvider,Profile)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "property",
+            "name": "software.amazon.awssdk.profiles.Profile#property(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.profiles.Profile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "stsClient",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#stsClient(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "stsClient",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#stsClient(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Profile",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "requireProperty",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider#requireProperty(Profile,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.StsClient.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "currentTimeMillis",
+            "name": "java.lang.System.currentTimeMillis()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "StsClientBuilder",
+                "Profile"
+            ],
+            "templateArguments": [],
+            "function": "configureEndpoint",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider#configureEndpoint(StsClientBuilder,Profile)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.model.GetSessionTokenRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.GetSessionTokenRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Credentials",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "fromStsCredentials",
+            "name": "software.amazon.awssdk.services.sts.internal.StsAuthUtils.fromStsCredentials(Credentials,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsAuthUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Credentials",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "fromStsCredentials",
+            "name": "software.amazon.awssdk.services.sts.internal.StsAuthUtils.fromStsCredentials(Credentials,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsAuthUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolveCredentials",
+            "name": "software.amazon.awssdk.services.sts.internal.StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider#resolveCredentials()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsAssumeRoleWithWebIdentityCredentialsProvider"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.Builder#Builder(StsAssumeRoleWithWebIdentityCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsWebIdentityTokenFileCredentialsProvider"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#Builder(StsWebIdentityTokenFileCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "StsWebIdentityTokenFileCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider#StsWebIdentityTokenFileCredentialsProvider(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FederatedUser"],
+            "templateArguments": [],
+            "function": "accountIdFromArn",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider#accountIdFromArn(FederatedUser)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "software.amazon.awssdk.services.sts.endpoints.internal.Arn.parse(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.endpoints.internal.Arn",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "arn",
+            "name": "software.amazon.awssdk.services.sts.model.FederatedUser#arn()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.FederatedUser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "getToken",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier#getToken(Path)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "toUtf8String",
+            "name": "software.amazon.awssdk.utils.IoUtils.toUtf8String(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.IoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "newInputStream",
+            "name": "java.nio.file.Files.newInputStream(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "UncheckedIOException",
+            "name": "java.io.UncheckedIOException#UncheckedIOException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.UncheckedIOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setRoleSessionName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#setRoleSessionName(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "roleSessionName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#roleSessionName(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClientBuilder"],
+            "templateArguments": [],
+            "function": "configureEndpoint",
+            "name": "software.amazon.awssdk.services.sts.internal.StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider#configureEndpoint(StsClientBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DefaultAwsRegionProviderChain",
+            "name": "software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain#DefaultAwsRegionProviderChain()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "endpointOverride",
+            "name": "software.amazon.awssdk.services.sts.StsClientBuilder#endpointOverride(URI)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClientBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "region",
+            "name": "software.amazon.awssdk.services.sts.StsClientBuilder#region(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClientBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "java.net.URI.create(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRegion",
+            "name": "software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain#getRegion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.regions.providers.DefaultAwsRegionProviderChain",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Region"],
+            "templateArguments": [],
+            "function": "region",
+            "name": "software.amazon.awssdk.services.sts.StsClientBuilder#region(Region)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClientBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.utils.ToString.create(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "sessionToken",
+            "name": "software.amazon.awssdk.services.sts.model.Credentials#sessionToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.auth.credentials.AwsSessionCredentials.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.AwsSessionCredentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.SessionCredentialsHolder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SessionCredentialsHolder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "secretAccessKey",
+            "name": "software.amazon.awssdk.services.sts.model.Credentials#secretAccessKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "expiration",
+            "name": "software.amazon.awssdk.services.sts.model.Credentials#expiration()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accessKeyId",
+            "name": "software.amazon.awssdk.services.sts.model.Credentials#accessKeyId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofMinutes",
+            "name": "java.time.Duration.ofMinutes(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<StsCredentialsProvider>"],
+            "templateArguments": [],
+            "function": "loggerFor",
+            "name": "software.amazon.awssdk.utils.Logger.loggerFor(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "property",
+            "name": "software.amazon.awssdk.profiles.Profile#property(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.profiles.Profile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "name",
+            "name": "software.amazon.awssdk.profiles.Profile#name()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.profiles.Profile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MISSING_PROPERTY_ERROR_FORMAT",
+                "requiredProperty",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.lang.String.format(MISSING_PROPERTY_ERROR_FORMAT,requiredProperty,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<AssumeRoleWithWebIdentityRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.Builder#refreshRequest(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsGetSessionTokenCredentialsProvider"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.Builder#Builder(StsGetSessionTokenCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsAssumeRoleWithSamlCredentialsProvider"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder#Builder(StsAssumeRoleWithSamlCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "StsGetSessionTokenCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider#StsGetSessionTokenCredentialsProvider(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "GetSessionTokenRequest",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(GetSessionTokenRequest,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "updateSessionCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider#updateSessionCredentials()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AwsSessionCredentials"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.cache.RefreshResult.builder(AwsSessionCredentials)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.cache.RefreshResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "minus",
+            "name": "java.time.Instant#minus(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "getUpdatedCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider#getUpdatedCredentials(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "getUpdatedCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider#getUpdatedCredentials(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "getUpdatedCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider#getUpdatedCredentials(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsClient"],
+            "templateArguments": [],
+            "function": "getUpdatedCredentials",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider#getUpdatedCredentials(StsClient)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StsGetFederationTokenCredentialsProvider"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.Builder#Builder(StsGetFederationTokenCredentialsProvider)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.Builder#Builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRegion",
+            "name": "java.lang.Object#getRegion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "StsGetFederationTokenCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider#StsGetFederationTokenCredentialsProvider(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "GetFederationTokenRequest",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(GetFederationTokenRequest,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Consumer<AssumeRoleWithWebIdentityRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#refreshRequest(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["WebIdentityTokenCredentialProperties"],
+            "templateArguments": [],
+            "function": "StsWebIdentityCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.internal.StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider#StsWebIdentityCredentialsProvider(WebIdentityTokenCredentialProperties)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "roleArn",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#roleArn()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "durationSeconds",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest.Builder#durationSeconds(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "saturatedCast",
+            "name": "software.amazon.awssdk.utils.NumericUtils.saturatedCast(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.NumericUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "prefetchTime",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#prefetchTime(Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumeRoleWithWebIdentityRequest"],
+            "templateArguments": [],
+            "function": "assumeRoleWithWebIdentityRequest",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier.Builder#assumeRoleWithWebIdentityRequest(AssumeRoleWithWebIdentityRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "asyncCredentialUpdateEnabled",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#asyncCredentialUpdateEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["retryCondition"],
+            "templateArguments": [],
+            "function": "retryCondition",
+            "name": "r#retryCondition(retryCondition)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "r",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "webIdentityTokenFile",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#webIdentityTokenFile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "roleSessionDuration",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#roleSessionDuration()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.internal.StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsWebIdentityCredentialsProviderFactory.StsWebIdentityCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "prefetchTime",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#prefetchTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "roleSessionName",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#roleSessionName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "staleTime",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties#staleTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "defaultRetryCondition",
+            "name": "software.amazon.awssdk.core.retry.conditions.RetryCondition.defaultRetryCondition()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.retry.conditions.RetryCondition",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "retryPolicy",
+            "name": "o#retryPolicy(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "o",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "staleTime",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#staleTime(Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "webIdentityTokenFile",
+            "name": "software.amazon.awssdk.services.sts.internal.AssumeRoleWithWebIdentityRequestSupplier.Builder#webIdentityTokenFile(Path)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AssumeRoleWithWebIdentityRequestSupplier.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.auth.credentials.AnonymousCredentialsProvider.create()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.AnonymousCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "asyncCredentialUpdateEnabled",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.BaseBuilder#asyncCredentialUpdateEnabled(Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider.BaseBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "exception",
+            "name": "context#exception()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "context",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.core.retry.conditions.OrRetryCondition.create(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.core.retry.conditions.OrRetryCondition",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AwsCredentialsProvider",
+                "Profile"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory#create(AwsCredentialsProvider,Profile)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "StsAssumeRoleWithSamlCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider#StsAssumeRoleWithSamlCredentialsProvider(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Supplier<AssumeRoleWithSamlRequest>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(Supplier,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.internal.WebIdentityTokenCredentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "roleArn",
+            "name": "credentialProperties#roleArn()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "credentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "webIdentityTokenFile",
+            "name": "credentialProperties#webIdentityTokenFile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "credentialProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.nio.file.Paths.get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Paths",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithWebIdentityCredentialsProvider.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithWebIdentityCredentialsProvider.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolveCredentials",
+            "name": "software.amazon.awssdk.auth.credentials.AwsCredentialsProvider#resolveCredentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.auth.credentials.AwsCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.SessionCredentialsHolder.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SessionCredentialsHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.SessionCredentialsHolder.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SessionCredentialsHolder.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["AssumeRoleWithWebIdentityRequest"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#refreshRequest(AssumeRoleWithWebIdentityRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.ToString.builder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<GetSessionTokenRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.Builder#refreshRequest(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setRoleArn",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#setRoleArn(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "roleArn",
+            "name": "software.amazon.awssdk.services.sts.auth.StsWebIdentityTokenFileCredentialsProvider.Builder#roleArn(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsWebIdentityTokenFileCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "assumedRoleUser",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithSamlResponse#assumedRoleUser()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithSamlResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AssumeRoleWithSamlRequest",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(AssumeRoleWithSamlRequest,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "credentials",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithSamlResponse#credentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithSamlResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumeRoleWithSamlRequest"],
+            "templateArguments": [],
+            "function": "assumeRoleWithSAML",
+            "name": "software.amazon.awssdk.services.sts.StsClient#assumeRoleWithSAML(AssumeRoleWithSamlRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetSessionTokenCredentialsProvider.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetSessionTokenCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["WebIdentityTokenCredentialProperties"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.services.sts.internal.StsWebIdentityCredentialsProviderFactory#create(WebIdentityTokenCredentialProperties)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsWebIdentityCredentialsProviderFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "federatedUser",
+            "name": "software.amazon.awssdk.services.sts.model.GetFederationTokenResponse#federatedUser()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.GetFederationTokenResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "credentials",
+            "name": "software.amazon.awssdk.services.sts.model.GetFederationTokenResponse#credentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.GetFederationTokenResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GetFederationTokenRequest"],
+            "templateArguments": [],
+            "function": "getFederationToken",
+            "name": "software.amazon.awssdk.services.sts.StsClient#getFederationToken(GetFederationTokenRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<GetFederationTokenRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.Builder#refreshRequest(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.model.GetFederationTokenRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.GetFederationTokenRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GetFederationTokenRequest"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsGetFederationTokenCredentialsProvider.Builder#refreshRequest(GetFederationTokenRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsGetFederationTokenCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["B extends BaseBuilder"],
+            "templateArguments": [],
+            "function": "apply",
+            "name": "java.util.function.Function#apply(B extends BaseBuilder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Function",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumedRoleUser"],
+            "templateArguments": [],
+            "function": "accountIdFromArn",
+            "name": "software.amazon.awssdk.services.sts.internal.StsAuthUtils.accountIdFromArn(AssumedRoleUser)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsAuthUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "arn",
+            "name": "software.amazon.awssdk.services.sts.model.AssumedRoleUser#arn()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumedRoleUser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.services.sts.internal.StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StsProfileCredentialsProviderFactory.StsProfileCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AwsCredentialsProvider",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "closeIfCloseable",
+            "name": "software.amazon.awssdk.utils.IoUtils.closeIfCloseable(AwsCredentialsProvider,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.IoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StsAssumeRoleCredentialsProvider",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "closeQuietly",
+            "name": "software.amazon.awssdk.utils.IoUtils.closeQuietly(StsAssumeRoleCredentialsProvider,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.IoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider#toBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "StsAssumeRoleCredentialsProvider",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider#StsAssumeRoleCredentialsProvider(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Supplier<AssumeRoleRequest>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(Supplier,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["AssumeRoleWithSamlRequest"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder#refreshRequest(AssumeRoleWithSamlRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Supplier<AssumeRoleWithSamlRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder#refreshRequest(Supplier)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "assumedRoleUser",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleResponse#assumedRoleUser()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "credentials",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleResponse#credentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AssumeRoleRequest"],
+            "templateArguments": [],
+            "function": "assumeRole",
+            "name": "software.amazon.awssdk.services.sts.StsClient#assumeRole(AssumeRoleRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.StsClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AssumeRoleRequest",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(AssumeRoleRequest,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest#toBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithWebIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.cache.CachedSupplier.builder(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.cache.CachedSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "orElse",
+            "name": "Optional#orElse(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NonBlocking",
+            "name": "software.amazon.awssdk.utils.cache.NonBlocking#NonBlocking(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.cache.NonBlocking",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NonBlocking"],
+            "templateArguments": [],
+            "function": "prefetchStrategy",
+            "name": "cacheBuilder#prefetchStrategy(NonBlocking)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "cacheBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "cacheBuilder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "cacheBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StsClient",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(StsClient,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.services.sts.auth.StsCredentialsProvider#close()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.utils.cache.CachedSupplier#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.cache.CachedSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<AssumeRoleWithSamlRequest>"],
+            "templateArguments": [],
+            "function": "refreshRequest",
+            "name": "software.amazon.awssdk.services.sts.auth.StsAssumeRoleWithSamlCredentialsProvider.Builder#refreshRequest(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StsAssumeRoleWithSamlCredentialsProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.services.sts.model.AssumeRoleWithSamlRequest.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.services.sts.model.AssumeRoleWithSamlRequest",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 71,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 117,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 4,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 77,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 76,
+                "column": 64,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 79,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 74,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 74,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 5,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 5,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 106,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 108,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 107,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 20,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 263,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 107,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 108,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 95,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 28,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 109,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 30,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 109,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 111,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 32,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 112,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 139,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 72,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 73,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 36,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 145,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 145,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 127,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 115,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 60,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 76,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 76,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 76,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 62,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 64,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 59,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 70,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 61,
+                "column": 80,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 58,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 71,
+                "column": 64,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 48,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 92,
+                "column": 65,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 29,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 40,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 160,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 27,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 109,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 66,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 109,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 66,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 50,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 150,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 69,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 302,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 164,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 33,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 84,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 54,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 76,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 53,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 76,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 56,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 76,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 244,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 121,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 121,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 130,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 129,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 130,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 121,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 127,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 82,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 90,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 136,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 92,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 38,
+                "column": 70,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 3,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 35,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 3,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 3,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 37,
+                "column": 73,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 3,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 41,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 3,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 36,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 3,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 56,
+                "column": 59,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 55,
+                "column": 56,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 53,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 87,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 96,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 102,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 53,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 104,
+                "column": 107,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 53,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 103,
+                "column": 75,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 53,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 103,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 53,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 138,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 112,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 138,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 112,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 97,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 114,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 150,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 116,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 117,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 53,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 119,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 58,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 119,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 119,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 122,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 165,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 44,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 166,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 44,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 96,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 98,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 95,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 99,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 100,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 93,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 93,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 93,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 93,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 93,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 93,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 125,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 91,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 133,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 138,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 130,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 145,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 130,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 143,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 130,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 142,
+                "column": 79,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 130,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 140,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 130,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 140,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 130,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 143,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 136,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 128,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 137,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 138,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 78,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 140,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 108,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 139,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 107,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 139,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 94,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 97,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 83,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 97,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 57,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 143,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 143,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 143,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 296,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 146,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 296,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 146,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 78,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 82,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 82,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 99,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 63,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 73,
+                "column": 86,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 93,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 89,
+                "column": 79,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 81,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 98,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 61,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 101,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 102,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 83,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 68,
+                "column": 41,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 73,
+                "column": 67,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 102,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 88,
+                "column": 91,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 70,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 104,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 62,
+                "column": 96,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 87,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 76,
+                "column": 71,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 72,
+                "column": 60,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 93,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 64,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 67,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 99,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 67,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 147,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 171,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 118,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 105,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 118,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 173,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 173,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 173,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 192,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 52,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 103,
+                "column": 91,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 103,
+                "column": 91,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 102,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 102,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 102,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 107,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 102,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 107,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 107,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 85,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 94,
+                "column": 98,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 104,
+                "column": 79,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 82,
+                "column": 94,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 74,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 71,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 93,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 72,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 87,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 94,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 153,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 95,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 68,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 105,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 68,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 135,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 31,
+            "callee": 182
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 135,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 31,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 135,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 31,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 135,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 31,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 135,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 31,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SessionCredentialsHolder.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 183,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 70,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 170,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 70,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 275,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 185,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 124,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 41,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 82,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 186,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 186,
+            "callee": 187
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 123,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 188,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 123,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 188,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityTokenFileCredentialsProvider.java",
+                "line": 218,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 189,
+            "callee": 190
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 47,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 62,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 45,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 62,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 48,
+                "column": 53,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 62,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 46,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 62,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 62,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 98,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 115,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 99,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 115,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 74,
+                "column": 63,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 74,
+                "column": 63,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 79,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 191
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 192
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 77,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 76,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 132,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 101,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 91,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 100,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 91,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "StsGetSessionTokenCredentialsProvider.java",
+                "line": 67,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 195,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "StsWebIdentityCredentialsProviderFactory.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 196,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 77,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 129,
+            "callee": 197
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 75,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 129,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 77,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 129,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 129,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 74,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 129,
+            "callee": 199
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 134,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 200,
+            "callee": 201
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 134,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 200,
+            "callee": 202
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 231,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 35,
+            "callee": 203
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 34,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 204,
+            "callee": 205
+        },
+        {
+            "callSite": {
+                "filename": "StsAuthUtils.java",
+                "line": 34,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 204,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 116,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 206,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 206,
+            "callee": 207
+        },
+        {
+            "callSite": {
+                "filename": "StsProfileCredentialsProviderFactory.java",
+                "line": 115,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 206,
+            "callee": 208
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 91,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 209,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 112,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 134,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "StsGetFederationTokenCredentialsProvider.java",
+                "line": 111,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 134,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 210,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 210,
+            "callee": 211
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 210,
+            "callee": 212
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 117,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 213,
+            "callee": 214
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 79,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 215
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 74,
+                "column": 47,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 74,
+                "column": 47,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 77,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 216
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 76,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 217
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 218
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleCredentialsProvider.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 131,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 10,
+            "callee": 219
+        },
+        {
+            "callSite": {
+                "filename": "AssumeRoleWithWebIdentityRequestSupplier.java",
+                "line": 48,
+                "column": 53,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/internal"
+            },
+            "caller": 10,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithWebIdentityCredentialsProvider.java",
+                "line": 144,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 165,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 81,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 81,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 186
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 80,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 220
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 76,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 221
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 76,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 222
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 75,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 221
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 83,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 223
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 83,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 224
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 225
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 85,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 226
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 73,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 227
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 75,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 22,
+            "callee": 222
+        },
+        {
+            "callSite": {
+                "filename": "StsCredentialsProvider.java",
+                "line": 115,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 228,
+            "callee": 229
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 100,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 123,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 101,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 123,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 138,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 230,
+            "callee": 231
+        },
+        {
+            "callSite": {
+                "filename": "StsAssumeRoleWithSamlCredentialsProvider.java",
+                "line": 138,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/services/sts/auth"
+            },
+            "caller": 230,
+            "callee": 214
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.services.sts.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.services.sts.auth",
+            "isRoot": false,
+            "module": -1,
+            "name": "auth",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
