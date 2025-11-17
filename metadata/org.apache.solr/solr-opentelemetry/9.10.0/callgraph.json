@@ -1,0 +1,1716 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "forceFlush",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider#forceFlush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentracing.Tracer#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "extract",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#extract(Format,C)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "extract",
+            "name": "io.opentracing.Tracer#extract(Format,C)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "injectPluginSettingsIfNotConfigured",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#injectPluginSettingsIfNotConfigured(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "startsWith",
+            "name": "asSysName#startsWith(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "asSysName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "org.apache.solr.common.util.NamedList#forEach(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "v#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "v",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "buildSpan",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#buildSpan(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "buildSpan",
+            "name": "io.opentracing.Tracer#buildSpan(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "addOtelResourceAttributes",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#addOtelResourceAttributes(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setProperty",
+            "name": "java.lang.System.setProperty(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collector<T, ?, Map<K, U>>"],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "IntStream#collect(Collector)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<? super String, ? extends String[]>"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "IntStream#map(Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "joining",
+            "name": "java.util.stream.Collectors.joining(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.Arrays.stream(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Predicate<? super String>"],
+            "templateArguments": [],
+            "function": "filter",
+            "name": "IntStream#filter(Predicate)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Function<? super String[], ? extends String>",
+                "Function<? super String[], ? extends String>"
+            ],
+            "templateArguments": [],
+            "function": "toMap",
+            "name": "java.util.stream.Collectors.toMap(Function,Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "Set#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getEnvOrSysprop",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#getEnvOrSysprop(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getenv",
+            "name": "java.lang.System.getenv()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "java.lang.invoke.MethodHandles.lookup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.invoke.MethodHandles",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookupClass",
+            "name": "MethodHandles.Lookup#lookupClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MethodHandles.Lookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentOtelConfigAsString",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#getCurrentOtelConfigAsString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "comparingByKey",
+            "name": "java.util.Map.Entry#comparingByKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentOtelConfig",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#getCurrentOtelConfig()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setDefaultIfNotConfigured",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#setDefaultIfNotConfigured(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "org.slf4j.Logger#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setProperty",
+            "name": "org.apache.solr.common.util.EnvUtils.setProperty(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.EnvUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.HashMap#put(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProperties",
+            "name": "org.apache.solr.common.util.EnvUtils.getProperties()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.EnvUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "envKey",
+                "value"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "currentConfig#put(envKey,value)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "currentConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "toUpperCase",
+            "name": "key#toUpperCase(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "key",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "e#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "e",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "scopeManager",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#scopeManager()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "scopeManager",
+            "name": "io.opentracing.Tracer#scopeManager()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTracer",
+            "name": "org.apache.solr.opentelemetry.OtelTracerConfigurator#getTracer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OtelTracerConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "io.opentelemetry.sdk.autoconfigure.AutoConfiguredOpenTelemetrySdk.initialize()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.autoconfigure.AutoConfiguredOpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getProperty",
+            "name": "org.apache.solr.common.util.EnvUtils.getProperty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.EnvUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OpenTelemetrySdk"],
+            "templateArguments": [],
+            "function": "createTracerShim",
+            "name": "io.opentelemetry.opentracingshim.OpenTracingShim.createTracerShim(OpenTelemetrySdk)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.opentracingshim.OpenTracingShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tracer",
+                "SdkTracerProvider"
+            ],
+            "templateArguments": [],
+            "function": "ClosableTracerShim",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#ClosableTracerShim(Tracer,SdkTracerProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Map.of(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSdkTracerProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#getSdkTracerProvider()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setProperty",
+            "name": "java.lang.System.setProperty(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#inject(SpanContext,Format,C)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "io.opentracing.Tracer#inject(SpanContext,Format,C)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activateSpan",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#activateSpan(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activateSpan",
+            "name": "io.opentracing.Tracer#activateSpan(Span)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "org.apache.solr.opentelemetry.ClosableTracerShim#activeSpan()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClosableTracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentracing.Tracer#activeSpan()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 82,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 78,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 83,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 0,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 0,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 75,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 75,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 6,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 88,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 85,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 89,
+                "column": 50,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 65,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 12,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 65,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 108,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 103,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 103,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 111,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 110,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 112,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 103,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 102,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 100,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 111,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 103,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 106,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 110,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 99,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 14,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 44,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 48,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 31,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 42,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 42,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 42,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 119,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 119,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 117,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 118,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 120,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 117,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 117,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 157,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 39,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 169,
+                "column": 59,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 39,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 165,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 39,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 168,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 167,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 39,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 141,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 134,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 131,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 131,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 135,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 134,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 142,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 132,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 133,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 140,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 139,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 136,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 134,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 132,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 38,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 50,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 52,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 50,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 75,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 58,
+                "column": 53,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 58,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 53,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 76,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 77,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 58,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 67,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 66,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 77,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 61,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 69,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 65,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 73,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 51,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 68,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "OtelTracerConfigurator.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 54,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 65,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 39,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 3,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 39,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 3,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 39,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 3,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 60,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 60,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 67,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 58,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 55,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "ClosableTracerShim.java",
+                "line": 55,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/opentelemetry"
+            },
+            "caller": 70,
+            "callee": 70
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.apache.solr.opentelemetry",
+        "isRoot": false,
+        "module": -1,
+        "name": "opentelemetry",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
