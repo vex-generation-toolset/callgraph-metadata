@@ -1,0 +1,119 @@
+{
+  "cve": "CVE-2025-48924",
+  "package": "pkg:maven/org.apache.commons/commons-lang3@3.17.0",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.commons.lang3",
+      "version": "Before 3.18.0",
+      "commit": "https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2025-48924&ecosystem="
+      },
+      "methods": [
+        "org.apache.commons.lang3.ClassUtils.getClass"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48924"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-48924"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-48924"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48924"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      674
+    ],
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with commons-lang:commons-lang 2.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before 3.18.0.\n\nThe methods ClassUtils.getClass(...) can throw StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue.",
+    "detail": "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with commons-lang:commons-lang 2.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before 3.18.0.\n\nThe methods ClassUtils.getClass(...) can throw StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48924"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-48924"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-48924"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2025/07/11/1"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00000.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.debian.org/debian-lts-announce/2025/08/msg00026.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00032.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00036.html"
+      }
+    ],
+    "created": "2025-11-04T22:16:17.823Z",
+    "published": "2025-07-11T15:15:24.347Z",
+    "updated": "2025-11-04T22:16:17.823Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
