@@ -1,0 +1,1243 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TextMapAdapter",
+            "name": "io.opentracing.propagation.TextMapAdapter#TextMapAdapter(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.TextMapAdapter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapAdapter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TextMapExtractAdapter",
+            "name": "io.opentracing.propagation.TextMapExtractAdapter#TextMapExtractAdapter(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapExtractAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "AbstractTag",
+            "name": "io.opentracing.tag.AbstractTag#AbstractTag(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractTag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.tag.AbstractTag.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AbstractTag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Fields",
+            "name": "io.opentracing.log.Fields#Fields()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Fields",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.log.Fields.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Fields",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<String, ? super String>"],
+            "templateArguments": [],
+            "function": "TextMapInjectAdapter",
+            "name": "io.opentracing.propagation.TextMapInjectAdapter#TextMapInjectAdapter(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapInjectAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.TextMapInjectAdapter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapInjectAdapter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "Builtin",
+            "name": "io.opentracing.propagation.Format.Builtin#Builtin(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Format.Builtin",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.Format.Builtin.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Format.Builtin",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "io.opentracing.propagation.TextMapExtract#iterator()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapExtract",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentracing.propagation.Format.Builtin.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Format.Builtin",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ignoreActiveSpan",
+            "name": "io.opentracing.Tracer.SpanBuilder#ignoreActiveSpan()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentracing.References.<staticinit>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "References",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "References",
+            "name": "io.opentracing.References#References()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "References",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.References.<init>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "References",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IntTag",
+            "name": "io.opentracing.tag.IntTag#IntTag(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IntTag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.tag.IntTag.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IntTag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "io.opentracing.propagation.TextMapExtractAdapter#iterator()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapExtractAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "Set#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "injectionCarrier",
+            "name": "io.opentracing.propagation.BinaryAdapters.injectionCarrier(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "BinaryInjectAdapter",
+            "name": "io.opentracing.propagation.BinaryAdapters.BinaryInjectAdapter#BinaryInjectAdapter(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters.BinaryInjectAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentracing.propagation.TextMapInject#put(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapInject",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "BinaryExtractAdapter",
+            "name": "io.opentracing.propagation.BinaryAdapters.BinaryExtractAdapter#BinaryExtractAdapter(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters.BinaryExtractAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.BinaryAdapters.BinaryExtractAdapter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters.BinaryExtractAdapter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringTag",
+            "name": "io.opentracing.tag.StringTag#StringTag(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringTag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.tag.StringTag.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "StringTag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "io.opentracing.Tracer.SpanBuilder#start()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IntOrStringTag",
+            "name": "io.opentracing.tag.IntOrStringTag#IntOrStringTag(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IntOrStringTag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.tag.IntOrStringTag.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IntOrStringTag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SpanContext"
+            ],
+            "templateArguments": [],
+            "function": "addReference",
+            "name": "io.opentracing.Tracer.SpanBuilder#addReference(String,SpanContext)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentracing.propagation.TextMapInjectAdapter#put(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapInjectAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentracing.tag.Tags.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Tags",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "BooleanTag",
+            "name": "io.opentracing.tag.BooleanTag#BooleanTag(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanTag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.tag.BooleanTag.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "BooleanTag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentracing.propagation.TextMapAdapter#put(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "injectionBuffer",
+            "name": "io.opentracing.propagation.BinaryAdapters.BinaryInjectAdapter#injectionBuffer(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters.BinaryInjectAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "limit",
+            "name": "java.nio.ByteBuffer#limit(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "AssertionError",
+            "name": "java.lang.AssertionError#AssertionError(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.AssertionError",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "remaining",
+            "name": "java.nio.ByteBuffer#remaining()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.BinaryAdapters.BinaryInjectAdapter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters.BinaryInjectAdapter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "extractionCarrier",
+            "name": "io.opentracing.propagation.BinaryAdapters.extractionCarrier(ByteBuffer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NullPointerException",
+            "name": "java.lang.NullPointerException#NullPointerException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.NullPointerException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.NullPointerException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.NullPointerException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Tags",
+            "name": "io.opentracing.tag.Tags#Tags()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Tags",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.tag.Tags.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Tags",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "io.opentracing.propagation.Format.Builtin#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Format.Builtin",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "java.lang.Class#getSimpleName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BinaryAdapters",
+            "name": "io.opentracing.propagation.BinaryAdapters#BinaryAdapters()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.BinaryAdapters.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BinaryAdapters",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.propagation.TextMapExtractAdapter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TextMapExtractAdapter",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "TextMapAdapter.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "TextMapAdapter.java",
+                "line": 28,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "AbstractTag.java",
+                "line": 21,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "Fields.java",
+                "line": 24,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/log"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "TextMapInjectAdapter.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 38,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "TextMapExtract.java",
+                "line": 29,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Tracer.java",
+                "line": 178,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "References.java",
+                "line": 24,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "IntTag.java",
+                "line": 19,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "IntTag.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 17,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "TextMapExtractAdapter.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "TextMapExtractAdapter.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 109,
+                "column": 68,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 53,
+                "column": 56,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 101,
+                "column": 66,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 61,
+                "column": 69,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 93,
+                "column": 53,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 83,
+                "column": 60,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 69,
+                "column": 71,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "TextMapInject.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 24,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "StringTag.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 27,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "StringTag.java",
+                "line": 19,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "Tracer.java",
+                "line": 198,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing"
+            },
+            "caller": 29,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "IntOrStringTag.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 30,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "IntOrStringTag.java",
+                "line": 19,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Tracer.java",
+                "line": 154,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing"
+            },
+            "caller": 32,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "TextMapInjectAdapter.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 123,
+                "column": 45,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 71,
+                "column": 52,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 101,
+                "column": 47,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 51,
+                "column": 46,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 86,
+                "column": 44,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 118,
+                "column": 49,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 91,
+                "column": 52,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 129,
+                "column": 50,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 112,
+                "column": 45,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 81,
+                "column": 51,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 96,
+                "column": 47,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 136,
+                "column": 61,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 56,
+                "column": 46,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 61,
+                "column": 49,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 76,
+                "column": 50,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 66,
+                "column": 57,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 106,
+                "column": 44,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "BooleanTag.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 36,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "BooleanTag.java",
+                "line": 19,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "TextMapAdapter.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 38,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 82,
+                "column": 13,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 79,
+                "column": 23,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 76,
+                "column": 23,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 39,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 82,
+                "column": 26,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 39,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 78,
+                "column": 26,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 39,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 23,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 35,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 46,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 32,
+                "column": 19,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 32,
+                "column": 19,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 46,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "Tags.java",
+                "line": 25,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/tag"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "Format.java",
+                "line": 116,
+                "column": 20,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "BinaryAdapters.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "TextMapExtractAdapter.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/propagation"
+            },
+            "caller": 2,
+            "callee": 55
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "io.opentracing.propagation",
+            "isRoot": false,
+            "module": -1,
+            "name": "propagation",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "io.opentracing.tag",
+            "isRoot": false,
+            "module": -1,
+            "name": "tag",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "io.opentracing.log",
+            "isRoot": false,
+            "module": -1,
+            "name": "log",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "io.opentracing",
+            "isRoot": false,
+            "module": -1,
+            "name": "opentracing",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
