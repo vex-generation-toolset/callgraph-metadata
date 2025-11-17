@@ -1,0 +1,118 @@
+{
+  "cve": "CVE-2025-1948",
+  "package": "pkg:maven/org.eclipse.jetty.http2/http2-common@10.0.26",
+  "root_cause_functions": [
+    {
+      "package": "org.eclipse.jetty.http2.hpack",
+      "version": "12.0.0 to 12.0.16",
+      "commit": "https://github.com/jetty/jetty.project/commit/9a44908bee01e65cfdbb2348f6c97de24b920c74",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2025-1948&ecosystem="
+      },
+      "methods": [
+        "org.eclipse.jetty.http2.hpack.HpackEncoder.setMaxHeaderListSize",
+        "org.eclipse.jetty.http2.HTTP2Session.configure"
+      ]
+    },
+    {
+      "package": "org.eclipse.jetty.http2.hpack",
+      "version": "12.0.0 to 12.0.16",
+      "commit": "https://github.com/jetty/jetty.project/commit/8414f79a9c476ecb78998c8ce88f0c5ae548f7e6",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2025-1948&ecosystem="
+      },
+      "methods": [
+        "org.eclipse.jetty.http2.hpack.HpackEncoder.setMaxHeaderListSize",
+        "org.eclipse.jetty.http2.HTTP2Session.configure"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1948"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-1948"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-1948"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1948"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      400
+    ],
+    "description": "In Eclipse Jetty versions 12.0.0 to 12.0.16 included, an HTTP/2 client can specify a very large value for the HTTP/2 settings parameter SETTINGS_MAX_HEADER_LIST_SIZE.\nThe Jetty HTTP/2 server does not perform validation on this setting, and tries to allocate a ByteBuffer of the specified capacity to encode HTTP responses, likely resulting in OutOfMemoryError being thrown, or even the JVM process exiting.",
+    "detail": "In Eclipse Jetty versions 12.0.0 to 12.0.16 included, an HTTP/2 client can specify a very large value for the HTTP/2 settings parameter SETTINGS_MAX_HEADER_LIST_SIZE.\nThe Jetty HTTP/2 server does not perform validation on this setting, and tries to allocate a ByteBuffer of the specified capacity to encode HTTP responses, likely resulting in OutOfMemoryError being thrown, or even the JVM process exiting.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1948"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-1948"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-1948"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/jetty/jetty.project/security/advisories/GHSA-889j-63jv-qhr8"
+      },
+      {
+        "title": [
+          "Issue Tracking"
+        ],
+        "url": "https://gitlab.eclipse.org/security/cve-assignement/-/issues/56"
+      }
+    ],
+    "created": "2025-07-31T16:28:26.603Z",
+    "published": "2025-05-08T18:15:41.990Z",
+    "updated": "2025-07-31T16:28:26.603Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
