@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-configuration",
+  "tag": "refs/tags/rel/commons-configuration-%s",
+  "relative_path": ""
+}

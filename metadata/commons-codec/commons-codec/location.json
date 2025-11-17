@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-codec",
+  "tag": "refs/tags/rel/commons-codec-%s",
+  "relative_path": ""
+}

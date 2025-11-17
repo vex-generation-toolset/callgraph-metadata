@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-validator",
+  "tag": "refs/tags/rel/commons-validator-%s",
+  "relative_path": ""
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-compress",
+  "tag": "refs/tags/rel/commons-compress-%s",
+  "relative_path": ""
+}

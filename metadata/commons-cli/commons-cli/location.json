@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-cli",
+  "tag": "refs/tags/rel/commons-cli-%s",
+  "relative_path": ""
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-exec",
+  "tag": "refs/tags/rel/commons-exec-%s",
+  "relative_path": ""
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-beanutils",
+  "tag": "refs/tags/rel/commons-beanutils-%s",
+  "relative_path": ""
+}
