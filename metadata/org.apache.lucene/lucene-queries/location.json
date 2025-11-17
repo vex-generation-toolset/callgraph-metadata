@@ -1,0 +1,5 @@
+{
+  "repository": "apache/lucene",
+  "tag": "refs/tags/releases/lucene/%s",
+  "relative_path": "lucene/queries"
+}
