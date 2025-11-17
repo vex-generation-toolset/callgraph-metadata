@@ -1,0 +1,5412 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "last",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#last()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBeginIndex",
+            "name": "java.text.CharacterIterator#getBeginIndex()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.CharacterIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndIndex",
+            "name": "java.text.CharacterIterator#getEndIndex()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.CharacterIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "current",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#current()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setIndex",
+            "name": "java.text.CharacterIterator#setIndex(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.CharacterIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["POSModel"],
+            "templateArguments": [],
+            "function": "NLPPOSTaggerOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPPOSTaggerOp#NLPPOSTaggerOp(POSModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPPOSTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["POSModel"],
+            "templateArguments": [],
+            "function": "POSTaggerME",
+            "name": "opennlp.tools.postag.POSTaggerME#POSTaggerME(POSModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.postag.POSTaggerME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPPOSTaggerOp.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPPOSTaggerOp",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getLemmatizer",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getLemmatizer(String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DictionaryLemmatizer",
+                "LemmatizerModel"
+            ],
+            "templateArguments": [],
+            "function": "NLPLemmatizerOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPLemmatizerOp#NLPLemmatizerOp(DictionaryLemmatizer,LemmatizerModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPLemmatizerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getNERTagger",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getNERTagger(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenNameFinderModel"],
+            "templateArguments": [],
+            "function": "NLPNERTaggerOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp#NLPNERTaggerOp(TokenNameFinderModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPNERTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextSentence",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter#nextSentence()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "assignTokenTypes",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter#assignTokenTypes(String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "getPOSTags",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPPOSTaggerOp#getPOSTags(String[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPPOSTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "java.util.List#toArray(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<CharTermAttribute>"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.apache.lucene.util.AttributeSource#getAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSentenceAttributes",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#getSentenceAttributes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "extractSentenceAttributes",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#extractSentenceAttributes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#next()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIndex",
+            "name": "java.text.CharacterIterator#getIndex()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.CharacterIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getPOSTaggerModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getPOSTaggerModel(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.concurrent.ConcurrentHashMap#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "POSModel",
+            "name": "opennlp.tools.postag.POSModel#POSModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.postag.POSModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.lucene.util.ResourceLoader#openResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.ResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "POSModel"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.concurrent.ConcurrentHashMap#put(String,POSModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilterFactory#inform(ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getChunkerModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getChunkerModel(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.List#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getTokenizer",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getTokenizer(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NLPTokenizerOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPTokenizerOp#NLPTokenizerOp()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPTokenizerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenizerModel"],
+            "templateArguments": [],
+            "function": "NLPTokenizerOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPTokenizerOp#NLPTokenizerOp(TokenizerModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPTokenizerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "NLPLemmatizerOp"
+            ],
+            "templateArguments": [],
+            "function": "OpenNLPLemmatizerFilter",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilter#OpenNLPLemmatizerFilter(TokenStream,NLPLemmatizerOp)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "SentenceAttribute"
+            ],
+            "templateArguments": [],
+            "function": "SentenceAttributeExtractor",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#SentenceAttributeExtractor(TokenStream,SentenceAttribute)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "TokenFilter",
+            "name": "org.apache.lucene.analysis.TokenFilter#TokenFilter(TokenStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OpenNLPChunkerFilter"],
+            "templateArguments": [],
+            "function": "copyTo",
+            "name": "org.apache.lucene.util.AttributeSource#copyTo(OpenNLPChunkerFilter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "allSentencesProcessed",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#allSentencesProcessed()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextSentence",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter#nextSentence()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "preceding",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#preceding(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "moveToSentenceAt",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#moveToSentenceAt(int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearModels",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.clearModels()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.concurrent.ConcurrentHashMap#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.Map#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilterFactory#inform(ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AttributeFactory"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizerFactory#create(AttributeFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AttributeFactory",
+                "NLPSentenceDetectorOp",
+                "NLPTokenizerOp"
+            ],
+            "templateArguments": [],
+            "function": "OpenNLPTokenizer",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizer#OpenNLPTokenizer(AttributeFactory,NLPSentenceDetectorOp,NLPTokenizerOp)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getSentenceDetector",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getSentenceDetector(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilterFactory#inform(ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getLemmatizerModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getLemmatizerModel(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getLemmatizerDictionary",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getLemmatizerDictionary(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp#reset()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPNERTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearAdaptiveData",
+            "name": "opennlp.tools.namefind.TokenNameFinder#clearAdaptiveData()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.namefind.TokenNameFinder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OpenNLPPOSFilter"],
+            "templateArguments": [],
+            "function": "copyTo",
+            "name": "org.apache.lucene.util.AttributeSource#copyTo(OpenNLPPOSFilter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OpenNLPLemmatizerFilterFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilterFactory#OpenNLPLemmatizerFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SentenceModel"],
+            "templateArguments": [],
+            "function": "NLPSentenceDetectorOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPSentenceDetectorOp#NLPSentenceDetectorOp(SentenceModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPSentenceDetectorOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NLPSentenceDetectorOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPSentenceDetectorOp#NLPSentenceDetectorOp()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPSentenceDetectorOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilter#incrementToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextSentence",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilter#nextSentence()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isKeyword",
+            "name": "KeywordAttribute#isKeyword()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "KeywordAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OpenNLPLemmatizerFilter"],
+            "templateArguments": [],
+            "function": "copyTo",
+            "name": "org.apache.lucene.util.AttributeSource#copyTo(OpenNLPLemmatizerFilter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setEmpty",
+            "name": "CharTermAttribute#setEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "java.util.Iterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "previous",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#previous()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String[]",
+                "double[]"
+            ],
+            "templateArguments": [],
+            "function": "getChunks",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPChunkerOp#getChunks(String[],String[],double[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPChunkerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double[]"],
+            "templateArguments": [],
+            "function": "probs",
+            "name": "opennlp.tools.chunker.ChunkerME#probs(double[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.chunker.ChunkerME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "chunk",
+            "name": "opennlp.tools.chunker.ChunkerME#chunk(String[],String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.chunker.ChunkerME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizer#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.util.SegmentingTokenizerBase#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.SegmentingTokenizerBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OpenNLPChunkerFilterFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilterFactory#OpenNLPChunkerFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getPOSTagger",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getPOSTagger(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "NLPPOSTaggerOp"
+            ],
+            "templateArguments": [],
+            "function": "OpenNLPPOSFilter",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter#OpenNLPPOSFilter(TokenStream,NLPPOSTaggerOp)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getChunker",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getChunker(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChunkerModel"],
+            "templateArguments": [],
+            "function": "NLPChunkerOp",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPChunkerOp#NLPChunkerOp(ChunkerModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPChunkerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.TokenStream#incrementToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "cloneAttributes",
+            "name": "org.apache.lucene.analysis.TokenStream#cloneAttributes()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSentenceIndex",
+            "name": "org.apache.lucene.analysis.tokenattributes.SentenceAttribute#getSentenceIndex()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.SentenceAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AttributeSource"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(AttributeSource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizerFactory#inform(ResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getTokenizerModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getTokenizerModel(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getSentenceModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getSentenceModel(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "first",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#first()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "tag",
+            "name": "opennlp.tools.postag.POSTagger#tag(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.postag.POSTagger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "OpenNLPChunkerFilterFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilterFactory#OpenNLPChunkerFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TokenFilterFactory",
+            "name": "org.apache.lucene.analysis.TokenFilterFactory#TokenFilterFactory(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Map#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChunkerModel"],
+            "templateArguments": [],
+            "function": "ChunkerME",
+            "name": "opennlp.tools.chunker.ChunkerME#ChunkerME(ChunkerModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.chunker.ChunkerME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPChunkerOp.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPChunkerOp",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SentenceModel"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,SentenceModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "SentenceModel",
+            "name": "opennlp.tools.sentdetect.SentenceModel#SentenceModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.sentdetect.SentenceModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "getNERTaggerModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getNERTaggerModel(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "TokenNameFinderModel",
+            "name": "opennlp.tools.namefind.TokenNameFinderModel#TokenNameFinderModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.namefind.TokenNameFinderModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "TokenNameFinderModel"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,TokenNameFinderModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<TypeAttribute>"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.apache.lucene.util.AttributeSource#getAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPTokenizerOp.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPTokenizerOp",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SentenceAttributeExtractor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPSentenceDetectorOp.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPSentenceDetectorOp",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "ChunkerModel",
+            "name": "opennlp.tools.chunker.ChunkerModel#ChunkerModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.chunker.ChunkerModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ChunkerModel"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.concurrent.ConcurrentHashMap#put(String,ChunkerModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AttributeFactory",
+                "OpenNLPSentenceBreakIterator"
+            ],
+            "templateArguments": [],
+            "function": "SegmentingTokenizerBase",
+            "name": "org.apache.lucene.analysis.util.SegmentingTokenizerBase#SegmentingTokenizerBase(AttributeFactory,OpenNLPSentenceBreakIterator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.SegmentingTokenizerBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NLPSentenceDetectorOp"],
+            "templateArguments": [],
+            "function": "OpenNLPSentenceBreakIterator",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#OpenNLPSentenceBreakIterator(NLPSentenceDetectorOp)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "lemmatize",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPLemmatizerOp#lemmatize(String[],String[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPLemmatizerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "lemmatize",
+            "name": "opennlp.tools.lemmatizer.LemmatizerME#lemmatize(String[],String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.lemmatizer.LemmatizerME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "lemmatize",
+            "name": "opennlp.tools.lemmatizer.DictionaryLemmatizer#lemmatize(String[],String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.lemmatizer.DictionaryLemmatizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getTerms",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPTokenizerOp#getTerms(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPTokenizerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "tokenizePos",
+            "name": "opennlp.tools.tokenize.Tokenizer#tokenizePos(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.tokenize.Tokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "Span",
+            "name": "opennlp.tools.util.Span#Span(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "NLPChunkerOp"
+            ],
+            "templateArguments": [],
+            "function": "OpenNLPChunkerFilter",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter#OpenNLPChunkerFilter(TokenStream,NLPChunkerOp)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.TokenFilter#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter#clear()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenStream"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilterFactory#create(TokenStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "OpenNLPLemmatizerFilterFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilterFactory#OpenNLPLemmatizerFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "splitSentences",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPSentenceDetectorOp#splitSentences(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPSentenceDetectorOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sentPosDetect",
+            "name": "opennlp.tools.sentdetect.SentenceDetectorME#sentPosDetect(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.sentdetect.SentenceDetectorME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setNextSentence",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizer#setNextSentence(int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "buffer",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(buffer,int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "getNames",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp#getNames(String[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPNERTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "find",
+            "name": "opennlp.tools.namefind.TokenNameFinder#find(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.namefind.TokenNameFinder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter#clear()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizer#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.lucene.analysis.util.SegmentingTokenizerBase#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.SegmentingTokenizerBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "characterIteratorToString",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#characterIteratorToString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLength",
+            "name": "org.apache.lucene.analysis.util.CharArrayIterator#getLength()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.CharArrayIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "first",
+            "name": "java.text.CharacterIterator#first()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.CharacterIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "java.text.CharacterIterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.CharacterIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStart",
+            "name": "org.apache.lucene.analysis.util.CharArrayIterator#getStart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.CharArrayIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getText",
+            "name": "org.apache.lucene.analysis.util.CharArrayIterator#getText()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.util.CharArrayIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "LemmatizerModel",
+            "name": "opennlp.tools.lemmatizer.LemmatizerModel#LemmatizerModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.lemmatizer.LemmatizerModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "LemmatizerModel"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,LemmatizerModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OpenNLPPOSFilterFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilterFactory#OpenNLPPOSFilterFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilterFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilterFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["CharacterIterator"],
+            "templateArguments": [],
+            "function": "setText",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#setText(CharacterIterator)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStart",
+            "name": "opennlp.tools.util.Span#getStart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilter#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPLemmatizerFilter#clear()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLemmatizerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "next",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#next(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPLemmatizerOp.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPLemmatizerOp",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["LemmatizerModel"],
+            "templateArguments": [],
+            "function": "LemmatizerME",
+            "name": "opennlp.tools.lemmatizer.LemmatizerME#LemmatizerME(LemmatizerModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.lemmatizer.LemmatizerME",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SentenceModel"],
+            "templateArguments": [],
+            "function": "SentenceDetectorME",
+            "name": "opennlp.tools.sentdetect.SentenceDetectorME#SentenceDetectorME(SentenceModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.sentdetect.SentenceDetectorME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementWord",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizer#incrementWord()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setSentenceIndex",
+            "name": "org.apache.lucene.analysis.tokenattributes.SentenceAttribute#setSentenceIndex(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.SentenceAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "opennlp.tools.util.Span#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "buffer",
+                "int",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "copyBuffer",
+            "name": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute#copyBuffer(buffer,int,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.CharTermAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEnd",
+            "name": "opennlp.tools.util.Span#getEnd()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setOffset",
+            "name": "org.apache.lucene.analysis.tokenattributes.OffsetAttribute#setOffset(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.OffsetAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OpenNLPTokenizerFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizerFactory#OpenNLPTokenizerFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizerFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizerFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "OpenNLPTokenizerFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizerFactory#OpenNLPTokenizerFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "TokenizerFactory",
+            "name": "org.apache.lucene.analysis.TokenizerFactory#TokenizerFactory(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenizerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPTokenizerFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPTokenizerFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "following",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPSentenceBreakIterator#following(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPSentenceBreakIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NLPNERTaggerOp",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["TokenNameFinderModel"],
+            "templateArguments": [],
+            "function": "NameFinderME",
+            "name": "opennlp.tools.namefind.NameFinderME#NameFinderME(TokenNameFinderModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.namefind.NameFinderME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "TokenizerModel"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.concurrent.ConcurrentHashMap#put(String,TokenizerModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "TokenizerModel",
+            "name": "opennlp.tools.tokenize.TokenizerModel#TokenizerModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.tokenize.TokenizerModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "DictionaryLemmatizer"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,DictionaryLemmatizer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "DictionaryLemmatizer",
+            "name": "opennlp.tools.lemmatizer.DictionaryLemmatizer#DictionaryLemmatizer(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.lemmatizer.DictionaryLemmatizer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<KeywordAttribute>"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.apache.lucene.util.AttributeSource#getAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "java.util.List#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "OpenNLPPOSFilterFactory",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilterFactory#OpenNLPPOSFilterFactory(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPPOSFilterFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPPOSFilterFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "assignTokenTypes",
+            "name": "org.apache.lucene.analysis.opennlp.OpenNLPChunkerFilter#assignTokenTypes(String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPChunkerFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TokenizerModel"],
+            "templateArguments": [],
+            "function": "TokenizerME",
+            "name": "opennlp.tools.tokenize.TokenizerME#TokenizerME(TokenizerModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.tokenize.TokenizerME",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 57,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 54,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 59,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 57,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 54,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "NLPPOSTaggerOp.java",
+                "line": 33,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "NLPPOSTaggerOp.java",
+                "line": 32,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 149,
+                "column": 46,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 146,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 150,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 140,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 124,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 12,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 123,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 12,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 125,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 65,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 65,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 67,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 70,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 69,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 67,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 71,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 66,
+                "column": 44,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 14,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 68,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 24,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 70,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 24,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 67,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 24,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 64,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 24,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 96,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 94,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 26,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 99,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 26,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 98,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 26,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 101,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 26,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 88,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 85,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 31,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 77,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 68,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 36,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 70,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 73,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 72,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 36,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 52,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 53,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 39,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 52,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 53,
+                "column": 50,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 56,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 56,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 56,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 43,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 147,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 140,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 140,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 154,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 158,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 138,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 152,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 137,
+                "column": 45,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 137,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 154,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 147,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 50,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 180,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 177,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 181,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 179,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 183,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 182,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 184,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 53,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 76,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 56,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 78,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 56,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 72,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 57,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 75,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 73,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 57,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 71,
+                "column": 42,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 57,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 102,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 99,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 61,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "NLPNERTaggerOp.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 53,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 59,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 59,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 53,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 53,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 50,
+                "column": 50,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 49,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 66,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 91,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 68,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 89,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 68,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 88,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 68,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 79,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 69,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 50,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 60,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 52,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 60,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 47,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 60,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 49,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 60,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 64,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 71,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 64,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 64,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 72,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 73,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 131,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 129,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 119,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 119,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 123,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 126,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 126,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 123,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 127,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 79,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "NLPChunkerOp.java",
+                "line": 34,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "NLPChunkerOp.java",
+                "line": 33,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 80,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 45,
+                "column": 72,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 45,
+                "column": 72,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 44,
+                "column": 66,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 44,
+                "column": 66,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 41,
+                "column": 72,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 41,
+                "column": 72,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 38,
+                "column": 62,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 38,
+                "column": 62,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 43,
+                "column": 64,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 43,
+                "column": 64,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 40,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 40,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 42,
+                "column": 74,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 42,
+                "column": 74,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 11,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 61,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 67,
+                "column": 39,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 69,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 89,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 67,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 89,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 108,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 107,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 92,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 106,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 92,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 55,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 23,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 52,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 23,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 62,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 23,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 56,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 23,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 23,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 86,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 83,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 111,
+                "column": 70,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 52,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 106,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 52,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 102,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 52,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 47,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 101,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 46,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 101,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 101,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "NLPPOSTaggerOp.java",
+                "line": 37,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 19,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 103,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 103,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 56,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 103,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 57,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 103,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "NLPChunkerOp.java",
+                "line": 29,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 93,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "NLPChunkerOp.java",
+                "line": 28,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 93,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 63,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 100,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 58,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 100,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 61,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 100,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 56,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 100,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 60,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 100,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 133,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 111,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 135,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 111,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 128,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 111,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 132,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 111,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 130,
+                "column": 34,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 111,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 76,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 17,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 76,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 17,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 76,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 17,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "NLPTokenizerOp.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 37,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 41,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "NLPSentenceDetectorOp.java",
+                "line": 35,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 72,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 116,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 33,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 118,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 33,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 113,
+                "column": 26,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 33,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 111,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 33,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 115,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 33,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 52,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 59,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 52,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 59,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 49,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 59,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 54,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 59,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "NLPLemmatizerOp.java",
+                "line": 68,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 123,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "NLPLemmatizerOp.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 123,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "NLPLemmatizerOp.java",
+                "line": 55,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 123,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "NLPTokenizerOp.java",
+                "line": 46,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 126,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "NLPTokenizerOp.java",
+                "line": 43,
+                "column": 18,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 126,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 129,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 129,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 87,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 131,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 86,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 131,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 88,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 131,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 72,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 134,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 76,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 134,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilterFactory.java",
+                "line": 74,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 134,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 66,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 135,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 74,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 135,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 60,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 135,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 60,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 135,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilterFactory.java",
+                "line": 75,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 135,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "NLPSentenceDetectorOp.java",
+                "line": 41,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 137,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "NLPSentenceDetectorOp.java",
+                "line": 44,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 137,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 71,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 139,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 70,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 139,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "NLPNERTaggerOp.java",
+                "line": 49,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 141,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 92,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 143,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 143,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 93,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 143,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 145,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 34,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 121,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 215,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 219,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 218,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 218,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 222,
+                "column": 18,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 220,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 219,
+                "column": 71,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 214,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 223,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 223,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 213,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 212,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 148,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 169,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 62,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 165,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 62,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 170,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 62,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 167,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 62,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 172,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 62,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 59,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 161,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 203,
+                "column": 27,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 199,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 163,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 197,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 163,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 203,
+                "column": 49,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 163,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 199,
+                "column": 46,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 163,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 197,
+                "column": 19,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 163,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 38,
+                "column": 60,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 116,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SentenceAttributeExtractor.java",
+                "line": 38,
+                "column": 60,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 116,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 98,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 165,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 100,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 165,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 99,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 165,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 172,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 172,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 180,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 167,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 167,
+                "column": 11,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 186,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 180,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 175,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 183,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 167,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "NLPLemmatizerOp.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 10,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "NLPLemmatizerOp.java",
+                "line": 43,
+                "column": 53,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 10,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "NLPSentenceDetectorOp.java",
+                "line": 31,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 71,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "NLPSentenceDetectorOp.java",
+                "line": 32,
+                "column": 24,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 71,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 87,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 83,
+                "column": 65,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 85,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 83,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 86,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 84,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizer.java",
+                "line": 83,
+                "column": 48,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 171,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 63,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 177,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 179,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 58,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 179,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 179,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 179,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPTokenizerFactory.java",
+                "line": 59,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 179,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 85,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 79,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 79,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 91,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 90,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 77,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 76,
+                "column": 45,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 76,
+                "column": 15,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 92,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 85,
+                "column": 21,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 182,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 91,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 90,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 90,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 90,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 89,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 90,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "NLPNERTaggerOp.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 13,
+            "callee": 183
+        },
+        {
+            "callSite": {
+                "filename": "NLPNERTaggerOp.java",
+                "line": 45,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 13,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 44,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 91,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 91,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilter.java",
+                "line": 40,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 91,
+            "callee": 185
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 99,
+            "callee": 186
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 77,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 99,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 81,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 99,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 82,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 99,
+            "callee": 187
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 79,
+                "column": 28,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 99,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 160,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 63,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 155,
+                "column": 49,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 63,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 153,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 63,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 159,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 63,
+            "callee": 189
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPOpsFactory.java",
+                "line": 159,
+                "column": 55,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 63,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 84,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 190
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 91,
+                "column": 14,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 79,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 79,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 93,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 85,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 90,
+                "column": 35,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 89,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 85,
+                "column": 23,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 92,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 191
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 80,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 80,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLemmatizerFilter.java",
+                "line": 86,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 74,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 51,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 192,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 51,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 192,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 52,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 192,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 55,
+                "column": 13,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 192,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPPOSFilterFactory.java",
+                "line": 54,
+                "column": 10,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 192,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPSentenceBreakIterator.java",
+                "line": 40,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 3,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 76,
+                "column": 5,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 72,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 70,
+                "column": 44,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 77,
+                "column": 12,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 71,
+                "column": 20,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 75,
+                "column": 36,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 74,
+                "column": 30,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 72,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 69,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 69,
+                "column": 31,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 76,
+                "column": 22,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 71,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 49,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 82,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 194,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 82,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 194,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPChunkerFilter.java",
+                "line": 82,
+                "column": 7,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp"
+            },
+            "caller": 194,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "NLPTokenizerOp.java",
+                "line": 33,
+                "column": 17,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 38,
+            "callee": 195
+        },
+        {
+            "callSite": {
+                "filename": "NLPTokenizerOp.java",
+                "line": 32,
+                "column": 3,
+                "directory": "src/java/org/apache/lucene/analysis/opennlp/tools"
+            },
+            "caller": 38,
+            "callee": 115
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.lucene.analysis.opennlp",
+            "isRoot": false,
+            "module": -1,
+            "name": "opennlp",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.lucene.analysis.opennlp.tools",
+            "isRoot": false,
+            "module": -1,
+            "name": "tools",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
