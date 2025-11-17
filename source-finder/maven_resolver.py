@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
+import json
+import sys
 import xml.etree.ElementTree as ET
 from location import SourceLocation
 
@@ -94,3 +97,35 @@ class MavenResolver:
             current_artifact = MavenResolver.extract_parent_coords(pom_xml)
 
         return None
+
+def main():
+    if len(sys.argv) != 2:
+        print(f"Usage: {sys.argv[0]} <groupId:artifactId:version>", file=sys.stderr)
+        sys.exit(1)
+
+    artifact = MavenArtifact(*sys.argv[1].split(":", maxsplit=3))
+    resolver = MavenResolver()
+    try:
+        location = resolver.resolve_source_location(artifact)
+        if location:
+            if location.tag and artifact.version in location.tag:
+                tag_template = location.tag.replace(artifact.version, "%s")
+                print(f"Location template for {artifact.group_id}:{artifact.artifact_id}:")
+            else:
+                tag_template = location.tag
+                print(f"Location for {artifact}:")
+
+            location_data = {
+                "vcs_url": location.vcs_url,
+                "repository": location.github_repo(),
+                "tag": f"refs/tags/{tag_template}" if tag_template else None,
+                "relative_path": ""
+            }
+            json.dump(location_data, sys.stdout, indent=2)
+        else:
+            print("No SCM information found.")
+    except POMNotFound as e:
+        print(e)
+
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 import json
 import os
 import sys
@@ -41,31 +42,6 @@ def is_jar(purl_str: str) -> bool:
     return p.type == "maven" and isinstance(p.qualifiers, dict) and p.qualifiers.get("type") == "jar"
 
 
-def spdx_connection_to_github_repo(connection: str) -> str | None:
-    """
-    Convert an SCM connection string to a GitHub repository URL, if possible.
-    """
-    if not connection.startswith("git+"):
-        return None
-
-    connection = connection[4:]
-    prefixes = [
-        "git@github.com:",
-        "git://github.com/",
-        "ssh://github.com/",
-        "https://github.com/",
-        "https://gitbox.apache.org/repos/asf/"
-    ]
-    for prefix in prefixes:
-        if connection.startswith(prefix):
-            repo_path = connection[len(prefix):]
-            if repo_path.endswith(".git"):
-                repo_path = repo_path[:-4]
-            return repo_path
-
-    return None
-
-
 def process_bom(path: str):
     bom = parse_bom(path)
 
@@ -74,8 +50,6 @@ def process_bom(path: str):
     print()
 
     resolver = MavenResolver()
-
-    print("[")
 
     for comp in bom.components:
         # comp.purl may be a string or a PackageURL depending on library version;
@@ -106,12 +80,11 @@ def process_bom(path: str):
         if location is None:
             print("Location: <none>", file=sys.stderr)
             continue
-        print(f"Location URL: {location.connection}", file=sys.stderr)
+        print(f"Location URL: {location.vcs_url}", file=sys.stderr)
         print(f"Location tag: {location.tag or '<none>'}", file=sys.stderr)
 
-        repository = spdx_connection_to_github_repo(location.connection)
-        if not repository:
-            print(f"Could not convert SCM connection to GitHub repo: {location.connection!r}", file=sys.stderr)
+        if not location.github_repo():
+            print(f"Could not convert SCM connection to GitHub repo: {location.vcs_url!r}", file=sys.stderr)
             continue
 
         if not location.tag:
@@ -138,15 +111,13 @@ def process_bom(path: str):
             continue
 
         location_data = {
-            "repository": repository,
+            "repository": location.github_repo(),
             "tag": f"refs/tags/{tag_template}",
             "relative_path": ""
         }
         with open(location_meta_file, "w", encoding="utf-8") as f:
             json.dump(location_data, f, indent=2)
             print(f"Wrote metadata to {location_meta_file}", file=sys.stderr)
-
-    print("]")
 
 
 def main():
