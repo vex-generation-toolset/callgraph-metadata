@@ -1,0 +1,3723 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookupClass",
+            "name": "MethodHandles.Lookup#lookupClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MethodHandles.Lookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "java.lang.invoke.MethodHandles.lookup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.invoke.MethodHandles",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "TextToVectorModelException",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelException#TextToVectorModelException(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelException.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "EmbeddingModel",
+                "Map<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "SolrTextToVectorModel",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#SolrTextToVectorModel(String,EmbeddingModel,Map)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "calculateHashCode",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#calculateHashCode()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getModel",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#getModel(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrInputField"],
+            "templateArguments": [],
+            "function": "isNullOrEmpty",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessor#isNullOrEmpty(SolrInputField)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "org.apache.solr.common.SolrInputField#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessor.<staticinit>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "SolrTextToVectorModel",
+                "SolrQueryRequest",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "TextToVectorUpdateProcessor",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessor#TextToVectorUpdateProcessor(String,String,SolrTextToVectorModel,SolrQueryRequest,UpdateRequestProcessor)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSchema",
+            "name": "org.apache.solr.request.SolrQueryRequest#getSchema()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["UpdateRequestProcessor"],
+            "templateArguments": [],
+            "function": "UpdateRequestProcessor",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#UpdateRequestProcessor(UpdateRequestProcessor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessor.<init>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<SolrTextToVectorModel>"],
+            "templateArguments": [],
+            "function": "shallowSizeOfInstance",
+            "name": "org.apache.lucene.util.RamUsageEstimator.shallowSizeOfInstance(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.RamUsageEstimator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#delete(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.Map#remove(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "TextToVectorModelException",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelException#TextToVectorModelException(String,Exception)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrResourceLoader",
+                "StorageIO"
+            ],
+            "templateArguments": [],
+            "function": "ManagedTextToVectorModelStore",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#ManagedTextToVectorModelStore(String,SolrResourceLoader,StorageIO)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TextToVectorModelStore",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#TextToVectorModelStore()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrResourceLoader",
+                "StorageIO"
+            ],
+            "templateArguments": [],
+            "function": "ManagedResource",
+            "name": "org.apache.solr.rest.ManagedResource#ManagedResource(String,SolrResourceLoader,StorageIO)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.rest.ManagedResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "vectorise",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#vectorise(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "vector",
+            "name": "dev.langchain4j.data.embedding.Embedding#vector()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.data.embedding.Embedding",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "embed",
+            "name": "dev.langchain4j.model.embedding.EmbeddingModel#embed(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.embedding.EmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "BaseSolrResource",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "doGet",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#doGet(BaseSolrResource,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getModels",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#getModels()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<SolrTextToVectorModel>"],
+            "templateArguments": [],
+            "function": "modelsAsManagedResources",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.modelsAsManagedResources(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSolrResponse",
+            "name": "org.apache.solr.rest.BaseSolrResource#getSolrResponse()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.rest.BaseSolrResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<Object>"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.solr.response.SolrQueryResponse#add(String,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.response.SolrQueryResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toList",
+            "name": "java.util.stream.Collectors.toList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.List#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getModel",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#getModel(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "BaseSolrResource",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "doDeleteChild",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#doDeleteChild(BaseSolrResource,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "applyUpdatesToManagedData",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#applyUpdatesToManagedData(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrParams",
+                "SolrParams",
+                "SolrQueryRequest"
+            ],
+            "templateArguments": [],
+            "function": "TextToVectorQParser",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin.TextToVectorQParser#TextToVectorQParser(String,SolrParams,SolrParams,SolrQueryRequest)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin.TextToVectorQParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrParams",
+                "SolrParams",
+                "SolrQueryRequest"
+            ],
+            "templateArguments": [],
+            "function": "KnnQParser",
+            "name": "org.apache.solr.search.neural.KnnQParser#KnnQParser(String,SolrParams,SolrParams,SolrQueryRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.search.neural.KnnQParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin.TextToVectorQParser.<init>()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin.TextToVectorQParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#clear()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.Map#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrCore"],
+            "templateArguments": [],
+            "function": "getManagedModelStore",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.getManagedModelStore(SolrCore)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRestManager",
+            "name": "org.apache.solr.core.SolrCore#getRestManager()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrCore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StorageIO",
+                "SolrResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "createStorage",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#createStorage(StorageIO,SolrResourceLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StorageIO",
+                "SolrResourceLoader",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "ManagedResourceStorage.JsonStorage",
+            "name": "org.apache.solr.rest.ManagedResourceStorage.JsonStorage#ManagedResourceStorage.JsonStorage(StorageIO,SolrResourceLoader,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.rest.ManagedResourceStorage.JsonStorage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#equals(Object)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EmbeddingModel",
+                "EmbeddingModel"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(EmbeddingModel,EmbeddingModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrResourceLoader",
+                "ManagedResourceObserver"
+            ],
+            "templateArguments": [],
+            "function": "registerManagedTextToVectorModelStore",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.registerManagedTextToVectorModelStore(SolrResourceLoader,ManagedResourceObserver)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getManagedResourceRegistry",
+            "name": "org.apache.solr.core.SolrResourceLoader#getManagedResourceRegistry()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkParam",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin#checkParam(String,String)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, Object>"],
+            "templateArguments": [],
+            "function": "addModelFromMap",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#addModelFromMap(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrResourceLoader",
+                "Map<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "fromModelMap",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.fromModelMap(SolrResourceLoader,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "TextToVectorModelException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,TextToVectorModelException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrTextToVectorModel"],
+            "templateArguments": [],
+            "function": "addModel",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#addModel(SolrTextToVectorModel)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SchemaField"],
+            "templateArguments": [],
+            "function": "assertIsDenseVectorField",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessorFactory#assertIsDenseVectorField(SchemaField)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCore",
+            "name": "org.apache.solr.request.SolrQueryRequest#getCore()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getField",
+            "name": "org.apache.solr.schema.IndexSchema#getField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "hasExplicitField",
+            "name": "org.apache.solr.schema.IndexSchema#hasExplicitField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isDynamicField",
+            "name": "org.apache.solr.schema.IndexSchema#isDynamicField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "ManagedResource"
+            ],
+            "templateArguments": [],
+            "function": "onManagedResourceInitialized",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin#onManagedResourceInitialized(NamedList,ManagedResource)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "loadStoredModels",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#loadStoredModels()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "checkVectorDimension",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin#checkVectorDimension(int,int)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#toString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#getName()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrTextToVectorModel"],
+            "templateArguments": [],
+            "function": "toModelMap",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore.toModelMap(SolrTextToVectorModel)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.LinkedHashMap#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getParams",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#getParams()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "float"
+            ],
+            "templateArguments": [],
+            "function": "LinkedHashMap",
+            "name": "java.util.LinkedHashMap#LinkedHashMap(int,float)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Map<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.LinkedHashMap#put(String,Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEmbeddingModelClassName",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#getEmbeddingModelClassName()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ramBytesUsed",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel#ramBytesUsed()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EmbeddingModel"],
+            "templateArguments": [],
+            "function": "sizeOfObject",
+            "name": "org.apache.lucene.util.RamUsageEstimator.sizeOfObject(EmbeddingModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.RamUsageEstimator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sizeOfObject",
+            "name": "org.apache.lucene.util.RamUsageEstimator.sizeOfObject(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.RamUsageEstimator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessorFactory#init(NamedList)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "required",
+            "name": "org.apache.solr.common.params.SolrParams#required()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.solr.common.params.RequiredSolrParams#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.RequiredSolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessorFactory.<staticinit>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessorFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toSolrParams",
+            "name": "org.apache.solr.common.util.NamedList#toSolrParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "org.apache.solr.llm.textvectorisation.update.processor.TextToVectorUpdateProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "TextToVectorUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "org.apache.solr.update.processor.UpdateRequestProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["float"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(float)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getFieldValue",
+            "name": "org.apache.solr.common.SolrInputDocument#getFieldValue(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "Object",
+                "RuntimeException"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(String,String,String,Object,RuntimeException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUniqueKeyField",
+            "name": "org.apache.solr.schema.IndexSchema#getUniqueKeyField()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSolrInputDocument",
+            "name": "org.apache.solr.update.AddUpdateCommand#getSolrInputDocument()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.AddUpdateCommand",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "org.apache.solr.schema.SchemaField#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isErrorEnabled",
+            "name": "org.slf4j.Logger#isErrorEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<Float>"
+            ],
+            "templateArguments": [],
+            "function": "addField",
+            "name": "org.apache.solr.common.SolrInputDocument#addField(String,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.solr.common.SolrInputDocument#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "values",
+            "name": "java.util.Map#values()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collection<SolrTextToVectorModel>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(Collection)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<SolrTextToVectorModel>"],
+            "templateArguments": [],
+            "function": "unmodifiableList",
+            "name": "java.util.Collections.unmodifiableList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.LinkedHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LinkedHashMap",
+            "name": "java.util.LinkedHashMap#LinkedHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["LinkedHashMap<Object, Object>"],
+            "templateArguments": [],
+            "function": "synchronizedMap",
+            "name": "java.util.Collections.synchronizedMap(LinkedHashMap)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EmbeddingModel"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(EmbeddingModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "dev.langchain4j.model.embedding.EmbeddingModel#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.embedding.EmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResourceLoader"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin#inform(ResourceLoader)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrResourceLoader",
+                "String",
+                "String",
+                "Map<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.llm.textvectorisation.model.SolrTextToVectorModel.getInstance(SolrResourceLoader,String,String,Map)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "SolrTextToVectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getType",
+            "name": "org.apache.solr.schema.SchemaField#getType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrParams",
+                "SolrParams",
+                "SolrQueryRequest"
+            ],
+            "templateArguments": [],
+            "function": "createParser",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin#createParser(String,SolrParams,SolrParams,SolrQueryRequest)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NamedList<?>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "onManagedDataLoadedFromStorage",
+            "name": "org.apache.solr.llm.textvectorisation.store.rest.ManagedTextToVectorModelStore#onManagedDataLoadedFromStorage(NamedList,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ManagedTextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrTextToVectorModel"],
+            "templateArguments": [],
+            "function": "addModel",
+            "name": "org.apache.solr.llm.textvectorisation.store.TextToVectorModelStore#addModel(SolrTextToVectorModel)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextToVectorModelStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrTextToVectorModel"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.Map#putIfAbsent(String,SolrTextToVectorModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.ArrayList#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "Method#invoke(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "Method#invoke(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<Duration>"
+            ],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "Class#getMethod(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<EmbeddingModel>"
+            ],
+            "templateArguments": [],
+            "function": "findClass",
+            "name": "org.apache.solr.core.SolrResourceLoader#findClass(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "Class#getMethod(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "java.lang.reflect.Method#invoke(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<String>"
+            ],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "Class#getMethod(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.lang.NoSuchMethodException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.NoSuchMethodException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "java.lang.Class#getMethod(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "Method#invoke(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "NoSuchMethodException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,Object,NoSuchMethodException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMethods",
+            "name": "Class#getMethods()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getParameterCount",
+            "name": "java.lang.reflect.Method#getParameterCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Long"],
+            "templateArguments": [],
+            "function": "ofSeconds",
+            "name": "java.time.Duration.ofSeconds(Long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.Object#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.reflect.Method#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<Integer>"
+            ],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "Class#getMethod(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Method"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.ArrayList#add(Method)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.ArrayList#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "Method#invoke(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "Method#invoke(Object,Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Method",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isInfoEnabled",
+            "name": "org.slf4j.Logger#isInfoEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin.TextToVectorQParser#parse()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin.TextToVectorQParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.llm.textvectorisation.search.TextToVectorQParserPlugin.<staticinit>()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "TextToVectorQParserPlugin",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "float[]",
+                "int",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "KnnFloatVectorQuery",
+            "name": "org.apache.lucene.search.KnnFloatVectorQuery#KnnFloatVectorQuery(Object,float[],int,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.search.KnnFloatVectorQuery",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDimension",
+            "name": "org.apache.solr.schema.DenseVectorField#getDimension()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.DenseVectorField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVectorEncoding",
+            "name": "org.apache.solr.schema.DenseVectorField#getVectorEncoding()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.DenseVectorField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TOP_K",
+                "DEFAULT_TOP_K"
+            ],
+            "templateArguments": [],
+            "function": "getInt",
+            "name": "localParams#getInt(TOP_K,DEFAULT_TOP_K)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "localParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "localParams#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "localParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCore",
+            "name": "req#getCore()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "req",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 44,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 44,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 44,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelException.java",
+                "line": 24,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelException.java",
+                "line": 23,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 138,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 143,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 36,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 92,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 91,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 36,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 14,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 36,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 14,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 36,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 14,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 50,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 49,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 42,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 19,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 42,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 19,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 42,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 19,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 44,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 57,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelException.java",
+                "line": 27,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 23,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelException.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 111,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 107,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 110,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 148,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 147,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 182,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 32,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 189,
+                "column": 62,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 189,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 188,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 189,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 32,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 83,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 81,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 34,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 193,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 39,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 178,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 40,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 179,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 78,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 76,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 70,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 47,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 117,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 181,
+                "column": 64,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 181,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 51,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 63,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 61,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 54,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 133,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 141,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 143,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 58,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 141,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 58,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 87,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 84,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 72,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 83,
+                "column": 43,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 90,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 98,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 74,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 88,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 79,
+                "column": 55,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 75,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 74,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 79,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 80,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 87,
+                "column": 60,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 62,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 70,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 121,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 70,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 128,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 69,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 134,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 69,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 127,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 69,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 153,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 164,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 41,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 170,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 41,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 173,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 41,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 173,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 41,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 98,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 98,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 100,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 96,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 97,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 99,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 100,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 99,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 74,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 156,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 80,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 160,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 159,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 80,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 63,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 66,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 60,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 83,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 64,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 62,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 83,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 65,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 56,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 86,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 66,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 68,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 70,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 64,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 81,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 77,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 75,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 62,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 76,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 67,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 74,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessor.java",
+                "line": 63,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 88,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 46,
+                "column": 48,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 33,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 46,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 33,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 47,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 33,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 31,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 26,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 32,
+                "column": 51,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 26,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 32,
+                "column": 51,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 26,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 32,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 26,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 172,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 9,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 171,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 9,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 53,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 189,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 79,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 60,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 112,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 86,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 59,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 93,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 59,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 92,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 59,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 89,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 59,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 91,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 59,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 102,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 63,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 107,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 63,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorUpdateProcessorFactory.java",
+                "line": 104,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/update/processor"
+            },
+            "caller": 63,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 54,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 115,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 123,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 116,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 62,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 117,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 61,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 117,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 63,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 117,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorModelStore.java",
+                "line": 62,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store"
+            },
+            "caller": 117,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 116,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 109,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 109,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 102,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 99,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 124,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 69,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 90,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 89,
+                "column": 60,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 131,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 116,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 93,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 119,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 125,
+                "column": 80,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 131,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 69,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 132,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 119,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 99,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 116,
+                "column": 57,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 131,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 125,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 110,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 111,
+                "column": 59,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 89,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 122,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 111,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 134,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 93,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 112,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 80,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 115,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 99,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 93,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 110,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 122,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 96,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 119,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 90,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrTextToVectorModel.java",
+                "line": 90,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/model"
+            },
+            "caller": 113,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 150,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 61,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 147,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 61,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 154,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 61,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 152,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 61,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 150,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 61,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "ManagedTextToVectorModelStore.java",
+                "line": 149,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/store/rest"
+            },
+            "caller": 61,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 86,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 100,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 91,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 92,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 93,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 84,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 89,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 109,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 101,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 104,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 99,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "TextToVectorQParserPlugin.java",
+                "line": 85,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/llm/textvectorisation/search"
+            },
+            "caller": 147,
+            "callee": 56
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.solr.llm.textvectorisation.store.rest",
+            "isRoot": false,
+            "module": -1,
+            "name": "rest",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.llm.textvectorisation.store",
+            "isRoot": false,
+            "module": -1,
+            "name": "store",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.llm.textvectorisation.model",
+            "isRoot": false,
+            "module": -1,
+            "name": "model",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.llm.textvectorisation.update.processor",
+            "isRoot": false,
+            "module": -1,
+            "name": "processor",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.llm.textvectorisation.search",
+            "isRoot": false,
+            "module": -1,
+            "name": "search",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
