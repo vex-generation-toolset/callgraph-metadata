@@ -1,0 +1,4686 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getChecksumBytes",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#getChecksumBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newDigest",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#newDigest()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.CloseableMessageDigest#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm.CloseableMessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "crc64NvmeCrtImplementation",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.crc64NvmeCrtImplementation()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<? super Constructor<?>, ? extends CrcCloneOnMarkChecksum>"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "java.util.Optional#map(Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Checksum"],
+            "templateArguments": [],
+            "function": "CrcCloneOnMarkChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCloneOnMarkChecksum#CrcCloneOnMarkChecksum(Checksum)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCloneOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "java.lang.reflect.Constructor#newInstance()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Constructor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getConstructor",
+            "name": "software.amazon.awssdk.checksums.internal.ConstructorCache#getConstructor(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ConstructorCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Supplier<RuntimeException>"],
+            "templateArguments": [],
+            "function": "orElseThrow",
+            "name": "Optional#orElseThrow(Supplier)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ReflectiveOperationException"
+            ],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String,ReflectiveOperationException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm.ChecksumAlgorithmsCache.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm.ChecksumAlgorithmsCache",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ChecksumAlgorithm"],
+            "templateArguments": [],
+            "function": "forAlgorithm",
+            "name": "software.amazon.awssdk.checksums.SdkChecksum.forAlgorithm(ChecksumAlgorithm)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SdkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DigestAlgorithm"],
+            "templateArguments": [],
+            "function": "DigestAlgorithmChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#DigestAlgorithmChecksum(DigestAlgorithm)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "algorithmId",
+            "name": "software.amazon.awssdk.checksums.spi.ChecksumAlgorithm#algorithmId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.checksums.spi.ChecksumAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Crc64NvmeChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum#Crc64NvmeChecksum()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Crc32Checksum",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#Crc32Checksum()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "crc32cImplementation",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.crc32cImplementation()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "UnsupportedOperationException",
+            "name": "java.lang.UnsupportedOperationException#UnsupportedOperationException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.UnsupportedOperationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "long",
+                "long",
+                "long[][]"
+            ],
+            "templateArguments": [],
+            "function": "combine",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.combine(long,long,long,long[][])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long[]",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "gf2MatrixTimes",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.gf2MatrixTimes(long[],long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isNotNegative",
+            "name": "software.amazon.awssdk.utils.Validate.isNotNegative(long,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "long",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "combine",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum.combine(long,long,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CrcCombineChecksumUtil",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil#CrcCombineChecksumUtil()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "NoSuchMethodException"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "software.amazon.awssdk.utils.Logger#debug(Object,NoSuchMethodException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<? super Class<?>, ? extends Optional<? extends Constructor<?>>>"],
+            "templateArguments": [],
+            "function": "flatMap",
+            "name": "java.util.Optional#flatMap(Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getConstructor",
+            "name": "java.lang.Class#getConstructor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Constructor<T>"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(Constructor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "software.amazon.awssdk.checksums.internal.ConstructorCache#getClass(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ConstructorCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.internal.ConstructorCache.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ConstructorCache",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "java.util.Optional.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "createCrtCrc32C",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.createCrtCrc32C()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "orElse",
+            "name": "Optional#orElse(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getChecksumBytes",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#getChecksumBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "digest",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.CloseableMessageDigest#digest()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm.CloseableMessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum.create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SdkCrc32CChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#SdkCrc32CChecksum()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Long",
+                "Long",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "combine",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum.combine(Long,Long,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getChecksumBytes",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCloneOnMarkChecksum#getChecksumBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCloneOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteBuffer"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.SdkChecksum#update(ByteBuffer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SdkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "remaining",
+            "name": "java.nio.ByteBuffer#remaining()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasArray",
+            "name": "java.nio.ByteBuffer#hasArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasRemaining",
+            "name": "java.nio.ByteBuffer#hasRemaining()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "arrayOffset",
+            "name": "java.nio.ByteBuffer#arrayOffset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "array",
+            "name": "java.nio.ByteBuffer#array()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.nio.ByteBuffer#get(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(Object,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "limit",
+            "name": "java.nio.ByteBuffer#limit()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long[][]"],
+            "templateArguments": [],
+            "function": "deriveRemainingMatrices",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.deriveRemainingMatrices(long[][])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "digest",
+            "name": "java.security.MessageDigest#digest()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.MessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "messageDigest",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.CloseableMessageDigest#messageDigest()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm.CloseableMessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clone",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#clone()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "SdkCrc32Checksum",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#SdkCrc32Checksum(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MessageDigest"],
+            "templateArguments": [],
+            "function": "CloseableMessageDigest",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.CloseableMessageDigest#CloseableMessageDigest(MessageDigest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm.CloseableMessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.CloseableMessageDigest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm.CloseableMessageDigest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "LinkedBlockingDeque",
+            "name": "java.util.concurrent.LinkedBlockingDeque#LinkedBlockingDeque(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.LinkedBlockingDeque",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "DigestAlgorithm",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm#DigestAlgorithm(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getChecksumBytes",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#getChecksumBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.zip.Checksum#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Checksum"],
+            "templateArguments": [],
+            "function": "cloneChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCloneOnMarkChecksum#cloneChecksum(Checksum)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCloneOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#reset()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "java.util.zip.Checksum#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "createSdkBasedCrc32C",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.createSdkBasedCrc32C()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clone",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.CloseableMessageDigest#clone()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm.CloseableMessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clone",
+            "name": "java.security.MessageDigest#clone()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.MessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "CloneNotSupportedException"
+            ],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String,CloneNotSupportedException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.function.Supplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Supplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newDigest",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm#newDigest()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "NoSuchAlgorithmException"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,NoSuchAlgorithmException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.security.NoSuchAlgorithmException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.NoSuchAlgorithmException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "java.security.MessageDigest.getInstance(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.MessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum#update(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "java.util.zip.Checksum#update(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm.of(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Checksum"],
+            "templateArguments": [],
+            "function": "BaseCrcChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum#BaseCrcChecksum(Checksum)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCloneOnMarkChecksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCloneOnMarkChecksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "put",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm.ChecksumAlgorithmsCache.put(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm.ChecksumAlgorithmsCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.concurrent.ConcurrentHashMap#computeIfAbsent(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Checksum",
+                "CrcCombineFunction"
+            ],
+            "templateArguments": [],
+            "function": "CrcCombineOnMarkChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#CrcCombineOnMarkChecksum(Checksum,CrcCombineFunction)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CrcChecksumProvider",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider#CrcChecksumProvider()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "generateCombineMatrices",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.generateCombineMatrices(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<ConstructorCache>"],
+            "templateArguments": [],
+            "function": "loggerFor",
+            "name": "software.amazon.awssdk.utils.Logger.loggerFor(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DefaultChecksumAlgorithm",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm#DefaultChecksumAlgorithm()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "canRestoreMarkedState",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#canRestoreMarkedState()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "saveMarkState",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineOnMarkChecksum#saveMarkState()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.ConstructorCache.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ConstructorCache",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CRC32",
+            "name": "java.util.zip.CRC32#CRC32()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.CRC32",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.zip.CRC32.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.CRC32",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.Crc32Checksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc32Checksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "createJavaCrc32C",
+            "name": "software.amazon.awssdk.checksums.internal.CrcChecksumProvider.createJavaCrc32C()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcChecksumProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDigest",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm#getDigest()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "pollFirst",
+            "name": "java.util.Deque#pollFirst()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Deque",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "java.security.MessageDigest#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.MessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clone",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#clone()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "SdkCrc32CChecksum",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum#SdkCrc32CChecksum(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fromValue",
+            "name": "software.amazon.awssdk.checksums.DefaultChecksumAlgorithm.fromValue(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "DefaultChecksumAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.concurrent.ConcurrentHashMap#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "WeakReference",
+            "name": "java.lang.ref.WeakReference#WeakReference(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ref.WeakReference",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "WeakHashMap",
+            "name": "java.util.WeakHashMap#WeakHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.WeakHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.WeakHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.WeakHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Function<? super String, ? extends Map<ClassLoader, Optional<WeakReference<Class<?>>>>>"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.Map#computeIfAbsent(String,Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "contextClassLoader",
+            "name": "software.amazon.awssdk.utils.ClassLoaderHelper.contextClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ClassLoaderHelper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["WeakHashMap<Object, Object>"],
+            "templateArguments": [],
+            "function": "synchronizedMap",
+            "name": "java.util.Collections.synchronizedMap(WeakHashMap)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["WeakReference<Object>"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(WeakReference)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.lang.ref.WeakReference#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ref.WeakReference",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ClassLoader",
+                "Function<? super ClassLoader, ? extends Optional<WeakReference<Class<?>>>>"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.Map#computeIfAbsent(ClassLoader,Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Optional#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ClassLoader"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.Map#remove(ClassLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isPresent",
+            "name": "java.util.Optional#isPresent()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loadClass",
+            "name": "java.lang.ClassLoader#loadClass(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ClassLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.Optional.of(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Function<? super Constructor<?>, ? extends CrcCombineOnMarkChecksum>"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "java.util.Optional#map(Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "java.security.MessageDigest#update(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.MessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "java.security.MessageDigest#update(byte)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.security.MessageDigest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "software.amazon.awssdk.checksums.internal.Crc64NvmeChecksum#update(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Crc64NvmeChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "update",
+            "name": "java.util.zip.Checksum#update(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithmChecksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithmChecksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearCaches",
+            "name": "software.amazon.awssdk.checksums.internal.DigestAlgorithm.clearCaches()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DigestAlgorithm",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.Deque#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Deque",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long[][]",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "initializeFirstMatrix",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCombineChecksumUtil.initializeFirstMatrix(long[][],long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCombineChecksumUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SdkCrc32Checksum",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum#SdkCrc32Checksum()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MessageDigest"],
+            "templateArguments": [],
+            "function": "offerFirst",
+            "name": "java.util.Deque#offerFirst(MessageDigest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Deque",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32CChecksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.checksums.internal.SdkCrc32Checksum.create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SdkCrc32Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.checksums.internal.BaseCrcChecksum.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseCrcChecksum",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Checksum"],
+            "templateArguments": [],
+            "function": "cloneIfCloneable",
+            "name": "software.amazon.awssdk.checksums.internal.CrcCloneOnMarkChecksum#cloneIfCloneable(Checksum)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CrcCloneOnMarkChecksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.util.zip.Checksum#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.Checksum",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Checksum"],
+            "templateArguments": [],
+            "function": "invoke",
+            "name": "java.lang.reflect.Method#invoke(Checksum)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Method",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 59,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 62,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 5,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 609,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 106,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 99,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 87,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 102,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 101,
+                "column": 56,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 99,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 99,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 104,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 12,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 52,
+                "column": 84,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 52,
+                "column": 84,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 47,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 45,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 39,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 51,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 49,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 43,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 41,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 53,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 24,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 82,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 73,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 595,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 35,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 585,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 35,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 88,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 86,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 86,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 79,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 89,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 18,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 76,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 82,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 77,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 77,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 77,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 80,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 79,
+                "column": 56,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 45,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 70,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 582,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 590,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 51,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 581,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 46,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 119,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 118,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 124,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 115,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 115,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 120,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 117,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 108,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 119,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 117,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "SdkChecksum.java",
+                "line": 109,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 55,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 120,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 128,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 66,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 104,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 48,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 103,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 48,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 103,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 48,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 638,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 84,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 74,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 41,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 645,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 76,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 77,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 37,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 78,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 36,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 30,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 631,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 80,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 56,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 54,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 64,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 62,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 87,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 58,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 95,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 57,
+                "column": 41,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 95,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 126,
+                "column": 67,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 128,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 126,
+                "column": 67,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 96,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 126,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 96,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 9,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 100,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 67,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 102,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 68,
+                "column": 65,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 102,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 65,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 102,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 106,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 32,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 34,
+                "column": 55,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 33,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 31,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 29,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 30,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 27,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 32,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 27,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 36,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 16,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 16,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 118,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 51,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 120,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 122,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 567,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 11,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 40,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 43,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 36,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 126,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 84,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 85,
+                "column": 58,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 1,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 66,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 6,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 81,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 43,
+                "column": 63,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 15,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 129,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 30,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 28,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 30,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 28,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 28,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 29,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 28,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 73,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 29,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 71,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 29,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 69,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 29,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 55,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 60,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 135,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 57,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 135,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 60,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 135,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 58,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 135,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 652,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 138,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 603,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 107,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 40,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 3,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 140,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 61,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 55,
+                "column": 92,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 55,
+                "column": 92,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 55,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 74,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 57,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 55,
+                "column": 64,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 61,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 69,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 58,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 69,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 63,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 73,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 76,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 68,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 60,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 71,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 42,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 572,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 71,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 112,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 114,
+                "column": 64,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 112,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 114,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 116,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 111,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CrcChecksumProvider.java",
+                "line": 112,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 134,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 41,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 8,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 50,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 110,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 50,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 110,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 160,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 160,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 162,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 36,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 25,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 25,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 75,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 166,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 108,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 62,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 92,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 69,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 93,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 124,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 124,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 124,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 567,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 169,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 568,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 169,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 75,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 7,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineChecksumUtil.java",
+                "line": 111,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 168,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 108,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 4,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 118,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 4,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithm.java",
+                "line": 118,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 4,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 577,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 139,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 560,
+                "column": 54,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 52,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "Crc32Checksum.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 109,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "DefaultChecksumAlgorithm.java",
+                "line": 40,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums"
+            },
+            "caller": 114,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 130,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ConstructorCache.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 130,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "DigestAlgorithmChecksum.java",
+                "line": 55,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 82,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32Checksum.java",
+                "line": 578,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 172,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "Crc64NvmeChecksum.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 163,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "BaseCrcChecksum.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 116,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 54,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 174,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 55,
+                "column": 35,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 174,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 60,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 174,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 57,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 174,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "CrcCombineOnMarkChecksum.java",
+                "line": 72,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 101,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 573,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 50,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "SdkCrc32CChecksum.java",
+                "line": 574,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 50,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CrcCloneOnMarkChecksum.java",
+                "line": 41,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/checksums/internal"
+            },
+            "caller": 88,
+            "callee": 174
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.checksums.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.checksums",
+            "isRoot": false,
+            "module": -1,
+            "name": "checksums",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
