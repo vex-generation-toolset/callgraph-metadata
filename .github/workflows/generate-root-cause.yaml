@@ -12,7 +12,7 @@ on:
         type: string
         description: CVE identifier to analyze (e.g., CVE-2023-34362)
 
-run-name: Generate Call Graph for ${{ inputs.artifact }}
+run-name: Generate Root Cause for ${{ inputs.cve }} in ${{ inputs.artifact }}
 
 # Empty permissions at the workflow level; specific jobs will set their own permissions
 permissions: { }
