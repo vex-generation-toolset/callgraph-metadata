@@ -1,0 +1,4113 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "java.lang.invoke.MethodHandles.lookup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.invoke.MethodHandles",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookupClass",
+            "name": "MethodHandles.Lookup#lookupClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MethodHandles.Lookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SelectorParams",
+            "name": "org.apache.solr.update.processor.FieldMutatingUpdateProcessorFactory.SelectorParams#SelectorParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.FieldMutatingUpdateProcessorFactory.SelectorParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.FieldMutatingUpdateProcessorFactory.SelectorParams.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.FieldMutatingUpdateProcessorFactory.SelectorParams",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "SERVER_ERROR",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(SERVER_ERROR,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIndexAnalyzer",
+            "name": "org.apache.solr.schema.FieldType#getIndexAnalyzer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.FieldType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSchema",
+            "name": "org.apache.solr.request.SolrQueryRequest#getSchema()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getNERTagger",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getNERTagger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "parseSelectorParams",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory.parseSelectorParams(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "parseSelectorParams",
+            "name": "FieldMutatingUpdateProcessorFactory#parseSelectorParams(NamedList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "FieldMutatingUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "extractTypedNamedEntities",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1#extractTypedNamedEntities(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<SentenceAttribute>"],
+            "templateArguments": [],
+            "function": "addAttribute",
+            "name": "org.apache.lucene.analysis.TokenStream#addAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<String>",
+                "List<Integer>",
+                "List<Integer>",
+                "List<Pair<String, String>>"
+            ],
+            "templateArguments": [],
+            "function": "extractEntitiesFromSentence",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1#extractEntitiesFromSentence(String,List,List,List,List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.TokenStream#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "extractSentenceAttributes",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#extractSentenceAttributes()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "end",
+            "name": "org.apache.lucene.analysis.TokenStream#end()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<OffsetAttribute>"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.apache.lucene.util.AttributeSource#getAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.apache.lucene.analysis.TokenStream#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<CharTermAttribute>"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.apache.lucene.util.AttributeSource#getAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.AttributeSource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.Object#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "allSentencesProcessed",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#allSentencesProcessed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "tokenStream",
+            "name": "org.apache.lucene.analysis.Analyzer#tokenStream(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.Analyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TokenStream",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "SentenceAttributeExtractor",
+            "name": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor#SentenceAttributeExtractor(TokenStream,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.SentenceAttributeExtractor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createFromLocale",
+            "name": "org.apache.solr.schema.ICUCollationField#createFromLocale(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ULocale"],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "com.ibm.icu.text.Collator.getInstance(ULocale)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.Collator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ULocale",
+            "name": "com.ibm.icu.util.ULocale#ULocale(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.util.ULocale",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IndexSchema",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.schema.ICUCollationField#init(IndexSchema,Map)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IndexSchema",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "init",
+            "name": "FieldType#init(IndexSchema,Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "FieldType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "warnOrFailUdvas",
+            "name": "org.apache.solr.schema.ICUCollationField.warnOrFailUdvas(boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultLuceneMatchVersion",
+            "name": "IndexSchema#getDefaultLuceneMatchVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResourceLoader",
+            "name": "IndexSchema#getResourceLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.schema.ICUCollationField.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "ResourceLoader",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "setup",
+            "name": "org.apache.solr.schema.ICUCollationField#setup(ResourceLoader,Map)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrCore"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#inform(SolrCore)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "getNERTaggerModel",
+            "name": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory.getNERTaggerModel(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.tools.OpenNLPOpsFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "SolrCore",
+                "SelectorParams",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "createFieldNameSelector",
+            "name": "FieldMutatingUpdateProcessor#createFieldNameSelector(Object,SolrCore,SelectorParams,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "FieldMutatingUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResourceLoader",
+            "name": "org.apache.solr.core.SolrCore#getResourceLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrCore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "FieldNameSelector",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "wrap",
+            "name": "FieldMutatingUpdateProcessor#wrap(FieldNameSelector,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "FieldMutatingUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSourceSelector",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getSourceSelector()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStart",
+            "name": "opennlp.tools.util.Span#getStart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEnd",
+            "name": "opennlp.tools.util.Span#getEnd()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.List#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Pair"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Pair)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T[]"],
+            "templateArguments": [],
+            "function": "getNames",
+            "name": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp#getNames(T[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.opennlp.tools.NLPNERTaggerOp",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "Pair",
+            "name": "org.apache.solr.common.util.Pair#Pair(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.Pair",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "java.util.List#toArray(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getType",
+            "name": "opennlp.tools.util.Span#getType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.util.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TextResponseWriter",
+                "String",
+                "IndexableField"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "org.apache.solr.schema.ICUCollationField#write(TextResponseWriter,String,IndexableField)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stringValue",
+            "name": "org.apache.lucene.index.IndexableField#stringValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.index.IndexableField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "writeStr",
+            "name": "org.apache.solr.response.TextResponseWriter#writeStr(String,Object,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.response.TextResponseWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SchemaField",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "createFields",
+            "name": "org.apache.solr.schema.ICUCollationField#createFields(SchemaField,Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "SchemaField#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SortedSetDocValuesField"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(SortedSetDocValuesField)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "multiValued",
+            "name": "SchemaField#multiValued()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasDocValues",
+            "name": "SchemaField#hasDocValues()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "BytesRef"
+            ],
+            "templateArguments": [],
+            "function": "SortedDocValuesField",
+            "name": "org.apache.lucene.document.SortedDocValuesField#SortedDocValuesField(Object,BytesRef)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.document.SortedDocValuesField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getCollationKey",
+            "name": "org.apache.solr.schema.ICUCollationField#getCollationKey(String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SortedDocValuesField"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(SortedDocValuesField)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "singletonList",
+            "name": "java.util.Collections.singletonList(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "BytesRef"
+            ],
+            "templateArguments": [],
+            "function": "SortedSetDocValuesField",
+            "name": "org.apache.lucene.document.SortedSetDocValuesField#SortedSetDocValuesField(Object,BytesRef)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.document.SortedSetDocValuesField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "deepCopyOf",
+            "name": "org.apache.lucene.util.BytesRef.deepCopyOf(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.BytesRef",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "incrementToken",
+            "name": "org.apache.lucene.analysis.TokenStream#incrementToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<TermToBytesRefAttribute>"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.apache.lucene.analysis.TokenStream#getAttribute(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.TokenStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBytesRef",
+            "name": "org.apache.lucene.analysis.tokenattributes.TermToBytesRefAttribute#getBytesRef()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.tokenattributes.TermToBytesRefAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ResourceLoader"
+            ],
+            "templateArguments": [],
+            "function": "createFromRules",
+            "name": "org.apache.solr.schema.ICUCollationField.createFromRules(String,ResourceLoader)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.lucene.util.ResourceLoader#openResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.util.ResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuleBasedCollator",
+            "name": "com.ibm.icu.text.RuleBasedCollator#RuleBasedCollator(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Exception"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readAllBytes",
+            "name": "java.io.InputStream#readAllBytes()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(Object,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "initSourceSelectorSyntax",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#initSourceSelectorSyntax(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "org.apache.solr.common.util.NamedList#getName(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "org.apache.solr.common.util.NamedList#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "indexOf",
+            "name": "org.apache.solr.common.util.NamedList#indexOf(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.List#remove(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getAll",
+            "name": "org.apache.solr.common.util.NamedList#getAll(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "org.apache.solr.common.util.NamedList#remove(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "removeConfigArgs",
+            "name": "org.apache.solr.common.util.NamedList#removeConfigArgs(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SelectorParams"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Collection#add(SelectorParams)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SERVER_ERROR",
+                "String",
+                "PatternSyntaxException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(SERVER_ERROR,String,PatternSyntaxException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "UpdateRequestProcessorFactory#init(NamedList)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "UpdateRequestProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "initSimpleRegexReplacement",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#initSimpleRegexReplacement(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Pattern"],
+            "templateArguments": [],
+            "function": "singletonList",
+            "name": "java.util.Collections.singletonList(Pattern)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "QParser",
+                "SchemaField",
+                "String",
+                "String",
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "getSpecializedRangeQuery",
+            "name": "org.apache.solr.schema.ICUCollationField#getSpecializedRangeQuery(QParser,SchemaField,String,String,boolean,boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "BytesRef",
+                "BytesRef",
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "newSlowRangeQuery",
+            "name": "org.apache.lucene.document.SortedSetDocValuesField.newSlowRangeQuery(Object,BytesRef,BytesRef,boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.document.SortedSetDocValuesField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "BytesRef",
+                "BytesRef",
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "TermRangeQuery",
+            "name": "org.apache.lucene.search.TermRangeQuery#TermRangeQuery(Object,BytesRef,BytesRef,boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.search.TermRangeQuery",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "indexed",
+            "name": "SchemaField#indexed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SchemaField"],
+            "templateArguments": [],
+            "function": "getUninversionType",
+            "name": "org.apache.solr.schema.ICUCollationField#getUninversionType(SchemaField)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SchemaField"],
+            "templateArguments": [],
+            "function": "checkSchemaField",
+            "name": "org.apache.solr.schema.ICUCollationField#checkSchemaField(SchemaField)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ICUCollationField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SchemaField"],
+            "templateArguments": [],
+            "function": "checkSchemaField",
+            "name": "FieldType#checkSchemaField(SchemaField)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "FieldType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "useDocValuesAsStored",
+            "name": "SchemaField#useDocValuesAsStored()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setStrength",
+            "name": "com.ibm.icu.text.Collator#setStrength(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.Collator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.Map#remove(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setAlternateHandlingShifted",
+            "name": "com.ibm.icu.text.RuleBasedCollator#setAlternateHandlingShifted(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setLowerCaseFirst",
+            "name": "com.ibm.icu.text.RuleBasedCollator#setLowerCaseFirst(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setDecomposition",
+            "name": "com.ibm.icu.text.Collator#setDecomposition(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.Collator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setCaseLevel",
+            "name": "com.ibm.icu.text.RuleBasedCollator#setCaseLevel(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setNumericCollation",
+            "name": "com.ibm.icu.text.RuleBasedCollator#setNumericCollation(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setUpperCaseFirst",
+            "name": "com.ibm.icu.text.RuleBasedCollator#setUpperCaseFirst(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collator"],
+            "templateArguments": [],
+            "function": "ICUCollationKeyAnalyzer",
+            "name": "org.apache.lucene.analysis.icu.ICUCollationKeyAnalyzer#ICUCollationKeyAnalyzer(Collator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.lucene.analysis.icu.ICUCollationKeyAnalyzer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setVariableTop",
+            "name": "com.ibm.icu.text.RuleBasedCollator#setVariableTop(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.ibm.icu.text.RuleBasedCollator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "org.apache.solr.update.processor.OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1#processAdd(AddUpdateCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)$UpdateRequestProcessor$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSolrInputDocument",
+            "name": "org.apache.solr.update.AddUpdateCommand#getSolrInputDocument()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.AddUpdateCommand",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "SolrInputField",
+            "name": "org.apache.solr.common.SolrInputField#SolrInputField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SolrInputField"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,SolrInputField)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "second",
+            "name": "org.apache.solr.common.util.Pair#second()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.Pair",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.solr.common.SolrInputDocument#put(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "addValue",
+            "name": "org.apache.solr.common.SolrInputField#addValue(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getField",
+            "name": "org.apache.solr.common.SolrInputDocument#getField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Collection#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "UpdateRequestProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "shouldMutate",
+            "name": "org.apache.solr.update.processor.FieldMutatingUpdateProcessor.FieldNameSelector#shouldMutate(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.processor.FieldMutatingUpdateProcessor.FieldNameSelector",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "find",
+            "name": "java.util.regex.Matcher#find()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "org.apache.solr.common.SolrInputDocument#containsKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "first",
+            "name": "org.apache.solr.common.util.Pair#first()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.Pair",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "replaceAll",
+            "name": "java.util.regex.Matcher#replaceAll(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFieldNames",
+            "name": "org.apache.solr.common.SolrInputDocument#getFieldNames()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getFieldValues",
+            "name": "org.apache.solr.common.SolrInputDocument#getFieldValues(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 178,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 178,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 178,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 188,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 188,
+                "column": 42,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 189,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 4,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 189,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 4,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 556,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 563,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 9,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 565,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 9,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 554,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 9,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 553,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 9,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 9,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 684,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 643,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 653,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 644,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 636,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 636,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 648,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 656,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 650,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 637,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 637,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 651,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 657,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 649,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 649,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 639,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 638,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 638,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 635,
+                "column": 55,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 635,
+                "column": 55,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 658,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 646,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 651,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 650,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 640,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 642,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 17,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 226,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 226,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 135,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 130,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 127,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 35,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 134,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 35,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 125,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 35,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 134,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 35,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 537,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 520,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 539,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 530,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 531,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 537,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 521,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 528,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 42,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 546,
+                "column": 43,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 547,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 47,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 672,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 672,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 672,
+                "column": 69,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 677,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 676,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 675,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 672,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 673,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 669,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 673,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 669,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 673,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 245,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 245,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 59,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 328,
+                "column": 46,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 330,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 332,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 329,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 326,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 326,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 325,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 332,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 328,
+                "column": 63,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 328,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 332,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 336,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 327,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 330,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 330,
+                "column": 48,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 285,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 286,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 280,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 288,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 284,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 285,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 291,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 283,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 277,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 278,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 68,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 107,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 234,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 236,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 78,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 239,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 78,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 235,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 78,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 235,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 78,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 212,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 477,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 409,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 476,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 364,
+                "column": 53,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 502,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 426,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 417,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 380,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 451,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 455,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 394,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 377,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 431,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 431,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 429,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 402,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 413,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 388,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 403,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 402,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 384,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 482,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 386,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 466,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 364,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 365,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 349,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 434,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 398,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 422,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 489,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 452,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 487,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 416,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 487,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 504,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 499,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 390,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 404,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 383,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 242,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 260,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 264,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 245,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 258,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 261,
+                "column": 77,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 240,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 225,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 216,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 249,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 223,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 261,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 222,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 227,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 224,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 247,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 255,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 222,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 251,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 224,
+                "column": 60,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 97,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 296,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 302,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 338,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 283,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 338,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 298,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 332,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 315,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 336,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 284,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 267,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 345,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 345,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 340,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 299,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 346,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 283,
+                "column": 52,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 328,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 99,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 307,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 303,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 304,
+                "column": 43,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 310,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 310,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 305,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 306,
+                "column": 10,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 308,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 306,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 101,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 255,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 105,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 122,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 120,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 106,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 118,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 106,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 175,
+                "column": 55,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 149,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 145,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 174,
+                "column": 56,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 152,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 195,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 178,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 197,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 207,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 143,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 155,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 184,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 148,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 211,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 141,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 186,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 168,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 147,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 203,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 215,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 176,
+                "column": 57,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 140,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 165,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 199,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 177,
+                "column": 56,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 173,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 209,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 146,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 221,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 218,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 142,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "ICUCollationField.java",
+                "line": 188,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/schema"
+            },
+            "caller": 41,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 572,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 611,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 619,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 604,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 625,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 625,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 616,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 607,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 583,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 624,
+                "column": 56,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 627,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 625,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 580,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 609,
+                "column": 46,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 589,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 576,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 576,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 588,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 569,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 606,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 603,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 592,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 601,
+                "column": 48,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 590,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 579,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPExtractNamedEntitiesUpdateProcessorFactory.java",
+                "line": 582,
+                "column": 47,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 120,
+            "callee": 144
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.solr.update.processor",
+            "isRoot": false,
+            "module": -1,
+            "name": "processor",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.solr.schema",
+            "isRoot": false,
+            "module": -1,
+            "name": "schema",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
