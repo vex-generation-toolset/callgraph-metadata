@@ -1,0 +1,5 @@
+{
+  "repository": "apache/solr",
+  "tag": "refs/tags/releases/solr/%s",
+  "relative_path": "solr/modules/ltr"
+}
