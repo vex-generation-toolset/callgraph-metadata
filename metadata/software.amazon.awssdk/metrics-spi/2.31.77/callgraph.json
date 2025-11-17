@@ -1,0 +1,2563 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.internal.EmptyMetricCollection.create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EmptyMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.internal.EmptyMetricCollection.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EmptyMetricCollection",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fromString",
+            "name": "software.amazon.awssdk.metrics.MetricCategory.fromString(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "declaredEvents",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric.declaredEvents()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.concurrent.ConcurrentHashMap#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createChild",
+            "name": "software.amazon.awssdk.metrics.NoOpMetricCollector#createChild(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NoOpMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.NoOpMetricCollector.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NoOpMetricCollector",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Map<SdkMetric<?>, List<MetricRecord<?>>>",
+                "List<MetricCollection>"
+            ],
+            "templateArguments": [],
+            "function": "DefaultMetricCollection",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection#DefaultMetricCollection(String,Map,List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "now",
+            "name": "java.time.Instant.now()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<MetricCollection>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<SdkMetric<?>, List<MetricRecord<?>>>"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearDeclaredMetrics",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric.clearDeclaredMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.concurrent.ConcurrentHashMap#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "getMaxLen",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher.getMaxLen(List)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "max",
+            "name": "java.lang.Math.max(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkMetric<T>"],
+            "templateArguments": [],
+            "function": "metricValues",
+            "name": "software.amazon.awssdk.metrics.internal.EmptyMetricCollection#metricValues(SdkMetric)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EmptyMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "children",
+            "name": "software.amazon.awssdk.metrics.internal.EmptyMetricCollection#children()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EmptyMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SdkMetric<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "reportMetric",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector#reportMetric(SdkMetric,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SdkMetric<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "DefaultMetricRecord",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricRecord#DefaultMetricRecord(SdkMetric,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricRecord",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SdkMetric<T>",
+                "Function<? super SdkMetric<?>, ? extends List<MetricRecord<?>>>"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.Map#computeIfAbsent(SdkMetric,Function)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultMetricRecord<Object>"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(DefaultMetricRecord)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<T>",
+                "MetricLevel",
+                "Set<MetricCategory>"
+            ],
+            "templateArguments": [],
+            "function": "DefaultSdkMetric",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric#DefaultSdkMetric(String,Class,MetricLevel,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<MetricCategory>"],
+            "templateArguments": [],
+            "function": "copyOf",
+            "name": "java.util.EnumSet.copyOf(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<T>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(Class,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<T>"],
+            "templateArguments": [],
+            "function": "Object",
+            "name": "java.lang.Object#Object(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notBlank",
+            "name": "software.amazon.awssdk.utils.Validate.notBlank(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Set<MetricCategory>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notEmpty",
+            "name": "software.amazon.awssdk.utils.Validate.notEmpty(Set,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricLevel",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(MetricLevel,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricRecord#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricRecord",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "name",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric#name()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.ToString.builder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<LoggingMetricPublisher>"],
+            "templateArguments": [],
+            "function": "loggerFor",
+            "name": "software.amazon.awssdk.utils.Logger.loggerFor(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.MetricCategory.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCategory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.MetricLevel.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricLevel",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "flatMap",
+            "name": "Stream#flatMap(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "values",
+            "name": "java.util.Map#values()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "Stream#collect(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "Collection#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Collection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricCollection"],
+            "templateArguments": [],
+            "function": "publish",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher#publish(MetricCollection)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Level"],
+            "templateArguments": [],
+            "function": "isLoggingLevelEnabled",
+            "name": "software.amazon.awssdk.utils.Logger#isLoggingLevelEnabled(Level)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "MetricCollection",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "logPretty",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher#logPretty(String,MetricCollection,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher.Format.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher.Format",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "software.amazon.awssdk.utils.Logger#log(Level,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "categories",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric#categories()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<MetricCategory>"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "java.util.Collections.unmodifiableSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<T>",
+                "MetricLevel",
+                "MetricCategory",
+                "MetricCategory[]..."
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.SdkMetric.create(String,Class,MetricLevel,MetricCategory,MetricCategory[]...)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<T>",
+                "MetricLevel",
+                "MetricCategory",
+                "MetricCategory[]..."
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric.create(String,Class,MetricLevel,MetricCategory,MetricCategory[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NoOpMetricCollector",
+            "name": "software.amazon.awssdk.metrics.NoOpMetricCollector#NoOpMetricCollector()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NoOpMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.NoOpMetricCollector.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NoOpMetricCollector",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SdkMetric<T>"],
+            "templateArguments": [],
+            "function": "metricValues",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection#metricValues(SdkMetric)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkMetric<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(SdkMetric)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkMetric<T>"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.Map#containsKey(SdkMetric)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<?>"],
+            "templateArguments": [],
+            "function": "unmodifiableList",
+            "name": "java.util.Collections.unmodifiableList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.List#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.NoOpMetricCollector.create()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NoOpMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "childrenWithName",
+            "name": "software.amazon.awssdk.metrics.MetricCollection#childrenWithName(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "children",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection#children()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "name",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection#name()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "name",
+            "name": "software.amazon.awssdk.metrics.internal.EmptyMetricCollection#name()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EmptyMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector.create(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notEmpty",
+            "name": "software.amazon.awssdk.utils.Validate.notEmpty(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "DefaultMetricCollector",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector#DefaultMetricCollector(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "MetricCategory",
+            "name": "software.amazon.awssdk.metrics.MetricCategory#MetricCategory(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.MetricCategory.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCategory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "software.amazon.awssdk.metrics.internal.EmptyMetricCollection#iterator()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "EmptyMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyIterator",
+            "name": "java.util.Collections.emptyIterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createChild",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector#createChild(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricCollector"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(MetricCollector)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "software.amazon.awssdk.metrics.MetricCollection#stream()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.stream.StreamSupport.stream(Object,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.StreamSupport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "metric",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricRecord#metric()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricRecord",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<? super String>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.List#forEach(Consumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<? super MetricCollection>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.List#forEach(Consumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher.create()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "Format"
+            ],
+            "templateArguments": [],
+            "function": "LoggingMetricPublisher",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher#LoggingMetricPublisher(Level,Format)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.MetricCollector.create(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "software.amazon.awssdk.metrics.NoOpMetricCollector#collect()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NoOpMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Stream<MetricCategory>",
+                "Stream<MetricCategory>"
+            ],
+            "templateArguments": [],
+            "function": "concat",
+            "name": "java.util.stream.Stream.concat(Stream,Stream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toSet",
+            "name": "java.util.stream.Collectors.toSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricCategory[]"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.stream.Stream.of(MetricCategory[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricCategory"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.stream.Stream.of(MetricCategory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<T>",
+                "MetricLevel",
+                "Set<MetricCategory>"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultSdkMetric.create(String,Class,MetricLevel,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultSdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collector<T, ?, Set<T>>"],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "java.util.stream.Stream#collect(Collector)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<DefaultMetricCollector>"],
+            "templateArguments": [],
+            "function": "loggerFor",
+            "name": "software.amazon.awssdk.utils.Logger.loggerFor(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<MetricCollection>"],
+            "templateArguments": [],
+            "function": "unmodifiableList",
+            "name": "java.util.Collections.unmodifiableList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SdkMetric<T>",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.concurrent.ConcurrentHashMap#putIfAbsent(SdkMetric,Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Set<MetricCategory>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "noNullElements",
+            "name": "software.amazon.awssdk.utils.Validate.noNullElements(Set,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector#collect()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toList",
+            "name": "java.util.stream.Collectors.toList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "software.amazon.awssdk.utils.Logger#debug(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<T>",
+                "MetricLevel",
+                "Set<MetricCategory>"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.SdkMetric.create(String,Class,MetricLevel,Set)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "SdkMetric",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollector.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollector",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LinkedHashMap",
+            "name": "java.util.LinkedHashMap#LinkedHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.LinkedHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Format",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(Format,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "notNull",
+            "name": "software.amazon.awssdk.utils.Validate.notNull(Level,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricRecord.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricRecord",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "software.amazon.awssdk.metrics.internal.DefaultMetricCollection#iterator()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultMetricCollection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "Stream#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "Format"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.metrics.LoggingMetricPublisher.create(Level,Format)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "LoggingMetricPublisher",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "EmptyMetricCollection.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MetricCategory.java",
+                "line": 76,
+                "column": 15,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 86,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 157,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 155,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 6,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "NoOpMetricCollector.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 44,
+                "column": 72,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 45,
+                "column": 29,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 44,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 11,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 43,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 11,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 11,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 150,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 17,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 152,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 35,
+                "column": 81,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 8,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 35,
+                "column": 81,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 8,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 175,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "EmptyMetricCollection.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 23,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "EmptyMetricCollection.java",
+                "line": 43,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 24,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 51,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 50,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 50,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 50,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 25,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 50,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 25,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 48,
+                "column": 27,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 45,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 44,
+                "column": 21,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 46,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 31,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricRecord.java",
+                "line": 46,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricRecord.java",
+                "line": 45,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 91,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 80,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 44,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "MetricCategory.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 87,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 87,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 87,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 47,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 85,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 47,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 87,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 47,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 121,
+                "column": 14,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 133,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 52,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 130,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 52,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 119,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 52,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 119,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 52,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 126,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 52,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 64,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "SdkMetric.java",
+                "line": 63,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "NoOpMetricCollector.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 57,
+                "column": 51,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 63,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 64,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 56,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 61,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 64,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 58,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "NoOpMetricCollector.java",
+                "line": 50,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 69,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollection.java",
+                "line": 62,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 70,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollection.java",
+                "line": 62,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollection.java",
+                "line": 62,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 70,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollection.java",
+                "line": 62,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollection.java",
+                "line": 62,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 70,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 74,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 75,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 74,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "MetricCategory.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "EmptyMetricCollection.java",
+                "line": 53,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 56,
+                "column": 33,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 81,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollection.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 140,
+                "column": 70,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 139,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 139,
+                "column": 37,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 137,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 140,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 148,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 148,
+                "column": 50,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 169,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 140,
+                "column": 70,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 157,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 163,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 145,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 142,
+                "column": 22,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 55,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 106,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 102,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 89,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "MetricCollector.java",
+                "line": 55,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 91,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 102,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 92,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 104,
+                "column": 43,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 92,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "NoOpMetricCollector.java",
+                "line": 47,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 93,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 124,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 61,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 126,
+                "column": 65,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 61,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 124,
+                "column": 60,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 61,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 122,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 61,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 127,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 61,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 126,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 61,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 34,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 100,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 68,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 71,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 130,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 98,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 145,
+                "column": 19,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 98,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 144,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 98,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 142,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 98,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "DefaultSdkMetric.java",
+                "line": 143,
+                "column": 30,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 98,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 105,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 67,
+                "column": 49,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 105,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 65,
+                "column": 26,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 105,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 63,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 105,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "NoOpMetricCollector.java",
+                "line": 26,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 10,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "SdkMetric.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 108,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 36,
+                "column": 70,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 36,
+                "column": 70,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 109,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 37,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 109,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 37,
+                "column": 52,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 109,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 97,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 90,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 99,
+                "column": 23,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 90,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 98,
+                "column": 25,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 90,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "EmptyMetricCollection.java",
+                "line": 29,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 1,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricRecord.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 26,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 116,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 116,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 116,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollection.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 116,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "LoggingMetricPublisher.java",
+                "line": 116,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/metrics"
+            },
+            "caller": 118,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "DefaultMetricCollector.java",
+                "line": 39,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/metrics/internal"
+            },
+            "caller": 76,
+            "callee": 109
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.metrics.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.metrics",
+            "isRoot": false,
+            "module": -1,
+            "name": "metrics",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
