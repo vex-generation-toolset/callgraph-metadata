@@ -1,0 +1,5 @@
+{
+  "repository": "aws/aws-sdk-java-v2",
+  "tag": "refs/tags/%s",
+  "relative_path": "core/http-auth"
+}
