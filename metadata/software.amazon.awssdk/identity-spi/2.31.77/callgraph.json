@@ -1,0 +1,2591 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "DefaultAwsSessionCredentialsIdentity",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#DefaultAwsSessionCredentialsIdentity(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "sessionToken",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#sessionToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "orElse",
+            "name": "java.util.Optional#orElse(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accountId",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#accountId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accountId",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#accountId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accountId",
+            "name": "software.amazon.awssdk.identity.spi.AwsCredentialsIdentity#accountId()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accessKeyId",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#accessKeyId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "accessKeyId",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#accessKeyId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "secretAccessKey",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#secretAccessKey()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "secretAccessKey",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#secretAccessKey()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "IdentityProperty",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty#IdentityProperty(String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotBlank",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotBlank(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ensureUnique",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty#ensureUnique()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultResolveIdentityRequest"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.BuilderImpl#BuilderImpl(DefaultResolveIdentityRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl"],
+            "templateArguments": [],
+            "function": "DefaultIdentityProviders",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders#DefaultIdentityProviders(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<IdentityProvider<?>>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "identityType",
+            "name": "identityProvider#identityType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "identityProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Lazy",
+            "name": "software.amazon.awssdk.utils.Lazy#Lazy(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Lazy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "identityProvider"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "result#put(Object,identityProvider)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.utils.ToString.builder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.ToString",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.BuilderImpl#BuilderImpl()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity.create(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TokenIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity.create(String)$TokenIdentity$1.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TokenIdentity.create(String)$TokenIdentity$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#providerName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<IdentityProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "expirationTime",
+            "name": "software.amazon.awssdk.identity.spi.Identity#expirationTime()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Identity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "java.util.Optional.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DefaultIdentityProviders"],
+            "templateArguments": [],
+            "function": "BuilderImpl",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.BuilderImpl#BuilderImpl(DefaultIdentityProviders)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.identity.spi.Identity#providerName()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Identity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity.create(String)$TokenIdentity$1#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TokenIdentity.create(String)$TokenIdentity$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProviders.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity.create(String)$TokenIdentity$1#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TokenIdentity.create(String)$TokenIdentity$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "token",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity.create(String)$TokenIdentity$1#token()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TokenIdentity.create(String)$TokenIdentity$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.BuilderImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders.BuilderImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["List<IdentityProvider<?>>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.List#addAll(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<T extends Identity>"],
+            "templateArguments": [],
+            "function": "identityProvider",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders#identityProvider(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "software.amazon.awssdk.utils.Lazy#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Lazy",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<IdentityProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.Map#putAll(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProperty<?>"],
+            "templateArguments": [],
+            "function": "identityHashCode",
+            "name": "java.lang.System.identityHashCode(IdentityProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "isTrue",
+            "name": "software.amazon.awssdk.utils.Validate.isTrue(boolean,String,String,String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "software.amazon.awssdk.utils.Pair.of(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Pair",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProperty<T>"],
+            "templateArguments": [],
+            "function": "identityHashCode",
+            "name": "java.lang.System.identityHashCode(IdentityProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "IdentityProperty<T>"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.concurrent.ConcurrentMap#putIfAbsent(Object,IdentityProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "putProperty",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.BuilderImpl#putProperty(IdentityProperty,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProperty<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(IdentityProperty,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProvider<T extends Identity>"],
+            "templateArguments": [],
+            "function": "putIdentityProvider",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultIdentityProviders.BuilderImpl#putIdentityProvider(IdentityProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultIdentityProviders.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProvider<T extends Identity>"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(IdentityProvider)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentityProvider<T extends Identity>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "paramNotNull",
+            "name": "software.amazon.awssdk.utils.Validate.paramNotNull(IdentityProvider,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "software.amazon.awssdk.utils.Validate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "providerName",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#providerName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.BuilderImpl#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest.BuilderImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BuilderImpl"],
+            "templateArguments": [],
+            "function": "DefaultResolveIdentityRequest",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest#DefaultResolveIdentityRequest(BuilderImpl)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.identity.spi.AwsSessionCredentialsIdentity.create(String,String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "secretAccessKey",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.Builder#secretAccessKey(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.AwsSessionCredentialsIdentity.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AwsSessionCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "accessKeyId",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.Builder#accessKeyId(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sessionToken",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsSessionCredentialsIdentity.Builder#sessionToken(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsSessionCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolveIdentity",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProvider#resolveIdentity()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.ResolveIdentityRequest.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "DefaultAwsCredentialsIdentity",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#DefaultAwsCredentialsIdentity(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "software.amazon.awssdk.identity.spi.AwsCredentialsIdentity.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<Builder>"],
+            "templateArguments": [],
+            "function": "resolveIdentity",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProvider#resolveIdentity(Consumer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<IdentityProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Map#equals(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<?>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.identity.spi.IdentityProperty.create(Class,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "IdentityProperty",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Map<IdentityProperty<?>, Object>"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProperty<T>"],
+            "templateArguments": [],
+            "function": "property",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultResolveIdentityRequest#property(IdentityProperty)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultResolveIdentityRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IdentityProperty<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(IdentityProperty)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "software.amazon.awssdk.identity.spi.AwsCredentialsIdentity.create(String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AwsCredentialsIdentity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "accessKeyId",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.Builder#accessKeyId(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "secretAccessKey",
+            "name": "software.amazon.awssdk.identity.spi.internal.DefaultAwsCredentialsIdentity.Builder#secretAccessKey(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultAwsCredentialsIdentity.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "software.amazon.awssdk.identity.spi.TokenIdentity.create(String)$TokenIdentity$1#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TokenIdentity.create(String)$TokenIdentity$1",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 153,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 96,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 97,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 94,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 90,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 97,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 97,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 97,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 97,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 94,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 94,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 95,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 95,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 96,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 95,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 44,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 40,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 36,
+                "column": 98,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 36,
+                "column": 98,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 97,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 48,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 52,
+                "column": 28,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 50,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 50,
+                "column": 57,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 49,
+                "column": 34,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 52,
+                "column": 17,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 28,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 74,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 100,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 101,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 59,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 73,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 74,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 85,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 85,
+                "column": 44,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 87,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 87,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 87,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 87,
+                "column": 42,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 81,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 85,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 86,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 86,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 86,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 49,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 106,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 50,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 105,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 50,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 104,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 50,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 103,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 50,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "Identity.java",
+                "line": 39,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 55,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "Identity.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 57,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 58,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 81,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 23,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 1,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 1,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 1,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 44,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 1,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 56,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 61,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProviders.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 62,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 64,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 7,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 87,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 63,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 93,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 63,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 94,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 63,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 75,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 75,
+                "column": 41,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 85,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 56,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 86,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 56,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 9,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 64,
+                "column": 38,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 85,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 19,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 84,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 19,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 68,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 17,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 17,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 63,
+                "column": 61,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 17,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 17,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 69,
+                "column": 45,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 17,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 63,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 17,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 89,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 76,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 63,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 8,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 80,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 66,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 80,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 66,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 80,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 76,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 81,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsSessionCredentialsIdentity.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 54,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 55,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 83,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 92,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 91,
+                "column": 13,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 105,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 21,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 59,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 88,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 94,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "AwsSessionCredentialsIdentity.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 91,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "AwsSessionCredentialsIdentity.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "AwsSessionCredentialsIdentity.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 91,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "AwsSessionCredentialsIdentity.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 91,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "AwsSessionCredentialsIdentity.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 91,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProvider.java",
+                "line": 60,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 134,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 99,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 40,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 99,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 55,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 101,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProvider.java",
+                "line": 53,
+                "column": 32,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 102,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "ResolveIdentityRequest.java",
+                "line": 42,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 97,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultIdentityProviders.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 41,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 65,
+                "column": 40,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 103,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 79,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 59,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 79,
+                "column": 69,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 59,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 59,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 105,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "IdentityProperty.java",
+                "line": 59,
+                "column": 39,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 90,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 36,
+                "column": 27,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 90,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "DefaultResolveIdentityRequest.java",
+                "line": 45,
+                "column": 20,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 93,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 111,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 94,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 111,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultAwsCredentialsIdentity.java",
+                "line": 95,
+                "column": 36,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi/internal"
+            },
+            "caller": 111,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "AwsSessionCredentialsIdentity.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 93,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "AwsCredentialsIdentity.java",
+                "line": 65,
+                "column": 16,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 112,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 70,
+                "column": 46,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 115,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 70,
+                "column": 24,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 115,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "TokenIdentity.java",
+                "line": 66,
+                "column": 48,
+                "directory": "src/main/java/software/amazon/awssdk/identity/spi"
+            },
+            "caller": 115,
+            "callee": 5
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "software.amazon.awssdk.identity.spi.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "software.amazon.awssdk.identity.spi",
+            "isRoot": false,
+            "module": -1,
+            "name": "spi",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
