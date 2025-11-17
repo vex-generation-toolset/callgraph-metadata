@@ -1,0 +1,5369 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "TikaLanguageIdentifierUpdateProcessor",
+            "name": "org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessor#TikaLanguageIdentifierUpdateProcessor(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TikaLanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "LanguageIdentifierUpdateProcessor",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#LanguageIdentifierUpdateProcessor(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TikaLanguageIdentifierUpdateProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SolrCore"],
+            "templateArguments": [],
+            "function": "inform",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessorFactory#inform(SolrCore)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResourceLoader",
+            "name": "org.apache.solr.core.SolrCore#getResourceLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrCore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "loadModel",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessorFactory#loadModel()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "resolveLanguage",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#resolveLanguage(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<DetectedLanguage>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "resolveLanguage",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#resolveLanguage(List,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DetectedLanguage"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(DetectedLanguage)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Double"
+            ],
+            "templateArguments": [],
+            "function": "DetectedLanguage",
+            "name": "org.apache.solr.update.processor.DetectedLanguage#DetectedLanguage(String,Double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DetectedLanguage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessorFactory#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessorFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessorFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toSolrParams",
+            "name": "org.apache.solr.common.util.NamedList#toSolrParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.solr.common.util.NamedList#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.NamedList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.solr.common.params.SolrParams#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "java.lang.invoke.MethodHandles.lookup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.invoke.MethodHandles",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lookupClass",
+            "name": "MethodHandles.Lookup#lookupClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MethodHandles.Lookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "make_ISO639_map",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessor.make_ISO639_map()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrParams",
+                "SolrParams",
+                "SolrParams"
+            ],
+            "templateArguments": [],
+            "function": "setDefaults",
+            "name": "org.apache.solr.util.SolrPluginUtils.setDefaults(SolrQueryRequest,SolrParams,SolrParams,SolrParams)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.util.SolrPluginUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor",
+                "LanguageDetectorModel"
+            ],
+            "templateArguments": [],
+            "function": "OpenNLPLangDetectUpdateProcessor",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessor#OpenNLPLangDetectUpdateProcessor(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor,LanguageDetectorModel)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "LangDetectLanguageIdentifierUpdateProcessor",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessor#LangDetectLanguageIdentifierUpdateProcessor(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AddUpdateCommand"],
+            "templateArguments": [],
+            "function": "processAdd",
+            "name": "UpdateRequestProcessor#processAdd(AddUpdateCommand)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "UpdateRequestProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSolrInputDocument",
+            "name": "org.apache.solr.update.AddUpdateCommand#getSolrInputDocument()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.update.AddUpdateCommand",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEnabled",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#isEnabled()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrInputDocument"],
+            "templateArguments": [],
+            "function": "process",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#process(SolrInputDocument)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrInputDocument"],
+            "templateArguments": [],
+            "function": "concatFields",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#concatFields(SolrInputDocument)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrInputDocument",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "solrDocReader",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#solrDocReader(SolrInputDocument,String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "asString",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader.asString(Reader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLanguage",
+            "name": "java.util.Locale#getLanguage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Locale",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getISO3Language",
+            "name": "java.util.Locale#getISO3Language()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Locale",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getISOLanguages",
+            "name": "java.util.Locale.getISOLanguages()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Locale",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setLanguage",
+            "name": "java.util.Locale.Builder#setLanguage(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Locale.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Locale.Builder",
+            "name": "java.util.Locale.Builder#Locale.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Locale.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.Locale.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Locale.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "detectLanguage",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessor#detectLanguage(Reader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DetectedLanguage"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.ArrayList#add(DetectedLanguage)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "com.cybozu.labs.langdetect.Detector#append(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.cybozu.labs.langdetect.Detector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "LangDetectException"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,LangDetectException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setEodReturnValue",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#setEodReturnValue(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setMaxTextLength",
+            "name": "com.cybozu.labs.langdetect.Detector#setMaxTextLength(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.cybozu.labs.langdetect.Detector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProbabilities",
+            "name": "com.cybozu.labs.langdetect.Detector#getProbabilities()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.cybozu.labs.langdetect.Detector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.cybozu.labs.langdetect.DetectorFactory.create()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.cybozu.labs.langdetect.DetectorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrInputDocument"],
+            "templateArguments": [],
+            "function": "detectLanguage",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#detectLanguage(SolrInputDocument)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "detectLanguage",
+            "name": "org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessor#detectLanguage(Reader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TikaLanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "detectLanguage",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessor#detectLanguage(Reader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "StringBuilder",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "fillBuffer",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#fillBuffer(StringBuilder,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StringBuilder",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "nextDocChunk",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#nextDocChunk(StringBuilder,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.StringBuilder#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["LanguageDetectorModel"],
+            "templateArguments": [],
+            "function": "LanguageDetectorME",
+            "name": "opennlp.tools.langdetect.LanguageDetectorME#LanguageDetectorME(LanguageDetectorModel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.langdetect.LanguageDetectorME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLang",
+            "name": "opennlp.tools.langdetect.Language#getLang()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.langdetect.Language",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getConfidence",
+            "name": "opennlp.tools.langdetect.Language#getConfidence()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.langdetect.Language",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "predictLanguages",
+            "name": "opennlp.tools.langdetect.LanguageDetectorME#predictLanguages(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.langdetect.LanguageDetectorME",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TikaLanguageIdentifierUpdateProcessor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "stringFromReader",
+            "name": "org.apache.solr.common.util.StrUtils.stringFromReader(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.util.StrUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "normalizeLangCode",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#normalizeLangCode(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.HashMap#containsKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.HashMap#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getMappedField",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#getMappedField(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "replaceFirst",
+            "name": "Matcher#replaceFirst(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getFieldOrNull",
+            "name": "org.apache.solr.schema.IndexSchema#getFieldOrNull(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrInputDocument",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SolrInputDocumentReader",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#SolrInputDocumentReader(SolrInputDocument,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SolrInputDocument"],
+            "templateArguments": [],
+            "function": "getStringFields",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader.getStringFields(SolrInputDocument)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrInputDocument",
+                "String[]",
+                "int",
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SolrInputDocumentReader",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#SolrInputDocumentReader(SolrInputDocument,String[],int,int,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "java.util.Iterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "returnEod",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#returnEod()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasNext",
+            "name": "java.util.Iterator#hasNext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringBuilder"],
+            "templateArguments": [],
+            "function": "incField",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#incField(StringBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "org.apache.solr.common.SolrInputField#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputField",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getField",
+            "name": "org.apache.solr.common.SolrInputDocument#getField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringBuilder"],
+            "templateArguments": [],
+            "function": "returnValue",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#returnValue(StringBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.OpenNLPLangDetectUpdateProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenNLPLangDetectUpdateProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SolrParams"],
+            "templateArguments": [],
+            "function": "initParams",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#initParams(SolrParams)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "org.apache.solr.common.params.SolrParams#get(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "getBool",
+            "name": "org.apache.solr.common.params.SolrParams#getBool(String,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "IntStream#map(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.Arrays.stream(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "int",
+                "String",
+                "int",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,String,int,String,int,String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "org.slf4j.Logger#error(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getInt",
+            "name": "org.apache.solr.common.params.SolrParams#getInt(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Arrays.equals(String[],String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUniqueKeyField",
+            "name": "org.apache.solr.schema.IndexSchema#getUniqueKeyField()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.IndexSchema",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setEnabled",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#setEnabled(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.HashMap#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SolrException",
+            "name": "org.apache.solr.common.SolrException#SolrException(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "IntStream#forEach(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HashSet<String>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.HashSet#addAll(HashSet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "org.apache.solr.schema.SchemaField#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.schema.SchemaField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Double"
+            ],
+            "templateArguments": [],
+            "function": "getDouble",
+            "name": "org.apache.solr.common.params.SolrParams#getDouble(String,Double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.params.SolrParams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.LangIdParams.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangIdParams",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "lang#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "lang",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "filter",
+            "name": "IntStream#filter(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "spliterator",
+            "name": "org.apache.solr.common.SolrInputDocument#spliterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFirstValue",
+            "name": "f#getFirstValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "f",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.stream.StreamSupport.stream(Object,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.StreamSupport",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "Stream#map(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "Stream#toArray(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "filter",
+            "name": "Stream#filter(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "char[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader#read(char[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "char[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getChars",
+            "name": "java.lang.StringBuilder#getChars(int,int,char[],int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "LanguageDetectorModel",
+            "name": "opennlp.tools.langdetect.LanguageDetectorModel#LanguageDetectorModel(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "opennlp.tools.langdetect.LanguageDetectorModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "openResource",
+            "name": "org.apache.solr.core.SolrResourceLoader#openResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.core.SolrResourceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrInputDocument",
+                "String[]",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getFallbackLang",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor#getFallbackLang(SolrInputDocument,String[],String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getFieldValue",
+            "name": "org.apache.solr.common.SolrInputDocument#getFieldValue(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "org.apache.solr.common.SolrInputDocument#containsKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "org.slf4j.Logger#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.tika.language.LanguageIdentifier#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.language.LanguageIdentifier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "Pattern#matcher(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "LanguageIdentifier",
+            "name": "org.apache.tika.language.LanguageIdentifier#LanguageIdentifier(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.language.LanguageIdentifier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCertainty",
+            "name": "org.apache.solr.update.processor.DetectedLanguage#getCertainty()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DetectedLanguage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "DetectedLanguage",
+                "Double",
+                "LanguageIdentifier"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,DetectedLanguage,Double,LanguageIdentifier)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLanguage",
+            "name": "org.apache.tika.language.LanguageIdentifier#getLanguage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.language.LanguageIdentifier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["UpdateRequestProcessor"],
+            "templateArguments": [],
+            "function": "LIB__OR__TYPE::UpdateRequestProcessor",
+            "name": "UpdateRequestProcessor#LIB__OR__TYPE(UpdateRequestProcessor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LanguageIdentifierUpdateProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getParams",
+            "name": "org.apache.solr.request.SolrQueryRequest#getParams()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSchema",
+            "name": "org.apache.solr.request.SolrQueryRequest#getSchema()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.request.SolrQueryRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "loadData",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory.loadData()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStreamReader"],
+            "templateArguments": [],
+            "function": "BufferedReader",
+            "name": "java.io.BufferedReader#BufferedReader(InputStreamReader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.BufferedReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResourceAsStream",
+            "name": "java.lang.Class#getResourceAsStream(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "InputStreamReader",
+            "name": "java.io.InputStreamReader#InputStreamReader(InputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStreamReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessorFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["BufferedReader"],
+            "templateArguments": [],
+            "function": "toCharArray",
+            "name": "org.apache.commons.io.IOUtils.toCharArray(BufferedReader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.commons.io.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setSeed",
+            "name": "com.cybozu.labs.langdetect.DetectorFactory.setSeed(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.cybozu.labs.langdetect.DetectorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "loadProfile",
+            "name": "com.cybozu.labs.langdetect.DetectorFactory.loadProfile(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.cybozu.labs.langdetect.DetectorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.io.BufferedReader#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.BufferedReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessorFactory#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TikaLanguageIdentifierUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.DetectedLanguage.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DetectedLanguage",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["NamedList<?>"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory#init(NamedList)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LangDetectLanguageIdentifierUpdateProcessorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.HashSet#contains(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLangCode",
+            "name": "org.apache.solr.update.processor.DetectedLanguage#getLangCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DetectedLanguage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.HashSet#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "double",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,double,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Double"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,String,Double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "java.util.HashSet#toArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "removeField",
+            "name": "org.apache.solr.common.SolrInputDocument#removeField(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.HashSet#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setField",
+            "name": "org.apache.solr.common.SolrInputDocument#setField(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setField",
+            "name": "org.apache.solr.common.SolrInputDocument#setField(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputDocument",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "org.apache.solr.common.SolrInputField#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.solr.common.SolrInputField",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.util.Arrays.toString(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.solr.update.processor.SolrInputDocumentReader.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SolrInputDocumentReader",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SolrQueryRequest",
+                "SolrQueryResponse",
+                "UpdateRequestProcessor"
+            ],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessorFactory#getInstance(SolrQueryRequest,SolrQueryResponse,UpdateRequestProcessor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TikaLanguageIdentifierUpdateProcessorFactory",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 125,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 121,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 3,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 123,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 3,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 366,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 365,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 364,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 7,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 364,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 365,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 7,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 63,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 69,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 67,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 84,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 79,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 73,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 77,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 75,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 87,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 91,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 93,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 71,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 53,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 53,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 53,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 19,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 44,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 23,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 44,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 23,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 44,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 23,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 47,
+                "column": 57,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 106,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 108,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 107,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 105,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 28,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 227,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 223,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 30,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 222,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 30,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 220,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 30,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 223,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 30,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 225,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 30,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 488,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 488,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 79,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 79,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 77,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 76,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 76,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 78,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 78,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 78,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 79,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 24,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 77,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 75,
+                "column": 50,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 75,
+                "column": 50,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 72,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 77,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 82,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 70,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 64,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 85,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 74,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 63,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 48,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 344,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 59,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 344,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 344,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 59,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 344,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 59,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 39,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 62,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 39,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 62,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 39,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 62,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 114,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 113,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 121,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 63,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 60,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 60,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 67,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 67,
+                "column": 70,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 67,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 70,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 66,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 64,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 61,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 67,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 61,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 42,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 71,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 42,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 71,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 42,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 71,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 222,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 38,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 224,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 38,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 46,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 56,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 46,
+                "column": 61,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 56,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 46,
+                "column": 37,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 56,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 414,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 74,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 421,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 423,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 74,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 422,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 74,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 443,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 440,
+                "column": 50,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 445,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 442,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 443,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 442,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 429,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 440,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 446,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 452,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 78,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 67,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 67,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 48,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 29,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessor.java",
+                "line": 50,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 29,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 144,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 127,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 167,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 136,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 172,
+                "column": 54,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 142,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 137,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 140,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 149,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 134,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 173,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 168,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 164,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 148,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 125,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 173,
+                "column": 48,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 151,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 149,
+                "column": 67,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 156,
+                "column": 44,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 147,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 170,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 142,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 49,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 27,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessor.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 27,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 98,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 114,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 136,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 154,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 154,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 123,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 123,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 182,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 168,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 156,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 199,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 161,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 129,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 111,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 184,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 179,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 149,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 103,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 123,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 108,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 137,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 141,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 155,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 101,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 97,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 102,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 148,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 97,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 172,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 107,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 214,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 174,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 146,
+                "column": 46,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 105,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 130,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 123,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 135,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 150,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 167,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 167,
+                "column": 18,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 188,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 106,
+                "column": 75,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 181,
+                "column": 36,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 169,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 113,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 94,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 94,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 181,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 125,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 159,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 99,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 131,
+                "column": 21,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 183,
+                "column": 28,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 211,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 112,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 112,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 148,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 123,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 109,
+                "column": 26,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 142,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 146,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 98,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 185,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 96,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 182,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 96,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 183,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 96,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 230,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 85,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 231,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 85,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 230,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 85,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 230,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 85,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 230,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 85,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 230,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 85,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 98,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 130,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 101,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 130,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 97,
+                "column": 24,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 130,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 114,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 6,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "OpenNLPLangDetectUpdateProcessorFactory.java",
+                "line": 113,
+                "column": 29,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 6,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 331,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 135,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 313,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 135,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 325,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 324,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 135,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 326,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 135,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 65,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 58,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 58,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 63,
+                "column": 35,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 73,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 54,
+                "column": 39,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 69,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 64,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 58,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 51,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 66,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 49,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 52,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 52,
+                "column": 40,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessor.java",
+                "line": 63,
+                "column": 56,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 60,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 1,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 88,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 1,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 86,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 1,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 91,
+                "column": 16,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 1,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 89,
+                "column": 14,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 1,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 133,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 133,
+                "column": 23,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 132,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 129,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 132,
+                "column": 30,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 126,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 126,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 121,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 133,
+                "column": 34,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 137,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 136,
+                "column": 5,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 134,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 149,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 81,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 75,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 79,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 77,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 71,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 69,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 73,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 160,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 84,
+                "column": 41,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 146,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 83,
+                "column": 51,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 146,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 483,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 37,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "DetectedLanguage.java",
+                "line": 24,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 12,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 93,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 91,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 76,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 89,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 78,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 85,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 83,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 95,
+                "column": 22,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "LangDetectLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 87,
+                "column": 20,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 163,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 384,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 399,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 388,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 379,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 383,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 382,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 383,
+                "column": 31,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 384,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 397,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 396,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 369,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 386,
+                "column": 79,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 378,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 385,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 391,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 407,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 386,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 8,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 270,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 309,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 293,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 296,
+                "column": 19,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 263,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 287,
+                "column": 51,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 276,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 309,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 242,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 275,
+                "column": 25,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 264,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 237,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 237,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 292,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 259,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 265,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 243,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 272,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 281,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 290,
+                "column": 45,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 274,
+                "column": 32,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 253,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 287,
+                "column": 15,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 244,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 255,
+                "column": 49,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 254,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 249,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 289,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 238,
+                "column": 27,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 286,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 255,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 230,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 247,
+                "column": 9,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 263,
+                "column": 33,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 241,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 245,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 290,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 283,
+                "column": 38,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 274,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 274,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 274,
+                "column": 17,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 246,
+                "column": 11,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "LanguageIdentifierUpdateProcessor.java",
+                "line": 277,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 34,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 70,
+                "column": 3,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 86,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "SolrInputDocumentReader.java",
+                "line": 90,
+                "column": 13,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 86,
+            "callee": 182
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 93,
+                "column": 12,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 183,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "TikaLanguageIdentifierUpdateProcessorFactory.java",
+                "line": 91,
+                "column": 7,
+                "directory": "src/java/org/apache/solr/update/processor"
+            },
+            "caller": 183,
+            "callee": 26
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.apache.solr.update.processor",
+        "isRoot": false,
+        "module": -1,
+        "name": "processor",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
