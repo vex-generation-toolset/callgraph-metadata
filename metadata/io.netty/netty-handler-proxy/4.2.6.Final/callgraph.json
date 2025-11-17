@@ -1,0 +1,5664 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "removeDecoder",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#removeDecoder(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "io.netty.channel.ChannelPipeline#remove(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "pipeline",
+            "name": "io.netty.channel.ChannelHandlerContext#pipeline()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "handlerAdded",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#handlerAdded(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "handlerAdded",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#handlerAdded(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "handlerRemoved",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#handlerRemoved(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "handlerRemoved",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#handlerRemoved(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "sendConnectCommand",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#sendConnectCommand(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHostAddress",
+            "name": "InetAddress#getHostAddress()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "InetAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Socks5CommandResponseDecoder",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder#Socks5CommandResponseDecoder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "sendToProxyServer",
+            "name": "io.netty.handler.proxy.ProxyHandler#sendToProxyServer(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPort",
+            "name": "java.net.InetSocketAddress#getPort()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "destinationAddress",
+            "name": "io.netty.handler.proxy.ProxyHandler#destinationAddress()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isValidIpV4Address",
+            "name": "io.netty.util.NetUtil.isValidIpV4Address(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.NetUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isUnresolved",
+            "name": "java.net.InetSocketAddress#isUnresolved()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAddress",
+            "name": "java.net.InetSocketAddress#getAddress()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHostString",
+            "name": "java.net.InetSocketAddress#getHostString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "exceptionMessage",
+            "name": "io.netty.handler.proxy.ProxyHandler#exceptionMessage(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ProxyConnectException",
+            "name": "io.netty.handler.proxy.ProxyConnectException#ProxyConnectException(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "simpleClassName",
+            "name": "io.netty.util.internal.StringUtil.simpleClassName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.internal.StringUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isValidIpV6Address",
+            "name": "io.netty.util.NetUtil.isValidIpV6Address(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.NetUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Socks5AddressType",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "DefaultSocks5CommandRequest",
+            "name": "io.netty.handler.codec.socksx.v5.DefaultSocks5CommandRequest#DefaultSocks5CommandRequest(Object,Socks5AddressType,String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.DefaultSocks5CommandRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#close(ChannelHandlerContext,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#close(ChannelHandlerContext,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "writeAndFlush",
+            "name": "io.netty.channel.ChannelHandlerContext#writeAndFlush(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "newInitialMessage",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#newInitialMessage(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "DefaultSocks4CommandRequest",
+            "name": "io.netty.handler.codec.socksx.v4.DefaultSocks4CommandRequest#DefaultSocks4CommandRequest(Object,String,int,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v4.DefaultSocks4CommandRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "protocol",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#protocol()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "exceptionCaught",
+            "name": "io.netty.handler.proxy.ProxyHandler#exceptionCaught(ChannelHandlerContext,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "setConnectFailure",
+            "name": "io.netty.handler.proxy.ProxyHandler#setConnectFailure(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "fireExceptionCaught",
+            "name": "io.netty.channel.ChannelHandlerContext#fireExceptionCaught(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "failPendingWrites",
+            "name": "io.netty.handler.proxy.ProxyHandler#failPendingWrites(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "removeAndFailAll",
+            "name": "io.netty.channel.PendingWriteQueue#removeAndFailAll(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.PendingWriteQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "removeEncoder",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#removeEncoder(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "userEventTriggered",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#userEventTriggered(ChannelHandlerContext,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "userEventTriggered",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#userEventTriggered(ChannelHandlerContext,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "sendInitialMessage",
+            "name": "io.netty.handler.proxy.ProxyHandler#sendInitialMessage(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "newInitialMessage",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#newInitialMessage(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "newInitialMessage",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#newInitialMessage(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.ProxyHandler#sendInitialMessage(ChannelHandlerContext)$Runnable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler#sendInitialMessage(ChannelHandlerContext)$Runnable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "readIfNeeded",
+            "name": "io.netty.handler.proxy.ProxyHandler.readIfNeeded(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "executor",
+            "name": "io.netty.channel.ChannelHandlerContext#executor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "safeRemoveDecoder",
+            "name": "io.netty.handler.proxy.ProxyHandler#safeRemoveDecoder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "removeDecoder",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#removeDecoder(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "removeDecoder",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#removeDecoder(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.handler.proxy.ProxyHandler.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "io.netty.util.internal.logging.InternalLogger#warn(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.internal.logging.InternalLogger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "removeEncoder",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#removeEncoder(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "addPendingWrite",
+            "name": "io.netty.handler.proxy.ProxyHandler#addPendingWrite(ChannelHandlerContext,Object,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "PendingWriteQueue",
+            "name": "io.netty.channel.PendingWriteQueue#PendingWriteQueue(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.PendingWriteQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "io.netty.channel.PendingWriteQueue#add(Object,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.PendingWriteQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HttpClientCodec",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#HttpClientCodec()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.codec.http.HttpClientCodec.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "ProxyConnectException",
+            "name": "io.netty.handler.proxy.ProxyConnectException#ProxyConnectException(String,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.ProxyConnectException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ConnectException",
+            "name": "java.net.ConnectException#ConnectException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.ConnectException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "failPendingWritesAndClose",
+            "name": "io.netty.handler.proxy.ProxyHandler#failPendingWritesAndClose(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "safeRemoveEncoder",
+            "name": "io.netty.handler.proxy.ProxyHandler#safeRemoveEncoder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.Throwable#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "cancelConnectTimeoutFuture",
+            "name": "io.netty.handler.proxy.ProxyHandler#cancelConnectTimeoutFuture()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#read(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#read(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "executor",
+            "name": "io.netty.handler.proxy.ProxyHandler.LazyChannelPromise#executor()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler.LazyChannelPromise",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.springframework.jms.IllegalStateException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "removeInboundHandler",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#removeInboundHandler()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelUnregistered",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelUnregistered(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelUnregistered",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelUnregistered(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#flush(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#flush(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.ProxyHandler.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.ProxyHandler$ChannelFutureListener$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler$ChannelFutureListener$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.ProxyHandler.LazyChannelPromise.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler.LazyChannelPromise",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "HttpHeaders"
+            ],
+            "templateArguments": [],
+            "function": "HttpProxyHandler",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#HttpProxyHandler(SocketAddress,HttpHeaders)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "HttpHeaders",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "HttpProxyHandler",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#HttpProxyHandler(SocketAddress,HttpHeaders,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SocketAddress"],
+            "templateArguments": [],
+            "function": "ProxyHandler",
+            "name": "io.netty.handler.proxy.ProxyHandler#ProxyHandler(SocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "io.netty.util.internal.ObjectUtil.checkNotNull(SocketAddress,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.internal.ObjectUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "cancel",
+            "name": "io.netty.util.concurrent.Future#cancel(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.concurrent.Future",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "io.netty.handler.proxy.ProxyHandler#write(ChannelHandlerContext,Object,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writePendingWrites",
+            "name": "io.netty.handler.proxy.ProxyHandler#writePendingWrites()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "io.netty.channel.ChannelHandlerContext#write(Object,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "authScheme",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#authScheme()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "byte",
+                "byte[]",
+                "Socks5ClientEncoder"
+            ],
+            "templateArguments": [],
+            "function": "Socks5ProxyHandler",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#Socks5ProxyHandler(SocketAddress,byte,byte[],Socks5ClientEncoder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "isPrivateMethod",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod.isPrivateMethod(byte)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "channelRead",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelRead(ChannelHandlerContext,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "channelRead",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelRead(ChannelHandlerContext,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelReadComplete",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelReadComplete(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelReadComplete",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelReadComplete(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "removeAndWriteAll",
+            "name": "io.netty.channel.PendingWriteQueue#removeAndWriteAll()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.PendingWriteQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.netty.handler.proxy.ProxyHandler#sendInitialMessage(ChannelHandlerContext)$Runnable$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler#sendInitialMessage(ChannelHandlerContext)$Runnable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "SocketAddress",
+                "SocketAddress"
+            ],
+            "templateArguments": [],
+            "function": "ProxyConnectionEvent",
+            "name": "io.netty.handler.proxy.ProxyConnectionEvent#ProxyConnectionEvent(String,String,SocketAddress,SocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectionEvent",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "io.netty.util.internal.ObjectUtil.checkNotNull(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.internal.ObjectUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.ProxyConnectionEvent.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectionEvent",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "exceptionCaught",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#exceptionCaught(ChannelHandlerContext,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "exceptionCaught",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#exceptionCaught(ChannelHandlerContext,Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "context",
+            "name": "io.netty.channel.ChannelPipeline#context(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ProxyConnectException",
+            "name": "io.netty.handler.proxy.ProxyConnectException#ProxyConnectException()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SocketAddress"],
+            "templateArguments": [],
+            "function": "Socks4ProxyHandler",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#Socks4ProxyHandler(SocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "Socks4ProxyHandler",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#Socks4ProxyHandler(SocketAddress,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SocketAddress"],
+            "templateArguments": [],
+            "function": "Socks5ProxyHandler",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#Socks5ProxyHandler(SocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "Socks5ProxyHandler",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#Socks5ProxyHandler(SocketAddress,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelActive",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelActive(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelActive",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelActive(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelInactive",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelInactive(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelInactive",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelInactive(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HttpHeaders"
+            ],
+            "templateArguments": [],
+            "function": "HttpProxyConnectException",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpProxyConnectException#HttpProxyConnectException(String,HttpHeaders)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpProxyConnectException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpProxyConnectException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpProxyConnectException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "SocketAddress",
+                "SocketAddress",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#connect(ChannelHandlerContext,SocketAddress,SocketAddress,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "SocketAddress",
+                "SocketAddress",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#connect(ChannelHandlerContext,SocketAddress,SocketAddress,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "HttpProxyHandler",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#HttpProxyHandler(SocketAddress,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "String",
+                "String",
+                "HttpHeaders"
+            ],
+            "templateArguments": [],
+            "function": "HttpProxyHandler",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#HttpProxyHandler(SocketAddress,String,String,HttpHeaders)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "addCodec",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#addCodec(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "null",
+                "Socks4ClientDecoder"
+            ],
+            "templateArguments": [],
+            "function": "addBefore",
+            "name": "io.netty.channel.ChannelPipeline#addBefore(String,null,Socks4ClientDecoder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "name",
+            "name": "io.netty.channel.ChannelHandlerContext#name()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Socks4ClientDecoder"],
+            "templateArguments": [],
+            "function": "context",
+            "name": "io.netty.channel.ChannelPipeline#context(Socks4ClientDecoder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "addBefore",
+            "name": "io.netty.channel.ChannelPipeline#addBefore(String,String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.codec.socksx.v4.Socks4ClientDecoder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v4.Socks4ClientDecoder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Socks4ClientDecoder",
+            "name": "io.netty.handler.codec.socksx.v4.Socks4ClientDecoder#Socks4ClientDecoder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v4.Socks4ClientDecoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "socksAuthMethod",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#socksAuthMethod()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "Socks5AuthMethod",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod#Socks5AuthMethod(int,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "addCodec",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#addCodec(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "null",
+                "HttpClientCodecWrapper"
+            ],
+            "templateArguments": [],
+            "function": "addBefore",
+            "name": "io.netty.channel.ChannelPipeline#addBefore(String,null,HttpClientCodecWrapper)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "addCodec",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#addCodec(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Socks5ClientEncoder"
+            ],
+            "templateArguments": [],
+            "function": "addBefore",
+            "name": "io.netty.channel.ChannelPipeline#addBefore(String,String,Socks5ClientEncoder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "null",
+                "Socks5InitialResponseDecoder"
+            ],
+            "templateArguments": [],
+            "function": "addBefore",
+            "name": "io.netty.channel.ChannelPipeline#addBefore(String,null,Socks5InitialResponseDecoder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Socks5InitialResponseDecoder",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder#Socks5InitialResponseDecoder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Socks5InitialResponseDecoder"],
+            "templateArguments": [],
+            "function": "context",
+            "name": "io.netty.channel.ChannelPipeline#context(Socks5InitialResponseDecoder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPipeline",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "handlerAdded",
+            "name": "io.netty.handler.proxy.ProxyHandler#handlerAdded(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "channel",
+            "name": "io.netty.channel.ChannelHandlerContext#channel()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "handleResponse",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#handleResponse(ChannelHandlerContext,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "status",
+            "name": "io.netty.handler.codec.http.HttpResponse#status()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "headers",
+            "name": "io.netty.handler.codec.http.HttpResponse#headers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "io.netty.handler.codec.http.HttpResponseStatus#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpResponseStatus",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "read",
+            "name": "io.netty.channel.ChannelHandlerContext#read()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "deregister",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#deregister(ChannelHandlerContext,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "deregister",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#deregister(ChannelHandlerContext,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.netty.channel.ChannelHandlerContext#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "String",
+                "String",
+                "HttpHeaders",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "HttpProxyHandler",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#HttpProxyHandler(SocketAddress,String,String,HttpHeaders,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "io.netty.handler.proxy.ProxyHandler#flush(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "io.netty.channel.ChannelHandlerContext#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "authScheme",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#authScheme()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "byteValue",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod#byteValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "isPrivateMethod",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod.isPrivateMethod(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5AuthMethod",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "headers",
+            "name": "io.netty.handler.codec.http.FullHttpRequest#headers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.FullHttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "headersFactory",
+            "name": "io.netty.handler.codec.http.DefaultHttpHeadersFactory.headersFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.DefaultHttpHeadersFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "String",
+                "Object",
+                "HttpHeadersFactory",
+                "HttpHeadersFactory"
+            ],
+            "templateArguments": [],
+            "function": "DefaultFullHttpRequest",
+            "name": "io.netty.handler.codec.http.DefaultFullHttpRequest#DefaultFullHttpRequest(Object,Object,String,Object,HttpHeadersFactory,HttpHeadersFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.DefaultFullHttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InetSocketAddress"],
+            "templateArguments": [],
+            "function": "formatHostnameForHttp",
+            "name": "io.netty.handler.codec.http.HttpUtil.formatHostnameForHttp(InetSocketAddress)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelRegistered",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelRegistered(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelRegistered",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelRegistered(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setConnectSuccess",
+            "name": "io.netty.handler.proxy.ProxyHandler#setConnectSuccess()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "protocol",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#protocol()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "protocol",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#protocol()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ProxyConnectionEvent"],
+            "templateArguments": [],
+            "function": "fireUserEventTriggered",
+            "name": "io.netty.channel.ChannelHandlerContext#fireUserEventTriggered(ProxyConnectionEvent)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "authScheme",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#authScheme()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<ProxyHandler>"],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "io.netty.util.internal.logging.InternalLoggerFactory.getInstance(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.internal.logging.InternalLoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "ProxyConnectException",
+            "name": "io.netty.handler.proxy.ProxyConnectException#ProxyConnectException(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "singletonList",
+            "name": "java.util.Collections.singletonList(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<T>"],
+            "templateArguments": [],
+            "function": "DefaultSocks5InitialRequest",
+            "name": "io.netty.handler.codec.socksx.v5.DefaultSocks5InitialRequest#DefaultSocks5InitialRequest(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.DefaultSocks5InitialRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "DefaultSocks5InitialRequest",
+            "name": "io.netty.handler.codec.socksx.v5.DefaultSocks5InitialRequest#DefaultSocks5InitialRequest(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.DefaultSocks5InitialRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "disconnect",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#disconnect(ChannelHandlerContext,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "disconnect",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#disconnect(ChannelHandlerContext,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "handleResponse",
+            "name": "io.netty.handler.proxy.Socks5ProxyHandler#handleResponse(ChannelHandlerContext,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks5ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "status",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5CommandResponse#status()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5CommandResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "status",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5PrivateAuthResponse#status()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5PrivateAuthResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "authMethod",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5InitialResponse#authMethod()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5InitialResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "DefaultSocks5PrivateAuthRequest",
+            "name": "io.netty.handler.codec.socksx.v5.DefaultSocks5PrivateAuthRequest#DefaultSocks5PrivateAuthRequest(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.DefaultSocks5PrivateAuthRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "DefaultSocks5PasswordAuthRequest",
+            "name": "io.netty.handler.codec.socksx.v5.DefaultSocks5PasswordAuthRequest#DefaultSocks5PasswordAuthRequest(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.DefaultSocks5PasswordAuthRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "Error",
+            "name": "java.lang.Error#Error(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Error",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "status",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponse#status()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Socks5PrivateAuthResponseDecoder",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5PrivateAuthResponseDecoder#Socks5PrivateAuthResponseDecoder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5PrivateAuthResponseDecoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5PrivateAuthResponseDecoder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5PrivateAuthResponseDecoder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Socks5PasswordAuthResponseDecoder",
+            "name": "io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder#Socks5PasswordAuthResponseDecoder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelWritabilityChanged",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#channelWritabilityChanged(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelWritabilityChanged",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#channelWritabilityChanged(ChannelHandlerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelActive",
+            "name": "io.netty.handler.proxy.ProxyHandler#channelActive(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "fireChannelActive",
+            "name": "io.netty.channel.ChannelHandlerContext#fireChannelActive()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelInactive",
+            "name": "io.netty.handler.proxy.ProxyHandler#channelInactive(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "fireChannelInactive",
+            "name": "io.netty.channel.ChannelHandlerContext#fireChannelInactive()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SocketAddress"],
+            "templateArguments": [],
+            "function": "HttpProxyHandler",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#HttpProxyHandler(SocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "io.netty.handler.proxy.ProxyConnectionEvent#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyConnectionEvent",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ProxyConnectionEvent"],
+            "templateArguments": [],
+            "function": "simpleClassName",
+            "name": "io.netty.util.internal.StringUtil.simpleClassName(ProxyConnectionEvent)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.internal.StringUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SocketAddress"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(SocketAddress)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "SocketAddress",
+                "SocketAddress",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "io.netty.handler.proxy.ProxyHandler#connect(ChannelHandlerContext,SocketAddress,SocketAddress,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ConnectionPendingException"],
+            "templateArguments": [],
+            "function": "setFailure",
+            "name": "io.netty.channel.ChannelPromise#setFailure(ConnectionPendingException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelPromise",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SocketAddress",
+                "SocketAddress",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "io.netty.channel.ChannelHandlerContext#connect(SocketAddress,SocketAddress,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.nio.channels.ConnectionPendingException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.ConnectionPendingException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConnectionPendingException",
+            "name": "java.nio.channels.ConnectionPendingException#ConnectionPendingException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.ConnectionPendingException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Socks5AuthMethod"
+            ],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(Object,Socks5AuthMethod)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "release",
+            "name": "io.netty.buffer.ByteBuf#release()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.buffer.ByteBuf",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "AsciiString",
+            "name": "io.netty.util.AsciiString#AsciiString(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.AsciiString",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ByteBuf",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "encode",
+            "name": "io.netty.handler.codec.base64.Base64.encode(ByteBuf,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.base64.Base64",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "io.netty.buffer.ByteBuf#toString(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.buffer.ByteBuf",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "copiedBuffer",
+            "name": "io.netty.buffer.Unpooled.copiedBuffer(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.buffer.Unpooled",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelFuture"],
+            "templateArguments": [],
+            "function": "operationComplete",
+            "name": "io.netty.handler.proxy.ProxyHandler$ChannelFutureListener$1#operationComplete(ChannelFuture)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler$ChannelFutureListener$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isSuccess",
+            "name": "io.netty.channel.ChannelFuture#isSuccess()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "cause",
+            "name": "io.netty.channel.ChannelFuture#cause()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "SocketAddress",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "bind",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#bind(ChannelHandlerContext,SocketAddress,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "SocketAddress",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "bind",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#bind(ChannelHandlerContext,SocketAddress,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "removeEncoder",
+            "name": "io.netty.handler.proxy.HttpProxyHandler#removeEncoder(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "handleResponse",
+            "name": "io.netty.handler.proxy.Socks4ProxyHandler#handleResponse(ChannelHandlerContext,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Socks4ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "status",
+            "name": "io.netty.handler.codec.socksx.v4.Socks4CommandResponse#status()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.socksx.v4.Socks4CommandResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "removeOutboundHandler",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#removeOutboundHandler()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "channelRead",
+            "name": "io.netty.handler.proxy.ProxyHandler#channelRead(ChannelHandlerContext,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "fireChannelRead",
+            "name": "io.netty.channel.ChannelHandlerContext#fireChannelRead(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "release",
+            "name": "io.netty.util.ReferenceCountUtil.release(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.util.ReferenceCountUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ChannelHandlerContext"],
+            "templateArguments": [],
+            "function": "channelReadComplete",
+            "name": "io.netty.handler.proxy.ProxyHandler#channelReadComplete(ChannelHandlerContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProxyHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "fireChannelReadComplete",
+            "name": "io.netty.channel.ChannelHandlerContext#fireChannelReadComplete()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.channel.ChannelHandlerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "io.netty.handler.proxy.HttpProxyHandler.HttpClientCodecWrapper#write(ChannelHandlerContext,Object,ChannelPromise)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpProxyHandler.HttpClientCodecWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ChannelHandlerContext",
+                "Object",
+                "ChannelPromise"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "io.netty.handler.codec.http.HttpClientCodec#write(ChannelHandlerContext,Object,ChannelPromise)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.netty.handler.codec.http.HttpClientCodec",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 93,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 249,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 254,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 264,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 275,
+                "column": 58,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 275,
+                "column": 58,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 276,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 276,
+                "column": 103,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 257,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 265,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 260,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 264,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 262,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 271,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 270,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 271,
+                "column": 69,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 267,
+                "column": 24,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 276,
+                "column": 27,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 275,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 7,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 321,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 227,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 11,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 106,
+                "column": 16,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 101,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 107,
+                "column": 51,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 99,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 104,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 104,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 102,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 26,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 130,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 246,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 243,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 30,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 437,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 87,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 35,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 35,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 294,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 207,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 207,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 207,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 197,
+                "column": 60,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 209,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 212,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 197,
+                "column": 36,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 38,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 44,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 44,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 314,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 44,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 319,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 44,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 160,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 49,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 445,
+                "column": 50,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 447,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 245,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 245,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 53,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectException.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectException.java",
+                "line": 35,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 56,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 349,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 348,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 344,
+                "column": 42,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 347,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 338,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 344,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 343,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 31,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 331,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 456,
+                "column": 20,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 65,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 454,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 454,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 162,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 46,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 269,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 69,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 341,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 66,
+                "column": 57,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 64,
+                "column": 55,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 73,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 81,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 76,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 76,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 75,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 78,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 362,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 62,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 405,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 406,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 81,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 408,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 81,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 84,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 62,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 110,
+                "column": 19,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 96,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 86,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 108,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 86,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 109,
+                "column": 14,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 86,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 284,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 90,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 289,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 430,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 82,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 201,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 95,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 201,
+                "column": 69,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 95,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 201,
+                "column": 43,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 95,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 38,
+                "column": 27,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 39,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 96,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 37,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 40,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 96,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 259,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 167,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 45,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 166,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 45,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 165,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 45,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 67,
+                "column": 57,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 102,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectException.java",
+                "line": 24,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 103,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 274,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 279,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 110,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 232,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 112,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 227,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 112,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 311,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 114,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 96,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 116,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 77,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 74,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 73,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 79,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 76,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 76,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 118,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 247,
+                "column": 26,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 125,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 152,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 127,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 150,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 127,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 151,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 127,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 155,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 150,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 149,
+                "column": 48,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 149,
+                "column": 48,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 147,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 146,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 152,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 129,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 148,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 135,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 143,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 135,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 143,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 135,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 143,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 135,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 145,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 202,
+                "column": 22,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 199,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 199,
+                "column": 53,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 212,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 209,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 212,
+                "column": 53,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 209,
+                "column": 53,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 203,
+                "column": 30,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 211,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 137,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 424,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 42,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 423,
+                "column": 14,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 42,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 84,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 77,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 87,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 326,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 354,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 59,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 357,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 59,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 356,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 59,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 101,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 117,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 415,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 146,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 416,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 146,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 127,
+                "column": 46,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 148,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 127,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 148,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 124,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 148,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 124,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 148,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 126,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 148,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 185,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 176,
+                "column": 45,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 177,
+                "column": 31,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 182,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 170,
+                "column": 20,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 169,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 167,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 189,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 39,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectException.java",
+                "line": 26,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 19,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectException.java",
+                "line": 27,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 19,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 264,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 46,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 46,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 46,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 296,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 309,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 304,
+                "column": 43,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 293,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 291,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 299,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 58,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 58,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 294,
+                "column": 58,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 307,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 286,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 302,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 158,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 43,
+                "column": 50,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 47,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectException.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 164,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 63,
+                "column": 45,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 151,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 63,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 151,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 66,
+                "column": 45,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 151,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 66,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 151,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 169,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 238,
+                "column": 19,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 197,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 237,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 227,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 203,
+                "column": 57,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 218,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 193,
+                "column": 94,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 238,
+                "column": 75,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 203,
+                "column": 24,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 201,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 204,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 205,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 218,
+                "column": 49,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 188,
+                "column": 43,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 231,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 228,
+                "column": 90,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 193,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 205,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 191,
+                "column": 54,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 191,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 228,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 193,
+                "column": 49,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 201,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 238,
+                "column": 45,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 208,
+                "column": 23,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 221,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 218,
+                "column": 83,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 228,
+                "column": 49,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 200,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 204,
+                "column": 66,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 204,
+                "column": 66,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 217,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 189,
+                "column": 46,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 200,
+                "column": 66,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 200,
+                "column": 66,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 171,
+            "callee": 182
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 299,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 183,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 187,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 185,
+            "callee": 186
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 186,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 185,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 236,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 187,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 236,
+                "column": 57,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 187,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 233,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 187,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 236,
+                "column": 31,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 187,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 77,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 189,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 49,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 105,
+            "callee": 190
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 50,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 105,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 80,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 192
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 195
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 197
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 91,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "ProxyConnectionEvent.java",
+                "line": 79,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 191,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 176,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 199,
+            "callee": 200
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 181,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 199,
+            "callee": 201
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 176,
+                "column": 32,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 199,
+            "callee": 202
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 176,
+                "column": 32,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 199,
+            "callee": 203
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 388,
+                "column": 16,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 379,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 379,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 379,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 385,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 377,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 377,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 377,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 195
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 376,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 204
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 385,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 18,
+            "callee": 204
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 177,
+                "column": 46,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 40,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 178,
+                "column": 20,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 40,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 178,
+                "column": 52,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 40,
+            "callee": 205
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 171,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 40,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 177,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 40,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 173,
+                "column": 39,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 40,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 118,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 206
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 121,
+                "column": 29,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 207
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 110,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 104,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 123,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 206
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 116,
+                "column": 27,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 208
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 121,
+                "column": 56,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 209
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 113,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 210
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 111,
+                "column": 25,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 145,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 69,
+                "column": 18,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 211,
+            "callee": 212
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 70,
+                "column": 35,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 211,
+            "callee": 213
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 70,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 211,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 305,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 214,
+            "callee": 215
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 330,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 60,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 327,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 60,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 327,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 60,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 327,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 60,
+            "callee": 216
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 325,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 60,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 57,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 160,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 135,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 162,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 135,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 162,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 119,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 159,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 113,
+                "column": 44,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 217,
+            "callee": 218
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 118,
+                "column": 15,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 217,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Socks4ProxyHandler.java",
+                "line": 118,
+                "column": 41,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 217,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 216,
+            "callee": 219
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 260,
+                "column": 32,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 260,
+                "column": 32,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 260,
+                "column": 32,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 217
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 255,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 221
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 262,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 269,
+                "column": 21,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 267,
+                "column": 17,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 220,
+            "callee": 222
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 107,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 107,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "Socks5ProxyHandler.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 107,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 398,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 223,
+            "callee": 224
+        },
+        {
+            "callSite": {
+                "filename": "ProxyHandler.java",
+                "line": 396,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 223,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "HttpProxyHandler.java",
+                "line": 336,
+                "column": 13,
+                "directory": "src/main/java/io/netty/handler/proxy"
+            },
+            "caller": 225,
+            "callee": 226
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.netty.handler.proxy",
+        "isRoot": false,
+        "module": -1,
+        "name": "proxy",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
