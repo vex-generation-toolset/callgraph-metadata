@@ -1,0 +1,5 @@
+{
+  "repository": "apache/logging-log4j2",
+  "tag": "refs/tags/rel/%s",
+  "relative_path": "log4j-slf4j2-impl"
+}

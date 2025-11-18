@@ -1,0 +1,5 @@
+{
+  "repository": "apache/james-mime4j",
+  "tag": "refs/tags/apache-mime4j-project-%s",
+  "relative_path": "dom"
+}
