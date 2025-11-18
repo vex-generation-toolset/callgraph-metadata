@@ -1,0 +1,4191 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getConfigURIs",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#getConfigURIs(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getConfigURI",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#getConfigURI(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["URI"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(URI)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Layout<? extends Serializable>",
+                "Filter",
+                "ServletContext",
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "ServletAppender",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender#ServletAppender(String,Layout,Filter,ServletContext,boolean,boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Filter",
+                "Layout<? extends Serializable>",
+                "boolean",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "AbstractAppender",
+            "name": "org.apache.logging.log4j.core.appender.AbstractAppender#AbstractAppender(String,Filter,Layout,boolean,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.appender.AbstractAppender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ServletRequest"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.logging.log4j.web.ServletRequestThreadContext.put(String,ServletRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServletRequestThreadContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRemotePort",
+            "name": "javax.servlet.ServletRequest#getRemotePort()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRemoteHost",
+            "name": "javax.servlet.ServletRequest#getRemoteHost()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRemoteAddr",
+            "name": "javax.servlet.ServletRequest#getRemoteAddr()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.logging.log4j.web.ServletRequestThreadContext.put(String,String,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServletRequestThreadContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassLoader",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#getClassLoader()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadContextClassLoader",
+            "name": "org.apache.logging.log4j.util.LoaderUtil.getThreadContextClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.util.LoaderUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassLoader",
+            "name": "javax.servlet.ServletContext#getClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContext"],
+            "templateArguments": [],
+            "function": "getWebLifeCycle",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.getWebLifeCycle(ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unlock",
+            "name": "java.util.concurrent.locks.Lock#unlock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.Lock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.Log4jWebSupport.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebSupport",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lock",
+            "name": "java.util.concurrent.locks.Lock#lock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.Lock",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContext"],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl.initialize(ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "javax.servlet.ServletContext#getAttribute(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Set<Class<?>>",
+                "ServletContext"
+            ],
+            "templateArguments": [],
+            "function": "onStartup",
+            "name": "org.apache.logging.log4j.web.Log4jServletContainerInitializer#onStartup(Set,ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContainerInitializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEffectiveMajorVersion",
+            "name": "javax.servlet.ServletContext#getEffectiveMajorVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setLoggerContext",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#setLoggerContext()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getInitParameter",
+            "name": "javax.servlet.ServletContext#getInitParameter(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMajorVersion",
+            "name": "javax.servlet.ServletContext#getMajorVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Log4jServletContextListener"],
+            "templateArguments": [],
+            "function": "addListener",
+            "name": "javax.servlet.ServletContext#addListener(Log4jServletContextListener)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.apache.logging.log4j.Logger#warn(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<Log4jServletFilter>"
+            ],
+            "templateArguments": [],
+            "function": "addFilter",
+            "name": "javax.servlet.ServletContext#addFilter(String,Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<DispatcherType>"],
+            "templateArguments": [],
+            "function": "allOf",
+            "name": "java.util.EnumSet.allOf(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setAsyncSupported",
+            "name": "javax.servlet.FilterRegistration.Dynamic#setAsyncSupported(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.FilterRegistration.Dynamic",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.logging.log4j.web.Log4jServletContextListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContextListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "EnumSet<DispatcherType>",
+                "boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "addMappingForUrlPatterns",
+            "name": "javax.servlet.FilterRegistration.Dynamic#addMappingForUrlPatterns(EnumSet,boolean,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.FilterRegistration.Dynamic",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.apache.logging.log4j.Logger#debug(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.apache.logging.log4j.status.StatusLogger.getLogger()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.status.StatusLogger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#start()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContext"],
+            "templateArguments": [],
+            "function": "getWebLoggerContext",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.getWebLoggerContext(ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getServletContext",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.getServletContext()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getObject",
+            "name": "org.apache.logging.log4j.core.LoggerContext#getObject(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "getContext",
+            "name": "org.apache.logging.log4j.LogManager.getContext(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.LogManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "WebLoggerContextUtils",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils#WebLoggerContextUtils()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Layout<? extends Serializable>",
+                "Filter",
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "createAppender",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender.createAppender(Layout,Filter,String,boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender.newBuilder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "LogEvent",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "lookup",
+            "name": "org.apache.logging.log4j.web.WebLookup#lookup(LogEvent,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLookup",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.WebLookup.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLookup",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEffectiveMinorVersion",
+            "name": "javax.servlet.ServletContext#getEffectiveMinorVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getRealPath",
+            "name": "javax.servlet.ServletContext#getRealPath(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "javax.servlet.ServletContext#log(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.Object#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getServerInfo",
+            "name": "javax.servlet.ServletContext#getServerInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "quote",
+            "name": "org.apache.logging.log4j.util.Strings.quote(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.util.Strings",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMinorVersion",
+            "name": "javax.servlet.ServletContext#getMinorVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getContextPath",
+            "name": "javax.servlet.ServletContext#getContextPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getServletContextName",
+            "name": "javax.servlet.ServletContext#getServletContextName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HttpServletRequest"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.logging.log4j.web.ServletRequestThreadContext.put(String,HttpServletRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServletRequestThreadContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toURI",
+            "name": "java.net.URL#toURI()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URL",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "error",
+            "name": "LOGGER#error(String,String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.util.Arrays.toString(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResourcePaths",
+            "name": "javax.servlet.ServletContext#getResourcePaths(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getResource",
+            "name": "javax.servlet.ServletContext#getResource(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "URI",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOGGER#debug(String,URI,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "toURI",
+            "name": "org.apache.logging.log4j.core.util.NetUtils.toURI(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.util.NetUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOGGER#debug(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Set<String>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "prefixSet",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl.prefixSet(Set,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContextEvent"],
+            "templateArguments": [],
+            "function": "contextDestroyed",
+            "name": "org.apache.logging.log4j.web.Log4jServletContextListener#contextDestroyed(ServletContextEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContextListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "decrementAndGetCount",
+            "name": "org.apache.logging.log4j.web.Log4jServletContextListener#decrementAndGetCount()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContextListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.apache.logging.log4j.Logger#info(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "valueOf",
+            "name": "TimeUnit.valueOf(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TimeUnit",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearLoggerContext",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#clearLoggerContext()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.apache.logging.log4j.Logger#debug(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "org.apache.logging.log4j.core.LifeCycle2#stop(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LifeCycle2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "org.apache.logging.log4j.util.Strings.isEmpty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.util.Strings",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.Log4jServletContextListener.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContextListener",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IllegalStateException"
+            ],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String,IllegalStateException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Log4jWebInitializerImpl"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "javax.servlet.ServletContext#setAttribute(String,Log4jWebInitializerImpl)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContext"],
+            "templateArguments": [],
+            "function": "Log4jWebInitializerImpl",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#Log4jWebInitializerImpl(ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.Log4jShutdownOnContextDestroyedListener.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jShutdownOnContextDestroyedListener",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.Set#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "initializeNonJndi",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#initializeNonJndi(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOGGER#debug(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContext"],
+            "templateArguments": [],
+            "function": "createExternalEntry",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.createExternalEntry(ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "SimpleDateFormat",
+            "name": "java.text.SimpleDateFormat#SimpleDateFormat(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.SimpleDateFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Date"],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.text.SimpleDateFormat#format(Date)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.SimpleDateFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.Date.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Date",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Date",
+            "name": "java.util.Date#Date()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Date",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "error",
+            "name": "LOGGER#error(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ClassLoader",
+                "URI",
+                "Map.Entry<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "org.apache.logging.log4j.core.config.Configurator.initialize(String,ClassLoader,URI,Map.Entry)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.config.Configurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ClassLoader",
+                "List<URI>",
+                "Map.Entry<String, Object>"
+            ],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "org.apache.logging.log4j.core.config.Configurator.initialize(String,ClassLoader,List,Map.Entry)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.config.Configurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContextEvent"],
+            "templateArguments": [],
+            "function": "contextInitialized",
+            "name": "org.apache.logging.log4j.web.Log4jServletContextListener#contextInitialized(ServletContextEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContextListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "java.lang.Class#getSimpleName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAndIncrementCount",
+            "name": "org.apache.logging.log4j.web.Log4jServletContextListener#getAndIncrementCount()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletContextListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getServletContext",
+            "name": "javax.servlet.ServletContextEvent#getServletContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContextEvent",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ServletContext",
+                "Runnable"
+            ],
+            "templateArguments": [],
+            "function": "wrapExecutionContext",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.wrapExecutionContext(ServletContext,Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "java.lang.Runnable#run()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Runnable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.logging.log4j.web.Log4jServletFilter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletFilter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isClassAvailable",
+            "name": "org.apache.logging.log4j.core.util.Loader.isClassAvailable(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.util.Loader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.logging.log4j.web.ServletRequestThreadContext.put(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServletRequestThreadContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "org.apache.logging.log4j.ThreadContext.put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.ThreadContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "destroy",
+            "name": "org.apache.logging.log4j.web.Log4jServletFilter#destroy()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "LoggerContext",
+                "ServletContext"
+            ],
+            "templateArguments": [],
+            "function": "setServletContext",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.setServletContext(LoggerContext,ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ServletContext"
+            ],
+            "templateArguments": [],
+            "function": "putObject",
+            "name": "org.apache.logging.log4j.core.LoggerContext#putObject(String,ServletContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FilterConfig"],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.logging.log4j.web.Log4jServletFilter#init(FilterConfig)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getServletContext",
+            "name": "javax.servlet.FilterConfig#getServletContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.FilterConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "wrapExecution",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#wrapExecution(Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContextEvent"],
+            "templateArguments": [],
+            "function": "contextInitialized",
+            "name": "org.apache.logging.log4j.web.Log4jShutdownOnContextDestroyedListener#contextInitialized(ServletContextEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jShutdownOnContextDestroyedListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setStarting",
+            "name": "org.apache.logging.log4j.core.AbstractLifeCycle#setStarting()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.AbstractLifeCycle",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setUseThreadLocals",
+            "name": "org.apache.logging.log4j.core.async.AsyncLoggerContext#setUseThreadLocals(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.async.AsyncLoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "initializeJndi",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#initializeJndi(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "LoggerContext"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "javax.servlet.ServletContext#setAttribute(String,LoggerContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setStarted",
+            "name": "org.apache.logging.log4j.core.AbstractLifeCycle#setStarted()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.AbstractLifeCycle",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "replace",
+            "name": "org.apache.logging.log4j.core.lookup.StrSubstitutor#replace(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.lookup.StrSubstitutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "Interpolator",
+            "name": "org.apache.logging.log4j.core.lookup.Interpolator#Interpolator(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.lookup.Interpolator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Interpolator"],
+            "templateArguments": [],
+            "function": "ConfigurationStrSubstitutor",
+            "name": "org.apache.logging.log4j.core.lookup.ConfigurationStrSubstitutor#ConfigurationStrSubstitutor(Interpolator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.lookup.ConfigurationStrSubstitutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "ServletRequest",
+                "ServletResponse",
+                "FilterChain"
+            ],
+            "templateArguments": [],
+            "function": "doFilter",
+            "name": "org.apache.logging.log4j.web.Log4jServletFilter#doFilter(ServletRequest,ServletResponse,FilterChain)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jServletFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ServletRequest",
+                "ServletResponse"
+            ],
+            "templateArguments": [],
+            "function": "doFilter",
+            "name": "javax.servlet.FilterChain#doFilter(ServletRequest,ServletResponse)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.FilterChain",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "javax.servlet.ServletRequest#getAttribute(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "removeAttribute",
+            "name": "javax.servlet.ServletRequest#removeAttribute(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "javax.servlet.ServletRequest#setAttribute(String,Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContext"],
+            "templateArguments": [],
+            "function": "getRequiredWebLoggerContext",
+            "name": "org.apache.logging.log4j.web.WebLoggerContextUtils.getRequiredWebLoggerContext(ServletContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "WebLoggerContextUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "javax.servlet.ServletContext#setAttribute(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["LogEvent"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "org.apache.logging.log4j.web.appender.ServletAppender#append(LogEvent)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ServletAppender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["LogEvent"],
+            "templateArguments": [],
+            "function": "toSerializable",
+            "name": "org.apache.logging.log4j.core.layout.AbstractStringLayout#toSerializable(LogEvent)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.layout.AbstractStringLayout",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThrown",
+            "name": "org.apache.logging.log4j.core.LogEvent#getThrown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LogEvent",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "javax.servlet.ServletContext#log(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.apache.logging.log4j.Logger#warn(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "javax.servlet.ServletContext#setAttribute(String,Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLocalHostname",
+            "name": "org.apache.logging.log4j.core.util.NetUtils.getLocalHostname()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.util.NetUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ServletContext"
+            ],
+            "templateArguments": [],
+            "function": "SimpleEntry",
+            "name": "java.util.AbstractMap.SimpleEntry#SimpleEntry(String,ServletContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.AbstractMap.SimpleEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.util.Objects.toString(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "org.apache.logging.log4j.web.Log4jWebInitializerImpl#stop(long,TimeUnit)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jWebInitializerImpl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "removeContext",
+            "name": "org.apache.logging.log4j.core.selector.NamedContextSelector#removeContext(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.selector.NamedContextSelector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "org.apache.logging.log4j.core.LoggerContext#stop(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "setExternalContext",
+            "name": "org.apache.logging.log4j.core.LoggerContext#setExternalContext(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "removeAttribute",
+            "name": "javax.servlet.ServletContext#removeAttribute(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.ServletContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "org.apache.logging.log4j.core.AbstractLifeCycle#stop(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.AbstractLifeCycle",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.locks.ReentrantLock.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.ReentrantLock",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ReentrantLock",
+            "name": "java.util.concurrent.locks.ReentrantLock#ReentrantLock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.ReentrantLock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Map.Entry<String, Object>",
+                "URI"
+            ],
+            "templateArguments": [],
+            "function": "locateContext",
+            "name": "org.apache.logging.log4j.core.selector.NamedContextSelector#locateContext(String,Map.Entry,URI)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.selector.NamedContextSelector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isInitialized",
+            "name": "org.apache.logging.log4j.core.LoggerContext#isInitialized()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "LOGGER#warn(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSelector",
+            "name": "org.apache.logging.log4j.core.impl.Log4jContextFactory#getSelector()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.impl.Log4jContextFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "org.apache.logging.log4j.core.LoggerContext#start()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFactory",
+            "name": "org.apache.logging.log4j.LogManager.getFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.LogManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "org.apache.logging.log4j.core.LoggerContext#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.logging.log4j.core.LoggerContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "LOGGER#debug(String,String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "LOGGER",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServletContextEvent"],
+            "templateArguments": [],
+            "function": "contextDestroyed",
+            "name": "org.apache.logging.log4j.web.Log4jShutdownOnContextDestroyedListener#contextDestroyed(ServletContextEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Log4jShutdownOnContextDestroyedListener",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 179,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 181,
+                "column": 29,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 183,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 92,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 31,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 30,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 29,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 7,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 30,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 308,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 305,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 91,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 73,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 73,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 15,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 82,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 15,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 87,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 15,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 84,
+                "column": 66,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 15,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 40,
+                "column": 53,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 59,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 57,
+                "column": 51,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 41,
+                "column": 42,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 40,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 63,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 61,
+                "column": 42,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 51,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 49,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 67,
+                "column": 45,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 66,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 63,
+                "column": 44,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 67,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 46,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 44,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 58,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContainerInitializer.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 22,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 37,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 53,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 37,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 138,
+                "column": 41,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 135,
+                "column": 18,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 38,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 126,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 38,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 39,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 41,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 123,
+                "column": 16,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 42,
+                "column": 38,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 57,
+                "column": 23,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 97,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 109,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 93,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 48,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 104,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 89,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 52,
+                "column": 33,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 112,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 43,
+                "column": 47,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 85,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 35,
+                "column": 36,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 105,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 112,
+                "column": 68,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 101,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 73,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 77,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 63,
+                "column": 33,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 81,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "WebLookup.java",
+                "line": 108,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 45,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 57,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 215,
+                "column": 37,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 189,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 229,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 194,
+                "column": 96,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 193,
+                "column": 50,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 213,
+                "column": 33,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 216,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 226,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 225,
+                "column": 50,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 194,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 193,
+                "column": 40,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 2,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 106,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 111,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 121,
+                "column": 27,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 113,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 107,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 122,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 116,
+                "column": 47,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 120,
+                "column": 50,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 119,
+                "column": 51,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 99,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 127,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 117,
+                "column": 42,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 102,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 68,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 74,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 20,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 20,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 85,
+                "column": 53,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 20,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 40,
+                "column": 42,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 80,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 47,
+                "column": 42,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 76,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 39,
+                "column": 44,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 76,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 247,
+                "column": 16,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 67,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 159,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 172,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 168,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 163,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 163,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 158,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 163,
+                "column": 76,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 163,
+                "column": 76,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 155,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 162,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 154,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 174,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 173,
+                "column": 30,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 167,
+                "column": 69,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 173,
+                "column": 65,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 166,
+                "column": 36,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 167,
+                "column": 34,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 83,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebSupport.java",
+                "line": 69,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 17,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebSupport.java",
+                "line": 75,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 17,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 92,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 76,
+                "column": 37,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 86,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 84,
+                "column": 28,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 80,
+                "column": 23,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 78,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 85,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 90,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 75,
+                "column": 31,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 73,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 73,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 95,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 93,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 111,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 97,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 106,
+                "column": 48,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 97,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 109,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 107,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 97,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 47,
+                "column": 54,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 99,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 45,
+                "column": 42,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 99,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 54,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 59,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 55,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 59,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 55,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 101,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 51,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 101,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 53,
+                "column": 51,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 101,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 63,
+                "column": 20,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 101,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 60,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 101,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 102,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 84,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 104,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 104,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 104,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 104,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 122,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 120,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 105,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 57,
+                "column": 28,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 107,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 107,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 58,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 107,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 52,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 107,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 54,
+                "column": 31,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 107,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 296,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 109,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 291,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 109,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 294,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 109,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 50,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 51,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 47,
+                "column": 22,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 55,
+                "column": 28,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 49,
+                "column": 26,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 110,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 101,
+                "column": 62,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 100,
+                "column": 50,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 90,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 98,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 93,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 109,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 112,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 107,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 115,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 103,
+                "column": 60,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 116,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 101,
+                "column": 37,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 100,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 36,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 61,
+                "column": 45,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 117,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 61,
+                "column": 45,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 117,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 62,
+                "column": 80,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 117,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 62,
+                "column": 48,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 117,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 86,
+                "column": 16,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 44,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 72,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 64,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 76,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 67,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 74,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 65,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletFilter.java",
+                "line": 70,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 123,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 65,
+                "column": 45,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 128,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 128,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 67,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 128,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 95,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 52,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 95,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 53,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 95,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 101,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 130,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 105,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 130,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 103,
+                "column": 44,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 130,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "ServletAppender.java",
+                "line": 103,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web/appender"
+            },
+            "caller": 130,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 69,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 62,
+                "column": 35,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 69,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 64,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 69,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "Log4jServletContextListener.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 69,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 71,
+                "column": 34,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 79,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 69,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 79,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 71,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 79,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 116,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 85,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 117,
+                "column": 16,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 85,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 35,
+                "column": 32,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 11,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "ServletRequestThreadContext.java",
+                "line": 35,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 11,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 266,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 256,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 268,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 269,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 264,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 274,
+                "column": 16,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 263,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 253,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 140,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 42,
+                "column": 52,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 18,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "WebLoggerContextUtils.java",
+                "line": 42,
+                "column": 52,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 18,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 133,
+                "column": 27,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 136,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 145,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 141,
+                "column": 17,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 130,
+                "column": 46,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 124,
+                "column": 19,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 134,
+                "column": 25,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 121,
+                "column": 36,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 137,
+                "column": 21,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 128,
+                "column": 46,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 149,
+                "column": 80,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "Log4jWebInitializerImpl.java",
+                "line": 149,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 113,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 64,
+                "column": 22,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 67,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 74,
+                "column": 46,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 73,
+                "column": 47,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 71,
+                "column": 38,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 76,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 58,
+                "column": 5,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 75,
+                "column": 23,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 61,
+                "column": 13,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "Log4jShutdownOnContextDestroyedListener.java",
+                "line": 70,
+                "column": 43,
+                "directory": "src/main/java/org/apache/logging/log4j/web"
+            },
+            "caller": 156,
+            "callee": 25
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.logging.log4j.web",
+            "isRoot": false,
+            "module": -1,
+            "name": "web",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.logging.log4j.web.appender",
+            "isRoot": false,
+            "module": -1,
+            "name": "appender",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
