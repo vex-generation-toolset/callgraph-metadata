@@ -4,20 +4,7 @@ import json
 import sys
 import xml.etree.ElementTree as ET
 from location import SourceLocation
-
-class MavenArtifact:
-    def __init__(self, group_id: str, artifact_id: str, version: str):
-        self.group_id = group_id
-        self.artifact_id = artifact_id
-        self.version = version
-
-    def __str__(self):
-        return f"{self.group_id}:{self.artifact_id}:{self.version}"
-
-    def to_path(self) -> str:
-        group_path = self.group_id.replace(".", "/")
-        return f"{group_path}/{self.artifact_id}/{self.version}/{self.artifact_id}-{self.version}"
-
+from maven import MavenArtifact
 
 class POMNotFound(Exception):
     pass

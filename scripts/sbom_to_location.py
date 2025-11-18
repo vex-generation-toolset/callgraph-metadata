@@ -8,20 +8,7 @@ from pathlib import Path
 from cyclonedx.model.bom import Bom
 from packageurl import PackageURL
 
-from maven_resolver import MavenArtifact, MavenResolver, POMNotFound
-
-
-def purl_to_maven_coords(purl_str: str) -> MavenArtifact:
-    p = PackageURL.from_string(purl_str)
-
-    if p.type != "maven":
-        raise ValueError(f"Expected maven purl, got type={p.type!r}")
-
-    if not p.namespace or not p.name or not p.version:
-        raise ValueError(f"Incomplete Maven purl: {p}")
-
-    return MavenArtifact(p.namespace, p.name, p.version)
-
+from location_resolver import MavenArtifact, MavenResolver
 
 def parse_bom(path: str) -> Bom:
     """
@@ -34,12 +21,8 @@ def parse_bom(path: str) -> Bom:
     return bom
 
 
-def is_jar(purl_str: str) -> bool:
-    try:
-        p = PackageURL.from_string(purl_str)
-    except ValueError:
-        return False
-    return p.type == "maven" and isinstance(p.qualifiers, dict) and p.qualifiers.get("type") == "jar"
+def is_jar(purl: PackageURL) -> bool:
+    return purl.type == "maven" and isinstance(purl.qualifiers, dict) and purl.qualifiers.get("type") == "jar"
 
 
 def process_bom(path: str):
@@ -54,20 +37,20 @@ def process_bom(path: str):
     for comp in bom.components:
         # comp.purl may be a string or a PackageURL depending on library version;
         # handle both.
-        raw_purl = None
+        purl = None
 
         if hasattr(comp, "purl") and comp.purl:
-            raw_purl = str(comp.purl)
+            purl = PackageURL.from_string(comp.purl)
 
-        if not raw_purl:
+        if not purl:
             # No PURL -> skip
             continue
 
-        if not is_jar(raw_purl):
+        if not is_jar(purl):
             # Only handling JARs
             continue
 
-        artifact = purl_to_maven_coords(raw_purl)
+        artifact = MavenArtifact.from_purl(purl)
         print("=" * 80, file=sys.stderr)
         print(f"Artifact: {artifact}", file=sys.stderr)
 
