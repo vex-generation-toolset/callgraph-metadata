@@ -11,7 +11,7 @@
         "url": "https://osv.dev/list?q=CVE-2024-21742&ecosystem="
       },
       "methods": [
-        "org.apache.james.mime4j.stream.RawField"
+        "org.apache.james.mime4j.stream.RawField#RawField(ByteSequence,int,String,String)"
       ]
     },
     {
@@ -23,7 +23,7 @@
         "url": "https://security-tracker.debian.org/tracker/CVE-2024-21742"
       },
       "methods": [
-        "org.apache.james.mime4j.stream.RawField.RawField"
+        "org.apache.james.mime4j.stream.RawField#RawField(String,String)"
       ]
     }
   ],
