@@ -1,0 +1,98 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["ClassLoader"],
+            "templateArguments": [],
+            "function": "forClassLoader",
+            "name": "io.opentelemetry.common.ComponentLoader.forClassLoader(ClassLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ComponentLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ClassLoader"],
+            "templateArguments": [],
+            "function": "ServiceLoaderComponentLoader",
+            "name": "io.opentelemetry.common.ServiceLoaderComponentLoader#ServiceLoaderComponentLoader(ClassLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceLoaderComponentLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.common.ServiceLoaderComponentLoader.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceLoaderComponentLoader",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<T>"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "io.opentelemetry.common.ServiceLoaderComponentLoader#load(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceLoaderComponentLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<T>",
+                "ClassLoader"
+            ],
+            "templateArguments": [],
+            "function": "load",
+            "name": "java.util.ServiceLoader.load(Class,ClassLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ServiceLoader",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "ComponentLoader.java",
+                "line": 26,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/common"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ServiceLoaderComponentLoader.java",
+                "line": 14,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/common"
+            },
+            "caller": 1,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ServiceLoaderComponentLoader.java",
+                "line": 20,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/common"
+            },
+            "caller": 3,
+            "callee": 4
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.opentelemetry.common",
+        "isRoot": false,
+        "module": -1,
+        "name": "common",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
