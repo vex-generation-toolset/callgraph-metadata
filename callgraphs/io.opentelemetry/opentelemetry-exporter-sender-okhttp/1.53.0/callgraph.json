@@ -1,0 +1,4005 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "RetryPolicy",
+                "Function<Response, Boolean>"
+            ],
+            "templateArguments": [],
+            "function": "RetryInterceptor",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor#RetryInterceptor(RetryPolicy,Function)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "double",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "nextDouble",
+            "name": "ThreadLocalRandom#nextDouble(double,double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ThreadLocalRandom",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "RetryPolicy",
+                "Function<Response, Boolean>",
+                "Predicate<IOException>",
+                "Sleeper",
+                "Supplier<Double>"
+            ],
+            "templateArguments": [],
+            "function": "RetryInterceptor",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor#RetryInterceptor(RetryPolicy,Function,Predicate,Sleeper,Supplier)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRetryExceptionPredicate",
+            "name": "io.opentelemetry.sdk.common.export.RetryPolicy#getRetryExceptionPredicate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.export.RetryPolicy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "current",
+            "name": "java.util.concurrent.ThreadLocalRandom.current()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ThreadLocalRandom",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.isRetryable(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "retryableGrpcStatusCodes",
+            "name": "io.opentelemetry.exporter.internal.RetryUtil.retryableGrpcStatusCodes()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.RetryUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "header",
+            "name": "okhttp3.Response#header(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Compressor",
+                "boolean",
+                "String",
+                "long",
+                "long",
+                "Supplier<Map<String, List<String>>>",
+                "ProxyOptions",
+                "RetryPolicy",
+                "SSLContext",
+                "X509TrustManager",
+                "ExecutorService"
+            ],
+            "templateArguments": [],
+            "function": "OkHttpHttpSender",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender#OkHttpHttpSender(String,Compressor,boolean,String,long,long,Supplier,ProxyOptions,RetryPolicy,SSLContext,X509TrustManager,ExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "ofNanos",
+            "name": "java.time.Duration.ofNanos(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OkHttpClient.Builder",
+            "name": "okhttp3.OkHttpClient.Builder#OkHttpClient.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okhttp3.OkHttpClient.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "okhttp3.OkHttpClient.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProxySelector",
+            "name": "io.opentelemetry.sdk.common.export.ProxyOptions#getProxySelector()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.export.ProxyOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Dispatcher"],
+            "templateArguments": [],
+            "function": "dispatcher",
+            "name": "okhttp3.OkHttpClient#dispatcher(Dispatcher)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "okhttp3.HttpUrl.get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.HttpUrl",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "okhttp3.MediaType.parse(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toMillis",
+            "name": "Duration#toMillis()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newDispatcher",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpUtil.newDispatcher()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "singletonList",
+            "name": "java.util.Collections.singletonList(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExecutorService"],
+            "templateArguments": [],
+            "function": "Dispatcher",
+            "name": "okhttp3.Dispatcher#Dispatcher(ExecutorService)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Dispatcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(long,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofMillis",
+            "name": "java.time.Duration.ofMillis(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RetryInterceptor"],
+            "templateArguments": [],
+            "function": "addInterceptor",
+            "name": "okhttp3.OkHttpClient.Builder#addInterceptor(RetryInterceptor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSocketFactory",
+            "name": "javax.net.ssl.SSLContext#getSocketFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.ssl.SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "proxySelector",
+            "name": "okhttp3.OkHttpClient.Builder#proxySelector(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SSLSocketFactory",
+                "X509TrustManager"
+            ],
+            "templateArguments": [],
+            "function": "sslSocketFactory",
+            "name": "okhttp3.OkHttpClient.Builder#sslSocketFactory(SSLSocketFactory,X509TrustManager)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<T>"],
+            "templateArguments": [],
+            "function": "connectionSpecs",
+            "name": "okhttp3.OkHttpClient.Builder#connectionSpecs(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.GrpcRequestBody.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcRequestBody",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Chain"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor#intercept(Chain)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NullPointerException",
+            "name": "java.lang.NullPointerException#NullPointerException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.NullPointerException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "okhttp3.Response#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "test",
+            "name": "java.util.function.Predicate#test(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Predicate",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBackoffMultiplier",
+            "name": "io.opentelemetry.sdk.common.export.RetryPolicy#getBackoffMultiplier()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.export.RetryPolicy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "currentThread",
+            "name": "java.lang.Thread.currentThread()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Level"],
+            "templateArguments": [],
+            "function": "isLoggable",
+            "name": "java.util.logging.Logger#isLoggable(Level)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMaxBackoff",
+            "name": "io.opentelemetry.sdk.common.export.RetryPolicy#getMaxBackoff()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.export.RetryPolicy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(long,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "responseStringRepresentation",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor.responseStringRepresentation(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "proceed",
+            "name": "Chain#proceed(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInitialBackoff",
+            "name": "io.opentelemetry.sdk.common.export.RetryPolicy#getInitialBackoff()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.export.RetryPolicy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "interrupt",
+            "name": "Thread#interrupt()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMaxAttempts",
+            "name": "io.opentelemetry.sdk.common.export.RetryPolicy#getMaxAttempts()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.export.RetryPolicy",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "Chain#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.function.Supplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Supplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "apply",
+            "name": "java.util.function.Function#apply(Response)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Function",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Compressor",
+                "RequestBody"
+            ],
+            "templateArguments": [],
+            "function": "CompressedRequestBody",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.CompressedRequestBody#CompressedRequestBody(Compressor,RequestBody)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.CompressedRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.CompressedRequestBody.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.CompressedRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["BufferedSink"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.CompressedRequestBody#writeTo(BufferedSink)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.CompressedRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "okio.BufferedSink#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.BufferedSink",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "sink",
+            "name": "okio.Okio.sink(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Okio",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "outputStream",
+            "name": "okio.BufferedSink#outputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.BufferedSink",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BufferedSink"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.RawRequestBody#writeTo(BufferedSink)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.RawRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BufferedSink"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "okhttp3.RequestBody#writeTo(BufferedSink)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.RequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BufferedSink"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.GrpcRequestBody#writeTo(BufferedSink)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "buffer",
+            "name": "okio.Okio.buffer(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Okio",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "compress",
+            "name": "io.opentelemetry.exporter.internal.compression.Compressor#compress(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.compression.Compressor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "contentType",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.GrpcRequestBody#contentType()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Marshaler",
+                "boolean",
+                "int",
+                "MediaType"
+            ],
+            "templateArguments": [],
+            "function": "RawRequestBody",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.RawRequestBody#RawRequestBody(Marshaler,boolean,int,MediaType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.RawRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.RawRequestBody.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.RawRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Marshaler",
+                "int",
+                "Consumer<Response>",
+                "Consumer<Throwable>"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender#send(Marshaler,int,Consumer,Consumer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "newCall",
+            "name": "client#newCall(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "client",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okhttp3.Request.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Request.Builder",
+            "name": "okhttp3.Request.Builder#Request.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEncoding",
+            "name": "io.opentelemetry.exporter.internal.compression.Compressor#getEncoding()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.compression.Compressor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "suppressInstrumentation",
+            "name": "io.opentelemetry.api.internal.InstrumentationUtil.suppressInstrumentation(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.internal.InstrumentationUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "requestBuilder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "requestBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "addHeader",
+            "name": "okhttp3.Request.Builder#addHeader(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Consumer<? super String>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.List#forEach(Consumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BiConsumer<? super String, ? super List<String>>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.Map#forEach(BiConsumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CompressedRequestBody"],
+            "templateArguments": [],
+            "function": "post",
+            "name": "okhttp3.Request.Builder#post(CompressedRequestBody)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpUrl"],
+            "templateArguments": [],
+            "function": "url",
+            "name": "okhttp3.Request#url(HttpUrl)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "addHeader",
+            "name": "okhttp3.Request.Builder#addHeader(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RequestBody"],
+            "templateArguments": [],
+            "function": "post",
+            "name": "okhttp3.Request.Builder#post(RequestBody)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Compressor",
+                "long",
+                "long",
+                "Supplier<Map<String, List<String>>>",
+                "RetryPolicy",
+                "SSLContext",
+                "X509TrustManager",
+                "ExecutorService"
+            ],
+            "templateArguments": [],
+            "function": "OkHttpGrpcSender",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender#OkHttpGrpcSender(String,Compressor,long,long,Supplier,RetryPolicy,SSLContext,X509TrustManager,ExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "protocols",
+            "name": "okhttp3.OkHttpClient.Builder#protocols(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<T>"],
+            "templateArguments": [],
+            "function": "protocols",
+            "name": "okhttp3.OkHttpClient.Builder#protocols(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "java.util.logging.Logger.getLogger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setPropagateContextForTestingInDispatcher",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpUtil.setPropagateContextForTestingInDispatcher(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpUtil.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpUtil",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["GrpcSenderConfig<T extends Marshaler>"],
+            "templateArguments": [],
+            "function": "createSender",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSenderProvider#createSender(GrpcSenderConfig)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSenderProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTimeoutNanos",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getTimeoutNanos()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRetryPolicy",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getRetryPolicy()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndpointPath",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getEndpointPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getConnectTimeoutNanos",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getConnectTimeoutNanos()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTrustManager",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getTrustManager()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCompressor",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getCompressor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getExecutorService",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getExecutorService()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeadersSupplier",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getHeadersSupplier()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSslContext",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getSslContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndpoint",
+            "name": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig#getEndpoint()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.grpc.GrpcSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "writeJsonTo",
+            "name": "io.opentelemetry.exporter.internal.marshal.Marshaler#writeJsonTo(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.marshal.Marshaler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "writeBinaryTo",
+            "name": "io.opentelemetry.exporter.internal.marshal.Marshaler#writeBinaryTo(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.marshal.Marshaler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "grpcMessage",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.grpcMessage(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "trailers",
+            "name": "okhttp3.Response#trailers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "message",
+            "name": "okhttp3.Response#message()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "unescape",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.unescape(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "contentType",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.CompressedRequestBody#contentType()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.CompressedRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "contentType",
+            "name": "okhttp3.RequestBody#contentType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.RequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "contentType",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.RawRequestBody#contentType()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender.RawRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.util.StringJoiner#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.StringJoiner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "join",
+            "name": "java.lang.String.join(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.StringJoiner#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.StringJoiner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "StringJoiner",
+            "name": "java.util.StringJoiner#StringJoiner(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.StringJoiner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "headers",
+            "name": "okhttp3.Response#headers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "okhttp3.Response#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T extends Marshaler",
+                "Consumer<GrpcResponse>",
+                "Consumer<Throwable>"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender#send(T extends Marshaler,Consumer,Consumer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Marshaler",
+                "Compressor"
+            ],
+            "templateArguments": [],
+            "function": "GrpcRequestBody",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.GrpcRequestBody#GrpcRequestBody(Marshaler,Compressor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcRequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "okhttp3.Request.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "grpcStatus",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.grpcStatus(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "shouldRetryOnException",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor#shouldRetryOnException(IOException)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.RetryInterceptor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RetryInterceptor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ThreadPoolExecutor"],
+            "templateArguments": [],
+            "function": "Dispatcher",
+            "name": "okhttp3.Dispatcher#Dispatcher(ThreadPoolExecutor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Dispatcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "DaemonThreadFactory",
+            "name": "io.opentelemetry.sdk.internal.DaemonThreadFactory#DaemonThreadFactory(String,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.internal.DaemonThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.SynchronousQueue.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.SynchronousQueue",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SynchronousQueue",
+            "name": "java.util.concurrent.SynchronousQueue#SynchronousQueue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.SynchronousQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int",
+                "TimeUnit",
+                "SynchronousQueue",
+                "DaemonThreadFactory"
+            ],
+            "templateArguments": [],
+            "function": "ThreadPoolExecutor",
+            "name": "java.util.concurrent.ThreadPoolExecutor#ThreadPoolExecutor(int,int,int,TimeUnit,SynchronousQueue,DaemonThreadFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OkHttpUtil",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpUtil#OkHttpUtil()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpUtil.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpUtil",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["HttpSenderConfig"],
+            "templateArguments": [],
+            "function": "createSender",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSenderProvider#createSender(HttpSenderConfig)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSenderProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getConnectTimeoutNanos",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getConnectTimeoutNanos()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getContentType",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getContentType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSslContext",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getSslContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getExecutorService",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getExecutorService()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getExportAsJson",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getExportAsJson()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRetryPolicy",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getRetryPolicy()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndpoint",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getEndpoint()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeadersSupplier",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getHeadersSupplier()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProxyOptions",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getProxyOptions()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTrustManager",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getTrustManager()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTimeoutNanos",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getTimeoutNanos()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCompressor",
+            "name": "io.opentelemetry.exporter.internal.http.HttpSenderConfig#getCompressor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.http.HttpSenderConfig",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "writeInt",
+            "name": "okio.BufferedSink#writeInt(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.BufferedSink",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Buffer",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "okio.BufferedSink#write(Buffer,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.BufferedSink",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "writeByte",
+            "name": "okio.BufferedSink#writeByte(byte)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.BufferedSink",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Buffer",
+            "name": "okio.Buffer#Buffer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okio.Buffer.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "outputStream",
+            "name": "okio.Buffer#outputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "okio.Buffer#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "doUnescape",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender.doUnescape(byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "array",
+            "name": "java.nio.ByteBuffer#array()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "Object",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(byte[],int,Object,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(byte[],int,int,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.nio.ByteBuffer#put(byte)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "allocate",
+            "name": "java.nio.ByteBuffer.allocate(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender#shutdown()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ofSuccess",
+            "name": "io.opentelemetry.sdk.common.CompletableResultCode.ofSuccess()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.CompletableResultCode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "dispatcher",
+            "name": "okhttp3.OkHttpClient#dispatcher()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "connectionPool",
+            "name": "okhttp3.OkHttpClient#connectionPool()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender#shutdown()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpGrpcSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBinarySerializedSize",
+            "name": "io.opentelemetry.exporter.internal.marshal.Marshaler#getBinarySerializedSize()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.marshal.Marshaler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.GrpcRequestBody.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcRequestBody",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "io.opentelemetry.exporter.sender.okhttp.internal.OkHttpHttpSender.isRetryable(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OkHttpHttpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "Response#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "retryableHttpResponseCodes",
+            "name": "io.opentelemetry.exporter.internal.RetryUtil.retryableHttpResponseCodes()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.exporter.internal.RetryUtil",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 52,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 50,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 52,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 48,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 231,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 227,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 223,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 74,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 106,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 96,
+                "column": 30,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 92,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 107,
+                "column": 16,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 110,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 56,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 72,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 78,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 101,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 81,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 72,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 89,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 74,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 96,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 103,
+                "column": 32,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 88,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 92,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 103,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 74,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 101,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 72,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 31,
+                "column": 52,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 30,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 113,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 91,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 118,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 82,
+                "column": 58,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 86,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 119,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 80,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 80,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 107,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 96,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 100,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 86,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 99,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 133,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 96,
+                "column": 34,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 120,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 81,
+                "column": 37,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 98,
+                "column": 51,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 31,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 229,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 249,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 247,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 247,
+                "column": 53,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 248,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 248,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 248,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 248,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 247,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 247,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 53,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 52,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 62,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 197,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 137,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 130,
+                "column": 27,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 120,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 120,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 129,
+                "column": 52,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 135,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 122,
+                "column": 41,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 138,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 129,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 125,
+                "column": 28,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 124,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 127,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 130,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 120,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 125,
+                "column": 52,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 132,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 65,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 96,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 90,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 126,
+                "column": 16,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 92,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 118,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 124,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 106,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 107,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 110,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 120,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 116,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 90,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 116,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 115,
+                "column": 37,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 92,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 90,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 77,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 118,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 92,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 99,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 115,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 109,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 120,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 79,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 35,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 44,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 35,
+                "column": 57,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 44,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 24,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 26,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 24,
+                "column": 48,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 27,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 23,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 25,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 32,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 28,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 30,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSenderProvider.java",
+                "line": 24,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 88,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 218,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 57,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 218,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 57,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 220,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 57,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 220,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 57,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 201,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 101,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 198,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 101,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 210,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 101,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 197,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 101,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 207,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 101,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 236,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 105,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 236,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 236,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 105,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 236,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 105,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 149,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 147,
+                "column": 71,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 147,
+                "column": 54,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 144,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 143,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 142,
+                "column": 27,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 147,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 146,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 143,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 40,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 132,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 137,
+                "column": 52,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 144,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 143,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 141,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 137,
+                "column": 28,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 146,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 139,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 132,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 132,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 141,
+                "column": 49,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 136,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 149,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 148,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 134,
+                "column": 41,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 116,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 182,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 119,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 188,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 119,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 185,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 119,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 154,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 120,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "RetryInterceptor.java",
+                "line": 55,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 2,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 31,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 20,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 38,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 20,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 29,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 20,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 37,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 20,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 37,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 20,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 32,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 20,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpUtil.java",
+                "line": 41,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 127,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 28,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 26,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 32,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 34,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 25,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 23,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 30,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 27,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 24,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSenderProvider.java",
+                "line": 22,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 129,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 68,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 67,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 73,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 72,
+                "column": 35,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 77,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 70,
+                "column": 36,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 70,
+                "column": 36,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 72,
+                "column": 55,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 72,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 66,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 76,
+                "column": 37,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 73,
+                "column": 35,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 72,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 63,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 59,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 241,
+                "column": 16,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 104,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 262,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 262,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 252,
+                "column": 43,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 262,
+                "column": 39,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 259,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 252,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 248,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 149,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 183,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 180,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 156,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 178,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 156,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 182,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 156,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 220,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 160,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 217,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 160,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 215,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 160,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpGrpcSender.java",
+                "line": 219,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 160,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 43,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 117,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 117,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "GrpcRequestBody.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 117,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 187,
+                "column": 60,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "OkHttpHttpSender.java",
+                "line": 187,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/exporter/sender/okhttp/internal"
+            },
+            "caller": 163,
+            "callee": 165
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.opentelemetry.exporter.sender.okhttp.internal",
+        "isRoot": false,
+        "module": -1,
+        "name": "internal",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
