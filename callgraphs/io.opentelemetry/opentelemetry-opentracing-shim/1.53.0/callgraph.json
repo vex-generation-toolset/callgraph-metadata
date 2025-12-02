@@ -1,0 +1,4912 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "Tracer",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "SpanBuilderShim",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#SpanBuilderShim(Tracer,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Number"
+            ],
+            "templateArguments": [],
+            "function": "setTag",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#setTag(String,Number)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "io.opentracing.Span#setAttribute(String,double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "io.opentracing.Span#setAttribute(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "io.opentracing.Span#setAttribute(String,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#log(long,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "addEvent",
+            "name": "io.opentracing.Span#addEvent(String,long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setTag",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#setTag(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StatusCode"],
+            "templateArguments": [],
+            "function": "setStatus",
+            "name": "io.opentracing.Span#setStatus(StatusCode)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "io.opentracing.Span#setAttribute(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setBaggageItem",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#setBaggageItem(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "newWithKeyValue",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#newWithKeyValue(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#log(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "addEvent",
+            "name": "io.opentracing.Span#addEvent(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.TracerShim.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "java.util.logging.Logger.getLogger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TextMapGetter",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapGetter#TextMapGetter()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapGetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapGetter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapGetter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TracerProvider"],
+            "templateArguments": [],
+            "function": "maybeUnobfuscate",
+            "name": "io.opentelemetry.opentracingshim.TracerShim.maybeUnobfuscate(TracerProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "compareAndSet",
+            "name": "java.util.concurrent.atomic.AtomicBoolean#compareAndSet(boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicBoolean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.io.Closeable#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Closeable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.ShimUtil.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ShimUtil",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "SpanShim",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#SpanShim(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "io.opentelemetry.api.baggage.Baggage.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Span",
+                "Baggage"
+            ],
+            "templateArguments": [],
+            "function": "SpanShim",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#SpanShim(Span,Baggage)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, ?>"],
+            "templateArguments": [],
+            "function": "getEventNameFromFields",
+            "name": "io.opentelemetry.opentracingshim.SpanShim.getEventNameFromFields(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.SpanShim.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.Object#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#inject(SpanContext,Format,C)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContextShim",
+                "Format<C>",
+                "TextMapInject"
+            ],
+            "templateArguments": [],
+            "function": "injectTextMap",
+            "name": "io.opentelemetry.opentracingshim.Propagation#injectTextMap(SpanContextShim,Format,TextMapInject)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SpanContext"],
+            "templateArguments": [],
+            "function": "getContextShim",
+            "name": "io.opentelemetry.opentracingshim.ShimUtil.getContextShim(SpanContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ShimUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TextMapPropagator",
+                "TextMapPropagator"
+            ],
+            "templateArguments": [],
+            "function": "Propagation",
+            "name": "io.opentelemetry.opentracingshim.Propagation#Propagation(TextMapPropagator,TextMapPropagator)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.Propagation.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activateSpan",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#activateSpan(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activate",
+            "name": "io.opentelemetry.opentracingshim.ScopeManagerShim#activate(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeManagerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activate",
+            "name": "io.opentracing.ScopeManager#activate(Span)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.ScopeManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.NoopSpanBuilderShim.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopSpanBuilderShim",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "noop",
+            "name": "io.opentelemetry.api.trace.TracerProvider.noop()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.TracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#activeSpan()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentelemetry.opentracingshim.ScopeManagerShim#activeSpan()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeManagerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentracing.ScopeManager#activeSpan()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.ScopeManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toSpanId",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#toSpanId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpanId",
+            "name": "io.opentracing.SpanContext#getSpanId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.SpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "Map<String, ?>"
+            ],
+            "templateArguments": [],
+            "function": "logInternal",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#logInternal(long,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Attributes"
+            ],
+            "templateArguments": [],
+            "function": "addEvent",
+            "name": "io.opentracing.Span#addEvent(String,Attributes)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Attributes",
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "addEvent",
+            "name": "io.opentracing.Span#addEvent(String,Attributes,long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Throwable",
+                "Attributes"
+            ],
+            "templateArguments": [],
+            "function": "recordException",
+            "name": "io.opentracing.Span#recordException(Throwable,Attributes)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, ?>"],
+            "templateArguments": [],
+            "function": "findThrowable",
+            "name": "io.opentelemetry.opentracingshim.SpanShim.findThrowable(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Map<String, ?>",
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "convertToAttributes",
+            "name": "io.opentelemetry.opentracingshim.SpanShim.convertToAttributes(Map,boolean,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TracerProvider",
+                "TextMapPropagator",
+                "TextMapPropagator"
+            ],
+            "templateArguments": [],
+            "function": "createTracerShim",
+            "name": "io.opentelemetry.opentracingshim.OpenTracingShim.createTracerShim(TracerProvider,TextMapPropagator,TextMapPropagator)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTracingShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TracerProvider",
+                "TextMapPropagator",
+                "TextMapPropagator"
+            ],
+            "templateArguments": [],
+            "function": "TracerShim",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#TracerShim(TracerProvider,TextMapPropagator,TextMapPropagator)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, ?>"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#log(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TextMapSetter",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapSetter#TextMapSetter()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapSetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapSetter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapSetter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.Propagation.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Map<String, String>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapGetter#get(Map,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapGetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "withTag",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#withTag(String,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "keys",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapGetter#keys(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapGetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tag<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "withTag",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#withTag(Tag,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "withTag",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#withTag(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "io.opentracing.tag.Tag#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.tag.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Number"
+            ],
+            "templateArguments": [],
+            "function": "withTag",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#withTag(String,Number)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "asChildOf",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#asChildOf(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SpanContext"
+            ],
+            "templateArguments": [],
+            "function": "addReference",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#addReference(String,SpanContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "getSpanShim",
+            "name": "io.opentelemetry.opentracingshim.ShimUtil.getSpanShim(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ShimUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "context",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#context()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Baggage"
+            ],
+            "templateArguments": [],
+            "function": "SpanContextShim",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#SpanContextShim(SpanContext,Baggage)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "AttributeKey<String>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "io.opentelemetry.api.common.Attributes.of(AttributeKey,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.Attributes",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "current",
+            "name": "io.opentelemetry.context.Context.current()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.ScopeManagerShim.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeManagerShim",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Scope"],
+            "templateArguments": [],
+            "function": "ScopeShim",
+            "name": "io.opentelemetry.opentracingshim.ScopeShim#ScopeShim(Scope)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.TracerShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.atomic.AtomicBoolean.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicBoolean",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "AtomicBoolean",
+            "name": "java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicBoolean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentelemetry.api.common.AttributesBuilder#put(Object,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.AttributesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AttributeKey<String>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentelemetry.api.common.AttributesBuilder#put(AttributeKey,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.AttributesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentelemetry.api.common.AttributesBuilder#put(Object,double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.AttributesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "io.opentelemetry.api.common.Attributes.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.Attributes",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentelemetry.api.common.AttributesBuilder#put(Object,Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.AttributesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "io.opentelemetry.api.common.AttributesBuilder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.AttributesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ScopeManagerShim",
+            "name": "io.opentelemetry.opentracingshim.ScopeManagerShim#ScopeManagerShim()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeManagerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.ScopeManagerShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeManagerShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getBaggageItem",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#getBaggageItem(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getBaggageItem",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#getBaggageItem(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OpenTracingShim",
+            "name": "io.opentelemetry.opentracingshim.OpenTracingShim#OpenTracingShim()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTracingShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.OpenTracingShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTracingShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentelemetry.opentracingshim.ScopeShim#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentracing.Scope#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Scope",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "extract",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#extract(Format,C)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.RuntimeException#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String,String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Format<C>",
+                "TextMapExtract"
+            ],
+            "templateArguments": [],
+            "function": "extractTextMap",
+            "name": "io.opentelemetry.opentracingshim.Propagation#extractTextMap(Format,TextMapExtract)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.lang.RuntimeException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.ScopeShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ScopeShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toTraceId",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#toTraceId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTraceId",
+            "name": "io.opentracing.SpanContext#getTraceId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.SpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NoopSpanBuilderShim",
+            "name": "io.opentelemetry.opentracingshim.NoopSpanBuilderShim#NoopSpanBuilderShim(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopSpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.NoopSpanBuilderShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopSpanBuilderShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["List<SpanParentInfo>"],
+            "templateArguments": [],
+            "function": "getAllBaggage",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim.getAllBaggage(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "key",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "builder#put(key,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "io.opentelemetry.api.baggage.Baggage.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "io.opentelemetry.api.baggage.Baggage#forEach(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "io.opentelemetry.opentracingshim.NoopSpanBuilderShim#start()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopSpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "spanBuilder",
+            "name": "io.opentelemetry.api.trace.Tracer#spanBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TracerProvider"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.lang.reflect.Field#get(TracerProvider)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Field",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "io.opentelemetry.api.trace.TracerProvider#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.TracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setAccessible",
+            "name": "java.lang.reflect.Field#setAccessible(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.reflect.Field",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String",
+                "ReflectiveOperationException"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String,ReflectiveOperationException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpanContext",
+            "name": "io.opentracing.Span#getSpanContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.SpanShim.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.Object.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Object",
+            "name": "java.lang.Object#Object()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "io.opentelemetry.api.baggage.Baggage#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Format<C>"],
+            "templateArguments": [],
+            "function": "getPropagator",
+            "name": "io.opentelemetry.opentracingshim.Propagation#getPropagator(Format)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Context"],
+            "templateArguments": [],
+            "function": "fromContext",
+            "name": "io.opentelemetry.api.trace.Span.fromContext(Context)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpanContext",
+            "name": "io.opentelemetry.api.trace.Span#getSpanContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Context"],
+            "templateArguments": [],
+            "function": "fromContext",
+            "name": "io.opentelemetry.api.baggage.Baggage.fromContext(Context)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Map<String, String>",
+                "TextMapGetter"
+            ],
+            "templateArguments": [],
+            "function": "extract",
+            "name": "io.opentelemetry.context.propagation.TextMapPropagator#extract(Object,Map,TextMapGetter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.propagation.TextMapPropagator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Context"],
+            "templateArguments": [],
+            "function": "storeInContext",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#storeInContext(Context)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBaggage",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#getBaggage()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ContextKey<SpanShim>",
+                "SpanShim"
+            ],
+            "templateArguments": [],
+            "function": "with",
+            "name": "io.opentelemetry.context.Context#with(ContextKey,SpanShim)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "finish",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#finish(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "end",
+            "name": "io.opentracing.Span#end(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<SpanParentInfo>"],
+            "templateArguments": [],
+            "function": "getMainParent",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim.getMainParent(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim.ReferenceType.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim.ReferenceType",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "current",
+            "name": "io.opentelemetry.opentracingshim.SpanShim.current()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tag<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "setTag",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#setTag(Tag,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanShim",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "io.opentracing.tag.Tag#set(SpanShim,T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.tag.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getEntryValue",
+            "name": "io.opentelemetry.api.baggage.Baggage#getEntryValue(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OpenTelemetry"],
+            "templateArguments": [],
+            "function": "createTracerShim",
+            "name": "io.opentelemetry.opentracingshim.OpenTracingShim.createTracerShim(OpenTelemetry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTracingShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTracerProvider",
+            "name": "io.opentelemetry.api.OpenTelemetry#getTracerProvider()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.OpenTelemetry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPropagators",
+            "name": "io.opentelemetry.api.OpenTelemetry#getPropagators()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.OpenTelemetry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "setTag",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#setTag(String,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "io.opentracing.Span#setAttribute(String,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<SpanParentInfo>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Baggage",
+                "ReferenceType"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim.SpanParentInfo.create(SpanContext,Baggage,ReferenceType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim.SpanParentInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpanContext",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#getSpanContext()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SpanParentInfo"],
+            "templateArguments": [],
+            "function": "singletonList",
+            "name": "java.util.Collections.singletonList(SpanParentInfo)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SpanParentInfo"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(SpanParentInfo)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "Map<String, ?>"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#log(long,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Baggage"],
+            "templateArguments": [],
+            "function": "with",
+            "name": "io.opentelemetry.context.Context#with(Baggage)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Context",
+                "TextMapInject",
+                "TextMapSetter"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "io.opentelemetry.context.propagation.TextMapPropagator#inject(Context,TextMapInject,TextMapSetter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.propagation.TextMapPropagator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SpanContext"],
+            "templateArguments": [],
+            "function": "wrap",
+            "name": "io.opentelemetry.api.trace.Span.wrap(SpanContext)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SpanContext"],
+            "templateArguments": [],
+            "function": "asChildOf",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#asChildOf(SpanContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentelemetry.api.baggage.BaggageBuilder#put(String,String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.BaggageBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "io.opentelemetry.api.baggage.BaggageEntryMetadata.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.BaggageEntryMetadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "io.opentelemetry.api.baggage.Baggage#toBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "io.opentelemetry.api.baggage.BaggageBuilder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.BaggageBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "className",
+            "name": "io.opentelemetry.opentracingshim.ShimUtil.className(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ShimUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "named",
+            "name": "io.opentelemetry.context.ContextKey.named(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.ContextKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "stringKey",
+            "name": "io.opentelemetry.api.common.AttributeKey.stringKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.common.AttributeKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TextMapInject",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "io.opentelemetry.opentracingshim.Propagation.TextMapSetter#set(TextMapInject,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Propagation.TextMapSetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.opentracing.propagation.TextMapInject#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.propagation.TextMapInject",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setOperationName",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#setOperationName(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "updateName",
+            "name": "io.opentracing.Span#updateName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "buildSpan",
+            "name": "io.opentelemetry.opentracingshim.TracerShim#buildSpan(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TracerShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.concurrent.atomic.AtomicBoolean#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicBoolean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.function.Supplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Supplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Baggage",
+                "ReferenceType"
+            ],
+            "templateArguments": [],
+            "function": "AutoValue_SpanBuilderShim_SpanParentInfo",
+            "name": "AutoValue_SpanBuilderShim_SpanParentInfo#AutoValue_SpanBuilderShim_SpanParentInfo(SpanContext,Baggage,ReferenceType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "AutoValue_SpanBuilderShim_SpanParentInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBaggage",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#getBaggage()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "io.opentelemetry.opentracingshim.SpanBuilderShim#start()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanBuilderShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setStatus",
+            "name": "io.opentracing.Span#setStatus(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setParent",
+            "name": "io.opentracing.Tracer.SpanBuilder#setParent(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setNoParent",
+            "name": "io.opentracing.Tracer.SpanBuilder#setNoParent()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "setStartTimestamp",
+            "name": "io.opentracing.Tracer.SpanBuilder#setStartTimestamp(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "current",
+            "name": "io.opentelemetry.api.baggage.Baggage.current()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "startSpan",
+            "name": "io.opentracing.Tracer.SpanBuilder#startSpan()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AttributeKey",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "io.opentracing.Tracer.SpanBuilder#setAttribute(AttributeKey,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "root",
+            "name": "io.opentelemetry.context.Context.root()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Attributes"
+            ],
+            "templateArguments": [],
+            "function": "addLink",
+            "name": "io.opentracing.Tracer.SpanBuilder#addLink(SpanContext,Attributes)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer.SpanBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ShimUtil",
+            "name": "io.opentelemetry.opentracingshim.ShimUtil#ShimUtil()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ShimUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.opentracingshim.ShimUtil.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ShimUtil",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "finish",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#finish()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "end",
+            "name": "io.opentracing.Span#end()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "baggageItems",
+            "name": "io.opentelemetry.opentracingshim.SpanContextShim#baggageItems()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanContextShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "key",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "SimpleImmutableEntry",
+            "name": "java.util.AbstractMap.SimpleImmutableEntry#SimpleImmutableEntry(key,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.AbstractMap.SimpleImmutableEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "baggageEntry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "baggageEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AbstractMap.SimpleImmutableEntry<>"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "items#add(AbstractMap.SimpleImmutableEntry)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "items",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "io.opentelemetry.api.baggage.Baggage#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.baggage.Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "Baggage#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Baggage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpan",
+            "name": "io.opentelemetry.opentracingshim.SpanShim#getSpan()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpanShim",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentelemetry.api.trace.TracerProvider#get(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.trace.TracerProvider",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 59,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 125,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 127,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 123,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 162,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 93,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 95,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 174,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 53,
+                "column": 66,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 1,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 53,
+                "column": 66,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 1,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 54,
+                "column": 59,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 1,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 54,
+                "column": 59,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 1,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 50,
+                "column": 45,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 1,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 156,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 28,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 28,
+                "column": 57,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 18,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 125,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 121,
+                "column": 10,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 23,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 128,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 23,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 130,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 23,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 119,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 23,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 17,
+                "column": 57,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 28,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 17,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 28,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 55,
+                "column": 16,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 55,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 229,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 232,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 230,
+                "column": 49,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 80,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 36,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 95,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 87,
+                "column": 35,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 83,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 36,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 26,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 68,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 68,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "NoopSpanBuilderShim.java",
+                "line": 18,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 63,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 63,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 50,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 225,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 223,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 221,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 211,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 217,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 207,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 206,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 52,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "OpenTracingShim.java",
+                "line": 49,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 144,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 60,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 66,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 20,
+                "column": 56,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 63,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 21,
+                "column": 56,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 63,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 93,
+                "column": 46,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 94,
+                "column": 34,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 95,
+                "column": 18,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 64,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 137,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 136,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 68,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 84,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 171,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 173,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 171,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 175,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 173,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 177,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 175,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 177,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 66,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 77,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 68,
+                "column": 41,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 77,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 23,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 44,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 42,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 47,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 43,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 51,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 43,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 43,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 51,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 43,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 49,
+                "column": 28,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 43,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 49,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 43,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 34,
+                "column": 44,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 34,
+                "column": 44,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 88,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 255,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 279,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 244,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 257,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 242,
+                "column": 39,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 240,
+                "column": 43,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 259,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 283,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 243,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 238,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 279,
+                "column": 45,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 57,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 18,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 158,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 76,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 156,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 76,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 155,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 76,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 159,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 76,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 153,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 76,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 152,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 76,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 187,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 101,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "OpenTracingShim.java",
+                "line": 19,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "ScopeShim.java",
+                "line": 19,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "ScopeShim.java",
+                "line": 19,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 105,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 113,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 107,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 109,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 107,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 106,
+                "column": 16,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 107,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 99,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 107,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 113,
+                "column": 49,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 107,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "ScopeShim.java",
+                "line": 13,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 87,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 45,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "NoopSpanBuilderShim.java",
+                "line": 22,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 115,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 261,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 266,
+                "column": 51,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 264,
+                "column": 30,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 260,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 257,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 269,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 256,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 266,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 266,
+                "column": 68,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 117,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "NoopSpanBuilderShim.java",
+                "line": 73,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 125,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "NoopSpanBuilderShim.java",
+                "line": 73,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 125,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "NoopSpanBuilderShim.java",
+                "line": 71,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 125,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 125,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 74,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 124,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 74,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 135,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 24,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 142,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 24,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 140,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 24,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 136,
+                "column": 10,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 24,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 141,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 24,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 147,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 24,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 61,
+                "column": 28,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 31,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 61,
+                "column": 48,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 31,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 58,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 31,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 60,
+                "column": 32,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 31,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 60,
+                "column": 32,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 31,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 49,
+                "column": 45,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 45,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 47,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 53,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 42,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 49,
+                "column": 10,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 42,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 40,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 40,
+                "column": 38,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 48,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 42,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 53,
+                "column": 32,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 45,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 45,
+                "column": 53,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 110,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 79,
+                "column": 65,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 145,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 79,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 145,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 77,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 145,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 203,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 148,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 244,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 150,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 240,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 150,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 235,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 150,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 152,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 72,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 152,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 138,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 153,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 64,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 102,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "OpenTracingShim.java",
+                "line": 31,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "OpenTracingShim.java",
+                "line": 30,
+                "column": 36,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 156,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "OpenTracingShim.java",
+                "line": 31,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 156,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 105,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 159,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 107,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 159,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 104,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 100,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 107,
+                "column": 63,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 103,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 79,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 107,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 99,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 81,
+                "column": 35,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 107,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 101,
+                "column": 49,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 97,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 101,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 106,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 78,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 150,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 166,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 33,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 31,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 32,
+                "column": 56,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 33,
+                "column": 28,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 32,
+                "column": 46,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 32,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 37,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 76,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 170,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 12,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 30,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 12,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 32,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 12,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 29,
+                "column": 30,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 12,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 32,
+                "column": 41,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 12,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 65,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 175,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 65,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 175,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 48,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 33,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 40,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 33,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 42,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 33,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 38,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 33,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "Propagation.java",
+                "line": 71,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 180,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 192,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 182,
+            "callee": 183
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 21,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 38,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 31,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 38,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 28,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 38,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 77,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 185,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 73,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 185,
+            "callee": 186
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 74,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 185,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 52,
+                "column": 76,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 48,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 187
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 50,
+                "column": 18,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 52,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 57,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 57,
+                "column": 84,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 79,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 16,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 86,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 279,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 162,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 69,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 189,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 222,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 229,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 191
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 200,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 192
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 197,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 221,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 223,
+                "column": 22,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 232,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 201,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 194,
+                "column": 57,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 215,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 204,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 195
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 227,
+                "column": 44,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 224,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 197
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 193,
+                "column": 54,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 189,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 189,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 198,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 200,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "SpanBuilderShim.java",
+                "line": 209,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 190,
+            "callee": 199
+        },
+        {
+            "callSite": {
+                "filename": "ShimUtil.java",
+                "line": 19,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 200,
+            "callee": 201
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 198,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 202,
+            "callee": 203
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 204,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 58,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 204,
+            "callee": 205
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 55,
+                "column": 45,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 204,
+            "callee": 206
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 58,
+                "column": 67,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 204,
+            "callee": 207
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 58,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 204,
+            "callee": 208
+        },
+        {
+            "callSite": {
+                "filename": "SpanContextShim.java",
+                "line": 55,
+                "column": 61,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 204,
+            "callee": 209
+        },
+        {
+            "callSite": {
+                "filename": "SpanShim.java",
+                "line": 288,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 56,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 23,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 48,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 32,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 48,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 27,
+                "column": 10,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 48,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 28,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 48,
+            "callee": 210
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 41,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 48,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ScopeManagerShim.java",
+                "line": 36,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 48,
+            "callee": 211
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 59,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 42,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 59,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 41,
+                "column": 19,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 59,
+            "callee": 212
+        },
+        {
+            "callSite": {
+                "filename": "TracerShim.java",
+                "line": 43,
+                "column": 29,
+                "directory": "src/main/java/io/opentelemetry/opentracingshim"
+            },
+            "caller": 59,
+            "callee": 97
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.opentelemetry.opentracingshim",
+        "isRoot": false,
+        "module": -1,
+        "name": "opentracingshim",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
