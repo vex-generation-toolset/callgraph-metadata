@@ -1,0 +1,106 @@
+{
+  "cve": "CVE-2016-4434",
+  "package": "pkg:maven/org.apache.tika/tika-core@1.28.5",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4434"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2016-4434"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2016-4434"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4434"
+        },
+        "score": "6.8",
+        "severity": "medium",
+        "vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+        "method": "CVSS:2.0"
+      }
+    ],
+    "cwes": [
+      611
+    ],
+    "description": "Apache Tika before 1.13 does not properly initialize the XML parser or choose handlers, which might allow remote attackers to conduct XML External Entity (XXE) attacks via vectors involving (1) spreadsheets in OOXML files and (2) XMP metadata in PDF and other file formats, a related issue to CVE-2016-2175.",
+    "detail": "Apache Tika before 1.13 does not properly initialize the XML parser or choose handlers, which might allow remote attackers to conduct XML External Entity (XXE) attacks via vectors involving (1) spreadsheets in OOXML files and (2) XMP metadata in PDF and other file formats, a related issue to CVE-2016-2175.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4434"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2016-4434"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2016-4434"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "http://rhn.redhat.com/errata/RHSA-2017-0248.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://rhn.redhat.com/errata/RHSA-2017-0249.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://rhn.redhat.com/errata/RHSA-2017-0272.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.securityfocus.com/archive/1/538500/100/0/threaded"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.apache.org/thread.html/708d94141126eac03011144a971a6411fcac16d9c248d1d535a39451%40%3Csolr-user.lucene.apache.org%3E"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://mail-archives.apache.org/mod_mbox/tika-dev/201605.mbox/%3C1705136517.1175366.1464278135251.JavaMail.yahoo%40mail.yahoo.com%3E"
+      }
+    ],
+    "created": "2025-04-20T01:37:25.860Z",
+    "published": "2017-09-30T01:29:00.413Z",
+    "updated": "2025-04-20T01:37:25.860Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
