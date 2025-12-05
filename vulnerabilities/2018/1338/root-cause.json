@@ -1,0 +1,89 @@
+{
+  "cve": "CVE-2018-1338",
+  "package": "pkg:maven/org.apache.tika/tika-core@1.28.5",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1338"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2018-1338"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-1338"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1338"
+        },
+        "score": "4.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+        "method": "CVSS:2.0"
+      }
+    ],
+    "cwes": [
+      835
+    ],
+    "description": "A carefully crafted (or fuzzed) file can trigger an infinite loop in Apache Tika's BPGParser in versions of Apache Tika before 1.18.",
+    "detail": "A carefully crafted (or fuzzed) file can trigger an infinite loop in Apache Tika's BPGParser in versions of Apache Tika before 1.18.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1338"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2018-1338"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-1338"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Third Party Advisory"
+        ],
+        "url": "https://access.redhat.com/errata/RHSA-2018:2669"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.apache.org/thread.html/4d20c5748fb9f836653bc78a1bad991ba8485d82a1e821f70b641932%40%3Cdev.tika.apache.org%3E"
+      }
+    ],
+    "created": "2024-11-21T03:59:39.283Z",
+    "published": "2018-04-25T21:29:00.343Z",
+    "updated": "2024-11-21T03:59:39.283Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
