@@ -1,0 +1,124 @@
+{
+  "cve": "CVE-2025-54988",
+  "package": "pkg:maven/org.apache.tika/tika-parsers@1.28.5",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.tika.utils",
+      "version": "Before fix (vulnerable version)",
+      "commit": "https://github.com/apache/tika/commit/bfee6d5569fe9197c4ea947a96e212825184ca33",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2025-54988"
+      },
+      "methods": [
+        "org.apache.tika.utils.XMLReaderUtils.getXMLInputFactory"
+      ]
+    },
+    {
+      "package": "org.apache.tika.utils",
+      "version": "1.13 through 3.2.1",
+      "commit": "https://github.com/apache/tika/commit/94acef2854eed07f0ded357c13a659409495ca49",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2025-54988"
+      },
+      "methods": [
+        "org.apache.tika.utils.XMLReaderUtils.getXMLInputFactory"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54988"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-54988"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-54988"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54988"
+        },
+        "score": "8.4",
+        "severity": "high",
+        "vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      611
+    ],
+    "description": "Critical XXE in Apache Tika (tika-parser-pdf-module) in Apache Tika 1.13 through and including 3.2.1 on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. An attacker may be able to read sensitive data or trigger malicious requests to internal resources or third-party servers. Note that the tika-parser-pdf-module is used as a dependency in several Tika packages including at least: tika-parsers-standard-modules, tika-parsers-standard-package, tika-app, tika-grpc and tika-server-standard.\n\nUsers are recommended to upgrade to version 3.2.2, which fixes this issue.",
+    "detail": "Critical XXE in Apache Tika (tika-parser-pdf-module) in Apache Tika 1.13 through and including 3.2.1 on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. An attacker may be able to read sensitive data or trigger malicious requests to internal resources or third-party servers. Note that the tika-parser-pdf-module is used as a dependency in several Tika packages including at least: tika-parsers-standard-modules, tika-parsers-standard-package, tika-app, tika-grpc and tika-server-standard.\n\nUsers are recommended to upgrade to version 3.2.2, which fixes this issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54988"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-54988"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-54988"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Issue Tracking",
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/8xn3rqy6kz5b3l1t83kcofkw0w4mmj1w"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2025/08/20/2"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2025/08/20/3"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00030.html"
+      }
+    ],
+    "created": "2025-11-04T22:16:29.870Z",
+    "published": "2025-08-20T20:15:33.070Z",
+    "updated": "2025-11-04T22:16:29.870Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
