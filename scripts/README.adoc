@@ -1,0 +1,45 @@
+// SPDX-License-Identifier: Apache-2.0
+= Support scripts
+
+This directory contains small helper scripts used to manage and update repository metadata and to map Maven artifacts to their source repositories.
+
+== `location_resolver.py`
+
+Purpose::
+A Python utility that attempts to locate the source repository URL for a given Maven artifact by inspecting the artifact POM and its parent POMs using the `<scm>` fields.
+
+Usage::
+- Run directly to resolve a single artifact:
++
+[source,bash]
+----
+python location_resolver.py <groupId>:<artifactId>:<version>
+----
+- Output is a best-effort repository URL and tag template.
+
+Notes / limitations::
+- Many artifacts in Maven Central have outdated or non-public `scm/connection` values or incorrect `scm/tag` tags.
+- Subpaths in multi-module projects are **not** detected yet.
+- Results are heuristic and should be validated before use.
+
+== `run-workflows-for-sbom.sh`
+
+Purpose::
+A small Bash helper to trigger the repository's GitHub Actions workflows for a specific SBOM file.
+
+Usage::
+- Invoke with the SBOM path to enqueue workflow runs for that SBOM (used by maintainers after adding or updating SBOM files):
++
+[source,bash]
+----
+scripts/run-workflows-for-sbom.sh sboms/<sbom-file>.json
+----
+
+== `sbom_to_location.py`
+
+Purpose::
+A Python script that generates missing `location.json` files for Maven components found in a CycloneDX SBOM (JSON).
+
+Usage::
+- Reads a CycloneDX JSON SBOM, extracts Maven coordinates, and calls `location_resolver.py` to determine source repository URLs.
+- Produces `location.json` entries suitable for inclusion in the repository metadata.
