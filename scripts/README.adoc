@@ -43,3 +43,23 @@ A Python script that generates missing `location.json` files for Maven component
 Usage::
 - Reads a CycloneDX JSON SBOM, extracts Maven coordinates, and calls `location_resolver.py` to determine source repository URLs.
 - Produces `location.json` entries suitable for inclusion in the repository metadata.
+
+== `vex_generator_request.py`
+
+Purpose::
+A Python utility to create the `input.json` files required by the
+https://github.com/vex-generation-toolset/vex-generation-service[VEX Generation Service]
+for generating VEX documents.
+
+Usage::
++
+[source,bash]
+----
+scripts/vex_generator_request.py <sbom-path> <artifact> <cve-id>
+----
++
+where:
+
+* `<sbom-path>`: Path to the CycloneDX SBOM file (JSON format).
+* `<artifact>`: Maven coordinate of the artifact to analyze (format: `<groupId>:<artifactId>:<version>`).
+* `<cve-id>`: CVE identifier for the VEX generation request.
