@@ -1,0 +1,1856 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["BigDecimal"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(BigDecimal)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigDecimal"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(BigDecimal)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextToken",
+            "name": "com.google.api.client.json.gson.GsonParser#nextToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextNull",
+            "name": "com.google.gson.stream.JsonReader#nextNull()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.List#remove(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "endArray",
+            "name": "com.google.gson.stream.JsonReader#endArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "beginObject",
+            "name": "com.google.gson.stream.JsonReader#beginObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextBoolean",
+            "name": "com.google.gson.stream.JsonReader#nextBoolean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "endObject",
+            "name": "com.google.gson.stream.JsonReader#endObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextName",
+            "name": "com.google.gson.stream.JsonReader#nextName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "java.util.List#set(int,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextString",
+            "name": "com.google.gson.stream.JsonReader#nextString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "peek",
+            "name": "com.google.gson.stream.JsonReader#peek()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "beginArray",
+            "name": "com.google.gson.stream.JsonReader#beginArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "skipChildren",
+            "name": "com.google.api.client.json.gson.GsonParser#skipChildren()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "skipValue",
+            "name": "com.google.gson.stream.JsonReader#skipValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "createJsonGenerator",
+            "name": "com.google.api.client.json.gson.GsonFactory#createJsonGenerator(OutputStream,Charset)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "OutputStreamWriter",
+            "name": "java.io.OutputStreamWriter#OutputStreamWriter(OutputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Writer"],
+            "templateArguments": [],
+            "function": "createJsonGenerator",
+            "name": "com.google.api.client.json.gson.GsonFactory#createJsonGenerator(Writer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeFieldName",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeFieldName(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "name",
+            "name": "com.google.gson.stream.JsonWriter#name(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "GsonFactory",
+                "JsonReader"
+            ],
+            "templateArguments": [],
+            "function": "GsonParser",
+            "name": "com.google.api.client.json.gson.GsonParser#GsonParser(GsonFactory,JsonReader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getReadLeniency",
+            "name": "com.google.api.client.json.gson.GsonFactory#getReadLeniency()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setLenient",
+            "name": "com.google.gson.stream.JsonReader#setLenient(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.gson.GsonParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndObject",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeEndObject()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "endObject",
+            "name": "com.google.gson.stream.JsonWriter#endObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartArray",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeStartArray()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "beginArray",
+            "name": "com.google.gson.stream.JsonWriter#beginArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "com.google.api.client.json.gson.GsonFactory.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "com.google.api.client.json.gson.GsonFactory.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "writeBoolean",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeBoolean(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLongValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getLongValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "checkNumber",
+            "name": "com.google.api.client.json.gson.GsonParser#checkNumber()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIntValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getIntValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Writer"],
+            "templateArguments": [],
+            "function": "JsonWriter",
+            "name": "com.google.gson.stream.JsonWriter#JsonWriter(Writer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "GsonFactory",
+                "JsonWriter"
+            ],
+            "templateArguments": [],
+            "function": "GsonGenerator",
+            "name": "com.google.api.client.json.gson.GsonGenerator#GsonGenerator(GsonFactory,JsonWriter)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeString",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.gson.GsonFactory#createJsonParser(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.gson.GsonFactory#createJsonParser(Reader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "InputStreamReader",
+            "name": "java.io.InputStreamReader#InputStreamReader(InputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStreamReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "JsonReader",
+            "name": "com.google.gson.stream.JsonReader#JsonReader(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.gson.GsonFactory#createJsonParser(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringReader",
+            "name": "java.io.StringReader#StringReader(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.StringReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.api.client.json.gson.GsonParser#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.gson.stream.JsonReader#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "enablePrettyPrint",
+            "name": "com.google.api.client.json.gson.GsonGenerator#enablePrettyPrint()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setIndent",
+            "name": "com.google.gson.stream.JsonWriter#setIndent(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.gson.GsonGenerator.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setLenient",
+            "name": "com.google.gson.stream.JsonWriter#setLenient(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.google.api.client.json.gson.GsonGenerator#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.google.gson.stream.JsonWriter#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartObject",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeStartObject()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "beginObject",
+            "name": "com.google.gson.stream.JsonWriter#beginObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigInteger"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(BigInteger)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigInteger"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(BigInteger)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDoubleValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getDoubleValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.gson.GsonFactory.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDecimalValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getDecimalValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "BigDecimal",
+            "name": "java.math.BigDecimal#BigDecimal(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.math.BigDecimal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.json.gson.GsonFactory.InstanceHolder.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory.InstanceHolder",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "GsonFactory",
+            "name": "com.google.api.client.json.gson.GsonFactory#GsonFactory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator.StringNumber#StringNumber(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator.StringNumber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringNumber"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(StringNumber)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFloatValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getFloatValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.api.client.json.gson.GsonFactory.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "GsonFactory",
+            "name": "com.google.api.client.json.gson.GsonFactory#GsonFactory(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.gson.GsonFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBigIntegerValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getBigIntegerValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "BigInteger",
+            "name": "java.math.BigInteger#BigInteger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.math.BigInteger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getByteValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getByteValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultInstance",
+            "name": "com.google.api.client.json.gson.GsonFactory.getDefaultInstance()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getShortValue",
+            "name": "com.google.api.client.json.gson.GsonParser#getShortValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndArray",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeEndArray()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "endArray",
+            "name": "com.google.gson.stream.JsonWriter#endArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeNull",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNull()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nullValue",
+            "name": "com.google.gson.stream.JsonWriter#nullValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.gson.GsonGenerator.StringNumber.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator.StringNumber",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.gson.GsonFactory#createJsonParser(InputStream,Charset)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.api.client.json.gson.GsonGenerator#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.gson.stream.JsonWriter#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentName",
+            "name": "com.google.api.client.json.gson.GsonParser#getCurrentName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["float"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.gson.GsonGenerator#writeNumber(float)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["float"],
+            "templateArguments": [],
+            "function": "value",
+            "name": "com.google.gson.stream.JsonWriter#value(float)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.gson.stream.JsonWriter",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 110,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 186,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 161,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 135,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 162,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 138,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 175,
+                "column": 13,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 172,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 171,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 200,
+                "column": 23,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 161,
+                "column": 33,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 202,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 139,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 189,
+                "column": 23,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 202,
+                "column": 30,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 171,
+                "column": 33,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 149,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 193,
+                "column": 23,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 134,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 2,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 221,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 216,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 90,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 97,
+                "column": 32,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 97,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 20,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 75,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 46,
+                "column": 23,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 25,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 70,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 160,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 39,
+                "column": 43,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 28,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 39,
+                "column": 43,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 28,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 100,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 112,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 60,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 85,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 41,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 113,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 83,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 45,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 102,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 22,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 102,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 22,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 170,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 92,
+                "column": 33,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 51,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 92,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 51,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 87,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 54,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 87,
+                "column": 29,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 51,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 175,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 47,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 47,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 165,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 95,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 107,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 68,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 117,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 38,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 120,
+                "column": 13,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 44,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 101,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 71,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 102,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 61,
+                "column": 41,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 155,
+                "column": 18,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 155,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 75,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 89,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 78,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 133,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 64,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 74,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 95,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 82,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 96,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 82,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 84,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 85,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 77,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 86,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 65,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 123,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 76,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 82,
+                "column": 29,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 92,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 80,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 92,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 82,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 92,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 50,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 56,
+                "column": 48,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 95,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 56,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 95,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "GsonParser.java",
+                "line": 56,
+                "column": 69,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 95,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GsonGenerator.java",
+                "line": 105,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "GsonFactory.java",
+                "line": 68,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/gson"
+            },
+            "caller": 80,
+            "callee": 81
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.google.api.client.json.gson",
+        "isRoot": false,
+        "module": -1,
+        "name": "gson",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
