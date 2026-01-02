@@ -1,0 +1,950 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "fromThrowable",
+            "name": "io.grpc.protobuf.StatusProto.fromThrowable(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTrailers",
+            "name": "io.grpc.StatusException#getTrailers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.StatusException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatus",
+            "name": "io.grpc.StatusException#getStatus()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.StatusException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTrailers",
+            "name": "io.grpc.StatusRuntimeException#getTrailers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.StatusRuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Status",
+                "Metadata"
+            ],
+            "templateArguments": [],
+            "function": "fromStatusAndTrailers",
+            "name": "io.grpc.protobuf.StatusProto.fromStatusAndTrailers(Status,Metadata)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatus",
+            "name": "io.grpc.StatusRuntimeException#getStatus()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.StatusRuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCause",
+            "name": "java.lang.Throwable#getCause()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Status"],
+            "templateArguments": [],
+            "function": "toStatus",
+            "name": "io.grpc.protobuf.StatusProto.toStatus(Status)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "io.grpc.Status#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "withDescription",
+            "name": "io.grpc.Status#withDescription(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "fromCodeValue",
+            "name": "io.grpc.Status.fromCodeValue(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCode",
+            "name": "io.grpc.Status#getCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Status",
+                "Metadata"
+            ],
+            "templateArguments": [],
+            "function": "toStatusException",
+            "name": "io.grpc.protobuf.StatusProto.toStatusException(Status,Metadata)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Metadata"],
+            "templateArguments": [],
+            "function": "asException",
+            "name": "io.grpc.Status#asException(Metadata)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Status",
+                "Metadata"
+            ],
+            "templateArguments": [],
+            "function": "toMetadata",
+            "name": "io.grpc.protobuf.StatusProto.toMetadata(Status,Metadata)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Status",
+                "Metadata"
+            ],
+            "templateArguments": [],
+            "function": "toStatusRuntimeException",
+            "name": "io.grpc.protobuf.StatusProto.toStatusRuntimeException(Status,Metadata)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Metadata"],
+            "templateArguments": [],
+            "function": "asRuntimeException",
+            "name": "io.grpc.Status#asRuntimeException(Metadata)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Status"],
+            "templateArguments": [],
+            "function": "toStatusRuntimeException",
+            "name": "io.grpc.protobuf.StatusProto.toStatusRuntimeException(Status)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Status"],
+            "templateArguments": [],
+            "function": "toMetadata",
+            "name": "io.grpc.protobuf.StatusProto.toMetadata(Status)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Status"],
+            "templateArguments": [],
+            "function": "toStatusException",
+            "name": "io.grpc.protobuf.StatusProto.toStatusException(Status)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "io.grpc.Status.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setMessage",
+            "name": "io.grpc.Status.Builder#setMessage(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDescription",
+            "name": "io.grpc.Status#getDescription()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["STATUS_DETAILS_KEY"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.grpc.Metadata#get(STATUS_DETAILS_KEY)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExtensionRegistry"],
+            "templateArguments": [],
+            "function": "setExtensionRegistry",
+            "name": "io.grpc.protobuf.ProtoUtils.setExtensionRegistry(ExtensionRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExtensionRegistry"],
+            "templateArguments": [],
+            "function": "setExtensionRegistry",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.setExtensionRegistry(ExtensionRegistry)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.protobuf.lite.ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends Message"],
+            "templateArguments": [],
+            "function": "marshaller",
+            "name": "io.grpc.protobuf.ProtoUtils.marshaller(T extends Message)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends Message"],
+            "templateArguments": [],
+            "function": "marshaller",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.marshaller(T extends Message)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.protobuf.lite.ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "STATUS_DETAILS_KEY",
+                "Status"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "io.grpc.Metadata#put(STATUS_DETAILS_KEY,Status)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["STATUS_DETAILS_KEY"],
+            "templateArguments": [],
+            "function": "discardAll",
+            "name": "io.grpc.Metadata#discardAll(STATUS_DETAILS_KEY)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends Message"],
+            "templateArguments": [],
+            "function": "keyForProto",
+            "name": "io.grpc.protobuf.ProtoUtils.keyForProto(T extends Message)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends Message"],
+            "templateArguments": [],
+            "function": "metadataMarshaller",
+            "name": "io.grpc.protobuf.ProtoUtils.metadataMarshaller(T extends Message)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends Message"],
+            "templateArguments": [],
+            "function": "metadataMarshaller",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.metadataMarshaller(T extends Message)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.protobuf.lite.ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StatusProto",
+            "name": "io.grpc.protobuf.StatusProto#StatusProto()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.protobuf.StatusProto.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.Metadata.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Metadata",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Metadata",
+            "name": "io.grpc.Metadata#Metadata()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T extends Message",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "marshallerWithRecursionLimit",
+            "name": "io.grpc.protobuf.ProtoUtils.marshallerWithRecursionLimit(T extends Message,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T extends Message",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "marshallerWithRecursionLimit",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.marshallerWithRecursionLimit(T extends Message,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.protobuf.lite.ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ProtoUtils",
+            "name": "io.grpc.protobuf.ProtoUtils#ProtoUtils()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.protobuf.ProtoUtils.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoUtils",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Status",
+                "Metadata",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "toStatusException",
+            "name": "io.grpc.protobuf.StatusProto.toStatusException(Status,Metadata,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "StatusProto",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "withCause",
+            "name": "io.grpc.Status#withCause(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.Status",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 158,
+                "column": 53,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 158,
+                "column": 38,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 161,
+                "column": 53,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 158,
+                "column": 16,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 161,
+                "column": 38,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 161,
+                "column": 16,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 163,
+                "column": 15,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 0,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 128,
+                "column": 35,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 128,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 126,
+                "column": 21,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 7,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 127,
+                "column": 47,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 127,
+                "column": 19,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 126,
+                "column": 42,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 7,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 103,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 12,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 103,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 103,
+                "column": 46,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 70,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 70,
+                "column": 53,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 15,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 70,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 15,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 52,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 17,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 52,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 17,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 52,
+                "column": 53,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 85,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 19,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 85,
+                "column": 46,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 19,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 85,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 19,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 183,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 194,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 192,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 191,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 192,
+                "column": 32,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 183,
+                "column": 41,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 190,
+                "column": 18,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 180,
+                "column": 43,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 4,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ProtoUtils.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ProtoUtils.java",
+                "line": 56,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 140,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 14,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 139,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 14,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ProtoUtils.java",
+                "line": 80,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ProtoUtils.java",
+                "line": 89,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 133,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 18,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 132,
+                "column": 25,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 18,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 132,
+                "column": 25,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 18,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ProtoUtils.java",
+                "line": 69,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ProtoUtils.java",
+                "line": 92,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 122,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 41,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 122,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 41,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "StatusProto.java",
+                "line": 122,
+                "column": 63,
+                "directory": "src/main/java/io/grpc/protobuf"
+            },
+            "caller": 41,
+            "callee": 14
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.grpc.protobuf",
+        "isRoot": false,
+        "module": -1,
+        "name": "protobuf",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
