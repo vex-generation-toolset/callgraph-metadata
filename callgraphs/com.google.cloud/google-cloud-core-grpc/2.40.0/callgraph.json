@@ -1,0 +1,2018 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["ServiceOptions<?, ?>"],
+            "templateArguments": [],
+            "function": "setUpCredentialsProvider",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.setUpCredentialsProvider(ServiceOptions)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.google.api.gax.core.NoCredentialsProvider.create()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.core.NoCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "com.google.cloud.NoCredentials.getInstance()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.NoCredentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Credentials"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.google.api.gax.core.FixedCredentialsProvider.create(Credentials)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.core.FixedCredentialsProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getScopedCredentials",
+            "name": "com.google.cloud.ServiceOptions#getScopedCredentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IOException",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "makeExceptionData",
+            "name": "com.google.cloud.grpc.BaseGrpcServiceException.makeExceptionData(IOException,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseGrpcServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.io.IOException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Boolean",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "firstNonNull",
+            "name": "com.google.common.base.MoreObjects.firstNonNull(Boolean,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.MoreObjects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.cloud.BaseServiceException.isRetryable(boolean,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "ExceptionData#newBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "null",
+                "boolean",
+                "Set<T>"
+            ],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.cloud.BaseServiceException.isRetryable(int,null,boolean,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptySet",
+            "name": "java.util.Collections.emptySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatusCode",
+            "name": "com.google.api.client.http.HttpResponseException#getStatusCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpResponseException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GrpcTransportOptions"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.Builder#Builder(GrpcTransportOptions)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IdentityHashMap",
+            "name": "java.util.IdentityHashMap#IdentityHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.IdentityHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.IdentityHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.IdentityHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "IOException",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "BaseGrpcServiceException",
+            "name": "com.google.cloud.grpc.BaseGrpcServiceException#BaseGrpcServiceException(IOException,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseGrpcServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.BaseGrpcServiceException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseGrpcServiceException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ExceptionData"],
+            "templateArguments": [],
+            "function": "BaseServiceException",
+            "name": "com.google.cloud.BaseServiceException#BaseServiceException(ExceptionData)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "com.google.cloud.grpc.SharedResourceHolder#releaseInternal(Resource,T)$Runnable$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder#releaseInternal(Resource,T)$Runnable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.IdentityHashMap#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.IdentityHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Resource<T>"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.IdentityHashMap#remove(Resource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.IdentityHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "java.util.concurrent.ScheduledExecutorService#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.DefaultExecutorFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.DefaultExecutorFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.DefaultExecutorFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.DefaultExecutorFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ScheduledExecutorService"],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions$Resource$1#close(ScheduledExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions$Resource$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "com.google.cloud.grpc.LogExceptionRunnable#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LogExceptionRunnable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "AssertionError",
+            "name": "java.lang.AssertionError#AssertionError(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.AssertionError",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "throwIfUnchecked",
+            "name": "com.google.common.base.Throwables.throwIfUnchecked(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.Throwables",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.cloud.grpc.LogExceptionRunnable.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LogExceptionRunnable",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Level",
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "log",
+            "name": "java.util.logging.Logger#log(Level,String,Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "java.lang.Runnable#run()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Runnable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "LogExceptionRunnable",
+            "name": "com.google.cloud.grpc.LogExceptionRunnable#LogExceptionRunnable(Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LogExceptionRunnable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.LogExceptionRunnable.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LogExceptionRunnable",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Resource<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "release",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.release(Resource,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Resource<T>",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "releaseInternal",
+            "name": "com.google.cloud.grpc.SharedResourceHolder#releaseInternal(Resource,T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["ScheduledExecutorService"],
+            "templateArguments": [],
+            "function": "release",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.DefaultExecutorFactory#release(ScheduledExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.DefaultExecutorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions$Resource$1#create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions$Resource$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setRemoveOnCancelPolicy",
+            "name": "java.util.concurrent.ScheduledThreadPoolExecutor#setRemoveOnCancelPolicy(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "setKeepAliveTime",
+            "name": "java.util.concurrent.ScheduledThreadPoolExecutor#setKeepAliveTime(int,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "ScheduledThreadPoolExecutor",
+            "name": "java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.common.util.concurrent.ThreadFactoryBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.util.concurrent.ThreadFactoryBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadFactoryBuilder",
+            "name": "com.google.common.util.concurrent.ThreadFactoryBuilder#ThreadFactoryBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.util.concurrent.ThreadFactoryBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "allowCoreThreadTimeOut",
+            "name": "java.util.concurrent.ScheduledThreadPoolExecutor#allowCoreThreadTimeOut(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setDaemon",
+            "name": "com.google.common.util.concurrent.ThreadFactoryBuilder#setDaemon(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.util.concurrent.ThreadFactoryBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Throwable",
+                "int",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "BaseGrpcServiceException",
+            "name": "com.google.cloud.grpc.BaseGrpcServiceException#BaseGrpcServiceException(String,Throwable,int,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseGrpcServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "BaseServiceException",
+            "name": "com.google.cloud.BaseServiceException#BaseServiceException(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Resource<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.get(Resource)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Resource<T>"],
+            "templateArguments": [],
+            "function": "getInternal",
+            "name": "com.google.cloud.grpc.SharedResourceHolder#getInternal(Resource)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "hash",
+            "name": "java.util.Objects.hash(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.newBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "createScheduledExecutor",
+            "name": "com.google.cloud.grpc.SharedResourceHolder$ScheduledExecutorFactory$1#createScheduledExecutor()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder$ScheduledExecutorFactory$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ThreadFactory"],
+            "templateArguments": [],
+            "function": "newSingleThreadScheduledExecutor",
+            "name": "java.util.concurrent.Executors.newSingleThreadScheduledExecutor(ThreadFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Executors",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "getThreadFactory",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.getThreadFactory(String,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "GrpcTransportOptions",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions#GrpcTransportOptions(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Resource<T>",
+                "Instance"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.IdentityHashMap#put(Resource,Instance)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.IdentityHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Resource<T>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.IdentityHashMap#get(Resource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.IdentityHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Instance",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.Instance#Instance(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder.Instance",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "cancel",
+            "name": "java.util.concurrent.ScheduledFuture#cancel(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions$Resource$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions$Resource$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.DefaultExecutorFactory#get()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions.DefaultExecutorFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Builder",
+                "ServiceOptions<?, ?>"
+            ],
+            "templateArguments": [],
+            "function": "setUpChannelProvider",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.setUpChannelProvider(Builder,ServiceOptions)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.api.gax.grpc.InstantiatingGrpcChannelProvider.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.grpc.InstantiatingGrpcChannelProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setEndpoint",
+            "name": "com.google.api.gax.grpc.InstantiatingGrpcChannelProvider.Builder#setEndpoint(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.grpc.InstantiatingGrpcChannelProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHost",
+            "name": "com.google.cloud.ServiceOptions#getHost()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.SharedResourceHolder.Instance.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder.Instance",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["RetrySettings"],
+            "templateArguments": [],
+            "function": "getApiCallSettings",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions#getApiCallSettings(RetrySettings)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newUnaryCallSettingsBuilder",
+            "name": "com.google.api.gax.rpc.UnaryCallSettings.newUnaryCallSettingsBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.UnaryCallSettings",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ScheduledExecutorFactory"],
+            "templateArguments": [],
+            "function": "SharedResourceHolder",
+            "name": "com.google.cloud.grpc.SharedResourceHolder#SharedResourceHolder(ScheduledExecutorFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ObjectInputStream"],
+            "templateArguments": [],
+            "function": "readObject",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions#readObject(ObjectInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "com.google.cloud.ServiceOptions.newInstance(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "defaultReadObject",
+            "name": "java.io.ObjectInputStream#defaultReadObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.SharedResourceHolder$ScheduledExecutorFactory$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder$ScheduledExecutorFactory$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Class<ExecutorFactory>",
+                "DefaultExecutorFactory"
+            ],
+            "templateArguments": [],
+            "function": "getFromServiceLoader",
+            "name": "com.google.cloud.ServiceOptions.getFromServiceLoader(Class,DefaultExecutorFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkArgument",
+            "name": "com.google.common.base.Preconditions.checkArgument(boolean,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.grpc.SharedResourceHolder#releaseInternal(Resource,T)$Runnable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedResourceHolder#releaseInternal(Resource,T)$Runnable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "LogExceptionRunnable",
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "schedule",
+            "name": "java.util.concurrent.ScheduledExecutorService#schedule(LogExceptionRunnable,long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkState",
+            "name": "com.google.common.base.Preconditions.checkState(boolean,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "java.util.logging.Logger.getLogger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "com.google.cloud.grpc.GrpcTransportOptions#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GrpcTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ApiException"],
+            "templateArguments": [],
+            "function": "BaseGrpcServiceException",
+            "name": "com.google.cloud.grpc.BaseGrpcServiceException#BaseGrpcServiceException(ApiException)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseGrpcServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.api.gax.rpc.ApiException#isRetryable()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatusCode",
+            "name": "com.google.api.gax.rpc.ApiException#getStatusCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "com.google.api.gax.rpc.ApiException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiException",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 174,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 171,
+                "column": 59,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 172,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 170,
+                "column": 37,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 60,
+                "column": 21,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 63,
+                "column": 13,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 64,
+                "column": 28,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 59,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 57,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 57,
+                "column": 68,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 55,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 5,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 178,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 56,
+                "column": 68,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 56,
+                "column": 68,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 119,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 46,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 19,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 146,
+                "column": 33,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 145,
+                "column": 29,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 147,
+                "column": 31,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 22,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 99,
+                "column": 60,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 71,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 28,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 50,
+                "column": 13,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 49,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 48,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 46,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 46,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 46,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 29,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 39,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 95,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 81,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 37,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 106,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 108,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 40,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 65,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 63,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 57,
+                "column": 15,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 59,
+                "column": 19,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 59,
+                "column": 19,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 64,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 59,
+                "column": 19,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 42,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 36,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 50,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 50,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 71,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 52,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 78,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 183,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 204,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 51,
+                "column": 22,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 52,
+                "column": 19,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 58,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 124,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 117,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 57,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 108,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 53,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 105,
+                "column": 25,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 53,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 107,
+                "column": 18,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 53,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 111,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 53,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 53,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 41,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 103,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 68,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 101,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 68,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 166,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 69,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 165,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 69,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 165,
+                "column": 33,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 69,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 180,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 65,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 157,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 62,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 76,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 200,
+                "column": 23,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 199,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 77,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 47,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 39,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 48,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 39,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 144,
+                "column": 13,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 62,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 139,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 62,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 139,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 62,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 68,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 60,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 68,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 60,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 68,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 60,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 131,
+                "column": 21,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 124,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 136,
+                "column": 19,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 134,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 128,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 120,
+                "column": 29,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 122,
+                "column": 13,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 118,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 135,
+                "column": 15,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "SharedResourceHolder.java",
+                "line": 125,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 38,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 35,
+                "column": 54,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 32,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "LogExceptionRunnable.java",
+                "line": 35,
+                "column": 37,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 32,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 191,
+                "column": 23,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 90,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "GrpcTransportOptions.java",
+                "line": 195,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 90,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 78,
+                "column": 27,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 72,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 80,
+                "column": 24,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 74,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 79,
+                "column": 22,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "BaseGrpcServiceException.java",
+                "line": 76,
+                "column": 25,
+                "directory": "src/main/java/com/google/cloud/grpc"
+            },
+            "caller": 93,
+            "callee": 96
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.google.cloud.grpc",
+        "isRoot": false,
+        "module": -1,
+        "name": "grpc",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
