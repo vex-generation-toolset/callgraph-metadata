@@ -1,0 +1,1032 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OpenTelemetrySdkBuilder",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdkBuilder#OpenTelemetrySdkBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdkBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdkBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdkBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSdkMeterProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#getSdkMeterProvider()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unobfuscate",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedMeterProvider#unobfuscate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedMeterProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "java.util.logging.Logger.getLogger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "meterBuilder",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedMeterProvider#meterBuilder(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedMeterProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "meterBuilder",
+            "name": "io.opentelemetry.sdk.metrics.SdkMeterProvider#meterBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.metrics.SdkMeterProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedTracerProvider#get(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider#get(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSdkLoggerProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#getSdkLoggerProvider()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unobfuscate",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedLoggerProvider#unobfuscate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedLoggerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdkBuilder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdkBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "io.opentelemetry.sdk.logs.SdkLoggerProvider.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.logs.SdkLoggerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "io.opentelemetry.sdk.metrics.SdkMeterProvider.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.metrics.SdkMeterProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SdkTracerProvider",
+                "SdkMeterProvider",
+                "SdkLoggerProvider",
+                "ContextPropagators"
+            ],
+            "templateArguments": [],
+            "function": "OpenTelemetrySdk",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#OpenTelemetrySdk(SdkTracerProvider,SdkMeterProvider,SdkLoggerProvider,ContextPropagators)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkMeterProvider"],
+            "templateArguments": [],
+            "function": "ObfuscatedMeterProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedMeterProvider#ObfuscatedMeterProvider(SdkMeterProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedMeterProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedMeterProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedMeterProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedTracerProvider#get(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unobfuscate",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedTracerProvider#unobfuscate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkTracerProvider"],
+            "templateArguments": [],
+            "function": "ObfuscatedTracerProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedTracerProvider#ObfuscatedTracerProvider(SdkTracerProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedTracerProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedTracerProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "AtomicBoolean",
+            "name": "java.util.concurrent.atomic.AtomicBoolean#AtomicBoolean(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicBoolean",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SdkLoggerProvider"],
+            "templateArguments": [],
+            "function": "ObfuscatedLoggerProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedLoggerProvider#ObfuscatedLoggerProvider(SdkLoggerProvider)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedLoggerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedLoggerProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedLoggerProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "noop",
+            "name": "io.opentelemetry.context.propagation.ContextPropagators.noop()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.context.propagation.ContextPropagators",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "tracerBuilder",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedTracerProvider#tracerBuilder(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "tracerBuilder",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider#tracerBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSdkTracerProvider",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#getSdkTracerProvider()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "buildAndRegisterGlobal",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdkBuilder#buildAndRegisterGlobal()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdkBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OpenTelemetrySdk"],
+            "templateArguments": [],
+            "function": "set",
+            "name": "io.opentelemetry.api.GlobalOpenTelemetry.set(OpenTelemetrySdk)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.GlobalOpenTelemetry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#shutdown()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.opentelemetry.sdk.trace.SdkTracerProvider#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.trace.SdkTracerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.opentelemetry.sdk.metrics.SdkMeterProvider#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.metrics.SdkMeterProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "info",
+            "name": "java.util.logging.Logger#info(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.opentelemetry.sdk.logs.SdkLoggerProvider#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.logs.SdkLoggerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ofSuccess",
+            "name": "io.opentelemetry.sdk.common.CompletableResultCode.ofSuccess()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.CompletableResultCode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<CompletableResultCode>"],
+            "templateArguments": [],
+            "function": "ofAll",
+            "name": "io.opentelemetry.sdk.common.CompletableResultCode.ofAll(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.CompletableResultCode",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "compareAndSet",
+            "name": "java.util.concurrent.atomic.AtomicBoolean#compareAndSet(boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicBoolean",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loggerBuilder",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk.ObfuscatedLoggerProvider#loggerBuilder(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk.ObfuscatedLoggerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loggerBuilder",
+            "name": "io.opentelemetry.sdk.logs.SdkLoggerProvider#loggerBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.logs.SdkLoggerProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentelemetry.sdk.OpenTelemetrySdk#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpenTelemetrySdk",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "join",
+            "name": "io.opentelemetry.sdk.common.CompletableResultCode#join(int,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.common.CompletableResultCode",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 57,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 25,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 1,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 77,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 33,
+                "column": 57,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 33,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 192,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 160,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 91,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 111,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 106,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 114,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 101,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 14,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 186,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 155,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 126,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 130,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 23,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 128,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 23,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 149,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 35,
+                "column": 44,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 213,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 20,
+                "column": 44,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 2,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 165,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 67,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 34,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 84,
+                "column": 28,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 35,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdkBuilder.java",
+                "line": 85,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 111,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 113,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 112,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 113,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 107,
+                "column": 7,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 110,
+                "column": 43,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 110,
+                "column": 43,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 113,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 99,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 108,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 114,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 111,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 106,
+                "column": 10,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 111,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 112,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 112,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 219,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 46,
+                "column": 27,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 17,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 48,
+                "column": 27,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 17,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 47,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 41,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 17,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 119,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OpenTelemetrySdk.java",
+                "line": 119,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk"
+            },
+            "caller": 50,
+            "callee": 37
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.opentelemetry.sdk",
+        "isRoot": false,
+        "module": -1,
+        "name": "sdk",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
