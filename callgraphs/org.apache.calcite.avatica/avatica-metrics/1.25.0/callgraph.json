@@ -1,0 +1,890 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystemConfiguration.getInstance()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystemConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystemConfiguration.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystemConfiguration",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getHistogram",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem#getHistogram(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem.getInstance()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MetricsSystemLoader",
+            "name": "org.apache.calcite.avatica.metrics.MetricsSystemLoader#MetricsSystemLoader()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricsSystemLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.MetricsSystemLoader.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricsSystemLoader",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.calcite.avatica.metrics.MetricsSystemLoader.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricsSystemLoader",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<MetricsSystemLoader>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getCounter",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem#getCounter(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopTimer.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopTimer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopTimer.NoopContext.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopTimer.NoopContext",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["MetricsSystemConfiguration<?>"],
+            "templateArguments": [],
+            "function": "_load",
+            "name": "org.apache.calcite.avatica.metrics.MetricsSystemLoader#_load(MetricsSystemConfiguration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricsSystemLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "StringBuilder"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,StringBuilder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFactories",
+            "name": "org.apache.calcite.avatica.metrics.MetricsSystemLoader#getFactories()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricsSystemLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.StringBuilder#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricsSystemConfiguration<?>"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystemFactory#create(MetricsSystemConfiguration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystemFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "info",
+            "name": "org.slf4j.Logger#info(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMeter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMeter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NoopMetricsSystem",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem#NoopMetricsSystem()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopHistogram.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopHistogram",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopCounter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopCounter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopTimer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopTimer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopTimer#start()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopTimer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getMeter",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem#getMeter(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NoopMetricsSystemConfiguration",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystemConfiguration#NoopMetricsSystemConfiguration()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystemConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystemConfiguration.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystemConfiguration",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<MetricsSystemFactory>"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "java.util.ServiceLoader.load(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ServiceLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["MetricsSystemFactory"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(MetricsSystemFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricsSystemConfiguration<?>"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.calcite.avatica.metrics.MetricsSystemLoader.load(MetricsSystemConfiguration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "MetricsSystemLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricsSystemConfiguration<?>"],
+            "templateArguments": [],
+            "function": "requireNonNull",
+            "name": "java.util.Objects.requireNonNull(MetricsSystemConfiguration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getTimer",
+            "name": "org.apache.calcite.avatica.metrics.noop.NoopMetricsSystem#getTimer(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NoopMetricsSystem",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystemConfiguration.java",
+                "line": 29,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 53,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 40,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 4,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 36,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 33,
+                "column": 37,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 34,
+                "column": 55,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 7,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 61,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 9,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "NoopTimer.java",
+                "line": 27,
+                "column": 46,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 71,
+                "column": 7,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 51,
+                "column": 53,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 66,
+                "column": 13,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 73,
+                "column": 14,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 57,
+                "column": 14,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 58,
+                "column": 16,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 50,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 64,
+                "column": 26,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 64,
+                "column": 26,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 67,
+                "column": 11,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 61,
+                "column": 14,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 60,
+                "column": 7,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 56,
+                "column": 7,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 53,
+                "column": 14,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 55,
+                "column": 38,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 12,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 37,
+                "column": 38,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 3,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 33,
+                "column": 57,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 3,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 36,
+                "column": 46,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 3,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 38,
+                "column": 42,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 3,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 35,
+                "column": 38,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 3,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 47,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 27,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "NoopTimer.java",
+                "line": 29,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 32,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 57,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 33,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystemConfiguration.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystemFactory.java",
+                "line": 32,
+                "column": 12,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 16,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 78,
+                "column": 50,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 14,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 79,
+                "column": 53,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 14,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 79,
+                "column": 53,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 14,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 14,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 47,
+                "column": 27,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 47,
+                "column": 12,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 40,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "MetricsSystemLoader.java",
+                "line": 38,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics"
+            },
+            "caller": 40,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystem.java",
+                "line": 49,
+                "column": 3,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 42,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "NoopMetricsSystemConfiguration.java",
+                "line": 27,
+                "column": 7,
+                "directory": "src/main/java/org/apache/calcite/avatica/metrics/noop"
+            },
+            "caller": 1,
+            "callee": 34
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.calcite.avatica.metrics.noop",
+            "isRoot": false,
+            "module": -1,
+            "name": "noop",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.calcite.avatica.metrics",
+            "isRoot": false,
+            "module": -1,
+            "name": "metrics",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
