@@ -1,0 +1,2080 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "priority",
+            "name": "io.grpc.googleapis.GoogleCloudToProdExperimentalNameResolverProvider#priority()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdExperimentalNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "priority",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#priority()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "overrideUriScheme",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver.overrideUriScheme(URI,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "URISyntaxException"
+            ],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String,URISyntaxException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "URI",
+            "name": "java.net.URI#URI(String,String,String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthority",
+            "name": "java.net.URI#getAuthority()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFragment",
+            "name": "java.net.URI#getFragment()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getQuery",
+            "name": "java.net.URI#getQuery()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPath",
+            "name": "java.net.URI#getPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "GoogleCloudToProdNameResolverProvider",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#GoogleCloudToProdNameResolverProvider(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "com.google.common.base.Preconditions.checkNotNull(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "generateBootstrap",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#generateBootstrap(String,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "com.google.common.collect.ImmutableMap.builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableMap.of(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "serverBuilder#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "serverBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextInt",
+            "name": "java.util.Random#nextInt()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Random",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "buildOrThrow",
+            "name": "serverBuilder#buildOrThrow()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "serverBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "serverBuilder#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "serverBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "String",
+                "Object",
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableMap.of(String,Object,String,Object,String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableList.of(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "authoritiesBuilder#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "authoritiesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableList.of(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "buildOrThrow",
+            "name": "authoritiesBuilder#buildOrThrow()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "authoritiesBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "nodeBuilder#put(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "nodeBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "nodeBuilder#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "nodeBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableMap.of(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "buildOrThrow",
+            "name": "nodeBuilder#buildOrThrow()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "nodeBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableMap.of(String,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createConnection",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver.HttpConnectionFactory#createConnection(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver.HttpConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setReadTimeout",
+            "name": "java.net.HttpURLConnection#setReadTimeout(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.HttpURLConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "openConnection",
+            "name": "java.net.URL#openConnection()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URL",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "URL",
+            "name": "java.net.URL#URL(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URL",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "setRequestProperty",
+            "name": "java.net.HttpURLConnection#setRequestProperty(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.HttpURLConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setRequestMethod",
+            "name": "java.net.HttpURLConnection#setRequestMethod(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.HttpURLConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "Args",
+                "SharedResourceHolder.Resource<Executor>",
+                "BootstrapSetter"
+            ],
+            "templateArguments": [],
+            "function": "GoogleCloudToProdNameResolver",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#GoogleCloudToProdNameResolver(URI,Args,SharedResourceHolder.Resource,BootstrapSetter)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Random",
+            "name": "java.util.Random#Random()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Random",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.Random.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Random",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultRegistry",
+            "name": "io.grpc.NameResolverRegistry.getDefaultRegistry()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.NameResolverRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "refresh",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#refresh()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "resolve",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#resolve()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "refresh",
+            "name": "io.grpc.NameResolver#refresh()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.NameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "overrideUriAuthority",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver.overrideUriAuthority(URI,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getScheme",
+            "name": "java.net.URI#getScheme()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isAvailable",
+            "name": "io.grpc.googleapis.GoogleCloudToProdExperimentalNameResolverProvider#isAvailable()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdExperimentalNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isAvailable",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#isAvailable()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Listener2"],
+            "templateArguments": [],
+            "function": "start",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#start(Listener2)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "Listener2#onError(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Listener2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, ?>"],
+            "templateArguments": [],
+            "function": "setBootstrap",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider.SharedXdsClientPoolProviderBootstrapSetter#setBootstrap(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider.SharedXdsClientPoolProviderBootstrapSetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, ?>"],
+            "templateArguments": [],
+            "function": "setDefaultProviderBootstrapOverride",
+            "name": "io.grpc.xds.InternalSharedXdsClientPoolProvider.setDefaultProviderBootstrapOverride(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.xds.InternalSharedXdsClientPoolProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getenv",
+            "name": "java.lang.System.getenv(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getProperty",
+            "name": "java.lang.System.getProperty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "isNullOrEmpty",
+            "name": "com.google.common.base.Strings.isNullOrEmpty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.Strings",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isOnGcp",
+            "name": "io.grpc.alts.InternalCheckGcpEnvironment.isOnGcp()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.alts.InternalCheckGcpEnvironment",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "java.util.logging.Logger.getLogger(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "GoogleCloudToProdNameResolverProvider",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#GoogleCloudToProdNameResolverProvider()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "Args"
+            ],
+            "templateArguments": [],
+            "function": "newNameResolver",
+            "name": "io.grpc.googleapis.GoogleCloudToProdExperimentalNameResolverProvider#newNameResolver(URI,Args)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdExperimentalNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "Args"
+            ],
+            "templateArguments": [],
+            "function": "newNameResolver",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#newNameResolver(URI,Args)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#resolve()$Runnable$1$Runnable$1#run()$Runnable$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver#resolve()$Runnable$1$Runnable$1#run()$Runnable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Listener2"],
+            "templateArguments": [],
+            "function": "start",
+            "name": "io.grpc.NameResolver#start(Listener2)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.NameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdExperimentalNameResolverProvider.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdExperimentalNameResolverProvider",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#shutdown()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SharedResourceHolder.Resource<Executor>",
+                "Executor"
+            ],
+            "templateArguments": [],
+            "function": "release",
+            "name": "io.grpc.internal.SharedResourceHolder.release(SharedResourceHolder.Resource,Executor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.internal.SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "io.grpc.NameResolver#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.NameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver.HttpConnectionFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver.HttpConnectionFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider.SharedXdsClientPoolProviderBootstrapSetter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider.SharedXdsClientPoolProviderBootstrapSetter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Level"],
+            "templateArguments": [],
+            "function": "isLoggable",
+            "name": "java.util.logging.Logger#isLoggable(Level)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Resolve"],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "java.util.concurrent.Executor#execute(Resolve)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Executor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fine",
+            "name": "java.util.logging.Logger#fine(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.logging.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#resolve().Resolve.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver#resolve().Resolve",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SharedResourceHolder.Resource<Executor>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.grpc.internal.SharedResourceHolder.get(SharedResourceHolder.Resource)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.internal.SharedResourceHolder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "queryZoneMetadata",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#queryZoneMetadata(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInputStream",
+            "name": "java.net.HttpURLConnection#getInputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.HttpURLConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "com.google.common.io.CharStreams.toString(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.io.CharStreams",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "InputStreamReader",
+            "name": "java.io.InputStreamReader#InputStreamReader(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStreamReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResponseCode",
+            "name": "java.net.HttpURLConnection#getResponseCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.HttpURLConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "disconnect",
+            "name": "java.net.HttpURLConnection#disconnect()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.HttpURLConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "queryIpv6SupportMetadata",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#queryIpv6SupportMetadata(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.InputStream#read()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#resolve().Resolve#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver#resolve().Resolve",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolver#resolve()$Runnable$1$Runnable$1#run()$Runnable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolver#resolve()$Runnable$1$Runnable$1#run()$Runnable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ANON__OR__TYPE$Runnable"],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "io.grpc.SynchronizationContext#execute(ANON__OR__TYPE$Runnable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.grpc.SynchronizationContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultScheme",
+            "name": "io.grpc.googleapis.GoogleCloudToProdExperimentalNameResolverProvider#getDefaultScheme()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdExperimentalNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultScheme",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#getDefaultScheme()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProducedSocketAddressTypes",
+            "name": "io.grpc.googleapis.GoogleCloudToProdNameResolverProvider#getProducedSocketAddressTypes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GoogleCloudToProdNameResolverProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<InetSocketAddress>"],
+            "templateArguments": [],
+            "function": "singleton",
+            "name": "java.util.Collections.singleton(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdExperimentalNameResolverProvider.java",
+                "line": 50,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 306,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 304,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 304,
+                "column": 29,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 304,
+                "column": 80,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 304,
+                "column": 64,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 304,
+                "column": 49,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 47,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 48,
+                "column": 19,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 9,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 225,
+                "column": 63,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 223,
+                "column": 26,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 216,
+                "column": 58,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 222,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 208,
+                "column": 37,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 228,
+                "column": 57,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 207,
+                "column": 56,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 206,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 221,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 229,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 224,
+                "column": 42,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 226,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 210,
+                "column": 35,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 231,
+                "column": 24,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 232,
+                "column": 24,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 208,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 213,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 228,
+                "column": 40,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 228,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 224,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 223,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 210,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 230,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 231,
+                "column": 41,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 214,
+                "column": 11,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 12,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 328,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 326,
+                "column": 51,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 30,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 326,
+                "column": 51,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 30,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 329,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 30,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 327,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 30,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 102,
+                "column": 45,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 102,
+                "column": 45,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 36,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 240,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 238,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 238,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 40,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 314,
+                "column": 80,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 43,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 314,
+                "column": 64,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 43,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 314,
+                "column": 49,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 43,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 43,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 314,
+                "column": 21,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 314,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 43,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdExperimentalNameResolverProvider.java",
+                "line": 45,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 143,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 47,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 138,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 85,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 71,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 74,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 75,
+                "column": 35,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 69,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 65,
+                "column": 28,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 70,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 78,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 55,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 55,
+                "column": 24,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 18,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 57,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdExperimentalNameResolverProvider.java",
+                "line": 35,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 193,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 61,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 193,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 191,
+                "column": 19,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 61,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdExperimentalNameResolverProvider.java",
+                "line": 31,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 63,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 254,
+                "column": 18,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 251,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 251,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 64,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 67,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 56,
+                "column": 11,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 60,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 53,
+                "column": 23,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 60,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 54,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 60,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 152,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 157,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 157,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 146,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 203,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 153,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 203,
+                "column": 22,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 165,
+                "column": 18,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 41,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 266,
+                "column": 50,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 267,
+                "column": 20,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 75,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 262,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 75,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 266,
+                "column": 28,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 75,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 263,
+                "column": 11,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 75,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 271,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 75,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 281,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 81,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 285,
+                "column": 33,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 81,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 282,
+                "column": 11,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 81,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 291,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 81,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 288,
+                "column": 19,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 169,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 186,
+                "column": 31,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 178,
+                "column": 46,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 186,
+                "column": 11,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 182,
+                "column": 11,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 178,
+                "column": 28,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolver.java",
+                "line": 179,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 83,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdExperimentalNameResolverProvider.java",
+                "line": 40,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "GoogleCloudToProdNameResolverProvider.java",
+                "line": 78,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/googleapis"
+            },
+            "caller": 88,
+            "callee": 89
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.grpc.googleapis",
+        "isRoot": false,
+        "module": -1,
+        "name": "googleapis",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
