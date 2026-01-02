@@ -1,0 +1,264 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "com.google.auth.Credentials#getRequestMetadata(URI,Executor,RequestMetadataCallback)$Runnable$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credentials#getRequestMetadata(URI,Executor,RequestMetadataCallback)$Runnable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "RequestMetadataCallback"
+            ],
+            "templateArguments": [],
+            "function": "blockingGetToCallback",
+            "name": "com.google.auth.Credentials#blockingGetToCallback(URI,RequestMetadataCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "com.google.auth.ServiceAccountSigner.SigningException#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceAccountSigner.SigningException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUniverseDomain",
+            "name": "com.google.auth.Credentials#getUniverseDomain()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.auth.Credentials.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credentials",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "SigningException",
+            "name": "com.google.auth.ServiceAccountSigner.SigningException#SigningException(String,Exception)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceAccountSigner.SigningException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.auth.ServiceAccountSigner.SigningException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceAccountSigner.SigningException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URI",
+                "Executor",
+                "RequestMetadataCallback"
+            ],
+            "templateArguments": [],
+            "function": "getRequestMetadata",
+            "name": "com.google.auth.Credentials#getRequestMetadata(URI,Executor,RequestMetadataCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.auth.Credentials#getRequestMetadata(URI,Executor,RequestMetadataCallback)$Runnable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credentials#getRequestMetadata(URI,Executor,RequestMetadataCallback)$Runnable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ANON__OR__TYPE$Runnable"],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "java.util.concurrent.Executor#execute(ANON__OR__TYPE$Runnable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Executor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "com.google.auth.ServiceAccountSigner.SigningException#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ServiceAccountSigner.SigningException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "hash",
+            "name": "java.util.Objects.hash(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "Credentials.java",
+                "line": 114,
+                "column": 13,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ServiceAccountSigner.java",
+                "line": 59,
+                "column": 14,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ServiceAccountSigner.java",
+                "line": 60,
+                "column": 14,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "Credentials.java",
+                "line": 59,
+                "column": 3,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ServiceAccountSigner.java",
+                "line": 46,
+                "column": 5,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ServiceAccountSigner.java",
+                "line": 47,
+                "column": 7,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 6,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Credentials.java",
+                "line": 111,
+                "column": 9,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "Credentials.java",
+                "line": 110,
+                "column": 5,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 9,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ServiceAccountSigner.java",
+                "line": 65,
+                "column": 14,
+                "directory": "java/com/google/auth"
+            },
+            "caller": 12,
+            "callee": 13
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.google.auth",
+        "isRoot": false,
+        "module": -1,
+        "name": "auth",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
