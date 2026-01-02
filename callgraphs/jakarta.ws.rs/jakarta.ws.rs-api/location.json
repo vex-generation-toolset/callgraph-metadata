@@ -1,0 +1,5 @@
+{
+  "repository": "jakartaee/rest",
+  "tag": "refs/tags/%s",
+  "relative_path": "jaxrs-api"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/calcite",
+  "tag": "refs/tags/calsite-%s",
+  "relative_path": "core"
+}

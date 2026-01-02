@@ -1,0 +1,5 @@
+{
+  "repository": "apache/thrift",
+  "tag": "refs/tags/v%s",
+  "relative_path": "lib/java"
+}

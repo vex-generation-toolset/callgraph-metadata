@@ -1,0 +1,5 @@
+{
+  "repository": "google/guava",
+  "tag": "refs/tags/failureaccess-v%s",
+  "relative_path": "futures/failureaccess"
+}

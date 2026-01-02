@@ -1,0 +1,5 @@
+{
+  "repository": "googleapis/sdk-platform-java",
+  "tag": "refs/tags/v%s",
+  "relative_path": "api-common-java"
+}

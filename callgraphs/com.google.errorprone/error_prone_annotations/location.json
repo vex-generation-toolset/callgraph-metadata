@@ -1,0 +1,5 @@
+{
+  "repository": "google/error-prone",
+  "tag": "refs/tags/v%s",
+  "relative_path": "annotations"
+}

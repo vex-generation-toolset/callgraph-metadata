@@ -1,0 +1,5 @@
+{
+  "repository": "unicode-org/icu",
+  "tag": "refs/tags/release-%s",
+  "relative_path": "icu4j"
+}

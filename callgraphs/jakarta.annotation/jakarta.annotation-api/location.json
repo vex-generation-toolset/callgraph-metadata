@@ -1,0 +1,5 @@
+{
+  "repository": "jakartaee/common-annotations-api",
+  "tag": "refs/tags/%s",
+  "relative_path": "api"
+}

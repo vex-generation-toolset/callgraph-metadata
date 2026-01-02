@@ -1,0 +1,5 @@
+{
+  "repository": "langchain4j/langchain4j",
+  "tag": "refs/tags/%s",
+  "relative_path": "langchain4j-open-ai"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/sis",
+  "tag": "refs/tags/%s",
+  "relative_path": "core/sis-referencing"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "jayway/JsonPath",
+  "tag": "refs/tags/json-path-%s",
+  "relative_path": "json-path"
+}

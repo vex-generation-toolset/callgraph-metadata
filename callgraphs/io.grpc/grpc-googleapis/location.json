@@ -1,0 +1,5 @@
+{
+  "repository": "grpc/grpc-java",
+  "tag": "refs/tags/v%s",
+  "relative_path": "googleapis"
+}

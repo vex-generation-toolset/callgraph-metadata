@@ -1,0 +1,5 @@
+{
+  "repository": "apache/sis",
+  "tag": "refs/tags/%s",
+  "relative_path": "storage/sis-netcdf"
+}

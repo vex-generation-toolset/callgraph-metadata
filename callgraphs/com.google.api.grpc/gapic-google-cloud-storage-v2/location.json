@@ -1,0 +1,5 @@
+{
+  "repository": "googleapis/java-storage",
+  "tag": "refs/tags/v%s",
+  "relative_path": "gapic-google-cloud-storage-v2"
+}

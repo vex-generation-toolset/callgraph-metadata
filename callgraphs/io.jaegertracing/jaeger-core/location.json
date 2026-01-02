@@ -1,0 +1,5 @@
+{
+  "repository": "jaegertracing/jaeger-client-java",
+  "tag": "refs/tags/v%s",
+  "relative_path": "jaeger-core"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/calcite-avatica",
+  "tag": "refs/tags/rel/avatica-%s",
+  "relative_path": "metrics"
+}

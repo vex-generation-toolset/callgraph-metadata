@@ -1,0 +1,5 @@
+{
+  "repository": "square/retrofit",
+  "tag": "refs/tags/parent-%s",
+  "relative_path": "retrofit-converters/jackson"
+}

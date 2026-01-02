@@ -1,0 +1,5 @@
+{
+  "repository": "googleapis/java-storage",
+  "tag": "refs/tags/v%s",
+  "relative_path": "google-cloud-storage"
+}

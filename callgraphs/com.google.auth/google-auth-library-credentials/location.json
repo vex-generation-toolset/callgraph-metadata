@@ -1,0 +1,5 @@
+{
+  "repository": "googleapis/google-auth-library-java",
+  "tag": "refs/tags/v%s",
+  "relative_path": "credentials"
+}

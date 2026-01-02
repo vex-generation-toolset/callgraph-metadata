@@ -1,0 +1,5 @@
+{
+  "repository": "google/j2objc",
+  "tag": "refs/tags/%s",
+  "relative_path": "annotations"
+}

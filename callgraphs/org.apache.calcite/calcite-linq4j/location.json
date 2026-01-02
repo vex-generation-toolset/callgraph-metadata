@@ -1,0 +1,5 @@
+{
+  "repository": "apache/calcite",
+  "tag": "refs/tags/calcite-%s",
+  "relative_path": "linq4j"
+}

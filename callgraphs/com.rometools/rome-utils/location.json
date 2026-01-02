@@ -1,0 +1,5 @@
+{
+  "repository": "rometools/rome",
+  "tag": "refs/tags/v%s",
+  "relative_path": "rome-utils"
+}

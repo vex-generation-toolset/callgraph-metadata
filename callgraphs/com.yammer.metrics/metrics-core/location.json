@@ -1,0 +1,5 @@
+{
+  "repository": "dropwizard/metrics",
+  "tag": "refs/tags/v%s",
+  "relative_path": "metrics-core"
+}

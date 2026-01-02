@@ -1,0 +1,5 @@
+{
+  "repository": "carrotsearch/hppc",
+  "tag": "refs/tags/%s",
+  "relative_path": "hppc"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "swagger-api/swagger-core",
+  "tag": "refs/tags/v%s",
+  "relative_path": "modules/swagger-project-jakarta/modules/swagger-annotations-jakarta"
+}

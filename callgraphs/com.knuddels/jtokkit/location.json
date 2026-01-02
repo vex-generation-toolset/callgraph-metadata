@@ -1,0 +1,5 @@
+{
+  "repository": "knuddelsgmbh/jtokkit",
+  "tag": "refs/tags/%s",
+  "relative_path": "lib"
+}

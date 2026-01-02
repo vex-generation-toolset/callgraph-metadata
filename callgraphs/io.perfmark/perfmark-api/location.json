@@ -1,0 +1,5 @@
+{
+  "repository": "perfmark/perfmark",
+  "tag": "refs/tags/v%s",
+  "relative_path": "api"
+}

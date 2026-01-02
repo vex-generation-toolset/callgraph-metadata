@@ -1,0 +1,5 @@
+{
+  "repository": "googleapis/google-oauth-java-client",
+  "tag": "refs/tags/v%s",
+  "relative_path": "google-oauth-client"
+}

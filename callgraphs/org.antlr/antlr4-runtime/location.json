@@ -1,0 +1,5 @@
+{
+  "repository": "antlr/antlr4",
+  "tag": "refs/tags/%s",
+  "relative_path": "runtime/Java"
+}

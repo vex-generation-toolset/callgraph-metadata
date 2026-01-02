@@ -1,0 +1,5 @@
+{
+  "repository": "java-native-access/jna",
+  "tag": "refs/tags/%s",
+  "relative_path": ""
+}

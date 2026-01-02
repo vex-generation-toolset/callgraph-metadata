@@ -1,0 +1,5 @@
+{
+  "repository": "googleapis/google-http-java-client",
+  "tag": "refs/tags/v%s",
+  "relative_path": "google-http-client-jackson2"
+}

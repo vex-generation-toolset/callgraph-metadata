@@ -1,0 +1,5 @@
+{
+  "repository": "netty/netty-tcnative",
+  "tag": "refs/tags/netty-tcnative-parent-%s",
+  "relative_path": "openssl-classes"
+}
