@@ -1,0 +1,3248 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SSLCredential",
+            "name": "io.netty.internal.tcnative.SSLCredential#SSLCredential()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLCredential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLCredential.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLCredential",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "byte[]"
+            ],
+            "templateArguments": [],
+            "function": "onSuccess",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask#runTask(long,TaskCallback)$ResultCallback$1#onSuccess(long,byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask#runTask(long,TaskCallback)$ResultCallback$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "onResult",
+            "name": "io.netty.internal.tcnative.SSLTask#run(Runnable)$TaskCallback$1#onResult(long,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask#run(Runnable)$TaskCallback$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int",
+                "byte[]",
+                "ResultCallback<byte[]>"
+            ],
+            "templateArguments": [],
+            "function": "sign",
+            "name": "io.netty.internal.tcnative.AsyncSSLPrivateKeyMethodAdapter#sign(long,int,byte[],ResultCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncSSLPrivateKeyMethodAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask#runTask(long,TaskCallback)$ResultCallback$1#onError(long,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask#runTask(long,TaskCallback)$ResultCallback$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SSLSession",
+            "name": "io.netty.internal.tcnative.SSLSession#SSLSession()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLSession",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLSession.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLSession",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "AsyncSSLPrivateKeyMethod",
+                "ResultCallback<byte[]>"
+            ],
+            "templateArguments": [],
+            "function": "runTask",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodDecryptTask#runTask(long,AsyncSSLPrivateKeyMethod,ResultCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodDecryptTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "byte[]",
+                "ResultCallback<byte[]>"
+            ],
+            "templateArguments": [],
+            "function": "decrypt",
+            "name": "io.netty.internal.tcnative.AsyncSSLPrivateKeyMethodAdapter#decrypt(long,byte[],ResultCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncSSLPrivateKeyMethodAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String[]..."
+            ],
+            "templateArguments": [],
+            "function": "setCurvesList",
+            "name": "io.netty.internal.tcnative.SSLContext.setCurvesList(long,String[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setLength",
+            "name": "java.lang.StringBuilder#setLength(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.IllegalArgumentException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "length",
+            "name": "java.lang.StringBuilder#length()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NullPointerException",
+            "name": "java.lang.NullPointerException#NullPointerException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.NullPointerException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SSLPrivateKeyMethod"],
+            "templateArguments": [],
+            "function": "AsyncSSLPrivateKeyMethodAdapter",
+            "name": "io.netty.internal.tcnative.AsyncSSLPrivateKeyMethodAdapter#AsyncSSLPrivateKeyMethodAdapter(SSLPrivateKeyMethod)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncSSLPrivateKeyMethodAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.AsyncSSLPrivateKeyMethodAdapter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncSSLPrivateKeyMethodAdapter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Library",
+            "name": "io.netty.internal.tcnative.Library#Library()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "File",
+            "name": "java.io.File#File(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "mapLibraryName",
+            "name": "java.lang.System.mapLibraryName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "exists",
+            "name": "java.io.File#exists()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loadLibrary",
+            "name": "io.netty.internal.tcnative.Library.loadLibrary(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "UnsatisfiedLinkError",
+            "name": "java.lang.UnsatisfiedLinkError#UnsatisfiedLinkError(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.UnsatisfiedLinkError",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.Library.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.Library.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.lang.Throwable#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getProperty",
+            "name": "java.lang.System.getProperty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSystemClassLoader",
+            "name": "java.lang.ClassLoader.getSystemClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ClassLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.CertificateVerifier.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateVerifier",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<Integer>"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "java.util.Collections.unmodifiableSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "SSLTask",
+            "name": "io.netty.internal.tcnative.SSLTask#SSLTask(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLTask.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SSL",
+            "name": "io.netty.internal.tcnative.SSL#SSL()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSL",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSL.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSL",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isValid",
+            "name": "io.netty.internal.tcnative.CertificateVerifier.isValid(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateVerifier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.Set#contains(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int[]"
+            ],
+            "templateArguments": [],
+            "function": "setCurves",
+            "name": "io.netty.internal.tcnative.SSL.setCurves(long,int[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSL",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "Library",
+            "name": "io.netty.internal.tcnative.Library#Library(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setNpnProtos",
+            "name": "io.netty.internal.tcnative.SSLContext.setNpnProtos(long,String[],int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.SSL.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSL",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "protocolsToWireFormat",
+            "name": "io.netty.internal.tcnative.SSLContext.protocolsToWireFormat(String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.CertificateRequestedCallback.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateRequestedCallback",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.CertificateCallback.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateCallback",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int",
+                "byte[]",
+                "AsyncSSLPrivateKeyMethod"
+            ],
+            "templateArguments": [],
+            "function": "SSLPrivateKeyMethodSignTask",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodSignTask#SSLPrivateKeyMethodSignTask(long,int,byte[],AsyncSSLPrivateKeyMethod)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodSignTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodSignTask.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodSignTask",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "AsyncSSLPrivateKeyMethod"
+            ],
+            "templateArguments": [],
+            "function": "SSLPrivateKeyMethodTask",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask#SSLPrivateKeyMethodTask(long,AsyncSSLPrivateKeyMethod)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ClassLoader",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "tryLoadClass",
+            "name": "io.netty.internal.tcnative.Library.tryLoadClass(ClassLoader,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean",
+                "ClassLoader"
+            ],
+            "templateArguments": [],
+            "function": "forName",
+            "name": "java.lang.Class.forName(String,boolean,ClassLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "algorithmId",
+            "name": "io.netty.internal.tcnative.CertificateCompressionAlgo#algorithmId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateCompressionAlgo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.CertificateCompressionAlgo.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateCompressionAlgo",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "byte[]",
+                "byte[][]",
+                "CertificateCallback"
+            ],
+            "templateArguments": [],
+            "function": "CertificateCallbackTask",
+            "name": "io.netty.internal.tcnative.CertificateCallbackTask#CertificateCallbackTask(long,byte[],byte[][],CertificateCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateCallbackTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.CertificateCallbackTask.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateCallbackTask",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TaskCallback"
+            ],
+            "templateArguments": [],
+            "function": "runTask",
+            "name": "io.netty.internal.tcnative.CertificateCallbackTask#runTask(long,TaskCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateCallbackTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int",
+                "CertificateCompressionAlgo"
+            ],
+            "templateArguments": [],
+            "function": "addCertificateCompressionAlgorithm",
+            "name": "io.netty.internal.tcnative.SSLContext.addCertificateCompressionAlgorithm(long,int,CertificateCompressionAlgo)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "byte[]",
+                "byte[]"
+            ],
+            "templateArguments": [],
+            "function": "SessionTicketKey",
+            "name": "io.netty.internal.tcnative.SessionTicketKey#SessionTicketKey(byte[],byte[],byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SessionTicketKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.SessionTicketKey.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SessionTicketKey",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SessionTicketKey.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SessionTicketKey",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.ByteArrayOutputStream#write(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.SSLContext.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.ByteArrayOutputStream.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.ByteArrayOutputStream#write(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.io.ByteArrayOutputStream#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Buffer",
+            "name": "io.netty.internal.tcnative.Buffer#Buffer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Buffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.Buffer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Buffer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "runAsync",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask#runAsync(Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.netty.internal.tcnative.SSLTask#run(Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ClassLoader",
+                "Class<?>[]..."
+            ],
+            "templateArguments": [],
+            "function": "tryLoadClasses",
+            "name": "io.netty.internal.tcnative.Library.tryLoadClasses(ClassLoader,Class[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "SSLPrivateKeyMethod"
+            ],
+            "templateArguments": [],
+            "function": "setPrivateKeyMethod",
+            "name": "io.netty.internal.tcnative.SSLContext.setPrivateKeyMethod(long,SSLPrivateKeyMethod)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "AsyncSSLPrivateKeyMethod"
+            ],
+            "templateArguments": [],
+            "function": "setPrivateKeyMethod",
+            "name": "io.netty.internal.tcnative.SSLContext.setPrivateKeyMethod(long,AsyncSSLPrivateKeyMethod)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "SessionTicketKey[]"
+            ],
+            "templateArguments": [],
+            "function": "setSessionTicketKeys",
+            "name": "io.netty.internal.tcnative.SSLContext.setSessionTicketKeys(long,SessionTicketKey[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "arraycopy",
+            "name": "java.lang.System.arraycopy(byte[],int,byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TaskCallback"
+            ],
+            "templateArguments": [],
+            "function": "runTask",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask#runTask(long,TaskCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodTask#runTask(long,TaskCallback)$ResultCallback$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodTask#runTask(long,TaskCallback)$ResultCallback$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "AsyncSSLPrivateKeyMethod",
+                "ResultCallback<byte[]>"
+            ],
+            "templateArguments": [],
+            "function": "runTask",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodSignTask#runTask(long,AsyncSSLPrivateKeyMethod,ResultCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodSignTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "calculatePackagePrefix",
+            "name": "io.netty.internal.tcnative.Library.calculatePackagePrefix()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "loadLibrary",
+            "name": "java.lang.System.loadLibrary(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "io.netty.internal.tcnative.Library.initialize(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.netty.internal.tcnative.SSLTask$Runnable$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask$Runnable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.netty.internal.tcnative.SSLTask#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "java.lang.Runnable#run()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Runnable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String[]..."
+            ],
+            "templateArguments": [],
+            "function": "setCurvesList",
+            "name": "io.netty.internal.tcnative.SSL.setCurvesList(long,String[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSL",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "String[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setAlpnProtos",
+            "name": "io.netty.internal.tcnative.SSLContext.setAlpnProtos(long,String[],int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SSLContext",
+            "name": "io.netty.internal.tcnative.SSLContext#SSLContext()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLContext.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLContext",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.netty.internal.tcnative.SSLTask.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TaskCallback"
+            ],
+            "templateArguments": [],
+            "function": "runTask",
+            "name": "io.netty.internal.tcnative.CertificateVerifierTask#runTask(long,TaskCallback)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateVerifierTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLTask$Runnable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask$Runnable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "io.netty.internal.tcnative.Library.initialize()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Library",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "byte[]",
+                "AsyncSSLPrivateKeyMethod"
+            ],
+            "templateArguments": [],
+            "function": "SSLPrivateKeyMethodDecryptTask",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodDecryptTask#SSLPrivateKeyMethodDecryptTask(long,byte[],AsyncSSLPrivateKeyMethod)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodDecryptTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLPrivateKeyMethodDecryptTask.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLPrivateKeyMethodDecryptTask",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "byte[][]",
+                "String",
+                "CertificateVerifier"
+            ],
+            "templateArguments": [],
+            "function": "CertificateVerifierTask",
+            "name": "io.netty.internal.tcnative.CertificateVerifierTask#CertificateVerifierTask(long,byte[][],String,CertificateVerifier)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateVerifierTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.CertificateVerifierTask.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CertificateVerifierTask",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NativeStaticallyReferencedJniMethods",
+            "name": "io.netty.internal.tcnative.NativeStaticallyReferencedJniMethods#NativeStaticallyReferencedJniMethods()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NativeStaticallyReferencedJniMethods",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.NativeStaticallyReferencedJniMethods.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "NativeStaticallyReferencedJniMethods",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.netty.internal.tcnative.SSLTask#run(Runnable)$TaskCallback$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SSLTask#run(Runnable)$TaskCallback$1",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "SSLCredential.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 42,
+                "column": 17,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "AsyncSSLPrivateKeyMethodAdapter.java",
+                "line": 34,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "SSLSession.java",
+                "line": 23,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodDecryptTask.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 762,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 763,
+                "column": 36,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 760,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 756,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 756,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 754,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 754,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 762,
+                "column": 22,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 751,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 758,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 10,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "AsyncSSLPrivateKeyMethodAdapter.java",
+                "line": 21,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "AsyncSSLPrivateKeyMethodAdapter.java",
+                "line": 23,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 21,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 113,
+                "column": 31,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 110,
+                "column": 31,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 126,
+                "column": 44,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 119,
+                "column": 17,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 108,
+                "column": 31,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 111,
+                "column": 25,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 98,
+                "column": 29,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 98,
+                "column": 29,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 101,
+                "column": 17,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 126,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 119,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 117,
+                "column": 21,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 96,
+                "column": 23,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 23,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 58,
+                "column": 24,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 31,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 159,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 172,
+                "column": 18,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 158,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 128,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 124,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 125,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 110,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 115,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 143,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 160,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 140,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 163,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 138,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 146,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 166,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 113,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 155,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 114,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 162,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 111,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 144,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 150,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 119,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 145,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 118,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 127,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 121,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 137,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 126,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 131,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 106,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 105,
+                "column": 31,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 105,
+                "column": 31,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 123,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 139,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 132,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 161,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 153,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 147,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 141,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 112,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 165,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 108,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 167,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 120,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 133,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 164,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 154,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 168,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 152,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 148,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 135,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 130,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 149,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 136,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 134,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 129,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 107,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 122,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 116,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 156,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 170,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 171,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 142,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 175,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 44,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifier.java",
+                "line": 179,
+                "column": 16,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 606,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 46,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 606,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 46,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 603,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 46,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 130,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 47,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 130,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 47,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 132,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 47,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "AsyncSSLPrivateKeyMethodAdapter.java",
+                "line": 46,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 9,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 573,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 581,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 48,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 45,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 5,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 49,
+                "column": 17,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 5,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CertificateRequestedCallback.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodSignTask.java",
+                "line": 22,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodSignTask.java",
+                "line": 23,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 86,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 26,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 56,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 25,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 56,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "CertificateCompressionAlgo.java",
+                "line": 58,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "CertificateCallbackTask.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 62,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "CertificateCallbackTask.java",
+                "line": 26,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CertificateCallbackTask.java",
+                "line": 46,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 64,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CertificateCallbackTask.java",
+                "line": 41,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 64,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 665,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 65,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "SessionTicketKey.java",
+                "line": 59,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "SessionTicketKey.java",
+                "line": 56,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "SessionTicketKey.java",
+                "line": 53,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "SessionTicketKey.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 66,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "SessionTicketKey.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 66,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 563,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 558,
+                "column": 21,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 551,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 552,
+                "column": 37,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 552,
+                "column": 37,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 557,
+                "column": 21,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 561,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 566,
+                "column": 17,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 50,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "Buffer.java",
+                "line": 39,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 79,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 82,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 79,
+                "column": 39,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 82,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 705,
+                "column": 34,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 84,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 705,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 430,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 86,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 440,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 438,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 436,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 86,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 417,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 86,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 38,
+                "column": 30,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 38,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 88,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodTask.java",
+                "line": 38,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 88,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 137,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 28,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 137,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 28,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 179,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 93,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 189,
+                "column": 47,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 93,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 197,
+                "column": 23,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 93,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 192,
+                "column": 23,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 93,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 189,
+                "column": 63,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 93,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 53,
+                "column": 21,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 3,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 53,
+                "column": 21,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 3,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 53,
+                "column": 21,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 3,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 583,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 576,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 588,
+                "column": 36,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 587,
+                "column": 22,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 587,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 585,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 581,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 581,
+                "column": 28,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 579,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SSL.java",
+                "line": 579,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 97,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 586,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 98,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 594,
+                "column": 29,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 98,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "SSLContext.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 95,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 95,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifierTask.java",
+                "line": 37,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 102,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 22,
+                "column": 42,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 101,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 176,
+                "column": 16,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 104,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 169,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 104,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodDecryptTask.java",
+                "line": 22,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodDecryptTask.java",
+                "line": 23,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 105,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifierTask.java",
+                "line": 28,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 107,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "CertificateVerifierTask.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 107,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "SSLPrivateKeyMethodSignTask.java",
+                "line": 32,
+                "column": 9,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 90,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "NativeStaticallyReferencedJniMethods.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 48,
+                "column": 26,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 57,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 57,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "SSLTask.java",
+                "line": 57,
+                "column": 13,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 81,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 150,
+                "column": 19,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 91,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Library.java",
+                "line": 146,
+                "column": 30,
+                "directory": "src/main/java/io/netty/internal/tcnative"
+            },
+            "caller": 91,
+            "callee": 83
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.netty.internal.tcnative",
+        "isRoot": false,
+        "module": -1,
+        "name": "tcnative",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
