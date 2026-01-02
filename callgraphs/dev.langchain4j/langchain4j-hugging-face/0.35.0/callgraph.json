@@ -1,0 +1,3370 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "modelId",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1#modelId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceModelName.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceModelName",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["List<ChatMessage>"],
+            "templateArguments": [],
+            "function": "generate",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#generate(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "inputs",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.Builder#inputs(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "returnFullText",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.Builder#returnFullText(Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "from",
+            "name": "dev.langchain4j.model.output.Response.from(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "maxNewTokens",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.Builder#maxNewTokens(Integer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "waitForModel",
+            "name": "dev.langchain4j.model.huggingface.client.Options.Builder#waitForModel(Boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "dev.langchain4j.model.huggingface.client.Options.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getGeneratedText",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationResponse#getGeneratedText()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "from",
+            "name": "dev.langchain4j.data.message.AiMessage.from(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.data.message.AiMessage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Parameters"],
+            "templateArguments": [],
+            "function": "parameters",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.Builder#parameters(Parameters)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.List#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Double"],
+            "templateArguments": [],
+            "function": "temperature",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.Builder#temperature(Double)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "dev.langchain4j.model.huggingface.client.Options.builder()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Options"],
+            "templateArguments": [],
+            "function": "options",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.Builder#options(Options)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TextGenerationRequest"],
+            "templateArguments": [],
+            "function": "chat",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient#chat(TextGenerationRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.huggingface.FactoryCreator.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FactoryCreator",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "factory",
+            "name": "dev.langchain4j.model.huggingface.FactoryCreator.factory()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FactoryCreator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "withAccessToken",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.withAccessToken(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "accessToken",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#accessToken(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "withAccessToken",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.withAccessToken(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Chain"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "dev.langchain4j.model.huggingface.ApiKeyInsertingInterceptor#intercept(Chain)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ApiKeyInsertingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "proceed",
+            "name": "Chain#proceed(Request)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "Chain#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "HuggingFaceLanguageModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Parameters"],
+            "templateArguments": [],
+            "function": "equalTo",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters#equalTo(Parameters)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Boolean",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Boolean,Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Double",
+                "Double"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Double,Double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Integer",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Integer,Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response<List<TextGenerationResponse>>"],
+            "templateArguments": [],
+            "function": "toOneResponse",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient.toOneResponse(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "body",
+            "name": "retrofit2.Response#body()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "HuggingFaceChatModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#HuggingFaceChatModel(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "Parameters",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters#Parameters(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<String>",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "EmbeddingRequest",
+            "name": "dev.langchain4j.model.huggingface.client.EmbeddingRequest#EmbeddingRequest(List,boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddingRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.EmbeddingRequest.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "EmbeddingRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Duration",
+                "Double",
+                "Integer",
+                "Boolean",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "HuggingFaceLanguageModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#HuggingFaceLanguageModel(String,String,Duration,Double,Integer,Boolean,Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "waitForModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#waitForModel(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "modelId",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#modelId(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "timeout",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#timeout(Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Double"],
+            "templateArguments": [],
+            "function": "temperature",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#temperature(Double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "maxNewTokens",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#maxNewTokens(Integer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "returnFullText",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder#returnFullText(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TextGenerationRequest"],
+            "templateArguments": [],
+            "function": "equalTo",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest#equalTo(TextGenerationRequest)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "TextGenerationRequest",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest#TextGenerationRequest(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["TextGenerationRequest"],
+            "templateArguments": [],
+            "function": "generate",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient#generate(TextGenerationRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TextGenerationResponse",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationResponse#TextGenerationResponse()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationResponse.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "dev.langchain4j.model.huggingface.client.Options#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Options"],
+            "templateArguments": [],
+            "function": "equalTo",
+            "name": "dev.langchain4j.model.huggingface.client.Options#equalTo(Options)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "TextGenerationResponse",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationResponse#TextGenerationResponse(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "Options",
+            "name": "dev.langchain4j.model.huggingface.client.Options#Options(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.Options.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "dev.langchain4j.model.huggingface.client.TextGenerationRequest#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "TextGenerationRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Options"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(Options)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Parameters"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(Parameters)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofSeconds",
+            "name": "java.time.Duration.ofSeconds(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "generate",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#generate(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "from",
+            "name": "dev.langchain4j.model.output.Response.from(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Input"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "dev.langchain4j.model.huggingface.FactoryCreator.DefaultHuggingFaceClientFactory#create(Input)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FactoryCreator.DefaultHuggingFaceClientFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "modelId",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1#modelId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "modelId",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1#modelId()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "timeout",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1#timeout()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "timeout",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1#timeout()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "timeout",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1#timeout()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "apiKey",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1#apiKey()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "apiKey",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1#apiKey()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "apiKey",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1#apiKey()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "DefaultHuggingFaceClient",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient#DefaultHuggingFaceClient(String,String,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel#HuggingFaceChatModel(Builder)$Input$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "dev.langchain4j.model.huggingface.client.Options#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EmbeddingRequest"],
+            "templateArguments": [],
+            "function": "embed",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient#embed(EmbeddingRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "retrofit2.Call#execute()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Call",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "body",
+            "name": "retrofitResponse#body()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofitResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["retrofit2<?>"],
+            "templateArguments": [],
+            "function": "toException",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient.toException(retrofit2)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isSuccessful",
+            "name": "retrofitResponse#isSuccessful()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofitResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HuggingFaceEmbeddingModelBuilder",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.HuggingFaceEmbeddingModelBuilder#HuggingFaceEmbeddingModelBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel.HuggingFaceEmbeddingModelBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.HuggingFaceEmbeddingModelBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel.HuggingFaceEmbeddingModelBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "withAccessToken",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.withAccessToken(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "accessToken",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#accessToken(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "response#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "errorBody",
+            "name": "response#errorBody()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "embedTexts",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#embedTexts(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Embedding>"],
+            "templateArguments": [],
+            "function": "from",
+            "name": "dev.langchain4j.model.output.Response.from(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Options",
+                "Options"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Options,Options)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Parameters",
+                "Parameters"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(Parameters,Parameters)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<TextSegment>"],
+            "templateArguments": [],
+            "function": "embedAll",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#embedAll(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "dev.langchain4j.model.huggingface.client.Parameters#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Parameters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Double"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(Double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.util.Objects.hashCode(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HuggingFaceModelName",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceModelName#HuggingFaceModelName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceModelName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceModelName.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceModelName",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Boolean",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "HuggingFaceEmbeddingModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel#HuggingFaceEmbeddingModel(String,String,Boolean,Duration)$Input$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceEmbeddingModel.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceEmbeddingModel",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ApiKeyInsertingInterceptor",
+            "name": "dev.langchain4j.model.huggingface.ApiKeyInsertingInterceptor#ApiKeyInsertingInterceptor(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ApiKeyInsertingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.ApiKeyInsertingInterceptor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ApiKeyInsertingInterceptor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel#HuggingFaceLanguageModel(Builder)$Input$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceLanguageModel.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceLanguageModel",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Duration",
+                "Double",
+                "Integer",
+                "Boolean",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "HuggingFaceChatModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel#HuggingFaceChatModel(String,String,Duration,Double,Integer,Boolean,Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "waitForModel",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#waitForModel(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "timeout",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#timeout(Duration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "maxNewTokens",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#maxNewTokens(Integer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "returnFullText",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#returnFullText(Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Double"],
+            "templateArguments": [],
+            "function": "temperature",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#temperature(Double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "modelId",
+            "name": "dev.langchain4j.model.huggingface.HuggingFaceChatModel.Builder#modelId(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HuggingFaceChatModel.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.FactoryCreator.DefaultHuggingFaceClientFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FactoryCreator.DefaultHuggingFaceClientFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "retrofit2.converter.jackson.JacksonConverterFactory.create()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.converter.jackson.JacksonConverterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Retrofit.Builder",
+            "name": "retrofit2.Retrofit.Builder#Retrofit.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "retrofit2.Retrofit.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ApiKeyInsertingInterceptor"],
+            "templateArguments": [],
+            "function": "addInterceptor",
+            "name": "okhttp3.OkHttpClient#addInterceptor(ApiKeyInsertingInterceptor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "baseUrl",
+            "name": "retrofit2.Retrofit#baseUrl(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<HuggingFaceApi>"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "retrofit2.Retrofit#create(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.huggingface.DefaultHuggingFaceClient.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultHuggingFaceClient",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okhttp3.OkHttpClient.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OkHttpClient.Builder",
+            "name": "okhttp3.OkHttpClient.Builder#OkHttpClient.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.huggingface.client.Options.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Options.Builder",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 39,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 70,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 86,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 79,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 79,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 86,
+                "column": 45,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 86,
+                "column": 30,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 70,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 70,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 71,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 70,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 79,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 70,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 84,
+                "column": 57,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 2,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 10,
+                "column": 53,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 152,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 152,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 23,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 152,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 23,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 77,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ApiKeyInsertingInterceptor.java",
+                "line": 27,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ApiKeyInsertingInterceptor.java",
+                "line": 22,
+                "column": 27,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 145,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 25,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 147,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 25,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 50,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 48,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 53,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 49,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 54,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 52,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 51,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 47,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 69,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 71,
+                "column": 19,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 38,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 68,
+                "column": 34,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 38,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 71,
+                "column": 113,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 38,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 67,
+                "column": 50,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 38,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 89,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 6,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 151,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 44,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 153,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 72,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 17,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 150,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 5,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddingRequest.java",
+                "line": 22,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 48,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddingRequest.java",
+                "line": 22,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 48,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddingRequest.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "EmbeddingRequest.java",
+                "line": 22,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 48,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 50,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 44,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 97,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 13,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 93,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 47,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 20,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationResponse.java",
+                "line": 17,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 29,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 22,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 59,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationResponse.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 68,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 69,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 58,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 56,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 71,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 57,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 71,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 47,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 22,
+                "column": 53,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 76,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 66,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 66,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 78,
+                "column": 43,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 73,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 73,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 66,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 66,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 80,
+                "column": 30,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 73,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 80,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 68,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 66,
+                "column": 41,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 78,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 65,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 65,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 65,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 82,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 82,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 82,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 49,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 49,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 49,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 23,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 80,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 45,
+                "column": 53,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 45,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 45,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 45,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 45,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 45,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 40,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 41,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 92,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 78,
+                "column": 66,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 94,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 80,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 94,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 82,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 94,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 79,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 94,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 85,
+                "column": 19,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 94,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 44,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 83,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 100,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 158,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 102,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 158,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 102,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 158,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 102,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 95,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 97,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 91,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 97,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 92,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 97,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 67,
+                "column": 34,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 106,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 65,
+                "column": 36,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 106,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 69,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 106,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 73,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 50,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 58,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 49,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 58,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "TextGenerationRequest.java",
+                "line": 48,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 58,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 100,
+                "column": 36,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 61,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 61,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 56,
+                "column": 30,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 111,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 60,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 111,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 43,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 112,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 62,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 61,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 69,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 67,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 64,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 66,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 63,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 65,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "Parameters.java",
+                "line": 68,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 113,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceModelName.java",
+                "line": 5,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 116,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 84,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 28,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 34,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 66,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 33,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 66,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 57,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 62,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 59,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 62,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 62,
+                "column": 19,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 62,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 56,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 62,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 54,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 62,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 33,
+                "column": 53,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 118,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 118,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 31,
+                "column": 19,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 118,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceEmbeddingModel.java",
+                "line": 33,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 118,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "ApiKeyInsertingInterceptor.java",
+                "line": 15,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 121,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 94,
+                "column": 36,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 123,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 123,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 41,
+                "column": 53,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 33,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 33,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 33,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 41,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 33,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceChatModel.java",
+                "line": 34,
+                "column": 14,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 126,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "FactoryCreator.java",
+                "line": 16,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 22,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 38,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 35,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 35,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 27,
+                "column": 37,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 35,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 41,
+                "column": 31,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 25,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 25,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 27,
+                "column": 37,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 27,
+                "column": 37,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "DefaultHuggingFaceClient.java",
+                "line": 28,
+                "column": 33,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 89,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 54,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 18,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "HuggingFaceLanguageModel.java",
+                "line": 87,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface"
+            },
+            "caller": 24,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "Options.java",
+                "line": 75,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/huggingface/client"
+            },
+            "caller": 10,
+            "callee": 69
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "dev.langchain4j.model.huggingface",
+            "isRoot": false,
+            "module": -1,
+            "name": "huggingface",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "dev.langchain4j.model.huggingface.client",
+            "isRoot": false,
+            "module": -1,
+            "name": "client",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
