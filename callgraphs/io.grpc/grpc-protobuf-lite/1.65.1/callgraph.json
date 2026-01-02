@@ -1,0 +1,1204 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "parseBytes",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MetadataMarshaller#parseBytes(byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MetadataMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InvalidProtocolBufferException"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(InvalidProtocolBufferException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["T extends MessageLite"],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MessageMarshaller#stream(T extends MessageLite)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MessageMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MessageLite",
+                "Parser<?>"
+            ],
+            "templateArguments": [],
+            "function": "ProtoInputStream",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#ProtoInputStream(MessageLite,Parser)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ProtoLiteUtils",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils#ProtoLiteUtils()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["T extends MessageLite"],
+            "templateArguments": [],
+            "function": "MetadataMarshaller",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MetadataMarshaller#MetadataMarshaller(T extends MessageLite)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MetadataMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MetadataMarshaller.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MetadataMarshaller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "available",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#available()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSerializedSize",
+            "name": "com.google.protobuf.MessageLite#getSerializedSize()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.MessageLite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "available",
+            "name": "java.io.ByteArrayInputStream#available()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T extends MessageLite",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "marshallerWithRecursionLimit",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.marshallerWithRecursionLimit(T extends MessageLite,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T extends MessageLite",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "MessageMarshaller",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MessageMarshaller#MessageMarshaller(T extends MessageLite,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MessageMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "read",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#read()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.ByteArrayInputStream#read()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "com.google.protobuf.MessageLite#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.MessageLite",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "ByteArrayInputStream",
+            "name": "java.io.ByteArrayInputStream#ByteArrayInputStream(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends MessageLite"],
+            "templateArguments": [],
+            "function": "metadataMarshaller",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.metadataMarshaller(T extends MessageLite)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "message",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#message()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#read(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CodedOutputStream"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "com.google.protobuf.MessageLite#writeTo(CodedOutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.MessageLite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "checkNoSpaceLeft",
+            "name": "com.google.protobuf.CodedOutputStream#checkNoSpaceLeft()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "com.google.protobuf.CodedOutputStream.newInstance(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.ByteArrayInputStream#read(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.google.protobuf.CodedOutputStream#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "OutputStream"
+            ],
+            "templateArguments": [],
+            "function": "copy",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.copy(InputStream,OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.OutputStream#write(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.InputStream#read(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEmptyRegistry",
+            "name": "com.google.protobuf.ExtensionRegistryLite.getEmptyRegistry()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.ExtensionRegistryLite",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExtensionRegistryLite"],
+            "templateArguments": [],
+            "function": "setExtensionRegistry",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.setExtensionRegistry(ExtensionRegistryLite)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MessageMarshaller.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MessageMarshaller",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadLocal",
+            "name": "java.lang.ThreadLocal#ThreadLocal()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.ThreadLocal.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["T extends MessageLite"],
+            "templateArguments": [],
+            "function": "marshaller",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.marshaller(T extends MessageLite)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MessageMarshaller#parse(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MessageMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "available",
+            "name": "java.io.InputStream#available()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "com.google.protobuf.CodedInputStream.newInstance(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setSizeLimit",
+            "name": "com.google.protobuf.CodedInputStream#setSizeLimit(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "parser",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#parser()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "com.google.protobuf.CodedInputStream.newInstance(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setRecursionLimit",
+            "name": "com.google.protobuf.CodedInputStream#setRecursionLimit(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.lang.ref.Reference#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ref.Reference",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.InputStream#read(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["WeakReference<Object>"],
+            "templateArguments": [],
+            "function": "set",
+            "name": "java.lang.ThreadLocal#set(WeakReference)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.lang.ThreadLocal#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CodedInputStream"],
+            "templateArguments": [],
+            "function": "parseFrom",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MessageMarshaller#parseFrom(CodedInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MessageMarshaller",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "WeakReference",
+            "name": "java.lang.ref.WeakReference#WeakReference(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ref.WeakReference",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "drainTo",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream#drainTo(OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "com.google.protobuf.MessageLite#writeTo(OutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.MessageLite",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends MessageLite"],
+            "templateArguments": [],
+            "function": "setUnfinishedMessage",
+            "name": "com.google.protobuf.InvalidProtocolBufferException#setUnfinishedMessage(T extends MessageLite)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.InvalidProtocolBufferException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "checkLastTagWas",
+            "name": "com.google.protobuf.CodedInputStream#checkLastTagWas(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.CodedInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CodedInputStream",
+                "ExtensionRegistryLite"
+            ],
+            "templateArguments": [],
+            "function": "parseFrom",
+            "name": "com.google.protobuf.Parser#parseFrom(CodedInputStream,ExtensionRegistryLite)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.protobuf.Parser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.protobuf.lite.ProtoLiteUtils.MessageMarshaller.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoLiteUtils.MessageMarshaller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.grpc.protobuf.lite.ProtoInputStream.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ProtoInputStream",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 276,
+                "column": 15,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 270,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 164,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 131,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 261,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 108,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 110,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 9,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 100,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 70,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 66,
+                "column": 42,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 66,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 110,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 18,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 117,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 87,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 96,
+                "column": 42,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 78,
+                "column": 18,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 89,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 86,
+                "column": 36,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 100,
+                "column": 14,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 21,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 125,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 121,
+                "column": 15,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 113,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 27,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 51,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 2,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 61,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 31,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 137,
+                "column": 64,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 137,
+                "column": 64,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 87,
+                "column": 12,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 35,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 193,
+                "column": 22,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 193,
+                "column": 22,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 226,
+                "column": 15,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 230,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 178,
+                "column": 13,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 223,
+                "column": 15,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 215,
+                "column": 21,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 217,
+                "column": 19,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 233,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 198,
+                "column": 54,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 167,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 167,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 206,
+                "column": 27,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 206,
+                "column": 27,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 200,
+                "column": 15,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 198,
+                "column": 24,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 237,
+                "column": 16,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 200,
+                "column": 24,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 181,
+                "column": 29,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 36,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 52,
+                "column": 7,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 55,
+                "column": 23,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 51,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 51,
+                "column": 17,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 51,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 250,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 49,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 247,
+                "column": 9,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 49,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 245,
+                "column": 19,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 49,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 244,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 49,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ProtoLiteUtils.java",
+                "line": 143,
+                "column": 5,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 13,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "ProtoInputStream.java",
+                "line": 42,
+                "column": 3,
+                "directory": "src/main/java/io/grpc/protobuf/lite"
+            },
+            "caller": 4,
+            "callee": 57
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.grpc.protobuf.lite",
+        "isRoot": false,
+        "module": -1,
+        "name": "lite",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
