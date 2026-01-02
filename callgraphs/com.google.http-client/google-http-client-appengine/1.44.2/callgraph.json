@@ -1,0 +1,2499 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchRequest#execute()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "setPayload",
+            "name": "com.google.appengine.api.urlfetch.HTTPRequest#setPayload(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "addHeader",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchRequest#addHeader(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getURLFetchService",
+            "name": "com.google.appengine.api.urlfetch.URLFetchServiceFactory.getURLFetchService()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.URLFetchServiceFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.ByteArrayOutputStream.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["HTTPRequest"],
+            "templateArguments": [],
+            "function": "fetch",
+            "name": "com.google.appengine.api.urlfetch.URLFetchService#fetch(HTTPRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.URLFetchService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HTTPResponse"],
+            "templateArguments": [],
+            "function": "UrlFetchResponse",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse#UrlFetchResponse(HTTPResponse)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "AppEngineDataStoreFactory",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory#AppEngineDataStoreFactory(Builder)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "HTTPHeader",
+            "name": "com.google.appengine.api.urlfetch.HTTPHeader#HTTPHeader(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HTTPHeader"],
+            "templateArguments": [],
+            "function": "addHeader",
+            "name": "com.google.appengine.api.urlfetch.HTTPRequest#addHeader(HTTPHeader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.CertificateValidationBehavior.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.CertificateValidationBehavior",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "UrlFetchTransport",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport#UrlFetchTransport(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.InstanceHolder.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.InstanceHolder",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "UrlFetchTransport",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport#UrlFetchTransport()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "AppEngineDataStoreFactory",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory#AppEngineDataStoreFactory()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.Builder.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "validateCertificate",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.Builder#validateCertificate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "setTimeout",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchRequest#setTimeout(int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFetchOptions",
+            "name": "com.google.appengine.api.urlfetch.HTTPRequest#getFetchOptions()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getContent",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse#getContent()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "ByteArrayInputStream",
+            "name": "java.io.ByteArrayInputStream#ByteArrayInputStream(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getContent",
+            "name": "com.google.appengine.api.urlfetch.HTTPResponse#getContent()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.InstanceHolder.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.InstanceHolder",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "FetchOptions",
+                "HTTPMethod",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "UrlFetchRequest",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchRequest#UrlFetchRequest(FetchOptions,HTTPMethod,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "URL",
+                "HTTPMethod",
+                "FetchOptions"
+            ],
+            "templateArguments": [],
+            "function": "HTTPRequest",
+            "name": "com.google.appengine.api.urlfetch.HTTPRequest#HTTPRequest(URL,HTTPMethod,FetchOptions)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "URL",
+            "name": "java.net.URL#URL(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URL",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchRequest.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchRequest",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createDataStore",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory#createDataStore(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AppEngineDataStoreFactory",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "AppEngineDataStore",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#AppEngineDataStore(AppEngineDataStoreFactory,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "query",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#query(boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Query",
+            "name": "com.google.appengine.api.datastore.Query#Query(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Query",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Query"],
+            "templateArguments": [],
+            "function": "prepare",
+            "name": "com.google.appengine.api.datastore.DatastoreService#prepare(Query)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.DatastoreService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "setKeysOnly",
+            "name": "com.google.appengine.api.datastore.Query#setKeysOnly()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Query",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "com.google.appengine.api.urlfetch.HTTPHeader#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeadersUncombined",
+            "name": "com.google.appengine.api.urlfetch.HTTPResponse#getHeadersUncombined()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.ArrayList#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "com.google.appengine.api.urlfetch.HTTPHeader#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.locks.ReentrantLock.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.ReentrantLock",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ReentrantLock",
+            "name": "java.util.concurrent.locks.ReentrantLock#ReentrantLock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.ReentrantLock",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getHeaderName",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse#getHeaderName(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.ArrayList#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getHeaderValue",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse#getHeaderValue(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "values",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#values()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newArrayList",
+            "name": "com.google.api.client.util.Lists.newArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Lists",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Map<String, V extends Serializable>",
+                "Expiration"
+            ],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "com.google.appengine.api.memcache.MemcacheService#putAll(Map,Expiration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["V extends Serializable"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(V extends Serializable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newHashMap",
+            "name": "com.google.api.client.util.Maps.newHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Maps",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Entity"],
+            "templateArguments": [],
+            "function": "deserialize",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#deserialize(Entity)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unlock",
+            "name": "java.util.concurrent.locks.Lock#unlock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.Lock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clearAll",
+            "name": "com.google.appengine.api.memcache.MemcacheService#clearAll()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lock",
+            "name": "java.util.concurrent.locks.Lock#lock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.Lock",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<V extends Serializable>"],
+            "templateArguments": [],
+            "function": "unmodifiableList",
+            "name": "java.util.Collections.unmodifiableList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "com.google.appengine.api.datastore.Entity#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Entity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "V extends Serializable"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,V extends Serializable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDataStoreFactory",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#getDataStoreFactory()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDataStoreFactory",
+            "name": "com.google.api.client.util.store.AbstractDataStore#getDataStoreFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.store.AbstractDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "V extends Serializable"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#set(String,V extends Serializable)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Entity"],
+            "templateArguments": [],
+            "function": "put",
+            "name": "com.google.appengine.api.datastore.DatastoreService#put(Entity)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.DatastoreService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["V extends Serializable"],
+            "templateArguments": [],
+            "function": "serialize",
+            "name": "com.google.api.client.util.IOUtils.serialize(V extends Serializable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Blob",
+            "name": "com.google.appengine.api.datastore.Blob#Blob(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Blob",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "Entity",
+            "name": "com.google.appengine.api.datastore.Entity#Entity(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Entity",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Blob"
+            ],
+            "templateArguments": [],
+            "function": "setUnindexedProperty",
+            "name": "com.google.appengine.api.datastore.Entity#setUnindexedProperty(String,Blob)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Entity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["V extends Serializable"],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "com.google.api.client.util.Preconditions.checkNotNull(V extends Serializable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "V extends Serializable",
+                "Expiration"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "com.google.appengine.api.memcache.MemcacheService#put(String,V extends Serializable,Expiration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "com.google.api.client.util.Preconditions.checkNotNull(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultInstance",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.getDefaultInstance()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "supportsMethod",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport#supportsMethod(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String[]",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "binarySearch",
+            "name": "java.util.Arrays.binarySearch(String[],String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#keySet()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newHashSet",
+            "name": "com.google.api.client.util.Sets.newHashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Sets",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "java.util.Collections.unmodifiableSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatusCode",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse#getStatusCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResponseCode",
+            "name": "com.google.appengine.api.urlfetch.HTTPResponse#getResponseCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.HTTPResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#delete(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "createKey",
+            "name": "com.google.appengine.api.datastore.KeyFactory.createKey(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.KeyFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "com.google.appengine.api.datastore.DatastoreService#delete(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.DatastoreService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "com.google.appengine.api.memcache.MemcacheService#delete(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "buildRequest",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport#buildRequest(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doNotValidateCertificate",
+            "name": "com.google.appengine.api.urlfetch.FetchOptions#doNotValidateCertificate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.FetchOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "checkArgument",
+            "name": "com.google.api.client.util.Preconditions.checkArgument(boolean,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "validateCertificate",
+            "name": "com.google.appengine.api.urlfetch.FetchOptions#validateCertificate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.urlfetch.FetchOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#get(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.appengine.api.memcache.MemcacheService#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "com.google.appengine.api.memcache.MemcacheService#contains(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Key"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.appengine.api.datastore.DatastoreService#get(Key)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.DatastoreService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doNotValidateCertificate",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.Builder#doNotValidateCertificate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getMemcacheService",
+            "name": "com.google.appengine.api.memcache.MemcacheServiceFactory.getMemcacheService(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.memcache.MemcacheServiceFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AppEngineDataStoreFactory",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "AbstractDataStore",
+            "name": "com.google.api.client.util.store.AbstractDataStore#AbstractDataStore(AppEngineDataStoreFactory,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.store.AbstractDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDatastoreService",
+            "name": "com.google.appengine.api.datastore.DatastoreServiceFactory.getDatastoreService()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.DatastoreServiceFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.Builder#build()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "sort",
+            "name": "java.util.Arrays.sort(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#clear()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Key>"],
+            "templateArguments": [],
+            "function": "delete",
+            "name": "com.google.appengine.api.datastore.DatastoreService#delete(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.DatastoreService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBytes",
+            "name": "com.google.appengine.api.datastore.Blob#getBytes()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Blob",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getProperty",
+            "name": "com.google.appengine.api.datastore.Entity#getProperty(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.appengine.api.datastore.Entity",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "deserialize",
+            "name": "com.google.api.client.util.IOUtils.deserialize(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.IOUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDoNotValidateCertificate",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.Builder#getDoNotValidateCertificate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeaderCount",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchResponse#getHeaderCount()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.ArrayList#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValidateCertificate",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.Builder#getValidateCertificate()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "com.google.api.client.extensions.appengine.datastore.AppEngineDataStoreFactory.AppEngineDataStore#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "AppEngineDataStoreFactory.AppEngineDataStore",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AppEngineDataStore<V extends Serializable>"],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "com.google.api.client.util.store.DataStoreUtils.toString(AppEngineDataStore)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.store.DataStoreUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultInstance",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.getDefaultInstance()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UrlFetchTransport",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 70,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 68,
+                "column": 24,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 74,
+                "column": 31,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 66,
+                "column": 35,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 66,
+                "column": 35,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 75,
+                "column": 29,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 76,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 0,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 80,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 41,
+                "column": 23,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 189,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 103,
+                "column": 47,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 77,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 19,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 77,
+                "column": 10,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 169,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 21,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 84,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 18,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 84,
+                "column": 10,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 18,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 64,
+                "column": 37,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 63,
+                "column": 22,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 101,
+                "column": 55,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 27,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 36,
+                "column": 15,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 36,
+                "column": 31,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 28,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchRequest.java",
+                "line": 35,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 28,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 73,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 280,
+                "column": 21,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 284,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 282,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 34,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 36,
+                "column": 21,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 8,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 35,
+                "column": 30,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 8,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 40,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 8,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 37,
+                "column": 22,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 8,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 8,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 8,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 107,
+                "column": 31,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 107,
+                "column": 31,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 43,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 101,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 106,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 48,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 161,
+                "column": 30,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 159,
+                "column": 26,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 169,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 163,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 160,
+                "column": 49,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 162,
+                "column": 21,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 173,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 157,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 152,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 171,
+                "column": 16,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 165,
+                "column": 21,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 165,
+                "column": 13,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 49,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 265,
+                "column": 42,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 217,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 216,
+                "column": 59,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 216,
+                "column": 50,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 215,
+                "column": 25,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 216,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 222,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 212,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 219,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 213,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 211,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 209,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 63,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 27,
+                "column": 50,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 42,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 27,
+                "column": 50,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 42,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 26,
+                "column": 49,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 42,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 26,
+                "column": 49,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 42,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 91,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 75,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 108,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 76,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 106,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 76,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 140,
+                "column": 30,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 146,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 144,
+                "column": 16,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 142,
+                "column": 22,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 141,
+                "column": 30,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 142,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 137,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 79,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 58,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 234,
+                "column": 33,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 85,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 234,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 85,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 239,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 85,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 232,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 85,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 236,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 85,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 141,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 89,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 111,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 89,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 136,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 113,
+                "column": 33,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 89,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 113,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 89,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 133,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 89,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 195,
+                "column": 13,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 201,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 182,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 186,
+                "column": 26,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 199,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 184,
+                "column": 33,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 205,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 192,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 189,
+                "column": 23,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 93,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 157,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 97,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 124,
+                "column": 53,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 33,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 122,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 33,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 121,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 33,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 126,
+                "column": 26,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 33,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 337,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 101,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 78,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 254,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 246,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 256,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 252,
+                "column": 26,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 249,
+                "column": 11,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 253,
+                "column": 30,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 254,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 258,
+                "column": 9,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 103,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 132,
+                "column": 34,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 54,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 131,
+                "column": 26,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 54,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 132,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 54,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 129,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 54,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 182,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 109,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchResponse.java",
+                "line": 96,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 110,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 177,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 112,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "AppEngineDataStoreFactory.java",
+                "line": 270,
+                "column": 14,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/datastore"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 92,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 115,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "UrlFetchTransport.java",
+                "line": 87,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/extensions/appengine/http"
+            },
+            "caller": 16,
+            "callee": 116
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "com.google.api.client.extensions.appengine.http",
+            "isRoot": false,
+            "module": -1,
+            "name": "http",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "com.google.api.client.extensions.appengine.datastore",
+            "isRoot": false,
+            "module": -1,
+            "name": "datastore",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
