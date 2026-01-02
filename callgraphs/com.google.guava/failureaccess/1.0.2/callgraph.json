@@ -1,0 +1,75 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "InternalFutures",
+            "name": "com.google.common.util.concurrent.internal.InternalFutures#InternalFutures()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InternalFutures",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.common.util.concurrent.internal.InternalFutures.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InternalFutures",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "InternalFutureFailureAccess",
+            "name": "com.google.common.util.concurrent.internal.InternalFutureFailureAccess#InternalFutureFailureAccess()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InternalFutureFailureAccess",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.common.util.concurrent.internal.InternalFutureFailureAccess.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InternalFutureFailureAccess",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "InternalFutures.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/com/google/common/util/concurrent/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "InternalFutureFailureAccess.java",
+                "line": 31,
+                "column": 3,
+                "directory": "src/com/google/common/util/concurrent/internal"
+            },
+            "caller": 2,
+            "callee": 3
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.google.common.util.concurrent.internal",
+        "isRoot": false,
+        "module": -1,
+        "name": "internal",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
