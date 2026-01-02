@@ -1,0 +1,1863 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "com.fasterxml.jackson.core.JsonFactory",
+            "name": "com.fasterxml.jackson.core.JsonFactory#com.fasterxml.jackson.core.JsonFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.core.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.fasterxml.jackson.core.JsonFactory.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.core.JsonFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "configure",
+            "name": "com.google.api.client.json.JsonFactory#configure(Object,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "skipChildren",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#skipChildren()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "skipChildren",
+            "name": "com.google.api.client.json.JsonParser#skipChildren()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentName",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getCurrentName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentName",
+            "name": "com.google.api.client.json.JsonParser#getCurrentName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory#createJsonParser(Reader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "JsonFactory",
+                "JsonParser"
+            ],
+            "templateArguments": [],
+            "function": "JacksonParser",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#JacksonParser(JsonFactory,JsonParser)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.JsonFactory#createJsonParser(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Reader"],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "com.google.api.client.util.Preconditions.checkNotNull(Reader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getShortValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getShortValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getShortValue",
+            "name": "com.google.api.client.json.JsonParser#getShortValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndArray",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeEndArray()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndArray",
+            "name": "com.google.api.client.json.JsonGenerator#writeEndArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "writeBoolean",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeBoolean(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "writeBoolean",
+            "name": "com.google.api.client.json.JsonGenerator#writeBoolean(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFloatValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getFloatValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFloatValue",
+            "name": "com.google.api.client.json.JsonParser#getFloatValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.api.client.json.JsonParser#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentToken",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getCurrentToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentToken",
+            "name": "com.google.api.client.json.JsonParser#getCurrentToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JsonToken"],
+            "templateArguments": [],
+            "function": "convert",
+            "name": "com.google.api.client.json.jackson2.JacksonParser.convert(JsonToken)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory#createJsonParser(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.JsonFactory#createJsonParser(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "com.google.api.client.util.Preconditions.checkNotNull(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory.InstanceHolder.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory.InstanceHolder",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getByteValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getByteValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getByteValue",
+            "name": "com.google.api.client.json.JsonParser#getByteValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIntValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getIntValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIntValue",
+            "name": "com.google.api.client.json.JsonParser#getIntValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory#createJsonParser(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.JsonFactory#createJsonParser(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "checkNotNull",
+            "name": "com.google.api.client.util.Preconditions.checkNotNull(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.util.Preconditions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigInteger"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(BigInteger)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigInteger"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(BigInteger)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLongValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getLongValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLongValue",
+            "name": "com.google.api.client.json.JsonParser#getLongValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefaultInstance",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory.getDefaultInstance()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigDecimal"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(BigDecimal)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BigDecimal"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(BigDecimal)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndObject",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeEndObject()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeEndObject",
+            "name": "com.google.api.client.json.JsonGenerator#writeEndObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextToken",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#nextToken()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "nextToken",
+            "name": "com.google.api.client.json.JsonParser#nextToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.google.api.client.json.JsonGenerator#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDecimalValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getDecimalValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDecimalValue",
+            "name": "com.google.api.client.json.JsonParser#getDecimalValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "JsonFactory",
+                "JsonGenerator"
+            ],
+            "templateArguments": [],
+            "function": "JacksonGenerator",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#JacksonGenerator(JsonFactory,JsonGenerator)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "enablePrettyPrint",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#enablePrettyPrint()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "useDefaultPrettyPrinter",
+            "name": "com.google.api.client.json.JsonGenerator#useDefaultPrettyPrinter()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["float"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(float)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["float"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(float)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "createJsonParser",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory#createJsonParser(InputStream,Charset)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNumber(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeNumber",
+            "name": "com.google.api.client.json.JsonGenerator#writeNumber(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBigIntegerValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getBigIntegerValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBigIntegerValue",
+            "name": "com.google.api.client.json.JsonParser#getBigIntegerValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.google.api.client.json.JsonGenerator#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeFieldName",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeFieldName(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeFieldName",
+            "name": "com.google.api.client.json.JsonGenerator#writeFieldName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartObject",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeStartObject()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartObject",
+            "name": "com.google.api.client.json.JsonGenerator#writeStartObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.json.jackson2.JacksonParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Writer"],
+            "templateArguments": [],
+            "function": "createJsonGenerator",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory#createJsonGenerator(Writer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Writer"],
+            "templateArguments": [],
+            "function": "createJsonGenerator",
+            "name": "com.google.api.client.json.JsonFactory#createJsonGenerator(Writer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getText",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getText()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getText",
+            "name": "com.google.api.client.json.JsonParser#getText()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "createJsonGenerator",
+            "name": "com.google.api.client.json.jackson2.JacksonFactory#createJsonGenerator(OutputStream,Charset)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "createJsonGenerator",
+            "name": "com.google.api.client.json.JsonFactory#createJsonGenerator(OutputStream,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDoubleValue",
+            "name": "com.google.api.client.json.jackson2.JacksonParser#getDoubleValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDoubleValue",
+            "name": "com.google.api.client.json.JsonParser#getDoubleValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeNull",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeNull()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeNull",
+            "name": "com.google.api.client.json.JsonGenerator#writeNull()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartArray",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeStartArray()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeStartArray",
+            "name": "com.google.api.client.json.JsonGenerator#writeStartArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeString",
+            "name": "com.google.api.client.json.jackson2.JacksonGenerator#writeString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JacksonGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeString",
+            "name": "com.google.api.client.json.JsonGenerator#writeString(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.json.JsonGenerator",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 96,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 0,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 96,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 43,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 43,
+                "column": 7,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 48,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 68,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 6,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 68,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 58,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 58,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 8,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 80,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 80,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 10,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 80,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 79,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 94,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 94,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 14,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 16,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 18,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 84,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 84,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 20,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 48,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 48,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 22,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 63,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 24,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 63,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 63,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 98,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 27,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 98,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 98,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 27,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 97,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 63,
+                "column": 44,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 30,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 79,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 31,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 79,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 89,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 89,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 33,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 86,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 35,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 86,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 86,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 35,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 85,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 38,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 114,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 114,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 40,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 52,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 42,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 106,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 43,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 106,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 66,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 45,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 66,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 53,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 47,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 53,
+                "column": 20,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 53,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 47,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 51,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 51,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 49,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 104,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 104,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 51,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 39,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 86,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 55,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 86,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 55,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 131,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 101,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 101,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 59,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 92,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 61,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 92,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 61,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 92,
+                "column": 36,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 61,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 61,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 81,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 62,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 111,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 64,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 111,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 99,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 66,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 99,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 68,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 70,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 121,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 72,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 121,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 41,
+                "column": 3,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 11,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 75,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 74,
+                "column": 39,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 74,
+                "column": 39,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 75,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 77,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 69,
+                "column": 15,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 79,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 69,
+                "column": 15,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 79,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "JacksonFactory.java",
+                "line": 68,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 79,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 109,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "JacksonParser.java",
+                "line": 109,
+                "column": 12,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 81,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 76,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 83,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 76,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 116,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 85,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 116,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 85,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 126,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 87,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "JacksonGenerator.java",
+                "line": 126,
+                "column": 5,
+                "directory": "src/main/java/com/google/api/client/json/jackson2"
+            },
+            "caller": 87,
+            "callee": 88
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.google.api.client.json.jackson2",
+        "isRoot": false,
+        "module": -1,
+        "name": "jackson2",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
