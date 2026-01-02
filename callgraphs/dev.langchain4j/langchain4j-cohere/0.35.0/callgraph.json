@@ -1,0 +1,2092 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "Duration",
+                "Integer",
+                "Proxy",
+                "Boolean",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "CohereScoringModel",
+            "name": "dev.langchain4j.model.cohere.CohereScoringModel#CohereScoringModel(String,String,String,Duration,Integer,Proxy,Boolean,Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereScoringModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.cohere.CohereScoringModel.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereScoringModel",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.cohere.CohereScoringModel.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereScoringModel",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.cohere.ResponseLoggingInterceptor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ResponseLoggingInterceptor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<ResponseLoggingInterceptor>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<RequestLoggingInterceptor>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Chain"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor#intercept(Chain)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "proceed",
+            "name": "okhttp3.Interceptor.Chain#proceed(Request)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Interceptor.Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "okhttp3.Interceptor.Chain#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Interceptor.Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor#log(Request)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RerankRequest"],
+            "templateArguments": [],
+            "function": "rerank",
+            "name": "dev.langchain4j.model.cohere.CohereClient#rerank(RerankRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "body",
+            "name": "retrofitResponse#body()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofitResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["retrofit2<?>"],
+            "templateArguments": [],
+            "function": "toException",
+            "name": "dev.langchain4j.model.cohere.CohereClient.toException(retrofit2)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isSuccessful",
+            "name": "retrofitResponse#isSuccessful()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofitResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "retrofit2.Call#execute()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Call",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "getBody",
+            "name": "dev.langchain4j.model.cohere.ResponseLoggingInterceptor#getBody(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ResponseLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "peekBody",
+            "name": "okhttp3.Response#peekBody(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EmbedRequest"],
+            "templateArguments": [],
+            "function": "embed",
+            "name": "dev.langchain4j.model.cohere.CohereClient#embed(EmbedRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Headers"],
+            "templateArguments": [],
+            "function": "inOneLine",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor.inOneLine(Headers)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "url",
+            "name": "okhttp3.Request#url()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "method",
+            "name": "okhttp3.Request#method()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "getBody",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor.getBody(Request)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "headers",
+            "name": "okhttp3.Request#headers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "Object",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,Object,Object,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readUtf8",
+            "name": "okio.Buffer#readUtf8()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "body",
+            "name": "okhttp3.Request#body()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okio.Buffer.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Buffer",
+            "name": "okio.Buffer#Buffer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okio.Buffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "maskAuthorizationHeaderValue",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor.maskAuthorizationHeaderValue(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StringBuffer",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "appendReplacement",
+            "name": "java.util.regex.Matcher#appendReplacement(StringBuffer,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuffer.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuffer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuffer",
+            "name": "java.lang.StringBuffer#StringBuffer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringBuffer"],
+            "templateArguments": [],
+            "function": "appendTail",
+            "name": "java.util.regex.Matcher#appendTail(StringBuffer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "group",
+            "name": "java.util.regex.Matcher#group(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "find",
+            "name": "java.util.regex.Matcher#find()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuffer#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "headerKey",
+                "headerValue"
+            ],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.lang.String.format(String,headerKey,headerValue)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "spliterator",
+            "name": "okhttp3.Headers#spliterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Headers",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "component1",
+            "name": "header#component1()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "header",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "joining",
+            "name": "java.util.stream.Collectors.joining(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "component2",
+            "name": "header#component2()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "header",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "headerKey#equals(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "headerKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Chain"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "dev.langchain4j.model.cohere.ResponseLoggingInterceptor#intercept(Chain)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ResponseLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Response"],
+            "templateArguments": [],
+            "function": "log",
+            "name": "dev.langchain4j.model.cohere.ResponseLoggingInterceptor#log(Response)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ResponseLoggingInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<TextSegment>"],
+            "templateArguments": [],
+            "function": "embedAll",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel#embedAll(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.List#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "embedTexts",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel#embedTexts(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "headers",
+            "name": "okhttp3.Response#headers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,Object,Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "okhttp3.Response#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "min",
+            "name": "java.lang.Math.min(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EmbedResponse"],
+            "templateArguments": [],
+            "function": "getTokenUsage",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel.getTokenUsage(EmbedResponse)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "subList",
+            "name": "java.util.List#subList(int,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Integer",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "TokenUsage",
+            "name": "dev.langchain4j.model.output.TokenUsage#TokenUsage(Integer,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.TokenUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<Embedding>",
+                "TokenUsage"
+            ],
+            "templateArguments": [],
+            "function": "from",
+            "name": "dev.langchain4j.model.output.Response.from(List,TokenUsage)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Embedding>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.List#addAll(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EmbedResponse"],
+            "templateArguments": [],
+            "function": "getEmbeddings",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel.getEmbeddings(EmbedResponse)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.cohere.CohereClient.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereClient",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setPropertyNamingStrategy",
+            "name": "com.fasterxml.jackson.databind.ObjectMapper#setPropertyNamingStrategy(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.databind.ObjectMapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.databind.ObjectMapper",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ObjectMapper",
+            "name": "com.fasterxml.jackson.databind.ObjectMapper#ObjectMapper()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.databind.ObjectMapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<TextSegment>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "scoreAll",
+            "name": "dev.langchain4j.model.cohere.CohereScoringModel#scoreAll(List,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereScoringModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["request"],
+            "templateArguments": [],
+            "function": "rerank",
+            "name": "client#rerank(request)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "client",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<Double>",
+                "TokenUsage"
+            ],
+            "templateArguments": [],
+            "function": "from",
+            "name": "dev.langchain4j.model.output.Response.from(List,TokenUsage)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "TokenUsage",
+            "name": "dev.langchain4j.model.output.TokenUsage#TokenUsage(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.model.output.TokenUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "errorBody",
+            "name": "response#errorBody()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "response#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "Duration",
+                "Proxy",
+                "Boolean",
+                "Boolean"
+            ],
+            "templateArguments": [],
+            "function": "CohereClient",
+            "name": "dev.langchain4j.model.cohere.CohereClient#CohereClient(String,String,Duration,Proxy,Boolean,Boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResponseLoggingInterceptor"],
+            "templateArguments": [],
+            "function": "addInterceptor",
+            "name": "okhttp3.OkHttpClient.Builder#addInterceptor(ResponseLoggingInterceptor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "retrofit2.Retrofit.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Retrofit.Builder",
+            "name": "retrofit2.Retrofit.Builder#Retrofit.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.cohere.ResponseLoggingInterceptor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ResponseLoggingInterceptor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Proxy"],
+            "templateArguments": [],
+            "function": "proxy",
+            "name": "okhttp3.OkHttpClient.Builder#proxy(Proxy)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.cohere.CohereClient.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereClient",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<CohereApi>"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "retrofit2.Retrofit#create(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "okhttp3.OkHttpClient.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "callTimeout",
+            "name": "okhttp3.OkHttpClient#callTimeout(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Proxy"],
+            "templateArguments": [],
+            "function": "nonNull",
+            "name": "java.util.Objects.nonNull(Proxy)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RequestLoggingInterceptor"],
+            "templateArguments": [],
+            "function": "addInterceptor",
+            "name": "okhttp3.OkHttpClient.Builder#addInterceptor(RequestLoggingInterceptor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ensureTrailingForwardSlash",
+            "name": "dev.langchain4j.internal.Utils.ensureTrailingForwardSlash(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "dev.langchain4j.internal.Utils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ObjectMapper"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "retrofit2.converter.jackson.JacksonConverterFactory.create(ObjectMapper)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.converter.jackson.JacksonConverterFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "baseUrl",
+            "name": "retrofit2.Retrofit#baseUrl(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "retrofit2.Retrofit",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okhttp3.OkHttpClient.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OkHttpClient.Builder",
+            "name": "okhttp3.OkHttpClient.Builder#OkHttpClient.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.cohere.RequestLoggingInterceptor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "RequestLoggingInterceptor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String",
+                "Duration",
+                "Boolean",
+                "Boolean",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "CohereEmbeddingModel",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel#CohereEmbeddingModel(String,String,String,String,Duration,Boolean,Boolean,Integer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "dev.langchain4j.model.cohere.CohereEmbeddingModel.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CohereEmbeddingModel",
+            "properties": ["static initializer"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "CohereScoringModel.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CohereScoringModel.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 15,
+                "column": 39,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 22,
+                "column": 51,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 20,
+                "column": 39,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 27,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 25,
+                "column": 27,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 26,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 83,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 85,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 82,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 80,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 12,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 88,
+                "column": 19,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 40,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 36,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 18,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 38,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 18,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 70,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 21,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 67,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 21,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 65,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 21,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 73,
+                "column": 19,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 21,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 68,
+                "column": 24,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 21,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 39,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 38,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 37,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 40,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 39,
+                "column": 27,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 11,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 76,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 75,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 25,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 25,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 25,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 74,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 25,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 78,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 25,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 62,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 56,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 59,
+                "column": 31,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 59,
+                "column": 31,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 65,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 62,
+                "column": 47,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 62,
+                "column": 66,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 61,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 62,
+                "column": 93,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 58,
+                "column": 31,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 66,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 33,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 52,
+                "column": 28,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 22,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 45,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 22,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 47,
+                "column": 40,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 22,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 53,
+                "column": 28,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 22,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 48,
+                "column": 42,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 22,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "RequestLoggingInterceptor.java",
+                "line": 49,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 22,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 18,
+                "column": 27,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 48,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 19,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 48,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 67,
+                "column": 30,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 71,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 24,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 49,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 31,
+                "column": 27,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 49,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 25,
+                "column": 9,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 49,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 32,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 49,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ResponseLoggingInterceptor.java",
+                "line": 30,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 49,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 82,
+                "column": 51,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 93,
+                "column": 32,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 82,
+                "column": 34,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 98,
+                "column": 17,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 96,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 92,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 90,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 92,
+                "column": 31,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 80,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 82,
+                "column": 85,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 77,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 77,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 52,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 23,
+                "column": 55,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 23,
+                "column": 55,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 66,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 23,
+                "column": 55,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 66,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "CohereScoringModel.java",
+                "line": 74,
+                "column": 51,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "CohereScoringModel.java",
+                "line": 81,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 70,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "CohereScoringModel.java",
+                "line": 69,
+                "column": 28,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 70,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CohereScoringModel.java",
+                "line": 81,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 94,
+                "column": 23,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 14,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 93,
+                "column": 20,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 14,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 96,
+                "column": 16,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 14,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 45,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 52,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 52,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 45,
+                "column": 48,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 49,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 58,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 54,
+                "column": 25,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 35,
+                "column": 52,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 42,
+                "column": 13,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 53,
+                "column": 26,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 55,
+                "column": 38,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 52,
+                "column": 29,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 35,
+                "column": 52,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 35,
+                "column": 52,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CohereClient.java",
+                "line": 42,
+                "column": 48,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 77,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 95,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "CohereEmbeddingModel.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/dev/langchain4j/model/cohere"
+            },
+            "caller": 95,
+            "callee": 97
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "dev.langchain4j.model.cohere",
+        "isRoot": false,
+        "module": -1,
+        "name": "cohere",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
