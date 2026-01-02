@@ -1,0 +1,1799 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "createFromMap",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.createFromMap(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyMap",
+            "name": "java.util.Collections.emptyMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Map<?, ?>",
+                "Map<String, String>",
+                "Map<String, String>",
+                "ComponentLoader"
+            ],
+            "templateArguments": [],
+            "function": "DefaultConfigProperties",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#DefaultConfigProperties(Map,Map,Map,ComponentLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassLoader",
+            "name": "java.lang.Class#getClassLoader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ClassLoader"],
+            "templateArguments": [],
+            "function": "forClassLoader",
+            "name": "io.opentelemetry.common.ComponentLoader.forClassLoader(ClassLoader)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.common.ComponentLoader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "getDouble",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getDouble(String,double)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getDouble",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getDouble(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Duration"
+            ],
+            "templateArguments": [],
+            "function": "getDuration",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getDuration(String,Duration)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getDuration",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getDuration(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "getBoolean",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getBoolean(String,boolean)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getBoolean",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getBoolean(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DefaultConfigProperties",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "DefaultConfigProperties",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#DefaultConfigProperties(DefaultConfigProperties,Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "normalizePropertyKey",
+            "name": "io.opentelemetry.api.internal.ConfigUtil.normalizePropertyKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.internal.ConfigUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BiConsumer<? super String, ? super String>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.Map#forEach(BiConsumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getMap",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getMap(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "splitKeyValuePairs#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "splitKeyValuePairs",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "SimpleImmutableEntry",
+            "name": "java.util.AbstractMap.SimpleImmutableEntry#SimpleImmutableEntry(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.AbstractMap.SimpleImmutableEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ConfigurationException",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigurationException#ConfigurationException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.sdk.autoconfigure.spi.ConfigurationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "toMap",
+            "name": "java.util.stream.Collectors.toMap(Object,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["name"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "config#get(name)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "config",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "splitKeyValuePairs#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "splitKeyValuePairs",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "split",
+            "name": "entry#split(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.List#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getList",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getList(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["split"],
+            "templateArguments": [],
+            "function": "isNullOrEmpty",
+            "name": "io.opentelemetry.api.internal.StringUtils.isNullOrEmpty(split)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.internal.StringUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Map<String, String>"
+            ],
+            "templateArguments": [],
+            "function": "getMap",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getMap(String,Map)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Map#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getString",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "List<String>"
+            ],
+            "templateArguments": [],
+            "function": "getList",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getList(String,List)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Map<String, String>",
+                "ComponentLoader"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.create(Map,ComponentLoader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getenv",
+            "name": "java.lang.System.getenv()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "safeSystemProperties",
+            "name": "io.opentelemetry.api.internal.ConfigUtil.safeSystemProperties()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.internal.ConfigUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "getLong",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getLong(String,long)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getLong",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getLong(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "normalizeEnvironmentVariableKey",
+            "name": "io.opentelemetry.api.internal.ConfigUtil.normalizeEnvironmentVariableKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentelemetry.api.internal.ConfigUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.Object#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["BiConsumer<? super Object, ? super Object>"],
+            "templateArguments": [],
+            "function": "forEach",
+            "name": "java.util.Map#forEach(BiConsumer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getComponentLoader",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getComponentLoader()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getDurationUnit",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.getDurationUnit(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ConfigurationException",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigurationException#ConfigurationException(String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigurationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "filterBlanksAndNulls",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.filterBlanksAndNulls(String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "map",
+            "name": "IntStream#map(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "java.util.Arrays.stream(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Predicate<? super String>"],
+            "templateArguments": [],
+            "function": "filter",
+            "name": "IntStream#filter(Predicate)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collector<T, ?, List<T>>"],
+            "templateArguments": [],
+            "function": "collect",
+            "name": "IntStream#collect(Collector)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "IntStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toList",
+            "name": "java.util.stream.Collectors.toList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigurationException.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigurationException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "newInvalidPropertyException",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.newInvalidPropertyException(String,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getInt",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getInt(String,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getInt",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#getInt(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getString",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties#getString(String,String)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "ConfigurationException",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.ConfigurationException#ConfigurationException(String,Throwable)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConfigurationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "ofNanos",
+            "name": "java.time.Duration.ofNanos(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "convert",
+            "name": "TimeUnit#convert(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TimeUnit",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getUnitString",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.getUnitString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ConfigProperties",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getSet",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties.getSet(ConfigProperties,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.Set#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<String>"],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "counting",
+            "name": "java.util.stream.Collectors.counting()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Collectors",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "identity",
+            "name": "java.util.function.Function.identity()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.Function",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, String>"],
+            "templateArguments": [],
+            "function": "withOverrides",
+            "name": "io.opentelemetry.sdk.autoconfigure.spi.internal.DefaultConfigProperties#withOverrides(Map)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "DefaultConfigProperties",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 65,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 62,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 66,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 66,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 122,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 159,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 59,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 87,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 91,
+                "column": 51,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 90,
+                "column": 34,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 11,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 91,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 11,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 11,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 238,
+                "column": 48,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 237,
+                "column": 17,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 228,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 242,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 229,
+                "column": 61,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 234,
+                "column": 39,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 226,
+                "column": 32,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 223,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 223,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 223,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 238,
+                "column": 21,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 227,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 17,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 206,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 205,
+                "column": 33,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 28,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 100,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 30,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 100,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 182,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 181,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 32,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 54,
+                "column": 44,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 53,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 34,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 101,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 81,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 78,
+                "column": 37,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 78,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 81,
+                "column": 24,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 81,
+                "column": 56,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 79,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 69,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 75,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 74,
+                "column": 34,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 74,
+                "column": 34,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 76,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 81,
+                "column": 73,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 77,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 76,
+                "column": 37,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 211,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 44,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 211,
+                "column": 43,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 44,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 291,
+                "column": 15,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 266,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 266,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 266,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 47,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 266,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 47,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 269,
+                "column": 18,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 47,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "ConfigurationException.java",
+                "line": 15,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 46,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ConfigurationException.java",
+                "line": 13,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 46,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 132,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 38,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 132,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 38,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 139,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 38,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 261,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 55,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 80,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ConfigProperties.java",
+                "line": 37,
+                "column": 26,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 58,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 124,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 57,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 117,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 57,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 117,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 57,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 147,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 6,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 154,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 6,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 147,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 6,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ConfigurationException.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ConfigurationException.java",
+                "line": 18,
+                "column": 3,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi"
+            },
+            "caller": 59,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 173,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 175,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 172,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 162,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 162,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 173,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 166,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 184,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 8,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 106,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 106,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 10,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 191,
+                "column": 20,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 26,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 195,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 26,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 191,
+                "column": 31,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 26,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 193,
+                "column": 14,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 26,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 209,
+                "column": 11,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 207,
+                "column": 9,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 206,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 205,
+                "column": 40,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 210,
+                "column": 56,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 205,
+                "column": 25,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 207,
+                "column": 23,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 210,
+                "column": 35,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 216,
+                "column": 13,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 213,
+                "column": 32,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 65,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "DefaultConfigProperties.java",
+                "line": 256,
+                "column": 12,
+                "directory": "src/main/java/io/opentelemetry/sdk/autoconfigure/spi/internal"
+            },
+            "caller": 72,
+            "callee": 11
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "io.opentelemetry.sdk.autoconfigure.spi.internal",
+            "isRoot": false,
+            "module": -1,
+            "name": "internal",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "io.opentelemetry.sdk.autoconfigure.spi",
+            "isRoot": false,
+            "module": -1,
+            "name": "spi",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
