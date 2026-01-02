@@ -1,0 +1,2373 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "message",
+            "name": "com.google.cloud.http.BaseHttpServiceException.message(IOException)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDetails",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonResponseException#getDetails()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonResponseException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.io.IOException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonError#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonError",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequestInitializer"],
+            "templateArguments": [],
+            "function": "CensusHttpRequestInitializer",
+            "name": "com.google.cloud.http.CensusHttpModule.CensusHttpRequestInitializer#CensusHttpRequestInitializer(HttpRequestInitializer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.CensusHttpRequestInitializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.CensusHttpModule.CensusHttpRequestInitializer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.CensusHttpRequestInitializer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.cloud.http.HttpTransportOptions.DefaultHttpTransportFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.DefaultHttpTransportFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.HttpTransportOptions.DefaultHttpTransportFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.DefaultHttpTransportFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "GoogleJsonError",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "BaseHttpServiceException",
+            "name": "com.google.cloud.http.BaseHttpServiceException#BaseHttpServiceException(GoogleJsonError,boolean,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.BaseHttpServiceException.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ExceptionData"],
+            "templateArguments": [],
+            "function": "BaseServiceException",
+            "name": "com.google.cloud.BaseServiceException#BaseServiceException(ExceptionData)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "GoogleJsonError",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "makeExceptionData",
+            "name": "com.google.cloud.http.BaseHttpServiceException.makeExceptionData(GoogleJsonError,boolean,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServiceOptions<?, ?>"],
+            "templateArguments": [],
+            "function": "getInternalHeaderProviderBuilder",
+            "name": "com.google.cloud.http.HttpTransportOptions#getInternalHeaderProviderBuilder(ServiceOptions)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getLibraryVersion",
+            "name": "com.google.api.gax.core.GaxProperties.getLibraryVersion(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.core.GaxProperties",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getGoogApiClientLibName",
+            "name": "com.google.cloud.ServiceOptions.getGoogApiClientLibName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "com.google.cloud.ServiceOptions#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setClientLibToken",
+            "name": "com.google.api.gax.rpc.ApiClientHeaderProvider.Builder#setClientLibToken(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiClientHeaderProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getQuotaProjectId",
+            "name": "com.google.cloud.ServiceOptions#getQuotaProjectId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "com.google.api.gax.rpc.ApiClientHeaderProvider.newBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiClientHeaderProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setQuotaProjectIdToken",
+            "name": "com.google.api.gax.rpc.ApiClientHeaderProvider.Builder#setQuotaProjectIdToken(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiClientHeaderProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "HttpTransportOptions",
+            "name": "com.google.cloud.http.HttpTransportOptions#HttpTransportOptions(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.HttpTransportOptions.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Class<HttpTransportFactory>",
+                "HttpTransportFactory"
+            ],
+            "templateArguments": [],
+            "function": "getFromServiceLoader",
+            "name": "com.google.cloud.ServiceOptions.getFromServiceLoader(Class,HttpTransportFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "com.google.auth.http.HttpTransportFactory#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.auth.http.HttpTransportFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "com.google.cloud.http.HttpTransportOptions#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "hash",
+            "name": "java.util.Objects.hash(String,int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequest"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "com.google.cloud.http.CensusHttpModule.CensusHttpExecuteInterceptor#intercept(HttpRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.CensusHttpExecuteInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeaders",
+            "name": "com.google.api.client.http.HttpRequest#getHeaders()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Object",
+                "propagationTextFormatSetter"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "io.opencensus.trace.propagation.TextFormat#inject(SpanContext,Object,propagationTextFormatSetter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opencensus.trace.propagation.TextFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequest"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "com.google.api.client.http.HttpExecuteInterceptor#intercept(HttpRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpExecuteInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentSpan",
+            "name": "io.opencensus.trace.Tracer#getCurrentSpan()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opencensus.trace.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IOException",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "makeExceptionData",
+            "name": "com.google.cloud.http.BaseHttpServiceException.makeExceptionData(IOException,boolean,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GoogleJsonError"],
+            "templateArguments": [],
+            "function": "reason",
+            "name": "com.google.cloud.http.BaseHttpServiceException.reason(GoogleJsonError)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatusCode",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonResponseException#getStatusCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonResponseException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.cloud.http.BaseHttpServiceException.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatusCode",
+            "name": "com.google.api.client.http.HttpResponseException#getStatusCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpResponseException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.cloud.BaseServiceException.isRetryable(boolean,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLocation",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonError.ErrorInfo#getLocation()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonError.ErrorInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "ExceptionData#newBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getReason",
+            "name": "com.google.cloud.BaseServiceException.Error#getReason()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException.Error",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCode",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonError#getCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonError",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "null",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.cloud.BaseServiceException.isRetryable(int,null,boolean,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCode",
+            "name": "com.google.cloud.BaseServiceException.Error#getCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException.Error",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getErrors",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonError#getErrors()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonError",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.cloud.BaseServiceException.Error#isRetryable(boolean,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException.Error",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Boolean",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "firstNonNull",
+            "name": "com.google.common.base.MoreObjects.firstNonNull(Boolean,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.base.MoreObjects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "BaseServiceException.Error",
+            "name": "com.google.cloud.BaseServiceException.Error#BaseServiceException.Error(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException.Error",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.api.client.googleapis.json.GoogleJsonError.ErrorInfo#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.googleapis.json.GoogleJsonError.ErrorInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequestInitializer"],
+            "templateArguments": [],
+            "function": "getHttpRequestInitializer",
+            "name": "com.google.cloud.http.CensusHttpModule#getHttpRequestInitializer(HttpRequestInitializer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "com.google.cloud.http.HttpTransportOptions.Builder#Builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.HttpTransportOptions.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ObjectInputStream"],
+            "templateArguments": [],
+            "function": "readObject",
+            "name": "com.google.cloud.http.HttpTransportOptions#readObject(ObjectInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "defaultReadObject",
+            "name": "java.io.ObjectInputStream#defaultReadObject()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ObjectInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "newInstance",
+            "name": "com.google.cloud.ServiceOptions.newInstance(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "HttpHeaders",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "com.google.cloud.http.CensusHttpModule.DefaultPropagationTextFormatSetter#put(HttpHeaders,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.DefaultPropagationTextFormatSetter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "com.google.api.client.http.HttpHeaders#set(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpHeaders",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequest"],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "com.google.cloud.http.HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)$HttpRequestInitializer$1#initialize(HttpRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)$HttpRequestInitializer$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "determineUniverseDomain",
+            "name": "com.google.cloud.http.HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)$HttpRequestInitializer$1#determineUniverseDomain()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)$HttpRequestInitializer$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeaders",
+            "name": "com.google.api.gax.rpc.HeaderProvider#getHeaders()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.HeaderProvider",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setHeaders",
+            "name": "com.google.api.gax.httpjson.HttpHeadersUtils.setHeaders(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.httpjson.HttpHeadersUtils",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.api.gax.httpjson.HttpJsonStatusCode.of(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.httpjson.HttpJsonStatusCode",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setReadTimeout",
+            "name": "com.google.api.client.http.HttpRequest#setReadTimeout(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Throwable",
+                "Object",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "UnauthenticatedException",
+            "name": "com.google.api.gax.rpc.UnauthenticatedException#UnauthenticatedException(Throwable,Object,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.UnauthenticatedException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setConnectTimeout",
+            "name": "com.google.api.client.http.HttpRequest#setConnectTimeout(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "Throwable",
+            "name": "java.lang.Throwable#Throwable(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequest"],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "com.google.cloud.http.CensusHttpModule.CensusHttpRequestInitializer#initialize(HttpRequest)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.CensusHttpRequestInitializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpRequest"],
+            "templateArguments": [],
+            "function": "initialize",
+            "name": "com.google.api.client.http.HttpRequestInitializer#initialize(HttpRequest)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpRequestInitializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCredentials",
+            "name": "com.google.auth.http.HttpCredentialsAdapter#getCredentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.auth.http.HttpCredentialsAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setDebugInfo",
+            "name": "ExceptionData.Builder#setDebugInfo(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "isRetryable",
+            "name": "com.google.cloud.BaseServiceException.isRetryable(int,String,boolean,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setMessage",
+            "name": "ExceptionData.Builder#setMessage(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setLocation",
+            "name": "ExceptionData.Builder#setLocation(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "setLocation",
+            "name": "ExceptionData.Builder#setLocation(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "setDebugInfo",
+            "name": "ExceptionData.Builder#setDebugInfo(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "ExceptionData.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ExceptionData.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.google.cloud.http.HttpTransportOptions.DefaultHttpTransportFactory#create()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.DefaultHttpTransportFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "UrlFetchTransport",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport#UrlFetchTransport()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.extensions.appengine.http.UrlFetchTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.extensions.appengine.http.UrlFetchTransport.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.extensions.appengine.http.UrlFetchTransport",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NetHttpTransport",
+            "name": "com.google.api.client.http.javanet.NetHttpTransport#NetHttpTransport()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.javanet.NetHttpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.api.client.http.javanet.NetHttpTransport.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.javanet.NetHttpTransport",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isOnGAEStandard7",
+            "name": "com.google.cloud.PlatformInformation.isOnGAEStandard7()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.PlatformInformation",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toBuilder",
+            "name": "com.google.cloud.http.HttpTransportOptions#toBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpTransportOptions"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "com.google.cloud.http.HttpTransportOptions.Builder#Builder(HttpTransportOptions)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tracer",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "CensusHttpModule",
+            "name": "com.google.cloud.http.CensusHttpModule#CensusHttpModule(Tracer,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCloudTraceFormat",
+            "name": "io.opencensus.contrib.http.util.HttpPropagationUtil.getCloudTraceFormat()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opencensus.contrib.http.util.HttpPropagationUtil",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.CensusHttpModule.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getenv",
+            "name": "java.lang.System.getenv(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUniverseDomain",
+            "name": "com.google.cloud.ServiceOptions#getUniverseDomain()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String",
+                "String",
+                "boolean",
+                "Set<BaseServiceException>",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "BaseHttpServiceException",
+            "name": "com.google.cloud.http.BaseHttpServiceException#BaseHttpServiceException(int,String,String,boolean,Set,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "BaseServiceException",
+            "name": "com.google.cloud.BaseServiceException#BaseServiceException(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.BaseServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.cloud.http.HttpTransportOptions.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IOException",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "BaseHttpServiceException",
+            "name": "com.google.cloud.http.BaseHttpServiceException#BaseHttpServiceException(IOException,boolean,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String",
+                "String",
+                "boolean",
+                "Set<BaseServiceException>"
+            ],
+            "templateArguments": [],
+            "function": "BaseHttpServiceException",
+            "name": "com.google.cloud.http.BaseHttpServiceException#BaseHttpServiceException(int,String,String,boolean,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseHttpServiceException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpExecuteInterceptor"],
+            "templateArguments": [],
+            "function": "CensusHttpExecuteInterceptor",
+            "name": "com.google.cloud.http.CensusHttpModule.CensusHttpExecuteInterceptor#CensusHttpExecuteInterceptor(HttpExecuteInterceptor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.CensusHttpExecuteInterceptor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CensusHttpExecuteInterceptor"],
+            "templateArguments": [],
+            "function": "setInterceptor",
+            "name": "com.google.api.client.http.HttpRequest#setInterceptor(CensusHttpExecuteInterceptor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInterceptor",
+            "name": "com.google.api.client.http.HttpRequest#getInterceptor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.client.http.HttpRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ServiceOptions<?, ?>"],
+            "templateArguments": [],
+            "function": "getHttpRequestInitializer",
+            "name": "com.google.cloud.http.HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Credentials"],
+            "templateArguments": [],
+            "function": "HttpCredentialsAdapter",
+            "name": "com.google.auth.http.HttpCredentialsAdapter#HttpCredentialsAdapter(Credentials)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.auth.http.HttpCredentialsAdapter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)$HttpRequestInitializer$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions#getHttpRequestInitializer(ServiceOptions)$HttpRequestInitializer$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["HeaderProvider"],
+            "templateArguments": [],
+            "function": "getMergedHeaderProvider",
+            "name": "com.google.cloud.ServiceOptions#getMergedHeaderProvider(HeaderProvider)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getScopedCredentials",
+            "name": "com.google.cloud.ServiceOptions#getScopedCredentials()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.ServiceOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInstance",
+            "name": "com.google.cloud.NoCredentials.getInstance()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.cloud.NoCredentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.google.api.gax.rpc.ApiClientHeaderProvider.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.api.gax.rpc.ApiClientHeaderProvider.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "com.google.cloud.http.HttpTransportOptions#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "com.google.cloud.http.HttpTransportOptions.newBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpTransportOptions",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.cloud.http.CensusHttpModule.CensusHttpExecuteInterceptor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CensusHttpModule.CensusHttpExecuteInterceptor",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 159,
+                "column": 33,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 164,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 161,
+                "column": 16,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 101,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 57,
+                "column": 58,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 6,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 86,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 91,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 219,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 218,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 219,
+                "column": 41,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 217,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 220,
+                "column": 36,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 216,
+                "column": 47,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 220,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 12,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 127,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 127,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 20,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 131,
+                "column": 13,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 20,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 133,
+                "column": 37,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 20,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 246,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 87,
+                "column": 28,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 86,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 26,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 81,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 26,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 81,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 26,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 84,
+                "column": 35,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 26,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 52,
+                "column": 67,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 74,
+                "column": 21,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 62,
+                "column": 18,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 40,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 69,
+                "column": 16,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 78,
+                "column": 28,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 58,
+                "column": 24,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 73,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 54,
+                "column": 20,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 52,
+                "column": 46,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 63,
+                "column": 23,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 53,
+                "column": 18,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 57,
+                "column": 51,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 70,
+                "column": 21,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 55,
+                "column": 23,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 49,
+                "column": 37,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 77,
+                "column": 13,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 52,
+                "column": 15,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 59,
+                "column": 34,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 31,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 154,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 48,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 80,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 49,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 264,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 265,
+                "column": 28,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 51,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 61,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 176,
+                "column": 43,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 209,
+                "column": 63,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 209,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 194,
+                "column": 15,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 206,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 188,
+                "column": 17,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 209,
+                "column": 37,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 203,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 189,
+                "column": 15,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 199,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 199,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 199,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 183,
+                "column": 39,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 56,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 98,
+                "column": 16,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 111,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 109,
+                "column": 45,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 111,
+                "column": 43,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 105,
+                "column": 23,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 110,
+                "column": 33,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 102,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 101,
+                "column": 43,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 99,
+                "column": 21,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 110,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 113,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 114,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 116,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 11,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 64,
+                "column": 18,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 64,
+                "column": 18,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 75,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 69,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 75,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 69,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 75,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 62,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 75,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 241,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 125,
+                "column": 34,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 115,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 169,
+                "column": 28,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 57,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 167,
+                "column": 33,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 57,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 137,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 138,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 88,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 142,
+                "column": 17,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 88,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 129,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 88,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 89,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 90,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 37,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 91,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 37,
+                "column": 11,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 91,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 34,
+                "column": 3,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 91,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 126,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 92,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 152,
+                "column": 14,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 32,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 32,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "BaseHttpServiceException.java",
+                "line": 151,
+                "column": 39,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 32,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 82,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 82,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 65,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 65,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 111,
+                "column": 30,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 65,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 111,
+                "column": 7,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 65,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 111,
+                "column": 63,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 65,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 152,
+                "column": 15,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 159,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 149,
+                "column": 37,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 155,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 151,
+                "column": 59,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 155,
+                "column": 9,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 96,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 258,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 254,
+                "column": 23,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 103,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 260,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 103,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 259,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 103,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "HttpTransportOptions.java",
+                "line": 269,
+                "column": 12,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 107,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CensusHttpModule.java",
+                "line": 73,
+                "column": 5,
+                "directory": "src/main/java/com/google/cloud/http"
+            },
+            "caller": 93,
+            "callee": 108
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.google.cloud.http",
+        "isRoot": false,
+        "module": -1,
+        "name": "http",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
