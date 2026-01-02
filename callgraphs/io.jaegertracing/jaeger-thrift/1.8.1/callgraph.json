@@ -1,0 +1,4459 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["OkHttpClient"],
+            "templateArguments": [],
+            "function": "withClient",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#withClient(OkHttpClient)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newBuilder",
+            "name": "okhttp3.OkHttpClient#newBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#read(byte[],int,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "arraycopy",
+            "name": "java.lang.System.arraycopy(byte[],int,byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DatagramPacket"],
+            "templateArguments": [],
+            "function": "receive",
+            "name": "java.net.DatagramSocket#receive(DatagramPacket)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isOpen",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#isOpen()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLength",
+            "name": "java.net.DatagramPacket#getLength()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramPacket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "DatagramPacket",
+            "name": "java.net.DatagramPacket#DatagramPacket(byte[],int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramPacket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "TTransportException",
+            "name": "org.apache.thrift.transport.TTransportException#TTransportException(Object,String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.TTransportException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "TTransportException",
+            "name": "org.apache.thrift.transport.TTransportException#TTransportException(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.TTransportException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "calculateSpanSize",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#calculateSpanSize(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SenderException",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#SenderException(String,Exception,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TBase<?, ?>"],
+            "templateArguments": [],
+            "function": "getSize",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase#getSize(TBase)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "JaegerThriftSpanConverter",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter#JaegerThriftSpanConverter()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Process"],
+            "templateArguments": [],
+            "function": "calculateProcessSize",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#calculateProcessSize(Process)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPort",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#getPort()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLocalPort",
+            "name": "java.net.DatagramSocket#getLocalPort()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, ?>"],
+            "templateArguments": [],
+            "function": "buildTags",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.buildTags(Map)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tag"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Tag)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "buildTag",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.buildTag(String,Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SenderException",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SenderException",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#SenderException(String,SenderException,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Process",
+                "List<thriftjava>"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender#send(Process,List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.List#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "UdpSender",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender#UdpSender()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "UdpSender",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender#UdpSender(String,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#write(byte[],int,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.nio.ByteBuffer#put(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "position",
+            "name": "java.nio.ByteBuffer#position()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "TTransportException",
+            "name": "org.apache.thrift.transport.TTransportException#TTransportException(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.TTransportException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "allocate",
+            "name": "java.nio.ByteBuffer.allocate(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "okhttp3.MediaType.parse(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "withAuth",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#withAuth(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getAuthInterceptor",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#getAuthInterceptor(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#getAuthInterceptor(String)$Interceptor$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder#getAuthInterceptor(String)$Interceptor$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAgentClient",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender#getAgentClient()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ThriftUdpTransport"],
+            "templateArguments": [],
+            "function": "getProtocol",
+            "name": "TProtocolFactory#getProtocol(ThriftUdpTransport)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TProtocolFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "newThriftUdpClient",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport.newThriftUdpClient(String,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Agent.Client",
+            "name": "io.jaegertracing.agent.thrift.Agent.Client#Agent.Client(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.agent.thrift.Agent.Client",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ProtocolType",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "ThriftSenderBase",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase#ThriftSenderBase(ProtocolType,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase.ProtocolType.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase.ProtocolType",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TCompactProtocol.Factory",
+            "name": "org.apache.thrift.protocol.TCompactProtocol.Factory#TCompactProtocol.Factory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.protocol.TCompactProtocol.Factory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.thrift.protocol.TCompactProtocol.Factory.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.protocol.TCompactProtocol.Factory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TBinaryProtocol.Factory",
+            "name": "org.apache.thrift.protocol.TBinaryProtocol.Factory#TBinaryProtocol.Factory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.protocol.TBinaryProtocol.Factory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.thrift.protocol.TBinaryProtocol.Factory.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.protocol.TBinaryProtocol.Factory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TConfiguration",
+            "name": "org.apache.thrift.TConfiguration#TConfiguration()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.TConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.thrift.TConfiguration.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.TConfiguration",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "error",
+            "name": "log#error(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "log",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TConfiguration",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "AutoExpandingBufferWriteTransport",
+            "name": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport#AutoExpandingBufferWriteTransport(TConfiguration,int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TProtocolFactory"],
+            "templateArguments": [],
+            "function": "TSerializer",
+            "name": "org.apache.thrift.TSerializer#TSerializer(TProtocolFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.TSerializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "withAuth",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#withAuth(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "basic",
+            "name": "okhttp3.Credentials.basic(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Credentials",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TBase<?, ?>"],
+            "templateArguments": [],
+            "function": "serialize",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase#serialize(TBase)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TBase<?, ?>"],
+            "templateArguments": [],
+            "function": "serialize",
+            "name": "org.apache.thrift.TSerializer#serialize(TBase)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.TSerializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Chain"],
+            "templateArguments": [],
+            "function": "intercept",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#getAuthInterceptor(String)$Interceptor$1#intercept(Chain)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder#getAuthInterceptor(String)$Interceptor$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "request",
+            "name": "Chain#request()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "proceed",
+            "name": "Chain#proceed(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Chain",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OkHttpClient.Builder",
+            "name": "okhttp3.OkHttpClient.Builder#OkHttpClient.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okhttp3.OkHttpClient.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InetSocketAddress",
+            "name": "java.net.InetSocketAddress#InetSocketAddress(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThriftUdpTransport",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#ThriftUdpTransport()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SocketException"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,SocketException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InetSocketAddress"],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "java.net.DatagramSocket#connect(InetSocketAddress)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<LogData>"],
+            "templateArguments": [],
+            "function": "buildLogs",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.buildLogs(List)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "io.jaegertracing.internal.LogData#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.LogData",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setTimestamp",
+            "name": "io.jaegertracing.thriftjava.Log#setTimestamp(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Log",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Log"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Log)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTime",
+            "name": "io.jaegertracing.internal.LogData#getTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.LogData",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Tag>"],
+            "templateArguments": [],
+            "function": "setFields",
+            "name": "io.jaegertracing.thriftjava.Log#setFields(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Log",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFields",
+            "name": "io.jaegertracing.internal.LogData#getFields()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.LogData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Log",
+            "name": "io.jaegertracing.thriftjava.Log#Log()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Log",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thriftjava.Log.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Log",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "newThriftUdpServer",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport.newThriftUdpServer(String,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InetSocketAddress"],
+            "templateArguments": [],
+            "function": "bind",
+            "name": "java.net.DatagramSocket#bind(InetSocketAddress)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thriftjava.Tag.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Tag",
+            "name": "io.jaegertracing.thriftjava.Tag#Tag()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Boolean"],
+            "templateArguments": [],
+            "function": "setVBool",
+            "name": "io.jaegertracing.thriftjava.Tag#setVBool(Boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setVType",
+            "name": "io.jaegertracing.thriftjava.Tag#setVType(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "setVLong",
+            "name": "io.jaegertracing.thriftjava.Tag#setVLong(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "setVDouble",
+            "name": "io.jaegertracing.thriftjava.Tag#setVDouble(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setKey",
+            "name": "io.jaegertracing.thriftjava.Tag#setKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tag",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "buildStringTag",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.buildStringTag(Tag,Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JaegerSpan"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#append(JaegerSpan)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "Process",
+            "name": "io.jaegertracing.thriftjava.Process#Process(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Process",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Span)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMaxSpanBytes",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#getMaxSpanBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTracer",
+            "name": "io.jaegertracing.internal.JaegerSpan#getTracer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SenderException",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#SenderException(Object,Object,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCause",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#getCause()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Tag>"],
+            "templateArguments": [],
+            "function": "setTags",
+            "name": "io.jaegertracing.thriftjava.Process#setTags(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Process",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JaegerSpan"],
+            "templateArguments": [],
+            "function": "convertSpan",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.convertSpan(JaegerSpan)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDroppedSpanCount",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#getDroppedSpanCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "null",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SenderException",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#SenderException(String,null,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Process",
+                "List<Span>"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender#send(Process,List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "SenderException",
+            "name": "io.jaegertracing.internal.exceptions.SenderException#SenderException(String,IOException,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.exceptions.SenderException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MediaType",
+                "byte[]"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "okhttp3.RequestBody.create(MediaType,byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.RequestBody",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "code",
+            "name": "okhttp3.Response#code()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "body",
+            "name": "okhttp3.Response#body()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "okhttp3.Response#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RequestBody"],
+            "templateArguments": [],
+            "function": "post",
+            "name": "okhttp3.Request.Builder#post(RequestBody)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "newCall",
+            "name": "okhttp3.OkHttpClient#newCall(Request)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Process",
+                "List<Span>"
+            ],
+            "templateArguments": [],
+            "function": "Batch",
+            "name": "io.jaegertracing.thriftjava.Batch#Batch(Process,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Batch",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isSuccessful",
+            "name": "okhttp3.Response#isSuccessful()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Response",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "org.apache.thrift.TBase#write(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.TBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLength",
+            "name": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport#getLength()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AutoExpandingBufferWriteTransport"],
+            "templateArguments": [],
+            "function": "getProtocol",
+            "name": "org.apache.thrift.protocol.TProtocolFactory#getProtocol(AutoExpandingBufferWriteTransport)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.protocol.TProtocolFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMaxBatchBytes",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderBase#getMaxBatchBytes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderBase",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#close()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.net.DatagramSocket#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Batch"],
+            "templateArguments": [],
+            "function": "emitBatch",
+            "name": "io.jaegertracing.agent.thrift.Agent.Client#emitBatch(Batch)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.agent.thrift.Agent.Client",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Process",
+                "List<thriftjava>"
+            ],
+            "templateArguments": [],
+            "function": "Batch",
+            "name": "io.jaegertracing.thriftjava.Batch#Batch(Process,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Batch",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Reference>"],
+            "templateArguments": [],
+            "function": "buildReferences",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.JaegerThriftSpanConverter.buildReferences(List)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "JaegerThriftSpanConverter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpanContext",
+            "name": "io.jaegertracing.internal.Reference#getSpanContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.Reference",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanRefType",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "SpanRef",
+            "name": "io.jaegertracing.thriftjava.SpanRef#SpanRef(SpanRefType,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.SpanRef",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SpanRef"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(SpanRef)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getType",
+            "name": "io.jaegertracing.internal.Reference#getType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.Reference",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.senders.UdpSender.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "UdpSender",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "ProtocolType",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "ThriftSender",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender#ThriftSender(ProtocolType,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#Builder(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport#flush()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["DatagramPacket"],
+            "templateArguments": [],
+            "function": "send",
+            "name": "java.net.DatagramSocket#send(DatagramPacket)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flip",
+            "name": "java.nio.ByteBuffer#flip()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.nio.ByteBuffer#get(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Builder"],
+            "templateArguments": [],
+            "function": "HttpSender",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender#HttpSender(Builder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpUrl"],
+            "templateArguments": [],
+            "function": "url",
+            "name": "okhttp3.Request#url(HttpUrl)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Request.Builder",
+            "name": "okhttp3.Request.Builder#Request.Builder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "okhttp3.Request.Builder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.Request.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "okhttp3.OkHttpClient.Builder#build()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "okhttp3.HttpUrl.parse(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.HttpUrl",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "io.jaegertracing.thrift.internal.senders.HttpSender.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HttpSender.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Interceptor"],
+            "templateArguments": [],
+            "function": "addInterceptor",
+            "name": "okhttp3.OkHttpClient.Builder#addInterceptor(Interceptor)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "okhttp3.OkHttpClient.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setVStr",
+            "name": "io.jaegertracing.thriftjava.Tag#setVStr(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSender.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSender",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["SenderConfiguration"],
+            "templateArguments": [],
+            "function": "getSender",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderFactory#getSender(SenderConfiguration)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "TTransportException"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,TTransportException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthToken",
+            "name": "io.jaegertracing.Configuration.SenderConfiguration#getAuthToken()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.Configuration.SenderConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthUsername",
+            "name": "io.jaegertracing.Configuration.SenderConfiguration#getAuthUsername()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.Configuration.SenderConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndpoint",
+            "name": "io.jaegertracing.Configuration.SenderConfiguration#getEndpoint()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.Configuration.SenderConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "log#debug(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "log",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAgentPort",
+            "name": "io.jaegertracing.Configuration.SenderConfiguration#getAgentPort()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.Configuration.SenderConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "stringOrDefault",
+            "name": "io.jaegertracing.thrift.internal.senders.ThriftSenderFactory.stringOrDefault(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThriftSenderFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthPassword",
+            "name": "io.jaegertracing.Configuration.SenderConfiguration#getAuthPassword()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.Configuration.SenderConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAgentHost",
+            "name": "io.jaegertracing.Configuration.SenderConfiguration#getAgentHost()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.Configuration.SenderConfiguration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TConfiguration"],
+            "templateArguments": [],
+            "function": "TEndpointTransport",
+            "name": "org.apache.thrift.transport.TEndpointTransport#TEndpointTransport(TConfiguration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.thrift.transport.TEndpointTransport",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.jaegertracing.thrift.internal.reporters.protocols.ThriftUdpTransport.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThriftUdpTransport",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["null"],
+            "templateArguments": [],
+            "function": "DatagramSocket",
+            "name": "java.net.DatagramSocket#DatagramSocket(null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "Object",
+                "int",
+                "Object",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "io.jaegertracing.thriftjava.Span",
+            "name": "io.jaegertracing.thriftjava.Span#io.jaegertracing.thriftjava.Span(Object,Object,Object,int,Object,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.thriftjava.Span",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFlags",
+            "name": "io.jaegertracing.internal.JaegerSpanContext#getFlags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getReferences",
+            "name": "io.jaegertracing.internal.JaegerSpan#getReferences()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpanId",
+            "name": "io.jaegertracing.internal.JaegerSpanContext#getSpanId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<SpanRef>"],
+            "templateArguments": [],
+            "function": "setReferences",
+            "name": "thriftjava#setReferences(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "thriftjava",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "context",
+            "name": "io.jaegertracing.internal.JaegerSpan#context()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStart",
+            "name": "io.jaegertracing.internal.JaegerSpan#getStart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTraceIdHigh",
+            "name": "io.jaegertracing.internal.JaegerSpanContext#getTraceIdHigh()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTraceIdLow",
+            "name": "io.jaegertracing.internal.JaegerSpanContext#getTraceIdLow()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTags",
+            "name": "io.jaegertracing.internal.JaegerSpan#getTags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDuration",
+            "name": "io.jaegertracing.internal.JaegerSpan#getDuration()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getParentId",
+            "name": "io.jaegertracing.internal.JaegerSpanContext#getParentId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpanContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLogs",
+            "name": "io.jaegertracing.internal.JaegerSpan#getLogs()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOperationName",
+            "name": "io.jaegertracing.internal.JaegerSpan#getOperationName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.jaegertracing.internal.JaegerSpan",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isClosed",
+            "name": "java.net.DatagramSocket#isClosed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.DatagramSocket",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 104,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 116,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 106,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 120,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 99,
+                "column": 10,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 97,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 112,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 104,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 108,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 100,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 94,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 34,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 126,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 88,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 18,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 86,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 18,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 71,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 97,
+                "column": 41,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 100,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 99,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 100,
+                "column": 24,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 95,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 95,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 98,
+                "column": 25,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 21,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 116,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 17,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 114,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 17,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 112,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 17,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 108,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 17,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 118,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 17,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 138,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 126,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 134,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 135,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 132,
+                "column": 26,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 128,
+                "column": 10,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 129,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 37,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 38,
+                "column": 54,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 42,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 119,
+                "column": 30,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 131,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 72,
+                "column": 39,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 71,
+                "column": 26,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 72,
+                "column": 22,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 47,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 46,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 56,
+                "column": 32,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 56,
+                "column": 32,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 53,
+                "column": 32,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 53,
+                "column": 32,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 69,
+                "column": 61,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 69,
+                "column": 61,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 69,
+                "column": 23,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 70,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 51,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 114,
+                "column": 49,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 114,
+                "column": 30,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 64,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 78,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 66,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 135,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 68,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 134,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 68,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 94,
+                "column": 50,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 94,
+                "column": 50,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 71,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 71,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 50,
+                "column": 24,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 49,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 49,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 49,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 52,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 49,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 50,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 49,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 84,
+                "column": 40,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 80,
+                "column": 31,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 83,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 74,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 74,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 84,
+                "column": 22,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 78,
+                "column": 32,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 82,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 82,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 80,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 80,
+                "column": 41,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 86,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 84,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 77,
+                "column": 25,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 77,
+                "column": 25,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 79,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 78,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 60,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 87,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 61,
+                "column": 19,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 87,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 61,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 107,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 107,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 117,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 113,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 111,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 114,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 108,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 116,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 119,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 110,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 25,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 50,
+                "column": 17,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 79,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 63,
+                "column": 26,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 59,
+                "column": 21,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 76,
+                "column": 33,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 57,
+                "column": 20,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 51,
+                "column": 59,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 73,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 56,
+                "column": 20,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 50,
+                "column": 29,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 52,
+                "column": 26,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 76,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 65,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 64,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 76,
+                "column": 49,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 68,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 51,
+                "column": 23,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 51,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 55,
+                "column": 51,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 76,
+                "column": 63,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 58,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 97,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 70,
+                "column": 74,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 54,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 86,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 70,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 61,
+                "column": 79,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 59,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 64,
+                "column": 24,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 61,
+                "column": 97,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 87,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 86,
+                "column": 23,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 80,
+                "column": 22,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 74,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 65,
+                "column": 23,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 70,
+                "column": 92,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 61,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 68,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 87,
+                "column": 55,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 56,
+                "column": 19,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 73,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 80,
+                "column": 48,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 109,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 83,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 13,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 84,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 13,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 83,
+                "column": 22,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 13,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderBase.java",
+                "line": 82,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 13,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 101,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 100,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 86,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 124,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 30,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 86,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 30,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 84,
+                "column": 34,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 30,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 86,
+                "column": 92,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 86,
+                "column": 74,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 30,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 93,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 128,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 97,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 128,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 67,
+                "column": 60,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 66,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 66,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 64,
+                "column": 62,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 67,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 62,
+                "column": 38,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 66,
+                "column": 55,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 62,
+                "column": 61,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 129,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 45,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 35,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 45,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 35,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 45,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 35,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 45,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "UdpSender.java",
+                "line": 51,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 35,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 96,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 137,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 151,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 141,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 149,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 146,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 149,
+                "column": 26,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 147,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 145,
+                "column": 17,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 138,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 51,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 51,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 51,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 50,
+                "column": 23,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 45,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 43,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 142,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 127,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 150,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "HttpSender.java",
+                "line": 125,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 150,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 125,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 96,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 126,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 96,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 44,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 136,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 44,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 136,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 136,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 136,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSender.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 136,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 35,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 25,
+                "column": 26,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 21,
+                "column": 19,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 19,
+                "column": 40,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 47,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 30,
+                "column": 7,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 43,
+                "column": 31,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 39,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 17,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 26,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 41,
+                "column": 14,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 27,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 19,
+                "column": 17,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 42,
+                "column": 15,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 20,
+                "column": 46,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 24,
+                "column": 60,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 22,
+                "column": 49,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 25,
+                "column": 50,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 23,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 24,
+                "column": 36,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 22,
+                "column": 22,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 32,
+                "column": 16,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 20,
+                "column": 69,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 21,
+                "column": 46,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 27,
+                "column": 36,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 24,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "ThriftSenderFactory.java",
+                "line": 42,
+                "column": 31,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/senders"
+            },
+            "caller": 154,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 66,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 75,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 66,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 75,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 66,
+                "column": 5,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 75,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 65,
+                "column": 3,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 75,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 67,
+                "column": 19,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 75,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 46,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 57,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 40,
+                "column": 39,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 49,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 46,
+                "column": 12,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 44,
+                "column": 27,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 44,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 43,
+                "column": 11,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 37,
+                "column": 33,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 53,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 174
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 48,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 57,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 58,
+                "column": 18,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 50,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 39,
+                "column": 32,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 58,
+                "column": 28,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "JaegerThriftSpanConverter.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 106,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "ThriftUdpTransport.java",
+                "line": 76,
+                "column": 13,
+                "directory": "src/main/java/io/jaegertracing/thrift/internal/reporters/protocols"
+            },
+            "caller": 5,
+            "callee": 182
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "io.jaegertracing.thrift.internal.senders",
+            "isRoot": false,
+            "module": -1,
+            "name": "senders",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "io.jaegertracing.thrift.internal.reporters.protocols",
+            "isRoot": false,
+            "module": -1,
+            "name": "protocols",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
