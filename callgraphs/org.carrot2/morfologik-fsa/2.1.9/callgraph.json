@@ -1,0 +1,4905 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "match",
+            "name": "morfologik.fsa.FSATraversal#match(byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRootNode",
+            "name": "morfologik.fsa.CFSA2#getRootNode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRootNode",
+            "name": "morfologik.fsa.CFSA#getRootNode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRootNode",
+            "name": "morfologik.fsa.FSA5#getRootNode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "match",
+            "name": "morfologik.fsa.FSATraversal#match(byte[],int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Class<? extends T extends FSA>"
+            ],
+            "templateArguments": [],
+            "function": "read",
+            "name": "morfologik.fsa.FSA.read(InputStream,Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSA"],
+            "templateArguments": [],
+            "function": "cast",
+            "name": "java.lang.Class#cast(FSA)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "morfologik.fsa.FSA.read(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSA"],
+            "templateArguments": [],
+            "function": "isInstance",
+            "name": "java.lang.Class#isInstance(FSA)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getEndNode",
+            "name": "morfologik.fsa.CFSA#getEndNode(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getDestinationNodeOffset",
+            "name": "morfologik.fsa.CFSA#getDestinationNodeOffset(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcLast",
+            "name": "morfologik.fsa.CFSA#isArcLast(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.CFSA.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "byte"
+            ],
+            "templateArguments": [],
+            "function": "getArc",
+            "name": "morfologik.fsa.CFSA2#getArc(int,byte)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getFirstArc",
+            "name": "morfologik.fsa.CFSA2#getFirstArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getArcLabel",
+            "name": "morfologik.fsa.CFSA2#getArcLabel(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getNextArc",
+            "name": "morfologik.fsa.CFSA2#getNextArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.CFSA2.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcTerminal",
+            "name": "morfologik.fsa.CFSA#isArcTerminal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isLabelCompressed",
+            "name": "morfologik.fsa.CFSA#isLabelCompressed(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isNextSet",
+            "name": "morfologik.fsa.CFSA#isNextSet(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getEndNode",
+            "name": "morfologik.fsa.CFSA2#getEndNode(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getDestinationNodeOffset",
+            "name": "morfologik.fsa.CFSA2#getDestinationNodeOffset(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "CFSA",
+            "name": "morfologik.fsa.CFSA#CFSA(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "readFully",
+            "name": "java.io.DataInputStream#readFully(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "FSAFlags",
+                "FSAFlags",
+                "FSAFlags"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.EnumSet.of(FSAFlags,FSAFlags,FSAFlags)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readByte",
+            "name": "java.io.DataInputStream#readByte()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.FSAFlags.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAFlags",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.CFSA.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "DataInputStream",
+            "name": "java.io.DataInputStream#DataInputStream(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "readRemaining",
+            "name": "morfologik.fsa.FSA.readRemaining(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSAFlags"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(FSAFlags)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.FSA.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getRightLanguageCount",
+            "name": "morfologik.fsa.FSA#getRightLanguageCount(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "UnsupportedOperationException",
+            "name": "java.lang.UnsupportedOperationException#UnsupportedOperationException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.UnsupportedOperationException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getEndNode",
+            "name": "morfologik.fsa.FSA5#getEndNode(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getDestinationNodeOffset",
+            "name": "morfologik.fsa.FSA5#getDestinationNodeOffset(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcLast",
+            "name": "morfologik.fsa.FSA5#isArcLast(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.FSA5.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "skipArc",
+            "name": "morfologik.fsa.FSA5#skipArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "decodeFromBytes",
+            "name": "morfologik.fsa.FSA5.decodeFromBytes(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isNextSet",
+            "name": "morfologik.fsa.FSA5#isNextSet(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "FSA",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "ByteSequenceIterator",
+            "name": "morfologik.fsa.ByteSequenceIterator#ByteSequenceIterator(FSA,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.ByteSequenceIterator.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "restartFrom",
+            "name": "morfologik.fsa.ByteSequenceIterator#restartFrom(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getFirstArc",
+            "name": "morfologik.fsa.CFSA#getFirstArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getFirstArc",
+            "name": "morfologik.fsa.FSA5#getFirstArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "morfologik.fsa.FSAHeader.read(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.InputStream#read()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "FSAHeader",
+            "name": "morfologik.fsa.FSAHeader#FSAHeader(byte)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.FSAHeader.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAHeader",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "morfologik.fsa.ByteSequenceIterator#remove()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends StateVisitor"],
+            "templateArguments": [],
+            "function": "visitAllStates",
+            "name": "morfologik.fsa.FSA#visitAllStates(T extends StateVisitor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends StateVisitor"],
+            "templateArguments": [],
+            "function": "visitInPostOrder",
+            "name": "morfologik.fsa.FSA#visitInPostOrder(T extends StateVisitor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "FSA5",
+            "name": "morfologik.fsa.FSA5#FSA5(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<FSAFlags>"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "java.util.Collections.unmodifiableSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.FSA5.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getNextArc",
+            "name": "morfologik.fsa.FSA5#getNextArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcFinal",
+            "name": "morfologik.fsa.CFSA#isArcFinal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isNextSet",
+            "name": "morfologik.fsa.CFSA2#isNextSet(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSA"],
+            "templateArguments": [],
+            "function": "ByteSequenceIterator",
+            "name": "morfologik.fsa.ByteSequenceIterator#ByteSequenceIterator(FSA)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.ByteArrayOutputStream#write(byte[],int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.ByteArrayOutputStream.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.InputStream#read(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "pushNode",
+            "name": "morfologik.fsa.ByteSequenceIterator#pushNode(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "copyOf",
+            "name": "java.util.Arrays.copyOf(int[],int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.ByteSequenceIterator.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "morfologik.fsa.ByteSequenceIterator#next()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "advance",
+            "name": "morfologik.fsa.ByteSequenceIterator#advance()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.NoSuchElementException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.NoSuchElementException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "NoSuchElementException",
+            "name": "java.util.NoSuchElementException#NoSuchElementException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.NoSuchElementException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.FSAHeader.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAHeader",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "T extends StateVisitor",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "visitInPreOrder",
+            "name": "morfologik.fsa.FSA#visitInPreOrder(T extends StateVisitor,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StateVisitor",
+                "int",
+                "BitSet"
+            ],
+            "templateArguments": [],
+            "function": "visitInPreOrder",
+            "name": "morfologik.fsa.FSA#visitInPreOrder(StateVisitor,int,BitSet)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.BitSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.BitSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "BitSet",
+            "name": "java.util.BitSet#BitSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.BitSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcFinal",
+            "name": "morfologik.fsa.CFSA2#isArcFinal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcTerminal",
+            "name": "morfologik.fsa.FSA5#isArcTerminal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcFinal",
+            "name": "morfologik.fsa.FSA5#isArcFinal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFlags",
+            "name": "morfologik.fsa.CFSA#getFlags()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "morfologik.fsa.FSA#getSequences(int)$Iterable$1#iterator()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA#getSequences(int)$Iterable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSA"],
+            "templateArguments": [],
+            "function": "FSATraversal",
+            "name": "morfologik.fsa.FSATraversal#FSATraversal(FSA)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.FSATraversal.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSequences",
+            "name": "morfologik.fsa.FSA#getSequences()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getSequences",
+            "name": "morfologik.fsa.FSA#getSequences(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MatchResult",
+                "byte[]",
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "match",
+            "name": "morfologik.fsa.FSATraversal#match(MatchResult,byte[],int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "morfologik.fsa.MatchResult.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MatchResult",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "morfologik.fsa.MatchResult#reset(int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MatchResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "byte"
+            ],
+            "templateArguments": [],
+            "function": "getArc",
+            "name": "morfologik.fsa.CFSA#getArc(int,byte)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "byte"
+            ],
+            "templateArguments": [],
+            "function": "getArc",
+            "name": "morfologik.fsa.FSA5#getArc(int,byte)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcTerminal",
+            "name": "morfologik.fsa.CFSA2#isArcTerminal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "perfectHash",
+            "name": "morfologik.fsa.FSATraversal#perfectHash(byte[],int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSAFlags"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.Set#contains(FSAFlags)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getArcLabel",
+            "name": "morfologik.fsa.FSA5#getArcLabel(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getArcLabel",
+            "name": "morfologik.fsa.CFSA#getArcLabel(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getRightLanguageCount",
+            "name": "morfologik.fsa.CFSA2#getRightLanguageCount(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getRightLanguageCount",
+            "name": "morfologik.fsa.FSA5#getRightLanguageCount(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getRightLanguageCount",
+            "name": "morfologik.fsa.CFSA#getRightLanguageCount(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getNextArc",
+            "name": "morfologik.fsa.CFSA#getNextArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFlags",
+            "name": "morfologik.fsa.CFSA2#getFlags()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFlags",
+            "name": "morfologik.fsa.FSA5#getFlags()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA5",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "CFSA2",
+            "name": "morfologik.fsa.CFSA2#CFSA2(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isSet",
+            "name": "morfologik.fsa.FSAFlags#isSet(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAFlags",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FSAFlags"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.EnumSet#add(FSAFlags)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<FSAFlags>"],
+            "templateArguments": [],
+            "function": "noneOf",
+            "name": "java.util.EnumSet.noneOf(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.CFSA2.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["FSAFlags"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.EnumSet#contains(FSAFlags)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readShort",
+            "name": "java.io.DataInputStream#readShort()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<FSAFlags>"],
+            "templateArguments": [],
+            "function": "asShort",
+            "name": "morfologik.fsa.FSAFlags.asShort(Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAFlags",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "perfectHash",
+            "name": "morfologik.fsa.FSATraversal#perfectHash(byte[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "MatchResult",
+            "name": "morfologik.fsa.MatchResult#MatchResult(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MatchResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.MatchResult.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MatchResult",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "isArcLast",
+            "name": "morfologik.fsa.CFSA2#isArcLast(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasNext",
+            "name": "morfologik.fsa.ByteSequenceIterator#hasNext()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ByteSequenceIterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StateVisitor",
+                "int",
+                "BitSet"
+            ],
+            "templateArguments": [],
+            "function": "visitInPostOrder",
+            "name": "morfologik.fsa.FSA#visitInPostOrder(StateVisitor,int,BitSet)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "set",
+            "name": "java.util.BitSet#set(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.BitSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.BitSet#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.BitSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "match",
+            "name": "morfologik.fsa.FSATraversal#match(byte[],int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSATraversal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MatchResult",
+            "name": "morfologik.fsa.MatchResult#MatchResult()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MatchResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "skipArc",
+            "name": "morfologik.fsa.CFSA#skipArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "limit",
+            "name": "java.nio.ByteBuffer#limit(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.nio.ByteBuffer#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "wrap",
+            "name": "java.nio.ByteBuffer.wrap(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "copyOf",
+            "name": "java.util.Arrays.copyOf(byte[],int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T extends StateVisitor",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "visitInPostOrder",
+            "name": "morfologik.fsa.FSA#visitInPostOrder(T extends StateVisitor,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "morfologik.fsa.FSA#iterator()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "java.lang.Iterable#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Iterable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "MatchResult",
+            "name": "morfologik.fsa.MatchResult#MatchResult(int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MatchResult",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "FSAFlags",
+            "name": "morfologik.fsa.FSAFlags#FSAFlags(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAFlags",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.FSAFlags.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAFlags",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "byte"
+            ],
+            "templateArguments": [],
+            "function": "write",
+            "name": "morfologik.fsa.FSAHeader.write(OutputStream,byte)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSAHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.OutputStream#write(byte)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.OutputStream#write(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getArcCount",
+            "name": "morfologik.fsa.FSA#getArcCount(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "skipArc",
+            "name": "morfologik.fsa.CFSA2#skipArc(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "readVInt",
+            "name": "morfologik.fsa.CFSA2.readVInt(byte[],int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "morfologik.fsa.FSA#getSequences(int)$Iterable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA#getSequences(int)$Iterable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "skipVInt",
+            "name": "morfologik.fsa.CFSA2#skipVInt(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CFSA2",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends StateVisitor"],
+            "templateArguments": [],
+            "function": "visitInPreOrder",
+            "name": "morfologik.fsa.FSA#visitInPreOrder(T extends StateVisitor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FSA",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 195,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 195,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 195,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 195,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 347,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 345,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 342,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 344,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 343,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 5,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 250,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 248,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 292,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 223,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 224,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 16,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 223,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 16,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 244,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 18,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 289,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 21,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 317,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 238,
+                "column": 28,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 189,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 175,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 169,
+                "column": 23,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 160,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 160,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 168,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 167,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 164,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 194,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 179,
+                "column": 4,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 8,
+                "column": 1,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 26,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 120,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 106,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 36,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 213,
+                "column": 28,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 266,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 303,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 39,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 297,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 309,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 39,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 301,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 39,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 47,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 56,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 45,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 48,
+                "column": 19,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 44,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 50,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 53,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 41,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 45,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 33,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 154,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 55,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 195,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 144,
+                "column": 23,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 12,
+                "column": 1,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 140,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 142,
+                "column": 19,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 155,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 160,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 143,
+                "column": 23,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 150,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 152,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 136,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 136,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 58,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 188,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 61,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 191,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 61,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 276,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 62,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 293,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 63,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 44,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 64,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 44,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 64,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 44,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 64,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 44,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 64,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 279,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 33,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 275,
+                "column": 34,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 33,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 275,
+                "column": 34,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 33,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 281,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 33,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 278,
+                "column": 19,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 33,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 163,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 157,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 70,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 166,
+                "column": 24,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 70,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 166,
+                "column": 24,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 70,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 166,
+                "column": 24,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 70,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 96,
+                "column": 32,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 73,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 98,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 73,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 98,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 73,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 29,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 53,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 264,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 78,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 264,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 78,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 264,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 78,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 266,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 82,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 239,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 83,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 226,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 84,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 328,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 85,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 321,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 85,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 152,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 86,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 15,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 164,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 164,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 89,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 164,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 89,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 164,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 89,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 303,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 23,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 107,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 148,
+                "column": 8,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 130,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 130,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 130,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 123,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 150,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 145,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 145,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 145,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 132,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 132,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 132,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 140,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 134,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 157,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 138,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 138,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 138,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 91,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 40,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 40,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 40,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 40,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 24,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 24,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 51,
+                "column": 8,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 51,
+                "column": 8,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 51,
+                "column": 8,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 71,
+                "column": 27,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 71,
+                "column": 27,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 71,
+                "column": 27,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 71,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 71,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 71,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 79,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 83,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 83,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 83,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 50,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 50,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 50,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 40,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 40,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 40,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 78,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 78,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 78,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 97,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 161,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 167,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 155,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 162,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 9,
+                "column": 1,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 182,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 159,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 151,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 151,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 170,
+                "column": 21,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 158,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 177,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 166,
+                "column": 19,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 175,
+                "column": 26,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 107,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 104,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 115,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 104,
+                "column": 52,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 115,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 104,
+                "column": 52,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 115,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 104,
+                "column": 52,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 115,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 272,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 103,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 273,
+                "column": 13,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 103,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 267,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 103,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 272,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 103,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 68,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 116,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 67,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 116,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 322,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 316,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 300,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 300,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 300,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 312,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 320,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 318,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 8,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 282,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 118,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 318,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 42,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 172,
+                "column": 37,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 3,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 169,
+                "column": 29,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 3,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 169,
+                "column": 37,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 3,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 172,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 3,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 79,
+                "column": 21,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 119,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 242,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 102,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 249,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 102,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 249,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 102,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 250,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 102,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 232,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 232,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 232,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 229,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 231,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 231,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 231,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 227,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 233,
+                "column": 34,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 233,
+                "column": 34,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 233,
+                "column": 34,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 233,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 231,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 231,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 231,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 120,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 174,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 123,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 174,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 123,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 292,
+                "column": 57,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 292,
+                "column": 57,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 292,
+                "column": 57,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 293,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 293,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 293,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 294,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 294,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 294,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 294,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 289,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 286,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 292,
+                "column": 22,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 292,
+                "column": 22,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 292,
+                "column": 22,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 79,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 226,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 104,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 223,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 104,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 104,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 124,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 124,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 124,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 141,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 136,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 139,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 139,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 139,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 134,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 134,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 134,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 140,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 132,
+                "column": 27,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 132,
+                "column": 27,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 132,
+                "column": 27,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 130,
+                "column": 30,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 136,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 136,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 136,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 129,
+                "column": 23,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 74,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 279,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 96,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 46,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 30,
+                "column": 38,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 46,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 221,
+                "column": 31,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 130,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 221,
+                "column": 31,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 130,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 221,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 130,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 181,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 131,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 181,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 131,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 181,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 131,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 181,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 131,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 260,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 100,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 260,
+                "column": 25,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 100,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "FSATraversal.java",
+                "line": 185,
+                "column": 10,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 4,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 64,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 133,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 63,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 133,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "FSAFlags.java",
+                "line": 44,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 134,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 234,
+                "column": 53,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 94,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 234,
+                "column": 18,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 94,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 235,
+                "column": 8,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 94,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 68,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 47,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "ByteSequenceIterator.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 47,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 56,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 136,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 68,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 66,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 136,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 65,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 136,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 64,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 136,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "FSAHeader.java",
+                "line": 67,
+                "column": 5,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 136,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 200,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 95,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 199,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 95,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 199,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 95,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 335,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 13,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 337,
+                "column": 11,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 13,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 100,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 139,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 100,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 139,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 100,
+                "column": 20,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 139,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 100,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 139,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 100,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 139,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 100,
+                "column": 55,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 139,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 72,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 124,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 71,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 124,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "MatchResult.java",
+                "line": 71,
+                "column": 2,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 124,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 313,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 25,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 320,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 25,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 316,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 25,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 315,
+                "column": 15,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 25,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 326,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 25,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 309,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 25,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 262,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 101,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 257,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 101,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 263,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 101,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 262,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 101,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 150,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 90,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 147,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 90,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 330,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 140,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 343,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 140,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 250,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 145,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 250,
+                "column": 31,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 145,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 250,
+                "column": 31,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 145,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 250,
+                "column": 31,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 145,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 191,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 1,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 191,
+                "column": 37,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 1,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 253,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 106,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FSA5.java",
+                "line": 277,
+                "column": 3,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 44,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 204,
+                "column": 33,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 2,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 204,
+                "column": 41,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 2,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 207,
+                "column": 41,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 2,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 207,
+                "column": 16,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 207,
+                "column": 32,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 57,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 207,
+                "column": 32,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 57,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 207,
+                "column": 32,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 57,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "FSA.java",
+                "line": 207,
+                "column": 12,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 57,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 200,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 17,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 211,
+                "column": 9,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 19,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "CFSA2.java",
+                "line": 214,
+                "column": 14,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 19,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 356,
+                "column": 7,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 125,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CFSA.java",
+                "line": 357,
+                "column": 8,
+                "directory": "src/main/java/morfologik/fsa"
+            },
+            "caller": 125,
+            "callee": 22
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "morfologik.fsa",
+        "isRoot": false,
+        "module": -1,
+        "name": "fsa",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
