@@ -1,0 +1,1246 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "I18nConversionCategory",
+                "I18nConversionCategory"
+            ],
+            "templateArguments": [],
+            "function": "intersect",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.intersect(I18nConversionCategory,I18nConversionCategory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["E[]"],
+            "templateArguments": [],
+            "function": "arrayToSet",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.arrayToSet(E[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<Class<?>>"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Set#equals(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<Class<?>>"],
+            "templateArguments": [],
+            "function": "retainAll",
+            "name": "java.util.Set#retainAll(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.RuntimeException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "ConversionCategory",
+                "ConversionCategory"
+            ],
+            "templateArguments": [],
+            "function": "isSubsetOf",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.isSubsetOf(ConversionCategory,ConversionCategory)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ConversionCategory",
+                "ConversionCategory"
+            ],
+            "templateArguments": [],
+            "function": "intersect",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.intersect(ConversionCategory,ConversionCategory)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<?>[]",
+                "String[]"
+            ],
+            "templateArguments": [],
+            "function": "I18nConversionCategory",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory#I18nConversionCategory(Class[],String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "isAssignableFrom",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory#isAssignableFrom(Class)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "isAssignableFrom",
+            "name": "java.lang.Class#isAssignableFrom(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Class<?>[]..."
+            ],
+            "templateArguments": [],
+            "function": "ConversionCategory",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory#ConversionCategory(String,Class[]...)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>[]"],
+            "templateArguments": [],
+            "function": "toArray",
+            "name": "java.util.List#toArray(Class[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "unwrapPrimitive",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.unwrapPrimitive(Class)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "stringToI18nConversionCategory",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.stringToI18nConversionCategory(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["E[]"],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(E[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<E>"],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ConversionCategory",
+                "ConversionCategory"
+            ],
+            "templateArguments": [],
+            "function": "union",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.union(ConversionCategory,ConversionCategory)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["E[]"],
+            "templateArguments": [],
+            "function": "arrayToSet",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.arrayToSet(E[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Set<Class<?>>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.Set#addAll(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "fromConversionChar",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory.fromConversionChar(char)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "primitiveLiteralKinds",
+            "name": "org.checkerframework.framework.qual.LiteralKind.primitiveLiteralKinds()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LiteralKind",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "LiteralKind",
+                "LiteralKind",
+                "LiteralKind",
+                "LiteralKind",
+                "LiteralKind",
+                "LiteralKind"
+            ],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(LiteralKind,LiteralKind,LiteralKind,LiteralKind,LiteralKind,LiteralKind)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.checkerframework.framework.qual.LiteralKind.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LiteralKind",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "I18nConversionCategory",
+                "I18nConversionCategory"
+            ],
+            "templateArguments": [],
+            "function": "isSubsetOf",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.isSubsetOf(I18nConversionCategory,I18nConversionCategory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "allLiteralKinds",
+            "name": "org.checkerframework.framework.qual.LiteralKind.allLiteralKinds()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "LiteralKind",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<T>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["LiteralKind"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.List#remove(LiteralKind)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "I18nConversionCategory",
+                "I18nConversionCategory"
+            ],
+            "templateArguments": [],
+            "function": "union",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory.union(I18nConversionCategory,I18nConversionCategory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory#toString()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "java.lang.Class#getSimpleName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.StringJoiner#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.StringJoiner",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringJoiner"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(StringJoiner)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "StringJoiner",
+            "name": "java.util.StringJoiner#StringJoiner(String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.StringJoiner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "I18nConversionCategory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCanonicalName",
+            "name": "java.lang.Class#getCanonicalName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<?>"],
+            "templateArguments": [],
+            "function": "isAssignableFrom",
+            "name": "org.checkerframework.checker.formatter.qual.ConversionCategory#isAssignableFrom(Class)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ConversionCategory",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 145,
+                "column": 26,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 146,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 142,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 150,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 150,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 141,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 138,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 110,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 0,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 218,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 61,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 187,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 147,
+                "column": 20,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 144,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 142,
+                "column": 30,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 13,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 139,
+                "column": 44,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 13,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 141,
+                "column": 9,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 128,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 13,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 70,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 19,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 90,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 94,
+                "column": 26,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 1,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 94,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 1,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 316,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 23,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 315,
+                "column": 26,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 276,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 23,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 311,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 23,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 307,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 310,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 260,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 265,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 269,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 269,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 225,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 256,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 259,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 264,
+                "column": 26,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 8,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 210,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 27,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 193,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 27,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 214,
+                "column": 26,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 24,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 214,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 24,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 58,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 50,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 28,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 103,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 31,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 37,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 32,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 44,
+                "column": 46,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 44,
+                "column": 30,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "LiteralKind.java",
+                "line": 45,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/framework/qual"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 153,
+                "column": 3,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 351,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 359,
+                "column": 14,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 359,
+                "column": 7,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 362,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 349,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 349,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 350,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 354,
+                "column": 14,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 357,
+                "column": 23,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 364,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 361,
+                "column": 5,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 201,
+                "column": 25,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 197,
+                "column": 24,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 207,
+                "column": 12,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 205,
+                "column": 7,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 203,
+                "column": 16,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 199,
+                "column": 7,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "I18nConversionCategory.java",
+                "line": 203,
+                "column": 9,
+                "directory": "src/main/java/org/checkerframework/checker/i18nformatter/qual"
+            },
+            "caller": 47,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ConversionCategory.java",
+                "line": 338,
+                "column": 11,
+                "directory": "src/main/java/org/checkerframework/checker/formatter/qual"
+            },
+            "caller": 50,
+            "callee": 12
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.checkerframework.checker.i18nformatter.qual",
+            "isRoot": false,
+            "module": -1,
+            "name": "qual",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.checkerframework.checker.formatter.qual",
+            "isRoot": false,
+            "module": -1,
+            "name": "qual",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.checkerframework.framework.qual",
+            "isRoot": false,
+            "module": -1,
+            "name": "qual",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
