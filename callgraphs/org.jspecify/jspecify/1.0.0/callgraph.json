@@ -1,0 +1,5601 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "x0",
+            "name": "memberselectnonexpression.MemberSelectNonExpressions.NotNullMarkedUsage.x0()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemberSelectNonExpressions.NotNullMarkedUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "x",
+            "name": "memberselectnonexpression.MemberSelectNonExpressions.Static.x()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemberSelectNonExpressions.Static",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "memberselectnonexpression.MemberSelectNonExpressions.Static.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemberSelectNonExpressions.Static",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "nullnessunspecifiedtypeparameter.Use.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Use",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "nullnessunspecifiedtypeparameter.Instances.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Instances",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "A<Object, Object, Object>",
+                "A<Object, Object, Object>",
+                "A<Object, Object, Object>",
+                "A<Object, Object, Object>",
+                "WildcardsWithDefault"
+            ],
+            "templateArguments": [],
+            "function": "main",
+            "name": "wildcardswithdefault.Use.main(A,A,A,A,WildcardsWithDefault)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["A<?, ?, ?>"],
+            "templateArguments": [],
+            "function": "noBoundsNotNull",
+            "name": "wildcardswithdefault.WildcardsWithDefault#noBoundsNotNull(A)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "WildcardsWithDefault",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["A<? extends Object, ? extends Object, ? extends Object>"],
+            "templateArguments": [],
+            "function": "noBoundsNullable",
+            "name": "wildcardswithdefault.WildcardsWithDefault#noBoundsNullable(A)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "WildcardsWithDefault",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Simple",
+                "Derived"
+            ],
+            "templateArguments": [],
+            "function": "main",
+            "name": "simple.Use.main(Simple,Derived)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Derived",
+                "Base"
+            ],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "simple.Simple#foo(Derived,Base)",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Simple",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "ignoreannotations.Base#foo()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "Base",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "simple.Simple#bar()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Simple",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "simple.Derived#foo()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Derived",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "ignoreannotations.Instances.<staticinit>()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "Instances",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "ignoreannotations.Derived.<init>()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "Derived",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "ignoreannotations.IgnoreAnnotations.<init>()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "IgnoreAnnotations",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "ignoreannotations.Base.<init>()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "Base",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.AKN.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "AKN",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.SelfType.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "SelfType",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Tree",
+                "JCCompilationUnit"
+            ],
+            "templateArguments": [],
+            "function": "inPlaceOf",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.inPlaceOf(Tree,JCCompilationUnit)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tree"],
+            "templateArguments": [],
+            "function": "startPos",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.startPos(Tree)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tree",
+                "JCCompilationUnit"
+            ],
+            "templateArguments": [],
+            "function": "endPos",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.endPos(Tree,JCCompilationUnit)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.CK.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "CK",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.C.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "C",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "SortedMap<Range<Integer>, String>"
+            ],
+            "templateArguments": [],
+            "function": "applyFixes",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.applyFixes(String,SortedMap)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "upperEndpoint",
+            "name": "com.google.common.collect.Range#upperEndpoint()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.Range",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.SortedMap#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "lowerEndpoint",
+            "name": "com.google.common.collect.Range#lowerEndpoint()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.Range",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.SortedMap#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "replace",
+            "name": "java.lang.StringBuilder#replace(int,int,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "NonPlatformTypeParameter<Object>",
+                "NonPlatformTypeParameter<Test>",
+                "T extends Test"
+            ],
+            "templateArguments": [],
+            "function": "main",
+            "name": "nonplatformtypeparameter.Use#main(NonPlatformTypeParameter,NonPlatformTypeParameter,T extends Test)",
+            "packageIndex": 7,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["E extends Object"],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "nonplatformtypeparameter.NonPlatformTypeParameter#bar(E extends Object)",
+            "packageIndex": 7,
+            "language": "java",
+            "type": "NonPlatformTypeParameter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends Object"],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "nonplatformtypeparameter.NonPlatformTypeParameter#foo(T extends Object)",
+            "packageIndex": 7,
+            "language": "java",
+            "type": "NonPlatformTypeParameter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Context",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.parse(Context,String)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "parseCompilationUnit",
+            "name": "com.sun.tools.javac.parser.JavacParser#parseCompilationUnit()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.parser.JavacParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Context"],
+            "templateArguments": [],
+            "function": "instance",
+            "name": "com.sun.tools.javac.util.Options.instance(Context)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.util.Options",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "List#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["IOException"],
+            "templateArguments": [],
+            "function": "IOError",
+            "name": "java.io.IOError#IOError(IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOError",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDiagnostics",
+            "name": "javax.tools.DiagnosticCollector#getDiagnostics()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.tools.DiagnosticCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "DiagnosticCollector",
+            "name": "javax.tools.DiagnosticCollector#DiagnosticCollector()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.tools.DiagnosticCollector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "javax.tools.DiagnosticCollector.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.tools.DiagnosticCollector",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Context"],
+            "templateArguments": [],
+            "function": "instance",
+            "name": "com.sun.tools.javac.parser.ParserFactory.instance(Context)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.parser.ParserFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Context"],
+            "templateArguments": [],
+            "function": "instance",
+            "name": "com.sun.tools.javac.util.Log.instance(Context)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.util.Log",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableList.of()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Context",
+                "boolean",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "JavacFileManager",
+            "name": "com.sun.tools.javac.file.JavacFileManager#JavacFileManager(Context,boolean,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.file.JavacFileManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Class<DiagnosticListener>",
+                "DiagnosticCollector<JavaFileObject>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "com.sun.tools.javac.util.Context#put(Class,DiagnosticCollector)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.util.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "boolean",
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "newParser",
+            "name": "com.sun.tools.javac.parser.ParserFactory#newParser(String,boolean,boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.parser.ParserFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Diagnostic<JavaFileObject>>"],
+            "templateArguments": [],
+            "function": "AssertionError",
+            "name": "java.lang.AssertionError#AssertionError(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.AssertionError",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKind",
+            "name": "javax.tools.Diagnostic#getKind()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.tools.Diagnostic",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "java.net.URI.create(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URI",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.parse(Context,String)$SimpleJavaFileObject$1.<init>()",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.parse(Context,String)$SimpleJavaFileObject$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "StandardLocation",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "setLocation",
+            "name": "com.sun.tools.javac.file.JavacFileManager#setLocation(StandardLocation,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.file.JavacFileManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.AK.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "AK",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.B.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "B",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "defaults.Instances.<staticinit>()",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Instances",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "defaults.Defaults.<init>()",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Defaults",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "defaults.Foo.<init>()",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Foo",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Clazz",
+                "Enumeration",
+                "Interface",
+                "8484dcb65e1d3e6d7bc596a84539cc1f73e0cdac"
+            ],
+            "templateArguments": [],
+            "function": "Caller",
+            "name": "fullyqualified.sub.Caller#Caller(Clazz,Enumeration,Interface,8484dcb65e1d3e6d7bc596a84539cc1f73e0cdac)",
+            "packageIndex": 9,
+            "language": "java",
+            "type": "Caller",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "fullyqualified.sub.Caller.<init>()",
+            "packageIndex": 9,
+            "language": "java",
+            "type": "Caller",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "TypeArgumentsFromParameterBounds<Test, Test, Test>",
+                "TypeArgumentsFromParameterBounds<Test, Test, Test>",
+                "TypeArgumentsFromParameterBounds<Test, Test, Test>",
+                "TypeArgumentsFromParameterBounds<Test, Test, Test>",
+                "A",
+                "B"
+            ],
+            "templateArguments": [],
+            "function": "main",
+            "name": "typeargumentsfromparameterbounds.Use.main(TypeArgumentsFromParameterBounds,TypeArgumentsFromParameterBounds,TypeArgumentsFromParameterBounds,TypeArgumentsFromParameterBounds,A,B)",
+            "packageIndex": 10,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TypeArgumentsFromParameterBounds<Test, Test, Test>"],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "typeargumentsfromparameterbounds.B#bar(TypeArgumentsFromParameterBounds)",
+            "packageIndex": 10,
+            "language": "java",
+            "type": "B",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TypeArgumentsFromParameterBounds<Test, Test, Test>"],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "typeargumentsfromparameterbounds.A#bar(TypeArgumentsFromParameterBounds)",
+            "packageIndex": 10,
+            "language": "java",
+            "type": "A",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.Super.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "Super",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "main",
+            "name": "defaults.Use.main()",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "defaults.Foo#foo()",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Foo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Foo"],
+            "templateArguments": [],
+            "function": "everythingUnknown",
+            "name": "defaults.Defaults#everythingUnknown(Foo)",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Defaults",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Foo"],
+            "templateArguments": [],
+            "function": "explicitlyNullnessUnspecified",
+            "name": "defaults.Defaults#explicitlyNullnessUnspecified(Foo)",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Defaults",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Foo"],
+            "templateArguments": [],
+            "function": "everythingNullable",
+            "name": "defaults.Defaults#everythingNullable(Foo)",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Defaults",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Foo"],
+            "templateArguments": [],
+            "function": "mixed",
+            "name": "defaults.Defaults#mixed(Foo)",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Defaults",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Foo"],
+            "templateArguments": [],
+            "function": "everythingNotNullable",
+            "name": "defaults.Defaults#everythingNotNullable(Foo)",
+            "packageIndex": 8,
+            "language": "java",
+            "type": "Defaults",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "process",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.process(String)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "UncheckedIOException",
+            "name": "java.io.UncheckedIOException#UncheckedIOException(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.UncheckedIOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "refactor",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(Object,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.nio.file.Paths.get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Paths",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tree",
+                "JCCompilationUnit"
+            ],
+            "templateArguments": [],
+            "function": "inPlaceOfNodeAndTrailingNewline",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.inPlaceOfNodeAndTrailingNewline(Tree,JCCompilationUnit)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "simple.Derived.<init>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Derived",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "simple.Base.<init>()",
+            "packageIndex": 3,
+            "language": "java",
+            "type": "Base",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.CKN.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "CKN",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "AnnotatedTypeTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitAnnotatedType",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitAnnotatedType(AnnotatedTypeTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Range<Integer>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.SortedMap#put(Range,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUnderlyingType",
+            "name": "com.sun.source.tree.AnnotatedTypeTree#getUnderlyingType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.AnnotatedTypeTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAnnotations",
+            "name": "com.sun.source.tree.AnnotatedTypeTree#getAnnotations()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.AnnotatedTypeTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AnnotatedTypeTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitAnnotatedType",
+            "name": "com.sun.source.util.TreePathScanner#visitAnnotatedType(AnnotatedTypeTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TypeParameterTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitTypeParameter",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitTypeParameter(TypeParameterTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAnnotations",
+            "name": "com.sun.source.tree.TypeParameterTree#getAnnotations()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.TypeParameterTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Range<Integer>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.SortedMap#put(Range,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TypeParameterTree"],
+            "templateArguments": [],
+            "function": "soleBoundIsNonNullObject",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.soleBoundIsNonNullObject(TypeParameterTree)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "TypeParameterTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitTypeParameter",
+            "name": "com.sun.source.util.TreePathScanner#visitTypeParameter(TypeParameterTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "com.sun.source.tree.TypeParameterTree#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.TypeParameterTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Tree",
+                "JCCompilationUnit"
+            ],
+            "templateArguments": [],
+            "function": "atEnd",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.atEnd(Tree,JCCompilationUnit)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getBounds",
+            "name": "com.sun.source.tree.TypeParameterTree#getBounds()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.TypeParameterTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "main",
+            "name": "ignoreannotations.Use.main()",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Derived"],
+            "templateArguments": [],
+            "function": "everythingNotNullable",
+            "name": "ignoreannotations.IgnoreAnnotations#everythingNotNullable(Derived)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "IgnoreAnnotations",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Derived",
+                "Base"
+            ],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "ignoreannotations.IgnoreAnnotations#foo(Derived,Base)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "IgnoreAnnotations",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Derived"],
+            "templateArguments": [],
+            "function": "everythingUnknown",
+            "name": "ignoreannotations.IgnoreAnnotations#everythingUnknown(Derived)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "IgnoreAnnotations",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Derived"],
+            "templateArguments": [],
+            "function": "everythingNullable",
+            "name": "ignoreannotations.IgnoreAnnotations#everythingNullable(Derived)",
+            "packageIndex": 4,
+            "language": "java",
+            "type": "IgnoreAnnotations",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "nullnessunspecifiedtypeparameter.Instances.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Instances",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "nullnessunspecifiedtypeparameter.NullnessUnspecifiedTypeParameter.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullnessUnspecifiedTypeParameter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "nullnessunspecifiedtypeparameter.Test.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Test",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "main",
+            "name": "nullnessunspecifiedtypeparameter.Use#main()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "nullnessunspecifiedtypeparameter.NullnessUnspecifiedTypeParameter#foo(T)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullnessUnspecifiedTypeParameter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Test",
+                "T"
+            ],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "nullnessunspecifiedtypeparameter.NullnessUnspecifiedTypeParameter#bar(Test,T)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "NullnessUnspecifiedTypeParameter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "getEndPosition",
+            "name": "com.sun.tools.javac.tree.JCTree#getEndPosition(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.tree.JCTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MemberSelectTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitMemberSelect",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)$SimpleTreeVisitor$1#visitMemberSelect(MemberSelectTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)$SimpleTreeVisitor$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIdentifier",
+            "name": "com.sun.source.tree.MemberSelectTree#getIdentifier()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.MemberSelectTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tree"],
+            "templateArguments": [],
+            "function": "atStart",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.atStart(Tree)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tree"],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ANON__OR__TYPE$SimpleTreeVisitor",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "accept",
+            "name": "com.sun.source.tree.Tree#accept(ANON__OR__TYPE$SimpleTreeVisitor,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.Tree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "javax.lang.model.element.Name#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.lang.model.element.Name",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKind",
+            "name": "com.sun.source.tree.Tree#getKind()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.Tree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)$SimpleTreeVisitor$1.<init>()",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)$SimpleTreeVisitor$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "annotatedboundsofwildcard.Derived.<init>()",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "Derived",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "annotatedboundsofwildcard.Base.<init>()",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "Base",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "AnnotationTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitAnnotation",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitAnnotation(AnnotationTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AnnotationTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitAnnotation",
+            "name": "com.sun.source.util.TreePathScanner#visitAnnotation(AnnotationTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "com.google.common.collect.ImmutableSet#contains(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.<staticinit>()",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getArguments",
+            "name": "com.sun.source.tree.AnnotationTree#getArguments()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.AnnotationTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "com.google.common.collect.ImmutableMap#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "com.google.common.collect.ImmutableMap#containsKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Range<Integer>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.SortedMap#putIfAbsent(Range,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAnnotationType",
+            "name": "com.sun.source.tree.AnnotationTree#getAnnotationType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.AnnotationTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExpressionTree"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.stream.Stream.of(ExpressionTree)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.stream.Stream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "com.sun.source.tree.LiteralTree#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.LiteralTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInitializers",
+            "name": "com.sun.source.tree.NewArrayTree#getInitializers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.NewArrayTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStartPosition",
+            "name": "com.sun.tools.javac.tree.JCTree#getStartPosition()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.tree.JCTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ImportTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitImport",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitImport(ImportTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getQualifiedIdentifier",
+            "name": "com.sun.source.tree.ImportTree#getQualifiedIdentifier()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.ImportTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ImportTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitImport",
+            "name": "com.sun.source.util.TreePathScanner#visitImport(ImportTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "x0",
+            "name": "memberselectnonexpression.MemberSelectNonExpressions.NullMarkedUsage.x0()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemberSelectNonExpressions.NullMarkedUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AnnotatedTypeTree"],
+            "templateArguments": [],
+            "function": "isUnannotatedOrNonNull",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.isUnannotatedOrNonNull(AnnotatedTypeTree)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "main",
+            "name": "selftype.CKN#main()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "CKN",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T extends SelfType"],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "selftype.SelfType#foo(T extends SelfType)",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "SelfType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CheckerFrameworkToJspecifyRefactoring",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring#CheckerFrameworkToJspecifyRefactoring()",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.<init>()",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "VariableTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitVariable",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitVariable(VariableTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "com.sun.source.tree.MethodTree#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.MethodTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getType",
+            "name": "com.sun.source.tree.VariableTree#getType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.VariableTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getParameters",
+            "name": "com.sun.source.tree.MethodTree#getParameters()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.MethodTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "com.sun.source.tree.VariableTree#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.VariableTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.SortedMap#put(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "VariableTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitVariable",
+            "name": "com.sun.source.util.TreePathScanner#visitVariable(VariableTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getReceiverParameter",
+            "name": "com.sun.source.tree.MethodTree#getReceiverParameter()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.MethodTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "main",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.main(String[])",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "A<Object>",
+                "A<Test>",
+                "B<Object>",
+                "B<Test>",
+                "T extends Test"
+            ],
+            "templateArguments": [],
+            "function": "main",
+            "name": "typeparameterbounds.TypeParameterBounds#main(A,A,B,B,T extends Test)",
+            "packageIndex": 12,
+            "language": "java",
+            "type": "TypeParameterBounds",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["E"],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "typeparameterbounds.B#bar(E)",
+            "packageIndex": 12,
+            "language": "java",
+            "type": "B",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "typeparameterbounds.A#foo(T)",
+            "packageIndex": 12,
+            "language": "java",
+            "type": "A",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["E"],
+            "templateArguments": [],
+            "function": "bar",
+            "name": "typeparameterbounds.A#bar(E)",
+            "packageIndex": 12,
+            "language": "java",
+            "type": "A",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "foo",
+            "name": "typeparameterbounds.B#foo(T)",
+            "packageIndex": 12,
+            "language": "java",
+            "type": "B",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableSet.of(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "com.google.common.collect.ImmutableMap.of(String,String,String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.google.common.collect.ImmutableMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "selftype.BK.<init>()",
+            "packageIndex": 5,
+            "language": "java",
+            "type": "BK",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1.<init>()",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Comparator<Range<Integer>>"],
+            "templateArguments": [],
+            "function": "TreeMap",
+            "name": "java.util.TreeMap#TreeMap(Comparator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.TreeMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["JCCompilationUnit"],
+            "templateArguments": [],
+            "function": "TreePath",
+            "name": "com.sun.source.util.TreePath#TreePath(JCCompilationUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePath",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.sun.tools.javac.util.Context.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.util.Context",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Context",
+            "name": "com.sun.tools.javac.util.Context#Context()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.tools.javac.util.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SortedMap<Range<Integer>, String>"],
+            "templateArguments": [],
+            "function": "putAll",
+            "name": "java.util.SortedMap#putAll(SortedMap)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Test<Derived, Derived, Derived>",
+                "Test<Derived, Derived, Derived>",
+                "Test<Derived, Derived, Derived>",
+                "Test<Derived, Derived, Derived>",
+                "Test<Object, Object, Object>",
+                "Test<Object, Object, Object>",
+                "Test<Object, Object, Object>",
+                "Test<Object, Object, Object>",
+                "AnnotatedBoundsOfWildcard"
+            ],
+            "templateArguments": [],
+            "function": "main",
+            "name": "annotatedboundsofwildcard.Use#main(Test,Test,Test,Test,Test,Test,Test,Test,AnnotatedBoundsOfWildcard)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "Use",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? super Base, ? super Base, ? super Base>"],
+            "templateArguments": [],
+            "function": "superNullable",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#superNullable(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? extends Base, ? extends Base, ? extends Base>"],
+            "templateArguments": [],
+            "function": "extendsNotNull",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#extendsNotNull(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? extends Base, ? extends Base, ? extends Base>"],
+            "templateArguments": [],
+            "function": "extendsNullable",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#extendsNullable(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? extends Object, ? extends Object, ? extends Object>"],
+            "templateArguments": [],
+            "function": "noBounds",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#noBounds(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? extends Base, ? extends Base, ? extends Base>"],
+            "templateArguments": [],
+            "function": "extendsAsIs",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#extendsAsIs(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? super Base, ? super Base, ? super Base>"],
+            "templateArguments": [],
+            "function": "superNotNull",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#superNotNull(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Test<? super Base, ? super Base, ? super Base>"],
+            "templateArguments": [],
+            "function": "superAsIs",
+            "name": "annotatedboundsofwildcard.AnnotatedBoundsOfWildcard#superAsIs(Test)",
+            "packageIndex": 11,
+            "language": "java",
+            "type": "AnnotatedBoundsOfWildcard",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CompilationUnitTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitCompilationUnit",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitCompilationUnit(CompilationUnitTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPackageName",
+            "name": "com.sun.source.tree.CompilationUnitTree#getPackageName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.CompilationUnitTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CompilationUnitTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitCompilationUnit",
+            "name": "com.sun.source.util.TreePathScanner#visitCompilationUnit(CompilationUnitTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "IdentifierTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitIdentifier",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)$SimpleTreeVisitor$1#visitIdentifier(IdentifierTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.getSimpleName(Tree)$SimpleTreeVisitor$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "com.sun.source.tree.IdentifierTree#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.IdentifierTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ClassTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitClass",
+            "name": "com.google.devtools.javatools.typeannotationrefactoring.CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1#visitClass(ClassTree,Void)",
+            "packageIndex": 6,
+            "language": "java",
+            "type": "CheckerFrameworkToJspecifyRefactoring.refactor(String)$TreePathScanner$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "com.sun.source.tree.ClassTree#getSimpleName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.tree.ClassTree",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ClassTree",
+                "Void"
+            ],
+            "templateArguments": [],
+            "function": "visitClass",
+            "name": "com.sun.source.util.TreePathScanner#visitClass(ClassTree,Void)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.source.util.TreePathScanner",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 52,
+                "column": 7,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 58,
+                "column": 7,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 55,
+                "column": 7,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 49,
+                "column": 5,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 40,
+                "column": 1,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 45,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 46,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 49,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 44,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 51,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 50,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 48,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "WildcardsWithDefault.java",
+                "line": 43,
+                "column": 5,
+                "directory": "samples/wildcardsWithDefault/wildcardswithdefault"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 46,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 53,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 50,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 48,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 46,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 50,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 48,
+                "column": 5,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 54,
+                "column": 34,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 53,
+                "column": 55,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 49,
+                "column": 1,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 35,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 367,
+                "column": 23,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 367,
+                "column": 39,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 40,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 431,
+                "column": 41,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 433,
+                "column": 12,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 420,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 431,
+                "column": 65,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 425,
+                "column": 54,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 429,
+                "column": 26,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 428,
+                "column": 28,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 430,
+                "column": 7,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 426,
+                "column": 30,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 423,
+                "column": 24,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 427,
+                "column": 28,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 24,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "NonPlatformTypeParameter.java",
+                "line": 34,
+                "column": 5,
+                "directory": "samples/nonPlatformTypeParameter/nonplatformtypeparameter"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "NonPlatformTypeParameter.java",
+                "line": 48,
+                "column": 5,
+                "directory": "samples/nonPlatformTypeParameter/nonplatformtypeparameter"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "NonPlatformTypeParameter.java",
+                "line": 45,
+                "column": 5,
+                "directory": "samples/nonPlatformTypeParameter/nonplatformtypeparameter"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "NonPlatformTypeParameter.java",
+                "line": 33,
+                "column": 5,
+                "directory": "samples/nonPlatformTypeParameter/nonplatformtypeparameter"
+            },
+            "caller": 34,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "NonPlatformTypeParameter.java",
+                "line": 41,
+                "column": 5,
+                "directory": "samples/nonPlatformTypeParameter/nonplatformtypeparameter"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 410,
+                "column": 30,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 390,
+                "column": 5,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 412,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 396,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 412,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 388,
+                "column": 55,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 388,
+                "column": 55,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 406,
+                "column": 35,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 405,
+                "column": 5,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 413,
+                "column": 32,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 393,
+                "column": 52,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 391,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 389,
+                "column": 5,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 408,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 413,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 412,
+                "column": 61,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 399,
+                "column": 34,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 399,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 393,
+                "column": 7,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 37,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 32,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 56,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 29,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 23,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 26,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 57,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 61,
+                "column": 36,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 62,
+                "column": 26,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 58,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "Caller.java",
+                "line": 19,
+                "column": 3,
+                "directory": "samples/fullyQualified/fullyqualified/sub"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 64,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 49,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 55,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 51,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 58,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 53,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 62,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "TypeArgumentsFromParameterBounds.java",
+                "line": 60,
+                "column": 5,
+                "directory": "samples/typeArgumentsFromParameterBounds/typeargumentsfromparameterbounds"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 43,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 66,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 87,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 75,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 78,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 81,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 89,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 87,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 83,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 71,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 85,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 75,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 66,
+                "column": 3,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 81,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 83,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 92,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 71,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 85,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 72,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 78,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Defaults.java",
+                "line": 72,
+                "column": 5,
+                "directory": "samples/defaults/defaults"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 101,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 96,
+                "column": 23,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 74,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 95,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 74,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 94,
+                "column": 19,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 74,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 371,
+                "column": 23,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 79,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 371,
+                "column": 39,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 79,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Simple.java",
+                "line": 38,
+                "column": 1,
+                "directory": "samples/simple/simple"
+            },
+            "caller": 80,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 57,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 82,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 209,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 207,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 209,
+                "column": 38,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 83,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 208,
+                "column": 35,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 83,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 212,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 83,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 199,
+                "column": 33,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 192,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 191,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 200,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 202,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 192,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 192,
+                "column": 59,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 190,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 190,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 189,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 200,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 88,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 58,
+                "column": 3,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 71,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 63,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 78,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 72,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 78,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 72,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 75,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 75,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 65,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 71,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 68,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 63,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "IgnoreAnnotations.java",
+                "line": 65,
+                "column": 5,
+                "directory": "samples/ignoreAnnotations/ignoreannotations"
+            },
+            "caller": 96,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 33,
+                "column": 7,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 101,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 37,
+                "column": 25,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 101,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 36,
+                "column": 7,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 101,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 44,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 47,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 59,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 51,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 48,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 41,
+                "column": 3,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 54,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 57,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 60,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 43,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "NullnessUnspecifiedTypeParameter.java",
+                "line": 53,
+                "column": 5,
+                "directory": "samples/nullnessUnspecifiedTypeParameter/nullnessunspecifiedtypeparameter"
+            },
+            "caller": 104,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 362,
+                "column": 18,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 94,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 381,
+                "column": 18,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 21,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 443,
+                "column": 24,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 357,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 110,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 439,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 111,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 453,
+                "column": 12,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 111,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 452,
+                "column": 43,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 111,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 440,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 111,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 52,
+                "column": 1,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 116,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 182,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 184,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 181,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 163,
+                "column": 7,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 179,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 172,
+                "column": 15,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 169,
+                "column": 44,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 166,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 180,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 168,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 165,
+                "column": 29,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 165,
+                "column": 43,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 177,
+                "column": 33,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 178,
+                "column": 34,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 182,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 179,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 180,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 176,
+                "column": 33,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 169,
+                "column": 15,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 118,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 375,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 20,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 157,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 158,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 160,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 153,
+                "column": 15,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 151,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 152,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 151,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 158,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 131,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 27,
+                "column": 7,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 134,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 33,
+                "column": 7,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 134,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 30,
+                "column": 7,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 134,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "MemberSelectNonExpressions.java",
+                "line": 24,
+                "column": 5,
+                "directory": "samples/memberSelectNonExpression/memberselectnonexpression"
+            },
+            "caller": 134,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 338,
+                "column": 12,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 91,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 339,
+                "column": 12,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 91,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 338,
+                "column": 26,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 91,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 333,
+                "column": 39,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 91,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 330,
+                "column": 9,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 91,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 59,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 70,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 66,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 61,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 72,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 64,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 75,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 68,
+                "column": 5,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 764,
+                "column": 3,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 138,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 247,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 246,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 309,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 255,
+                "column": 17,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 269,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 249,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 251,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 250,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 228,
+                "column": 53,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 309,
+                "column": 78,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 248,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 254,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 264,
+                "column": 17,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 253,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 245,
+                "column": 17,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 266,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 256,
+                "column": 30,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 276,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 267,
+                "column": 17,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 265,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 257,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 252,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 228,
+                "column": 28,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 224,
+                "column": 15,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 309,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 256,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 278,
+                "column": 78,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 268,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 225,
+                "column": 38,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 227,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 268,
+                "column": 30,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 225,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 320,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 255,
+                "column": 59,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 277,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 269,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 257,
+                "column": 81,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 269,
+                "column": 81,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 257,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 278,
+                "column": 36,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 228,
+                "column": 44,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 219,
+                "column": 18,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 308,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 278,
+                "column": 11,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 223,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 306,
+                "column": 17,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 307,
+                "column": 20,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 267,
+                "column": 59,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 86,
+                "column": 45,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 148,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 58,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 43,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 63,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 51,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 55,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 64,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 52,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 45,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 57,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 61,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 49,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "TypeParameterBounds.java",
+                "line": 46,
+                "column": 5,
+                "directory": "samples/typeParameterBounds/typeparameterbounds"
+            },
+            "caller": 149,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 457,
+                "column": 7,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 121,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 106,
+                "column": 7,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 121,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 762,
+                "column": 39,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 121,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "SelfType.java",
+                "line": 38,
+                "column": 1,
+                "directory": "samples/selfType/selftype"
+            },
+            "caller": 156,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 326,
+                "column": 12,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 115,
+                "column": 5,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 109,
+                "column": 62,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 110,
+                "column": 62,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 112,
+                "column": 30,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 108,
+                "column": 3,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 322,
+                "column": 12,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 111,
+                "column": 23,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 111,
+                "column": 23,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 324,
+                "column": 7,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 76,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 93,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 108,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 104,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 115,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 119,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 113,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 102,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 117,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 84,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 78,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 100,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 91,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 112,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 95,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 114,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 110,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 83,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 81,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 106,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 89,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 85,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 97,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 99,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 80,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 86,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 123,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 76,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "AnnotatedBoundsOfWildcard.java",
+                "line": 121,
+                "column": 5,
+                "directory": "samples/annotatedBoundsOfWildcard/annotatedboundsofwildcard"
+            },
+            "caller": 163,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 123,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 171,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 124,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 171,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 448,
+                "column": 24,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 174,
+            "callee": 175
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 139,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 141,
+                "column": 18,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 136,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 132,
+                "column": 15,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 135,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 134,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 133,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 138,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 140,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 137,
+                "column": 22,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 176,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 348,
+                "column": 30,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 135,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 343,
+                "column": 13,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 135,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 347,
+                "column": 52,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 135,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 351,
+                "column": 15,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 135,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "CheckerFrameworkToJspecifyRefactoring.java",
+                "line": 348,
+                "column": 16,
+                "directory": "cftojspecify/java/com/google/devtools/javatools/typeannotationrefactoring"
+            },
+            "caller": 135,
+            "callee": 111
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "memberselectnonexpression",
+            "isRoot": false,
+            "module": -1,
+            "name": "memberselectnonexpression",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "nullnessunspecifiedtypeparameter",
+            "isRoot": false,
+            "module": -1,
+            "name": "nullnessunspecifiedtypeparameter",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "wildcardswithdefault",
+            "isRoot": false,
+            "module": -1,
+            "name": "wildcardswithdefault",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "simple",
+            "isRoot": false,
+            "module": -1,
+            "name": "simple",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "ignoreannotations",
+            "isRoot": false,
+            "module": -1,
+            "name": "ignoreannotations",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "selftype",
+            "isRoot": false,
+            "module": -1,
+            "name": "selftype",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "com.google.devtools.javatools.typeannotationrefactoring",
+            "isRoot": false,
+            "module": -1,
+            "name": "typeannotationrefactoring",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "nonplatformtypeparameter",
+            "isRoot": false,
+            "module": -1,
+            "name": "nonplatformtypeparameter",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "defaults",
+            "isRoot": false,
+            "module": -1,
+            "name": "defaults",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "fullyqualified.sub",
+            "isRoot": false,
+            "module": -1,
+            "name": "sub",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "typeargumentsfromparameterbounds",
+            "isRoot": false,
+            "module": -1,
+            "name": "typeargumentsfromparameterbounds",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "annotatedboundsofwildcard",
+            "isRoot": false,
+            "module": -1,
+            "name": "annotatedboundsofwildcard",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "typeparameterbounds",
+            "isRoot": false,
+            "module": -1,
+            "name": "typeparameterbounds",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
