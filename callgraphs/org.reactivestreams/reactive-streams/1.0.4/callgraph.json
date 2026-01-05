@@ -1,0 +1,1285 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Subscriber<? super T>"],
+            "templateArguments": [],
+            "function": "FlowToReactiveSubscriber",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscriber#FlowToReactiveSubscriber(Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscriber.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscriber",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Publisher<? extends T>"],
+            "templateArguments": [],
+            "function": "toFlowPublisher",
+            "name": "org.reactivestreams.FlowAdapters.toFlowPublisher(Publisher)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Publisher<? extends T>"],
+            "templateArguments": [],
+            "function": "FlowPublisherFromReactive",
+            "name": "org.reactivestreams.FlowAdapters.FlowPublisherFromReactive#FlowPublisherFromReactive(Publisher)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowPublisherFromReactive",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "onNext",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscriber#onNext(T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "onNext",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscriber#onNext(T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "onNext",
+            "name": "java.util.concurrent.Flow.Subscriber#onNext(T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Subscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "onNext",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor#onNext(T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "onNext",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor#onNext(T)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["T"],
+            "templateArguments": [],
+            "function": "onNext",
+            "name": "java.util.concurrent.Flow.Processor#onNext(T)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Processor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscriber#onComplete()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscriber#onComplete()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "java.util.concurrent.Flow.Subscriber#onComplete()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Subscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscriber<? super U>"],
+            "templateArguments": [],
+            "function": "subscribe",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor#subscribe(Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FlowToReactiveSubscriber<U>"],
+            "templateArguments": [],
+            "function": "subscribe",
+            "name": "java.util.concurrent.Flow.Processor#subscribe(FlowToReactiveSubscriber)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Processor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Subscriber<? super U>"],
+            "templateArguments": [],
+            "function": "subscribe",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor#subscribe(Flow.Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscriber<? super T>"],
+            "templateArguments": [],
+            "function": "subscribe",
+            "name": "org.reactivestreams.FlowAdapters.ReactivePublisherFromFlow#subscribe(Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactivePublisherFromFlow",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Subscriber<? super T>"],
+            "templateArguments": [],
+            "function": "ReactiveToFlowSubscriber",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscriber#ReactiveToFlowSubscriber(Flow.Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscription"],
+            "templateArguments": [],
+            "function": "ReactiveToFlowSubscription",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscription#ReactiveToFlowSubscription(Subscription)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscription.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscription",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Flow.Subscriber<? super T>"],
+            "templateArguments": [],
+            "function": "subscribe",
+            "name": "org.reactivestreams.FlowAdapters.FlowPublisherFromReactive#subscribe(Flow.Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowPublisherFromReactive",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FlowToReactiveSubscriber<T>"],
+            "templateArguments": [],
+            "function": "subscribe",
+            "name": "java.util.concurrent.Flow.Publisher#subscribe(FlowToReactiveSubscriber)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Publisher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "FlowAdapters",
+            "name": "org.reactivestreams.FlowAdapters#FlowAdapters()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "request",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscription#request(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "request",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscription#request(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Publisher<? extends T>"],
+            "templateArguments": [],
+            "function": "ReactivePublisherFromFlow",
+            "name": "org.reactivestreams.FlowAdapters.ReactivePublisherFromFlow#ReactivePublisherFromFlow(Flow.Publisher)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactivePublisherFromFlow",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.ReactivePublisherFromFlow.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactivePublisherFromFlow",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Subscription"],
+            "templateArguments": [],
+            "function": "onSubscribe",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscriber#onSubscribe(Subscription)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscription"],
+            "templateArguments": [],
+            "function": "FlowToReactiveSubscription",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscription#FlowToReactiveSubscription(Subscription)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscription"],
+            "templateArguments": [],
+            "function": "onSubscribe",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscriber#onSubscribe(Subscription)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FlowToReactiveSubscription"],
+            "templateArguments": [],
+            "function": "onSubscribe",
+            "name": "java.util.concurrent.Flow.Subscriber#onSubscribe(FlowToReactiveSubscription)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Subscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Publisher<? extends T>"],
+            "templateArguments": [],
+            "function": "toPublisher",
+            "name": "org.reactivestreams.FlowAdapters.toPublisher(Flow.Publisher)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Subscriber<T>"],
+            "templateArguments": [],
+            "function": "toSubscriber",
+            "name": "org.reactivestreams.FlowAdapters.toSubscriber(Flow.Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscription"],
+            "templateArguments": [],
+            "function": "onSubscribe",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor#onSubscribe(Subscription)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscription"],
+            "templateArguments": [],
+            "function": "onSubscribe",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor#onSubscribe(Subscription)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FlowToReactiveSubscription"],
+            "templateArguments": [],
+            "function": "onSubscribe",
+            "name": "java.util.concurrent.Flow.Processor#onSubscribe(FlowToReactiveSubscription)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Processor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Processor<? super T, ? extends U>"],
+            "templateArguments": [],
+            "function": "toFlowProcessor",
+            "name": "org.reactivestreams.FlowAdapters.toFlowProcessor(Processor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Processor<? super T, ? extends U>"],
+            "templateArguments": [],
+            "function": "FlowToReactiveProcessor",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor#FlowToReactiveProcessor(Processor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Subscriber<T>"],
+            "templateArguments": [],
+            "function": "toFlowSubscriber",
+            "name": "org.reactivestreams.FlowAdapters.toFlowSubscriber(Subscriber)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor#onComplete()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor#onComplete()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Processor<? super T, ? extends U>"],
+            "templateArguments": [],
+            "function": "toProcessor",
+            "name": "org.reactivestreams.FlowAdapters.toProcessor(Flow.Processor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Flow.Processor<? super T, ? extends U>"],
+            "templateArguments": [],
+            "function": "ReactiveToFlowProcessor",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor#ReactiveToFlowProcessor(Flow.Processor)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor#onError(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor#onError(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "java.util.concurrent.Flow.Processor#onError(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Processor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscriber#onError(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscriber#onError(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "onError",
+            "name": "java.util.concurrent.Flow.Subscriber#onError(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Subscriber",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.FlowPublisherFromReactive.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowPublisherFromReactive",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "cancel",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscription#cancel()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "cancel",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscription#cancel()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowProcessor.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowProcessor",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "request",
+            "name": "java.util.concurrent.Flow.Subscription#request(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Subscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "java.util.concurrent.Flow.Processor#onComplete()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Processor",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.ReactiveToFlowSubscriber.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.ReactiveToFlowSubscriber",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "cancel",
+            "name": "java.util.concurrent.Flow.Subscription#cancel()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Flow.Subscription",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.reactivestreams.FlowAdapters.FlowToReactiveSubscription.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlowAdapters.FlowToReactiveSubscription",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 200,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 57,
+                "column": 29,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 244,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 244,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 278,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 278,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 254,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 254,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 293,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 293,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 13,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 293,
+                "column": 49,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 13,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 331,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 331,
+                "column": 60,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 15,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 176,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 348,
+                "column": 56,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 16,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 348,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 16,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 348,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 16,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 14,
+                "column": 5,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 16,
+                "column": 15,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 160,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 342,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 239,
+                "column": 62,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 239,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 29,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 239,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 29,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 8,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 8,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 35,
+                "column": 25,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 33,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 143,
+                "column": 26,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 34,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 273,
+                "column": 62,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 35,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 273,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 273,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 103,
+                "column": 29,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 123,
+                "column": 30,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 40,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 326,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 41,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 326,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 41,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 80,
+                "column": 25,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 283,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 283,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 249,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 249,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 48,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 305,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 39,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 360,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 3,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 165,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 267,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 44,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 182,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 26,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 182,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 26,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 288,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 42,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 288,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 42,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 216,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 49,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 216,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 49,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 311,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 36,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 311,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 36,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 311,
+                "column": 73,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 36,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 221,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 11,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 221,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 11,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 366,
+                "column": 63,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 20,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 366,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 20,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 233,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 17,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 321,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 46,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 321,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 46,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 187,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 54,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 187,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 54,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 154,
+                "column": 9,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 30,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 206,
+                "column": 73,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 31,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 206,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 31,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "FlowAdapters.java",
+                "line": 206,
+                "column": 13,
+                "directory": "src/main/java9/org/reactivestreams"
+            },
+            "caller": 31,
+            "callee": 35
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.reactivestreams",
+        "isRoot": false,
+        "module": -1,
+        "name": "reactivestreams",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
