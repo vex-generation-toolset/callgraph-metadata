@@ -1,0 +1,5 @@
+{
+  "repository": "google/conscrypt",
+  "tag": "refs/tags/%s",
+  "relative_path": "openjdk-uber"
+}

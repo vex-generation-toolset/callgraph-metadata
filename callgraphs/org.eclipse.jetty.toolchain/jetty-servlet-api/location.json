@@ -1,0 +1,5 @@
+{
+  "repository": "jetty/jetty.toolchain",
+  "tag": "refs/tags/jetty-servlet-api-%s",
+  "relative_path": "jetty-javax-servlet-api"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "typetools/checker-framework",
+  "tag": "refs/tags/checker-framework-%s",
+  "relative_path": "checker-qual"
+}

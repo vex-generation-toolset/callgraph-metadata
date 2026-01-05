@@ -1,0 +1,5 @@
+{
+  "repository": "opengeospatial/geoapi",
+  "tag": "refs/tags/%s",
+  "relative_path": "geoapi"
+}

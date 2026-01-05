@@ -1,0 +1,5 @@
+{
+  "repository": "locationtech/proj4j",
+  "tag": "refs/tags/v%s",
+  "relative_path": "core"
+}

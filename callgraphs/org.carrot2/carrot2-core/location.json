@@ -1,0 +1,5 @@
+{
+  "repository": "carrot2/carrot2",
+  "tag": "refs/tags/release/%s",
+  "relative_path": "core"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "facebook/rocksdb",
+  "tag": "refs/tags/v%s",
+  "relative_path": "java"
+}

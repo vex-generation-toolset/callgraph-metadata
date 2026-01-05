@@ -1,0 +1,5 @@
+{
+  "repository": "eclipse-ee4j/glassfish-hk2",
+  "tag": "refs/tags/%s",
+  "relative_path": "hk2-locator"
+}

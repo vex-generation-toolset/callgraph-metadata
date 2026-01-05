@@ -1,0 +1,5 @@
+{
+  "repository": "eclipse-ee4j/jersey",
+  "tag": "refs/tags/%s",
+  "relative_path": "containers/jetty-http"
+}

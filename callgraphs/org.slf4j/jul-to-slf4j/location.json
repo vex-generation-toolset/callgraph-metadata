@@ -1,0 +1,5 @@
+{
+  "repository": "qos-ch/slf4j",
+  "tag": "refs/tags/v_%s",
+  "relative_path": "jul-to-slf4j"
+}

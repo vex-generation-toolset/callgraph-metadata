@@ -1,0 +1,5 @@
+{
+  "repository": "eclipse-ee4j/glassfish-hk2-extra",
+  "tag": "refs/tags/%s",
+  "relative_path": "osgi-resource-locator"
+}
