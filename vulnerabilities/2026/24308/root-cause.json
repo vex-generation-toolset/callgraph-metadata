@@ -1,0 +1,93 @@
+{
+  "cve": "CVE-2026-24308",
+  "package": "pkg:maven/org.apache.zookeeper/zookeeper@3.9.4",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24308"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-24308"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-24308"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24308"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      532
+    ],
+    "description": "Improper handling of configuration values in ZKConfig in Apache ZooKeeper 3.8.5 and 3.9.4 on all platforms allows an attacker to expose sensitive information stored in client configuration in the client's logfile. Configuration values are exposed at INFO level logging rendering potential production systems affected by the issue. Users are recommended to upgrade to version 3.8.6 or 3.9.5 which fixes this issue.",
+    "detail": "Improper handling of configuration values in ZKConfig in Apache ZooKeeper 3.8.5 and 3.9.4 on all platforms allows an attacker to expose sensitive information stored in client configuration in the client's logfile. Configuration values are exposed at INFO level logging rendering potential production systems affected by the issue. Users are recommended to upgrade to version 3.8.6 or 3.9.5 which fixes this issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24308"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-24308"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-24308"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/qng3rtzv2pqkmko4rhv85jfplkyrgqdr"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Third Party Advisory"
+        ],
+        "url": "http://www.openwall.com/lists/oss-security/2026/03/07/5"
+      }
+    ],
+    "created": "2026-03-10T18:18:27.790Z",
+    "published": "2026-03-07T09:16:07.660Z",
+    "updated": "2026-03-10T18:18:27.790Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
