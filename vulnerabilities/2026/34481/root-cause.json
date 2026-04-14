@@ -1,0 +1,128 @@
+{
+  "cve": "CVE-2026-34481",
+  "package": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.21.0",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.logging.log4j.layout.template.json.util",
+      "version": "up to 2.25.3",
+      "commit": "https://github.com/apache/logging-log4j2/commit/2c4dd1db372c59ad73aca88e281635fe30072268",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-34481"
+      },
+      "methods": [
+        "org.apache.logging.log4j.layout.template.json.util.JsonWriter.writeNumber"
+      ]
+    },
+    {
+      "package": "org.apache.logging.log4j.layout.template.json.util",
+      "version": "up to 2.25.3",
+      "commit": "https://github.com/apache/logging-log4j2/commit/08964048c4d8dc58ab248ca38d3c6deaa101f9b3",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+      },
+      "methods": [
+        "org.apache.logging.log4j.layout.template.json.util.JsonWriter.writeNumber"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34481"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34481"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [
+      116
+    ],
+    "description": "Apache Log4j's  JsonTemplateLayout https://logging.apache.org/log4j/2.x/manual/json-template-layout.html , in versions up to and including 2.25.3, produces invalid JSON output when log events contain non-finite floating-point values (NaN, Infinity, or -Infinity), which are prohibited by RFC 8259. This may cause downstream log processing systems to reject or fail to index affected records.\n\nAn attacker can exploit this issue only if both of the following conditions are met:\n\n  *  The application uses JsonTemplateLayout.\n  *  The application logs a MapMessage containing an attacker-controlled floating-point value.\n\n\nUsers are advised to upgrade to Apache Log4j JSON Template Layout 2.25.4, which corrects this issue.",
+    "detail": "Apache Log4j's  JsonTemplateLayout https://logging.apache.org/log4j/2.x/manual/json-template-layout.html , in versions up to and including 2.25.3, produces invalid JSON output when log events contain non-finite floating-point values (NaN, Infinity, or -Infinity), which are prohibited by RFC 8259. This may cause downstream log processing systems to reject or fail to index affected records.\n\nAn attacker can exploit this issue only if both of the following conditions are met:\n\n  *  The application uses JsonTemplateLayout.\n  *  The application logs a MapMessage containing an attacker-controlled floating-point value.\n\n\nUsers are advised to upgrade to Apache Log4j JSON Template Layout 2.25.4, which corrects this issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34481"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34481"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/apache/logging-log4j2/pull/4080"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.apache.org/thread/n34zdv00gbkdbzt2rx9rf5mqz6lhopcv"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/cyclonedx/vdr.xml"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/log4j/2.x/manual/json-template-layout.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/security.html#CVE-2026-34481"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2026/04/10/10"
+      }
+    ],
+    "created": "2026-04-13T15:02:06.187Z",
+    "published": "2026-04-10T16:16:31.663Z",
+    "updated": "2026-04-13T15:02:06.187Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
