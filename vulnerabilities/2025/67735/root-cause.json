@@ -1,0 +1,99 @@
+{
+  "cve": "CVE-2025-67735",
+  "package": "pkg:maven/io.netty/netty-codec-http@4.2.6.Final",
+  "root_cause_functions": [
+    {
+      "package": "io.netty.handler.codec.http",
+      "version": "Prior to 4.1.129.Final and 4.2.8.Final",
+      "commit": "https://github.com/netty/netty/commit/77e81f1e5944d98b3acf887d3aa443b252752e94",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2025-67735&ecosystem="
+      },
+      "methods": [
+        "io.netty.handler.codec.http.DefaultHttpRequest"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67735"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-67735"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-67735"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67735"
+        },
+        "score": "6.5",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      93
+    ],
+    "description": "Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.129.Final and 4.2.8.Final, the `io.netty.handler.codec.http.HttpRequestEncoder` has a CRLF injection with the request URI when constructing a request. This leads to request smuggling when `HttpRequestEncoder` is used without proper sanitization of the URI. Any application / framework using `HttpRequestEncoder` can be subject to be abused to perform request smuggling using CRLF injection. Versions 4.1.129.Final and 4.2.8.Final fix the issue.",
+    "detail": "Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.129.Final and 4.2.8.Final, the `io.netty.handler.codec.http.HttpRequestEncoder` has a CRLF injection with the request URI when constructing a request. This leads to request smuggling when `HttpRequestEncoder` is used without proper sanitization of the URI. Any application / framework using `HttpRequestEncoder` can be subject to be abused to perform request smuggling using CRLF injection. Versions 4.1.129.Final and 4.2.8.Final fix the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67735"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-67735"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-67735"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Exploit",
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-84h7-rjj3-6jx4"
+      }
+    ],
+    "created": "2026-01-02T18:50:23.313Z",
+    "published": "2025-12-16T01:15:52.367Z",
+    "updated": "2026-01-02T18:50:23.313Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
