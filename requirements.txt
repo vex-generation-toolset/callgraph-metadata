@@ -4,3 +4,5 @@ cyclonedx-python-lib==11.5.0
 dulwich==0.24.10
 packageurl-python==0.17.5
 requests==2.32.5
+
+PyGithub==2.8.1

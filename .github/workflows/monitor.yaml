@@ -1,0 +1,32 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Vulnerability Monitor
+on:
+  schedule:
+    - cron: '37 14 * * *'
+  workflow_dispatch: { }
+
+# Empty permissions at the workflow level; specific jobs will set their own permissions
+permissions: { }
+
+jobs:
+  trigger-root-cause:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Trigger Root Cause Generation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/check_cve.py sboms/*.json | while IFS= read -r params; do
+            echo "$params" | gh workflow run generate-root-cause.yaml \
+              --repo "${{ github.repository }}" \
+              --json
+          done
