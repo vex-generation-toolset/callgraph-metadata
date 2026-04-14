@@ -1,0 +1,105 @@
+{
+  "cve": "CVE-2026-33870",
+  "package": "pkg:maven/io.netty/netty-codec-http@4.2.6.Final",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33870"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-33870"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-33870"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33870"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      444
+    ],
+    "description": "Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and 4.2.10.Final, Netty incorrectly parses quoted strings in HTTP/1.1 chunked transfer encoding extension values, enabling request smuggling attacks. Versions 4.1.132.Final and 4.2.10.Final fix the issue.",
+    "detail": "Netty is an asynchronous, event-driven network application framework. In versions prior to 4.1.132.Final and 4.2.10.Final, Netty incorrectly parses quoted strings in HTTP/1.1 chunked transfer encoding extension values, enabling request smuggling attacks. Versions 4.1.132.Final and 4.2.10.Final fix the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33870"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-33870"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-33870"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Exploit",
+          "Mitigation",
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-pwqr-wmgm-9rr8"
+      },
+      {
+        "title": [
+          "Technical Description"
+        ],
+        "url": "https://w4ke.info/2025/06/18/funky-chunks.html"
+      },
+      {
+        "title": [
+          "Technical Description"
+        ],
+        "url": "https://w4ke.info/2025/10/29/funky-chunks-2.html"
+      },
+      {
+        "title": [
+          "Technical Description"
+        ],
+        "url": "https://www.rfc-editor.org/rfc/rfc9110"
+      }
+    ],
+    "created": "2026-03-30T20:12:16.330Z",
+    "published": "2026-03-27T20:16:34.663Z",
+    "updated": "2026-03-30T20:12:16.330Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
