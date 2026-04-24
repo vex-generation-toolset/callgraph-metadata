@@ -1,0 +1,5 @@
+{
+  "repository": "spring-projects/spring-framework",
+  "tag": "refs/tags/v%s",
+  "relative_path": "spring-core"
+}

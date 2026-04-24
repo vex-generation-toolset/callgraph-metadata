@@ -1,0 +1,5 @@
+{
+  "repository": "spring-projects/spring-boot",
+  "tag": "refs/tags/v%s",
+  "relative_path": "spring-boot-project/spring-boot"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "assertj/assertj",
+  "tag": "refs/tags/assertj-build-%s",
+  "relative_path": "assertj-core"
+}

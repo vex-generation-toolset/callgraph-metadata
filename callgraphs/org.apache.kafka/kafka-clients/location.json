@@ -1,0 +1,5 @@
+{
+  "repository": "apache/kafka",
+  "tag": "refs/tags/%s",
+  "relative_path": "clients"
+}

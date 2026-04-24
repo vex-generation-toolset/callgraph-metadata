@@ -1,0 +1,5 @@
+{
+  "repository": "netty/netty",
+  "tag": "refs/tags/netty-%s",
+  "relative_path": "codec"
+}

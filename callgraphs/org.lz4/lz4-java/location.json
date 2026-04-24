@@ -1,0 +1,5 @@
+{
+  "repository": "lz4/lz4-java",
+  "tag": "refs/tags/%s",
+  "relative_path": ""
+}
