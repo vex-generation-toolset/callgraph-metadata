@@ -1,0 +1,126 @@
+{
+  "cve": "CVE-2025-24970",
+  "package": "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+  "root_cause_functions": [
+    {
+      "package": "io.netty.handler.ssl",
+      "version": "4.1.91.Final to prior to 4.1.118.Final",
+      "commit": "https://github.com/netty/netty/commit/87f40725155b2f89adfde68c7732f97c153676c4",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24970"
+      },
+      "methods": [
+        "io.netty.handler.ssl.ReferenceCountedOpenSslEngine.unwrap",
+        "io.netty.handler.ssl.SslUtils.getEncryptedPacketLength"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24970"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-24970"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-24970"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24970"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      20
+    ],
+    "description": "Netty, an asynchronous, event-driven network application framework, has a vulnerability starting in version 4.1.91.Final and prior to version 4.1.118.Final. When a special crafted packet is received via SslHandler it doesn't correctly handle validation of such a packet in all cases which can lead to a native crash. Version 4.1.118.Final contains a patch. As workaround its possible to either disable the usage of the native SSLEngine or change the code manually.",
+    "detail": "Netty, an asynchronous, event-driven network application framework, has a vulnerability starting in version 4.1.91.Final and prior to version 4.1.118.Final. When a special crafted packet is received via SslHandler it doesn't correctly handle validation of such a packet in all cases which can lead to a native crash. Version 4.1.118.Final contains a patch. As workaround its possible to either disable the usage of the native SSLEngine or change the code manually.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24970"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-24970"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-24970"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Patch"
+        ],
+        "url": "https://github.com/netty/netty/commit/87f40725155b2f89adfde68c7732f97c153676c4"
+      },
+      {
+        "title": [
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-4g8c-wm8x-jfhw"
+      },
+      {
+        "title": [
+          "Third Party Advisory"
+        ],
+        "url": "https://security.netapp.com/advisory/ntap-20250221-0005/"
+      },
+      {
+        "title": [
+          "Exploit",
+          "Third Party Advisory"
+        ],
+        "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-detection"
+      },
+      {
+        "title": [
+          "Exploit",
+          "Mitigation",
+          "Third Party Advisory"
+        ],
+        "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-mitigation"
+      }
+    ],
+    "created": "2025-09-05T17:20:12.260Z",
+    "published": "2025-02-10T22:15:38.057Z",
+    "updated": "2025-09-05T17:20:12.260Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
