@@ -1,0 +1,112 @@
+{
+  "cve": "CVE-2026-28208",
+  "package": "pkg:maven/com.github.junrar/junrar@7.5.3",
+  "root_cause_functions": [
+    {
+      "package": "com.github.junrar",
+      "version": "Prior to 7.5.8",
+      "commit": "https://github.com/junrar/junrar/commit/947ff1d33f00f940aa68ae2593500291d799d954",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28208"
+      },
+      "methods": [
+        "com.github.junrar.LocalFolderExtractor.makeFile"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28208"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-28208"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-28208"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28208"
+        },
+        "score": "5.9",
+        "severity": "medium",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      22
+    ],
+    "description": "Junrar is an open source java RAR archive library. Prior to version 7.5.8, a backslash path traversal vulnerability in `LocalFolderExtractor` allows an attacker to write arbitrary files with attacker-controlled content anywhere on the filesystem when a crafted RAR archive is extracted on Linux/Unix. This can often lead to remote code execution (e.g., overwriting shell profiles, source code, cron jobs, etc). Version 7.5.8 has a fix for the issue.",
+    "detail": "Junrar is an open source java RAR archive library. Prior to version 7.5.8, a backslash path traversal vulnerability in `LocalFolderExtractor` allows an attacker to write arbitrary files with attacker-controlled content anywhere on the filesystem when a crafted RAR archive is extracted on Linux/Unix. This can often lead to remote code execution (e.g., overwriting shell profiles, source code, cron jobs, etc). Version 7.5.8 has a fix for the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28208"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-28208"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-28208"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Patch"
+        ],
+        "url": "https://github.com/junrar/junrar/commit/947ff1d33f00f940aa68ae2593500291d799d954"
+      },
+      {
+        "title": [
+          "Product",
+          "Release Notes"
+        ],
+        "url": "https://github.com/junrar/junrar/releases/tag/v7.5.8"
+      },
+      {
+        "title": [
+          "Exploit",
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/junrar/junrar/security/advisories/GHSA-j273-m5qq-6825"
+      }
+    ],
+    "created": "2026-03-02T21:16:27.533Z",
+    "published": "2026-02-26T23:16:35.440Z",
+    "updated": "2026-03-02T21:16:27.533Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
