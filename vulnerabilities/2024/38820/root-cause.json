@@ -1,0 +1,104 @@
+{
+  "cve": "CVE-2024-38820",
+  "package": "pkg:maven/org.springframework/spring-context@5.3.39",
+  "root_cause_functions": [
+    {
+      "package": "org.springframework.validation",
+      "version": "Before fix",
+      "commit": "https://github.com/spring-projects/spring-framework/commit/23656aebc6c7d0f9faff1080981eb4d55eff296c",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2024-38820&ecosystem="
+      },
+      "methods": [
+        "org.springframework.validation.DataBinder.setDisallowedFields",
+        "org.springframework.validation.DataBinder.isAllowed",
+        "org.springframework.web.multipart.support.MultipartResolutionDelegate.isMultipartContent"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38820"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2024-38820"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2024-38820"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38820"
+        },
+        "score": "3.1",
+        "severity": "low",
+        "vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      178
+    ],
+    "description": "The fix for CVE-2022-22968 made disallowedFields patterns in DataBinder case insensitive. However, String.toLowerCase() has some Locale dependent exceptions that could potentially result in fields not protected as expected.",
+    "detail": "The fix for CVE-2022-22968 made disallowedFields patterns in DataBinder case insensitive. However, String.toLowerCase() has some Locale dependent exceptions that could potentially result in fields not protected as expected.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38820"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2024-38820"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2024-38820"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Vendor Advisory"
+        ],
+        "url": "https://spring.io/security/cve-2024-38820"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://security.netapp.com/advisory/ntap-20241129-0003/"
+      }
+    ],
+    "created": "2024-11-29T12:15:07.007Z",
+    "published": "2024-10-18T06:15:03.333Z",
+    "updated": "2024-11-29T12:15:07.007Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
