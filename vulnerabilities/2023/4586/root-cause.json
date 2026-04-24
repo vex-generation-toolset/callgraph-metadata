@@ -1,0 +1,97 @@
+{
+  "cve": "CVE-2023-4586",
+  "package": "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4586"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2023-4586"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2023-4586"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4586"
+        },
+        "score": "7.4",
+        "severity": "high",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      20,
+      295
+    ],
+    "description": "A vulnerability was found in the Hot Rod client. This security issue occurs as the Hot Rod client does not enable hostname validation when using TLS, possibly resulting in a man-in-the-middle (MITM) attack.",
+    "detail": "A vulnerability was found in the Hot Rod client. This security issue occurs as the Hot Rod client does not enable hostname validation when using TLS, possibly resulting in a man-in-the-middle (MITM) attack.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4586"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2023-4586"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2023-4586"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://access.redhat.com/errata/RHSA-2023:7676"
+      },
+      {
+        "title": [
+          "Third Party Advisory"
+        ],
+        "url": "https://access.redhat.com/security/cve/CVE-2023-4586"
+      },
+      {
+        "title": [
+          "Issue Tracking",
+          "Third Party Advisory"
+        ],
+        "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2235564"
+      }
+    ],
+    "created": "2024-11-21T08:35:29.373Z",
+    "published": "2023-10-04T11:15:10.500Z",
+    "updated": "2024-11-21T08:35:29.373Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
