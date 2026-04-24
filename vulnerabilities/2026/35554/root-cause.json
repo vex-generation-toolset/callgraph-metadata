@@ -1,0 +1,184 @@
+{
+  "cve": "CVE-2026-35554",
+  "package": "pkg:maven/org.apache.kafka/kafka-clients@3.9.1",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Apache Kafka ≤ 3.9.1, ≤ 4.0.1, and ≤ 4.1.1",
+      "commit": "https://github.com/apache/kafka/commit/1df2ac5b2ba4d1b5ed54b895ff6fb9539303ccb5",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.Sender.failBatch",
+        "org.apache.kafka.clients.producer.internals.RecordAccumulator.deallocate"
+      ]
+    },
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Before fix",
+      "commit": "https://github.com/apache/kafka/commit/65e91c3dd50a1f8d7cc717610d7a0ee305a10b7e",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.Sender.failBatch"
+      ]
+    },
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Apache Kafka ≤ 3.9.1, ≤ 4.0.1, and ≤ 4.1.1",
+      "commit": "https://github.com/apache/kafka/commit/5c2ccbdf184b5409f1a2f9d0e3478b067db26ec1",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.Sender.maybeRemoveAndDeallocateBatch",
+        "org.apache.kafka.clients.producer.internals.RecordAccumulator.deallocate",
+        "org.apache.kafka.clients.producer.internals.BufferPool.deallocate"
+      ]
+    },
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Original (before patch)",
+      "commit": "https://github.com/apache/kafka/commit/252f10a6e4a01a797735fe7bba5c8751caeb0d17",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.RecordAccumulator.deallocate",
+        "org.apache.kafka.clients.producer.internals.Sender.failBatch"
+      ]
+    },
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Apache Kafka ≤ 3.9.1, ≤ 4.0.1, and ≤ 4.1.1",
+      "commit": "https://github.com/apache/kafka/commit/4e5ccc5a8d1aeac952930b54af949855383ee05e",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.Sender.failBatch",
+        "org.apache.kafka.clients.producer.internals.RecordAccumulator.deallocate"
+      ]
+    },
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Apache Kafka ≤ 3.9.1, ≤ 4.0.1, and ≤ 4.1.1",
+      "commit": "https://github.com/apache/kafka/commit/7e3e4e6974272f3a1e71bce9ea89a2edfcf79703",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.Sender.failBatch",
+        "org.apache.kafka.clients.producer.internals.RecordAccumulator.deallocate"
+      ]
+    },
+    {
+      "package": "org.apache.kafka.clients.producer.internals",
+      "version": "Apache Kafka ≤ 3.9.1, ≤ 4.0.1, and ≤ 4.1.1",
+      "commit": "https://github.com/apache/kafka/commit/466bda9c74548bfe3c4fcb277a0ecc36f43e87bf",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2026-35554&ecosystem="
+      },
+      "methods": [
+        "org.apache.kafka.clients.producer.internals.Sender.failBatch",
+        "org.apache.kafka.clients.producer.internals.RecordAccumulator.deallocate"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35554"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-35554"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-35554"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35554"
+        },
+        "score": "8.7",
+        "severity": "high",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      362,
+      416
+    ],
+    "description": "A race condition in the Apache Kafka Java producer client’s buffer pool management can cause messages to be silently delivered to incorrect topics.\n\nWhen a produce batch expires due to delivery.timeout.ms while a network request containing that batch is still in flight, the batch’s ByteBuffer is prematurely deallocated and returned to the buffer pool. If a subsequent producer batch—potentially destined for a different topic—reuses this freed buffer before the original network request completes, the buffer contents may become corrupted. This can result in messages being delivered to unintended topics without any error being reported to the producer.\n\n\nData Confidentiality:\nMessages intended for one topic may be delivered to a different topic, potentially exposing sensitive data to consumers who have access to the destination topic but not the intended source topic.\n\nData Integrity:\nConsumers on the receiving topic may encounter unexpected or incompatible messages, leading to deserialization failures, processing errors, and corrupted downstream data.\n\nThis issue affects Apache Kafka versions ≤ 3.9.1, ≤ 4.0.1, and  ≤ 4.1.1.\n\nKafka users are advised to upgrade to 3.9.2, 4.0.2, 4.1.2, 4.2.0, or later to address this vulnerability.",
+    "detail": "A race condition in the Apache Kafka Java producer client’s buffer pool management can cause messages to be silently delivered to incorrect topics.\n\nWhen a produce batch expires due to delivery.timeout.ms while a network request containing that batch is still in flight, the batch’s ByteBuffer is prematurely deallocated and returned to the buffer pool. If a subsequent producer batch—potentially destined for a different topic—reuses this freed buffer before the original network request completes, the buffer contents may become corrupted. This can result in messages being delivered to unintended topics without any error being reported to the producer.\n\n\nData Confidentiality:\nMessages intended for one topic may be delivered to a different topic, potentially exposing sensitive data to consumers who have access to the destination topic but not the intended source topic.\n\nData Integrity:\nConsumers on the receiving topic may encounter unexpected or incompatible messages, leading to deserialization failures, processing errors, and corrupted downstream data.\n\nThis issue affects Apache Kafka versions ≤ 3.9.1, ≤ 4.0.1, and  ≤ 4.1.1.\n\nKafka users are advised to upgrade to 3.9.2, 4.0.2, 4.1.2, 4.2.0, or later to address this vulnerability.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35554"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-35554"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-35554"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://issues.apache.org/jira/browse/KAFKA-19012"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.apache.org/thread/f07x7j8ovyqhjd1to25jsnqbm6wj01d6"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2026/04/07/6"
+      }
+    ],
+    "created": "2026-04-08T21:27:15.610Z",
+    "published": "2026-04-07T14:16:23.413Z",
+    "updated": "2026-04-08T21:27:15.610Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
