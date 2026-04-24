@@ -1,0 +1,147 @@
+{
+  "cve": "CVE-2025-58057",
+  "package": "pkg:maven/io.netty/netty-codec@4.1.94.Final",
+  "root_cause_functions": [
+    {
+      "package": "io.netty.handler.codec.compression",
+      "version": "Before fix (original vulnerable code)",
+      "commit": "https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58057"
+      },
+      "methods": [
+        "io.netty.handler.codec.compression.ZstdDecoder.decode",
+        "io.netty.handler.codec.compression.BrotliDecoder.decompress"
+      ]
+    },
+    {
+      "package": "io.netty.handler.codec.compression",
+      "version": "Before fix (vulnerable version)",
+      "commit": "https://github.com/netty/netty/commit/34894ac73b02efefeacd9c0972780b32dc3de04f",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2025-58057"
+      },
+      "methods": [
+        "io.netty.handler.codec.compression.BrotliDecoder.decompress",
+        "io.netty.handler.codec.compression.JdkZlibDecoder.decode",
+        "io.netty.handler.codec.compression.ZstdDecoder.decode"
+      ]
+    },
+    {
+      "package": "io.netty.handler.codec.compression",
+      "version": "Before fix",
+      "commit": "https://github.com/netty/netty/commit/10c1603cbab5e72a029521058eb35e15a8b7c7c5",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2025-58057"
+      },
+      "methods": [
+        "io.netty.handler.codec.compression.BrotliDecoder.forwardOutput"
+      ]
+    },
+    {
+      "package": "io.netty.handler.codec.compression",
+      "version": "Before patch (original vulnerable code)",
+      "commit": "https://github.com/netty/netty/commit/89810f4e9921f90fde528a0cfd399266a9739d89",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2025-58057"
+      },
+      "methods": [
+        "io.netty.handler.codec.compression.BrotliDecoder.decompress",
+        "io.netty.handler.codec.compression.JdkZlibDecoder.decode",
+        "io.netty.handler.codec.compression.JZlibDecoder.decode",
+        "io.netty.handler.codec.compression.ZstdDecoder.decode"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58057"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-58057"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-58057"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58057"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      409
+    ],
+    "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients. In netty-codec-compression versions 4.1.124.Final and below, and netty-codec versions 4.2.4.Final and below, when supplied with specially crafted input, BrotliDecoder and certain other decompression decoders will allocate a large number of reachable byte buffers, which can lead to denial of service. BrotliDecoder.decompress has no limit in how often it calls pull, decompressing data 64K bytes at a time. The buffers are saved in the output list, and remain reachable until OOM is hit. This is fixed in versions 4.1.125.Final of netty-codec and 4.2.5.Final of netty-codec-compression.",
+    "detail": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients. In netty-codec-compression versions 4.1.124.Final and below, and netty-codec versions 4.2.4.Final and below, when supplied with specially crafted input, BrotliDecoder and certain other decompression decoders will allocate a large number of reachable byte buffers, which can lead to denial of service. BrotliDecoder.decompress has no limit in how often it calls pull, decompressing data 64K bytes at a time. The buffers are saved in the output list, and remain reachable until OOM is hit. This is fixed in versions 4.1.125.Final of netty-codec and 4.2.5.Final of netty-codec-compression.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58057"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-58057"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-58057"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Patch"
+        ],
+        "url": "https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d"
+      },
+      {
+        "title": [
+          "Exploit",
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-3p8m-j85q-pgmj"
+      }
+    ],
+    "created": "2025-09-08T16:45:55.143Z",
+    "published": "2025-09-04T10:42:32.180Z",
+    "updated": "2025-09-08T16:45:55.143Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
