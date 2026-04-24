@@ -1,0 +1,107 @@
+{
+  "cve": "CVE-2025-55163",
+  "package": "pkg:maven/io.grpc/grpc-netty-shaded@1.65.1",
+  "root_cause_functions": [
+    {
+      "package": "io.grpc.netty",
+      "version": "Prior to 4.1.124.Final and 4.2.4.Final",
+      "commit": "https://github.com/grpc/grpc-java/commit/6462ef9a11980e168c21d90bbc7245c728fd1a7a",
+      "source": {
+        "name": "OSV",
+        "url": "https://osv.dev/list?q=CVE-2025-55163&ecosystem="
+      },
+      "methods": [
+        "io.grpc.netty.NettyServerHandler.onRstStreamRead"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55163"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-55163"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-55163"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55163"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      770
+    ],
+    "description": "Netty is an asynchronous, event-driven network application framework. Prior to versions 4.1.124.Final and 4.2.4.Final, Netty is vulnerable to MadeYouReset DDoS. This is a logical vulnerability in the HTTP/2 protocol, that uses malformed HTTP/2 control frames in order to break the max concurrent streams limit - which results in resource exhaustion and distributed denial of service. This issue has been patched in versions 4.1.124.Final and 4.2.4.Final.",
+    "detail": "Netty is an asynchronous, event-driven network application framework. Prior to versions 4.1.124.Final and 4.2.4.Final, Netty is vulnerable to MadeYouReset DDoS. This is a logical vulnerability in the HTTP/2 protocol, that uses malformed HTTP/2 control frames in order to break the max concurrent streams limit - which results in resource exhaustion and distributed denial of service. This issue has been patched in versions 4.1.124.Final and 4.2.4.Final.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55163"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2025-55163"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2025-55163"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Exploit",
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-prj3-ccx8-p6x4"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2025/08/16/1"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://www.kb.cert.org/vuls/id/767506"
+      }
+    ],
+    "created": "2025-11-04T22:16:30.293Z",
+    "published": "2025-08-13T15:15:39.390Z",
+    "updated": "2025-11-04T22:16:30.293Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
