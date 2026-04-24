@@ -1,0 +1,1153 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:a6991229-dbed-3c96-bca8-8171f41d6f98",
+  "version": 1,
+  "metadata": {
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "authors": [],
+          "author": "OWASP Foundation",
+          "group": "org.cyclonedx",
+          "name": "cyclonedx-maven-plugin",
+          "version": "2.9.1",
+          "description": "CycloneDX Maven plugin",
+          "hashes": [
+            {
+              "alg": "MD5",
+              "content": "9c7a565cf28cce58557d0c621c5ea4b1"
+            },
+            {
+              "alg": "SHA-1",
+              "content": "be882d5a22050bfa9d19090b1420c188617d0e1c"
+            },
+            {
+              "alg": "SHA-256",
+              "content": "698e0f37184a5b28c245c4065fd036dfce253b52f82fbb7113d81d36326cc249"
+            },
+            {
+              "alg": "SHA-512",
+              "content": "c0f0b11026858166f872a2eb54719492e5cecaa0bc9cd6b30b3ecb4a174eed220f4a1b5829d18d6734128e778d3cb3db7ffed177c92866133129cb29081814a0"
+            },
+            {
+              "alg": "SHA-384",
+              "content": "d80964707dfe5caca8c70521d5066f57589304c0a657e6fbc7c0614ea0fc7b3b3dbe7778361eee0f54ba111e9cb0ffcb"
+            },
+            {
+              "alg": "SHA3-384",
+              "content": "80bc3a275d9514bc457461ff52a72add8c7ecbbc01d8912efce57139016c544ee776981851be0a58fa977ab4221f703f"
+            },
+            {
+              "alg": "SHA3-256",
+              "content": "142317d6f245390f4fd2d0c100b16281b8dfc5c0c2cff86943bdcc97039cb699"
+            },
+            {
+              "alg": "SHA3-512",
+              "content": "af0fb9137c90b65d1a07f72e4d51ae509956cdb8800f35c961b037cdda1fe4a14ce3b496cef71ba85f1621affcfe29cd42704ae4191ff0b090a9602087c8997b"
+            }
+          ],
+          "patentAssertions": [],
+          "omniborId": [],
+          "swhid": [],
+          "externalReferences": [],
+          "properties": [],
+          "components": [],
+          "data": [],
+          "tags": []
+        }
+      ]
+    },
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb@2.25.4?type=jar",
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-mongodb",
+      "version": "2.25.4",
+      "description": "MongoDB appender for Log4j using the MongoDB 5 driver API.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-mongodb@2.25.4?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://logging.apache.org/cyclonedx/vdr.xml",
+          "type": "vulnerability-assertion",
+          "hashes": []
+        },
+        {
+          "url": "https://logging.apache.org/log4j/2.x/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/actions",
+          "type": "build-system",
+          "hashes": []
+        },
+        {
+          "url": "https://logging.apache.org/log4j/2.x/download.html",
+          "type": "distribution",
+          "hashes": []
+        },
+        {
+          "url": "https://repository.apache.org/service/local/staging/deploy/maven2",
+          "type": "distribution-intake",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/issues",
+          "type": "issue-tracker",
+          "hashes": []
+        },
+        {
+          "url": "https://lists.apache.org/list.html?log4j-user@logging.apache.org",
+          "type": "mailing-list",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "maven.goal",
+        "value": "makeBom"
+      },
+      {
+        "name": "maven.scopes",
+        "value": "compile,provided,runtime,system"
+      },
+      {
+        "name": "cdx:reproducible",
+        "value": "enabled"
+      }
+    ],
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4?type=jar",
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.25.4",
+      "description": "The logging API of the Log4j project.\n    Library and application code can log through this API.\n    It contains a simple built-in implementation (\u0060SimpleLogger\u0060) for trivial use cases.\n    Production applications are recommended to use Log4j API in combination with a fully-fledged implementation, such as Log4j Core.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5efb17ae45b749c1fbfedb3d93375cfc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "89ff2217b193fb187b134aa6ebcbfa8a28b018a9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c4b642a7f047275215de117e0e3847eb2c7711d84a0aa7433e7b3c096daf341d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e6d6a8ad6542f071978b46858063a1a6fa2a3709a69460078cab3cb57907c10cd7c0746b83af04d8284120c3382ebdbd1aeabda4c370041c187b903daf71a94b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "81407c406cee0bcb5bb052fbf1ecd162487db17e7f3b84489a6e5e9da14688b3082020abb01c20d1adf36b2592999f36"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c05228836eef3d6dc30f8210b81e2aa1a3bfb2960a34bde1e2b88f8fb3ce4cae21a1efe84e058553990fa60860916136"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bde486cc1dee149bbdec58c97085367c299be5f06d4b2e068bd26be14c6fa4b9"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7bb13130a717f744141f1eb1fe9c7f8653de41936d870467e54c81a9c828be6ba0e28e7f3b72696c0cdc9f93ee6c6a5e64e58c7310f78f21f0a482e483ee8082"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://logging.apache.org/log4j/2.x/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/actions",
+          "type": "build-system",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/issues",
+          "type": "issue-tracker",
+          "hashes": []
+        },
+        {
+          "url": "https://lists.apache.org/list.html?log4j-user@logging.apache.org",
+          "type": "mailing-list",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.25.4?type=jar",
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-mongodb4",
+      "version": "2.25.4",
+      "description": "MongoDB appender for Log4j using the MongoDB 4 driver API.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7e99550eb70a738335e097a3d90a885d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da009f962c8263b2667fcd0d3a992a3738c8172d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "727cc1b8fff0d9f0293d39175499c2112b2d9bb53bbc0115ddb3c5e6ddc383d9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "adbf562f814fa0e7622dc19cbad38cf3e82ccfc0d1c67a4605ee669b57f2427c9ba5c9378fd5308181e9bc88b8f79a86d98943ceb197f27a6417530eff9642bf"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dc06ea531a245f72b91a14cfefd51c836ea48a1e719f075d9ab3dd86eb0f678f5799636b248b16f5f3cbf7b92fda5e3b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "57cfa629d51a7a7563129265215e3425be5407e584e5b47373d2f9314cead60be09e161fdbfb764b35dd063c204e4c04"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1d409e4344af6eaf8e0da4b732e6f17c0b991bc6cbffb2d5d94b34909fae9822"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7f10f0970991dfc589a066ee372ba4a0866e8effc8703097962143f23fa41b6bce29e30a2ac1ee3d3854894170ab689087880eb7f87ee40a71aabd527b47291b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.25.4?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://logging.apache.org/log4j/2.x/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/actions",
+          "type": "build-system",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/issues",
+          "type": "issue-tracker",
+          "hashes": []
+        },
+        {
+          "url": "https://lists.apache.org/list.html?log4j-user@logging.apache.org",
+          "type": "mailing-list",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.25.4?type=jar",
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.25.4",
+      "description": "A versatile, industrial-grade, and reference implementation of the Log4j API.\n    It bundles a rich set of components to assist various use cases:\n    Appenders targeting files, network sockets, databases, SMTP servers;\n    Layouts that can render CSV, HTML, JSON, Syslog, etc. formatted outputs;\n    Filters that can be configured using log event rates, regular expressions, scripts, time, etc.\n    It contains several extension points to introduce custom components, if needed.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "62233cc04ded515e14b5fa4e88a9c5a9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b963c3d6bfdf05c61ad47a74e9f9295131607df2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "10fee2c0485d54fa44ee75d314f6295508f7b932281873db61a91b88073200e6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fc61e84587c6c060f89f71faad6a547b1fbdeba706d795daa210df947b08092b039ed40b0c9a4b507fd6207d33f796870209e47ca62c1f224895d2deb7b415fe"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1c097c50acd1577f0a7ea1a249f7aeaff0473c7ab0e67778ed7ab6566662b96401d9e24792c0a17dfc23128c54fb6258"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0b2172d1dbbc3a8631c18da988819bcf01011c1abb1396057464ab5e910afa40bccb92128c2139672f3e81da2fa72147"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "98edd5c29d25bef661121f16472567908473362d42d1f1e7e76a9ad69a45a8cb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "48891c8663657fc204af54e15c4773c8dbebc1597b4be635084f4a1a1d8687576e1df91258cb6e5933586dd3c6b6cb9fdbb2edbff3da9fba8c501ea514a64bb0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.25.4?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://logging.apache.org/log4j/2.x/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/actions",
+          "type": "build-system",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2/issues",
+          "type": "issue-tracker",
+          "hashes": []
+        },
+        {
+          "url": "https://lists.apache.org/list.html?log4j-user@logging.apache.org",
+          "type": "mailing-list",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/apache/logging-log4j2",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+      "group": "org.mongodb",
+      "name": "bson",
+      "version": "5.5.1",
+      "description": "The BSON library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "762e85d4cc6da6619fdb4803342b5e25"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "58d899dce48b970ee25995802f78d828bae4a1b6"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "99fd39f8b313ca5f39cb1a2e62454283a592dc4227c9010909e3652ef578a274"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ca7eafcaea2ac30553ed25c62fa7f335e5916f7887727200da0277b44f84a8e729c4f725039f8f00af44ec1352122aea9770c2b34aca46b47110233c72b815b2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a8140719ecde0648f9ba7a18b89449b36446c741f56748fb54541c4212ebab2c5b1ef907d36245251c696ea8fc926595"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "af6227c633253dfc9058079db36ad805f6f5c7330d4d09f088d556754c2830271a20c27dd17c6eb8ba1fc3c635a35aea"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "818e13c2548c553be1507da2010320c0f9e4a83ded6db603e962110a8238967f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "167c5dedf0f9dbcc826fce8214e57a1e80edaaa99104caf285c6bb733a3397e44002d15ce62554cf88bdad32755004848447f17090553f6627818c95c268695f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://bsonspec.org",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/mongodb/mongo-java-driver",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mongodb/mongodb-driver-core@5.5.1?type=jar",
+      "group": "org.mongodb",
+      "name": "mongodb-driver-core",
+      "version": "5.5.1",
+      "description": "Shared components for the Synchronous and Reactive Streams implementations of the MongoDB Java Driver.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "eda912af57291d623e2402c4124a3aed"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e4056228072c05edec24f325cca34194983ad84"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9bd21650f6c0688461a5de30000efb67ec1d5d81a1e80c5c4928bb50bbca3f16"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "35227330b8c9f151749fcf4877fba5a344d6fc1aaa1e1a5f4e9f77c3bcc3d6940cb02282f565366a77381a26e8064c992ae521adbe2ed49c5383152070b70f1f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ef8bb92bfe5af9711ea6f0472de5300e237a2fab09b1f74c6724fe3cc4cb34509e55267dc9b715449d272fece0d6acd9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d3cbe5cf050b534a50393cc217e6df1f969e6c2da1c8784b521963c2097961c5b39a4bdc0a557dab7b659385bf735b3f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c91e7e1c2bfcfdb96e8a9d8562a95d5e3cfc208ffce32f8a92bd69d4573cf9f7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "49eeecd61f9f0cd9044840c7ba88a174bde5ad683519d22bd78c7c0d3344cab04d8482545c1b0a7f955254ab1845d27bc2100ebb549c6258a736945373bfb77f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.mongodb/mongodb-driver-core@5.5.1?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.mongodb.com/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/mongodb/mongo-java-driver",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mongodb/bson-record-codec@5.5.1?type=jar",
+      "group": "org.mongodb",
+      "name": "bson-record-codec",
+      "version": "5.5.1",
+      "description": "The BSON Codec for Java records",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dac4ed5b4249970837b0e7f63dc9a7ed"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ff3e62ca21ffa6fcdffc45d3780ffee0543a3b05"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "558fbca5b564b9335809eccbe46168abd41b04350599e43e1713cebccaa010db"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "19038ccb77b44db1bd158d28ad0663c7250877cb4f2b979d987ad7c84c56bd1221b7bc26b70c3cdbe4b5ba5b3cd4ba3abe29d2e5ee8a845a1dba77a2ef18dfdc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "27e7c64d529c21bbe7d42e4c9a8361273dc14674725f93ba69ccc7b0586485e80c52ede35a1921d6d76e3298523e59fe"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "440c97b2d8a5dbd3a67b2dddf25f5783703e2949915fc53069cba840848f3b4927d2d98a22492b10be994a0fc76f853b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6a14df6776a10756f0bdc04f28852dedd3870b0b3138c5ecb70bf67eea8732c8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3b287e44507c03325cd2f82c6e9479c9a39df98f749b722ac5e5abd62661d3337c783e679b9b98b6e4d53e2a94fcfc92862ff67381bc04f6b174b988176d5207"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.mongodb/bson-record-codec@5.5.1?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://bsonspec.org",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/mongodb/mongo-java-driver",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mongodb/mongodb-driver-sync@5.5.1?type=jar",
+      "group": "org.mongodb",
+      "name": "mongodb-driver-sync",
+      "version": "5.5.1",
+      "description": "The MongoDB Synchronous Driver",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "84bff743029ebe7b223a7ebe8f2409e8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7e8d22f9567868a73eede1bcb281e4f87537626c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "10fbba300aca76d6996ea8a842226e78bcaaf108c908687940c991885be5e875"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "29e0bf09632f1bfeef9ddc59e4d62786831df2c343290207413ffb0d743d802d557154322fb576acc2c3f075020074d7e635227fe8909c64d5d09a66506b145f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "668317bd397e8d73965e76857e102e8d09efaeae827e5f2b8fc5cd1a62ee21cc7d3f4d7fc4e3b839af412d9b52a56d25"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f88ea9a0b6c6ac8b6ea8361bde409cef3751d6fd229a4e6c343e65b8a0652b3f194f7c4df761c7eacc89ce6bec08d947"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "871fbcca9d95b7d02936a0ab7f6a6148e9e3697a54e583e9e93c3d06caacde01"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ba619207895452a1192c5f5d4b27d41a1b5d9275d9ec7e12a696d606c464af02a580ccdc6b1e951621d9d39c143f7eb3bda2163b8a395368a42b5472577114d3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.mongodb/mongodb-driver-sync@5.5.1?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://www.mongodb.com/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/mongodb/mongo-java-driver",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@7.1.0?type=jar",
+      "publisher": "Bndtools",
+      "group": "biz.aQute.bnd",
+      "name": "biz.aQute.bnd.annotation",
+      "version": "7.1.0",
+      "description": "bnd Annotations Library",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "664c398da304527f42ab13a0f8036025"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2f2be18c936d08cf46ea6cfa0043f34afdf38705"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f69c2de3a695c113d125ac8053c92a680a3ce9d02ea25845095cf2d4626a7663"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b29e68403ff0b0cd0efacf23a466390b922ef464f79b49c25518864839a1cd86329ace0a7214c6f0ce99056019d857301994bbb71dea0c35dd94511edd789ca4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "71a5290b7cde52d3cae668492cfb368c6955a176dd7442a93e0f26f2258806c56b45869436ad9f336ad3f7a316b45838"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "84c2757373413bfaedba04dc84329bf01b26c02a417d87674842f147a05e4001ed154efecc0f43d4473b8a7ba5175296"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f3cd557e7b9b6f8996ea1006cce7d4b007fbd3b1fc27b62dacdece5e38988d9e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2059f5cb86d9d1b71479d2217107584fb0ff880f064a2cae0dd916d840e660314aaa746d4e6451c15ae56a500bc4e18191b40662ee4eda52aa3b0c33ea82c94b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "(Apache-2.0 OR EPL-2.0)",
+            "url": "https://opensource.org/licenses/Apache-2.0,https://opensource.org/licenses/EPL-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@7.1.0?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://bnd.bndtools.org/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/bndtools/bnd",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.resource",
+      "version": "1.0.0",
+      "description": "OSGi Companion Code for org.osgi.resource Version 1.0.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7d857a4203e2996fab0cf070133e43df"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "343c88949132984b3f2d4175a72c40b77dc65619"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "81fc50f1f1d38a4af28e131907d4afe213249aab05060484edca0e60c4af9b4a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e798790856f83f50832db80bfab64dfceeff1c509d7dde43e74a9f9192ea7a7d5ea77b9b1e81291fa6ba3dcef5ab8fa791ca8093a72a08d7ca6f6499e13e506"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "73038c395166552b64b6b5469bd8056584f48d19b5762df2e8bd2770405ed8f6071e397a87d9a7ed39f8c2e0e8ab85b2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e06c8a460b3bf06d6cb22237aeffa6afd2eadd9461096c67b768a14603ad8aaa88f891d03cf0a273a99d86906c1c8eb3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1097cfd20e80ce368fd828a23ad7c32a202cebd92106f6ebb88ba55ca74349ee"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d7b710e1e0484badb875f326c602c90df6705df48b0f057320919a5255d3ecbddd7053eabc68787480a70aebd7e553e9f51728112e1fa0846c849366b7e8d69b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "url": "http://www.osgi.org/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://osgi.org/git/build.git",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.service.serviceloader@1.0.0?type=jar",
+      "publisher": "OSGi Alliance",
+      "group": "org.osgi",
+      "name": "org.osgi.service.serviceloader",
+      "version": "1.0.0",
+      "description": "OSGi Companion Code for org.osgi.service.serviceloader Version 1.0.0.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4943f0102a6d893c4dd77f369a5f0537"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3728ff37909c6a3c1870b3e851342d9f2bd3cc63"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8f876ce2a9aa4e95b1f1952950255103e2487425050a654f3285447ba601c154"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a7def4cb7a8ed992645faa80a780e0b30bd39c1587b5bcb65fe170d10842d0d880c2849edd50c64807fe0e4b9cc0051337d1b161d0d390465d9e63a762861c49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1e480694b8a541da4cd1e044d3f3ea3cd55152515ac022b80d865b6654242506c2138daabb4e71c30d36b12b9aaf676d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7f076af200ae9c2bd9f235b949aee01a1a758c8aac10fee8b98ec2497197d2029117d5627eb0eabd9b42979eb1baa009"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "83b1dce69c4c899176eb6e368e434ecb77dfed7c436530b8c5d08b9b6f2430aa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5debde53a7ead231dcd907467d59728f59cae4eb3b967c19808f78890bd97d2f04657cad9c093e88f9818338b0b3b38a57c66400ebcff61fbb26d18e9f7bf8ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.osgi/org.osgi.service.serviceloader@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "url": "http://www.osgi.org/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://osgi.org/git/build.git",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.38.0?type=jar",
+      "publisher": "Google LLC",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.38.0",
+      "description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "912f8206614000252841d89cb0461895"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fc0ae991433e8590ba51cd558421478318a74c8c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6661d5335090a5fc61dd869d2095bc6c1e2156e3aa47a6e4ababdf64c99a7889"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b13fdb7e06ec1f12ea1d63b0ff942c239e4decb391d736a1f7d46c9aa9e2744e9391be4398a02a78d551a96969622e65b75bbd31e5bf67a5938716765f451f3a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "47be5289bf8ca3f9dfe2d22e4baf6defc71dabb5476f878a240412e336d77d81148b2f79ffc0702079e48bd67ad7fd22"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "53f3f57b51ea34afd38e1270fbe08dfcf1e2dcfb50f4ac9369bb625febb75611c9e5d8bb09f4dfcb504b5d0b9ac47443"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "02eaa5431cda49a9e702cac4ad8051d88397e1d5219a0ef65673dae8eaf9c70d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0307dfc76cae6d539d93649ef3ccb85937d62f6f74be212e8a05ae1cc892f3b63a5c03cd6f61ace9f5dbd0f8dfb0baf086eaf3cd10bbefd22640966d00686dac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.38.0?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://errorprone.info/error_prone_annotations",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/google/error-prone/error_prone_annotations",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.annotation.bundle@2.0.0?type=jar",
+      "publisher": "Eclipse Foundation",
+      "group": "org.osgi",
+      "name": "org.osgi.annotation.bundle",
+      "version": "2.0.0",
+      "description": "OSGi Companion Code for org.osgi.annotation.bundle Version 2.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "19115314a0ce4cfb711a811dcc0be0a3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f5c2cd6e670c3c5d440d3003efd5ef2ead5c68eb"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b9c9546ec5be3ebc2e85ba4919150ad76d64594805282fc895133a47d264a7ae"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f16b8983240ba3c08d6bc78e2eae92e89eb528f32a705961d90b463def0a5ed1ba08cc3d0be38b5dcfb946c6f759df772e122fb769e58e8c20aa79a489a1fd21"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "88217b7d3a2d9a0a3f005162b95d68ba2bd29629688b2c32e93e4587d89fe6bd468f5c62ef422ebf2b609d402e62ff56"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c7ee64dd3e235d900d01d8629b82245303d34a006e1edcd2571ef736d9c6256dcb718be326ad4909cb6d2cea26118ea9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9adcacb036caf30d17a13fcd5952a35e011678b1dbfabafdff73dba065ace8a3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "76bec6bb2cdbc8da043760a7aedd51203c8d70b740c9b8de0ba6b0cf9ad991a58059566e7f62dee30606f32d267b2596d5bd5e885c73e336ae7fff6cf7f970db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.osgi/org.osgi.annotation.bundle@2.0.0?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://docs.osgi.org/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/osgi/osgi",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.osgi/org.osgi.annotation.versioning@1.1.2?type=jar",
+      "publisher": "Eclipse Foundation",
+      "group": "org.osgi",
+      "name": "org.osgi.annotation.versioning",
+      "version": "1.1.2",
+      "description": "OSGi Companion Code for org.osgi.annotation.versioning Version 1.1.2",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a61b3b8d09c85ad296c61e21bf77ec70"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dc3cd4ec96c0b3c5459fe00694bd73a816ecf93e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f51f235e80df8ffbc30ef1b557b6ea38a696632d675404ec117e952978b8b863"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a4c612bec624a168f25f0923d51925bbc914686673eeebd5b2442998b876f05855e2b0a6e6e9aca4a6533ed3156b0d24f94c3e508ee9778e1b2e469be318afa3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "68a2046f083a2e77304622a56d07c0e73ba88534af4a87b5428cebf8b638c40ce21bbac089a8b5520ad488c946b633ea"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "930734f6979650191d51cd8bf1f9ab4548d307950735aa98e2dbda7aecc19b49d01a3b968824f6df2ffafce65e122c60"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "513392d0e8ddd873d04c5cf4f402a9cfe094413832bb859fe37b70fd0512dd12"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3d2bd7d2eb784a9fab4b09c42adb0722363079235340f1915bb82a99f1c5e616ee8f3dc34d2c90b941d2651dcb4f393c7fea3e23b579456a696604148d10f22b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0",
+            "properties": []
+          }
+        }
+      ],
+      "patentAssertions": [],
+      "purl": "pkg:maven/org.osgi/org.osgi.annotation.versioning@1.1.2?type=jar",
+      "externalReferences": [
+        {
+          "url": "https://docs.osgi.org/",
+          "type": "website",
+          "hashes": []
+        },
+        {
+          "url": "https://github.com/osgi/osgi",
+          "type": "vcs",
+          "hashes": []
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb@2.25.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.25.4?type=jar",
+        "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+        "pkg:maven/org.mongodb/mongodb-driver-core@5.5.1?type=jar",
+        "pkg:maven/org.mongodb/mongodb-driver-sync@5.5.1?type=jar",
+        "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@7.1.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.38.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.annotation.bundle@2.0.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.annotation.versioning@1.1.2?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4?type=jar",
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.25.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.25.4?type=jar",
+        "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+        "pkg:maven/org.mongodb/mongodb-driver-core@5.5.1?type=jar",
+        "pkg:maven/org.mongodb/mongodb-driver-sync@5.5.1?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.25.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.25.4?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.mongodb/mongodb-driver-core@5.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+        "pkg:maven/org.mongodb/bson-record-codec@5.5.1?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.mongodb/bson-record-codec@5.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.mongodb/bson@5.5.1?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.mongodb/mongodb-driver-sync@5.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.mongodb/bson@5.5.1?type=jar",
+        "pkg:maven/org.mongodb/mongodb-driver-core@5.5.1?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@7.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+        "pkg:maven/org.osgi/org.osgi.service.serviceloader@1.0.0?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.resource@1.0.0?type=jar",
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.service.serviceloader@1.0.0?type=jar",
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.38.0?type=jar",
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.annotation.bundle@2.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.osgi/org.osgi.annotation.versioning@1.1.2?type=jar"
+      ],
+      "provides": []
+    },
+    {
+      "ref": "pkg:maven/org.osgi/org.osgi.annotation.versioning@1.1.2?type=jar",
+      "provides": []
+    }
+  ],
+  "vulnerabilities": [],
+  "annotations": [],
+  "properties": [],
+  "formulation": [],
+  "citations": []
+}
