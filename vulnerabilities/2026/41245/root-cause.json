@@ -1,0 +1,111 @@
+{
+  "cve": "CVE-2026-41245",
+  "package": "pkg:maven/com.github.junrar/junrar@7.5.3",
+  "root_cause_functions": [
+    {
+      "package": "com.github.junrar",
+      "version": "Prior to 7.5.10",
+      "commit": "https://github.com/junrar/junrar/commit/d77e9a83eb721cd51f9c23d7869d0e6ad7f952d7",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41245"
+      },
+      "methods": [
+        "com.github.junrar.LocalFolderExtractor.createDirectory",
+        "com.github.junrar.LocalFolderExtractor.createFile"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41245"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-41245"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-41245"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41245"
+        },
+        "score": "5.9",
+        "severity": "medium",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      22
+    ],
+    "description": "Junrar is an open source java RAR archive library. Prior to version 7.5.10, a path traversal vulnerability in `LocalFolderExtractor` allows an attacker to write arbitrary files with attacker-controlled content into sibling directories when a crafted RAR archive is extracted. Version 7.5.10 fixes the issue.",
+    "detail": "Junrar is an open source java RAR archive library. Prior to version 7.5.10, a path traversal vulnerability in `LocalFolderExtractor` allows an attacker to write arbitrary files with attacker-controlled content into sibling directories when a crafted RAR archive is extracted. Version 7.5.10 fixes the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41245"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-41245"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-41245"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Patch"
+        ],
+        "url": "https://github.com/junrar/junrar/commit/d77e9a83eb721cd51f9c23d7869d0e6ad7f952d7"
+      },
+      {
+        "title": [
+          "Release Notes"
+        ],
+        "url": "https://github.com/junrar/junrar/releases/tag/v7.5.10"
+      },
+      {
+        "title": [
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/junrar/junrar/security/advisories/GHSA-hf5p-q87m-crj7"
+      }
+    ],
+    "created": "2026-04-23T13:35:45.617Z",
+    "published": "2026-04-20T16:16:49.113Z",
+    "updated": "2026-04-23T13:35:45.617Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
