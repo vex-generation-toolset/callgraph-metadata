@@ -1,0 +1,142 @@
+{
+  "cve": "CVE-2026-40682",
+  "package": "pkg:maven/org.apache.opennlp/opennlp-tools@1.9.4",
+  "root_cause_functions": [
+    {
+      "package": "opennlp.tools.dictionary.serializer",
+      "version": "before 2.5.9, before 3.0.0-M3",
+      "commit": "https://github.com/apache/opennlp/commit/b85e45f064a9b9089b65ca73c75544092fec4eae",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-40682"
+      },
+      "methods": [
+        "opennlp.tools.dictionary.serializer.DictionaryEntryPersistor.create"
+      ]
+    },
+    {
+      "package": "opennlp.tools.dictionary.serializer",
+      "version": "before 2.5.9, before 3.0.0-M3",
+      "commit": "https://github.com/apache/opennlp/commit/d9aaa472e0e6672d672bfc296a69ab68f8757959",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-40682"
+      },
+      "methods": [
+        "opennlp.tools.dictionary.serializer.DictionaryEntryPersistor.create"
+      ]
+    },
+    {
+      "package": "opennlp.tools.dictionary.serializer",
+      "version": "before 2.5.9, before 3.0.0-M3",
+      "commit": "https://github.com/apache/opennlp/commit/8974cb2a9f1478a34b43f1df7da642ca1a2f6641",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-40682"
+      },
+      "methods": [
+        "opennlp.tools.dictionary.serializer.DictionaryEntryPersistor.create"
+      ]
+    },
+    {
+      "package": "opennlp.tools.dictionary.serializer",
+      "version": "before 2.5.9, before 3.0.0-M3",
+      "commit": "https://github.com/apache/opennlp/commit/3258e415a2d81dc544d33b8d62ebd6748003c15d",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-40682"
+      },
+      "methods": [
+        "opennlp.tools.dictionary.serializer.DictionaryEntryPersistor.create"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40682"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-40682"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-40682"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40682"
+        },
+        "score": "9.1",
+        "severity": "critical",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      611
+    ],
+    "description": "XML External Entity (XXE) via Unsanitized Dictionary Parsing in Apache OpenNLP DictionaryEntryPersistor\n\n\nVersions Affected: before 2.5.9, before 3.0.0-M3\n\n\nDescription: The DictionaryEntryPersistor class initializes a static SAXParserFactory at class-load time without enabling FEATURE_SECURE_PROCESSING or disabling DTD processing. When create(InputStream, EntryInserter) is invoked, the only feature set on the XMLReader is namespace support — external entity resolution and DOCTYPE declarations remain fully enabled. An attacker who can supply a crafted dictionary file (e.g., a stop-word list or domain dictionary) containing a malicious DOCTYPE declaration can trigger local file disclosure via file:// entity references or server-side request forgery via http:// entity references during SAX parsing, before the application processes a single dictionary entry. This is inconsistent with the project's own XmlUtil.createSaxParser() helper, which correctly sets FEATURE_SECURE_PROCESSING and disallow-doctype-decl and is used by all other XML parsing paths in the codebase. The public Dictionary(InputStream) constructor delegates directly to this method and is the documented API for loading user-supplied dictionaries, making untrusted input a realistic scenario.\n\n\nMitigation: 2.x users should upgrade to 2.5.9. 3.x users should upgrade to 3.0.0-M3. Users who cannot upgrade immediately should ensure that all dictionary files are sourced from trusted origins and should consider wrapping the Dictionary(InputStream) constructor with input validation that rejects any XML containing a DOCTYPE declaration before it reaches the parser.",
+    "detail": "XML External Entity (XXE) via Unsanitized Dictionary Parsing in Apache OpenNLP DictionaryEntryPersistor\n\n\nVersions Affected: before 2.5.9, before 3.0.0-M3\n\n\nDescription: The DictionaryEntryPersistor class initializes a static SAXParserFactory at class-load time without enabling FEATURE_SECURE_PROCESSING or disabling DTD processing. When create(InputStream, EntryInserter) is invoked, the only feature set on the XMLReader is namespace support — external entity resolution and DOCTYPE declarations remain fully enabled. An attacker who can supply a crafted dictionary file (e.g., a stop-word list or domain dictionary) containing a malicious DOCTYPE declaration can trigger local file disclosure via file:// entity references or server-side request forgery via http:// entity references during SAX parsing, before the application processes a single dictionary entry. This is inconsistent with the project's own XmlUtil.createSaxParser() helper, which correctly sets FEATURE_SECURE_PROCESSING and disallow-doctype-decl and is used by all other XML parsing paths in the codebase. The public Dictionary(InputStream) constructor delegates directly to this method and is the documented API for loading user-supplied dictionaries, making untrusted input a realistic scenario.\n\n\nMitigation: 2.x users should upgrade to 2.5.9. 3.x users should upgrade to 3.0.0-M3. Users who cannot upgrade immediately should ensure that all dictionary files are sourced from trusted origins and should consider wrapping the Dictionary(InputStream) constructor with input validation that rejects any XML containing a DOCTYPE declaration before it reaches the parser.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40682"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-40682"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-40682"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/r6jpt0qr9nj67gqhppqg7jxf8vsbo0w6"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Third Party Advisory"
+        ],
+        "url": "http://www.openwall.com/lists/oss-security/2026/05/01/19"
+      }
+    ],
+    "created": "2026-05-06T18:00:49.673Z",
+    "published": "2026-05-04T17:16:23.657Z",
+    "updated": "2026-05-06T18:00:49.673Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
