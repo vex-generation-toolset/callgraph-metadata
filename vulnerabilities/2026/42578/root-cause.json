@@ -1,0 +1,83 @@
+{
+  "cve": "CVE-2026-42578",
+  "package": "pkg:maven/io.netty/netty-handler-proxy@4.2.6.Final",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42578"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-42578"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-42578"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42578"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [
+      113
+    ],
+    "description": "Netty is an asynchronous, event-driven network application framework. Prior to 4.2.13.Final and 4.1.133.Final, Netty's HttpProxyHandler constructs HTTP CONNECT requests with header validation explicitly disabled. The newInitialMessage() method creates headers using DefaultHttpHeadersFactory.headersFactory().withValidation(false), then adds user-provided outboundHeaders without any CRLF validation. This allows an attacker who can influence the outbound headers to inject arbitrary HTTP headers into the CONNECT request sent to the proxy server. This vulnerability is fixed in 4.2.13.Final and 4.1.133.Final.",
+    "detail": "Netty is an asynchronous, event-driven network application framework. Prior to 4.2.13.Final and 4.1.133.Final, Netty's HttpProxyHandler constructs HTTP CONNECT requests with header validation explicitly disabled. The newInitialMessage() method creates headers using DefaultHttpHeadersFactory.headersFactory().withValidation(false), then adds user-provided outboundHeaders without any CRLF validation. This allows an attacker who can influence the outbound headers to inject arbitrary HTTP headers into the CONNECT request sent to the proxy server. This vulnerability is fixed in 4.2.13.Final and 4.1.133.Final.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42578"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-42578"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-42578"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-45q3-82m4-75jr"
+      }
+    ],
+    "created": "2026-05-14T16:26:50.047Z",
+    "published": "2026-05-13T19:17:23.210Z",
+    "updated": "2026-05-14T16:26:50.047Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
