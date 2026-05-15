@@ -1,0 +1,128 @@
+{
+  "cve": "CVE-2026-34479",
+  "package": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.21.0",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.logging.log4j.core.util",
+      "version": "Before patch",
+      "commit": "https://github.com/apache/logging-log4j2/commit/25043cfad1bac2e43ebc4638450cbb73c51451c4",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-34479"
+      },
+      "methods": [
+        "org.apache.logging.log4j.core.util.Transform.escapeHtmlTags"
+      ]
+    },
+    {
+      "package": "org.apache.logging.log4j.core.util",
+      "version": "Before patch",
+      "commit": "https://github.com/apache/logging-log4j2/commit/77bd0a62c00efba3226032d71114345a93b6abc9",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
+      },
+      "methods": [
+        "org.apache.logging.log4j.core.util.Transform.escapeHtmlTags"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34479"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34479"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [
+      116
+    ],
+    "description": "The Log4j1XmlLayout from the Apache Log4j 1-to-Log4j 2 bridge fails to escape characters forbidden by the XML 1.0 standard, producing malformed XML output. Conforming XML parsers are required to reject documents containing such characters with a fatal error, which may cause downstream log processing systems to drop or fail to index affected records.\n\nTwo groups of users are affected:\n\n  *  Those using Log4j1XmlLayout directly in a Log4j Core 2 configuration file.\n  *  Those using the Log4j 1 configuration compatibility layer with org.apache.log4j.xml.XMLLayout specified as the layout class.\n\n\nUsers are advised to upgrade to Apache Log4j 1-to-Log4j 2 bridge version 2.25.4, which corrects this issue.\n\nNote: The Apache Log4j 1-to-Log4j 2 bridge is deprecated and will not be present in Log4j 3. Users are encouraged to consult the  Log4j 1 to Log4j 2 migration guide https://logging.apache.org/log4j/2.x/migrate-from-log4j1.html , and specifically the section on eliminating reliance on the bridge.",
+    "detail": "The Log4j1XmlLayout from the Apache Log4j 1-to-Log4j 2 bridge fails to escape characters forbidden by the XML 1.0 standard, producing malformed XML output. Conforming XML parsers are required to reject documents containing such characters with a fatal error, which may cause downstream log processing systems to drop or fail to index affected records.\n\nTwo groups of users are affected:\n\n  *  Those using Log4j1XmlLayout directly in a Log4j Core 2 configuration file.\n  *  Those using the Log4j 1 configuration compatibility layer with org.apache.log4j.xml.XMLLayout specified as the layout class.\n\n\nUsers are advised to upgrade to Apache Log4j 1-to-Log4j 2 bridge version 2.25.4, which corrects this issue.\n\nNote: The Apache Log4j 1-to-Log4j 2 bridge is deprecated and will not be present in Log4j 3. Users are encouraged to consult the  Log4j 1 to Log4j 2 migration guide https://logging.apache.org/log4j/2.x/migrate-from-log4j1.html , and specifically the section on eliminating reliance on the bridge.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34479"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34479"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/apache/logging-log4j2/pull/4078"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.apache.org/thread/gd0hp6mj17rn3kj279vgy4p7kd4zz5on"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/cyclonedx/vdr.xml"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/log4j/2.x/migrate-from-log4j1.html"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/security.html#CVE-2026-34479"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2026/04/10/8"
+      }
+    ],
+    "created": "2026-04-13T15:02:06.187Z",
+    "published": "2026-04-10T16:16:31.270Z",
+    "updated": "2026-04-13T15:02:06.187Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
