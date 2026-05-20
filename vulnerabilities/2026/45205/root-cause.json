@@ -1,0 +1,125 @@
+{
+  "cve": "CVE-2026-45205",
+  "package": "pkg:maven/org.apache.commons/commons-configuration2@2.12.0",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.commons.configuration2",
+      "version": "Before 2.15.0",
+      "commit": "https://github.com/apache/commons-configuration/commit/b51f6bf26e774f3416fdf782a5e1edf33f32ba82",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-45205"
+      },
+      "methods": [
+        "org.apache.commons.configuration2.AbstractYAMLBasedConfiguration.constructHierarchy"
+      ]
+    },
+    {
+      "package": "org.apache.commons.configuration2",
+      "version": "Before 2.15.0",
+      "commit": "https://github.com/apache/commons-configuration/commit/45ec2a7b55e435ae72d90d1f9121aed24af5196f",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45205"
+      },
+      "methods": [
+        "org.apache.commons.configuration2.AbstractYAMLBasedConfiguration.constructHierarchy"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45205"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-45205"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-45205"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45205"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      674
+    ],
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons.\n\nWhen processing an untrusted configuration file, Commons Configuration will throw a StackOverflowError for YAML input with cycles.\nThis issue affects Apache Commons: from 2.2 before 2.15.0.\n\nUsers are recommended to upgrade to version 2.15.0, which fixes the issue.",
+    "detail": "Uncontrolled Recursion vulnerability in Apache Commons.\n\nWhen processing an untrusted configuration file, Commons Configuration will throw a StackOverflowError for YAML input with cycles.\nThis issue affects Apache Commons: from 2.2 before 2.15.0.\n\nUsers are recommended to upgrade to version 2.15.0, which fixes the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45205"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-45205"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-45205"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Issue Tracking",
+          "Patch"
+        ],
+        "url": "https://github.com/apache/commons-configuration/pull/634"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/q3q3j10ohcqhs6o0rg1v7kz6kk27vtkk"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Third Party Advisory"
+        ],
+        "url": "http://www.openwall.com/lists/oss-security/2026/05/14/5"
+      }
+    ],
+    "created": "2026-05-15T18:40:16.007Z",
+    "published": "2026-05-14T12:16:35.687Z",
+    "updated": "2026-05-15T18:40:16.007Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
