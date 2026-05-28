@@ -1,0 +1,142 @@
+{
+  "cve": "CVE-2026-45292",
+  "package": "pkg:maven/io.opentelemetry/opentelemetry-api@1.53.0",
+  "root_cause_functions": [
+    {
+      "package": "io.opentelemetry.api.baggage.propagation",
+      "version": "Prior to 1.62.0",
+      "commit": "https://github.com/open-telemetry/opentelemetry-java/commit/03837d3c1763bc35464aea1078671e2ef2336a5f",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45292"
+      },
+      "methods": [
+        "io.opentelemetry.api.baggage.propagation.Parser.parseInto",
+        "io.opentelemetry.extension.trace.propagation.OtTracePropagator.extract",
+        "io.opentelemetry.extension.trace.propagation.OtTracePropagator.inject",
+        "io.opentelemetry.extension.trace.propagation.JaegerPropagator.getBaggageFromHeader",
+        "io.opentelemetry.extension.trace.propagation.JaegerPropagator.parseBaggageHeader",
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.baggageToString",
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.extractEntries",
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.extractMulti"
+      ]
+    },
+    {
+      "package": "opentelemetry-api",
+      "version": "Prior to 1.62.0",
+      "commit": "https://github.com/open-telemetry/opentelemetry-java/commit/59891388651534c505113e63e6b9b87195c8d09c",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45292"
+      },
+      "methods": [
+        "io.opentelemetry.api.baggage.propagation.Parser.parseInto",
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.extractEntries",
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.baggageToString",
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.extractMulti"
+      ]
+    },
+    {
+      "package": "io.opentelemetry.api.baggage.propagation",
+      "version": "Prior to 1.62.0",
+      "commit": "https://github.com/open-telemetry/opentelemetry-java/commit/cbadf0e7eebf92af665f0db2cf6159085e12dcb3",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45292"
+      },
+      "methods": [
+        "io.opentelemetry.api.baggage.propagation.W3CBaggagePropagator.extractMulti"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45292"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-45292"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-45292"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45292"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      770
+    ],
+    "description": "opentelemetry-java is the Java implementation of the OpenTelemetry API for recording telemetry, and SDK for managing telemetry recorded by the API. Prior to 1.62.0, a vulnerability affects the baggage propagation implementation in opentelemetry-api and opentelemetry-extension-trace-propagators. Parsing oversized baggage causes unbounded memory allocation and CPU consumption. Because baggage is automatically re-injected into every outgoing request, the effect can fan out to downstream services that never received the original malicious request. This vulnerability is fixed in 1.62.0.",
+    "detail": "opentelemetry-java is the Java implementation of the OpenTelemetry API for recording telemetry, and SDK for managing telemetry recorded by the API. Prior to 1.62.0, a vulnerability affects the baggage propagation implementation in opentelemetry-api and opentelemetry-extension-trace-propagators. Parsing oversized baggage causes unbounded memory allocation and CPU consumption. Because baggage is automatically re-injected into every outgoing request, the effect can fan out to downstream services that never received the original malicious request. This vulnerability is fixed in 1.62.0.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45292"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-45292"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-45292"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/commit/03837d3c1763bc35464aea1078671e2ef2336a5f"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/pull/8380"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/releases/tag/v1.62.0"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/security/advisories/GHSA-rcgg-9c38-7xpx"
+      }
+    ],
+    "created": "2026-05-28T17:16:32.060Z",
+    "published": "2026-05-28T17:16:32.060Z",
+    "updated": "2026-05-28T17:16:32.060Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
