@@ -1,0 +1,91 @@
+{
+  "cve": "CVE-2026-47244",
+  "package": "pkg:maven/io.netty/netty-codec-http2@4.2.6.Final",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47244"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-47244"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-47244"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47244"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      400
+    ],
+    "description": "Netty is a network application framework for development of protocol servers and clients. Prior to versions 4.1.135.Final and 4.2.15.Final, DefaultHttp2Connection.DefaultEndpoint initialises maxActiveStreams/maxStreams to Integer.MAX_VALUE, and Http2Settings never inserts SETTINGS_MAX_CONCURRENT_STREAMS by default (Http2Settings.java:305-307 only clamps a user-supplied value). Unless the application explicitly calls initialSettings().maxConcurrentStreams(n), a Netty HTTP/2 server advertises no limit and enforces none locally. Each open stream allocates a DefaultStream object, PropertyMap slots, flow-controller state and IntObjectHashMap entry; with ~2^30 permissible odd stream IDs a single TCP connection can create hundreds of thousands of long-lived stream objects. This is also the precondition for CVE-2023-44487-style Rapid-Reset amplification, where the absence of a low concurrent cap multiplies backend work. Versions 4.1.135.Final and 4.2.15.Final patch the issue.",
+    "detail": "Netty is a network application framework for development of protocol servers and clients. Prior to versions 4.1.135.Final and 4.2.15.Final, DefaultHttp2Connection.DefaultEndpoint initialises maxActiveStreams/maxStreams to Integer.MAX_VALUE, and Http2Settings never inserts SETTINGS_MAX_CONCURRENT_STREAMS by default (Http2Settings.java:305-307 only clamps a user-supplied value). Unless the application explicitly calls initialSettings().maxConcurrentStreams(n), a Netty HTTP/2 server advertises no limit and enforces none locally. Each open stream allocates a DefaultStream object, PropertyMap slots, flow-controller state and IntObjectHashMap entry; with ~2^30 permissible odd stream IDs a single TCP connection can create hundreds of thousands of long-lived stream objects. This is also the precondition for CVE-2023-44487-style Rapid-Reset amplification, where the absence of a low concurrent cap multiplies backend work. Versions 4.1.135.Final and 4.2.15.Final patch the issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47244"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-47244"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-47244"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/releases/tag/netty-4.1.135.Final"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/releases/tag/netty-4.2.15.Final"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-5x3r-wrvg-rp6q"
+      }
+    ],
+    "created": "2026-06-12T15:55:06.377Z",
+    "published": "2026-06-12T15:16:29.217Z",
+    "updated": "2026-06-12T15:55:06.377Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
