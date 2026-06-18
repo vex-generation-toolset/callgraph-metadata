@@ -1,0 +1,129 @@
+{
+  "cve": "CVE-2026-34478",
+  "package": "pkg:maven/org.apache.logging.log4j/log4j-core@2.21.0",
+  "root_cause_functions": [
+    {
+      "package": "org.apache.logging.log4j.core.layout",
+      "version": "2.21.0 through 2.25.3",
+      "commit": "https://github.com/apache/logging-log4j2/commit/6c8cf594fe853e4cf8d5180d247f8b7bc910696d",
+      "source": {
+        "name": "Debian",
+        "url": "https://security-tracker.debian.org/tracker/CVE-2026-34478"
+      },
+      "methods": [
+        "org.apache.logging.log4j.core.layout.Rfc5424Layout.Rfc5424LayoutBuilder.build"
+      ]
+    },
+    {
+      "package": "org.apache.logging.log4j.core.layout",
+      "version": "2.21.0 through 2.25.3",
+      "commit": "https://github.com/apache/logging-log4j2/commit/20f32dd98e9450e8588b465f9db09d8ec5735aa9",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34478"
+      },
+      "methods": [
+        "org.apache.logging.log4j.core.layout.Rfc5424Layout.Rfc5424LayoutBuilder.build"
+      ]
+    }
+  ],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34478"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34478"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34478"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34478"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [
+      117,
+      684
+    ],
+    "description": "Apache Log4j Core's  Rfc5424Layout https://logging.apache.org/log4j/2.x/manual/layouts.html#RFC5424Layout , in versions 2.21.0 through 2.25.3, is vulnerable to log injection via CRLF sequences due to undocumented renames of security-relevant configuration attributes.\n\nTwo distinct issues affect users of stream-based syslog services who configure Rfc5424Layout directly:\n\n  *  The newLineEscape attribute was silently renamed, causing newline escaping to stop working for users of TCP framing (RFC 6587), exposing them to CRLF injection in log output.\n  *  The useTlsMessageFormat attribute was silently renamed, causing users of TLS framing (RFC 5425) to be silently downgraded to unframed TCP (RFC 6587), without newline escaping.\n\n\nUsers of the SyslogAppender are not affected, as its configuration attributes were not modified.\n\nUsers are advised to upgrade to Apache Log4j Core 2.25.4, which corrects this issue.",
+    "detail": "Apache Log4j Core's  Rfc5424Layout https://logging.apache.org/log4j/2.x/manual/layouts.html#RFC5424Layout , in versions 2.21.0 through 2.25.3, is vulnerable to log injection via CRLF sequences due to undocumented renames of security-relevant configuration attributes.\n\nTwo distinct issues affect users of stream-based syslog services who configure Rfc5424Layout directly:\n\n  *  The newLineEscape attribute was silently renamed, causing newline escaping to stop working for users of TCP framing (RFC 6587), exposing them to CRLF injection in log output.\n  *  The useTlsMessageFormat attribute was silently renamed, causing users of TLS framing (RFC 5425) to be silently downgraded to unframed TCP (RFC 6587), without newline escaping.\n\n\nUsers of the SyslogAppender are not affected, as its configuration attributes were not modified.\n\nUsers are advised to upgrade to Apache Log4j Core 2.25.4, which corrects this issue.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34478"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34478"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34478"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/apache/logging-log4j2/pull/4074"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://lists.apache.org/thread/3k1clr2l6vkdnl4cbhjrnt1nyjvb5gwt"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/cyclonedx/vdr.xml"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/log4j/2.x/manual/layouts.html#RFC5424Layout"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://logging.apache.org/security.html#CVE-2026-34478"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2026/04/10/7"
+      }
+    ],
+    "created": "2026-04-13T15:02:06.187Z",
+    "published": "2026-04-10T16:16:31.070Z",
+    "updated": "2026-04-13T15:02:06.187Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
