@@ -1,0 +1,94 @@
+{
+  "cve": "CVE-2026-44825",
+  "package": "pkg:maven/org.apache.solr/solr-core@9.10.0",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44825"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-44825"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-44825"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44825"
+        },
+        "score": "8.1",
+        "severity": "high",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      798,
+      1188
+    ],
+    "description": "Hardcoded credentials in the Basic Authentication setup tool (bin/solr auth enable) in Apache Solr versions 9.4.0 through 9.10.1 and 10.0.0 allows a remote attacker to gain full administrative access to the cluster via publicly known default credentials installed silently alongside the user-specified account. \n\nAs an immediate workaround without upgrading, delete the template users (superadmin, admin, search, index) from security.json or change their passwords.\nThe future, not yet released, versions 9.11.0 and 10.1.0 will not be vulnerable, and it will be enough to upgrade to solve the issue.\n\nNot affected:\n  *  Clusters where bin/solr auth enable was not used to bootstrap BasicAuth\n  *  Clusters where template users have been assigned strong passwords after bootstrap",
+    "detail": "Hardcoded credentials in the Basic Authentication setup tool (bin/solr auth enable) in Apache Solr versions 9.4.0 through 9.10.1 and 10.0.0 allows a remote attacker to gain full administrative access to the cluster via publicly known default credentials installed silently alongside the user-specified account. \n\nAs an immediate workaround without upgrading, delete the template users (superadmin, admin, search, index) from security.json or change their passwords.\nThe future, not yet released, versions 9.11.0 and 10.1.0 will not be vulnerable, and it will be enough to upgrade to solve the issue.\n\nNot affected:\n  *  Clusters where bin/solr auth enable was not used to bootstrap BasicAuth\n  *  Clusters where template users have been assigned strong passwords after bootstrap",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44825"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-44825"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-44825"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/5xg6xr99glocp3zsg9ht2zlbwlrst7ch"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Third Party Advisory"
+        ],
+        "url": "http://www.openwall.com/lists/oss-security/2026/05/29/6"
+      }
+    ],
+    "created": "2026-06-17T10:51:23.870Z",
+    "published": "2026-06-01T09:16:19.267Z",
+    "updated": "2026-06-17T10:51:23.870Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
