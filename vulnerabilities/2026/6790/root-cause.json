@@ -1,0 +1,85 @@
+{
+  "cve": "CVE-2026-6790",
+  "package": "pkg:maven/org.eclipse.jetty/jetty-server@10.0.26",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6790"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-6790"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-6790"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6790"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      20
+    ],
+    "description": "In Eclipse Jetty, for HTTP/1, HTTP/2 and HTTP/3 requests, there is no strict check that the request authority (host and port) matches what provided in the Host header (if present).\n\n\n\n\nThis was not enforced in earlier HTTP RFC (for example, in RFC 2616), but it is in the latest RFC (9110 and 9112).\n\n\n\n\nThis mismatch can cause a number of problems that may be classified as vulnerabilities such as:\n\n\n\n  *  \n        \n      URI constructions (for example, for redirects -- this is typical for login pages)\n\n  *  \n        \n      Virtual host selection\n\n  *  \n        \n      Reverse proxying\n\n  *  \n        \n      Misleading logs\n\n  *  \n        \n      Etc.\n\n\n\n\n\n\nGiven that the latest RFCs require that request authority and Host header must match, Jetty should enforce this invariant.",
+    "detail": "In Eclipse Jetty, for HTTP/1, HTTP/2 and HTTP/3 requests, there is no strict check that the request authority (host and port) matches what provided in the Host header (if present).\n\n\n\n\nThis was not enforced in earlier HTTP RFC (for example, in RFC 2616), but it is in the latest RFC (9110 and 9112).\n\n\n\n\nThis mismatch can cause a number of problems that may be classified as vulnerabilities such as:\n\n\n\n  *  \n        \n      URI constructions (for example, for redirects -- this is typical for login pages)\n\n  *  \n        \n      Virtual host selection\n\n  *  \n        \n      Reverse proxying\n\n  *  \n        \n      Misleading logs\n\n  *  \n        \n      Etc.\n\n\n\n\n\n\nGiven that the latest RFCs require that request authority and Host header must match, Jetty should enforce this invariant.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6790"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-6790"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-6790"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Vendor Advisory"
+        ],
+        "url": "https://gitlab.eclipse.org/security/cve-assignment/-/work_items/99"
+      }
+    ],
+    "created": "2026-07-14T18:35:54.793Z",
+    "published": "2026-07-14T09:16:41.930Z",
+    "updated": "2026-07-14T18:35:54.793Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
