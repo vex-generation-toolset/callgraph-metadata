@@ -1,0 +1,111 @@
+{
+  "cve": "CVE-2026-55831",
+  "package": "pkg:maven/io.netty/netty-codec-http@4.2.6.Final",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55831"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-55831"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-55831"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55831"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      400,
+      770
+    ],
+    "description": "Netty is a network application framework for development of protocol servers and clients. Prior to 4.1.136.Final and 4.2.16.Final, Netty's SPDY SETTINGS decoder accepts a peer-declared SETTINGS entry count up to the 24-bit frame-length limit and materializes every unique setting ID in `DefaultSpdySettingsFrame`, allowing a remote SPDY/3.1 peer to send a syntactically valid roughly 2 MiB SETTINGS frame that creates 262144 map entries and amplifies network input into heap growth and ordered-map insertion work. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final.",
+    "detail": "Netty is a network application framework for development of protocol servers and clients. Prior to 4.1.136.Final and 4.2.16.Final, Netty's SPDY SETTINGS decoder accepts a peer-declared SETTINGS entry count up to the 24-bit frame-length limit and materializes every unique setting ID in `DefaultSpdySettingsFrame`, allowing a remote SPDY/3.1 peer to send a syntactically valid roughly 2 MiB SETTINGS frame that creates 262144 map entries and amplifies network input into heap growth and ordered-map insertion work. This issue is fixed in versions 4.1.136.Final and 4.2.16.Final.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55831"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-55831"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-55831"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Patch"
+        ],
+        "url": "https://github.com/netty/netty/commit/5b68c61f37aa4a3045cba624cbea239655c9003b"
+      },
+      {
+        "title": [
+          "Patch"
+        ],
+        "url": "https://github.com/netty/netty/commit/bb2ff68a1fb71cb4b0eb9a9e17b66c52aff680c6"
+      },
+      {
+        "title": [
+          "Release Notes"
+        ],
+        "url": "https://github.com/netty/netty/releases/tag/netty-4.1.136.Final"
+      },
+      {
+        "title": [
+          "Release Notes"
+        ],
+        "url": "https://github.com/netty/netty/releases/tag/netty-4.2.16.Final"
+      },
+      {
+        "title": [
+          "Exploit",
+          "Vendor Advisory"
+        ],
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-6jqx-86gh-f27w"
+      }
+    ],
+    "created": "2026-07-23T15:17:16.780Z",
+    "published": "2026-07-21T00:17:35.383Z",
+    "updated": "2026-07-23T15:17:16.780Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
