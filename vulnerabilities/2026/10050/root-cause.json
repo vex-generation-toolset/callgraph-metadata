@@ -1,0 +1,88 @@
+{
+  "cve": "CVE-2026-10050",
+  "package": "pkg:maven/org.eclipse.jetty/jetty-security@10.0.26",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10050"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-10050"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-10050"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10050"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [
+      173,
+      303
+    ],
+    "description": "In Eclipse Jetty, the Digest authentication server-side component uses ISO-8859-1 to encode the password as bytes.\n\n\n\nThis was done because the initial specification for HTTP did not specify explicitly a charset, and it was assumed to be ISO-8859-1 for historical reasons.\n\n\n\nIf the password contains characters that cannot be represented in ISO-8859-1, they are silently replaced by `?`. This happens with passwords that contain Chinese, Cyrillic or Greek characters, for example: `αβ123` converts to `??123`.\n\n\n\nAn attacker can send a request with a digest `Authorization` header crafted with a password made of only `?` characters; the server would match any password of the same length that contains non-ISO-8859-1 characters.\n\n\n\nRecent HTTP Digest [RFC-7616](https://datatracker.ietf.org/doc/html/rfc7616) supports a `charset` parameters that defaults to UTF-8 that allows for correct encoding/decoding of passwords.",
+    "detail": "In Eclipse Jetty, the Digest authentication server-side component uses ISO-8859-1 to encode the password as bytes.\n\n\n\nThis was done because the initial specification for HTTP did not specify explicitly a charset, and it was assumed to be ISO-8859-1 for historical reasons.\n\n\n\nIf the password contains characters that cannot be represented in ISO-8859-1, they are silently replaced by `?`. This happens with passwords that contain Chinese, Cyrillic or Greek characters, for example: `αβ123` converts to `??123`.\n\n\n\nAn attacker can send a request with a digest `Authorization` header crafted with a password made of only `?` characters; the server would match any password of the same length that contains non-ISO-8859-1 characters.\n\n\n\nRecent HTTP Digest [RFC-7616](https://datatracker.ietf.org/doc/html/rfc7616) supports a `charset` parameters that defaults to UTF-8 that allows for correct encoding/decoding of passwords.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10050"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-10050"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-10050"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/jetty/jetty.project/security/advisories/GHSA-2fvj-hgj9-j2gr"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://gitlab.eclipse.org/security/cve-assignment/-/work_items/120"
+      }
+    ],
+    "created": "2026-08-04T14:52:54.493Z",
+    "published": "2026-08-04T11:22:43.883Z",
+    "updated": "2026-08-04T14:52:54.493Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
