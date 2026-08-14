@@ -1,0 +1,90 @@
+{
+  "cve": "CVE-2026-64607",
+  "package": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.2.1",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64607"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-64607"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-64607"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64607"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      772
+    ],
+    "description": "HttpClient based on the classic i/o model fails to correctly release the underlying connection back to the connection manager if it encounters an invalid or unsupported `Content-Encoding` header value in the response message. Please note this defect does not affect HttpClient based on the async i/o model.\n\nThis issue affects Apache HttpComponents Client: from 5.0-alpha1 through 5.6.2.",
+    "detail": "HttpClient based on the classic i/o model fails to correctly release the underlying connection back to the connection manager if it encounters an invalid or unsupported `Content-Encoding` header value in the response message. Please note this defect does not affect HttpClient based on the async i/o model.\n\nThis issue affects Apache HttpComponents Client: from 5.0-alpha1 through 5.6.2.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64607"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-64607"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-64607"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Mailing List",
+          "Release Notes"
+        ],
+        "url": "https://lists.apache.org/thread/qqfzo3fqcdk4l5496vz95ppvl4ty511q"
+      },
+      {
+        "title": "Unknown",
+        "url": "http://www.openwall.com/lists/oss-security/2026/08/13/5"
+      }
+    ],
+    "created": "2026-08-13T17:17:33.733Z",
+    "published": "2026-07-31T11:17:11.710Z",
+    "updated": "2026-08-13T17:17:33.733Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
