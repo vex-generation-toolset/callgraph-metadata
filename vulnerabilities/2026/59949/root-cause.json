@@ -1,0 +1,91 @@
+{
+  "cve": "CVE-2026-59949",
+  "package": "pkg:maven/org.lz4/lz4-java@1.8.0",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59949"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-59949"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-59949"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59949"
+        },
+        "score": "6.5",
+        "severity": "medium",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      476
+    ],
+    "description": "yawkat LZ4 Java provides LZ4 compression for Java. Prior to 1.11.1, JNI-backed XXHash implementations fail to validate the byte array object and the off and len arguments in XXHashFactory.nativeInstance().hash32().hash(), XXHashFactory.nativeInstance().hash64().hash(), XXHashFactory.nativeInstance().newStreamingHash32().update(), and XXHashFactory.nativeInstance().newStreamingHash64().update(), allowing null arrays or oversized ranges to reach native code, read outside the Java array, and fatally terminate the JVM. This issue is fixed in version 1.11.1.",
+    "detail": "yawkat LZ4 Java provides LZ4 compression for Java. Prior to 1.11.1, JNI-backed XXHash implementations fail to validate the byte array object and the off and len arguments in XXHashFactory.nativeInstance().hash32().hash(), XXHashFactory.nativeInstance().hash64().hash(), XXHashFactory.nativeInstance().newStreamingHash32().update(), and XXHashFactory.nativeInstance().newStreamingHash64().update(), allowing null arrays or oversized ranges to reach native code, read outside the Java array, and fatally terminate the JVM. This issue is fixed in version 1.11.1.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59949"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-59949"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-59949"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/yawkat/lz4-java/commit/dbd86d04b8dd716e1c2bc626be54189997d910da"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/yawkat/lz4-java/releases/tag/v1.11.1"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/yawkat/lz4-java/security/advisories/GHSA-xx22-p4ch-683r"
+      }
+    ],
+    "created": "2026-08-18T18:18:49.860Z",
+    "published": "2026-08-18T15:16:56.160Z",
+    "updated": "2026-08-18T18:18:49.860Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
