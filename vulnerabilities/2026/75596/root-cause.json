@@ -1,0 +1,107 @@
+{
+  "cve": "CVE-2026-75596",
+  "package": "pkg:maven/io.netty/netty-handler@4.1.94.Final",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75596"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-75596"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-75596"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75596"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [
+      407
+    ],
+    "description": "Netty is an asynchronous, event-driven network application framework. Prior to 4.1.137.Final and 4.2.17.Final, the default io.netty.handler.ssl.SniHandler constructors use the pre-handshake ClientHello aggregation path in handler/src/main/java/io/netty/handler/ssl/SslClientHelloHandler.java at io.netty.handler.ssl.SslClientHelloHandler#decode, where handshakeBuffer.clear() and writeBytes() recopy all previously received body bytes for every additional TLS record. An unauthenticated remote peer can advertise a large ClientHello and deliver its body in thousands of tiny records, causing quadratic CPU work on the event loop before the TLS handshake completes and degrading TLS handling for other clients. This issue is fixed in versions 4.1.137.Final and 4.2.17.Final.",
+    "detail": "Netty is an asynchronous, event-driven network application framework. Prior to 4.1.137.Final and 4.2.17.Final, the default io.netty.handler.ssl.SniHandler constructors use the pre-handshake ClientHello aggregation path in handler/src/main/java/io/netty/handler/ssl/SslClientHelloHandler.java at io.netty.handler.ssl.SslClientHelloHandler#decode, where handshakeBuffer.clear() and writeBytes() recopy all previously received body bytes for every additional TLS record. An unauthenticated remote peer can advertise a large ClientHello and deliver its body in thousands of tiny records, causing quadratic CPU work on the event loop before the TLS handshake completes and degrading TLS handling for other clients. This issue is fixed in versions 4.1.137.Final and 4.2.17.Final.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75596"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-75596"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-75596"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/commit/1b5abc6443b63726c72cdd285af2feb7ddbb8ff7"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/commit/9e0519239108a69b7e9bbc5e9182ee139a0d7961"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/pull/17213"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/pull/17217"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/releases/tag/netty-4.1.137.Final"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/releases/tag/netty-4.2.17.Final"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/netty/netty/security/advisories/GHSA-fccg-mwvh-qqg4"
+      }
+    ],
+    "created": "2026-08-20T20:17:46.810Z",
+    "published": "2026-08-19T21:17:37.740Z",
+    "updated": "2026-08-20T20:17:46.810Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
