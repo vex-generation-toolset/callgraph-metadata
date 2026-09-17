@@ -1,0 +1,91 @@
+{
+  "cve": "CVE-2026-86071",
+  "package": "pkg:maven/com.github.junrar/junrar@7.5.3",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86071"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-86071"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-86071"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86071"
+        },
+        "score": "3.7",
+        "severity": "low",
+        "vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      22
+    ],
+    "description": "Junrar is an open source Java RAR archive library. Prior to version 7.6.1, LocalFolderExtractor in src/main/java/com/github/junrar/LocalFolderExtractor.java can create directories outside the intended extraction root when processing a crafted archive entry. LocalFolderExtractor.createFile() validates only the final canonical file path, while LocalFolderExtractor.makeFile() creates intermediate path segments with unchecked mkdir() calls. An entry can therefore make the final path resolve inside the destination while causing intermediate directory creation outside it, enabling filesystem pollution or file-versus-directory squatting that can make later security-sensitive writes fail. The demonstrated impact is directory creation, not unconditional arbitrary file-content write. This issue is fixed in version 7.6.1.",
+    "detail": "Junrar is an open source Java RAR archive library. Prior to version 7.6.1, LocalFolderExtractor in src/main/java/com/github/junrar/LocalFolderExtractor.java can create directories outside the intended extraction root when processing a crafted archive entry. LocalFolderExtractor.createFile() validates only the final canonical file path, while LocalFolderExtractor.makeFile() creates intermediate path segments with unchecked mkdir() calls. An entry can therefore make the final path resolve inside the destination while causing intermediate directory creation outside it, enabling filesystem pollution or file-versus-directory squatting that can make later security-sensitive writes fail. The demonstrated impact is directory creation, not unconditional arbitrary file-content write. This issue is fixed in version 7.6.1.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86071"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-86071"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-86071"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/junrar/junrar/commit/e6e333b195a1e3ad271a18fd79d8ac1eb5289343"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/junrar/junrar/releases/tag/v7.6.1"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/junrar/junrar/security/advisories/GHSA-89m4-43j5-vhhx"
+      }
+    ],
+    "created": "2026-09-16T19:17:58.623Z",
+    "published": "2026-09-16T19:17:58.623Z",
+    "updated": "2026-09-16T19:17:58.623Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
