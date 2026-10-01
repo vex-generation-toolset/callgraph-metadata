@@ -1,0 +1,96 @@
+{
+  "cve": "CVE-2026-89407",
+  "package": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.1",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89407"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-89407"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-89407"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89407"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      400,
+      1333
+    ],
+    "description": "NumberInput.looksLikeValidNumber() in FasterXML jackson-core pre-validates \"stringified numbers\" with two regular expressions: PATTERN_FLOAT ([+-]?[0-9]*[\\.]?[0-9]+([eE][+-]?[0-9]+)?), present since 2.17.0, and PATTERN_FLOAT_TRAILING_DOT, added in 2.17.2. PATTERN_FLOAT places adjacent quantifiers over the same character class -- an optional [0-9]* run, an optional dot, then a required [0-9]+ run -- so input that ultimately fails to match forces Java's backtracking engine to retry every possible split point of the digit run. \n\n\n\nMatching cost therefore grows with the square of the input length. \n\n\n\nAn attacker who can supply JSON that an application deserializes into a numeric target type reaches this method through jackson-databind's default String-to-number coercion (StdDeserializer and NumberDeserializers for BigDecimal, BigInteger, Double and Float). \n\n\n\nBecause StreamReadConstraints.maxStringLength defaults to 20,000,000 characters, no constraint bounds the input before it reaches the regex. \n\n\n\nTesting by the reporter confirmed O(n^2) growth across five consecutive input-size doublings, with a single 160,000-character string consuming roughly 74 seconds in one call; a small number of concurrent requests of ordinary body size can therefore exhaust a server's request-handling thread pool. \n\n\n\nThe affected method does not exist before 2.17.0, so 2.16.x and earlier releases are not affected. \n\n\n\nThe fix replaces both regular expressions with a hand-rolled single-pass scan.",
+    "detail": "NumberInput.looksLikeValidNumber() in FasterXML jackson-core pre-validates \"stringified numbers\" with two regular expressions: PATTERN_FLOAT ([+-]?[0-9]*[\\.]?[0-9]+([eE][+-]?[0-9]+)?), present since 2.17.0, and PATTERN_FLOAT_TRAILING_DOT, added in 2.17.2. PATTERN_FLOAT places adjacent quantifiers over the same character class -- an optional [0-9]* run, an optional dot, then a required [0-9]+ run -- so input that ultimately fails to match forces Java's backtracking engine to retry every possible split point of the digit run. \n\n\n\nMatching cost therefore grows with the square of the input length. \n\n\n\nAn attacker who can supply JSON that an application deserializes into a numeric target type reaches this method through jackson-databind's default String-to-number coercion (StdDeserializer and NumberDeserializers for BigDecimal, BigInteger, Double and Float). \n\n\n\nBecause StreamReadConstraints.maxStringLength defaults to 20,000,000 characters, no constraint bounds the input before it reaches the regex. \n\n\n\nTesting by the reporter confirmed O(n^2) growth across five consecutive input-size doublings, with a single 160,000-character string consuming roughly 74 seconds in one call; a small number of concurrent requests of ordinary body size can therefore exhaust a server's request-handling thread pool. \n\n\n\nThe affected method does not exist before 2.17.0, so 2.16.x and earlier releases are not affected. \n\n\n\nThe fix replaces both regular expressions with a hand-rolled single-pass scan.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89407"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-89407"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-89407"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/FasterXML/jackson-core/issues/1649"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/FasterXML/jackson-core/pull/1650"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/FasterXML/jackson-core/pull/1701"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/FasterXML/jackson-core/security/advisories/GHSA-p6pp-m3f8-5c89"
+      }
+    ],
+    "created": "2026-09-22T20:00:03.713Z",
+    "published": "2026-09-22T15:17:21.053Z",
+    "updated": "2026-09-22T20:00:03.713Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
