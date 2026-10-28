@@ -1,0 +1,76 @@
+{
+  "cve": "CVE-2026-41603",
+  "package": "pkg:maven/org.apache.thrift/libthrift@0.15.0",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41603"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-41603"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-41603"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41603"
+        },
+        "score": "",
+        "severity": "",
+        "vector": "",
+        "method": ""
+      }
+    ],
+    "cwes": [],
+    "description": "Rejected reason: This CVE ID is Rejected and will not be used. The record incorrectly described the affected language binding and fixed version. Use CVE-2026-66053, which was assigned to the vulnerability.",
+    "detail": "Rejected reason: This CVE ID is Rejected and will not be used. The record incorrectly described the affected language binding and fixed version. Use CVE-2026-66053, which was assigned to the vulnerability.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41603"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-41603"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-41603"
+        }
+      }
+    ],
+    "advisories": [],
+    "created": "2026-07-27T15:16:49.447Z",
+    "published": "2026-04-28T10:16:03.113Z",
+    "updated": "2026-07-27T15:16:49.447Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
