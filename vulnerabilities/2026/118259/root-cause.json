@@ -1,0 +1,99 @@
+{
+  "cve": "CVE-2026-118259",
+  "package": "pkg:maven/io.opentelemetry/opentelemetry-api@1.53.0",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118259"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-118259"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-118259"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118259"
+        },
+        "score": "5.3",
+        "severity": "medium",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      1333
+    ],
+    "description": "opentelemetry-java is the Java implementation of the OpenTelemetry API for recording telemetry, and SDK for managing telemetry recorded by the API. Prior to 1.67.0, W3CTraceContextPropagator.extract() uses regex delimiter processing that can exhibit quadratic backtracking while parsing tracestate headers containing long runs of spaces or tabs without a following comma. An unauthenticated attacker whose headers reach extraction can repeatedly block request or event-loop threads and cause excessive CPU consumption, with practical impact bounded by ingress header-size limits, proxy configuration, and threading. This issue is fixed in version 1.67.0.",
+    "detail": "opentelemetry-java is the Java implementation of the OpenTelemetry API for recording telemetry, and SDK for managing telemetry recorded by the API. Prior to 1.67.0, W3CTraceContextPropagator.extract() uses regex delimiter processing that can exhibit quadratic backtracking while parsing tracestate headers containing long runs of spaces or tabs without a following comma. An unauthenticated attacker whose headers reach extraction can repeatedly block request or event-loop threads and cause excessive CPU consumption, with practical impact bounded by ingress header-size limits, proxy configuration, and threading. This issue is fixed in version 1.67.0.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118259"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-118259"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-118259"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/commit/ba4dfea91647d1ef596975db5d7197681df3c0f5"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/commit/cc4f5f22aed0d69369941cde8029e73507cf438f"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/pull/8914"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/releases/tag/v1.67.0"
+      },
+      {
+        "title": "Unknown",
+        "url": "https://github.com/open-telemetry/opentelemetry-java/security/advisories/GHSA-ccrj-gw8r-854m"
+      }
+    ],
+    "created": "2026-10-29T16:19:37.750Z",
+    "published": "2026-10-28T19:17:30.510Z",
+    "updated": "2026-10-29T16:19:37.750Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
